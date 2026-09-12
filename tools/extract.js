@@ -714,6 +714,7 @@ const registry = Object.values(SUBJECTS).map(cfg => ({
   examDate: cfg.examDate || null,
   completePack: cfg.completePack || null,
   plannedModules: cfg.plannedModules || null,
+  moduleGroups: cfg.moduleGroups || null,
   ...stats[cfg.id],
 }));
 fs.writeFileSync(path.join(SITE, 'content', 'subjects.json'),

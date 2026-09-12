@@ -81,6 +81,14 @@ module.exports = {
     // modules 11-18 are the Year 11 half of the course, which that exam does
     // not cover. Both live in one subject — see the phase banner on each.
     specPoints: 'tools/biology/spec-points.json',
+    pastPapers: 'tools/biology/past-papers.json',
+    pastPaperSchemes: 'tools/biology/past-papers-schemes.json',
     plannedModules: 18,
+    // Shown as headings in the module list. Year 10 is everything up to and
+    // including human impacts; the Year 11 topics come after it.
+    moduleGroups: [
+      { title: 'Year 10', from: 1, to: 12 },
+      { title: 'Year 11', from: 13, to: 18 },
+    ],
   },
 };

@@ -29,7 +29,7 @@ import { renderLanding } from './views/landing.js';
 import { renderPredict } from './views/predict.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v33';
+const APP_VERSION = 'v34';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -177,10 +177,13 @@ function buildNav(activePath) {
     link('#/search', ['Search']),
     el('div', { class: 'navgroup' }, 'Modules'),
     link('#/priority', ['Priority Module']),
-    ...content.modules.map(m => {
+    ...content.modules.flatMap((m, i, all) => {
       const a = link(`#/module/${m.id}`, [`${m.number}. ${m.title}`]);
       a.classList.add('navmod');
-      return a;
+      // year headings for subjects that group their modules (biology)
+      const group = (subj.moduleGroups || []).find(g => m.number >= g.from && m.number <= g.to);
+      const prev = i ? (subj.moduleGroups || []).find(g => all[i - 1].number >= g.from && all[i - 1].number <= g.to) : null;
+      return group && group !== prev ? [el('div', { class: 'navgroup' }, group.title), a] : [a];
     }),
     // the complete pack is a plain page, not a route — it opens in its own tab
     ...(subj.completePack
@@ -189,7 +192,11 @@ function buildNav(activePath) {
     el('div', { class: 'navgroup' }, 'Papers'),
     ...(content.diagnostic ? [link('#/diagnostic', ['Diagnostic'])] : []),
     ...content.mocks.map(mk => link(`#/mock/${mk.id}`, [mk.title])),
-    ...content.pastPapers.map(p => link(`#/mock/${p.id}`, [p.title])),
+    // grouped papers get their own small heading in the sidebar
+    ...content.pastPapers.flatMap((p, i, all) => [
+      ...(p.group && p.group !== (all[i - 1] || {}).group ? [el('div', { class: 'navgroup' }, p.group)] : []),
+      link(`#/mock/${p.id}`, [p.title]),
+    ]),
     el('div', { class: 'navgroup' }, 'Reference'),
     link('#/reference', ['Exam reference']),
     link('#/spec', ['Specification']),

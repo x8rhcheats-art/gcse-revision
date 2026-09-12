@@ -3532,6 +3532,2048 @@
      "intro": null
     }
    }
+  },
+  {
+   "id": "11-carbon-and-nitrogen-cycles",
+   "number": 11,
+   "title": "Carbon and Nitrogen Cycles",
+   "standfirst": "Year 10 content. Two cycles, and nearly every mark is for naming the right process or the right bacteria. Four kinds of bacteria live in the nitrogen cycle, and swapping any two of them loses the mark.",
+   "examWeight": null,
+   "specPoints": "4.10 – 4.11B",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/teach/intro",
+       "heading": null,
+       "html": "<p>Atoms are never used up. Carbon and nitrogen move between the air, living things and the soil, and the same atoms go round again and again. Microorganisms do most of the returning.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/teach/the-carbon-cycle-four-processes",
+       "heading": "The carbon cycle — four processes",
+       "html": "<p class=\"asked\">Spec 4.10</p><table>\n<tbody><tr><th>Process</th><th>What happens to carbon</th></tr>\n<tr><td><strong>Photosynthesis</strong></td><td>Plants <strong>remove</strong> CO₂ from the air and make glucose</td></tr>\n<tr><td><strong>Respiration</strong></td><td>Plants, animals <em>and decomposers</em> <strong>return</strong> CO₂ to the air</td></tr>\n<tr><td><strong>Feeding</strong></td><td>Carbon compounds pass along the food chain as animals eat</td></tr>\n<tr><td><strong>Decomposition</strong></td><td>Bacteria and fungi break down dead organisms and waste — and respire, releasing CO₂</td></tr>\n<tr><td><strong>Combustion</strong></td><td>Burning wood and fossil fuels <strong>returns</strong> CO₂ to the air</td></tr>\n<tr><td>Fossilisation</td><td>Dead matter that does not decay, under pressure over millions of years, becomes coal, oil and gas</td></tr>\n</tbody></table><p>Photosynthesis is the <strong>only</strong> process that takes carbon dioxide out of the air. Every other arrow puts it back. That one fact answers most \"why does CO₂ rise\" questions: less photosynthesis (deforestation) or more combustion.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/teach/the-nitrogen-cycle-why-plants-need-help",
+       "heading": "The nitrogen cycle — why plants need help",
+       "html": "<p class=\"asked\">Spec 4.11B</p><p>Air is 78% nitrogen, but N₂ is very <strong>unreactive</strong>, so plants cannot use it. They need nitrogen as <strong>nitrate ions</strong> to make amino acids and proteins, and they take nitrates in through their roots by <strong>active transport</strong>.</p><table>\n<tbody><tr><th>Organism or process</th><th>Converts</th><th>Notes</th></tr>\n<tr><td><strong>Nitrogen-fixing bacteria</strong></td><td>N₂ gas → nitrogen compounds</td><td>In <strong>root nodules</strong> of legumes (peas, beans, clover) and in soil</td></tr>\n<tr><td><strong>Lightning</strong></td><td>N₂ → nitrates</td><td>The energy splits the N≡N bond</td></tr>\n<tr><td><strong>Decomposers</strong></td><td>Proteins in dead matter and urea → <strong>ammonia / ammonium</strong></td><td>Bacteria and fungi</td></tr>\n<tr><td><strong>Nitrifying bacteria</strong></td><td>Ammonium → nitrites → <strong>nitrates</strong></td><td>Need <strong>oxygen</strong> — aerobic</td></tr>\n<tr><td><strong>Denitrifying bacteria</strong></td><td>Nitrates → <strong>N₂ gas</strong></td><td><strong>Anaerobic</strong> — thrive in waterlogged soil</td></tr>\n</tbody></table><p>The pairing that decides the waterlogging question: nitrifying bacteria need oxygen, denitrifying bacteria work without it. Waterlogged soil has no air, so nitrifying bacteria stop and denitrifying bacteria take over — nitrates are lost as nitrogen gas and the soil becomes less fertile. Ploughing and draining add air and reverse it.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/teach/why-farmers-grow-clover-and-beans",
+       "heading": "Why farmers grow clover and beans",
+       "html": "<p>Legumes carry nitrogen-fixing bacteria in their root nodules. Growing them, then ploughing them back into the soil, adds nitrogen compounds — a natural alternative to buying nitrate fertiliser. This is <strong>crop rotation</strong>.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>The four bacteria, in order round the cycle</h4>\n<p><strong>Fixing</strong>: N₂ in. <strong>Decomposers</strong>: protein → ammonium. <strong>Nitrifying</strong>: ammonium → nitrate, needs oxygen. <strong>Denitrifying</strong>: nitrate → N₂ out, no oxygen.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/decomposer\"><td>Decomposer</td><td>A <strong>bacterium or fungus</strong> that breaks down dead organisms and waste, releasing CO₂ and mineral ions</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/nitrogen-fixation\"><td>Nitrogen fixation</td><td>Converting <strong>nitrogen gas</strong> into nitrogen compounds plants can use</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/nitrification\"><td>Nitrification</td><td>Converting <strong>ammonium into nitrates</strong>, by nitrifying bacteria, using oxygen</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/denitrification\"><td>Denitrification</td><td>Converting <strong>nitrates into nitrogen gas</strong>, by bacteria in anaerobic conditions</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/root-nodules\"><td>Root nodules</td><td>Swellings on the roots of <strong>legumes</strong> containing nitrogen-fixing bacteria</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/def/combustion\"><td>Combustion</td><td><strong>Burning</strong> fuels, which releases carbon dioxide</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/decomposer",
+         "term": "Decomposer",
+         "acceptedWording": "A <strong>bacterium or fungus</strong> that breaks down dead organisms and waste, releasing CO₂ and mineral ions"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/nitrogen-fixation",
+         "term": "Nitrogen fixation",
+         "acceptedWording": "Converting <strong>nitrogen gas</strong> into nitrogen compounds plants can use"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/nitrification",
+         "term": "Nitrification",
+         "acceptedWording": "Converting <strong>ammonium into nitrates</strong>, by nitrifying bacteria, using oxygen"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/denitrification",
+         "term": "Denitrification",
+         "acceptedWording": "Converting <strong>nitrates into nitrogen gas</strong>, by bacteria in anaerobic conditions"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/root-nodules",
+         "term": "Root nodules",
+         "acceptedWording": "Swellings on the roots of <strong>legumes</strong> containing nitrogen-fixing bacteria"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/def/combustion",
+         "term": "Combustion",
+         "acceptedWording": "<strong>Burning</strong> fuels, which releases carbon dioxide"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/plants-take-in-nitrogen-from-the-air\"><td class=\"no\">plants take in nitrogen from the air</td><td class=\"yes\">plants absorb <strong>nitrate ions</strong> from the soil through their roots</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/decomposers-break-down-dead-things-full-stop\"><td class=\"no\">decomposers break down dead things (full stop)</td><td class=\"yes\">decomposers break down dead matter <strong>and respire, releasing CO₂</strong></td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/nitrifying-bacteria-turn-nitrates-into-nitrogen\"><td class=\"no\">nitrifying bacteria turn nitrates into nitrogen</td><td class=\"yes\">that is <strong>denitrifying</strong>; nitrifying make nitrates</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/only-animals-respire-in-the-carbon-cycle\"><td class=\"no\">only animals respire in the carbon cycle</td><td class=\"yes\">plants, animals <strong>and decomposers</strong> all respire</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/waterlogged-soil-drowns-the-bacteria\"><td class=\"no\">waterlogged soil drowns the bacteria</td><td class=\"yes\">no oxygen, so <strong>nitrifying</strong> bacteria stop and <strong>denitrifying</strong> bacteria increase</td></tr>\n<tr data-item-id=\"11-carbon-and-nitrogen-cycles/trap/nitrogen-is-used-to-make-glucose\"><td class=\"no\">nitrogen is used to make glucose</td><td class=\"yes\">nitrate is used to make <strong>amino acids and proteins</strong></td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/plants-take-in-nitrogen-from-the-air",
+         "wrong": "plants take in nitrogen from the air",
+         "right": "plants absorb nitrate ions from the soil through their roots"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/decomposers-break-down-dead-things-full-stop",
+         "wrong": "decomposers break down dead things (full stop)",
+         "right": "decomposers break down dead matter and respire, releasing CO₂"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/nitrifying-bacteria-turn-nitrates-into-nitrogen",
+         "wrong": "nitrifying bacteria turn nitrates into nitrogen",
+         "right": "that is denitrifying; nitrifying make nitrates"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/only-animals-respire-in-the-carbon-cycle",
+         "wrong": "only animals respire in the carbon cycle",
+         "right": "plants, animals and decomposers all respire"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/waterlogged-soil-drowns-the-bacteria",
+         "wrong": "waterlogged soil drowns the bacteria",
+         "right": "no oxygen, so nitrifying bacteria stop and denitrifying bacteria increase"
+        },
+        {
+         "itemId": "11-carbon-and-nitrogen-cycles/trap/nitrogen-is-used-to-make-glucose",
+         "wrong": "nitrogen is used to make glucose",
+         "right": "nitrate is used to make amino acids and proteins"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>A leaf falls to the forest floor. Trace one carbon atom in it back into the atmosphere.</p>",
+       "hint": null,
+       "answerHtml": "<p>The carbon is in organic compounds such as cellulose. <strong>Decomposers</strong> — bacteria and fungi — secrete enzymes that break these down, and absorb the products.</p>\n<p>The decomposers use the glucose in <strong>respiration</strong>, which releases the carbon as <strong>carbon dioxide</strong> into the air. Decomposition itself does not release CO₂ — the decomposers' respiration does.</p>"
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>A field floods for several weeks. Afterwards the crop grows poorly. Explain, using the nitrogen cycle.</p>",
+       "hint": null,
+       "answerHtml": "<p>Waterlogged soil has <strong>no air spaces</strong>, so it lacks oxygen.</p>\n<p><strong>Nitrifying bacteria</strong> need oxygen, so they stop turning ammonium into nitrates. <strong>Denitrifying bacteria</strong> are anaerobic and thrive, converting the nitrates that remain into nitrogen gas.</p>\n<p>Both changes mean less nitrate in the soil. The crop cannot make enough amino acids and proteins, so its growth is stunted.</p>"
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/understanding/U3",
+       "qid": "U3",
+       "promptHtml": "<p>Why might a farmer plant clover in a field one year and wheat the next?</p>",
+       "hint": null,
+       "answerHtml": "<p>Clover is a legume with <strong>nitrogen-fixing bacteria</strong> in its root nodules. They convert nitrogen gas into nitrogen compounds, enriching the soil.</p>\n<p>When the clover is ploughed in, decomposers and nitrifying bacteria turn its proteins into nitrates. The wheat then has plenty of nitrate for amino acids and proteins, so less fertiliser is needed.</p>"
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/understanding/U4",
+       "qid": "U4",
+       "promptHtml": "<p>Name the only process in the carbon cycle that removes CO₂ from the air, and explain why cutting down rainforest raises CO₂ in two ways.</p>",
+       "hint": null,
+       "answerHtml": "<p><strong>Photosynthesis</strong> is the only process that removes CO₂.</p>\n<p>Deforestation raises CO₂ because fewer trees means <strong>less photosynthesis</strong>, so less is removed; and the trees are usually <strong>burned</strong> or left to <strong>decompose</strong>, which releases the carbon stored in them.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Name two processes that release carbon dioxide into the atmosphere. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>One of respiration, combustion or decomposition <span class=\"mp\">1</span>; a second from that list <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "One of respiration, combustion or decomposition ; a second from that list .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Describe the role of decomposers in the carbon cycle. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Decomposers are bacteria and fungi <span class=\"mp\">1</span>; they break down dead organisms and waste using enzymes <span class=\"mp\">1</span>; they respire, releasing carbon dioxide into the air <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Decomposers are bacteria and fungi ; they break down dead organisms and waste using enzymes ; they respire, releasing carbon dioxide into the air .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Describe how nitrogen in a dead animal becomes available to a plant. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Decomposers break down proteins in the dead animal <span class=\"mp\">1</span>; producing ammonium compounds <span class=\"mp\">1</span>; nitrifying bacteria convert ammonium into nitrates <span class=\"mp\">1</span>; the plant absorbs nitrates through its roots by active transport <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "Decomposers break down proteins in the dead animal ; producing ammonium compounds ; nitrifying bacteria convert ammonium into nitrates ; the plant absorbs nitrates through its roots by active transport .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Explain why plants cannot use nitrogen gas directly. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Nitrogen gas is very unreactive <span class=\"mp\">1</span>; plants can only absorb nitrogen as nitrate ions from the soil <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Nitrogen gas is very unreactive ; plants can only absorb nitrogen as nitrate ions from the soil .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Explain why waterlogged soil contains fewer nitrates. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Waterlogged soil lacks oxygen <span class=\"mp\">1</span>; so nitrifying bacteria, which need oxygen, cannot make nitrates <span class=\"mp\">1</span>; and denitrifying bacteria convert nitrates into nitrogen gas <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Waterlogged soil lacks oxygen ; so nitrifying bacteria, which need oxygen, cannot make nitrates ; and denitrifying bacteria convert nitrates into nitrogen gas .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "11-carbon-and-nitrogen-cycles/drill/D6",
+       "qid": "D6",
+       "promptHtml": "<p>State where nitrogen-fixing bacteria are found, and what they do. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>In root nodules of legumes such as peas and clover, or in the soil <span class=\"mp\">1</span>; they convert nitrogen gas into nitrogen compounds <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "In root nodules of legumes such as peas and clover, or in the soil ; they convert nitrogen gas into nitrogen compounds .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "12-human-impacts-on-the-environment",
+   "number": 12,
+   "title": "Human Impacts on the Environment",
+   "standfirst": "Year 10 content. Pollution, the greenhouse effect, eutrophication and deforestation. Eutrophication is a chain of six steps, and the marks go to people who get the bacteria using up the oxygen — not the algae.",
+   "examWeight": null,
+   "specPoints": "4.12 – 4.18B",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "12-human-impacts-on-the-environment/teach/air-pollution-two-gases",
+       "heading": "Air pollution — two gases",
+       "html": "<p class=\"asked\">Spec 4.12</p><table>\n<tbody><tr><th>Pollutant</th><th>Source</th><th>Effect</th></tr>\n<tr><td><strong>Sulfur dioxide</strong></td><td>Burning fossil fuels containing sulfur</td><td>Dissolves in rain → <strong>acid rain</strong>. Acidifies lakes so fish die, damages trees by leaching minerals from soil, corrodes limestone buildings</td></tr>\n<tr><td><strong>Carbon monoxide</strong></td><td><strong>Incomplete</strong> combustion — not enough oxygen</td><td>Binds to <strong>haemoglobin</strong>, reducing the blood's capacity to carry oxygen. Drowsiness, then death</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/teach/the-greenhouse-effect",
+       "heading": "The greenhouse effect",
+       "html": "<p class=\"asked\">Spec 4.13 – 4.15</p><p>The Sun's radiation reaches Earth and warms it. Earth re-emits heat as infrared. <strong>Greenhouse gases absorb</strong> some of that infrared and re-radiate it back, keeping the planet warm. That is natural and necessary. The problem is the <strong>enhanced</strong> greenhouse effect: extra gases trap more heat, causing <strong>global warming</strong>.</p><table>\n<tbody><tr><th>Gas</th><th>Main human source</th></tr>\n<tr><td>Carbon dioxide</td><td>Burning fossil fuels; deforestation</td></tr>\n<tr><td>Methane</td><td>Cattle; rice paddy fields; landfill</td></tr>\n<tr><td>Nitrous oxide</td><td>Fertilisers; vehicle engines</td></tr>\n<tr><td>CFCs</td><td>Old refrigerators and aerosols</td></tr>\n<tr><td>Water vapour</td><td>Evaporation — mostly natural</td></tr>\n</tbody></table><p>Consequences of global warming the mark schemes accept: <strong>climate change</strong>, ice caps melting and <strong>sea levels rising</strong>, flooding, <strong>habitat loss</strong>, species migrating or becoming extinct, more extreme weather, and changes in where crops can grow.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/teach/eutrophication-the-chain",
+       "heading": "Eutrophication — the chain",
+       "html": "<p class=\"asked\">Spec 4.16, 4.17</p><p>Fertiliser or untreated <strong>sewage</strong> gets into a river or lake. Then:</p><ol>\n<li>Excess <strong>nitrates and phosphates</strong> enter the water.</li>\n<li><strong>Algae grow rapidly</strong> — an algal bloom covers the surface.</li>\n<li>The bloom <strong>blocks light</strong>, so plants below cannot photosynthesise and <strong>die</strong>.</li>\n<li>The algae also die.</li>\n<li><strong>Decomposers (bacteria)</strong> feed on the dead plants and algae and multiply.</li>\n<li>The bacteria <strong>respire aerobically</strong>, using up the <strong>oxygen</strong> in the water — so fish and other animals die.</li>\n</ol><p>Step 6 is the one that goes wrong. The oxygen is not used up by the algae, and not \"because the plants stopped photosynthesising\" alone — it is the <strong>respiration of the huge bacterial population</strong>. Sewage adds a second route: it is itself food for bacteria, so their respiration strips oxygen even without an algal bloom.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/teach/deforestation",
+       "heading": "Deforestation",
+       "html": "<p class=\"asked\">Spec 4.18B</p><table>\n<tbody><tr><th>Effect</th><th>Why</th></tr>\n<tr><td><strong>More CO₂</strong> in the air</td><td>Less photosynthesis, and the trees are burned or decompose</td></tr>\n<tr><td><strong>Soil erosion</strong></td><td>No roots holding the soil, so rain washes it away</td></tr>\n<tr><td><strong>Leaching</strong></td><td>Minerals wash out of the soil into rivers instead of being taken up by trees</td></tr>\n<tr><td>Disrupted <strong>water cycle</strong></td><td>Less transpiration, so less water vapour and less rain locally</td></tr>\n<tr><td><strong>Loss of biodiversity</strong></td><td>Habitats destroyed</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "12-human-impacts-on-the-environment/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>Eutrophication in one line</h4>\n<p>Nitrates → <strong>algal bloom</strong> → blocks light → plants <strong>die</strong> → <strong>bacteria</strong> decompose them → bacteria <strong>respire</strong> → oxygen used up → fish die.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/eutrophication\"><td>Eutrophication</td><td>Excess <strong>nutrients</strong> in water causing algal growth and <strong>oxygen depletion</strong></td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/greenhouse-effect\"><td>Greenhouse effect</td><td>Greenhouse gases <strong>absorbing infrared</strong> radiation from Earth and re-radiating it, warming the planet</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/global-warming\"><td>Global warming</td><td>The rise in Earth's average temperature from the <strong>enhanced</strong> greenhouse effect</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/acid-rain\"><td>Acid rain</td><td>Rain made acidic by dissolved <strong>sulfur dioxide</strong> (and nitrogen oxides)</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/deforestation\"><td>Deforestation</td><td>Clearing <strong>trees on a large scale</strong></td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/def/leaching\"><td>Leaching</td><td><strong>Minerals washed out</strong> of the soil by rain</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/eutrophication",
+         "term": "Eutrophication",
+         "acceptedWording": "Excess <strong>nutrients</strong> in water causing algal growth and <strong>oxygen depletion</strong>"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/greenhouse-effect",
+         "term": "Greenhouse effect",
+         "acceptedWording": "Greenhouse gases <strong>absorbing infrared</strong> radiation from Earth and re-radiating it, warming the planet"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/global-warming",
+         "term": "Global warming",
+         "acceptedWording": "The rise in Earth's average temperature from the <strong>enhanced</strong> greenhouse effect"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/acid-rain",
+         "term": "Acid rain",
+         "acceptedWording": "Rain made acidic by dissolved <strong>sulfur dioxide</strong> (and nitrogen oxides)"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/deforestation",
+         "term": "Deforestation",
+         "acceptedWording": "Clearing <strong>trees on a large scale</strong>"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/def/leaching",
+         "term": "Leaching",
+         "acceptedWording": "<strong>Minerals washed out</strong> of the soil by rain"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/the-algae-use-up-all-the-oxygen\"><td class=\"no\">the algae use up all the oxygen</td><td class=\"yes\"><strong>bacteria</strong> decomposing the dead plants <strong>respire</strong> and use up the oxygen</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/carbon-monoxide-poisons-you\"><td class=\"no\">carbon monoxide poisons you</td><td class=\"yes\">carbon monoxide binds to haemoglobin, <strong>reducing the oxygen-carrying capacity</strong> of the blood</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/greenhouse-gases-make-a-hole-in-the-ozone-layer\"><td class=\"no\">greenhouse gases make a hole in the ozone layer</td><td class=\"yes\">greenhouse gases <strong>trap infrared</strong>; ozone depletion is a different problem</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/global-warming-makes-it-hotter-full-stop\"><td class=\"no\">global warming makes it hotter (full stop)</td><td class=\"yes\">name a <strong>biological consequence</strong> — habitat loss, extinction, flooding, migration</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/acid-rain-kills-fish-no-reason\"><td class=\"no\">acid rain kills fish (no reason)</td><td class=\"yes\">sulfur dioxide dissolves in rain; acidified lakes kill fish</td></tr>\n<tr data-item-id=\"12-human-impacts-on-the-environment/trap/deforestation-means-less-oxygen\"><td class=\"no\">deforestation means less oxygen</td><td class=\"yes\">deforestation means <strong>more CO₂</strong> — less photosynthesis plus burning</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/the-algae-use-up-all-the-oxygen",
+         "wrong": "the algae use up all the oxygen",
+         "right": "bacteria decomposing the dead plants respire and use up the oxygen"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/carbon-monoxide-poisons-you",
+         "wrong": "carbon monoxide poisons you",
+         "right": "carbon monoxide binds to haemoglobin, reducing the oxygen-carrying capacity of the blood"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/greenhouse-gases-make-a-hole-in-the-ozone-layer",
+         "wrong": "greenhouse gases make a hole in the ozone layer",
+         "right": "greenhouse gases trap infrared; ozone depletion is a different problem"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/global-warming-makes-it-hotter-full-stop",
+         "wrong": "global warming makes it hotter (full stop)",
+         "right": "name a biological consequence — habitat loss, extinction, flooding, migration"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/acid-rain-kills-fish-no-reason",
+         "wrong": "acid rain kills fish (no reason)",
+         "right": "sulfur dioxide dissolves in rain; acidified lakes kill fish"
+        },
+        {
+         "itemId": "12-human-impacts-on-the-environment/trap/deforestation-means-less-oxygen",
+         "wrong": "deforestation means less oxygen",
+         "right": "deforestation means more CO₂ — less photosynthesis plus burning"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "12-human-impacts-on-the-environment/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>After heavy rain, fish in a lake next to a farm die. Explain the full sequence of events.</p>",
+       "hint": null,
+       "answerHtml": "<p>Rain washes <strong>fertiliser</strong> from the fields into the lake, adding nitrates and phosphates. Algae grow rapidly and form a bloom on the surface.</p>\n<p>The bloom <strong>blocks light</strong> from plants lower down, which cannot photosynthesise and die. <strong>Bacteria</strong> decompose the dead plants and algae and multiply rapidly.</p>\n<p>The bacteria <strong>respire aerobically</strong>, using up the dissolved oxygen. Without oxygen, fish cannot respire and they die.</p>"
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>A town switches from coal power to an anaerobic digester that burns biogas. Give one environmental benefit and one drawback.</p>",
+       "hint": null,
+       "answerHtml": "<p><strong>Benefit:</strong> less carbon dioxide and methane released overall, so less contribution to the greenhouse effect and global warming — and less carbon monoxide, so less effect on oxygen transport in the blood.</p>\n<p><strong>Drawback:</strong> the Year 11 mock accepted that digesters may release more <strong>sulfur dioxide</strong>, causing acid rain that kills fish and damages trees.</p>\n<p>The mark scheme wanted a discussion on both sides with a biological consequence for each — a gas named with no effect scores little.</p>"
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/understanding/U3",
+       "qid": "U3",
+       "promptHtml": "<p>Why is the greenhouse effect necessary for life, and why is it now a problem?</p>",
+       "hint": null,
+       "answerHtml": "<p>Without greenhouse gases, the infrared radiated by Earth would escape to space and the planet would be far too cold for most life.</p>\n<p>Human activity has <strong>increased</strong> the concentration of those gases, so more infrared is trapped. This <strong>enhanced</strong> greenhouse effect raises the average temperature, causing climate change, rising sea levels and habitat loss.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Explain how sulfur dioxide causes damage to lakes. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Sulfur dioxide dissolves in rain to form acid rain <span class=\"mp\">1</span>; which acidifies the lake, killing fish and other aquatic organisms <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Sulfur dioxide dissolves in rain to form acid rain ; which acidifies the lake, killing fish and other aquatic organisms .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Name three greenhouse gases and give a source of each. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Carbon dioxide from burning fossil fuels <span class=\"mp\">1</span>; methane from cattle or rice fields <span class=\"mp\">1</span>; nitrous oxide from fertilisers, or CFCs from old fridges <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Carbon dioxide from burning fossil fuels ; methane from cattle or rice fields ; nitrous oxide from fertilisers, or CFCs from old fridges .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Explain how untreated sewage entering a river can kill fish. <span class=\"marks\">(5)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Sewage adds nutrients such as nitrates <span class=\"mp\">1</span>; algae grow rapidly and block light <span class=\"mp\">1</span>; plants die <span class=\"mp\">1</span>; bacteria decompose the dead matter and the sewage, multiplying <span class=\"mp\">1</span>; bacterial respiration uses up oxygen so fish die <span class=\"mp\">1</span>.</p>",
+       "marks": 5,
+       "markScheme": [
+        {
+         "point": "Sewage adds nutrients such as nitrates ; algae grow rapidly and block light ; plants die ; bacteria decompose the dead matter and the sewage, multiplying ; bacterial respiration uses up oxygen so fish die .",
+         "marks": 5
+        }
+       ],
+       "mpTotal": 5
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Explain why carbon monoxide is dangerous. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>It binds to haemoglobin in red blood cells <span class=\"mp\">1</span>; reducing the capacity of the blood to carry oxygen <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "It binds to haemoglobin in red blood cells ; reducing the capacity of the blood to carry oxygen .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Give three effects of deforestation. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Increased carbon dioxide in the atmosphere <span class=\"mp\">1</span>; soil erosion <span class=\"mp\">1</span>; leaching of minerals, disrupted water cycle or loss of biodiversity <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Increased carbon dioxide in the atmosphere ; soil erosion ; leaching of minerals, disrupted water cycle or loss of biodiversity .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "12-human-impacts-on-the-environment/drill/D6",
+       "qid": "D6",
+       "promptHtml": "<p>Give three biological consequences of global warming. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Loss of habitats <span class=\"mp\">1</span>; species migrate or become extinct <span class=\"mp\">1</span>; flooding from rising sea levels, or changes to where crops grow <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Loss of habitats ; species migrate or become extinct ; flooding from rising sea levels, or changes to where crops grow .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "13-cell-division-and-human-reproduction",
+   "number": 13,
+   "title": "Cell Division and Human Reproduction",
+   "standfirst": "Year 11. Mitosis against meiosis is the comparison that always comes up, and the menstrual cycle needs four hormones kept straight. The January 2024 mock used a karyotype with a missing chromosome.",
+   "examWeight": null,
+   "specPoints": "3.1 – 3.13, 3.28 – 3.30",
+   "estimatedSessions": "2 sessions",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/mitosis-and-meiosis",
+       "heading": "Mitosis and meiosis",
+       "html": "<p class=\"asked\">Spec 3.28 – 3.30</p><p>Human body cells are <strong>diploid</strong>: 46 chromosomes in 23 pairs. Gametes are <strong>haploid</strong>: 23, one from each pair. The two types of division exist to produce each.</p><table>\n<tbody><tr><th></th><th>Mitosis</th><th>Meiosis</th></tr>\n<tr><td>Purpose</td><td>Growth, repair, asexual reproduction</td><td>Making <strong>gametes</strong></td></tr>\n<tr><td>Where</td><td>All body cells</td><td>Testes and ovaries only</td></tr>\n<tr><td>Divisions</td><td>One</td><td>Two</td></tr>\n<tr><td>Cells made</td><td><strong>Two</strong></td><td><strong>Four</strong></td></tr>\n<tr><td>Chromosome number</td><td>Diploid (46) — same as parent</td><td>Haploid (23) — half</td></tr>\n<tr><td>Genetically</td><td><strong>Identical</strong> to parent and each other</td><td><strong>Different</strong> from each other</td></tr>\n</tbody></table><p>Before either division, every chromosome is <strong>copied</strong>, which is why chromosomes look like an X. In mitosis the copies line up at the middle and are pulled apart, one to each end.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/why-meiosis-gives-variation",
+       "heading": "Why meiosis gives variation",
+       "html": "<p>The chromosomes are <strong>shuffled</strong> randomly as they separate, so each gamete gets a different mix. Then <strong>random fertilisation</strong> means any sperm can fuse with any egg. Together these explain why siblings differ.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/sexual-and-asexual-reproduction",
+       "heading": "Sexual and asexual reproduction",
+       "html": "<p class=\"asked\">Spec 3.1, 3.2</p><table>\n<tbody><tr><th></th><th>Sexual</th><th>Asexual</th></tr>\n<tr><td>Parents</td><td>Two</td><td>One</td></tr>\n<tr><td>Gametes</td><td>Yes — fuse at fertilisation</td><td>No</td></tr>\n<tr><td>Offspring</td><td>Genetically <strong>varied</strong></td><td>Genetically <strong>identical</strong> (clones)</td></tr>\n<tr><td>Advantage</td><td>Variation — a species can survive environmental change or disease</td><td>Fast; no mate needed; good genes kept</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/the-reproductive-systems",
+       "heading": "The reproductive systems",
+       "html": "<p class=\"asked\">Spec 3.8, 3.9</p><table>\n<tbody><tr><th>Structure</th><th>Job</th></tr>\n<tr><td>Testes</td><td>Make sperm and <strong>testosterone</strong></td></tr>\n<tr><td>Sperm duct</td><td>Carries sperm from the testes</td></tr>\n<tr><td>Glands (prostate, seminal vesicles)</td><td>Add fluid to make semen</td></tr>\n<tr><td>Urethra</td><td>Carries semen or urine out through the penis</td></tr>\n<tr><td>Ovaries</td><td>Release eggs; make <strong>oestrogen</strong> and progesterone</td></tr>\n<tr><td>Oviduct</td><td>Carries the egg to the uterus; site of <strong>fertilisation</strong></td></tr>\n<tr><td>Uterus</td><td>Thick lining where the embryo <strong>implants</strong></td></tr>\n<tr><td>Cervix</td><td>Ring of muscle at the base of the uterus</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/the-menstrual-cycle-four-hormones",
+       "heading": "The menstrual cycle — four hormones",
+       "html": "<p class=\"asked\">Spec 3.10, 3.11</p><table>\n<tbody><tr><th>Hormone</th><th>Made by</th><th>Does</th></tr>\n<tr><td><strong>FSH</strong></td><td>Pituitary</td><td>Causes an egg to <strong>mature</strong> in the ovary; stimulates oestrogen</td></tr>\n<tr><td><strong>Oestrogen</strong></td><td>Ovary</td><td><strong>Builds up</strong> the uterus lining</td></tr>\n<tr><td><strong>LH</strong></td><td>Pituitary</td><td>Triggers <strong>ovulation</strong> — egg release, about day 14</td></tr>\n<tr><td><strong>Progesterone</strong></td><td>Ovary</td><td><strong>Maintains</strong> the lining; inhibits FSH and LH</td></tr>\n</tbody></table><p>If no egg is fertilised, progesterone falls and the lining breaks down — menstruation. If pregnancy happens, progesterone stays high so the lining is kept. Build (oestrogen) versus maintain (progesterone) is the distinction most often swapped.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/the-developing-baby",
+       "heading": "The developing baby",
+       "html": "<p class=\"asked\">Spec 3.12</p><p>The <strong>placenta</strong> lets substances pass by diffusion between mother and fetus without the bloods mixing: <strong>glucose, oxygen and amino acids</strong> into the fetus, <strong>carbon dioxide and urea</strong> out. The <strong>amniotic fluid</strong> surrounds the fetus and protects it from bumps.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/secondary-sexual-characteristics",
+       "heading": "Secondary sexual characteristics",
+       "html": "<p class=\"asked\">Spec 3.13</p><p><strong>Testosterone</strong> in boys: deeper voice, facial and body hair, muscle growth, sperm production. <strong>Oestrogen</strong> in girls: breasts develop, hips widen, periods begin, body hair.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "13-cell-division-and-human-reproduction/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>Mitosis in four words, meiosis in four</h4>\n<p><strong>Mitosis:</strong> two, identical, diploid, growth. <strong>Meiosis:</strong> four, different, haploid, gametes.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/diploid\"><td>Diploid</td><td>Having <strong>two sets</strong> of chromosomes — 46 in humans</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/haploid\"><td>Haploid</td><td>Having <strong>one set</strong> of chromosomes — 23 in humans</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/gamete\"><td>Gamete</td><td>A <strong>sex cell</strong> (sperm or egg) with a haploid nucleus</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/fertilisation\"><td>Fertilisation</td><td>The <strong>fusion</strong> of a male and female gamete nucleus to form a zygote</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/mitosis\"><td>Mitosis</td><td>Cell division producing <strong>two genetically identical diploid</strong> cells</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/meiosis\"><td>Meiosis</td><td>Cell division producing <strong>four genetically different haploid</strong> gametes</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/ovulation\"><td>Ovulation</td><td>The <strong>release of an egg</strong> from the ovary, triggered by LH</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/def/karyotype\"><td>Karyotype</td><td>A picture of a cell's <strong>chromosomes arranged in pairs</strong></td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/diploid",
+         "term": "Diploid",
+         "acceptedWording": "Having <strong>two sets</strong> of chromosomes — 46 in humans"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/haploid",
+         "term": "Haploid",
+         "acceptedWording": "Having <strong>one set</strong> of chromosomes — 23 in humans"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/gamete",
+         "term": "Gamete",
+         "acceptedWording": "A <strong>sex cell</strong> (sperm or egg) with a haploid nucleus"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/fertilisation",
+         "term": "Fertilisation",
+         "acceptedWording": "The <strong>fusion</strong> of a male and female gamete nucleus to form a zygote"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/mitosis",
+         "term": "Mitosis",
+         "acceptedWording": "Cell division producing <strong>two genetically identical diploid</strong> cells"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/meiosis",
+         "term": "Meiosis",
+         "acceptedWording": "Cell division producing <strong>four genetically different haploid</strong> gametes"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/ovulation",
+         "term": "Ovulation",
+         "acceptedWording": "The <strong>release of an egg</strong> from the ovary, triggered by LH"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/def/karyotype",
+         "term": "Karyotype",
+         "acceptedWording": "A picture of a cell's <strong>chromosomes arranged in pairs</strong>"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/meiosis-makes-two-cells\"><td class=\"no\">meiosis makes two cells</td><td class=\"yes\">meiosis makes <strong>four</strong> genetically different cells</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/progesterone-builds-the-lining\"><td class=\"no\">progesterone builds the lining</td><td class=\"yes\"><strong>oestrogen builds</strong>, <strong>progesterone maintains</strong></td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/fsh-releases-the-egg\"><td class=\"no\">FSH releases the egg</td><td class=\"yes\">FSH <strong>matures</strong> the egg; <strong>LH</strong> triggers its release</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/the-mothers-and-babys-blood-mix-in-the-placenta\"><td class=\"no\">the mother's and baby's blood mix in the placenta</td><td class=\"yes\">substances <strong>diffuse</strong> across the placenta; the bloods do not mix</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/fertilisation-happens-in-the-uterus\"><td class=\"no\">fertilisation happens in the uterus</td><td class=\"yes\">fertilisation happens in the <strong>oviduct</strong>; implantation is in the uterus</td></tr>\n<tr data-item-id=\"13-cell-division-and-human-reproduction/trap/a-red-blood-cell-shows-the-chromosomes\"><td class=\"no\">a red blood cell shows the chromosomes</td><td class=\"yes\">red blood cells have <strong>no nucleus</strong>, so no chromosomes</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/meiosis-makes-two-cells",
+         "wrong": "meiosis makes two cells",
+         "right": "meiosis makes four genetically different cells"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/progesterone-builds-the-lining",
+         "wrong": "progesterone builds the lining",
+         "right": "oestrogen builds, progesterone maintains"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/fsh-releases-the-egg",
+         "wrong": "FSH releases the egg",
+         "right": "FSH matures the egg; LH triggers its release"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/the-mothers-and-babys-blood-mix-in-the-placenta",
+         "wrong": "the mother's and baby's blood mix in the placenta",
+         "right": "substances diffuse across the placenta; the bloods do not mix"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/fertilisation-happens-in-the-uterus",
+         "wrong": "fertilisation happens in the uterus",
+         "right": "fertilisation happens in the oviduct; implantation is in the uterus"
+        },
+        {
+         "itemId": "13-cell-division-and-human-reproduction/trap/a-red-blood-cell-shows-the-chromosomes",
+         "wrong": "a red blood cell shows the chromosomes",
+         "right": "red blood cells have no nucleus, so no chromosomes"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "13-cell-division-and-human-reproduction/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>Why must gametes be made by meiosis and not mitosis?</p>",
+       "hint": null,
+       "answerHtml": "<p>At fertilisation two gametes fuse. If each had 46 chromosomes the zygote would have 92, doubling every generation.</p>\n<p>Meiosis <strong>halves</strong> the number to 23, so fertilisation restores the diploid number of 46. It also makes every gamete genetically different, producing variation.</p>"
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>A karyotype shows 45 chromosomes with only one sex chromosome, an X. What is the person's sex, and suggest how this happened.</p>",
+       "hint": null,
+       "answerHtml": "<p><strong>Female</strong> — there is no Y chromosome. This is Turner syndrome.</p>\n<p>The likely cause is that the sex chromosomes <strong>failed to separate properly during meiosis</strong>, so one gamete had no sex chromosome at all. When it fused with a normal gamete carrying an X, the zygote had 45.</p>\n<p>From the mock scheme: the ovaries do not develop normally, so there is less oestrogen, puberty and secondary sexual characteristics are delayed, and she is usually infertile.</p>"
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/understanding/U3",
+       "qid": "U3",
+       "promptHtml": "<p>Explain what happens to progesterone levels if an egg is fertilised, and why that matters.</p>",
+       "hint": null,
+       "answerHtml": "<p>Progesterone levels <strong>stay high</strong> (later the placenta makes it).</p>\n<p>Progesterone <strong>maintains the uterus lining</strong>, so the embryo can stay implanted and develop. It also inhibits FSH and LH, so no more eggs mature or are released during pregnancy.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Give three differences between mitosis and meiosis. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Mitosis makes two cells, meiosis four <span class=\"mp\">1</span>; mitosis cells are diploid, meiosis cells haploid <span class=\"mp\">1</span>; mitosis cells are identical, meiosis cells genetically different <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Mitosis makes two cells, meiosis four ; mitosis cells are diploid, meiosis cells haploid ; mitosis cells are identical, meiosis cells genetically different .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>State the roles of FSH and LH in the menstrual cycle. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>FSH causes an egg to mature in the ovary <span class=\"mp\">1</span>; LH triggers ovulation / release of the egg <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "FSH causes an egg to mature in the ovary ; LH triggers ovulation / release of the egg .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Describe how the placenta is involved in exchanging substances between mother and fetus. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Substances diffuse across the placenta <span class=\"mp\">1</span>; glucose, oxygen and amino acids pass to the fetus <span class=\"mp\">1</span>; carbon dioxide and urea pass to the mother <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Substances diffuse across the placenta ; glucose, oxygen and amino acids pass to the fetus ; carbon dioxide and urea pass to the mother .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Explain why a red blood cell cannot be used to show a karyotype. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Red blood cells have no nucleus <span class=\"mp\">1</span>; so they contain no chromosomes <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Red blood cells have no nucleus ; so they contain no chromosomes .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Give one advantage of sexual reproduction and one advantage of asexual reproduction. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Sexual: variation, so the species can survive environmental change or disease <span class=\"mp\">1</span>; asexual: faster / only one parent needed <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Sexual: variation, so the species can survive environmental change or disease ; asexual: faster / only one parent needed .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/drill/D6",
+       "qid": "D6",
+       "promptHtml": "<p>Name the type of cell division that occurs in white blood cells, and state where meiosis occurs in humans. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Mitosis <span class=\"mp\">1</span>; in the testes and ovaries <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Mitosis ; in the testes and ovaries .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "14-reproduction-in-plants",
+   "number": 14,
+   "title": "Reproduction in Plants",
+   "standfirst": "Year 11. Both mocks had a flower question: label the parts, trace the pollen, compare insect and wind pollination. Pollination and fertilisation are different events, and the germination practical needs the right three conditions.",
+   "examWeight": null,
+   "specPoints": "3.3 – 3.7",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "14-reproduction-in-plants/teach/parts-of-a-flower",
+       "heading": "Parts of a flower",
+       "html": "<table>\n<tbody><tr><th>Part</th><th>Job</th></tr>\n<tr><td><strong>Anther</strong></td><td>Makes <strong>pollen</strong> — the male gamete</td></tr>\n<tr><td>Filament</td><td>Stalk holding the anther (anther + filament = stamen)</td></tr>\n<tr><td><strong>Stigma</strong></td><td>Where pollen <strong>lands</strong></td></tr>\n<tr><td><strong>Style</strong></td><td>Stalk the <strong>pollen tube</strong> grows down</td></tr>\n<tr><td><strong>Ovary</strong></td><td>Contains the ovules; becomes the <strong>fruit</strong></td></tr>\n<tr><td><strong>Ovule</strong></td><td>Contains the female gamete; becomes the <strong>seed</strong></td></tr>\n<tr><td>Petals</td><td>Attract insects in insect-pollinated flowers</td></tr>\n<tr><td>Nectary</td><td>Makes sugary nectar to attract insects</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/teach/pollination-then-fertilisation",
+       "heading": "Pollination then fertilisation",
+       "html": "<p class=\"asked\">Spec 3.3, 3.4</p><p><strong>Pollination</strong> is the transfer of pollen from an <strong>anther to a stigma</strong>. <strong>Fertilisation</strong> comes later:</p><ol>\n<li>Pollen lands on the stigma.</li>\n<li>A <strong>pollen tube</strong> grows down the <strong>style</strong> to the ovary.</li>\n<li>The male nucleus travels down the tube into the <strong>ovule</strong>.</li>\n<li>It <strong>fuses</strong> with the female nucleus — that fusion is fertilisation.</li>\n<li>The ovule becomes the seed; the ovary becomes the fruit.</li>\n</ol><p>Self-pollination is anther to stigma on the same plant; cross-pollination is between two plants and gives more variation.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/teach/insect-versus-wind-pollination",
+       "heading": "Insect versus wind pollination",
+       "html": "<p class=\"asked\">Spec 3.3</p><table>\n<tbody><tr><th>Feature</th><th>Insect-pollinated</th><th>Wind-pollinated (e.g. grass)</th></tr>\n<tr><td>Petals</td><td>Large, bright, scented</td><td>Small, green or absent</td></tr>\n<tr><td>Nectar</td><td>Nectary present</td><td>None</td></tr>\n<tr><td>Anthers</td><td><strong>Inside</strong> the flower, firmly attached</td><td><strong>Hang outside</strong> on long filaments</td></tr>\n<tr><td>Stigma</td><td><strong>Inside</strong>, sticky</td><td><strong>Outside</strong>, large and <strong>feathery</strong> to catch pollen</td></tr>\n<tr><td>Pollen</td><td>Larger, sticky or spiky, less of it</td><td><strong>Small, light, smooth</strong>, huge amounts</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/teach/germination",
+       "heading": "Germination",
+       "html": "<p class=\"asked\">Spec 3.5, 3.6</p><p>Seeds need three conditions:</p><ul>\n<li><strong>Water</strong> — activates enzymes that break down the food store</li>\n<li><strong>Oxygen</strong> — for aerobic respiration, releasing energy for growth</li>\n<li><strong>Warmth</strong> — a suitable temperature for the enzymes</li>\n</ul><p><strong>Light is not needed</strong> — seeds live on their stored starch until the first leaves appear. The Year 11 mock explicitly refused \"light for photosynthesis\" as a germination condition.</p><p>The practical sets up four tubes of cress seeds: dry cotton wool (no water), moist at 20 °C (all conditions), boiled cooled water under oil (no oxygen), moist in a fridge (too cold). Only the second germinates.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/teach/asexual-reproduction-in-plants",
+       "heading": "Asexual reproduction in plants",
+       "html": "<p class=\"asked\">Spec 3.7</p><p><strong>Runners</strong> (strawberries) grow along the ground and root to form new plants. <strong>Cuttings</strong> are pieces of stem planted to grow roots. Both produce <strong>clones</strong> — genetically identical to the parent.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "14-reproduction-in-plants/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>What becomes what</h4>\n<p><strong>Ovule → seed. Ovary → fruit.</strong> Pollen lands on the <strong>stigma</strong>; the tube grows down the <strong>style</strong>.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"14-reproduction-in-plants/def/pollination\"><td>Pollination</td><td>Transfer of pollen from an <strong>anther to a stigma</strong></td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/def/fertilisation\"><td>Fertilisation</td><td><strong>Fusion</strong> of the male nucleus with the female nucleus in the ovule</td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/def/germination\"><td>Germination</td><td>The start of growth of a seed into a new plant</td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/def/cross-pollination\"><td>Cross-pollination</td><td>Pollen transferred between flowers of <strong>different plants</strong></td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/def/runner\"><td>Runner</td><td>A stem growing along the ground that forms <strong>clones</strong></td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "14-reproduction-in-plants/def/pollination",
+         "term": "Pollination",
+         "acceptedWording": "Transfer of pollen from an <strong>anther to a stigma</strong>"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/def/fertilisation",
+         "term": "Fertilisation",
+         "acceptedWording": "<strong>Fusion</strong> of the male nucleus with the female nucleus in the ovule"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/def/germination",
+         "term": "Germination",
+         "acceptedWording": "The start of growth of a seed into a new plant"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/def/cross-pollination",
+         "term": "Cross-pollination",
+         "acceptedWording": "Pollen transferred between flowers of <strong>different plants</strong>"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/def/runner",
+         "term": "Runner",
+         "acceptedWording": "A stem growing along the ground that forms <strong>clones</strong>"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "14-reproduction-in-plants/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"14-reproduction-in-plants/trap/pollination-is-when-the-gametes-fuse\"><td class=\"no\">pollination is when the gametes fuse</td><td class=\"yes\">pollination is <strong>transfer</strong> of pollen; fusion is <strong>fertilisation</strong></td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/trap/seeds-need-light-to-germinate\"><td class=\"no\">seeds need light to germinate</td><td class=\"yes\">water, oxygen and <strong>warmth</strong> — not light</td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/trap/the-ovary-becomes-the-seed\"><td class=\"no\">the ovary becomes the seed</td><td class=\"yes\">the <strong>ovule</strong> becomes the seed; the ovary becomes the fruit</td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/trap/wind-pollen-is-sticky\"><td class=\"no\">wind pollen is sticky</td><td class=\"yes\">wind pollen is <strong>small, light and smooth</strong></td></tr>\n<tr data-item-id=\"14-reproduction-in-plants/trap/attract-insects-for-a-wind-pollinated-difference\"><td class=\"no\">\"attract insects\" for a wind-pollinated difference</td><td class=\"yes\">compare the <strong>structure</strong>: stigma inside versus outside and feathery</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "14-reproduction-in-plants/trap/pollination-is-when-the-gametes-fuse",
+         "wrong": "pollination is when the gametes fuse",
+         "right": "pollination is transfer of pollen; fusion is fertilisation"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/trap/seeds-need-light-to-germinate",
+         "wrong": "seeds need light to germinate",
+         "right": "water, oxygen and warmth — not light"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/trap/the-ovary-becomes-the-seed",
+         "wrong": "the ovary becomes the seed",
+         "right": "the ovule becomes the seed; the ovary becomes the fruit"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/trap/wind-pollen-is-sticky",
+         "wrong": "wind pollen is sticky",
+         "right": "wind pollen is small, light and smooth"
+        },
+        {
+         "itemId": "14-reproduction-in-plants/trap/attract-insects-for-a-wind-pollinated-difference",
+         "wrong": "\"attract insects\" for a wind-pollinated difference",
+         "right": "compare the structure: stigma inside versus outside and feathery"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "14-reproduction-in-plants/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>Explain why wind-pollinated flowers produce far more pollen than insect-pollinated ones.</p>",
+       "hint": null,
+       "answerHtml": "<p>Wind carries pollen randomly, so almost all of it lands nowhere useful. Producing <strong>huge amounts</strong> makes it likely that some reaches a stigma.</p>\n<p>Insects carry pollen directly from flower to flower, so much less is wasted and less needs to be made.</p>"
+      },
+      {
+       "itemId": "14-reproduction-in-plants/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>In the germination practical, why is the water in one tube boiled, cooled and covered with oil?</p>",
+       "hint": null,
+       "answerHtml": "<p>Boiling removes <strong>dissolved oxygen</strong> from the water. Cooling avoids killing the seeds with heat. The oil layer stops oxygen from the air dissolving back in.</p>\n<p>So that tube tests whether <strong>oxygen</strong> is needed, with water and warmth still present. The seeds do not germinate because they cannot respire aerobically to release energy for growth.</p>"
+      },
+      {
+       "itemId": "14-reproduction-in-plants/understanding/U3",
+       "qid": "U3",
+       "promptHtml": "<p>Some fruits are brightly coloured and sweet. Suggest how this helps the plant.</p>",
+       "hint": null,
+       "answerHtml": "<p>The colour <strong>attracts animals</strong>, which eat the fruit for its sugars. The seeds pass through the gut undigested and are <strong>egested</strong> far from the parent.</p>\n<p>That disperses the seeds, so the new plants do not compete with the parent for light, water and minerals.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "14-reproduction-in-plants/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Describe the events from pollination to fertilisation. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Pollen lands on the stigma <span class=\"mp\">1</span>; a pollen tube grows down the style <span class=\"mp\">1</span>; the male nucleus travels down the tube to the ovule <span class=\"mp\">1</span>; it fuses with the female nucleus <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "Pollen lands on the stigma ; a pollen tube grows down the style ; the male nucleus travels down the tube to the ovule ; it fuses with the female nucleus .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "14-reproduction-in-plants/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Give three differences between an insect-pollinated and a wind-pollinated flower. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Large coloured petals versus small or none <span class=\"mp\">1</span>; stigma inside and sticky versus outside and feathery <span class=\"mp\">1</span>; anthers inside versus hanging outside, or nectary present versus absent <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Large coloured petals versus small or none ; stigma inside and sticky versus outside and feathery ; anthers inside versus hanging outside, or nectary present versus absent .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "14-reproduction-in-plants/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>State the three conditions needed for germination and explain why each is needed. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Water to activate enzymes <span class=\"mp\">1</span>; oxygen for respiration <span class=\"mp\">1</span>; warmth for enzyme action <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Water to activate enzymes ; oxygen for respiration ; warmth for enzyme action .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "14-reproduction-in-plants/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Name the structures that develop into the seed and the fruit. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Ovule becomes the seed <span class=\"mp\">1</span>; ovary becomes the fruit <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Ovule becomes the seed ; ovary becomes the fruit .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "14-reproduction-in-plants/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Explain why plants produced by runners are genetically identical to the parent. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Runners are asexual reproduction — no gametes fuse <span class=\"mp\">1</span>; the new cells are produced by mitosis <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Runners are asexual reproduction — no gametes fuse ; the new cells are produced by mitosis .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "15-dna-and-protein-synthesis",
+   "number": 15,
+   "title": "DNA and Protein Synthesis",
+   "standfirst": "Year 11. The January 2024 mock asked for the genome, DNA against RNA, and the roles of RNA in making a protein — eight marks that are almost entirely named words: mRNA, tRNA, codon, anticodon, ribosome.",
+   "examWeight": null,
+   "specPoints": "3.14 – 3.18B, 3.34 – 3.36",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "15-dna-and-protein-synthesis/teach/from-genome-to-gene",
+       "heading": "From genome to gene",
+       "html": "<p class=\"asked\">Spec 3.14, 3.15</p><table>\n<tbody><tr><th>Level</th><th>What it is</th></tr>\n<tr><td><strong>Genome</strong></td><td>All the DNA of an organism</td></tr>\n<tr><td><strong>Chromosome</strong></td><td>A long coiled molecule of DNA, in the nucleus</td></tr>\n<tr><td><strong>Gene</strong></td><td>A section of DNA that <strong>codes for one protein</strong></td></tr>\n<tr><td><strong>Allele</strong></td><td>A different version of the same gene</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/teach/the-structure-of-dna",
+       "heading": "The structure of DNA",
+       "html": "<p class=\"asked\">Spec 3.16B</p><p>DNA is a <strong>double helix</strong> — two strands twisted together. Each strand is a chain of <strong>nucleotides</strong>, each made of a <strong>sugar</strong> (deoxyribose), a <strong>phosphate</strong> and a <strong>base</strong>.</p><p>There are four bases, and they pair by <strong>complementary base pairing</strong>: <strong>A with T</strong>, <strong>C with G</strong>. The pairs hold the two strands together. Knowing one strand lets you write the other.</p><p>Every <strong>three bases</strong> — a triplet, or codon — code for one <strong>amino acid</strong>. The order of bases decides the order of amino acids, which decides the protein.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/teach/dna-versus-rna",
+       "heading": "DNA versus RNA",
+       "html": "<table>\n<tbody><tr><th></th><th>DNA</th><th>RNA</th></tr>\n<tr><td>Strands</td><td><strong>Double</strong></td><td><strong>Single</strong></td></tr>\n<tr><td>Sugar</td><td>Deoxyribose</td><td><strong>Ribose</strong></td></tr>\n<tr><td>Bases</td><td>A, T, C, G</td><td>A, <strong>U</strong>, C, G — uracil replaces thymine</td></tr>\n<tr><td>Length</td><td>Very long</td><td>Short</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/teach/protein-synthesis-two-stages",
+       "heading": "Protein synthesis — two stages",
+       "html": "<p class=\"asked\">Spec 3.17B, 3.18B</p><p>DNA is too large to leave the nucleus, but proteins are made at <strong>ribosomes</strong> in the cytoplasm. So the code is copied first.</p><p><strong>Transcription</strong> (in the nucleus): the DNA unzips at the gene, and free RNA nucleotides pair with the exposed bases, forming <strong>mRNA</strong> — a copy of the code. The mRNA leaves the nucleus.</p><p><strong>Translation</strong> (at the ribosome): the mRNA attaches to a ribosome, which reads its <strong>codons</strong> three bases at a time. <strong>tRNA</strong> molecules bring specific amino acids; each tRNA has an <strong>anticodon</strong> complementary to a codon. The amino acids are joined into a chain, which folds into the protein.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/teach/mutations",
+       "heading": "Mutations",
+       "html": "<p class=\"asked\">Spec 3.34 – 3.36</p><p>A <strong>mutation</strong> is a rare, random change in the base sequence of DNA. It can change a codon, so a different amino acid is added, which can change the shape of the protein. An enzyme's active site may no longer fit its substrate.</p><p>Most mutations have <strong>no effect</strong>; some have a small effect; very few are significant. The rate rises with <strong>ionising radiation</strong> (UV, X-rays, gamma) and <strong>chemical mutagens</strong> such as those in tobacco smoke. Mutations are the source of new alleles.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "15-dna-and-protein-synthesis/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>The protein synthesis sentence</h4>\n<p><strong>Transcription</strong>: DNA → <strong>mRNA</strong> in the nucleus. <strong>Translation</strong>: mRNA read at the <strong>ribosome</strong>, <strong>tRNA</strong> brings amino acids, anticodon matches codon.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/genome\"><td>Genome</td><td><strong>All the DNA</strong> of an organism</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/gene\"><td>Gene</td><td>A section of DNA that <strong>codes for a protein</strong></td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/nucleotide\"><td>Nucleotide</td><td>A <strong>sugar, phosphate and base</strong> — the unit of DNA</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/complementary-base-pairing\"><td>Complementary base pairing</td><td><strong>A pairs with T</strong> and <strong>C with G</strong></td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/codon\"><td>Codon</td><td>A <strong>triplet of bases</strong> on mRNA coding for one amino acid</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/transcription\"><td>Transcription</td><td>Making <strong>mRNA</strong> from a DNA template in the nucleus</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/translation\"><td>Translation</td><td>Using mRNA at a <strong>ribosome</strong> to join amino acids into a protein</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/def/mutation\"><td>Mutation</td><td>A rare, <strong>random change in the base sequence</strong> of DNA</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/genome",
+         "term": "Genome",
+         "acceptedWording": "<strong>All the DNA</strong> of an organism"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/gene",
+         "term": "Gene",
+         "acceptedWording": "A section of DNA that <strong>codes for a protein</strong>"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/nucleotide",
+         "term": "Nucleotide",
+         "acceptedWording": "A <strong>sugar, phosphate and base</strong> — the unit of DNA"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/complementary-base-pairing",
+         "term": "Complementary base pairing",
+         "acceptedWording": "<strong>A pairs with T</strong> and <strong>C with G</strong>"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/codon",
+         "term": "Codon",
+         "acceptedWording": "A <strong>triplet of bases</strong> on mRNA coding for one amino acid"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/transcription",
+         "term": "Transcription",
+         "acceptedWording": "Making <strong>mRNA</strong> from a DNA template in the nucleus"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/translation",
+         "term": "Translation",
+         "acceptedWording": "Using mRNA at a <strong>ribosome</strong> to join amino acids into a protein"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/def/mutation",
+         "term": "Mutation",
+         "acceptedWording": "A rare, <strong>random change in the base sequence</strong> of DNA"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/trap/dna-leaves-the-nucleus-to-make-proteins\"><td class=\"no\">DNA leaves the nucleus to make proteins</td><td class=\"yes\">DNA stays in the nucleus; <strong>mRNA</strong> carries the code out</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/trap/a-pairs-with-g\"><td class=\"no\">A pairs with G</td><td class=\"yes\"><strong>A–T</strong> and <strong>C–G</strong> (A–U in RNA)</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/trap/a-gene-codes-for-a-characteristic\"><td class=\"no\">a gene codes for a characteristic</td><td class=\"yes\">a gene codes for a <strong>protein</strong>, which affects a characteristic</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/trap/mrna-brings-the-amino-acids\"><td class=\"no\">mRNA brings the amino acids</td><td class=\"yes\"><strong>tRNA</strong> brings the amino acids</td></tr>\n<tr data-item-id=\"15-dna-and-protein-synthesis/trap/all-mutations-are-harmful\"><td class=\"no\">all mutations are harmful</td><td class=\"yes\"><strong>most mutations have no effect</strong></td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "15-dna-and-protein-synthesis/trap/dna-leaves-the-nucleus-to-make-proteins",
+         "wrong": "DNA leaves the nucleus to make proteins",
+         "right": "DNA stays in the nucleus; mRNA carries the code out"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/trap/a-pairs-with-g",
+         "wrong": "A pairs with G",
+         "right": "A–T and C–G (A–U in RNA)"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/trap/a-gene-codes-for-a-characteristic",
+         "wrong": "a gene codes for a characteristic",
+         "right": "a gene codes for a protein, which affects a characteristic"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/trap/mrna-brings-the-amino-acids",
+         "wrong": "mRNA brings the amino acids",
+         "right": "tRNA brings the amino acids"
+        },
+        {
+         "itemId": "15-dna-and-protein-synthesis/trap/all-mutations-are-harmful",
+         "wrong": "all mutations are harmful",
+         "right": "most mutations have no effect"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "15-dna-and-protein-synthesis/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>One strand of DNA reads ATTGCA. Write the complementary DNA strand and the mRNA made from the original.</p>",
+       "hint": null,
+       "answerHtml": "<p><strong>Complementary DNA:</strong> TAACGT — A pairs with T, C with G.</p>\n<p><strong>mRNA</strong> from ATTGCA: <strong>UAACGU</strong> — the same pairing, except <strong>U replaces T</strong>, because RNA has uracil instead of thymine.</p>"
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>A single base change in a gene makes an enzyme stop working. Explain how.</p>",
+       "hint": null,
+       "answerHtml": "<p>The mutation changes one <strong>codon</strong>, so a <strong>different amino acid</strong> may be placed in the chain during translation.</p>\n<p>The sequence of amino acids decides how the protein folds. A different amino acid can change the folding, and so the <strong>shape of the active site</strong>. The substrate no longer fits, so the enzyme cannot work.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "15-dna-and-protein-synthesis/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>State what is meant by the term <em>genome</em>. <span class=\"marks\">(1)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>All of the DNA / genes in an organism <span class=\"mp\">1</span>.</p>",
+       "marks": 1,
+       "markScheme": [
+        {
+         "point": "All of the DNA / genes in an organism .",
+         "marks": 1
+        }
+       ],
+       "mpTotal": 1
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Describe three differences between the structure of DNA and RNA. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>DNA is double-stranded, RNA single-stranded <span class=\"mp\">1</span>; DNA contains deoxyribose, RNA ribose <span class=\"mp\">1</span>; DNA contains thymine, RNA uracil <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "DNA is double-stranded, RNA single-stranded ; DNA contains deoxyribose, RNA ribose ; DNA contains thymine, RNA uracil .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Describe the roles of RNA in protein synthesis. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>mRNA is made by transcription, copying the DNA code <span class=\"mp\">1</span>; mRNA moves out of the nucleus to a ribosome <span class=\"mp\">1</span>; tRNA brings specific amino acids to the ribosome <span class=\"mp\">1</span>; the tRNA anticodon binds to the mRNA codon, and the amino acids join into a protein <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "mRNA is made by transcription, copying the DNA code ; mRNA moves out of the nucleus to a ribosome ; tRNA brings specific amino acids to the ribosome ; the tRNA anticodon binds to the mRNA codon, and the amino acids join into a protein .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Name the parts of a nucleotide. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>A sugar <span class=\"mp\">1</span>; a phosphate <span class=\"mp\">1</span>; a base <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "A sugar ; a phosphate ; a base .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "15-dna-and-protein-synthesis/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Give two factors that increase the rate of mutation. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Ionising radiation such as UV, X-rays or gamma <span class=\"mp\">1</span>; chemical mutagens such as tobacco smoke <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Ionising radiation such as UV, X-rays or gamma ; chemical mutagens such as tobacco smoke .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "16-inheritance",
+   "number": 16,
+   "title": "Inheritance",
+   "standfirst": "Year 11. The genetic cross is a four-mark routine — parents, gametes, offspring, ratio — and each step is its own mark. Get the vocabulary exact: genotype and phenotype, homozygous and heterozygous.",
+   "examWeight": null,
+   "specPoints": "3.19 – 3.27",
+   "estimatedSessions": "2 sessions",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "16-inheritance/teach/intro",
+       "heading": null,
+       "html": "<p>You inherit <strong>two alleles</strong> of each gene — one from each parent. Which ones you have is your <strong>genotype</strong>; what shows is your <strong>phenotype</strong>.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/teach/the-vocabulary",
+       "heading": "The vocabulary",
+       "html": "<p class=\"asked\">Spec 3.19 – 3.21B</p><table>\n<tbody><tr><th>Word</th><th>Meaning</th><th>Example</th></tr>\n<tr><td>Dominant</td><td>Shows with <strong>one copy</strong></td><td>H</td></tr>\n<tr><td>Recessive</td><td>Shows only with <strong>two copies</strong></td><td>h</td></tr>\n<tr><td>Homozygous</td><td>Two <strong>identical</strong> alleles</td><td>HH or hh</td></tr>\n<tr><td>Heterozygous</td><td>Two <strong>different</strong> alleles</td><td>Hh</td></tr>\n<tr><td>Genotype</td><td>The <strong>alleles</strong> present</td><td>Hh</td></tr>\n<tr><td>Phenotype</td><td>The <strong>characteristic</strong> that shows</td><td>short hair</td></tr>\n<tr><td>Codominance</td><td>Both alleles show</td><td>blood group AB</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/teach/the-genetic-cross-four-marks",
+       "heading": "The genetic cross — four marks",
+       "html": "<p class=\"asked\">Spec 3.23, 3.24</p><p>A heterozygous long-haired cat (Hh) crossed with a short-haired cat (hh), where long hair is dominant:</p><ol>\n<li><strong>Parent genotypes:</strong> Hh × hh</li>\n<li><strong>Gametes:</strong> H and h from one; h and h from the other</li>\n<li><strong>Offspring</strong> from a Punnett square: Hh, Hh, hh, hh</li>\n<li><strong>Ratio and phenotypes:</strong> 1 : 1 — half long-haired, half short-haired</li>\n</ol><table>\n<tbody><tr><th></th><th>h</th><th>h</th></tr>\n<tr><td><strong>H</strong></td><td>Hh</td><td>Hh</td></tr>\n<tr><td><strong>h</strong></td><td>hh</td><td>hh</td></tr>\n</tbody></table><p>A <strong>Hh × Hh</strong> cross gives <strong>3 : 1</strong> dominant to recessive — HH, Hh, Hh, hh. The probability of a recessive offspring is <strong>0.25</strong>, or 25%.</p><p>Ratios are <strong>probabilities</strong>, not guarantees. Four kittens from Hh × hh will not necessarily be two and two.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/teach/sex-determination",
+       "heading": "Sex determination",
+       "html": "<p class=\"asked\">Spec 3.25</p><p>The 23rd pair are the <strong>sex chromosomes</strong>. Females are <strong>XX</strong>; males are <strong>XY</strong>. Eggs always carry X; sperm carry X or Y, so the <strong>father's sperm decides</strong> the sex. The chance of a boy is 50% every time.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/teach/pedigree-diagrams",
+       "heading": "Pedigree diagrams",
+       "html": "<p class=\"asked\">Spec 3.26</p><p>A family tree shows who has a condition. The key clue for a <strong>recessive</strong> allele: two unaffected parents have an affected child — so both parents must be <strong>heterozygous carriers</strong>.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/teach/why-breeders-worry-about-recessive-alleles",
+       "heading": "Why breeders worry about recessive alleles",
+       "html": "<p>A dominant harmful allele always shows, so affected animals can be spotted and not bred from. A <strong>recessive</strong> allele hides in heterozygous carriers who look normal, so it can spread through a population unnoticed — the reasoning the Year 11 mock rewarded.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "16-inheritance/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>The cross in four lines</h4>\n<p>Parents' <strong>genotypes</strong> → <strong>gametes</strong> → Punnett <strong>offspring</strong> → <strong>ratio with phenotypes</strong>. Label every line.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"16-inheritance/def/allele\"><td>Allele</td><td>A <strong>different form</strong> of the same gene</td></tr>\n<tr data-item-id=\"16-inheritance/def/dominant-allele\"><td>Dominant allele</td><td>Only <strong>one copy</strong> is needed for it to be expressed in the phenotype</td></tr>\n<tr data-item-id=\"16-inheritance/def/recessive-allele\"><td>Recessive allele</td><td>Only expressed when <strong>two copies</strong> are present</td></tr>\n<tr data-item-id=\"16-inheritance/def/homozygous\"><td>Homozygous</td><td>Having <strong>two identical</strong> alleles of a gene</td></tr>\n<tr data-item-id=\"16-inheritance/def/heterozygous\"><td>Heterozygous</td><td>Having <strong>two different</strong> alleles of a gene</td></tr>\n<tr data-item-id=\"16-inheritance/def/genotype\"><td>Genotype</td><td>The <strong>combination of alleles</strong> an organism has</td></tr>\n<tr data-item-id=\"16-inheritance/def/phenotype\"><td>Phenotype</td><td>The <strong>observable characteristics</strong> of an organism</td></tr>\n<tr data-item-id=\"16-inheritance/def/codominance\"><td>Codominance</td><td><strong>Both alleles expressed</strong> in the phenotype</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "16-inheritance/def/allele",
+         "term": "Allele",
+         "acceptedWording": "A <strong>different form</strong> of the same gene"
+        },
+        {
+         "itemId": "16-inheritance/def/dominant-allele",
+         "term": "Dominant allele",
+         "acceptedWording": "Only <strong>one copy</strong> is needed for it to be expressed in the phenotype"
+        },
+        {
+         "itemId": "16-inheritance/def/recessive-allele",
+         "term": "Recessive allele",
+         "acceptedWording": "Only expressed when <strong>two copies</strong> are present"
+        },
+        {
+         "itemId": "16-inheritance/def/homozygous",
+         "term": "Homozygous",
+         "acceptedWording": "Having <strong>two identical</strong> alleles of a gene"
+        },
+        {
+         "itemId": "16-inheritance/def/heterozygous",
+         "term": "Heterozygous",
+         "acceptedWording": "Having <strong>two different</strong> alleles of a gene"
+        },
+        {
+         "itemId": "16-inheritance/def/genotype",
+         "term": "Genotype",
+         "acceptedWording": "The <strong>combination of alleles</strong> an organism has"
+        },
+        {
+         "itemId": "16-inheritance/def/phenotype",
+         "term": "Phenotype",
+         "acceptedWording": "The <strong>observable characteristics</strong> of an organism"
+        },
+        {
+         "itemId": "16-inheritance/def/codominance",
+         "term": "Codominance",
+         "acceptedWording": "<strong>Both alleles expressed</strong> in the phenotype"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "16-inheritance/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"16-inheritance/trap/dominant-means-stronger-more-common\"><td class=\"no\">dominant means stronger / more common</td><td class=\"yes\">dominant means <strong>expressed with one copy</strong></td></tr>\n<tr data-item-id=\"16-inheritance/trap/phenotype-hh\"><td class=\"no\">phenotype = Hh</td><td class=\"yes\">Hh is the <strong>genotype</strong>; the phenotype is the characteristic</td></tr>\n<tr data-item-id=\"16-inheritance/trap/the-mother-decides-the-babys-sex\"><td class=\"no\">the mother decides the baby's sex</td><td class=\"yes\">the <strong>sperm</strong> carries X or Y, so the father's gamete decides</td></tr>\n<tr data-item-id=\"16-inheritance/trap/3-1-means-exactly-three-of-four-offspring\"><td class=\"no\">3 : 1 means exactly three of four offspring</td><td class=\"yes\">it is a <strong>probability</strong></td></tr>\n<tr data-item-id=\"16-inheritance/trap/a-cross-with-no-gametes-shown\"><td class=\"no\">a cross with no gametes shown</td><td class=\"yes\">show the <strong>gametes</strong> — that is its own mark</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "16-inheritance/trap/dominant-means-stronger-more-common",
+         "wrong": "dominant means stronger / more common",
+         "right": "dominant means expressed with one copy"
+        },
+        {
+         "itemId": "16-inheritance/trap/phenotype-hh",
+         "wrong": "phenotype = Hh",
+         "right": "Hh is the genotype; the phenotype is the characteristic"
+        },
+        {
+         "itemId": "16-inheritance/trap/the-mother-decides-the-babys-sex",
+         "wrong": "the mother decides the baby's sex",
+         "right": "the sperm carries X or Y, so the father's gamete decides"
+        },
+        {
+         "itemId": "16-inheritance/trap/3-1-means-exactly-three-of-four-offspring",
+         "wrong": "3 : 1 means exactly three of four offspring",
+         "right": "it is a probability"
+        },
+        {
+         "itemId": "16-inheritance/trap/a-cross-with-no-gametes-shown",
+         "wrong": "a cross with no gametes shown",
+         "right": "show the gametes — that is its own mark"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "16-inheritance/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>Two brown-eyed parents have a blue-eyed child. Brown is dominant (B). Explain, with genotypes, and give the chance their next child has blue eyes.</p>",
+       "hint": null,
+       "answerHtml": "<p>A blue-eyed child must be <strong>bb</strong>, so each parent passed on a b. Both parents show brown, so each must also carry a B: both are <strong>Bb</strong>.</p>\n<p>Bb × Bb gives BB, Bb, Bb, bb — so the chance of blue eyes is <strong>1 in 4, 0.25</strong>, for every child.</p>"
+      },
+      {
+       "itemId": "16-inheritance/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>Why is it easier for breeders to remove a dominant harmful allele than a recessive one?</p>",
+       "hint": null,
+       "answerHtml": "<p>A dominant allele is <strong>always expressed</strong>, so every animal carrying it shows the condition and can be stopped from breeding.</p>\n<p>A recessive allele is <strong>hidden in heterozygous</strong> animals, which look normal. They are bred from without anyone knowing, so the allele keeps being passed on.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "16-inheritance/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>A heterozygous tall plant (Tt) is crossed with a short plant (tt). Draw a genetic diagram to show the expected offspring. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Parent genotypes Tt and tt <span class=\"mp\">1</span>; gametes T and t, and t and t <span class=\"mp\">1</span>; offspring Tt, Tt, tt, tt <span class=\"mp\">1</span>; ratio 1 : 1 tall to short <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "Parent genotypes Tt and tt ; gametes T and t, and t and t ; offspring Tt, Tt, tt, tt ; ratio 1 : 1 tall to short .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "16-inheritance/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Define <em>homozygous</em> and <em>heterozygous</em>. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Homozygous: two identical alleles of a gene <span class=\"mp\">1</span>; heterozygous: two different alleles <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Homozygous: two identical alleles of a gene ; heterozygous: two different alleles .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "16-inheritance/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>State what is meant by a dominant allele. <span class=\"marks\">(1)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Only one copy of the allele is needed for it to affect the phenotype <span class=\"mp\">1</span>.</p>",
+       "marks": 1,
+       "markScheme": [
+        {
+         "point": "Only one copy of the allele is needed for it to affect the phenotype .",
+         "marks": 1
+        }
+       ],
+       "mpTotal": 1
+      },
+      {
+       "itemId": "16-inheritance/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Explain why there is always a 50% chance of a child being male. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Females are XX so all eggs carry X <span class=\"mp\">1</span>; males are XY so half of sperm carry X and half carry Y <span class=\"mp\">1</span>; so half of fertilisations give XY, male <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Females are XX so all eggs carry X ; males are XY so half of sperm carry X and half carry Y ; so half of fertilisations give XY, male .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "16-inheritance/drill/D5",
+       "qid": "D5",
+       "promptHtml": "<p>Two heterozygous parents are crossed. What is the probability of a homozygous recessive offspring? <span class=\"marks\">(1)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>0.25 / 25% / one in four <span class=\"mp\">1</span>.</p>",
+       "marks": 1,
+       "markScheme": [
+        {
+         "point": "0.25 / 25% / one in four .",
+         "marks": 1
+        }
+       ],
+       "mpTotal": 1
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "17-selection-and-evolution",
+   "number": 17,
+   "title": "Selection and Evolution",
+   "standfirst": "Year 11. Natural selection is a five-step story that turns up in unfamiliar clothes — woodlice rolling up, fire ants resisting pesticide. The mark scheme rejects \"passes on the mutation\". It must be alleles.",
+   "examWeight": null,
+   "specPoints": "3.31 – 3.39, 5.10 – 5.11",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "17-selection-and-evolution/teach/variation",
+       "heading": "Variation",
+       "html": "<p class=\"asked\">Spec 3.31 – 3.33</p><p>Differences between individuals of a species come from three sources:</p><ul>\n<li><strong>Genetic</strong> — from alleles inherited: blood group, eye colour</li>\n<li><strong>Environmental</strong> — from conditions: scars, language, a plant in shade</li>\n<li><strong>Both</strong> — genes set a potential, environment decides how much is reached: height, body mass</li>\n</ul><p>Genetic variation arises from <strong>mutation</strong> (new alleles), <strong>meiosis</strong> (shuffled chromosomes) and <strong>random fertilisation</strong>.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "17-selection-and-evolution/teach/natural-selection-five-steps",
+       "heading": "Natural selection — five steps",
+       "html": "<p class=\"asked\">Spec 3.38</p><ol>\n<li>A <strong>mutation</strong> produces a new allele, so there is <strong>variation</strong> in the population.</li>\n<li>Some individuals have a characteristic that gives a <strong>survival advantage</strong> in their environment.</li>\n<li>Those individuals are more likely to <strong>survive</strong>.</li>\n<li>They <strong>reproduce</strong>.</li>\n<li>They pass on the advantageous <strong>allele</strong> to their offspring, so over many generations it becomes more common.</li>\n</ol><p>Every step is a mark. The one lost most is the last: say <strong>alleles or genes</strong> are passed on. \"Passes on the mutation\" or \"passes on the behaviour\" was not accepted in the Year 11 mock.</p><p>Over a very long time, populations can change so much they can no longer interbreed — a <strong>new species</strong>. That is <strong>evolution</strong>.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "17-selection-and-evolution/teach/antibiotic-resistance",
+       "heading": "Antibiotic resistance",
+       "html": "<p class=\"asked\">Spec 3.39</p><p>The same five steps, fast, because bacteria reproduce every few minutes. A random mutation makes one bacterium <strong>resistant</strong>. When an antibiotic is used, the non-resistant bacteria die; the resistant one <strong>survives and reproduces</strong>, passing on the resistance allele. Soon the whole population is resistant — <strong>MRSA</strong> is the example.</p><p>Pesticide resistance works identically. In the fire ant question, numbers dropped after pesticide then rose again, because resistant ants survived and bred.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "17-selection-and-evolution/teach/selective-breeding",
+       "heading": "Selective breeding",
+       "html": "<p class=\"asked\">Spec 5.10, 5.11</p><p>Here <strong>humans</strong> do the selecting:</p><ol>\n<li>Choose parents with the <strong>desired characteristic</strong>.</li>\n<li>Breed them together.</li>\n<li>Select the offspring that show it best.</li>\n<li>Breed those, and <strong>repeat over many generations</strong>.</li>\n</ol><p>Examples: high-yield crops, disease-resistant wheat, cows giving more milk. The risk is <strong>inbreeding</strong> — a smaller range of alleles, so less variation, more genetic disorders, and the whole population is vulnerable to a new disease.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "17-selection-and-evolution/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>The five words of natural selection</h4>\n<p><strong>Mutation → variation → survive → reproduce → pass on alleles.</strong></p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "17-selection-and-evolution/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"17-selection-and-evolution/def/natural-selection\"><td>Natural selection</td><td>Individuals with advantageous characteristics <strong>survive, reproduce and pass on their alleles</strong></td></tr>\n<tr data-item-id=\"17-selection-and-evolution/def/evolution\"><td>Evolution</td><td>A change in the <strong>inherited characteristics</strong> of a population over time</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/def/selective-breeding\"><td>Selective breeding</td><td><strong>Humans</strong> choosing organisms with desired characteristics to breed</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/def/speciation\"><td>Speciation</td><td>Formation of a new species that can <strong>no longer interbreed</strong> with the original</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/def/antibiotic-resistance\"><td>Antibiotic resistance</td><td>Bacteria <strong>not killed</strong> by an antibiotic, due to a mutation</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "17-selection-and-evolution/def/natural-selection",
+         "term": "Natural selection",
+         "acceptedWording": "Individuals with advantageous characteristics <strong>survive, reproduce and pass on their alleles</strong>"
+        },
+        {
+         "itemId": "17-selection-and-evolution/def/evolution",
+         "term": "Evolution",
+         "acceptedWording": "A change in the <strong>inherited characteristics</strong> of a population over time"
+        },
+        {
+         "itemId": "17-selection-and-evolution/def/selective-breeding",
+         "term": "Selective breeding",
+         "acceptedWording": "<strong>Humans</strong> choosing organisms with desired characteristics to breed"
+        },
+        {
+         "itemId": "17-selection-and-evolution/def/speciation",
+         "term": "Speciation",
+         "acceptedWording": "Formation of a new species that can <strong>no longer interbreed</strong> with the original"
+        },
+        {
+         "itemId": "17-selection-and-evolution/def/antibiotic-resistance",
+         "term": "Antibiotic resistance",
+         "acceptedWording": "Bacteria <strong>not killed</strong> by an antibiotic, due to a mutation"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "17-selection-and-evolution/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"17-selection-and-evolution/trap/passes-on-the-mutation-behaviour\"><td class=\"no\">passes on the mutation / behaviour</td><td class=\"yes\">passes on the <strong>allele</strong> for it</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/trap/the-bacteria-become-resistant-because-of-the-antibiotic\"><td class=\"no\">the bacteria become resistant because of the antibiotic</td><td class=\"yes\">a <strong>random mutation</strong> already made some resistant; the antibiotic selects them</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/trap/the-animal-adapts-to-survive\"><td class=\"no\">the animal adapts to survive</td><td class=\"yes\">individuals with the advantage <strong>survive</strong>; populations change over generations</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/trap/selective-breeding-happens-naturally\"><td class=\"no\">selective breeding happens naturally</td><td class=\"yes\"><strong>humans</strong> choose the parents</td></tr>\n<tr data-item-id=\"17-selection-and-evolution/trap/survival-of-the-fittest-alone\"><td class=\"no\">survival of the fittest (alone)</td><td class=\"yes\">give each step, ending with alleles passed to offspring</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "17-selection-and-evolution/trap/passes-on-the-mutation-behaviour",
+         "wrong": "passes on the mutation / behaviour",
+         "right": "passes on the allele for it"
+        },
+        {
+         "itemId": "17-selection-and-evolution/trap/the-bacteria-become-resistant-because-of-the-antibiotic",
+         "wrong": "the bacteria become resistant because of the antibiotic",
+         "right": "a random mutation already made some resistant; the antibiotic selects them"
+        },
+        {
+         "itemId": "17-selection-and-evolution/trap/the-animal-adapts-to-survive",
+         "wrong": "the animal adapts to survive",
+         "right": "individuals with the advantage survive; populations change over generations"
+        },
+        {
+         "itemId": "17-selection-and-evolution/trap/selective-breeding-happens-naturally",
+         "wrong": "selective breeding happens naturally",
+         "right": "humans choose the parents"
+        },
+        {
+         "itemId": "17-selection-and-evolution/trap/survival-of-the-fittest-alone",
+         "wrong": "survival of the fittest (alone)",
+         "right": "give each step, ending with alleles passed to offspring"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "17-selection-and-evolution/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>Some woodlice roll into a ball when touched. Explain how this behaviour could have become common through natural selection.</p>",
+       "hint": null,
+       "answerHtml": "<p>A <strong>mutation</strong> produced an allele causing rolling-up behaviour, giving <strong>variation</strong>.</p>\n<p>Woodlice that roll up expose only their hard shell, so they are less likely to be eaten and more likely to <strong>survive</strong>. They <strong>reproduce</strong> and pass on the <strong>allele</strong>. Over many generations the allele becomes more common, so more of the population rolls up.</p>"
+      },
+      {
+       "itemId": "17-selection-and-evolution/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>Why do doctors tell patients to finish a course of antibiotics?</p>",
+       "hint": null,
+       "answerHtml": "<p>Stopping early kills only the most susceptible bacteria, leaving the more resistant ones alive. They reproduce and pass on the alleles for resistance.</p>\n<p>Finishing the course kills as many bacteria as possible, so fewer resistant ones survive to multiply.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "17-selection-and-evolution/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Explain how a population of bacteria becomes resistant to an antibiotic. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>A mutation makes some bacteria resistant <span class=\"mp\">1</span>; the antibiotic kills the non-resistant bacteria <span class=\"mp\">1</span>; the resistant bacteria survive and reproduce <span class=\"mp\">1</span>; passing on the allele for resistance <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "A mutation makes some bacteria resistant ; the antibiotic kills the non-resistant bacteria ; the resistant bacteria survive and reproduce ; passing on the allele for resistance .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "17-selection-and-evolution/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Describe how a farmer could use selective breeding to produce cows that give more milk. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Choose cows that give the most milk and breed them <span class=\"mp\">1</span>; select the offspring that give the most milk <span class=\"mp\">1</span>; breed those and repeat over many generations <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Choose cows that give the most milk and breed them ; select the offspring that give the most milk ; breed those and repeat over many generations .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      },
+      {
+       "itemId": "17-selection-and-evolution/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Give one disadvantage of selective breeding. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Inbreeding reduces the variety of alleles <span class=\"mp\">1</span>; so the population is more vulnerable to disease or genetic disorders <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Inbreeding reduces the variety of alleles ; so the population is more vulnerable to disease or genetic disorders .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "17-selection-and-evolution/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>Name the three sources of genetic variation between individuals. <span class=\"marks\">(3)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Mutation <span class=\"mp\">1</span>; meiosis <span class=\"mp\">1</span>; random fertilisation <span class=\"mp\">1</span>.</p>",
+       "marks": 3,
+       "markScheme": [
+        {
+         "point": "Mutation ; meiosis ; random fertilisation .",
+         "marks": 3
+        }
+       ],
+       "mpTotal": 3
+      }
+     ],
+     "intro": null
+    }
+   }
+  },
+  {
+   "id": "18-genetic-modification-and-cloning",
+   "number": 18,
+   "title": "Genetic Modification and Cloning",
+   "standfirst": "Year 11. Two processes to learn as ordered steps: making human insulin in bacteria, and cloning Dolly the sheep. Name both enzymes in the first, and say which cell the nucleus comes from in the second.",
+   "examWeight": null,
+   "specPoints": "5.12 – 5.20B",
+   "estimatedSessions": "1 session",
+   "appearedIn": null,
+   "sections": {
+    "intel": {
+     "html": null,
+     "pastPaperRefs": []
+    },
+    "teach": {
+     "subsections": [
+      {
+       "itemId": "18-genetic-modification-and-cloning/teach/genetic-modification-making-insulin",
+       "heading": "Genetic modification — making insulin",
+       "html": "<p class=\"asked\">Spec 5.12 – 5.15</p><p>A gene from one species is put into another, which then makes the protein. The organism is <strong>transgenic</strong>.</p><ol>\n<li><strong>Restriction enzymes</strong> cut the human <strong>insulin gene</strong> out of human DNA, leaving <strong>sticky ends</strong>.</li>\n<li>The <strong>same restriction enzyme</strong> cuts open a bacterial <strong>plasmid</strong> — a small ring of DNA — giving matching sticky ends.</li>\n<li><strong>Ligase</strong> joins the gene into the plasmid.</li>\n<li>The plasmid, now a <strong>vector</strong>, is put back into a bacterium.</li>\n<li>The bacteria are grown in a <strong>fermenter</strong>; they multiply and make human insulin, which is extracted for people with diabetes.</li>\n</ol><p>Using the same restriction enzyme on both matters: the sticky ends only match if they were cut at the same base sequence.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/teach/gm-crops",
+       "heading": "GM crops",
+       "html": "<p class=\"asked\">Spec 5.16</p><p>Crops given genes for <strong>pest resistance</strong> (they make an insecticide) or <strong>herbicide resistance</strong>, so more survive and yield rises. Concerns include genes spreading to wild plants, effects on insects that are not pests, and a smaller range of varieties.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/teach/cloning-plants-micropropagation",
+       "heading": "Cloning plants — micropropagation",
+       "html": "<p class=\"asked\">Spec 5.17B</p><p>Small pieces of a plant (explants) are placed on sterile <strong>agar</strong> containing nutrients and <strong>plant hormones</strong>. They grow into many identical plants. Used to produce large numbers of plants with desired characteristics quickly, and to save rare species.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/teach/cloning-animals-dolly-the-sheep",
+       "heading": "Cloning animals — Dolly the sheep",
+       "html": "<p class=\"asked\">Spec 5.18B, 5.19B</p><ol>\n<li>Remove the <strong>nucleus from an egg cell</strong> (enucleate it).</li>\n<li>Take the <strong>nucleus from an adult body cell</strong> of the animal to be cloned.</li>\n<li>Insert the body-cell nucleus into the empty egg.</li>\n<li>An <strong>electric shock</strong> makes the egg divide into an embryo.</li>\n<li>Implant the embryo into the <strong>uterus of a surrogate</strong> mother.</li>\n</ol><p>The lamb is a clone of the animal that gave the <strong>body cell</strong> — not the egg donor and not the surrogate. Transgenic cloned animals can produce human proteins in their milk.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/teach/weighing-cloning",
+       "heading": "Weighing cloning",
+       "html": "<p class=\"asked\">Spec 5.20B</p><table>\n<tbody><tr><th>For</th><th>Against</th></tr>\n<tr><td>Many identical copies with desired features</td><td><strong>No variation</strong> — one disease could wipe out all of them</td></tr>\n<tr><td>Fast; no need for breeding</td><td>Low success rate; ethical concerns</td></tr>\n<tr><td>Can save endangered species</td><td>Clones may have health problems</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      }
+     ]
+    },
+    "sheet": {
+     "subsections": [
+      {
+       "itemId": "18-genetic-modification-and-cloning/sheet/intro",
+       "heading": null,
+       "html": "<div class=\"panel\">\n<h4>Two enzymes, two jobs</h4>\n<p><strong>Restriction enzymes cut</strong> (sticky ends). <strong>Ligase joins.</strong> The plasmid is the <strong>vector</strong>.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/sheet/definitions-marked-to-the-word",
+       "heading": "Definitions marked to the word",
+       "html": "<table>\n<tbody><tr><th>Term</th><th>Accepted wording</th></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/restriction-enzyme\"><td>Restriction enzyme</td><td>An enzyme that <strong>cuts DNA</strong> at a specific base sequence, leaving sticky ends</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/ligase\"><td>Ligase</td><td>An enzyme that <strong>joins</strong> pieces of DNA</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/plasmid\"><td>Plasmid</td><td>A small <strong>ring of DNA</strong> in a bacterium</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/vector\"><td>Vector</td><td>Something that <strong>carries a gene</strong> into a cell — a plasmid or virus</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/transgenic\"><td>Transgenic</td><td>Containing a <strong>gene from a different species</strong></td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/clone\"><td>Clone</td><td>A <strong>genetically identical</strong> copy of an organism</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/def/micropropagation\"><td>Micropropagation</td><td>Growing many clones from <strong>small pieces of plant</strong> on agar with hormones</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/restriction-enzyme",
+         "term": "Restriction enzyme",
+         "acceptedWording": "An enzyme that <strong>cuts DNA</strong> at a specific base sequence, leaving sticky ends"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/ligase",
+         "term": "Ligase",
+         "acceptedWording": "An enzyme that <strong>joins</strong> pieces of DNA"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/plasmid",
+         "term": "Plasmid",
+         "acceptedWording": "A small <strong>ring of DNA</strong> in a bacterium"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/vector",
+         "term": "Vector",
+         "acceptedWording": "Something that <strong>carries a gene</strong> into a cell — a plasmid or virus"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/transgenic",
+         "term": "Transgenic",
+         "acceptedWording": "Containing a <strong>gene from a different species</strong>"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/clone",
+         "term": "Clone",
+         "acceptedWording": "A <strong>genetically identical</strong> copy of an organism"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/def/micropropagation",
+         "term": "Micropropagation",
+         "acceptedWording": "Growing many clones from <strong>small pieces of plant</strong> on agar with hormones"
+        }
+       ],
+       "traps": []
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/sheet/wording-that-costs-marks",
+       "heading": "Wording that costs marks",
+       "html": "<table>\n<tbody><tr><th>Don't write</th><th>Write</th></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/trap/ligase-cuts-the-dna\"><td class=\"no\">ligase cuts the DNA</td><td class=\"yes\"><strong>restriction enzymes cut</strong>, <strong>ligase joins</strong></td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/trap/the-clone-is-identical-to-the-egg-donor\"><td class=\"no\">the clone is identical to the egg donor</td><td class=\"yes\">the clone is identical to the <strong>body-cell donor</strong></td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/trap/take-the-nucleus-from-a-sperm\"><td class=\"no\">take the nucleus from a sperm</td><td class=\"yes\">take the nucleus from an <strong>adult body cell</strong></td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/trap/gm-crops-grow-bigger\"><td class=\"no\">GM crops grow bigger</td><td class=\"yes\">GM crops <strong>resist pests or herbicides</strong>, so yield increases</td></tr>\n<tr data-item-id=\"18-genetic-modification-and-cloning/trap/any-enzyme-to-cut-the-plasmid\"><td class=\"no\">any enzyme to cut the plasmid</td><td class=\"yes\">the <strong>same</strong> restriction enzyme, so the sticky ends match</td></tr>\n</tbody></table>",
+       "equations": [],
+       "definitions": [],
+       "traps": [
+        {
+         "itemId": "18-genetic-modification-and-cloning/trap/ligase-cuts-the-dna",
+         "wrong": "ligase cuts the DNA",
+         "right": "restriction enzymes cut, ligase joins"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/trap/the-clone-is-identical-to-the-egg-donor",
+         "wrong": "the clone is identical to the egg donor",
+         "right": "the clone is identical to the body-cell donor"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/trap/take-the-nucleus-from-a-sperm",
+         "wrong": "take the nucleus from a sperm",
+         "right": "take the nucleus from an adult body cell"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/trap/gm-crops-grow-bigger",
+         "wrong": "GM crops grow bigger",
+         "right": "GM crops resist pests or herbicides, so yield increases"
+        },
+        {
+         "itemId": "18-genetic-modification-and-cloning/trap/any-enzyme-to-cut-the-plasmid",
+         "wrong": "any enzyme to cut the plasmid",
+         "right": "the same restriction enzyme, so the sticky ends match"
+        }
+       ]
+      }
+     ]
+    },
+    "understanding": {
+     "questions": [
+      {
+       "itemId": "18-genetic-modification-and-cloning/understanding/U1",
+       "qid": "U1",
+       "promptHtml": "<p>Why must the same restriction enzyme cut both the human DNA and the plasmid?</p>",
+       "hint": null,
+       "answerHtml": "<p>Each restriction enzyme cuts at one specific base sequence, leaving particular <strong>sticky ends</strong>. Using the same enzyme gives the gene and the plasmid <strong>complementary</strong> sticky ends.</p>\n<p>The bases pair up, holding the gene in place so ligase can join it into the plasmid. Different enzymes would leave ends that do not match.</p>"
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/understanding/U2",
+       "qid": "U2",
+       "promptHtml": "<p>A body cell is taken from a black sheep, an egg from a white sheep, and the embryo implanted into a brown sheep. What colour is the lamb, and why?</p>",
+       "hint": null,
+       "answerHtml": "<p><strong>Black.</strong> The lamb's DNA all comes from the <strong>nucleus</strong> inserted into the egg — from the black sheep's body cell.</p>\n<p>The white sheep's egg had its nucleus removed, so contributes no genes. The brown surrogate only provides the uterus.</p>"
+      }
+     ],
+     "intro": null
+    },
+    "drill": {
+     "questions": [
+      {
+       "itemId": "18-genetic-modification-and-cloning/drill/D1",
+       "qid": "D1",
+       "promptHtml": "<p>Describe how bacteria can be genetically modified to produce human insulin. <span class=\"marks\">(5)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>The insulin gene is cut out with a restriction enzyme <span class=\"mp\">1</span>; a plasmid is cut with the same restriction enzyme <span class=\"mp\">1</span>; the gene is joined into the plasmid by ligase <span class=\"mp\">1</span>; the plasmid is inserted into a bacterium <span class=\"mp\">1</span>; the bacteria multiply in a fermenter and make insulin <span class=\"mp\">1</span>.</p>",
+       "marks": 5,
+       "markScheme": [
+        {
+         "point": "The insulin gene is cut out with a restriction enzyme ; a plasmid is cut with the same restriction enzyme ; the gene is joined into the plasmid by ligase ; the plasmid is inserted into a bacterium ; the bacteria multiply in a fermenter and make insulin .",
+         "marks": 5
+        }
+       ],
+       "mpTotal": 5
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/drill/D2",
+       "qid": "D2",
+       "promptHtml": "<p>Describe how an adult animal can be cloned. <span class=\"marks\">(4)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Remove the nucleus from an egg cell <span class=\"mp\">1</span>; insert the nucleus from an adult body cell <span class=\"mp\">1</span>; an electric shock makes it divide into an embryo <span class=\"mp\">1</span>; implant the embryo into a surrogate mother <span class=\"mp\">1</span>.</p>",
+       "marks": 4,
+       "markScheme": [
+        {
+         "point": "Remove the nucleus from an egg cell ; insert the nucleus from an adult body cell ; an electric shock makes it divide into an embryo ; implant the embryo into a surrogate mother .",
+         "marks": 4
+        }
+       ],
+       "mpTotal": 4
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/drill/D3",
+       "qid": "D3",
+       "promptHtml": "<p>Give one advantage and one disadvantage of cloning crop plants. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Advantage: many plants with the desired characteristic quickly <span class=\"mp\">1</span>; disadvantage: no variation, so all could be killed by one disease <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Advantage: many plants with the desired characteristic quickly ; disadvantage: no variation, so all could be killed by one disease .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      },
+      {
+       "itemId": "18-genetic-modification-and-cloning/drill/D4",
+       "qid": "D4",
+       "promptHtml": "<p>State the functions of restriction enzymes and ligase. <span class=\"marks\">(2)</span></p>",
+       "hint": null,
+       "answerHtml": "<p>Restriction enzymes cut DNA at specific sequences <span class=\"mp\">1</span>; ligase joins pieces of DNA together <span class=\"mp\">1</span>.</p>",
+       "marks": 2,
+       "markScheme": [
+        {
+         "point": "Restriction enzymes cut DNA at specific sequences ; ligase joins pieces of DNA together .",
+         "marks": 2
+        }
+       ],
+       "mpTotal": 2
+      }
+     ],
+     "intro": null
+    }
+   }
   }
  ]
 }

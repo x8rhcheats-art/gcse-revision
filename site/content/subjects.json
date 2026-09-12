@@ -10,6 +10,7 @@
    "examDate": "2026-09-07",
    "completePack": "complete-pack.html",
    "plannedModules": 9,
+   "moduleGroups": null,
    "moduleCount": 9,
    "mcqCount": 332,
    "paperCount": 10
@@ -24,6 +25,7 @@
    "examDate": null,
    "completePack": null,
    "plannedModules": 10,
+   "moduleGroups": null,
    "moduleCount": 10,
    "mcqCount": 515,
    "paperCount": 5
@@ -38,9 +40,21 @@
    "examDate": null,
    "completePack": null,
    "plannedModules": 18,
-   "moduleCount": 10,
+   "moduleGroups": [
+    {
+     "title": "Year 10",
+     "from": 1,
+     "to": 12
+    },
+    {
+     "title": "Year 11",
+     "from": 13,
+     "to": 18
+    }
+   ],
+   "moduleCount": 18,
    "mcqCount": 0,
-   "paperCount": 0
+   "paperCount": 5
   }
  ]
 }

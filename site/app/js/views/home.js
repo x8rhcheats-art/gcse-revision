@@ -63,13 +63,24 @@ export function renderHome() {
       el('br'),
       el('span', { class: 'd' }, 'One module’s worth of material, drawn from whatever currently needs the most work')),
     el('span', { class: 'r' }, 'rebuilt every visit')));
-  for (const m of modulesByWeight()) {
-    mods.append(el('a', { class: 'rowlink', href: `#/module/${m.id}` },
-      el('span', {},
-        el('span', { class: 't' }, m.title),
-        el('br'),
-        el('span', { class: 'd' }, m.standfirst)),
-      el('span', { class: 'r' }, m.examWeight != null ? `~${Math.round(m.examWeight * 100)}% of marks` : '')));
+  const moduleRow = m => el('a', { class: 'rowlink', href: `#/module/${m.id}` },
+    el('span', {},
+      el('span', { class: 't' }, m.title),
+      el('br'),
+      el('span', { class: 'd' }, m.standfirst)),
+    el('span', { class: 'r' }, m.examWeight != null ? `~${Math.round(m.examWeight * 100)}% of marks` : ''));
+  // A subject with year groups lists each year under its own heading, heaviest
+  // first within the year; otherwise it is one list ordered by weight.
+  const groups = subj.moduleGroups || [];
+  if (groups.length) {
+    for (const g of groups) {
+      const inGroup = modulesByWeight().filter(m => m.number >= g.from && m.number <= g.to);
+      if (!inGroup.length) continue;
+      mods.append(el('h3', {}, g.title));
+      for (const m of inGroup) mods.append(moduleRow(m));
+    }
+  } else {
+    for (const m of modulesByWeight()) mods.append(moduleRow(m));
   }
   if (subj.completePack) {
     mods.append(el('a', { class: 'rowlink', href: subj.completePack, target: '_blank' },
@@ -99,13 +110,20 @@ export function renderHome() {
         ? `sat ${shortDate(att.at)} · ${att.totalScore}/${att.totalMarks}`
         : `target ${shortDate(mock.targetDate)}`)));
   }
+  // A subject can split its papers into groups (biology: Year 10 exams and
+  // Year 11 mocks). Papers without a group list straight on, as before.
+  let lastGroup = null;
   for (const paper of content.pastPapers) {
+    if (paper.group && paper.group !== lastGroup) {
+      papers.append(el('h3', {}, paper.group));
+      lastGroup = paper.group;
+    }
     const att = latestMockAttempt(paper.id);
     papers.append(el('a', { class: 'rowlink', href: `#/mock/${paper.id}` },
       el('span', {},
         el('span', { class: 't' }, paper.title),
         el('br'),
-        el('span', { class: 'd' }, 'Genuine school paper — revise it untimed, or sit it timed in the final fortnight')),
+        el('span', { class: 'd' }, paper.note || 'Genuine school paper — revise it untimed, or sit it timed in the final fortnight')),
       el('span', { class: 'r' }, att
         ? `sat ${shortDate(att.at)} · ${att.totalScore}/${att.totalMarks}`
         : `${paper.totalMarks} marks`)));
