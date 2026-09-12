@@ -1,0 +1,31 @@
+{
+ "examDate": null,
+ "errorCodes": [
+  {
+   "code": "knowledge",
+   "letter": "K",
+   "label": "Knowledge gap"
+  },
+  {
+   "code": "wording",
+   "letter": "W",
+   "label": "Knew it, worded it imprecisely"
+  },
+  {
+   "code": "maths",
+   "letter": "M",
+   "label": "Maths error"
+  },
+  {
+   "code": "unit-conversion",
+   "letter": "U",
+   "label": "Unit conversion missed"
+  },
+  {
+   "code": "presentation",
+   "letter": "P",
+   "label": "Presentation — units, sig figs, formula not stated"
+  }
+ ],
+ "schedule": []
+}

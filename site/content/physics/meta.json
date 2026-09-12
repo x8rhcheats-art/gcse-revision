@@ -1,0 +1,64 @@
+{
+ "examDate": "2026-09-07",
+ "errorCodes": [
+  {
+   "code": "knowledge",
+   "letter": "K",
+   "label": "Knowledge gap"
+  },
+  {
+   "code": "wording",
+   "letter": "W",
+   "label": "Knew it, worded it imprecisely"
+  },
+  {
+   "code": "maths",
+   "letter": "M",
+   "label": "Maths error"
+  },
+  {
+   "code": "unit-conversion",
+   "letter": "U",
+   "label": "Unit conversion missed"
+  },
+  {
+   "code": "presentation",
+   "letter": "P",
+   "label": "Presentation — units, sig figs, formula not stated"
+  }
+ ],
+ "schedule": [
+  {
+   "dates": "Sat 8 – Sun 9 Aug",
+   "what": "Diagnostic paper, marked. The result decides where the time goes."
+  },
+  {
+   "dates": "Mon 10 – Fri 21 Aug",
+   "what": "Modules 1–5, weighted by exam share and by the diagnostic"
+  },
+  {
+   "dates": "Sat 22 – Sun 23 Aug",
+   "what": "Mock 1, marked and analysed. Re-prioritise what's left."
+  },
+  {
+   "dates": "Mon 24 – Fri 28 Aug",
+   "what": "Modules 6–8, plus patching whatever Mock 1 exposed"
+  },
+  {
+   "dates": "Sat 29 – Sun 30 Aug",
+   "what": "Mock 2, marked"
+  },
+  {
+   "dates": "Mon 31 Aug – Fri 4 Sept",
+   "what": "Final week: red topics, past papers and the predicted-heavy list"
+  },
+  {
+   "dates": "Sat 5 – Sun 6 Sept",
+   "what": "Cheat sheets only. No new material."
+  },
+  {
+   "dates": "Mon 7 Sept",
+   "what": "Exam"
+  }
+ ]
+}

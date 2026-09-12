@@ -1,0 +1,127 @@
+{
+  "comment": "Chemistry exam-day facts and the technique rules distilled from the 2021-2025 mark schemes and teacher commentary (see scratchpad notes). No formula sheet exists for chemistry — the periodic table is the only thing given, so the 'formulaSheet' block explains that and lists what must be memorised instead.",
+
+  "examDay": {
+    "date": null,
+    "dateText": "No exam date yet — GCSE summer 2027",
+    "minutes": 90,
+    "durationText": "School papers: 1 hour 15 – 1 hour 30 minutes",
+    "bring": [
+      "Calculator",
+      "Ruler",
+      "Black ink or ball-point pen",
+      "Sharp pencil and rubber for graphs and diagrams"
+    ],
+    "provided": [
+      "A copy of the Periodic Table — atomic numbers and relative atomic masses for every element. Nothing else is given: every equation and definition must be memorised."
+    ],
+    "rules": [
+      "One minute per mark, roughly. A 13-mark question deserves 13 minutes, not 25.",
+      "Answer every question. A blank scores zero; a partial answer often scores something.",
+      "Show every step in calculations. A correct final answer with no working scores full marks, but a wrong answer with no working scores zero — the moles step is almost always the first mark, and error-carried-forward protects the rest.",
+      "Read what the answer line demands before calculating: the unit, the significant figures, standard form. In 2024 marks were lost for ignoring '2 significant figures' printed in the question.",
+      "Use accurate scientific terminology — it is printed on the front page and the schemes enforce it: ion not atom, molecular formula not chemical formula, effervescence not fizzing-ish.",
+      "Chemical formulae are case-sensitive: HBr not HBR, NaCl not NACL. Spelling of names must be exact (propane, not 'triane')."
+    ]
+  },
+
+  "formulaSheet": {
+    "note": "There is no formula sheet in chemistry — only the Periodic Table is provided. These are the relationships that must be in your head; they are also flashcards in the Chemical Calculations module.",
+    "given": [
+      { "words": "amount of substance", "symbols": "n = mass ÷ Mr" },
+      { "words": "mass from moles", "symbols": "mass = n × Mr" },
+      { "words": "gas volume at rtp", "symbols": "volume = n × 24 dm³ (= n × 24,000 cm³)" },
+      { "words": "number of particles", "symbols": "particles = n × 6.0 × 10²³" },
+      { "words": "percentage yield", "symbols": "% yield = actual mass ÷ theoretical mass × 100" },
+      { "words": "relative atomic mass from isotopes", "symbols": "Ar = Σ(mass × abundance) ÷ 100" },
+      { "words": "percentage of an element by mass", "symbols": "% = atoms × Ar ÷ Mr × 100" }
+    ]
+  },
+
+  "techniqueRules": [
+    { "id": "ion-not-atom", "group": "Say the right species", "rule": "It is the ION that gains or loses electrons at an electrode — never the metal.", "detail": "2023: \"Huge number wrote magnesium gains electrons. This is not true! The magnesium ION gains electrons, not the magnesium!!\" Same at the anode: bromide IONS lose electrons, not bromine." },
+    { "id": "name-whole-compound", "group": "Say the right species", "rule": "Redox answers name the whole compound: iron(III) OXIDE is reduced, oxygen is removed from calcium PHOSPHATE.", "detail": "2024: many said 'iron was reduced' (iron is the product) or that oxygen was removed from 'the calcium'. Name the full compound the oxygen leaves." },
+    { "id": "reducing-agent-removes", "group": "Say the right species", "rule": "The role of carbon: reducing agent, REMOVES oxygen — not 'reacts with' or 'displaces' it.", "detail": "Asked in 2024 AND 2025, fluffed both years. Two marks: (1) carbon is the reducing agent; (2) it removes oxygen from [named compound]." },
+    { "id": "molecules-vs-ions", "group": "Say the right species", "rule": "Ionic solids don't conduct because the IONS can't move — never mention electrons; giant structures have no molecules.", "detail": "Electron-based answers for ionic conduction score zero. 'Molecules of sodium chloride/graphite' is a category error the schemes reject." },
+
+    { "id": "bonds-vs-imf", "group": "Bonding language", "rule": "Boiling a simple molecular substance overcomes weak intermolecular forces BETWEEN MOLECULES — covalent bonds never break.", "detail": "2021: \"any reference to breaking covalent or ionic bonds scores 0/2.\" And never put intermolecular forces inside graphite or any giant structure — that cancels marks too (2022)." },
+    { "id": "ionic-melting-story", "group": "Bonding language", "rule": "Ionic melting point: giant ionic lattice · strong attraction between oppositely charged ions · lots of energy. No covalent words.", "detail": "2025: any mention of covalent bonds, molecules or IMF in the ionic melting-point answer scored 0/3." },
+    { "id": "nuclei-plural", "group": "Bonding language", "rule": "A covalent bond: shared pair attracted to the NUCLEI of BOTH atoms — plural.", "detail": "2021 and 2022 both refused the mark for 'attracted to the nucleus'." },
+    { "id": "count-the-electrons", "group": "Bonding language", "rule": "Ionic bonding stories count electrons: magnesium loses TWO, oxygen gains TWO.", "detail": "2023: 'electrons moved from magnesium to oxygen' without the number scored neither mark." },
+
+    { "id": "collision-frequency", "group": "Rates wording", "rule": "Collision theory needs FREQUENCY: more collisions per unit time / more frequent — 'more chance of colliding' scores nothing.", "detail": "Every year. 2025 additionally demanded 'successful' linked to time: more SUCCESSFUL collisions per unit time." },
+    { "id": "no-energy-in-concentration", "group": "Rates wording", "rule": "Concentration and surface-area answers never mention energy; temperature answers must have BOTH more-energetic collisions and a greater proportion successful.", "detail": "2024 capped concentration-with-kinetic-energy answers at 1 of 3. 2023 wanted 'greater proportion of collisions are successful' as its own point, separate from frequency." },
+    { "id": "catalyst-both-halves", "group": "Rates wording", "rule": "A catalyst provides an alternative pathway WITH a lower activation energy — both halves or a mark is lost.", "detail": "2025: \"a lot of students mentioned lowering activation energy so could not score M2\" — the pathway is the mechanism, the lower Ea its property." },
+    { "id": "tangent-not-average", "group": "Rates wording", "rule": "Rate at a time = the gradient of a TANGENT at that time, with the unit the axes demand (cm³/min, g/s).", "detail": "2022: the average-rate answer scored 1 of 3. 2025: 'm is meters!' — min for minutes, cm³ not cm." },
+
+    { "id": "crystallisation-point", "group": "Practical methods", "rule": "Heat a salt solution only to the CRYSTALLISATION POINT, then cool — heating to dryness caps the answer at 1 mark.", "detail": "2024 and 2025 both. Dryness wrecks hydrated crystals: the water of crystallisation is driven off." },
+    { "id": "residue-not-filtrate", "group": "Practical methods", "rule": "A precipitate is the RESIDUE: filter, wash the residue with distilled water, dry gently — never wash the filtrate, never Bunsen-dry.", "detail": "2023: \"the salt you want is the residue.\" 2022 rejected direct heating for drying. Soluble-salt methods described for a precipitation score 1 mark at most." },
+    { "id": "cannot-filter-soluble", "group": "Practical methods", "rule": "You cannot filter out a soluble salt — sodium salts are ALWAYS soluble.", "detail": "2025: \"'filtering out the sodium sulfate' scores 0 — it is not a precipitate.\" Check the solubility rules before choosing a method." },
+    { "id": "excess-means-all-acid", "group": "Practical methods", "rule": "Excess solid is used SO THAT ALL THE ACID REACTS — then filtered off.", "detail": "The reason is a one-mark answer on its own (2024). 'To make more salt' misses the point." },
+    { "id": "constant-mass", "group": "Practical methods", "rule": "Heating to constant mass proves the change is complete — reheat, cool, reweigh until the mass stops changing.", "detail": "The improve-the-accuracy answer for every crucible practical (2022, 2024). If x in a hydrate comes out low: not heated long enough, water remains." },
+    { "id": "name-the-variables", "group": "Practical methods", "rule": "'Fair test' scores nothing — name the variables kept constant.", "detail": "Same volume and concentration of acid, same mass of catalyst, same temperature: the named list is the mark." },
+
+    { "id": "observation-not-name", "group": "Observations and tests", "rule": "An observation is what you SEE: effervescence, a blue precipitate forms, the ribbon disappears — not the name of a gas.", "detail": "2023: 'to score the mark you had to state what you would see.' 'Hydrogen is given off' is ignored; extra wrong observations are penalised." },
+    { "id": "gas-tests-exact", "group": "Observations and tests", "rule": "Gas tests: LIT splint → squeaky pop = hydrogen · GLOWING splint relights = oxygen · damp litmus bleached = chlorine · limewater milky = CO₂.", "detail": "2024 rejected the glowing splint for hydrogen. Lit and glowing are different tests." },
+    { "id": "state-symbols-thinking", "group": "Observations and tests", "rule": "State symbols follow where the substance actually is: dissolved salts and acids (aq), water (l), precipitates (s).", "detail": "2024: many wrote zinc nitrate as (s) or (l) — it is a soluble salt in solution, (aq)." },
+
+    { "id": "divide-by-ar", "group": "Calculations discipline", "rule": "Empirical formulae: divide mass or % by the RELATIVE ATOMIC MASS — atomic numbers or upside-down fractions score 0/3.", "detail": "2021's scheme says exactly that. And never round 1.33 to 1 — multiply up (×3) to whole numbers." },
+    { "id": "standard-form-sf", "group": "Calculations discipline", "rule": "Large answers in standard form; obey a stated significant-figure count.", "detail": "2022/2023 gave a dedicated mark for 4.8 × 10⁶. 2024: \"did not read the question so did not leave the final answer to 2 sf.\"" },
+    { "id": "yield-masses", "group": "Calculations discipline", "rule": "% yield = actual MASS ÷ theoretical MASS × 100 — convert expected moles to grams first.", "detail": "2025 rejected actual-mass ÷ moles. Excess questions likewise compare MOLES needed with moles available, never grams." },
+    { "id": "show-working-graphs", "group": "Calculations discipline", "rule": "Show construction lines on every graph reading, and draw single smooth best-fit lines with a sharp pencil.", "detail": "2023/2024/2025 all marked the working lines. 2023: \"sloppy graphs — blunt pencils, sketchy feathery lines\" were penalised; read the curve the question names." },
+
+    { "id": "balance-numbers", "group": "Equations", "rule": "Balance with coefficients only — never edit a formula — and actually write the balancing numbers.", "detail": "2024: \"many got close but did not include balancing numbers.\" Formulae first, then balance, then recount every element." },
+    { "id": "diatomic-seven", "group": "Equations", "rule": "H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂ — elemental halogens and gases are diatomic, in half-equations too.", "detail": "2023: \"as usual, many forgot chlorine was diatomic… fascinating variations including Cl⁺ and Cl₃.\"" },
+    { "id": "water-not-oxide", "group": "Equations", "rule": "The anode half-equation in solution starts from water: 2H₂O → O₂ + 4H⁺ + 4e⁻ — there are no O²⁻ ions in a solution.", "detail": "2023's most common wrong answer was 2O²⁻ → O₂ + 4e⁻. The alternative 4OH⁻ → O₂ + 2H₂O + 4e⁻ is also accepted." },
+
+    { "id": "chain-complete", "group": "Explain questions", "rule": "Pollution chains need every link: fuel CONTAINS sulfur → burns to SO₂ → acid rain. Skipping the first link forfeits the last.", "detail": "2025: the acid-rain mark was dependent on the earlier ones — \"lots got 0\". Greenhouse gases belong to a different question." },
+    { "id": "distillation-verbatim", "group": "Explain questions", "rule": "Fractional distillation, 4 marks, verbatim: heated/vaporised · vapours RISE · hotter at the bottom · each vapour CONDENSES where the column is cooler than its boiling point.", "detail": "Asked three years running (2023, 2024, 2025). The lost marks are 'rise' and tying condensation to the boiling point." },
+    { "id": "definition-level-reason", "group": "Explain questions", "rule": "'Explain why X is oxidised' wants the definition applied: it GAINS OXYGEN / the ions LOSE ELECTRONS — not just the product's name.", "detail": "2021: 'it forms SO₂' did not score; 'the sulfur gains oxygen' did." }
+  ],
+
+  "diagramChecklists": [
+    {
+      "title": "Dot-and-cross diagram (covalent)",
+      "note": "2-mark pattern: M1 the bonding pairs, M2 everything else exactly right. Any mix of dots and crosses is fine.",
+      "items": [
+        "Right number of shared pairs between the right atoms (N₂ needs six shared electrons)",
+        "Every lone pair drawn — count each atom's outer electrons and check they are all present",
+        "Outer shells only, unless the question says otherwise",
+        "Shared electrons sit inside the overlap; one from each atom (one dot + one cross per pair)"
+      ]
+    },
+    {
+      "title": "Displayed formula",
+      "note": "Displayed means every atom AND every bond drawn.",
+      "items": [
+        "All C–H bonds shown — a –CH₃ written as a lump is rejected",
+        "Every carbon has exactly four bonds",
+        "Count the atoms at the end and check them against the molecular formula",
+        "For isomers: confirm the two drawings are genuinely different structures, not one molecule bent"
+      ]
+    },
+    {
+      "title": "Graph work (rates and solubility)",
+      "note": "The commentary's biggest recurring complaint. Sharp pencil.",
+      "items": [
+        "Points plotted exact to the nearest gridline, marked with a clear ×",
+        "One single smooth best-fit line — no sketchy/feathery strokes; even spread of points either side",
+        "Curve clearly through the origin when the data starts there; plateau exactly level",
+        "Construction lines drawn and left visible for every value read off the graph",
+        "Tangent (rates): touches the curve at the stated time only, big triangle, unit from the axes",
+        "Read the curve the question names — not the nearest one"
+      ]
+    },
+    {
+      "title": "Salt preparation method (before writing)",
+      "note": "Thirty seconds of method choice saves four marks.",
+      "items": [
+        "Checked the solubility rules for the TARGET salt first",
+        "Insoluble target → mix two solutions, filter, wash the RESIDUE, dry gently",
+        "Soluble target + insoluble partner → excess solid, filter, heat filtrate to crystallisation point only",
+        "Soluble target + both reactants soluble → titration route",
+        "No heating to dryness anywhere; drying method named (filter paper / warm oven / warm place)"
+      ]
+    }
+  ]
+}

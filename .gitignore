@@ -1,0 +1,28 @@
+tools/node_modules/
+tools/ms-png/
+tools/docx/
+tools/pdf-check/
+tools/scratch-*.txt
+.wrangler/
+
+# ---- kept out of the public repo ----
+# Exam board and school copyright: whole papers, and anything transcribed
+# verbatim from them (question text, mark schemes, the Edexcel spec wording).
+# The app still builds; these are the inputs you supply locally.
+John School Materials/
+Claude AI Materials/
+site/papers/
+site/docs/
+tools/*/past-papers.json
+tools/*/past-papers-schemes.json
+tools/*/topic-tests.json
+tools/*/topic-tests-schemes.json
+tools/*/spec-points.json
+site/content/*/mocks.json
+site/content/*/spec.json
+
+# Large generated deliverables — rebuilt by tools/bundle-*.js
+*.pdf
+John-*-Offline.html
+John-*-Phone.html
+John-Revision-Offline.html

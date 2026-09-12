@@ -1,0 +1,46 @@
+{
+ "subjects": [
+  {
+   "id": "physics",
+   "title": "Physics",
+   "code": "4PH1",
+   "board": "Edexcel IGCSE Physics 4PH1",
+   "tagline": "resit · 7 September",
+   "standfirst": "Resit Monday 7 September",
+   "examDate": "2026-09-07",
+   "completePack": "complete-pack.html",
+   "plannedModules": 9,
+   "moduleCount": 9,
+   "mcqCount": 332,
+   "paperCount": 10
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "code": "4CH1",
+   "board": "Edexcel IGCSE Chemistry 4CH1",
+   "tagline": null,
+   "standfirst": "GCSE summer 2027 — long-haul revision, no exam date yet",
+   "examDate": null,
+   "completePack": null,
+   "plannedModules": 10,
+   "moduleCount": 10,
+   "mcqCount": 515,
+   "paperCount": 5
+  },
+  {
+   "id": "biology",
+   "title": "Biology",
+   "code": "4BI1",
+   "board": "Edexcel IGCSE Biology 4BI1",
+   "tagline": null,
+   "standfirst": "GCSE summer 2027 — long-haul revision, no exam date yet",
+   "examDate": null,
+   "completePack": null,
+   "plannedModules": null,
+   "moduleCount": 0,
+   "mcqCount": 0,
+   "paperCount": 0
+  }
+ ]
+}

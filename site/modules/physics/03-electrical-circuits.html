@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 3 · Electrical Circuits — IGCSE Physics 4PH1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 3 of 8 · Edexcel IGCSE Physics 4PH1</p>
+  <h1>Electrical Circuits</h1>
+  <p class="standfirst">Every single past paper contains a circuit diagram to draw. It is four marks, it is entirely predictable, and the year group kept losing it on unclosed wires.</p>
+  <div class="meta">
+    <span class="tag"><strong>~13%</strong> of marks</span>
+    <span class="tag">Spec <strong>2.1 – 2.21</strong></span>
+    <span class="tag">In <strong>all three</strong> past papers</span>
+    <span class="tag">Est. <strong>2–3 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2023 Q4 <span class="marks">(9)</span></td><td>Draw a circuit to investigate a filament lamp, plot the I–V results, curve of best fit, improving the investigation</td></tr>
+<tr><td>2024 Q4 <span class="marks">(12)</span></td><td>Add a voltmeter to a circuit, V = IR twice, LDR resistance against light intensity, explain why LDR voltage falls</td></tr>
+<tr><td>2025 Q5 <span class="marks">(12)</span></td><td>Draw a circuit to investigate a diode, current at a junction, V = IR, compare series and parallel currents with calculations</td></tr>
+</table>
+<p>The shape repeats almost exactly: <strong>draw a circuit (4 marks), state the formula (1 mark), do a calculation or two, then one harder comparison or explanation question at the end.</strong> The first five marks are free if you're drilled.</p>
+
+<div class="trap">
+<p>2025: <span class="said">"students dropped marks for not connecting wires, leaving gaps in circuit. Incorrect circuit symbol for variable resistor, often drawing thermistor."</span></p>
+<p>And on the final part: <span class="said">"poorly answered throughout the year group... A number of students used 13 as the total resistance for circuit B. A combination of correct calculations along with working or explanation required for 4 marks. Calculation alone without comparison of values was insufficient for full marks."</span></p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>The cheat sheet in the next section is what you reread the night before. This is where the rules come from, so that when you can't remember one you can rebuild it. Every heading below says where it was actually asked — nothing is here because it is interesting.</p>
+
+<h3>Drawing the investigation circuit</h3>
+<p class="asked">2023 Q4(a) · 2025 Q5(a) · Mock 1 Q5(a) — <strong>4 marks on every paper</strong></p>
+<p>This is the most predictable four marks in the whole exam. The question changes component — filament lamp in 2023, diode in 2025, thermistor in the mock — but the circuit is always the same:</p>
+<ul>
+<li><strong>Cell, variable resistor, ammeter and the component all in series</strong>, in one closed loop</li>
+<li><strong>Voltmeter in parallel across the component only</strong> — not across anything else</li>
+<li>Correct symbols throughout</li>
+<li>Every wire joined — no gaps, no loose ends</li>
+</ul>
+<p>The <strong>variable resistor is what makes the experiment work</strong>: turning it changes the voltage across the component so you can take a range of readings instead of one. Leave it out and there is no method, and you lose the mark.</p>
+<p>The meters go where they do because of what they measure. An ammeter counts the charge flowing <em>through</em> something, so it has to be in the path — <strong>series</strong>. A voltmeter measures a difference <em>between two points</em>, so it has to touch both of them — <strong>parallel</strong>.</p>
+<div class="trap">
+<p>2025: <span class="said">"students dropped marks for not connecting wires, leaving gaps in circuit. Incorrect circuit symbol for variable resistor, often drawing thermistor."</span></p>
+<p>Two checks before you move on. <strong>Trace the loop with your finger</strong> from one terminal of the cell back to the other — if your finger comes off the line, that's a mark. And check the variable resistor has a <strong>diagonal arrow through the rectangle</strong>; a line that hooks upward at the end is a thermistor.</p>
+</div>
+
+<h3>Charge, current and the junction rule</h3>
+<p class="asked">Spec 2.14, 2.15, 2.17 · 2025 Q5(b)(i) · Q = It also appears in the static electricity questions</p>
+<p><strong>Current is the rate of flow of charge.</strong> Learn that wording — it is a one-mark definition and it comes up. "Rate of" means "per second", so:</p>
+<p class="centred"><strong>Q = I × t</strong><br>
+<em>Q = charge in coulombs (C) · I = current in amperes (A) · t = time in seconds (s)</em></p>
+<p>So one amp is one coulomb per second. A current of 3 A means three coulombs pass any point every second.</p>
+<p>Charge cannot be created, destroyed or leak out of the wire, which gives you two rules for free:</p>
+<ul>
+<li><strong>In a single loop the current is the same everywhere.</strong> Whatever goes into a component comes out of it.</li>
+<li><strong>At a junction, current in = current out.</strong> If 0.90 A arrives and 0.35 A goes down one branch, the other branch carries 0.55 A.</li>
+</ul>
+<div class="trap">
+<p>Students write that a bulb "uses up the current". It doesn't — it uses up <strong>energy</strong>. Every electron that goes in comes out again. If you ever write that the current is smaller after a component, stop.</p>
+<p>Also: current in a solid metal is a flow of <strong>negatively charged electrons</strong>. That exact phrase is worth a mark on its own.</p>
+</div>
+
+<h3>Voltage, and why the voltages add up</h3>
+<p class="asked">Spec 2.20, 2.21 · <strong>2024 Q4(b)(iii)</strong> — "voltages of two components in series add to the supply voltage"</p>
+<p><strong>Voltage is the energy transferred per unit charge passed.</strong> That is the spec wording, and it means <strong>one volt is one joule per coulomb</strong>.</p>
+<p class="centred"><strong>E = Q × V</strong><br>
+<em>E = energy transferred in joules (J) · Q = charge in coulombs (C) · V = voltage in volts (V)</em></p>
+<p>A 6 V battery hands 6 joules to every coulomb it pushes round. A component with 2 V across it takes 2 joules back out of every coulomb that passes.</p>
+<p>Which immediately explains the rule the 2024 paper tested. Follow one coulomb round a 9 V circuit with two components: the battery gives it 9 J, the first component takes 5 J (so 5 V across it), the second takes 4 J (so 4 V), and it arrives back at the battery with nothing left — because it is back where it started. <strong>9 = 5 + 4.</strong> The voltages across components in series add up to the supply voltage, because energy is conserved.</p>
+<div class="panel">
+<h4>The move this gives you</h4>
+<p>In 2024 the paper gave the supply as 1.5 V, had you calculate 0.57 V across one component, then asked for the voltage across the other. You do not calculate it — you <strong>subtract</strong>: 1.5 − 0.57 = 0.93 V. One mark for knowing the voltages add, one for the arithmetic.</p>
+<p>Whenever you know the supply and all but one of the series voltages, the last one is free.</p>
+</div>
+<div class="trap">
+<p>Current flows <em>through</em> a component. Voltage is always <em>across</em> it — never through it. A voltage is a <strong>difference</strong> between two points, which is why it is properly called potential difference. "The voltage through the resistor" can cost you the mark in an explain question.</p>
+</div>
+
+<h3>V = IR — the workhorse</h3>
+<p class="asked">Spec 2.13 · used in <strong>every single</strong> circuits question across all three past papers and both mocks</p>
+<p class="centred"><strong>V = I × R</strong><br>
+<em>V = voltage in volts (V) · I = current in amperes (A) · R = resistance in ohms (Ω)</em></p>
+<p><strong>Resistance is the opposition to the flow of current</strong>, measured in ohms. Physically it comes from the moving electrons colliding with the vibrating metal ions — which is also why <strong>a component carrying a current gets hot</strong>.</p>
+<p>You will be asked to rearrange it in both directions, so be fluent: I = V ÷ R and R = V ÷ I.</p>
+<div class="trap">
+<p>Papers routinely award a mark simply for <strong>stating the formula</strong> before you use it — 2024 Q4(b)(i), 2025 Q5(b)(ii), mock-1 Q5(c)(i) and mock-2 Q3(b)(i) all did. Write the equation down every time, even when you can do the sum in your head. It is the easiest mark on the paper and it is thrown away constantly.</p>
+</div>
+
+<h3>Series: resistances add, voltage shares out</h3>
+<p class="asked">Spec 2.19 · 2025 Q5(b)(iv) · Mock 2 Q3(b)</p>
+<p>In series the current is the same through both components and the voltages add. That gives you the rule in one line: V = IR₁ + IR₂ = I(R₁ + R₂), so <strong>R<sub>total</sub> = R₁ + R₂</strong>. Resistances in series simply add.</p>
+<p>It also gives you something more useful. Since the same current passes through both, and V = IR, <strong>each component's share of the voltage matches its share of the resistance.</strong> Twice the resistance, twice the voltage.</p>
+<div class="panel">
+<h4>Worked example — the standard series calculation</h4>
+<p><em>A 12 Ω and an 18 Ω resistor are in series with a 9.0 V battery.</em></p>
+<p><strong>1. Total resistance:</strong> 12 + 18 = 30 Ω</p>
+<p><strong>2. Current</strong> (supply voltage with total resistance): I = 9.0 ÷ 30 = <strong>0.30 A</strong>, the same through both.</p>
+<p><strong>3. Each voltage</strong> (that current with each resistance): 0.30 × 12 = <strong>3.6 V</strong> and 0.30 × 18 = <strong>5.4 V</strong></p>
+<p><strong>4. Check:</strong> 3.6 + 5.4 = 9.0 V ✓ — and the bigger resistor took the bigger share.</p>
+<p>That check takes five seconds and catches nearly every slip. Do it every time.</p>
+</div>
+<p>Mock 2 ran this backwards: given the current and the fixed resistor, find its voltage, then get the thermistor's resistance from what's left. Same three moves, different starting point.</p>
+
+<h3>Parallel: same voltage, currents add</h3>
+<p class="asked">Spec 2.18, 2.17 · Mock 1 Q5(c)</p>
+<p>In parallel the current reaches a junction and has a choice of routes. Two rules:</p>
+<ul>
+<li><strong>Every branch has the full supply voltage across it</strong> — each branch is its own complete path from one terminal to the other.</li>
+<li><strong>The branch currents add up</strong> to the current from the battery.</li>
+</ul>
+<p>Which means adding a parallel branch makes the total resistance go <em>down</em>. You are not adding an obstacle to an existing path, you are opening a new one — like opening a second till in a supermarket. More gets through per second, which is exactly what lower resistance means.</p>
+<div class="panel">
+<h4>The method that cannot go wrong</h4>
+<p>You are <strong>not</strong> required to know the reciprocal formula, and reaching for it is where marks are lost. One branch at a time:</p>
+<ol>
+<li>Every branch has the full supply voltage.</li>
+<li>Each branch's current on its own: I = V ÷ R.</li>
+<li>Add the branch currents for the battery current.</li>
+<li>Only if asked for total resistance: R = V ÷ I<sub>total</sub>, at the very end.</li>
+</ol>
+<p><em>15 Ω and 10 Ω across 3.0 V:</em> I₁ = 3.0 ÷ 15 = 0.20 A, I₂ = 3.0 ÷ 10 = 0.30 A, total = <strong>0.50 A</strong>.</p>
+<p><strong>Sanity check:</strong> a parallel total is always smaller than the smallest branch. Here R = 3.0 ÷ 0.50 = 6.0 Ω, less than 10 Ω ✓.</p>
+</div>
+<div class="trap">
+<p>In 2025 candidates gave <strong>13 Ω</strong> as a parallel total — they had added the branches as if in series. The method above makes that impossible, because you never add resistances at all.</p>
+</div>
+<p>Domestic lighting is wired in parallel for three reasons worth knowing (spec 2.7): each lamp gets the full mains voltage so runs at full brightness; each can be switched independently; and one failing leaves the others' circuits complete.</p>
+
+<h3>Comparing two circuits — the question that failed the year group</h3>
+<p class="asked"><strong>2025 Q5(b)(iv)</strong> — <span class="said">"poorly answered throughout the year group"</span></p>
+<p>This is the hardest routine question in the topic and it is worth learning as a <em>procedure</em>, because the marks are awarded for structure as much as for physics.</p>
+<p>In 2025: circuit 1 had a 19 Ω component; circuit 2 had 19 Ω and 13 Ω in series. Which carries more current?</p>
+<ol>
+<li><strong>Work out the total resistance of each.</strong> 19 Ω, and 19 + 13 = 32 Ω.</li>
+<li><strong>Say which is larger.</strong> Circuit 2 has the greater resistance.</li>
+<li><strong>Work out both currents.</strong> 2.9 ÷ 19 ≈ 0.15 A and 2.9 ÷ 32 ≈ 0.09 A.</li>
+<li><strong>State the conclusion in words.</strong> The current in circuit 2 is smaller, because its total resistance is larger while the supply voltage is unchanged.</li>
+</ol>
+<div class="trap">
+<p>The examiner: <span class="said">"A combination of correct calculations along with working or explanation required for 4 marks. Calculation alone without comparison of values was insufficient for full marks."</span></p>
+<p><strong>The words <em>compare</em>, <em>comment on</em> and <em>explain the difference</em> all require a sentence.</strong> Numbers on their own cap you well below full marks, however right they are. Write the "so it is bigger/smaller, because…" line every time.</p>
+</div>
+
+<h3>LDR and thermistor — the consequence chain</h3>
+<p class="asked">Spec 2.11 · <strong>2024 Q4(c)</strong> · <strong>Mock 2 Q3(c)</strong></p>
+<p>Two components, and the same direction for both — which is the opposite of what people guess:</p>
+<table>
+<tr><th>Component</th><th>Behaviour</th></tr>
+<tr><td><strong>LDR</strong></td><td>More light → <strong>lower</strong> resistance (and the relationship is a curve, not a straight line)</td></tr>
+<tr><td><strong>Thermistor</strong></td><td>Higher temperature → <strong>lower</strong> resistance</td></tr>
+</table>
+<p>Put either in series with a fixed resistor and the exam asks what happens to a voltage or a current. It catches people because two things change at once in opposite directions, so applying V = IR to the sensor itself proves nothing — its R falls while I rises.</p>
+<div class="panel">
+<h4>The chain that always works</h4>
+<p>Argue through the component whose resistance has <strong>not</strong> changed. Taking 2024's LDR as light increases:</p>
+<ol>
+<li>Light up → LDR resistance <strong>down</strong></li>
+<li>Total resistance down → <strong>current up</strong></li>
+<li>Fixed resistor: same R, bigger I → its <strong>voltage rises</strong></li>
+<li>The two voltages still add to the fixed supply → the <strong>LDR's voltage falls</strong></li>
+</ol>
+<p>Mock 2 asked the thermistor version — warmed, so resistance falls, so total resistance falls, so <strong>the current increases</strong>. Identical chain.</p>
+<p>Learn the four steps as a unit. Each one is typically a mark, and writing only the conclusion scores one of four.</p>
+</div>
+
+<h3>I–V graphs: the filament lamp and the diode</h3>
+<p class="asked">Spec 2.9 · <strong>2023 Q4(c)(ii)</strong> · <strong>Mock 1 Q5(b)</strong> · 2025 Q5 (diode)</p>
+<table>
+<tr><th>Component</th><th>Shape</th><th>Reason</th></tr>
+<tr><td>Wire / fixed resistor</td><td>Straight line through the origin</td><td>Resistance constant, so current is proportional to voltage</td></tr>
+<tr><td>Filament lamp</td><td>Curve through the origin, steep at first then flattening</td><td>Current heats the filament; ions vibrate more; more collisions; <strong>resistance rises</strong>, so each extra volt buys less extra current</td></tr>
+<tr><td>Diode</td><td>Nothing until a threshold, then rising steeply; nothing in reverse</td><td>Conducts in one direction only</td></tr>
+</table>
+<p>The filament lamp explanation is worth three marks and the chain must be complete: <strong>current → temperature → ion vibration → collisions → resistance increases</strong>. Skipping a link loses a mark.</p>
+<div class="trap">
+<p><strong>Getting resistance off the graph.</strong> Take the coordinates of the point and do R = V ÷ I. Do <strong>not</strong> take the gradient of a curve — gradient equals 1 ÷ R only for a straight line through the origin.</p>
+</div>
+<p>For the "how would you improve this" mark, 2023's mark scheme wanted <strong>"take more data at different voltages"</strong>. Repeating readings and averaging also scores.</p>
+
+<h3>Power, energy and fuses</h3>
+<p class="asked">Spec 2.3, 2.4, 2.5 · Mock 1 Q7(b) uses E = IVt</p>
+<p class="centred"><strong>P = I × V</strong> &nbsp;and&nbsp; <strong>E = I × V × t</strong><br>
+<em>P = power in watts (W) · E = energy transferred in joules (J) · I = current (A) · V = voltage (V) · t = time in seconds (s)</em></p>
+<p>P = IV follows from the definitions: voltage is joules per coulomb, current is coulombs per second, so multiplying gives joules per second. Note E = IVt is the same thing as E = QV, since Q = It — use whichever the question gives you.</p>
+<p><strong>Fuses</strong> use the heating effect as protection: a thin wire that melts and breaks the circuit if the current gets too high. To choose one, find the normal current with I = P ÷ V, then take the <strong>next standard rating above it</strong> — above, so it doesn't blow in normal use; only just above, so it still acts on a fault.</p>
+<div class="trap">
+<p><strong>Time must be in seconds and currents in amps.</strong> Questions give minutes and milliamps precisely because the conversion gets forgotten: 4 minutes is 240 s, 250 mA is 0.25 A. Two conversions in one question is normal.</p>
+<p>The 2025 examiner on the static questions: <span class="said">"Very few used standard form — please use it!"</span> Large or small answers are safer written as 2.76 × 10⁶ than as a row of zeros.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<h3>Equations</h3>
+<div class="eq"><span class="name">Ohm's law — memorise</span>V = I × R<span class="sym">V = voltage, or potential difference (V) · I = current (A) · R = resistance (Ω, ohms)</span></div>
+<div class="eq"><span class="name">Charge — memorise</span>Q = I × t<span class="sym">Q = charge (C, coulombs) · I = current (A) · t = time (s)</span></div>
+<div class="eq"><span class="name">Power — memorise</span>P = I × V<span class="sym">P = power (W, watts) · I = current (A) · V = voltage (V)</span></div>
+<div class="eq"><span class="name">Energy and charge — memorise</span>E = Q × V<span class="sym">E = energy transferred (J) · Q = charge (C) · V = voltage (V)</span></div>
+<div class="eq"><span class="name">On the formula sheet</span>E = I × V × t<span class="sym">E = energy transferred (J) · I = current (A) · V = voltage (V) · t = time (s — convert minutes first)</span></div>
+
+<h3>Definitions</h3>
+<table>
+<tr><th>Term</th><th>Say this</th></tr>
+<tr><td>Current</td><td>The rate of flow of charge</td></tr>
+<tr><td>Voltage (p.d.)</td><td>The energy transferred per unit charge passed. One volt is one joule per coulomb.</td></tr>
+<tr><td>Resistance</td><td>The opposition to the flow of current</td></tr>
+<tr><td>Current in a metal</td><td>A flow of negatively charged <strong>electrons</strong></td></tr>
+<tr><td>Conventional current</td><td>Drawn from <strong>+ to −</strong> around the circuit. The electrons actually flow the other way, from − to +. Both are correct — just say which one you mean</td></tr>
+</table>
+
+<h3>Series and parallel — the four rules</h3>
+<table>
+<tr><th></th><th>Series</th><th>Parallel</th></tr>
+<tr><td>Current</td><td>Same everywhere</td><td>Splits between branches; total in = total out at a junction</td></tr>
+<tr><td>Voltage</td><td>Shares out; adds to the supply voltage</td><td>Same across every branch, equal to the supply</td></tr>
+<tr><td>Total resistance</td><td>Add them: R = R₁ + R₂</td><td><strong>Less than the smallest branch.</strong> Find each branch current and add.</td></tr>
+<tr><td>Adding a component</td><td>Increases total resistance, so current falls</td><td>Decreases total resistance, so total current rises</td></tr>
+</table>
+
+<div class="panel">
+<h4>The parallel method that never goes wrong</h4>
+<p>You are not required to know the reciprocal formula at IGCSE. Do this instead:</p>
+<ol>
+<li>The voltage across every parallel branch equals the supply voltage.</li>
+<li>Work out each branch's current separately using I = V ÷ R.</li>
+<li>Add the branch currents to get the battery current.</li>
+<li>If you need total resistance, use R = V ÷ I<sub>total</sub> at the end.</li>
+</ol>
+<p>The 2025 candidates who wrote "13 Ω is the total resistance" had added a parallel pair as though it were series. This method makes that impossible.</p>
+</div>
+
+<h3>Circuit symbols — the ones that get drawn wrong</h3>
+<table>
+<tr><th>Component</th><th>What it looks like</th></tr>
+<tr><td>Cell</td><td>One long thin line and one short thick line. A <em>battery</em> is two or more cells in a row.</td></tr>
+<tr><td>Fixed resistor</td><td>Plain rectangle</td></tr>
+<tr><td>Variable resistor</td><td>Rectangle with a <strong>diagonal arrow through it</strong></td></tr>
+<tr><td>Thermistor</td><td>Rectangle with a line that turns up at the end — <em>not</em> the same as a variable resistor</td></tr>
+<tr><td>LDR</td><td>Rectangle in a circle, with two arrows pointing in</td></tr>
+<tr><td>Diode</td><td>Triangle pointing at a line, showing the direction current can flow</td></tr>
+<tr><td>Ammeter</td><td>Circle with A. Always in <strong>series</strong> with the component being measured.</td></tr>
+<tr><td>Voltmeter</td><td>Circle with V. Always in <strong>parallel</strong> across the component being measured.</td></tr>
+</table>
+
+<div class="panel">
+<h4>The standard investigation circuit</h4>
+<p>Almost every "draw a circuit to investigate how current varies with voltage across X" wants the same thing:</p>
+<ul>
+<li>Cell, variable resistor, ammeter and component X <strong>all in series in one closed loop</strong></li>
+<li>Voltmeter <strong>in parallel across component X only</strong></li>
+<li>Every wire joined — no gaps, no floating ends</li>
+</ul>
+<p>The variable resistor is what lets you change the voltage across X to get a range of readings. If you omit it you lose a mark and the method makes no sense.</p>
+</div>
+
+<h3>I–V characteristics</h3>
+<table>
+<tr><th>Component</th><th>Graph shape</th><th>Why</th></tr>
+<tr><td>Fixed resistor / wire</td><td>Straight line through the origin</td><td>Resistance constant, so current directly proportional to voltage (at constant temperature)</td></tr>
+<tr><td>Filament lamp</td><td>S-shape: steep near the origin, then curving to flatter</td><td>As current increases the filament heats up; ions vibrate more, electrons collide more, so <strong>resistance increases</strong></td></tr>
+<tr><td>Diode</td><td>Nothing until a threshold, then rises steeply; nothing at all in reverse</td><td>Very high resistance in reverse, very low forward once conducting</td></tr>
+</table>
+
+<h3>LDR and thermistor</h3>
+<p><strong>LDR:</strong> as light intensity increases, resistance decreases. <strong>Thermistor:</strong> as temperature increases, resistance decreases. Both are used in sensing circuits — an LDR in a streetlight switch, a thermistor in a thermostat.</p>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Two bulbs are in series. Does the first one "use up" the current, leaving less for the second?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>No.</strong> Current is the same at every point in a series circuit. Charge is conserved — electrons are not consumed, they circulate.</p>
+<p>What <em>does</em> get used up is <strong>energy</strong>. Each bulb transfers energy from the charge passing through it, which is why the voltage drops across each one and the drops add up to the supply voltage.</p>
+<p>The useful mental model: current is like the rate of water flow round a closed loop — the same everywhere. Voltage is like the pressure drop across each obstacle. Water isn't destroyed by a waterwheel; its energy is extracted.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>A 20 Ω and a 30 Ω resistor are connected in parallel. Without calculating, is the total resistance more or less than 20 Ω? Explain why.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Less than 20 Ω</strong> — and this surprises people, because "adding a resistor" sounds like adding resistance.</p>
+<p>Adding a parallel branch gives the current an <em>extra route</em>. More total current flows from the battery for the same voltage. Since R = V ÷ I, a larger current at the same voltage means a smaller total resistance.</p>
+<p>Checking: 6 V across each gives 0.3 A and 0.2 A, total 0.5 A, so R = 6 ÷ 0.5 = 12 Ω. Less than either branch, as it must be.</p>
+<p><strong>Sanity check to use in the exam:</strong> a parallel combination is always less resistive than its smallest branch. If your answer isn't, you've made an error.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why does the I–V graph for a filament lamp curve, while the one for a fixed resistor stays straight? Both are made of metal.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Both obey the same physics — the difference is <strong>temperature</strong>.</p>
+<p>A filament lamp is designed to get white hot. As the current rises, the filament's temperature rises sharply. The metal ions in the lattice vibrate with greater amplitude, so electrons collide with them more frequently, so resistance increases. Increasing resistance means the current rises less and less for each extra volt — hence the curve flattening.</p>
+<p>A fixed resistor is designed to dissipate its heat and stay near room temperature, so its resistance stays effectively constant and the line stays straight.</p>
+<p><em>This is why the 2023 question asked whether a straight line was appropriate for a metal. The answer: current is only directly proportional to voltage <strong>at constant temperature</strong>, and a filament lamp is precisely the case where that condition fails.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>An LDR is in series with a fixed resistor across a cell. The lights come on and the LDR's resistance falls. Explain what happens to the voltage across the LDR — and why it isn't obvious.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>It's not obvious because two things change at once, in opposite directions.</p>
+<p>Total resistance falls, so the <strong>current in the circuit increases</strong>. For the LDR, V = IR with I up but R down — so which wins?</p>
+<p>Work it from the other component. The fixed resistor's resistance is unchanged, and the current through it has increased, so <strong>its</strong> voltage rises. The two voltages must still add to the supply voltage, which is fixed. So the voltage across the LDR must <strong>fall</strong>.</p>
+<p><strong>The general principle:</strong> in a series pair, the component with the larger share of the resistance takes the larger share of the voltage. As the LDR's share of total resistance drops, so does its share of the voltage.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>In 2024 the paper gave a supply of 1.5 V, had candidates calculate 0.57 V across one component, then asked for the voltage across the other component in series with it. Many tried to calculate it from scratch. What should they have done, and why does it work?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Subtract:</strong> 1.5 − 0.57 = <strong>0.93 V</strong>. No calculation from resistances is needed at all.</p>
+<p>It works because the voltages across components in series must <strong>add up to the supply voltage</strong>. Each coulomb of charge is given 1.5 J by the supply and must spend all of it before returning — so if one component takes 0.57 J per coulomb, the other must take the remaining 0.93 J.</p>
+<p>The mark scheme gave one mark for stating that the series voltages add to the supply, and one for the arithmetic.</p>
+<p><strong>Generalise it:</strong> whenever you know the supply voltage and all but one of the series voltages, the last one is free. Look for that before starting a longer route — it is quicker and it is what is being tested.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>A 2 Ω and a 4 Ω resistor are in series. Without doing a full calculation, which one has the larger voltage across it, and by what factor?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The <strong>4 Ω resistor</strong>, and it has <strong>twice</strong> the voltage of the 2 Ω one.</p>
+<p>The reasoning takes one line. In series the <em>same current</em> flows through both. Since V = IR and I is common to both, the voltage across each is directly proportional to its resistance. Twice the resistance, twice the voltage.</p>
+<p>So the supply voltage splits in the ratio 2 : 4, or 1 : 3 and 2 : 3 of the total. On a 6 V supply that is 2 V and 4 V.</p>
+<p><strong>Worth internalising:</strong> "share of the resistance = share of the voltage" turns most series questions into mental arithmetic, and it is the whole basis of the LDR and thermistor questions.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>An ammeter goes in series and a voltmeter goes in parallel. Rather than memorising that, what is it about <em>what each one measures</em> that forces the placement?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Ammeter — measures current, which is charge flowing <em>through</em> something.</strong> To count what passes through a component, the meter has to be in the same path, so that all of that current goes through the meter too. That means <strong>in series</strong> with it.</p>
+<p><strong>Voltmeter — measures voltage, which is a <em>difference</em> between two points.</strong> A difference cannot be measured at one place; the meter has to be connected to both points at once. That means <strong>in parallel</strong>, across the component.</p>
+<p>This is also why the language differs: current <em>through</em>, voltage <em>across</em>. The preposition tells you where the meter goes.</p>
+<p><em>Mock 2 asked exactly this: add an instrument to measure the current, and state where it must be placed. One mark for "ammeter", one for "in series".</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>A student measures a filament lamp and finds V = 3.0 V when I = 0.50 A. They then read the gradient of their curved I–V graph at that point and get a different value for the resistance. Which is right, and why do they disagree?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The <strong>R = V ÷ I</strong> calculation is right: 3.0 ÷ 0.50 = <strong>6.0 Ω</strong>. The gradient is not the resistance here.</p>
+<p>R = V ÷ I is the <em>definition</em> of resistance, so it works at any point on any graph for any component. It uses the coordinates of the point — how far across, how far up.</p>
+<p>The gradient tells you something different: how much the current <em>changes</em> for a small change in voltage. Gradient equals 1 ÷ R only when the graph is a <strong>straight line through the origin</strong>, because only then is the ratio V : I the same as the rate of change.</p>
+<p>A filament lamp's graph is curved precisely because its resistance is not constant, so the two numbers must disagree — and only the point calculation means anything.</p>
+<p><strong>The exam-safe rule:</strong> to get resistance from a graph, read off a point and divide. Never measure a gradient on a curve.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U9</div><div class="qbody">
+<p>Domestic lighting is wired in parallel rather than in series. Give three separate reasons why.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>1. Every lamp gets the full mains voltage.</strong> In parallel the voltage across each branch equals the supply, so every lamp runs at its designed brightness. In series they would share the voltage out, so the more lamps you added, the dimmer they would all become.</p>
+<p><strong>2. Each can be switched independently.</strong> Each branch can have its own switch that breaks only that branch. In series, one switch would control everything.</p>
+<p><strong>3. One lamp failing does not affect the others.</strong> A blown filament breaks its own branch only; the other branches are still complete loops. In series, one failure opens the single loop and the whole house goes dark — which is exactly how old Christmas tree lights behaved.</p>
+<p><em>The question is usually worth three marks and expects three distinct points, so don't write the same idea three ways.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U10</div><div class="qbody">
+<p>"A battery supplies a constant current." Is that statement right? Explain.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>No.</strong> A battery supplies a roughly constant <strong>voltage</strong> — the current depends on what you connect to it.</p>
+<p>A 9 V battery gives 9 joules to every coulomb it pushes round, whatever the circuit. But how many coulombs per second flow is set by the resistance: I = V ÷ R. Connect a 9 Ω resistor and you get 1 A; connect a 90 Ω resistor and you get 0.1 A. Same battery, ten times less current.</p>
+<p>This is why adding components changes the current but not the supply voltage, and it is the assumption behind every calculation in this module: <strong>the supply voltage is the fixed thing, the current is the consequence.</strong></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U11</div><div class="qbody">
+<p>A thermistor is in series with a fixed resistor. Someone claims: "the thermistor gets hot, so its resistance goes up, so it takes more of the voltage." Two things in that sentence are wrong. Find them.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Error 1 — the direction is backwards.</strong> A thermistor's resistance <strong>falls</strong> as temperature rises. This is the opposite of an ordinary metal resistor, and it is the single most common slip in the topic. Same for an LDR: more light means <em>less</em> resistance.</p>
+<p><strong>Error 2 — the conclusion doesn't follow anyway.</strong> Even if the resistance had risen, saying "so it takes more voltage" skips the reasoning. You have to argue through the other component: its resistance is unchanged, the current has changed, so V = IR gives its new voltage, and the two must still add to the supply.</p>
+<p><strong>Corrected:</strong> the thermistor heats up → its resistance falls → total resistance falls → current rises → the fixed resistor's voltage rises (unchanged R, larger I) → so the thermistor's voltage <strong>falls</strong>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U12</div><div class="qbody">
+<p>Two identical bulbs are connected in parallel across a battery. A third identical bulb is now added in parallel with them. What happens to the current drawn from the battery, and to the brightness of the original two?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Current from the battery increases</strong> — by half as much again, since there are now three branches instead of two.</p>
+<p><strong>The original two are unchanged in brightness</strong> (assuming an ideal battery). Each branch still has the full supply voltage across it and the same resistance, so each still carries the same current and transfers energy at the same rate.</p>
+<p>That is the point of parallel wiring, and it is why it is used for domestic lighting: adding a lamp does not dim the existing ones. Adding a branch does not take anything away from the branches already there — it just asks more of the battery.</p>
+<p><strong>Contrast with series:</strong> adding a third bulb in series would increase the total resistance, reduce the current, and make <em>all three</em> dimmer than the original two.</p>
+<p><em>In reality a battery has some internal resistance, so a very large number of branches would eventually dim everything. That is not on this specification — the ideal answer above is the one being marked.</em></p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>A student has a cell, a thermistor, a variable resistor, an ammeter, a voltmeter and connecting wires.</p>
+<p>Draw a circuit diagram the student could use to investigate how the current in the thermistor varies with the voltage across it. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Cell, variable resistor, ammeter and thermistor all in series in one complete loop <span class="mp">1</span></p>
+<p>Voltmeter connected in parallel across the thermistor only <span class="mp">1</span></p>
+<p>All correct circuit symbols used, thermistor distinct from variable resistor <span class="mp">1</span></p>
+<p>Circuit fully closed — every wire joined, no gaps <span class="mp">1</span></p>
+<p><em>Before you put your pen down, trace the loop with your finger from one terminal of the cell all the way back to the other. If your finger comes off the line, you've lost a mark.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>State the formula linking charge, current and time. <span class="marks">(1)</span></p>
+<p>A current of 250 mA flows for 4.0 minutes. Calculate the charge that passes. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Q = I × t <span class="mp">1</span></p>
+<p>250 mA = 0.25 A, and 4.0 minutes = 240 s <span class="mp">1</span></p>
+<p>Q = 0.25 × 240 <span class="mp">1</span></p>
+<p>= <strong>60 C</strong> <span class="mp">1</span></p>
+<p><em>Two conversions. Milliamps to amps, and minutes to seconds. Both are standard bait.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>A 12 Ω resistor and an 18 Ω resistor are connected in series with a 9.0 V battery.</p>
+<p>(a) Calculate the current in the circuit. <span class="marks">(3)</span><br>
+(b) Calculate the voltage across the 18 Ω resistor. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Total resistance = 12 + 18 = 30 Ω <span class="mp">1</span></p>
+<p>I = V ÷ R = 9.0 ÷ 30 <span class="mp">1</span> = <strong>0.30 A</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> V = I × R = 0.30 × 18 <span class="mp">1</span> = <strong>5.4 V</strong> <span class="mp">1</span></p>
+<p><em>Check: the other resistor takes 0.30 × 12 = 3.6 V, and 5.4 + 3.6 = 9.0 V. The voltages must add to the supply. Do this check every time — it costs five seconds and catches most errors.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>The same 12 Ω and 18 Ω resistors are now connected in <strong>parallel</strong> across the same 9.0 V battery.</p>
+<p>Comment on the difference between the current supplied by the battery in this circuit and in the series circuit of D3. Use calculations to support your answer. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>In parallel, each resistor has the full 9.0 V across it <span class="mp">1</span></p>
+<p>I₁ = 9.0 ÷ 12 = 0.75 A and I₂ = 9.0 ÷ 18 = 0.50 A <span class="mp">1</span></p>
+<p>Total battery current = 0.75 + 0.50 = 1.25 A <span class="mp">1</span></p>
+<p>This is larger than the series current of 0.30 A — about four times larger — because the parallel arrangement has a lower total resistance, giving the current additional paths <span class="mp">1</span></p>
+<div class="trap"><p>This is the exact question type the 2025 year group failed. The examiner: <span class="said">"Calculation alone without comparison of values was insufficient for full marks."</span> The word <em>comment</em> or <em>compare</em> means you must write a sentence saying which is bigger and why. Numbers alone cap you at three marks.</p></div>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>A hairdryer is rated at 1800 W and runs from a 230 V supply.</p>
+<p>(a) Calculate the current it draws. <span class="marks">(3)</span><br>
+(b) Fuses are available rated at 3 A, 5 A and 13 A. State which should be fitted, and justify your choice. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> P = I × V, so I = P ÷ V <span class="mp">1</span></p>
+<p>= 1800 ÷ 230 <span class="mp">1</span> = <strong>7.8 A</strong> (2 s.f.) <span class="mp">1</span></p>
+<p><strong>(b)</strong> The <strong>13 A</strong> fuse <span class="mp">1</span></p>
+<p>Because the fuse must be rated <em>above</em> the normal operating current, otherwise it would blow in normal use — but as close above it as available, so it still protects the appliance. A 5 A fuse would melt immediately. <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Explain why the resistance of a filament lamp increases as the current through it increases. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A larger current means more energy is transferred in the filament, so its temperature rises <span class="mp">1</span></p>
+<p>The metal ions in the filament vibrate more vigorously <span class="mp">1</span></p>
+<p>Electrons therefore collide with the ions more frequently, making it harder for charge to flow, so the resistance increases <span class="mp">1</span></p>
+<p><em>Note the chain: current → temperature → vibration → collisions → resistance. Skipping a link loses a mark.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>A 6.0 V battery drives a current of 0.40 A through a motor for 5.0 minutes.</p>
+<p>Calculate the energy transferred. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>E = I × V × t <span class="mp">1</span></p>
+<p>t = 5.0 × 60 = 300 s, so E = 0.40 × 6.0 × 300 <span class="mp">1</span></p>
+<p>= <strong>720 J</strong> <span class="mp">1</span></p>
+<p><em>You could also do it in two steps: Q = It = 120 C, then E = QV = 120 × 6.0 = 720 J. Same answer, and worth knowing in case a question gives you charge rather than time.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>State what is meant by <em>current</em>. <span class="marks">(1)</span></p>
+<p>State what is meant by <em>voltage</em>, and give the unit of voltage in terms of two other units. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Current is the <strong>rate of flow of charge</strong> <span class="mp">1</span></p>
+<p>Voltage is the <strong>energy transferred per unit charge passed</strong> <span class="mp">1</span></p>
+<p>One volt is one <strong>joule per coulomb</strong> <span class="mp">1</span></p>
+<p><em>These are straight recall marks — spec points 2.14 and 2.20 — and they are given away almost every year. "Rate of flow of charge" must include the word</em> charge<em>: "rate of flow of electricity" does not score.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>A charge of 45 C passes through a lamp, transferring 540 J of energy.</p>
+<p>(a) Calculate the voltage across the lamp. <span class="marks">(3)</span><br>
+(b) The same lamp is left on for 3.0 minutes. Calculate the current in it. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> E = Q × V, so V = E ÷ Q <span class="mp">1</span></p>
+<p>= 540 ÷ 45 <span class="mp">1</span> = <strong>12 V</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> Q = I × t, so I = Q ÷ t <span class="mp">1</span></p>
+<p>t = 3.0 × 60 = 180 s <span class="mp">1</span></p>
+<p>I = 45 ÷ 180 = <strong>0.25 A</strong> <span class="mp">1</span></p>
+<p><em>Part (b) hands you the minutes-to-seconds conversion again. It is on nearly every paper.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>In the circuit below, the battery supplies a current of 0.90 A. This reaches a junction where it divides between two branches. The current in the first branch is 0.35 A.</p>
+<p>(a) Determine the current in the second branch. <span class="marks">(2)</span><br>
+(b) Explain, in terms of charge, why the two branch currents must add up to the current from the battery. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Current in = current out, so I₂ = 0.90 − 0.35 <span class="mp">1</span> = <strong>0.55 A</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> Charge is conserved — it cannot be created or destroyed at the junction, and none can accumulate there <span class="mp">1</span></p>
+<p>So the charge arriving per second must equal the charge leaving per second, and since current is the rate of flow of charge, the currents must balance <span class="mp">1</span></p>
+<p><em>Part (b) is spec point 2.17. The mark is for saying</em> charge is conserved<em>, not just restating that the currents add up — that is the thing being explained, so it cannot be the explanation.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>A student wants to investigate how the current through a <strong>diode</strong> varies with the voltage across it.</p>
+<p>(a) Draw a suitable circuit diagram. <span class="marks">(4)</span><br>
+(b) Describe how the student should use the apparatus to obtain the readings. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Cell, variable resistor, ammeter and diode all in series in one complete loop <span class="mp">1</span></p>
+<p>Voltmeter in parallel across the diode only <span class="mp">1</span></p>
+<p>Correct symbols throughout — diode drawn as a triangle against a line, variable resistor as a rectangle with a diagonal arrow <span class="mp">1</span></p>
+<p>Circuit completely closed, no gaps or unjoined wires <span class="mp">1</span></p>
+<p><strong>(b)</strong> Adjust the variable resistor to change the voltage across the diode <span class="mp">1</span></p>
+<p>Record the ammeter and voltmeter readings for each setting, taking a range of readings <span class="mp">1</span></p>
+<p>Reverse the connections to the diode (or reverse the cell) to obtain readings for reverse voltage <span class="mp">1</span></p>
+<div class="trap"><p>The 2025 examiner: <span class="said">"students dropped marks for not connecting wires, leaving gaps in circuit. Incorrect circuit symbol for variable resistor, often drawing thermistor."</span> Trace your loop with a finger before moving on, and check the variable resistor has an <em>arrow through it</em> — a line that hooks upward is a thermistor.</p></div>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>A filament lamp's I–V graph passes through the point V = 4.0 V, I = 0.80 A, and also through V = 8.0 V, I = 1.20 A.</p>
+<p>(a) Calculate the resistance of the lamp at each of these two points. <span class="marks">(3)</span><br>
+(b) State and explain what this shows about the lamp. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> R = V ÷ I <span class="mp">1</span></p>
+<p>At 4.0 V: R = 4.0 ÷ 0.80 = <strong>5.0 Ω</strong> <span class="mp">1</span></p>
+<p>At 8.0 V: R = 8.0 ÷ 1.20 = <strong>6.7 Ω</strong> (2 s.f.) <span class="mp">1</span></p>
+<p><strong>(b)</strong> The resistance has <strong>increased</strong> <span class="mp">1</span></p>
+<p>The larger current transfers more energy in the filament, so its temperature rises and the metal ions vibrate more <span class="mp">1</span></p>
+<p>Electrons collide with the ions more often, so the opposition to current — the resistance — increases <span class="mp">1</span></p>
+<p><em>Note that you must use the coordinates of each point, not a gradient. Doubling the voltage did not double the current, which is the signature of a non-constant resistance.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>An LDR is connected in series with a 2.0 kΩ fixed resistor across a 6.0 V supply. A voltmeter is connected across the fixed resistor.</p>
+<p>(a) In darkness, the LDR's resistance is 10 kΩ. Calculate the voltmeter reading. <span class="marks">(4)</span><br>
+(b) The room lights are switched on. State and explain what happens to the voltmeter reading. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> In series, total resistance = 10 000 + 2 000 = 12 000 Ω <span class="mp">1</span></p>
+<p>I = V ÷ R = 6.0 ÷ 12 000 <span class="mp">1</span> = 5.0 × 10⁻⁴ A <span class="mp">1</span></p>
+<p>V across the fixed resistor = I × R = 5.0 × 10⁻⁴ × 2 000 = <strong>1.0 V</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> The voltmeter reading <strong>increases</strong> <span class="mp">1</span></p>
+<p>Light falling on the LDR reduces its resistance, so the total resistance falls and the current increases <span class="mp">1</span></p>
+<p>The fixed resistor's resistance is unchanged, so by V = IR a larger current means a larger voltage across it <span class="mp">1</span></p>
+<p><em>Sanity check on (a): the LDR has five times the resistance of the fixed resistor, so it should take five sixths of the 6.0 V — 5.0 V — leaving 1.0 V. That agrees, and takes three seconds.</em></p>
+<p><em>Watch the kΩ. 2.0 kΩ is 2 000 Ω. Working in kΩ throughout is fine too, as long as you then get milliamps and stay consistent.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A thermistor is used in a circuit that switches on a cooling fan when a room gets too warm.</p>
+<p>(a) Describe how the resistance of a thermistor varies with temperature. <span class="marks">(1)</span><br>
+(b) The thermistor is in series with a fixed resistor. Explain why the voltage across the <strong>thermistor</strong> falls as the room warms up. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> As temperature increases, the resistance of the thermistor <strong>decreases</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> The thermistor's resistance falls, so the total resistance of the circuit falls <span class="mp">1</span></p>
+<p>Since the supply voltage is fixed, the current in the circuit increases <span class="mp">1</span></p>
+<p>The fixed resistor's resistance is unchanged and the current through it has increased, so the voltage across the fixed resistor increases <span class="mp">1</span></p>
+<p>The two voltages must add to the supply voltage, so the voltage across the thermistor must decrease <span class="mp">1</span></p>
+<div class="trap"><p>Do not try to answer this by applying V = IR to the thermistor itself — its R has gone down while I has gone up, so the argument is inconclusive and scores nothing. <strong>Always reason through the component whose resistance has not changed.</strong></p></div>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A microwave oven is rated at 900 W and operates from a 230 V mains supply.</p>
+<p>(a) Calculate the current in the oven when it is operating normally. <span class="marks">(3)</span><br>
+(b) Fuses are available rated at 1 A, 3 A, 5 A and 13 A. State which fuse should be fitted and explain your choice. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> P = I × V, so I = P ÷ V <span class="mp">1</span></p>
+<p>= 900 ÷ 230 <span class="mp">1</span> = <strong>3.9 A</strong> (2 s.f.) <span class="mp">1</span></p>
+<p><strong>(b)</strong> The <strong>5 A</strong> fuse <span class="mp">1</span></p>
+<p>It is rated above the normal operating current of 3.9 A, so it will not melt during normal use <span class="mp">1</span></p>
+<p>It is the closest available rating above that current, so it will still melt and break the circuit if a fault causes the current to rise <span class="mp">1</span></p>
+<p><em>The 3 A fuse would blow every time the oven was switched on. The 13 A fuse would allow more than three times the normal current before acting, so it would not protect the appliance. "Next one up" is the rule.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D16</div><div class="qbody">
+<p>An electric heater draws 8.0 A from a 230 V supply and is left on for 25 minutes.</p>
+<p>(a) Calculate the energy transferred, in joules. <span class="marks">(3)</span><br>
+(b) Explain, in terms of electrons and ions, why the heating element gets hot. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> E = I × V × t <span class="mp">1</span></p>
+<p>t = 25 × 60 = 1 500 s, so E = 8.0 × 230 × 1 500 <span class="mp">1</span></p>
+<p>= <strong>2 760 000 J</strong> (2.76 × 10⁶ J, or 2 760 kJ) <span class="mp">1</span></p>
+<p><strong>(b)</strong> The current is a flow of electrons through the metal element <span class="mp">1</span></p>
+<p>The electrons collide with the vibrating metal ions in the lattice <span class="mp">1</span></p>
+<p>Each collision transfers energy to the ions, increasing their vibration — which is an increase in the internal energy and therefore the temperature of the element <span class="mp">1</span></p>
+<p><em>Large answers like this are where powers of ten get dropped. Writing 2.76 × 10⁶ J is safer than counting zeros, and both are accepted.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D17</div><div class="qbody">
+<p>Circuit A has a 10 Ω and a 15 Ω resistor in <strong>series</strong> with a 6.0 V battery. Circuit B has the same two resistors in <strong>parallel</strong> with the same battery.</p>
+<p>Compare the current supplied by the battery in the two circuits. Use calculations to support your answer. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Circuit A:</strong> total R = 10 + 15 = 25 Ω, so I = 6.0 ÷ 25 = <strong>0.24 A</strong> <span class="mp">1</span></p>
+<p><strong>Circuit B:</strong> each resistor has the full 6.0 V across it <span class="mp">1</span></p>
+<p>I₁ = 6.0 ÷ 10 = 0.60 A and I₂ = 6.0 ÷ 15 = 0.40 A, so total = <strong>1.0 A</strong> <span class="mp">1</span></p>
+<p>The current in circuit B is <strong>larger</strong> — about four times the current in circuit A <span class="mp">1</span></p>
+<p>This is because the parallel arrangement gives the current two separate paths, so the total resistance is lower than in the series arrangement <span class="mp">1</span></p>
+<div class="trap"><p>This is the exact question the year group failed in 2025. The examiner: <span class="said">"A combination of correct calculations along with working or explanation required for 4 marks. Calculation alone without comparison of values was insufficient for full marks."</span> The words <em>compare</em> and <em>comment on</em> require a sentence saying <strong>which is bigger and why</strong>. Numbers alone lose the last two marks. Also note 25 Ω is the series total — a candidate writing 25 Ω for the parallel total has made the classic error.</p></div>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D18</div><div class="qbody">
+<p>A thermistor is connected in series with a 220 Ω fixed resistor and a 6.0 V battery.</p>
+<p>(a) Name the instrument used to measure the current in the circuit, and state where it must be placed. <span class="marks">(2)</span><br>
+(b) At room temperature the current is 12 mA. State the formula linking voltage, current and resistance, then calculate the voltage across the 220 Ω resistor. <span class="marks">(4)</span><br>
+(c) Calculate the resistance of the thermistor. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> An <strong>ammeter</strong> <span class="mp">1</span>, connected <strong>in series</strong> in the circuit <span class="mp">1</span></p>
+<p><strong>(b)</strong> V = I × R <span class="mp">1</span></p>
+<p>12 mA = 0.012 A <span class="mp">1</span></p>
+<p>V = 0.012 × 220 <span class="mp">1</span> = <strong>2.64 V</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> Voltage across the thermistor = 6.0 − 2.64 = 3.36 V <span class="mp">1</span></p>
+<p>R = V ÷ I = 3.36 ÷ 0.012 <span class="mp">1</span> = <strong>280 Ω</strong> <span class="mp">1</span></p>
+<p><em>Part (c) is the series-voltages-add rule doing the work again: you get the thermistor's voltage by subtraction, not by another calculation. And the milliamps conversion in (b) is the standard trap.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D19</div><div class="qbody">
+<p>Sketch the shape of the I–V graph for (i) a fixed resistor and (ii) a filament lamp, on the same axes. Describe the difference and account for it. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Fixed resistor: a <strong>straight line through the origin</strong> <span class="mp">1</span></p>
+<p>Filament lamp: a curve through the origin, <strong>steep at first then becoming less steep</strong> as voltage increases <span class="mp">1</span></p>
+<p>For the fixed resistor the current is directly proportional to the voltage, so its resistance is constant <span class="mp">1</span></p>
+<p>For the lamp, increasing current raises the filament's temperature, so the ions vibrate more and electrons collide with them more frequently <span class="mp">1</span></p>
+<p>The resistance therefore increases, so each additional volt produces a smaller increase in current — which is why the graph flattens <span class="mp">1</span></p>
+<p><em>Both curves must pass through the origin: no voltage, no current. A common sketching error is starting the lamp curve away from the origin, which is the diode's behaviour, not the lamp's.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D20</div><div class="qbody">
+<p>Describe the shape of the I–V characteristic for a diode, and explain what it shows about the diode's resistance. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>In the forward direction there is almost no current until a threshold voltage is reached (about 0.7 V) <span class="mp">1</span></p>
+<p>Above that voltage the current rises very steeply <span class="mp">1</span></p>
+<p>In the reverse direction the current is effectively zero at any voltage <span class="mp">1</span></p>
+<p>So the diode has a very high resistance in reverse and below the threshold, and a very low resistance once conducting forwards — it allows current in one direction only <span class="mp">1</span></p>
+<p><em>"Allows current in one direction only" is the phrase examiners look for. An LED behaves the same way and also emits light while conducting, which is why an LED can be used to show both the presence and the direction of a current.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D21</div><div class="qbody">
+<p><strong>Full exam-style question.</strong> A student investigates how the current in a filament lamp depends on the voltage across it.</p>
+<p>(a) Draw a circuit the student could use. <span class="marks">(4)</span><br>
+(b) The lamp is rated 12 V, 24 W. Calculate its current at its rated voltage. <span class="marks">(3)</span><br>
+(c) Calculate its resistance at that voltage. <span class="marks">(2)</span><br>
+(d) At 3.0 V the student measures a current of 0.90 A. Calculate the resistance at 3.0 V and comment on the difference from part (c). <span class="marks">(4)</span><br>
+(e) Suggest <strong>two</strong> improvements to the investigation. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Cell/battery, variable resistor, ammeter and lamp in series in a closed loop <span class="mp">1</span> · voltmeter in parallel across the lamp only <span class="mp">1</span> · correct symbols <span class="mp">1</span> · circuit fully closed with no gaps <span class="mp">1</span></p>
+<p><strong>(b)</strong> P = I × V, so I = P ÷ V <span class="mp">1</span> = 24 ÷ 12 <span class="mp">1</span> = <strong>2.0 A</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> R = V ÷ I = 12 ÷ 2.0 <span class="mp">1</span> = <strong>6.0 Ω</strong> <span class="mp">1</span></p>
+<p><strong>(d)</strong> R = V ÷ I = 3.0 ÷ 0.90 <span class="mp">1</span> = <strong>3.3 Ω</strong> (2 s.f.) <span class="mp">1</span></p>
+<p>This is <strong>lower</strong> than the resistance at 12 V <span class="mp">1</span></p>
+<p>At the lower voltage the current is smaller, so the filament is cooler; the ions vibrate less, there are fewer collisions, and the resistance is lower <span class="mp">1</span></p>
+<p><strong>(e)</strong> Any two of: repeat each reading and take a mean <span class="mp">1</span> · take readings over a wider range of voltages / at more voltage values <span class="mp">1</span> · switch off between readings so the filament does not overheat · use meters with a finer scale division to reduce reading uncertainty</p>
+<p><em>Part (d) is where the marks are won. The calculation alone gets you two of the four — the comparison and the temperature explanation are the other two, and this is precisely the pattern the examiner complained about in 2025.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D22</div><div class="qbody">
+<p>Two resistors, 5.0 Ω and 20 Ω, are connected in series across a 10 V supply.</p>
+<p>(a) Calculate the voltage across each resistor. <span class="marks">(4)</span><br>
+(b) A third resistor is now added in series. State and explain the effect on the current in the circuit. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Total R = 5.0 + 20 = 25 Ω <span class="mp">1</span></p>
+<p>I = 10 ÷ 25 = 0.40 A <span class="mp">1</span></p>
+<p>V across 5.0 Ω = 0.40 × 5.0 = <strong>2.0 V</strong> <span class="mp">1</span></p>
+<p>V across 20 Ω = 0.40 × 20 = <strong>8.0 V</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> The current <strong>decreases</strong> <span class="mp">1</span></p>
+<p>Adding a resistor in series increases the total resistance, and since the supply voltage is unchanged, I = V ÷ R gives a smaller current <span class="mp">1</span></p>
+<p><em>Check on (a): 2.0 + 8.0 = 10 V ✓. And the 20 Ω resistor has four times the resistance so takes four times the voltage — 2 V and 8 V — which you could have written down without calculating the current at all.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D23</div><div class="qbody">
+<p>Explain why the lights in a house are connected in parallel rather than in series. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Each lamp has the full supply voltage across it, so each operates at its normal brightness <span class="mp">1</span></p>
+<p>Each lamp can be switched on and off independently of the others <span class="mp">1</span></p>
+<p>If one lamp fails, the other branches are still complete circuits, so the remaining lamps stay on <span class="mp">1</span></p>
+<p><em>Three marks means three genuinely different reasons. "They all stay on if one breaks" and "one breaking doesn't affect the others" are the same point written twice and will score once.</em></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D24</div><div class="qbody">
+<p>A 3.0 V cell drives a current through a lamp. In 2.0 minutes, 36 C of charge passes through the lamp.</p>
+<p>(a) Calculate the current. <span class="marks">(2)</span><br>
+(b) Calculate the energy transferred by the lamp. <span class="marks">(2)</span><br>
+(c) Calculate the power of the lamp. <span class="marks">(2)</span><br>
+(d) The lamp is replaced by one of higher resistance. State the effect on the current and on the power. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> I = Q ÷ t = 36 ÷ 120 <span class="mp">1</span> = <strong>0.30 A</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> E = Q × V = 36 × 3.0 <span class="mp">1</span> = <strong>108 J</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> P = I × V = 0.30 × 3.0 = <strong>0.90 W</strong> <span class="mp">1</span> &nbsp;(or P = E ÷ t = 108 ÷ 120 = 0.90 W) <span class="mp">1</span></p>
+<p><strong>(d)</strong> The current <strong>decreases</strong>, since I = V ÷ R with V fixed <span class="mp">1</span></p>
+<p>The power <strong>decreases</strong>, since P = I × V and the current is smaller while the voltage is unchanged <span class="mp">1</span></p>
+<p><em>Part (c) can be done two completely different ways, and they agree — a good habit when you have spare time at the end.</em></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 3 of 8 · Electrical Circuits · Edexcel IGCSE Physics 4PH1</footer>
+</div>
+</body>
+</html>

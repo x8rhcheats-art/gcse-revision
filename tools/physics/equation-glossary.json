@@ -1,0 +1,42 @@
+{
+  "comment": "One symbol key per formula, used everywhere a formula is displayed: module cheat sheets, the mock formulae panels, the exam reference sheet, flashcards and the Priority Module. Keyed by the formula text exactly as authored (whitespace-normalised at match time). 'skip' marks entries that are not formulas and need no key. The injector reports anything unmatched, so coverage is provable rather than assumed.",
+  "glossary": {
+    "average speed = distance moved ÷ time taken": "average speed in m/s · distance moved in m · time taken in s",
+    "a = (v − u) ÷ t": "a = acceleration (m/s²) · v = final velocity (m/s) · u = initial velocity (m/s) · t = time taken (s)",
+    "F = m × a": "F = resultant force (N) · m = mass (kg) · a = acceleration (m/s²)",
+    "W = m × g": "W = weight, the gravitational force (N) · m = mass (kg) · g = gravitational field strength (N/kg — numerically the same as acceleration in m/s²; use 10)",
+    "moment = force × perpendicular distance from the pivot": "moment in N m · force in N · perpendicular distance in m — convert cm to m before substituting",
+    "v² = u² + (2 × a × s)": "v = final speed (m/s) · u = initial speed (m/s) · a = acceleration (m/s²) · s = distance moved (m)",
+    "ρ = m ÷ V": "ρ (rho) = density (kg/m³, or g/cm³) · m = mass (kg, or g) · V = volume (m³, or cm³) — 1 g/cm³ = 1000 kg/m³",
+    "P = F ÷ A": "P = pressure (Pa, which is N/m²) · F = force (N) · A = area (m²)",
+    "ΔP = h × g × ρ": "ΔP = pressure difference (Pa) · h = depth (m) · g = gravitational field strength (N/kg) · ρ = density of the fluid (kg/m³)",
+    "ΔQ = m × c × ΔT": "ΔQ = energy transferred (J) · m = mass (kg — convert grams first) · c = specific heat capacity (J/kg °C) · ΔT = temperature change (°C)",
+    "p₁ × V₁ = p₂ × V₂": "p₁, V₁ = pressure and volume before · p₂, V₂ = after · pressure in Pa or kPa, volume in m³ or cm³ — any units, provided both sides match · temperature must stay constant",
+    "p₁ ÷ T₁ = p₂ ÷ T₂": "p₁, T₁ = pressure and temperature before · p₂, T₂ = after · pressure in Pa or kPa · T must be in kelvin (K), never °C · volume must stay constant",
+    "K = °C + 273        °C = K − 273": "K = temperature in kelvin · °C = temperature in degrees Celsius · absolute zero is 0 K = −273 °C",
+    "V = I × R": "V = voltage, or potential difference (V) · I = current (A) · R = resistance (Ω, ohms)",
+    "Q = I × t": "Q = charge (C, coulombs) · I = current (A) · t = time (s)",
+    "P = I × V": "P = power (W, watts) · I = current (A) · V = voltage (V)",
+    "E = Q × V": "E = energy transferred (J) · Q = charge (C) · V = voltage (V)",
+    "E = I × V × t": "E = energy transferred (J) · I = current (A) · V = voltage (V) · t = time (s — convert minutes first)",
+    "v = f × λ": "v = wave speed (m/s) · f = frequency (Hz — convert kHz to Hz first) · λ (lambda) = wavelength (m)",
+    "f = 1 ÷ T": "f = frequency (Hz) · T = time period, the time for one complete wave (s)",
+    "W = F × d": "W = work done (J) · F = force (N) · d = distance moved in the direction of the force (m)",
+    "GPE = m × g × h": "GPE = gravitational potential energy (J) · m = mass (kg) · g = gravitational field strength (N/kg; use 10) · h = change in height (m)",
+    "KE = ½ × m × v²": "KE = kinetic energy (J) · m = mass (kg) · v = speed (m/s) — the speed is squared, so doubling it quadruples the energy",
+    "efficiency = (useful energy output ÷ total energy input) × 100": "both energies in J · the answer is a percentage · it must be useful energy OUTPUT over total energy INPUT — dropping either word loses the mark",
+    "P = W ÷ t": "P = power (W, watts) · W = work done, or energy transferred (J) · t = time taken (s) — one watt is one joule per second",
+    "m × g × h  =  ½ × m × v²": "m = mass (kg) · g = gravitational field strength (N/kg) · h = height fallen (m) · v = speed at the bottom (m/s) — the mass cancels, so the speed does not depend on it",
+    "²³⁸₉₂U  →  ²³⁴₉₀Th  +  ⁴₂He": "top number = mass number (protons + neutrons) · bottom number = atomic number (protons) · ⁴₂He is the alpha particle · mass drops by 4, atomic number by 2",
+    "¹⁴₆C  →  ¹⁴₇N  +  ⁰₋₁e": "top number = mass number (protons + neutrons) · bottom number = atomic number (protons) · ⁰₋₁e is the beta particle, an electron from the nucleus · mass unchanged, atomic number up 1",
+    "v = (2 × π × r) ÷ T": "v = orbital speed (m/s) · r = orbital radius (m) · T = time for one full orbit (s)",
+    "p₁V₁ = p₂V₂": "p₁, V₁ = pressure and volume before · p₂, V₂ = after · temperature constant · any units, provided both sides match",
+    "F = (mv − mu) ÷ t": "F = force (N) · m = mass (kg) · v = final velocity (m/s) · u = initial velocity (m/s) · t = time (s) — mv − mu is the change in momentum (kg m/s)",
+    "¹⁴₆C → ___ ___N + ⁰₋₁e": "top number = mass number (protons + neutrons) · bottom number = atomic number (protons) · ⁰₋₁e is the beta particle · both sides must balance: mass numbers total the same, atomic numbers total the same"
+  },
+  "skip": [
+    "Radio · Microwave · Infrared · Visible · Ultraviolet · X-ray · Gamma",
+    "no change to mass or atomic number",
+    "radio · __A__ · infrared · visible light · ultraviolet · __B__ · gamma"
+  ]
+}

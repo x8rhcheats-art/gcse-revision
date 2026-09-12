@@ -1,0 +1,16 @@
+{
+  "name": "Physics Revision — IGCSE 4PH1",
+  "short_name": "Physics",
+  "description": "Revision, tagging and practice for the Edexcel IGCSE Physics 4PH1 resit.",
+  "start_url": "app.html#/home",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F6F7F4",
+  "theme_color": "#10233A",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

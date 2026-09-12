@@ -1,0 +1,1154 @@
+{
+ "comment": "Exam predictions for chemistry, derived ONLY from the five school papers 2021-2025 and their mark schemes (see the per-year notes). Every item cites the papers it is based on. Nothing here is insider knowledge — it is pattern-reading, and it is labelled as such in the app.",
+ "basis": "The school's own end-of-year papers for 2021, 2022, 2023, 2024 and 2025, plus their mark schemes and the teachers' written commentary.",
+ "caveat": "It says what the department has asked five years running and what its mark schemes reward — nothing more. Use it to decide what to revise first, never as a reason to skip a topic: papers do change, and everything on the specification is fair game.",
+ "paperShape": {
+  "questions": "10–12 questions",
+  "marks": "70–90 marks (2021: 70 · 2022: 75 · 2023: 75 · 2024: 84 · 2025: 90 — trending upwards)",
+  "time": "1 hour 15 to 1 hour 30",
+  "given": "A periodic table. Nothing else — every equation must be memorised.",
+  "notes": [
+   "Marks per question run 3–13; the long questions are always multi-topic (a practical, then a calculation, then an explanation).",
+   "Almost every paper opens with a short recall question (atomic structure or indicators) and ends with a calculation.",
+   "At least one full question is built on a graph you must plot or read, and at least one on a practical method you must describe."
+  ]
+ },
+ "bands": [
+  {
+   "id": "nailed-on",
+   "title": "Nailed on",
+   "note": "Appeared in every single paper 2021–2025. If you revise nothing else, revise these.",
+   "items": [
+    {
+     "claim": "Collision theory, worded to the mark scheme",
+     "why": "A 3-mark explanation of how concentration, temperature or surface area changes the rate. The wording is the whole test: name the change, keep the word successful, end with more collisions per unit time.",
+     "evidence": "2021 Q8, 2022 Q3, 2023 Q7, 2024 Q3, 2025 Q1 — five for five",
+     "marks": "3",
+     "moduleIds": [
+      "07-rates-of-reaction"
+     ],
+     "mustKnow": [
+      {
+       "gist": "EVERY ANSWER SAME SHAPE: (1) WHAT CHANGE, (2) SAY \"SUCCESSFUL\", (3) MORE HIT PER TIME. ALL THREE.",
+       "exact": "The template for every factor: (1) what changed about the particles, (2) the word <strong>successful</strong>, (3) more collisions <strong>per unit time</strong>. All three, in that shape."
+      },
+      {
+       "gist": "MORE CONCENTRATED = MORE PARTICLE IN SAME SPACE = MORE HIT. NEVER SAY ENERGY HERE.",
+       "exact": "<strong>Concentration up:</strong> more particles in the same volume → more frequent collisions. NEVER mention energy here — 2024 capped such answers at 1 of 3."
+      },
+      {
+       "gist": "HOTTER = PARTICLE FASTER. MORE HIT HAVE BIG ENOUGH ENERGY (BIGGER PROPORTION SUCCEED) AND MORE HIT PER TIME. TWO SEPARATE MARK.",
+       "exact": "<strong>Temperature up:</strong> particles gain kinetic energy → more collisions have energy above the ACTIVATION ENERGY (a greater <strong>proportion</strong> are successful) → and collisions are more frequent. The proportion point is its own separate mark — do not merge it with frequency."
+      },
+      {
+       "gist": "POWDER NOT LUMP = MORE SURFACE SHOWING = MORE HIT. SAME MASS, SO SAME AMOUNT OF PRODUCT. ONLY FASTER.",
+       "exact": "<strong>Surface area up</strong> (powder not chips): more particles exposed → more frequent collisions. Same mass means the final amount of product is unchanged; only the speed changes."
+      },
+      {
+       "gist": "CATALYST = NEW PATH, AND PATH NEED LESS ENERGY. SAY BOTH HALF.",
+       "exact": "<strong>Catalyst:</strong> provides an ALTERNATIVE PATHWAY with a LOWER ACTIVATION ENERGY. Both halves — \"lowers the activation energy\" alone lost a mark in 2025."
+      },
+      {
+       "gist": "CATALYST NOT USED UP, NOT CHANGED AT END. THAT THE 2-MARK DEFINITION.",
+       "exact": "A catalyst is chemically <strong>unchanged</strong> at the end and is not used up — that is the 2-mark definition."
+      },
+      {
+       "gist": "\"MORE CHANCE OF HITTING\" = NOTHING. WORD YOU WANT IS FREQUENCY.",
+       "exact": "\"More chance of colliding\" scores nothing. The word wanted is <strong>frequency</strong>, or collisions per unit time."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Explain, in terms of collision theory, why increasing the concentration of an acid increases the rate of reaction.",
+       "marks": 3,
+       "a": "There are more acid particles in the same volume <span class=\"mp\">1</span>; so collisions are more frequent / more collisions per unit time <span class=\"mp\">1</span>; so the rate increases <span class=\"mp\">1</span>. Any mention of kinetic energy caps this at 1 mark."
+      },
+      {
+       "q": "Explain how increasing the temperature increases the rate of reaction.",
+       "marks": 3,
+       "a": "The particles gain kinetic energy / move faster <span class=\"mp\">1</span>; more collisions have energy greater than the activation energy, so a greater PROPORTION are successful <span class=\"mp\">1</span>; and collisions are more frequent <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Explain how a catalyst increases the rate of a reaction.",
+       "marks": 2,
+       "a": "It provides an alternative reaction pathway <span class=\"mp\">1</span>; with a lower activation energy <span class=\"mp\">1</span>. Both halves required."
+      }
+     ]
+    },
+    {
+     "claim": "A moles calculation: grams → moles → answer",
+     "why": "Calculations are the single biggest slice of every paper (125 marks across five years). Expect at least one mass↔moles step, and usually a gas volume at rtp or a mass of product.",
+     "evidence": "2021 Q6/Q7/Q10, 2022 Q6/Q8/Q9, 2023 Q3/Q6, 2024 Q3e/Q7/Q10, 2025 Q2b/Q4c/Q7b/Q10",
+     "marks": "8–15 across the paper",
+     "moduleIds": [
+      "05-chemical-calculations"
+     ],
+     "mustKnow": [
+      {
+       "gist": "n = MASS ÷ Mr. FLIP: MASS = n × Mr, Mr = MASS ÷ n.",
+       "exact": "<strong>n = mass ÷ Mr.</strong> Rearranged: mass = n × Mr, and Mr = mass ÷ n."
+      },
+      {
+       "gist": "Mr = ADD UP ALL Ar. BRACKET MULTIPLY EVERYTHING INSIDE. Ca(OH)₂ = 40 + 2×17 = 74.",
+       "exact": "Mr = the sum of the Ar values in the formula. Brackets multiply everything inside: Ca(OH)₂ = 40 + 2×(16+1) = 74."
+      },
+      {
+       "gist": "GAS AT rtp: VOLUME = n × 24 dm³, OR n × 24 000 cm³. CHECK UNIT ON ANSWER LINE FIRST.",
+       "exact": "<strong>Gas volume at rtp:</strong> volume = n × 24 dm³, or n × 24 000 cm³. Match the unit on the answer line BEFORE calculating."
+      },
+      {
+       "gist": "PARTICLE COUNT = n × 6.0 × 10²³.",
+       "exact": "<strong>Particles:</strong> number = n × 6.0 × 10²³."
+      },
+      {
+       "gist": "MASS QUESTION: (1) MOLE OF WHAT YOU KNOW, (2) USE EQUATION RATIO, (3) TURN INTO WHAT THEY ASK.",
+       "exact": "Reacting-mass routine: (1) moles of what you know, (2) use the balanced equation ratio, (3) convert to what is asked."
+      },
+      {
+       "gist": "EXCESS QUESTION: COMPARE MOLE WITH MOLE. NEVER MASS WITH MASS.",
+       "exact": "<strong>Excess / \"show that\" questions:</strong> compare MOLES needed against MOLES available — never masses."
+      },
+      {
+       "gist": "% YIELD = REAL MASS ÷ EXPECTED MASS × 100. TURN MOLE INTO GRAM FIRST.",
+       "exact": "<strong>% yield = actual MASS ÷ theoretical MASS × 100.</strong> Convert expected moles to grams first — 2025 rejected actual ÷ moles."
+      },
+      {
+       "gist": "EMPIRICAL: DIVIDE BY Ar (NOT ATOMIC NUMBER), DIVIDE BY SMALLEST, THEN SCALE UP. 1 : 1.33 → 3 : 4.",
+       "exact": "<strong>Empirical formula:</strong> divide each mass or % by the <strong>Ar</strong> (never the atomic number), divide by the smallest, then multiply up if you get 1 : 1.33 → 3 : 4."
+      },
+      {
+       "gist": "ALWAYS SHOW THE MOLE STEP. NO WORKING + WRONG ANSWER = ZERO. WORKING SAVE LATER MARK.",
+       "exact": "Show the moles step. A wrong answer with no working scores zero; with working, error carried forward saves the later marks."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Calculate the mass of CO₂ produced by completely decomposing 10.5 g of NaHCO₃. [2NaHCO₃ → Na₂CO₃ + H₂O + CO₂; Mr NaHCO₃ = 84, CO₂ = 44]",
+       "marks": 2,
+       "a": "n(NaHCO₃) = 10.5 ÷ 84 = 0.125 mol, and the 2:1 ratio gives n(CO₂) = 0.0625 mol <span class=\"mp\">1</span>; mass = 0.0625 × 44 = <strong>2.75 g</strong> <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "6.4 × 10⁶ g of sulfur burns to SO₂. Calculate the volume of gas at rtp, in standard form. [Ar S = 32; molar volume 24 dm³]",
+       "marks": 3,
+       "a": "n = 6.4 × 10⁶ ÷ 32 = 2.0 × 10⁵ mol <span class=\"mp\">1</span>; volume = 2.0 × 10⁵ × 24 = 4 800 000 dm³ <span class=\"mp\">1</span>; = <strong>4.8 × 10⁶ dm³</strong> <span class=\"mp\">1</span> — the last mark is purely for standard form."
+      },
+      {
+       "q": "A compound is 90.7% lead and 9.3% oxygen. Show that its empirical formula is Pb₃O₄. [Ar Pb = 207, O = 16]",
+       "marks": 4,
+       "a": "90.7 ÷ 207 = 0.438 <span class=\"mp\">1</span>; 9.3 ÷ 16 = 0.581 <span class=\"mp\">1</span>; divide by the smaller: 1 : 1.33 <span class=\"mp\">1</span>; × 3 → 3 : 4 → Pb₃O₄ <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Electrolysis: predict the products and write a half-equation",
+     "why": "Every year. Know the reactivity rule for the cathode, halide-or-oxygen for the anode, and write half-equations with the electrons on the correct side.",
+     "evidence": "2021 Q4, 2022 Q5, 2023 Q2/Q5, 2024 Q6, 2025 Q3",
+     "marks": "6–14",
+     "moduleIds": [
+      "08-electrolysis-and-redox"
+     ],
+     "mustKnow": [
+      {
+       "gist": "CATHODE = MINUS, PULL PLUS ION, ION TAKE ELECTRON = REDUCTION. ANODE = PLUS, ION GIVE ELECTRON = OXIDATION.",
+       "exact": "<strong>Cathode</strong> is negative, attracts positive ions (cations), which <strong>gain</strong> electrons = REDUCTION. <strong>Anode</strong> is positive, attracts anions, which <strong>lose</strong> electrons = OXIDATION."
+      },
+      {
+       "gist": "THE ION TAKE OR GIVE ELECTRON. SAY \"MAGNESIUM ION\", NOT \"MAGNESIUM\".",
+       "exact": "It is the <strong>ION</strong> that gains or loses electrons. 2023: \"the magnesium ION gains electrons, not the magnesium!!\""
+      },
+      {
+       "gist": "CATHODE IN SOLUTION: WHICHEVER LESS REACTIVE, METAL OR HYDROGEN. COPPER AND SILVER COME OUT. SODIUM, POTASSIUM, MAGNESIUM STAY IN — HYDROGEN COME OUT INSTEAD.",
+       "exact": "<strong>Cathode product in solution:</strong> the LESS REACTIVE of the metal and hydrogen. Copper and silver deposit; sodium, potassium and magnesium stay in solution and HYDROGEN forms instead."
+      },
+      {
+       "gist": "ANODE: HALIDE THERE → HALOGEN (Cl₂, Br₂). NO HALIDE → OXYGEN FROM WATER.",
+       "exact": "<strong>Anode product:</strong> a halide present → the halogen (Cl₂, Br₂). No halide (sulfate, nitrate) → OXYGEN from water."
+      },
+      {
+       "gist": "LEARN: Cu²⁺ + 2e⁻ → Cu · Na⁺ + e⁻ → Na · 2H⁺ + 2e⁻ → H₂ · 2Cl⁻ → Cl₂ + 2e⁻ · 2Br⁻ → Br₂ + 2e⁻ · 2H₂O → O₂ + 4H⁺ + 4e⁻.",
+       "exact": "Half-equations: Cu²⁺ + 2e⁻ → Cu · Na⁺ + e⁻ → Na · 2H⁺ + 2e⁻ → H₂ · 2Cl⁻ → Cl₂ + 2e⁻ · 2Br⁻ → Br₂ + 2e⁻ · 2H₂O → O₂ + 4H⁺ + 4e⁻."
+      },
+      {
+       "gist": "HALOGEN COME IN PAIR: 2Cl⁻ → Cl₂ + 2e⁻. Cl⁺ AND Cl₃ NOT REAL.",
+       "exact": "Halogens are <strong>diatomic</strong>: 2Cl⁻ → Cl₂ + 2e⁻. Cl⁺ and Cl₃ are invented chemistry."
+      },
+      {
+       "gist": "OXYGEN EQUATION START FROM WATER. NO O²⁻ ION IN SOLUTION.",
+       "exact": "The oxygen half-equation starts from <strong>water</strong> — there are no O²⁻ ions in a solution. 2O²⁻ → O₂ + 4e⁻ was the year group’s favourite wrong answer in 2023."
+      },
+      {
+       "gist": "SOLID IONIC NOT CONDUCT BECAUSE ION STUCK IN LATTICE. NEVER SAY ELECTRON.",
+       "exact": "Solid ionic compounds do not conduct because the <strong>ions</strong> are fixed in the lattice — never say electrons."
+      },
+      {
+       "gist": "NaCl SOLUTION: H⁺ TAKEN AT CATHODE, OH⁻ LEFT BEHIND. GO ALKALINE. INDICATOR TURN BLUE/PURPLE.",
+       "exact": "Electrolysing NaCl(aq): H⁺ is removed at the cathode leaving OH⁻, so the solution there turns <strong>alkaline</strong> and universal indicator goes blue/purple."
+      },
+      {
+       "gist": "GAS TEST: LIT SPLINT POP = HYDROGEN · GLOWING SPLINT RELIGHT = OXYGEN · LITMUS BLEACH = CHLORINE · LIMEWATER MILKY = CO₂.",
+       "exact": "Gas tests: LIT splint squeaky pop = hydrogen · GLOWING splint relights = oxygen · damp litmus bleached = chlorine · limewater milky = CO₂."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Molten lead(II) bromide is electrolysed. Write the anode half-equation and explain why it is oxidation.",
+       "marks": 2,
+       "a": "2Br⁻ → Br₂ + 2e⁻ <span class=\"mp\">1</span>; oxidation because the bromide <strong>ions</strong> lose electrons <span class=\"mp\">1</span>. \"Bromine loses electrons\" is rejected."
+      },
+      {
+       "q": "Explain why hydrogen, not sodium, forms at the cathode when sodium chloride SOLUTION is electrolysed.",
+       "marks": 1,
+       "a": "Sodium is more reactive than hydrogen, so the hydrogen ions are discharged instead <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Universal indicator is added near the negative electrode during electrolysis of NaCl(aq). State the colour and name the ion responsible.",
+       "marks": 2,
+       "a": "Blue/purple <span class=\"mp\">1</span>; hydroxide ions, OH⁻, left behind as H⁺ is discharged <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Complete the anode half-equation for dilute sulfuric acid: ......H₂O → ......H⁺ + ......O₂ + ......e⁻",
+       "marks": 1,
+       "a": "<strong>2</strong>H₂O → <strong>4</strong>H⁺ + O₂ + <strong>4</strong>e⁻ <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Describe a method to make a pure, dry salt",
+     "why": "The department's favourite long-answer. Which of the three methods you pick is the real question — check the solubility rules before writing a word.",
+     "evidence": "2021 Q5, 2022 Q7, 2023 Q10, 2024 Q10b, 2025 Q2a and Q7a",
+     "marks": "3–5",
+     "moduleIds": [
+      "04-acids-alkalis-and-salts"
+     ],
+     "mustKnow": [
+      {
+       "gist": "CHECK SOLUBILITY RULE FIRST. THAT TELL YOU WHICH OF THREE METHOD TO WRITE.",
+       "exact": "<strong>Check the solubility rules for the salt you want FIRST</strong> — that decides which of the three methods you write."
+      },
+      {
+       "gist": "RULE: SODIUM, POTASSIUM, AMMONIUM ALL DISSOLVE · NITRATE ALL DISSOLVE · CHLORIDE YES EXCEPT SILVER AND LEAD · SULFATE YES EXCEPT BARIUM, CALCIUM, LEAD · CARBONATE NO (EXCEPT Na/K/NH₄) · HYDROXIDE NO (EXCEPT Na/K).",
+       "exact": "Rules: all sodium, potassium and ammonium salts soluble · all nitrates soluble · chlorides soluble EXCEPT silver and lead(II) · sulfates soluble EXCEPT barium, calcium, lead(II) · carbonates insoluble except Na/K/NH₄ · hydroxides insoluble except Na/K (Ca slightly)."
+      },
+      {
+       "gist": "METHOD 1, SALT DISSOLVE + SOLID NOT: ADD SOLID TILL EXTRA LEFT · FILTER EXTRA OUT · HEAT TILL CRYSTAL START · COOL · POUR LIQUID OFF · DRY (SAY HOW).",
+       "exact": "<strong>Method 1 — soluble salt + insoluble solid:</strong> add solid until in EXCESS (so all the acid reacts) · FILTER off the excess · heat the filtrate to the CRYSTALLISATION POINT · cool and crystallise · pour off the liquid · DRY with a named method."
+      },
+      {
+       "gist": "METHOD 2, BOTH DISSOLVE: TITRATE WITH INDICATOR TO GET VOLUME · DO AGAIN SAME VOLUME NO INDICATOR · THEN CRYSTALLISE.",
+       "exact": "<strong>Method 2 — soluble salt, both reactants soluble:</strong> titrate with indicator to find the volumes · repeat with the same volumes WITHOUT indicator · crystallise as above."
+      },
+      {
+       "gist": "METHOD 3, SALT NOT DISSOLVE: MIX TWO SOLUTION · FILTER · WASH THE SOLID WITH DISTILLED WATER · DRY GENTLE.",
+       "exact": "<strong>Method 3 — insoluble salt:</strong> MIX TWO SOLUTIONS · filter · WASH THE RESIDUE with distilled water · dry gently (filter paper or warm oven, never a Bunsen)."
+      },
+      {
+       "gist": "NEVER BOIL DRY. WATER OF CRYSTALLISATION GO AWAY. CAP YOU AT 1 MARK.",
+       "exact": "NEVER heat to dryness for hydrated crystals — caps the answer at 1 mark, because the water of crystallisation is driven off."
+      },
+      {
+       "gist": "\"LEAVE TO DRY\" NOT ENOUGH. SAY HOW: FILTER PAPER, WARM PLACE, WARM OVEN.",
+       "exact": "\"Leave the crystals to dry\" without a method loses the final mark. Name it: filter paper, warm place, warm oven."
+      },
+      {
+       "gist": "IN PRECIPITATION THE SALT YOU WANT IS THE SOLID LEFT BEHIND, NOT THE LIQUID.",
+       "exact": "In a precipitation the salt you want is the <strong>residue</strong>, not the filtrate."
+      },
+      {
+       "gist": "CANNOT FILTER OUT A SALT THAT DISSOLVE. SODIUM SALT ALWAYS DISSOLVE.",
+       "exact": "You cannot filter out a soluble salt — sodium salts are always soluble."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Describe how to obtain pure, dry crystals of zinc nitrate from zinc powder and dilute nitric acid.",
+       "marks": 5,
+       "a": "Add excess zinc so all the acid reacts, then FILTER off the excess <span class=\"mp\">1</span>; heat the filtrate to the crystallisation point <span class=\"mp\">1</span>; leave to cool and crystallise <span class=\"mp\">1</span>; pour off or filter the remaining liquid <span class=\"mp\">1</span>; dry with filter paper or in a warm oven <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Describe how to obtain pure, dry lead(II) bromide from lead(II) nitrate solution and sodium bromide solution.",
+       "marks": 4,
+       "a": "Mix the two SOLUTIONS <span class=\"mp\">1</span>; filter <span class=\"mp\">1</span>; wash the RESIDUE with distilled water <span class=\"mp\">1</span>; dry with filter paper or in a warm oven, not by direct heating <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "A student plans to make hydrated magnesium sulfate using nitric acid and \"a solution of magnesium carbonate\", then boiling off all the water. Identify the three mistakes.",
+       "marks": 3,
+       "a": "Wrong acid — a sulfate needs SULFURIC acid <span class=\"mp\">1</span>; magnesium carbonate is INSOLUBLE, so there is no solution of it — add the solid <span class=\"mp\">1</span>; boiling to dryness destroys the hydrated crystals — heat to the crystallisation point and cool <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Structure and bonding explaining a physical property",
+     "why": "Melting point, conductivity or hardness explained from the structure. Choose the right model first: giant ionic, giant covalent, simple molecular or metallic.",
+     "evidence": "2021 Q2/Q3, 2022 Q10, 2023 Q2b/Q6e, 2024 Q3a/Q9b, 2025 Q4a/Q6e",
+     "marks": "4–9",
+     "moduleIds": [
+      "02-bonding-and-structures"
+     ],
+     "mustKnow": [
+      {
+       "gist": "PICK THE STRUCTURE FIRST: GIANT IONIC, GIANT COVALENT, SIMPLE MOLECULAR, GIANT METALLIC. WRONG ONE = ZERO, NOT HALF.",
+       "exact": "<strong>Decide the structure first:</strong> giant ionic, giant covalent, simple molecular, or giant metallic. The wrong model scores zero, not partial credit."
+      },
+      {
+       "gist": "GIANT IONIC HIGH MELT (3 MARK): GIANT LATTICE · STRONG PULL BETWEEN OPPOSITE ION · LOTS OF ENERGY TO BREAK. SAY MOLECULE OR COVALENT HERE = ZERO.",
+       "exact": "<strong>Giant ionic high melting point (3 marks):</strong> giant ionic lattice · STRONG attraction between OPPOSITELY CHARGED IONS · lots of energy to overcome. Any covalent/molecule/IMF language = 0 marks (2025)."
+      },
+      {
+       "gist": "SIMPLE MOLECULAR LOW BOIL (2 MARK): WEAK FORCE BETWEEN MOLECULE · LITTLE ENERGY TO BREAK. SAY COVALENT BOND HERE = ZERO.",
+       "exact": "<strong>Simple molecular low boiling point (2 marks):</strong> WEAK intermolecular forces BETWEEN MOLECULES · little energy to overcome them. Any reference to breaking covalent bonds = 0/2 (2021)."
+      },
+      {
+       "gist": "BIGGER MOLECULE = STRONGER FORCE BETWEEN THEM = HIGHER BOILING. BETWEEN MOLECULE, NOT BETWEEN ATOM.",
+       "exact": "Bigger molecules → stronger intermolecular forces → higher boiling point. Forces between <strong>molecules</strong>, never between atoms."
+      },
+      {
+       "gist": "GIANT COVALENT (DIAMOND, GRAPHITE, SiO₂): MELTING DO BREAK COVALENT BOND. ONLY PLACE THAT TRUE.",
+       "exact": "<strong>Giant covalent</strong> (diamond, graphite, SiO₂): melting BREAKS COVALENT BONDS — the one place that phrase is correct."
+      },
+      {
+       "gist": "C₆₀ IS SIMPLE MOLECULAR EVEN WITH 60 ATOM, SO MELT WAY BELOW GRAPHITE. NEVER PUT WEAK FORCE IN GRAPHITE.",
+       "exact": "<strong>C₆₀ fullerene is simple molecular</strong> despite 60 atoms, so it melts far below graphite. Never put intermolecular forces in graphite."
+      },
+      {
+       "gist": "COVALENT BOND = SHARED PAIR PULLED BY NUCLEI OF BOTH ATOM. SAY BOTH — \"NUCLEUS\" LOSE MARK.",
+       "exact": "A covalent bond = a SHARED PAIR of electrons attracted to the <strong>nuclei of BOTH atoms</strong>. Plural — \"nucleus\" loses the mark."
+      },
+      {
+       "gist": "METALLIC = PLUS ION IN SEA OF DELOCALISED ELECTRON. NOT PROTON. BENDY BECAUSE LAYER OF ION SLIDE.",
+       "exact": "<strong>Metallic:</strong> positive IONS in a sea of DELOCALISED ELECTRONS (\"protons\" is rejected). Malleable because LAYERS OF IONS SLIDE over one another."
+      },
+      {
+       "gist": "CONDUCT: METAL AND GRAPHITE BY ELECTRON · IONIC ONLY WHEN MELTED OR DISSOLVED, BECAUSE ION CAN MOVE · SIMPLE MOLECULAR NEVER.",
+       "exact": "<strong>Conduction:</strong> metals and graphite via delocalised electrons · ionic only when MOLTEN or DISSOLVED because then the IONS move · simple molecular never."
+      },
+      {
+       "gist": "IONIC STORY MUST COUNT ELECTRON: \"MAGNESIUM LOSE TWO, OXYGEN GAIN TWO\".",
+       "exact": "Ionic bonding stories must COUNT the electrons: \"magnesium loses TWO electrons, oxygen gains TWO\"."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Explain why magnesium oxide has a very high melting point.",
+       "marks": 3,
+       "a": "Giant ionic structure/lattice <span class=\"mp\">1</span>; strong electrostatic attractions between oppositely charged ions <span class=\"mp\">1</span>; a lot of energy is needed to overcome them <span class=\"mp\">1</span>. Covalent/molecule/IMF language scores 0."
+      },
+      {
+       "q": "The bonding in a hydrogen molecule is strong, yet hydrogen boils at −253 °C. Explain why.",
+       "marks": 2,
+       "a": "There are only weak intermolecular forces between the molecules <span class=\"mp\">1</span>; so little energy is needed to overcome them and separate the molecules <span class=\"mp\">1</span>. Bond-breaking answers score 0/2."
+      },
+      {
+       "q": "Explain why C₆₀ fullerene has a much lower melting point than graphite.",
+       "marks": 4,
+       "a": "Graphite is giant covalent <span class=\"mp\">1</span>; melting graphite breaks covalent bonds <span class=\"mp\">1</span>; C₆₀ is simple molecular <span class=\"mp\">1</span>; melting C₆₀ only overcomes intermolecular forces, needing far less energy <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Explain why magnesium is malleable.",
+       "marks": 2,
+       "a": "The positive ions are arranged in layers <span class=\"mp\">1</span>; the layers slide over one another while the metallic bonding is maintained <span class=\"mp\">1</span>. No intermolecular forces here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "very-likely",
+   "title": "Very likely — repeated almost verbatim",
+   "note": "These have been re-set with the same wording and the same mark scheme. Learn the mark points, not just the topic.",
+   "items": [
+    {
+     "claim": "The fractional distillation four-marker",
+     "why": "Three years running, identical mark scheme: heated/vaporised · vapours RISE · hotter at the bottom · each condenses where the column is cooler than its boiling point. The two marks that go missing are 'rise' and tying condensation to the boiling point.",
+     "evidence": "2023 Q11, 2024 Q9a, 2025 Q8a",
+     "marks": "4",
+     "moduleIds": [
+      "10-crude-oil-and-alkanes"
+     ],
+     "mustKnow": [
+      {
+       "gist": "FOUR MARK IN ORDER: (1) HEAT IT TO VAPOUR · (2) VAPOUR RISE · (3) BOTTOM HOTTER THAN TOP · (4) EACH VAPOUR RISE TILL IT CONDENSE, WHERE COLUMN COLDER THAN ITS BOILING POINT.",
+       "exact": "The four mark points in order: (1) the oil is <strong>heated / vaporised</strong> · (2) the vapours <strong>RISE</strong> up the column · (3) the column is <strong>hotter at the bottom</strong> · (4) each vapour rises until it <strong>condenses</strong>, where the column temperature falls BELOW ITS BOILING POINT."
+      },
+      {
+       "gist": "TWO MARK ALWAYS LOST: THE WORD \"RISE\", AND TYING CONDENSING TO BOILING POINT. \"TURN TO LIQUID\" NOT ENOUGH.",
+       "exact": "The two marks that go missing every year are \"rise\" and tying condensation to the BOILING POINT. \"Turns to liquid\" alone is not enough."
+      },
+      {
+       "gist": "FRACTIONATING COLUMN = THE KIT. FRACTIONAL DISTILLATION = THE PROCESS. READ WHICH THEY ASK.",
+       "exact": "<strong>Fractionating column</strong> = the equipment; <strong>fractional distillation</strong> = the process. 2022 asked for the equipment and ignored the process name."
+      },
+      {
+       "gist": "TOP TO BOTTOM: REFINERY GAS · PETROL · KEROSENE · DIESEL · FUEL OIL · BITUMEN.",
+       "exact": "Fractions top to bottom: refinery gases · gasoline (petrol) · kerosene (jet fuel) · diesel · fuel oil (ships, power stations) · bitumen (roads)."
+      },
+      {
+       "gist": "GOING DOWN: LONGER · HIGHER BOILING · DARKER · THICKER · HARDER TO BURN.",
+       "exact": "Going DOWN: longer molecules · higher boiling point · darker · more viscous · less flammable."
+      },
+      {
+       "gist": "FRACTION = HYDROCARBON WITH SIMILAR BOILING POINT. CRUDE OIL = MIXTURE. HYDROCARBON = HYDROGEN AND CARBON ONLY.",
+       "exact": "A fraction = hydrocarbons with SIMILAR BOILING POINTS. Crude oil is a MIXTURE of hydrocarbons — compounds of hydrogen and carbon ONLY."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Describe how crude oil is separated into fractions in a fractionating column.",
+       "marks": 4,
+       "a": "The crude oil is heated/vaporised <span class=\"mp\">1</span>; the vapours rise up the column <span class=\"mp\">1</span>; the column is hotter at the bottom than the top <span class=\"mp\">1</span>; each vapour rises until it condenses, where the column temperature is below its boiling point <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Explain why a hydrocarbon in fuel oil has a higher boiling point than one in refinery gases.",
+       "marks": 3,
+       "a": "Fuel oil molecules have longer chains <span class=\"mp\">1</span>; stronger intermolecular forces between the molecules <span class=\"mp\">1</span>; more energy needed to overcome them <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "\"Explain the role of carbon\" — reducing agent, removes oxygen",
+     "why": "Asked in consecutive years with the same two mark points, and fluffed both times. Say reducing agent, then say it REMOVES oxygen from the fully named compound.",
+     "evidence": "2024 Q8c and 2025 Q6c — the same question twice",
+     "marks": "2",
+     "moduleIds": [
+      "09-metal-extraction",
+      "08-electrolysis-and-redox"
+     ],
+     "mustKnow": [
+      {
+       "gist": "TWO MARK, TWO FACT: (1) CARBON IS THE REDUCING AGENT · (2) IT REMOVE OXYGEN FROM [FULL NAME OF COMPOUND].",
+       "exact": "Two marks, two facts: (1) carbon is the <strong>reducing agent</strong> · (2) it <strong>REMOVES OXYGEN FROM</strong> [the full name of the compound]."
+      },
+      {
+       "gist": "NO MARK FOR \"REACT WITH OXYGEN\" OR \"DISPLACE OXYGEN\". WORD IS REMOVE.",
+       "exact": "Rejected: \"reacts with the oxygen\", \"displaces the oxygen\". The word wanted is REMOVES (or the compound LOSES oxygen)."
+      },
+      {
+       "gist": "NAME THE WHOLE COMPOUND — CALCIUM PHOSPHATE, IRON(III) OXIDE. NOT JUST THE METAL.",
+       "exact": "Name the WHOLE compound — calcium phosphate, copper(II) oxide, iron(III) oxide — not just the metal."
+      },
+      {
+       "gist": "REDUCTION = LOSE OXYGEN. OXIDATION = GAIN OXYGEN. REDUCING AGENT GET OXIDISED ITSELF.",
+       "exact": "REDUCTION = loss of oxygen. OXIDATION = gain of oxygen. The reducing agent is itself oxidised."
+      },
+      {
+       "gist": "REDOX ANSWER NAME BOTH: \"ALUMINIUM OXIDISED, GAIN OXYGEN; IRON(III) OXIDE REDUCED, LOSE OXYGEN\". \"IRON IS REDUCED\" LOSE MARK.",
+       "exact": "In a redox explanation name BOTH species and BOTH directions: \"aluminium is oxidised because it gains oxygen; iron(III) OXIDE is reduced because it loses oxygen\". \"Iron is reduced\" loses the mark."
+      },
+      {
+       "gist": "\"OXIDATION AND REDUCTION HAPPEN TOGETHER\" ALONE = NOTHING.",
+       "exact": "\"Oxidation and reduction happen at the same time\" on its own scores nothing."
+      }
+     ],
+     "practice": [
+      {
+       "q": "In Ca₃(PO₄)₂ + 8C → Ca₃P₂ + 8CO, explain the role of carbon.",
+       "marks": 2,
+       "a": "Carbon is the reducing agent <span class=\"mp\">1</span>; it removes the oxygen from the calcium phosphate <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Explain why 2Al + Fe₂O₃ → Al₂O₃ + 2Fe is a redox reaction.",
+       "marks": 2,
+       "a": "Aluminium is oxidised because it gains oxygen <span class=\"mp\">1</span>; iron(III) oxide is reduced because it loses oxygen <span class=\"mp\">1</span>. \"Iron is reduced\" loses the mark."
+      }
+     ]
+    },
+    {
+     "claim": "Sulfur → SO₂ gas volume, answer in standard form",
+     "why": "Re-used word for word between two papers, down to the 6.4 tonnes. Third mark is purely for standard form.",
+     "evidence": "2022 Q8, repeated as 2023 Q6a(ii)",
+     "marks": "3",
+     "moduleIds": [
+      "05-chemical-calculations"
+     ],
+     "mustKnow": [
+      {
+       "gist": "THREE MARK: (1) MOLE = MASS ÷ 32 · (2) × 24 FOR dm³ · (3) WRITE IT IN STANDARD FORM.",
+       "exact": "Three marks: (1) moles of sulfur = mass ÷ 32 · (2) × 24 for the volume in dm³ · (3) the answer <strong>in standard form</strong>."
+      },
+      {
+       "gist": "6.4 TONNE = 6.4 × 10⁶ g. TONNE TO GRAM IS × 10⁶.",
+       "exact": "6.4 tonnes = 6.4 × 10⁶ g. Tonnes → grams is × 10⁶."
+      },
+      {
+       "gist": "6.4 × 10⁶ ÷ 32 = 2.0 × 10⁵ mol → × 24 = 4 800 000 → 4.8 × 10⁶ dm³.",
+       "exact": "6.4 × 10⁶ ÷ 32 = 2.0 × 10⁵ mol → × 24 = 4 800 000 → <strong>4.8 × 10⁶ dm³</strong>."
+      },
+      {
+       "gist": "WRITE 4 800 000 AND YOU GET 2 OF 3. THIRD MARK ONLY FOR THE NOTATION.",
+       "exact": "Writing 4 800 000 without standard form scores 2 of 3 — the third mark is purely for the notation."
+      },
+      {
+       "gist": "S : SO₂ IS 1 : 1, SO MOLE GO STRAIGHT ACROSS.",
+       "exact": "The S : SO₂ ratio is 1 : 1, so the moles carry straight across."
+      },
+      {
+       "gist": "THIS EXACT SUM, SAME NUMBER, CAME UP ON TWO PAPERS.",
+       "exact": "This exact question, with the same numbers, appeared on two different papers."
+      }
+     ],
+     "practice": [
+      {
+       "q": "3.2 tonnes of sulfur is burned to SO₂. Calculate the volume of gas at rtp, in standard form. [Ar S = 32; molar volume 24 dm³]",
+       "marks": 3,
+       "a": "n = 3.2 × 10⁶ ÷ 32 = 1.0 × 10⁵ mol <span class=\"mp\">1</span>; volume = 1.0 × 10⁵ × 24 = 2 400 000 dm³ <span class=\"mp\">1</span>; = <strong>2.4 × 10⁶ dm³</strong> <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Read a solubility curve, then find the mass that crystallises on cooling",
+     "why": "Four of five years, and growing (4 marks in 2022–23, 10 marks in 2024 and 2025). Two readings and a subtraction — with the construction lines drawn on the graph.",
+     "evidence": "2022 Q4, 2023 Q12, 2024 Q2, 2025 Q5",
+     "marks": "4–10",
+     "moduleIds": [
+      "06-solubility"
+     ],
+     "mustKnow": [
+      {
+       "gist": "SOLUBILITY = GRAM THAT FILL UP 100 g OF WATER AT A GIVEN TEMPERATURE. ALWAYS SAY THE TEMPERATURE.",
+       "exact": "Solubility = grams of solute saturating <strong>100 g of water</strong> at a stated temperature. The temperature must always be given."
+      },
+      {
+       "gist": "MASS THAT COME OUT ON COOLING = HOT VALUE − COLD VALUE, THEN SCALE TO THE WATER USED.",
+       "exact": "<strong>Mass crystallising on cooling</strong> = (solubility hot) − (solubility cold), then scaled to the water actually used."
+      },
+      {
+       "gist": "SCALE STRAIGHT: 250 g OF WATER = × 2.5. TABLE PER 25 cm³ = × 4. 1 cm³ WATER WEIGH 1 g.",
+       "exact": "Scale linearly: per 250 g of water × 2.5. If the table is per 25 cm³, × 4 — 1 cm³ of water has a mass of 1 g."
+      },
+      {
+       "gist": "WHERE TWO CURVE CROSS, BOTH SALT SAME SOLUBILITY. DROP A LINE DOWN AND SHOW IT.",
+       "exact": "Where two curves <strong>cross</strong>, the salts have equal solubility. Drop a vertical line and SHOW it."
+      },
+      {
+       "gist": "SHOW YOUR LINES FOR EVERY VALUE YOU READ. LINES CARRY THEIR OWN MARK.",
+       "exact": "<strong>Show your construction lines</strong> for every value read off — they carry their own mark, penalised in 2023, 2024 and 2025."
+      },
+      {
+       "gist": "READ THE CURVE THEY NAME. EASY TO READ THE WRONG ONE.",
+       "exact": "Read the curve the question <strong>names</strong>. 2023: several read the wrong curve entirely."
+      },
+      {
+       "gist": "SATURATED = NO MORE WILL DISSOLVE AT THAT TEMPERATURE.",
+       "exact": "A saturated solution = no more solute will dissolve AT THAT TEMPERATURE."
+      },
+      {
+       "gist": "NEAR 100 °C LESS ACCURATE BECAUSE WATER EVAPORATE.",
+       "exact": "Values near 100 °C are less accurate because water EVAPORATES during the experiment."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Solubility is 45 g/100 g at 60 °C and 13 g/100 g at 10 °C. A saturated solution in 100 g of water cools from 60 to 10 °C. Calculate the mass that crystallises.",
+       "marks": 2,
+       "a": "Read both values, 45 and 13 <span class=\"mp\">1</span>; 45 − 13 = <strong>32 g</strong> <span class=\"mp\">1</span>. Show the construction lines."
+      },
+      {
+       "q": "A table gives 24 g of salt dissolving in 25 cm³ of water. Calculate the solubility in g per 100 g of water.",
+       "marks": 2,
+       "a": "1 cm³ of water = 1 g, so 25 cm³ = 25 g of water <span class=\"mp\">1</span>; × 4 → <strong>96 g per 100 g</strong> <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Water of crystallisation: find x in a hydrated salt",
+     "why": "Three appearances with the same shape — masses before and after heating to constant mass, then a mole ratio. Also expect \"why is x too low?\" (not heated long enough).",
+     "evidence": "2021 Q7 (x=4), 2022 Q6 (x=7), 2025 Q2b (x=10)",
+     "marks": "3–6",
+     "moduleIds": [
+      "05-chemical-calculations"
+     ],
+     "mustKnow": [
+      {
+       "gist": "HEAT CRYSTAL TILL MASS STOP CHANGING. WHAT LEFT = DRY SALT. WHAT LOST = WATER.",
+       "exact": "The method: heat the hydrated crystals to <strong>constant mass</strong>. The mass remaining = anhydrous salt; the mass LOST = water."
+      },
+      {
+       "gist": "THEN: MOLE OF SALT = MASS ÷ Mr · MOLE OF WATER = MASS ÷ 18 · DIVIDE BOTH BY SMALLER → 1 : x.",
+       "exact": "Then: moles of salt = mass ÷ Mr · moles of water = mass ÷ 18 · divide both by the smaller → the ratio 1 : x."
+      },
+      {
+       "gist": "\"CONSTANT MASS\" = HEAT, COOL, WEIGH, AGAIN AND AGAIN TILL MASS STOP MOVING. THAT THE PROOF.",
+       "exact": "<strong>Heating to constant mass</strong> = repeatedly heating, cooling and reweighing until the mass stops changing — the proof all the water has gone."
+      },
+      {
+       "gist": "x TOO SMALL? NOT HEATED LONG ENOUGH, WATER STILL IN. FIX: HEAT AGAIN TO CONSTANT MASS.",
+       "exact": "If x comes out <strong>too low</strong>: not heated long enough, so not all the water was driven off. Fix: reheat to constant mass."
+      },
+      {
+       "gist": "HYDRATED = HAS WATER OF CRYSTALLISATION, WRITTEN ·xH₂O. WITHOUT IT = ANHYDROUS.",
+       "exact": "\"Hydrated\" means it contains WATER OF CRYSTALLISATION, written ·xH₂O. Without it: anhydrous."
+      },
+      {
+       "gist": "Mr OF WATER = 18. MOST USED NUMBER HERE.",
+       "exact": "Mr of water is 18 — the most-used number in this calculation."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Heating Na₂CO₃·xH₂O gives 3.18 g of Na₂CO₃ and loses 3.78 g of water. Show that x = 7. [Mr Na₂CO₃ = 106]",
+       "marks": 3,
+       "a": "n(Na₂CO₃) = 3.18 ÷ 106 = 0.03 <span class=\"mp\">1</span>; n(H₂O) = 3.78 ÷ 18 = 0.21 <span class=\"mp\">1</span>; 0.21 ÷ 0.03 = 7, so x = 7 <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "A student’s value of x is lower than the true value. Explain why, and how to improve the method.",
+       "marks": 2,
+       "a": "The crystals were not heated long enough, so not all the water of crystallisation was removed <span class=\"mp\">1</span>; reheat, cool and reweigh until the mass is constant <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "A dot-and-cross diagram",
+     "why": "Four years out of five, a different molecule each time (HCl, N₂, NH₃, H₂O₂). Two marks: the bonding pairs, then everything else exactly right.",
+     "evidence": "2021 Q2d, 2022 Q10a, 2023 Q4a, 2024 Q3a",
+     "marks": "2",
+     "moduleIds": [
+      "02-bonding-and-structures"
+     ],
+     "mustKnow": [
+      {
+       "gist": "TWO MARK: (1) RIGHT NUMBER OF BONDING PAIR, (2) EVERYTHING ELSE RIGHT — THE LONE PAIR.",
+       "exact": "Two marks: (1) the correct <strong>bonding pairs</strong>, (2) everything else correct — the lone pairs."
+      },
+      {
+       "gist": "OUTER ELECTRON ONLY. DOT OR CROSS, EITHER FINE.",
+       "exact": "Show OUTER electrons only unless told otherwise. Any mix of dots and crosses is accepted."
+      },
+      {
+       "gist": "COUNT OUTER ELECTRON, GIVE EVERY ATOM FULL SHELL. HYDROGEN 2, REST 8.",
+       "exact": "Count each atom’s outer electrons and give every atom a full shell (2 for hydrogen, 8 for the rest)."
+      },
+      {
+       "gist": "ONES THAT COME UP: HCl 1 SHARED + 3 LONE ON Cl · NH₃ 3 BONDING + 1 LONE ON N · H₂O₂ 3 BONDING + 2 LONE ON EACH O · N₂ TRIPLE BOND, 6 SHARED, 1 LONE EACH.",
+       "exact": "The ones that have come up: <strong>HCl</strong> — one shared pair, three lone pairs on Cl · <strong>NH₃</strong> — three bonding pairs, one lone pair on N · <strong>H₂O₂</strong> (H–O–O–H) — three bonding pairs, two lone pairs on each O · <strong>N₂</strong> — a TRIPLE bond, SIX shared electrons, one lone pair on each N."
+      },
+      {
+       "gist": "WATER = 2 BONDING + 2 LONE ON OXYGEN. METHANE = 4 BONDING, NO LONE.",
+       "exact": "Water H₂O — two bonding pairs, two lone pairs on oxygen. Methane CH₄ — four bonding pairs, no lone pairs."
+      },
+      {
+       "gist": "IONIC ONE: SHOW THE MOVE AND THE CHARGE. Na⁺ [2.8] AND Cl⁻ [2.8.8] IN SQUARE BRACKET.",
+       "exact": "For an IONIC dot-and-cross, show the transfer and the charges: Na⁺ [2.8] and Cl⁻ [2.8.8] in square brackets."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Draw a dot-and-cross diagram for ammonia, NH₃, showing outer electrons only.",
+       "marks": 2,
+       "a": "Three N–H bonding pairs <span class=\"mp\">1</span>; one lone pair on the nitrogen and the rest fully correct <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "How many electrons are shared in N₂, and what does each atom keep?",
+       "marks": 2,
+       "a": "Six electrons shared — a triple bond <span class=\"mp\">1</span>; each nitrogen keeps one lone pair <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Alkanes: isomers, displayed formulae, and CH₄ + Br₂ substitution",
+     "why": "The organic block is worth ~14 marks a year. Expect to define isomers (say MOLECULAR formula), draw displayed formulae with every C–H bond, and name substitution with UV light.",
+     "evidence": "2021 Q9, 2022 Q11, 2023 Q8, 2024 Q4, 2025 Q9",
+     "marks": "6–13",
+     "moduleIds": [
+      "10-crude-oil-and-alkanes"
+     ],
+     "mustKnow": [
+      {
+       "gist": "ISOMER = SAME MOLECULAR FORMULA, DIFFERENT SHAPE DRAWN. SAY \"MOLECULAR\", NOT \"CHEMICAL\".",
+       "exact": "<strong>Isomers = same MOLECULAR formula, different structural/displayed formulae.</strong> \"Same chemical formula\" lost the mark in 2023."
+      },
+      {
+       "gist": "CₙH₂ₙ₊₂. METHANE CH₄ · ETHANE C₂H₆ · PROPANE C₃H₈ · BUTANE C₄H₁₀ · PENTANE C₅H₁₂.",
+       "exact": "General formula CₙH₂ₙ₊₂. Methane CH₄ · ethane C₂H₆ · propane C₃H₈ · butane C₄H₁₀ · pentane C₅H₁₂."
+      },
+      {
+       "gist": "DISPLAYED = DRAW EVERY ATOM AND EVERY BOND, INCLUDING ALL C–H. A LUMP LIKE –CH₃ = NO MARK.",
+       "exact": "<strong>Displayed formula = every atom and every bond drawn</strong>, including all C–H bonds. A –CH₃ written as a lump is rejected."
+      },
+      {
+       "gist": "EVERY CARBON NEED EXACTLY FOUR BOND. COUNT BEFORE YOU MOVE ON.",
+       "exact": "Every carbon must have exactly FOUR bonds. Count them before moving on."
+      },
+      {
+       "gist": "C₄H₁₀ HAS TWO: BUTANE, METHYLPROPANE. C₅H₁₂ HAS THREE: PENTANE, 2-METHYLBUTANE, 2,2-DIMETHYLPROPANE.",
+       "exact": "C₄H₁₀ has two isomers: butane and methylpropane. C₅H₁₂ has three: pentane, 2-methylbutane, 2,2-dimethylpropane."
+      },
+      {
+       "gist": "CH₄ + Br₂ → CH₃Br + HBr, NEED UV LIGHT. TYPE = SUBSTITUTION. NOT ADDITION, NOT DISPLACEMENT.",
+       "exact": "CH₄ + Br₂ → CH₃Br + HBr, requiring <strong>ultraviolet light</strong>. The type is <strong>substitution</strong> — not displacement, addition or reduction."
+      },
+      {
+       "gist": "WRITE HBr, NOT HBR. WRITE PROPANE, NOT \"TRIANE\".",
+       "exact": "Case matters: HBr, not HBR. Spelling matters: propane, not \"triane\"."
+      },
+      {
+       "gist": "ALKANE ARE SATURATED — ONLY SINGLE C–C BOND — SO THEY SWAP ATOM, NOT ADD.",
+       "exact": "Alkanes are SATURATED — only single C–C bonds — which is why they substitute rather than add."
+      },
+      {
+       "gist": "FULL BURN GIVE CO₂ AND WATER. NOT HYDROGEN. BAD BURN GIVE CARBON MONOXIDE — POISON, IT CUT HOW MUCH OXYGEN BLOOD CAN CARRY.",
+       "exact": "Complete combustion gives <strong>carbon dioxide and WATER</strong> (\"hydrogen\" is the classic error). Incomplete gives carbon monoxide, poisonous because it <strong>reduces the capacity of the blood to carry oxygen</strong>."
+      }
+     ],
+     "practice": [
+      {
+       "q": "State what is meant by isomers, then name the two isomers of C₄H₁₀.",
+       "marks": 3,
+       "a": "Same MOLECULAR formula <span class=\"mp\">1</span>; different structural/displayed formulae <span class=\"mp\">1</span>; butane and methylpropane <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Methane reacts with bromine. Give both products, the condition needed, and the reaction type.",
+       "marks": 4,
+       "a": "CH₃Br <span class=\"mp\">1</span> and HBr <span class=\"mp\">1</span>; ultraviolet light <span class=\"mp\">1</span>; substitution <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Write the balanced equation for the complete combustion of ethane, C₂H₆.",
+       "marks": 2,
+       "a": "Products CO₂ and H₂O <span class=\"mp\">1</span>; 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Balance an equation and add state symbols",
+     "why": "Woven through every paper rather than asked alone. The marks are lost to missing balancing numbers and to writing a dissolved salt as (s).",
+     "evidence": "2021 Q8a, 2022 Q3b, 2023 Q9b, 2024 Q5a/Q8, 2025 Q4b/Q6c–d",
+     "marks": "2–5",
+     "moduleIds": [
+      "03-formulae-and-equations"
+     ],
+     "mustKnow": [
+      {
+       "gist": "BALANCE WITH BIG NUMBER IN FRONT ONLY. NEVER CHANGE THE LITTLE NUMBER — THAT MAKE A DIFFERENT SUBSTANCE.",
+       "exact": "Balance with the <strong>big numbers in front only</strong>. Never change a subscript — that invents a different substance."
+      },
+      {
+       "gist": "WRITE FORMULA RIGHT FIRST, THEN BALANCE, THEN COUNT EVERY ELEMENT AGAIN.",
+       "exact": "Write correct formulae FIRST (from the ion charges), then balance, then RECOUNT every element."
+      },
+      {
+       "gist": "MARK: FORMULA 1, BALANCING 1. MOST COMMON LOSS = FORGOT THE BIG NUMBER.",
+       "exact": "Marks are usually: formulae <span class=\"mp\">1</span>, balancing <span class=\"mp\">1</span>. 2024: \"many got close but did not include balancing numbers\"."
+      },
+      {
+       "gist": "STATE SYMBOL: (s) SOLID · (l) PURE LIQUID · (g) GAS · (aq) DISSOLVED IN WATER.",
+       "exact": "<strong>State symbols:</strong> (s) solid · (l) pure liquid · (g) gas · (aq) DISSOLVED IN WATER."
+      },
+      {
+       "gist": "WATER IS (l), NEVER (aq). SALT MADE IN SOLUTION IS (aq). SOLID THAT DROP OUT IS (s).",
+       "exact": "Water is (l), never (aq). A soluble salt formed in solution is <strong>(aq)</strong> — 2024: many wrongly wrote zinc nitrate as (s) or (l). A precipitate is (s)."
+      },
+      {
+       "gist": "CHARGE: GROUP 1/2/3 → +1/+2/+3 · GROUP 5/6/7 → −3/−2/−1 · Ag⁺ Zn²⁺ Cu²⁺ Fe²⁺/Fe³⁺ Pb²⁺ · H⁺ OH⁻ NH₄⁺ NO₃⁻ CO₃²⁻ SO₄²⁻.",
+       "exact": "Ion charges: Groups 1/2/3 → +1/+2/+3 · Groups 5/6/7 → −3/−2/−1 · Ag⁺ Zn²⁺ Cu²⁺ Fe²⁺/Fe³⁺ Pb²⁺ · H⁺ OH⁻ NH₄⁺ NO₃⁻ CO₃²⁻ SO₄²⁻."
+      },
+      {
+       "gist": "BRACKET WHEN YOU MULTIPLY A GROUP: (NH₄)₂SO₄, Ca(NO₃)₂, Al₂(SO₄)₃.",
+       "exact": "Brackets when a molecular ion is multiplied: (NH₄)₂SO₄, Ca(NO₃)₂, Al₂(SO₄)₃."
+      },
+      {
+       "gist": "THESE COME IN PAIR: H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂.",
+       "exact": "Diatomic elements: H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂."
+      },
+      {
+       "gist": "LEARN THESE: 2Mg + O₂ → 2MgO · 2Al + Fe₂O₃ → 2Fe + Al₂O₃ · 2CuO + C → 2Cu + CO₂ · Ca₃(PO₄)₂ + 8C → Ca₃P₂ + 8CO.",
+       "exact": "Set pieces: 2Mg + O₂ → 2MgO · 2Al + Fe₂O₃ → 2Fe + Al₂O₃ · 2CuO + C → 2Cu + CO₂ · Ca₃(PO₄)₂ + 8C → Ca₃P₂ + 8CO · Ca₃P₂ + 6H₂O → 3Ca(OH)₂ + 2PH₃."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Add state symbols: CaCO₃(...) + 2HCl(...) → CaCl₂(...) + H₂O(...) + CO₂(...)",
+       "marks": 2,
+       "a": "CaCO₃<strong>(s)</strong> + 2HCl<strong>(aq)</strong> <span class=\"mp\">1</span> → CaCl₂<strong>(aq)</strong> + H₂O<strong>(l)</strong> + CO₂<strong>(g)</strong> <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Balance: Ca₃(PO₄)₂ + ......C → Ca₃P₂ + ......CO",
+       "marks": 1,
+       "a": "<strong>8</strong> and <strong>8</strong> <span class=\"mp\">1</span> — the bracket holds 2 × 4 = 8 oxygens, each leaving in one CO."
+      },
+      {
+       "q": "Give the formula of ammonium sulfate and the equation for its formation from ammonia and sulfuric acid.",
+       "marks": 2,
+       "a": "(NH₄)₂SO₄ <span class=\"mp\">1</span>; 2NH₃ + H₂SO₄ → (NH₄)₂SO₄ <span class=\"mp\">1</span>."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "due",
+   "title": "Due a return",
+   "note": "On the school's own checklist but absent or rare in recent papers — the classic setter's move is to bring one of these back.",
+   "items": [
+    {
+     "claim": "Cracking — conditions, why it is done, and an equation",
+     "why": "It is on the department's topic checklist (spec 4.17–4.18) but has not appeared in ANY of the five papers I have. That makes it the strongest candidate for a fresh question: silica or alumina catalyst, 600–700 °C, and supply-versus-demand as the reason.",
+     "evidence": "absent from 2021–2025 — checklist only",
+     "marks": "2–4",
+     "moduleIds": [
+      "10-crude-oil-and-alkanes"
+     ],
+     "mustKnow": [
+      {
+       "gist": "CRACKING = BREAK LONG ALKANE INTO SHORT ALKANE + ALKENE.",
+       "exact": "<strong>Cracking breaks long-chain alkanes into shorter alkanes + ALKENES.</strong>"
+      },
+      {
+       "gist": "CONDITION: SILICA OR ALUMINA CATALYST, 600–700 °C.",
+       "exact": "Conditions: a <strong>silica or alumina catalyst at 600–700 °C</strong>."
+      },
+      {
+       "gist": "WHY: EVERYONE WANT PETROL, TOO MUCH LONG STUFF LEFT OVER. CRACKING MATCH SUPPLY TO DEMAND. ALKENE ALSO MAKE PLASTIC.",
+       "exact": "<strong>Why:</strong> demand for short fractions (petrol) exceeds supply, while long fractions are in surplus — cracking matches supply to demand. The alkenes also feed plastics manufacture."
+      },
+      {
+       "gist": "EQUATION JUST KEEP ATOM COUNT: C₁₀H₂₂ → C₈H₁₈ + C₂H₄. CHECK C AND H BOTH.",
+       "exact": "A cracking equation just conserves atoms: C₁₀H₂₂ → C₈H₁₈ + C₂H₄. Check carbons and hydrogens both balance."
+      },
+      {
+       "gist": "ONE PRODUCT MUST BE ALKENE (CₙH₂ₙ). NOT ENOUGH HYDROGEN TO GO ROUND, SO DOUBLE BOND FORM.",
+       "exact": "At least one product must be an <strong>alkene</strong> (CₙH₂ₙ) — hydrogens are conserved but the fragments need fewer, so a double bond forms."
+      },
+      {
+       "gist": "ON YOUR CHECKLIST BUT NOT IN ANY OF FIVE PAPER — SO MOST LIKELY NEW QUESTION.",
+       "exact": "On the school checklist but absent from all five papers — which is exactly why it is the strongest candidate for a fresh question."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Name the process converting long-chain alkanes into shorter ones, and state the conditions.",
+       "marks": 2,
+       "a": "(Catalytic) cracking <span class=\"mp\">1</span>; a silica or alumina catalyst at 600–700 °C <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Complete: C₁₂H₂₆ → C₈H₁₈ + ...... and explain why cracking is carried out.",
+       "marks": 2,
+       "a": "C₄H₈ <span class=\"mp\">1</span> (12−8 = 4 C, 26−18 = 8 H, so an alkene); demand for short fractions exceeds supply while long fractions are in surplus <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Metal extraction as a full question, not a sub-part",
+     "why": "Only three years out of five, and usually just one part buried inside another question. The reactivity series, native metals, and carbon-versus-electrolysis reasoning would make an easy stand-alone question.",
+     "evidence": "2021 Q10b, 2024 Q5a, 2025 (via role of carbon only)",
+     "marks": "4–6",
+     "moduleIds": [
+      "09-metal-extraction"
+     ],
+     "mustKnow": [
+      {
+       "gist": "ORDER: POTASSIUM, SODIUM, LITHIUM, CALCIUM, MAGNESIUM, ALUMINIUM, (CARBON), ZINC, IRON, (HYDROGEN), COPPER, SILVER, GOLD.",
+       "exact": "Reactivity series: potassium, sodium, lithium, calcium, magnesium, aluminium, <strong>(CARBON)</strong>, zinc, iron, <strong>(HYDROGEN)</strong>, copper, silver, gold."
+      },
+      {
+       "gist": "ABOVE CARBON → ELECTROLYSIS OF MELTED COMPOUND (ALUMINIUM). BELOW CARBON → HEAT OXIDE WITH CARBON (IRON, ZINC, COPPER).",
+       "exact": "<strong>Above carbon</strong> → electrolysis of the MOLTEN compound (aluminium). <strong>Below carbon</strong> → heat the oxide WITH CARBON (iron, zinc, copper)."
+      },
+      {
+       "gist": "WHY USE CARBON WHEN YOU CAN: COKE MUCH CHEAPER THAN ELECTRIC. NOT A CHOICE — REACTIVITY DECIDE.",
+       "exact": "Why carbon wherever possible: coke is far cheaper than electricity. Reactivity forces the expensive method; it is not a choice."
+      },
+      {
+       "gist": "WHY CARBON CANNOT DO THE TOP ONES: METAL MORE REACTIVE THAN CARBON, SO CARBON CANNOT TAKE ITS OXYGEN.",
+       "exact": "Why a metal above carbon cannot use carbon: <strong>the metal is more reactive than carbon</strong>, so carbon cannot remove its oxygen."
+      },
+      {
+       "gist": "ORE = ROCK WITH ENOUGH METAL IN TO BE WORTH IT. NATIVE = FOUND AS PURE METAL BECAUSE VERY UNREACTIVE (GOLD).",
+       "exact": "<strong>Ore</strong> = a rock containing enough metal compound to be worth extracting. <strong>Native</strong> = found uncombined because the metal is very UNREACTIVE (gold)."
+      },
+      {
+       "gist": "DISPLACEMENT: STRONGER METAL KICK OUT WEAKER ONE. MAGNESIUM IN COPPER SULFATE: BLUE FADE, BROWN/PINK SOLID APPEAR.",
+       "exact": "<strong>Displacement:</strong> a more reactive metal displaces a less reactive one. Zinc or magnesium in copper sulfate: the blue fades and a brown/pink solid appears."
+      },
+      {
+       "gist": "\"NO REACTION\" IS A REAL ANSWER WHEN THE METAL YOU ADD IS WEAKER.",
+       "exact": "\"No reaction\" is a valid answer when the added metal is less reactive."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Explain why aluminium is extracted by electrolysis but iron is extracted using carbon.",
+       "marks": 3,
+       "a": "Aluminium is more reactive than carbon, so carbon cannot remove the oxygen from its oxide <span class=\"mp\">1</span>; iron is below carbon so carbon can reduce its oxide <span class=\"mp\">1</span>; carbon is used wherever possible because coke is much cheaper than electricity <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "Magnesium is added to copper(II) sulfate solution. Give two observations and explain why the reaction happens.",
+       "marks": 3,
+       "a": "The blue colour fades <span class=\"mp\">1</span>; a brown/pink solid (copper) forms on the ribbon <span class=\"mp\">1</span>; magnesium is more reactive than copper so it displaces it <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Gas tests as a set",
+     "why": "Appeared as a group for the first time in 2025 (hydrogen and oxygen with splints). Once a department starts asking these they tend to keep going — know all four: lit splint pop, glowing splint relights, limewater milky, damp litmus bleached.",
+     "evidence": "2025 Q3a — the only clear appearance",
+     "marks": "1–3",
+     "moduleIds": [
+      "08-electrolysis-and-redox",
+      "04-acids-alkalis-and-salts"
+     ],
+     "mustKnow": [
+      {
+       "gist": "HYDROGEN: LIT SPLINT, SQUEAKY POP.",
+       "exact": "<strong>Hydrogen:</strong> a LIT splint gives a squeaky pop."
+      },
+      {
+       "gist": "OXYGEN: GLOWING SPLINT RELIGHT.",
+       "exact": "<strong>Oxygen:</strong> a GLOWING splint relights."
+      },
+      {
+       "gist": "CARBON DIOXIDE: LIMEWATER GO MILKY.",
+       "exact": "<strong>Carbon dioxide:</strong> turns limewater milky/cloudy."
+      },
+      {
+       "gist": "CHLORINE: BLEACH DAMP LITMUS PAPER.",
+       "exact": "<strong>Chlorine:</strong> bleaches damp litmus paper."
+      },
+      {
+       "gist": "LIT AND GLOWING NOT THE SAME WORD. GLOWING FOR HYDROGEN = NO MARK.",
+       "exact": "Lit and glowing are NOT interchangeable — 2024 rejected the glowing splint for hydrogen."
+      },
+      {
+       "gist": "OBSERVATION = WHAT YOU SEE, LIKE BUBBLES. NAMING THE GAS IS A CONCLUSION, NOT AN OBSERVATION.",
+       "exact": "An OBSERVATION is what you see: effervescence/bubbles. Naming the gas is a conclusion and scores nothing as an observation."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Give the test and result for hydrogen and for oxygen.",
+       "marks": 2,
+       "a": "Hydrogen: a LIT splint gives a squeaky pop <span class=\"mp\">1</span>. Oxygen: a GLOWING splint relights <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "A gas turns limewater milky. Identify it, and state what you would SEE when it is first produced.",
+       "marks": 2,
+       "a": "Carbon dioxide <span class=\"mp\">1</span>; effervescence / bubbles / fizzing <span class=\"mp\">1</span> — not \"carbon dioxide is given off\", which is a conclusion."
+      }
+     ]
+    },
+    {
+     "claim": "Ar from isotopic abundances",
+     "why": "Appeared once (2023) and is a quick, self-contained three marks — exactly the kind of question that reappears after a gap.",
+     "evidence": "2023 Q9a",
+     "marks": "3",
+     "moduleIds": [
+      "01-atomic-structure"
+     ],
+     "mustKnow": [
+      {
+       "gist": "Ar = ADD UP (MASS × %) THEN ÷ 100. WEIGHTED AVERAGE.",
+       "exact": "<strong>Ar = Σ(isotope mass × % abundance) ÷ 100</strong> — a weighted mean."
+      },
+      {
+       "gist": "CHECK: ANSWER MUST SIT BETWEEN THE TWO MASS, CLOSER TO THE COMMON ONE.",
+       "exact": "Sanity check: the answer must lie BETWEEN the isotope masses, nearer the more abundant one."
+      },
+      {
+       "gist": "GIVE 3 SIG FIG UNLESS TOLD OTHERWISE.",
+       "exact": "Give 3 significant figures unless told otherwise."
+      },
+      {
+       "gist": "ISOTOPE = SAME PROTON, DIFFERENT NEUTRON. SAME ELECTRON, SO SAME CHEMISTRY.",
+       "exact": "<strong>Isotopes</strong> = same number of protons, DIFFERENT number of neutrons. Same electron arrangement, so identical chemistry."
+      },
+      {
+       "gist": "ATOMIC NUMBER = PROTON. MASS NUMBER = PROTON + NEUTRON. ELECTRON WEIGH NOTHING.",
+       "exact": "Atomic number = protons only. Mass number = protons + neutrons. Electrons weigh essentially nothing."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Copper is 69.5% ⁶³Cu and 30.5% ⁶⁵Cu. Calculate its relative atomic mass to 3 significant figures.",
+       "marks": 3,
+       "a": "(63 × 69.5) + (65 × 30.5) = 6361 <span class=\"mp\">1</span>; ÷ 100 = 63.61 <span class=\"mp\">1</span>; = <strong>63.6</strong> <span class=\"mp\">1</span>."
+      },
+      {
+       "q": "State what is meant by isotopes.",
+       "marks": 2,
+       "a": "Atoms of the same element with the same number of protons <span class=\"mp\">1</span>; but different numbers of neutrons <span class=\"mp\">1</span>."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skills",
+   "title": "The skills that decide your grade",
+   "note": "Not topics — habits. These cost marks across every question on every paper.",
+   "items": [
+    {
+     "claim": "Graph craft: sharp pencil, one smooth line, construction lines left on",
+     "why": "Marks are awarded for the working lines themselves, and lost for feathery or sketchy best-fit curves. Read the curve the question actually names.",
+     "evidence": "penalised explicitly in 2023, 2024 and 2025",
+     "marks": "3–6 a paper",
+     "moduleIds": [
+      "07-rates-of-reaction",
+      "06-solubility"
+     ],
+     "mustKnow": [
+      {
+       "gist": "SHARP PENCIL. PLOT WITHIN HALF A SQUARE. CLEAR × OR DOT.",
+       "exact": "Sharp pencil. Plot to the nearest gridline, within half a square, with a clear × or dot."
+      },
+      {
+       "gist": "ONE SMOOTH BEST-FIT LINE. NOT FURRY, NOT SKETCHY, NOT BLUNT PENCIL.",
+       "exact": "<strong>ONE single smooth best-fit line.</strong> 2023 penalised \"blunt pencils, sketchy/feathery lines instead of a single one\"."
+      },
+      {
+       "gist": "LINE MISS SOME POINT? FINE — BUT SAME NUMBER OF POINT EACH SIDE.",
+       "exact": "If the line does not pass through every point, the points must be EVENLY DISTRIBUTED either side."
+      },
+      {
+       "gist": "START AT ZERO ONLY IF DATA SAY SO. IF IT DO, START THERE CLEARLY.",
+       "exact": "Start at the origin only when the data says so — but when it does, start there CLEARLY."
+      },
+      {
+       "gist": "IGNORE THE ODD POINT WHEN DRAWING LINE, BUT LEAVE IT PLOTTED.",
+       "exact": "Ignore an anomaly when drawing the line, but leave it plotted."
+      },
+      {
+       "gist": "ALWAYS LEAVE YOUR READING LINES ON THE GRAPH. THEY ARE MARKS.",
+       "exact": "<strong>Always leave your construction lines on the graph</strong> for any value read off — worth marks in themselves."
+      },
+      {
+       "gist": "LABEL BOTH AXIS WITH THING AND UNIT. LABEL EACH CURVE IF MORE THAN ONE.",
+       "exact": "Label both axes with the QUANTITY and the UNIT, and label each curve when there is more than one."
+      },
+      {
+       "gist": "READ THE CURVE THEY NAME.",
+       "exact": "Read the curve the question names."
+      }
+     ],
+     "practice": [
+      {
+       "q": "You read the right value off a solubility graph but score 1 of 2. Why?",
+       "marks": 1,
+       "a": "The construction lines were not shown on the graph — the working line is a mark in its own right <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Say which species, not just what happened",
+     "why": "\"The magnesium ION gains electrons\", \"iron(III) OXIDE is reduced\", \"the bromide IONS lose electrons\". Naming the wrong species is the single most penalised error in the whole five years.",
+     "evidence": "2023 Q2c, 2024 Q5a, 2025 Q7d",
+     "marks": "2–4 a paper",
+     "moduleIds": [
+      "08-electrolysis-and-redox",
+      "09-metal-extraction"
+     ],
+     "mustKnow": [
+      {
+       "gist": "AT ELECTRODE IT IS THE ION: \"MAGNESIUM ION GAIN ELECTRON\", \"BROMIDE ION LOSE ELECTRON\".",
+       "exact": "At an electrode it is the <strong>ION</strong> that gains or loses electrons: \"the magnesium ION gains electrons\", \"the bromide IONS lose electrons\"."
+      },
+      {
+       "gist": "IN REDOX, NAME THE WHOLE COMPOUND: \"IRON(III) OXIDE REDUCED\", \"OXYGEN REMOVED FROM CALCIUM PHOSPHATE\".",
+       "exact": "In redox by oxygen, name the WHOLE compound: \"iron(III) OXIDE is reduced\", \"oxygen is removed from calcium PHOSPHATE\"."
+      },
+      {
+       "gist": "CONDUCTING: SAY WHAT MOVE. ION FOR IONIC, ELECTRON FOR METAL AND GRAPHITE. MIX THEM = ZERO.",
+       "exact": "For conduction, name the moving particle: <strong>IONS</strong> for ionic compounds, <strong>ELECTRONS</strong> for metals and graphite. Mixing them scores zero."
+      },
+      {
+       "gist": "OH⁻ IN SOLUTION COME FROM WATER SPLITTING. NOT \"BECAUSE IT ALKALINE\".",
+       "exact": "OH⁻ ions in a solution come <strong>from water</strong> dissociating — not \"because the solution is alkaline\"."
+      },
+      {
+       "gist": "NAMING THE EXACT THING = THE MOST PUNISHED MISTAKE IN ALL FIVE YEAR.",
+       "exact": "This one habit — naming the exact species — is the most heavily penalised error across all five years."
+      }
+     ],
+     "practice": [
+      {
+       "q": "A student writes \"magnesium gains electrons at the cathode\". Correct it and explain what is wrong.",
+       "marks": 2,
+       "a": "It should read \"the magnesium ION gains electrons\" <span class=\"mp\">1</span>; before the electrons arrive there is no magnesium metal, only an Mg²⁺ ion, which BECOMES magnesium: Mg²⁺ + 2e⁻ → Mg <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Obey the answer line: units, significant figures, standard form",
+     "why": "Whole marks exist purely for writing the answer in standard form or to the stated number of significant figures.",
+     "evidence": "2022 Q8, 2023 Q6a, 2024 Q10a(iii), 2025 Q1b",
+     "marks": "2–3 a paper",
+     "moduleIds": [
+      "05-chemical-calculations"
+     ],
+     "mustKnow": [
+      {
+       "gist": "READ THE ANSWER LINE BEFORE YOU START. IT NAME THE UNIT, OFTEN THE SIG FIG TOO.",
+       "exact": "Read the answer line BEFORE calculating: it names the unit, and often the significant figures or standard form."
+      },
+      {
+       "gist": "WHOLE MARK JUST FOR STANDARD FORM, OR FOR OBEYING \"2 SIGNIFICANT FIGURES\".",
+       "exact": "Whole marks exist purely for standard form (4.8 × 10⁶) or for obeying \"give your answer to 2 significant figures\"."
+      },
+      {
+       "gist": "BIG AND TINY NUMBER STAY STANDARD FORM: 2.4 × 10²².",
+       "exact": "Large and small numbers stay in standard form — 2.4 × 10²², not the digits written out."
+      },
+      {
+       "gist": "ROUND AT THE END ONLY.",
+       "exact": "Round only at the END of a calculation."
+      },
+      {
+       "gist": "UNIT MATTER: cm³ NOT cm, min NOT m. 1 dm³ = 1000 cm³.",
+       "exact": "Units are chemistry: cm³ not cm, min not m, and 1 dm³ = 1000 cm³."
+      },
+      {
+       "gist": "MATCH MOLAR VOLUME TO THE UNIT THEY WANT: 24 dm³ OR 24 000 cm³.",
+       "exact": "Match the molar volume to the unit demanded: 24 dm³ or 24 000 cm³."
+      }
+     ],
+     "practice": [
+      {
+       "q": "0.0405 mol of H₂ is produced. Calculate the number of molecules, to 2 significant figures. [1 mol = 6.0 × 10²³]",
+       "marks": 2,
+       "a": "0.0405 × 6.0 × 10²³ = 2.43 × 10²² <span class=\"mp\">1</span>; = <strong>2.4 × 10²²</strong> <span class=\"mp\">1</span>."
+      }
+     ]
+    },
+    {
+     "claim": "Observations are what you SEE",
+     "why": "Effervescence, a blue precipitate, the ribbon disappearing. Naming a gas is a conclusion and scores nothing as an observation.",
+     "evidence": "2021 Q10c, 2023 Q10a, 2024 Q10a(ii)",
+     "marks": "1–2 a paper",
+     "moduleIds": [
+      "04-acids-alkalis-and-salts"
+     ],
+     "mustKnow": [
+      {
+       "gist": "OBSERVATION = YOU CAN SEE IT: BUBBLES · BLUE SOLID APPEAR · COLOUR GO · RIBBON DISAPPEAR.",
+       "exact": "An observation is visible: <strong>effervescence/bubbles</strong> · a <strong>blue precipitate</strong> forms · the solution goes colourless · the ribbon disappears."
+      },
+      {
+       "gist": "NAMING A GAS OR PRODUCT IS A CONCLUSION. SCHEME IGNORE IT.",
+       "exact": "Naming a gas or a product is a CONCLUSION, not an observation — the schemes ignore it."
+      },
+      {
+       "gist": "DO NOT ADD EXTRA WRONG STUFF. \"WHITE FLAME\" GOT REJECTED.",
+       "exact": "Do not decorate with extra wrong observations: 2021 rejected answers that added \"white flame\"."
+      },
+      {
+       "gist": "PRECIPITATION MAKE NO GAS, SO \"FIZZING\" IS WRONG THERE.",
+       "exact": "Precipitation reactions make NO gas, so \"fizzing\" is wrong there — 2023 rejected it."
+      },
+      {
+       "gist": "IF THEY TELL YOU A SOLID FORMED, SAY WHAT IT LOOK LIKE. DO NOT JUST REPEAT IT FORMED.",
+       "exact": "Read the question: if it tells you a precipitate formed, describe what it LOOKS like, do not just repeat that one formed."
+      }
+     ],
+     "practice": [
+      {
+       "q": "Copper(II) sulfate solution is mixed with sodium hydroxide solution. State what you would see.",
+       "marks": 1,
+       "a": "A blue precipitate/solid forms, and the blue solution fades <span class=\"mp\">1</span>. Fizzing is wrong — no gas is produced."
+      },
+      {
+       "q": "Magnesium ribbon is added to dilute acid. Give two observations.",
+       "marks": 2,
+       "a": "Effervescence/bubbles <span class=\"mp\">1</span>; the ribbon disappears/gets smaller <span class=\"mp\">1</span>. \"Hydrogen is given off\" is a conclusion."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

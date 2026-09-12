@@ -1,0 +1,11 @@
+# Cloudflare Pages project config.
+#
+# The site is static except for one endpoint: functions/sync.js, which stores a
+# single JSON blob of John's progress per sync code so two laptops can share it.
+name = "quiet-harbour-k7m3q"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "site"
+
+[[kv_namespaces]]
+binding = "PROGRESS"
+id = "54c93295095d493bb3f7ef382efc1692"

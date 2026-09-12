@@ -1,0 +1,6204 @@
+{
+ "modules": {
+  "01-atomic-structure": [
+   {
+    "id": "M1",
+    "q": "The atomic number of an element is the number of…",
+    "options": [
+     "protons and neutrons in the nucleus",
+     "protons in the nucleus",
+     "electrons in the outer shell",
+     "neutrons in the nucleus"
+    ],
+    "answer": 1,
+    "explain": "Atomic number = protons only. Protons + neutrons is the mass number. The 2022 scheme explicitly ignored answers that added electrons."
+   },
+   {
+    "id": "M2",
+    "q": "An atom has 14 protons, 14 electrons and 15 neutrons. Its mass number is…",
+    "options": [
+     "14",
+     "15",
+     "28",
+     "29"
+    ],
+    "answer": 3,
+    "explain": "Mass number = protons + neutrons = 14 + 15 = 29. Electrons weigh almost nothing and never count — 28 (protons + electrons) was a designed distractor on the 2022 paper."
+   },
+   {
+    "id": "M3",
+    "q": "The particle in the atom with a relative mass of about 1/1836 is the…",
+    "options": [
+     "proton",
+     "neutron",
+     "electron",
+     "nucleus"
+    ],
+    "answer": 2,
+    "explain": "Electrons are effectively massless; protons and neutrons each have relative mass 1 and make up all of the mass number."
+   },
+   {
+    "id": "M4",
+    "q": "An atom of ¹¹₅B contains…",
+    "options": [
+     "5 protons, 6 neutrons, 5 electrons",
+     "6 protons, 5 neutrons, 6 electrons",
+     "5 protons, 11 neutrons, 5 electrons",
+     "11 protons, 5 neutrons, 11 electrons"
+    ],
+    "answer": 0,
+    "explain": "Bottom number = atomic number = 5 protons (and 5 electrons in a neutral atom); neutrons = 11 − 5 = 6. This was 2021 Q1."
+   },
+   {
+    "id": "M5",
+    "q": "Isotopes of an element have the same number of…",
+    "options": [
+     "neutrons but different protons",
+     "protons but different neutrons",
+     "protons but different electrons",
+     "neutrons and the same mass number"
+    ],
+    "answer": 1,
+    "explain": "Same element = same protons; isotopes differ only in neutrons (so different mass numbers). Same electrons too — which is why their chemistry is identical."
+   },
+   {
+    "id": "M6",
+    "q": "The electronic configuration of phosphorus (atomic number 15) is…",
+    "options": [
+     "2.8.5",
+     "2.8.4",
+     "2.5.8",
+     "2.8.8.5"
+    ],
+    "answer": 0,
+    "explain": "Fill 2, then 8, then the rest: 15 electrons → 2.8.5. Asked as a one-marker in 2025."
+   },
+   {
+    "id": "M7",
+    "q": "An element has the configuration 2.8.3. It is found in…",
+    "options": [
+     "Group 3, Period 2",
+     "Group 2, Period 3",
+     "Group 3, Period 3",
+     "Group 8, Period 3"
+    ],
+    "answer": 2,
+    "explain": "Group = outer electrons (3); period = occupied shells (3). The 2023 commentary said many students had \"no concept\" of period number — it counts the rows."
+   },
+   {
+    "id": "M8",
+    "q": "The charge on the ion formed by an atom with configuration 2.8.1 is…",
+    "options": [
+     "−1",
+     "+1",
+     "+2",
+     "0"
+    ],
+    "answer": 1,
+    "explain": "One outer electron is lost → +1 (this is sodium → Na⁺, 2.8). Answering just \"positive\" in 2023 scored nothing — the size of the charge is required."
+   },
+   {
+    "id": "M9",
+    "q": "An element in Group 6 forms an ion with charge…",
+    "options": [
+     "+6",
+     "−6",
+     "−2",
+     "+2"
+    ],
+    "answer": 2,
+    "explain": "Group 6 atoms gain two electrons to complete the outer shell → 2− (like O²⁻). Groups 5/6/7 gain 3/2/1; Groups 1/2/3 lose 1/2/3."
+   },
+   {
+    "id": "M10",
+    "q": "Copper is 69.5% ⁶³Cu and 30.5% ⁶⁵Cu. Its relative atomic mass is closest to…",
+    "options": [
+     "64.0",
+     "63.6",
+     "63.0",
+     "65.0"
+    ],
+    "answer": 1,
+    "explain": "(63 × 69.5 + 65 × 30.5) ÷ 100 = 63.61 → 63.6. A weighted mean always sits between the isotope masses, nearer the more abundant one — 64.0 is the unweighted average trap."
+   },
+   {
+    "id": "M11",
+    "q": "Why do two isotopes of chlorine react identically?",
+    "options": [
+     "They have the same number of neutrons",
+     "They have the same electronic configuration",
+     "They have the same mass number",
+     "They are both diatomic"
+    ],
+    "answer": 1,
+    "explain": "Chemistry is decided by electrons. Isotopes have identical proton and electron counts and arrangements — only the neutrons (and mass) differ."
+   },
+   {
+    "id": "M12",
+    "q": "The number of electrons available for bonding in a Group 8 (noble gas) element is…",
+    "options": [
+     "8",
+     "0",
+     "2",
+     "1"
+    ],
+    "answer": 1,
+    "explain": "A full outer shell means no tendency to lose, gain or share — zero bonding electrons, which is why noble gases are unreactive. This was 2024 Q1c."
+   },
+   {
+    "id": "M13",
+    "q": "The part of the atom that contains almost all of its mass is the…",
+    "options": [
+     "outer shell",
+     "electron cloud",
+     "nucleus",
+     "first shell"
+    ],
+    "answer": 2,
+    "explain": "Protons and neutrons — all the mass — sit in the nucleus. Electrons orbit in shells and contribute essentially nothing to the mass."
+   },
+   {
+    "id": "M14",
+    "q": "The electronic configuration of the chloride ion, Cl⁻ (chlorine has 17 electrons as an atom), is…",
+    "options": [
+     "2.8.7",
+     "2.8.8",
+     "2.8.6",
+     "2.8.8.1"
+    ],
+    "answer": 1,
+    "explain": "The ion has gained one electron: 18 → 2.8.8. Count the ion's actual electrons, not the atom's."
+   },
+   {
+    "id": "M15",
+    "q": "Elements in the modern periodic table are arranged in order of…",
+    "options": [
+     "relative atomic mass",
+     "atomic number",
+     "mass number",
+     "number of neutrons"
+    ],
+    "answer": 1,
+    "explain": "Order of atomic number (protons). Ar mostly increases too but has exceptions — the definition the spec wants is atomic number."
+   },
+   {
+    "id": "M16",
+    "q": "The mass number of an atom is…",
+    "options": [
+     "protons + electrons",
+     "protons + neutrons",
+     "neutrons + electrons",
+     "protons only"
+    ],
+    "answer": 1,
+    "explain": "Mass number counts the heavy particles in the nucleus: protons + neutrons."
+   },
+   {
+    "id": "M17",
+    "q": "An atom is electrically neutral because…",
+    "options": [
+     "it contains no charged particles",
+     "the numbers of protons and electrons are equal",
+     "the neutrons cancel the protons",
+     "the shells are full"
+    ],
+    "answer": 1,
+    "explain": "Equal protons (+) and electrons (−) cancel. Neutrons are neutral and cancel nothing."
+   },
+   {
+    "id": "M18",
+    "q": "⁶³Cu and ⁶⁵Cu differ in their number of…",
+    "options": [
+     "protons",
+     "electrons",
+     "neutrons",
+     "shells"
+    ],
+    "answer": 2,
+    "explain": "Isotopes: same protons and electrons, different neutrons — 34 versus 36 here."
+   },
+   {
+    "id": "M19",
+    "q": "The electronic configuration of calcium (atomic number 20) is…",
+    "options": [
+     "2.8.10",
+     "2.8.8.2",
+     "2.18",
+     "2.8.2.8"
+    ],
+    "answer": 1,
+    "explain": "Fill 2, 8, 8, then the remainder: 2.8.8.2. The third shell takes 8 for the first twenty elements."
+   },
+   {
+    "id": "M20",
+    "q": "An element in Period 2 has…",
+    "options": [
+     "two outer electrons",
+     "two occupied shells",
+     "two protons",
+     "a charge of 2+"
+    ],
+    "answer": 1,
+    "explain": "Period = number of occupied shells. Two outer electrons would put it in Group 2 — the classic mix-up."
+   },
+   {
+    "id": "M21",
+    "q": "The ion formed by aluminium (2.8.3) is…",
+    "options": [
+     "Al³⁻",
+     "Al³⁺",
+     "Al⁺",
+     "Al²⁺"
+    ],
+    "answer": 1,
+    "explain": "Group 3 metals lose all three outer electrons → 3+, leaving configuration 2.8."
+   },
+   {
+    "id": "M22",
+    "q": "Which particle has a relative charge of 0?",
+    "options": [
+     "Proton",
+     "Electron",
+     "Neutron",
+     "Nucleus"
+    ],
+    "answer": 2,
+    "explain": "Neutron = neutral, mass 1. Proton +1, electron −1."
+   },
+   {
+    "id": "M23",
+    "q": "The number of neutrons in ⁵⁶₂₆Fe is…",
+    "options": [
+     "26",
+     "56",
+     "30",
+     "82"
+    ],
+    "answer": 2,
+    "explain": "Neutrons = mass number − atomic number = 56 − 26 = 30."
+   },
+   {
+    "id": "M24",
+    "q": "Two atoms are the same element if they have the same number of…",
+    "options": [
+     "neutrons",
+     "protons",
+     "shells",
+     "nucleons"
+    ],
+    "answer": 1,
+    "explain": "The proton count defines the element — it fixes the atomic number and the electron count."
+   },
+   {
+    "id": "M25",
+    "q": "A molecule is…",
+    "options": [
+     "the smallest particle of an element",
+     "two or more atoms covalently bonded together",
+     "a charged atom",
+     "any particle in a gas"
+    ],
+    "answer": 1,
+    "explain": "Atoms covalently bonded — O₂, H₂O, CH₄. A charged atom is an ion."
+   },
+   {
+    "id": "M26",
+    "q": "Boron is 20% ¹⁰B and 80% ¹¹B. Its Ar is…",
+    "options": [
+     "10.5",
+     "10.2",
+     "10.8",
+     "11.0"
+    ],
+    "answer": 2,
+    "explain": "(10 × 20 + 11 × 80) ÷ 100 = 10.8 — nearer 11, the abundant isotope. 10.5 is the unweighted-average trap."
+   },
+   {
+    "id": "M27",
+    "q": "An atom with configuration 2.8.7 will form an ion by…",
+    "options": [
+     "losing 7 electrons",
+     "gaining 1 electron",
+     "losing 1 electron",
+     "sharing 7 electrons"
+    ],
+    "answer": 1,
+    "explain": "One short of a full shell — gaining one is far easier than losing seven. Charge: 1− (this is chlorine)."
+   },
+   {
+    "id": "M28",
+    "q": "Elements in the same group of the periodic table have similar chemistry because they have…",
+    "options": [
+     "the same mass",
+     "the same number of outer electrons",
+     "the same number of shells",
+     "the same density"
+    ],
+    "answer": 1,
+    "explain": "Chemistry is set by outer electrons, and group number = outer electron count."
+   },
+   {
+    "id": "M29",
+    "q": "The atomic number of an element with configuration 2.8.6 is…",
+    "options": [
+     "6",
+     "16",
+     "8",
+     "14"
+    ],
+    "answer": 1,
+    "explain": "2 + 8 + 6 = 16 electrons = 16 protons (sulfur)."
+   },
+   {
+    "id": "M30",
+    "q": "Which statement about the nucleus is correct?",
+    "options": [
+     "It contains protons and electrons",
+     "It has a negative charge",
+     "It contains nearly all the atom's mass",
+     "It is where reactions happen"
+    ],
+    "answer": 2,
+    "explain": "Protons + neutrons live there, so nearly all the mass does too; its charge is positive; chemistry happens in the electron shells."
+   },
+   {
+    "id": "M31",
+    "q": "The ion O²⁻ has how many electrons? [oxygen's atomic number = 8]",
+    "options": [
+     "6",
+     "8",
+     "10",
+     "16"
+    ],
+    "answer": 2,
+    "explain": "The atom's 8 plus 2 gained = 10 (configuration 2.8)."
+   },
+   {
+    "id": "M32",
+    "q": "Magnesium is in Group 2, Period 3. Its electronic configuration is…",
+    "options": [
+     "2.8.2",
+     "2.2.8",
+     "2.8.8",
+     "8.2.2"
+    ],
+    "answer": 0,
+    "explain": "Period 3 = three shells; Group 2 = two outer electrons: 2.8.2."
+   },
+   {
+    "id": "M33",
+    "q": "Why is the relative atomic mass of an element sometimes not a whole number?",
+    "options": [
+     "Protons have varying masses",
+     "It is a weighted average over the natural isotopes",
+     "Electrons add fractions of mass",
+     "Measurement error"
+    ],
+    "answer": 1,
+    "explain": "Every atom has whole-number mass; the natural MIX averages to something in between — chlorine's 35.5 from ³⁵Cl and ³⁷Cl."
+   },
+   {
+    "id": "M34",
+    "q": "An atom of potassium (2.8.8.1) sits in…",
+    "options": [
+     "Group 1, Period 4",
+     "Group 4, Period 1",
+     "Group 1, Period 3",
+     "Group 8, Period 1"
+    ],
+    "answer": 0,
+    "explain": "One outer electron → Group 1; four occupied shells → Period 4."
+   },
+   {
+    "id": "M35",
+    "q": "Which pair are isotopes?",
+    "options": [
+     "²³Na and ²⁴Mg",
+     "¹²C and ¹⁴C",
+     "¹⁶O and ¹⁶O²⁻",
+     "³⁵Cl and ³⁵Cl"
+    ],
+    "answer": 1,
+    "explain": "Same element (6 protons), different mass numbers. Na/Mg are different elements; an atom and its own ion are not isotopes; two identical atoms are just the same atom."
+   },
+   {
+    "id": "M36",
+    "q": "The maximum number of electrons in the first shell is…",
+    "options": [
+     "8",
+     "2",
+     "4",
+     "1"
+    ],
+    "answer": 1,
+    "explain": "First shell holds 2; the second and third hold 8 each (for the first 20 elements)."
+   },
+   {
+    "id": "M37",
+    "q": "A neutral atom loses two electrons. The particle formed is…",
+    "options": [
+     "an ion with charge 2−",
+     "an ion with charge 2+",
+     "an isotope",
+     "a molecule"
+    ],
+    "answer": 1,
+    "explain": "Losing negatives leaves a 2+ ion. Gaining two would give 2−."
+   },
+   {
+    "id": "M38",
+    "q": "The Group 7 elements are called…",
+    "options": [
+     "the noble gases",
+     "the halogens",
+     "the alkali metals",
+     "the transition metals"
+    ],
+    "answer": 1,
+    "explain": "Group 7 = halogens (F, Cl, Br, I); Group 1 = alkali metals; Group 8/0 = noble gases."
+   },
+   {
+    "id": "M39",
+    "q": "Ar for an element is measured relative to…",
+    "options": [
+     "hydrogen = 1",
+     "carbon-12 = 12",
+     "oxygen = 16",
+     "the heaviest isotope"
+    ],
+    "answer": 1,
+    "explain": "The modern scale sets ¹²C = 12 exactly; everything else is relative to it."
+   },
+   {
+    "id": "M40",
+    "q": "Which is the correct order of size, smallest first?",
+    "options": [
+     "nucleus < atom < molecule",
+     "atom < nucleus < molecule",
+     "molecule < atom < nucleus",
+     "nucleus < molecule < atom"
+    ],
+    "answer": 0,
+    "explain": "The nucleus is a tiny core of the atom; molecules are two or more atoms."
+   },
+   {
+    "id": "M41",
+    "q": "34.60% of copper pyrites is copper (Ar 63.5). In an empirical-formula calculation, the first step for copper is…",
+    "options": [
+     "34.60 × 63.5",
+     "34.60 ÷ 63.5",
+     "63.5 ÷ 34.60",
+     "34.60 ÷ 29 (its atomic number)"
+    ],
+    "answer": 1,
+    "explain": "Mass ÷ Ar converts to moles of atoms. Upside-down or atomic-number divisions score 0/3 on the school's schemes."
+   },
+   {
+    "id": "M42",
+    "q": "An element X forms X²⁻ ions with configuration 2.8.8. X's atomic number is…",
+    "options": [
+     "18",
+     "16",
+     "20",
+     "17"
+    ],
+    "answer": 1,
+    "explain": "The ion has 18 electrons, two more than the atom: 16 protons (sulfur)."
+   },
+   {
+    "id": "M43",
+    "q": "How many electrons are in the outer shell of a Group 5 element?",
+    "options": [
+     "3",
+     "5",
+     "7",
+     "2"
+    ],
+    "answer": 1,
+    "explain": "Group number = outer electrons; Group 5 atoms gain three to reach a full shell (→ 3− ions like N³⁻ and P³⁻)."
+   },
+   {
+    "id": "M44",
+    "q": "The noble gases are unreactive because…",
+    "options": [
+     "they are gases",
+     "they have full outer shells",
+     "they have no electrons",
+     "they are diatomic"
+    ],
+    "answer": 1,
+    "explain": "A full outer shell means no drive to lose, gain or share electrons — and they go around as single atoms, not diatomic molecules."
+   },
+   {
+    "id": "M45",
+    "q": "Which statement correctly compares ³⁵Cl and ³⁷Cl?",
+    "options": [
+     "³⁷Cl reacts faster",
+     "³⁷Cl is heavier but chemically identical",
+     "³⁵Cl has fewer electrons",
+     "³⁷Cl has two extra protons"
+    ],
+    "answer": 1,
+    "explain": "Two extra NEUTRONS add mass but leave the electron arrangement — and therefore the chemistry — unchanged."
+   },
+   {
+    "id": "M46",
+    "q": "Which particle determines which element an atom is?",
+    "options": [
+     "The neutron",
+     "The proton",
+     "The electron",
+     "The nucleus as a whole"
+    ],
+    "answer": 1,
+    "explain": "The proton count is the atomic number, and that defines the element. Change the neutrons and you get an isotope; change the electrons and you get an ion — still the same element."
+   },
+   {
+    "id": "M47",
+    "q": "An ion has 12 protons and 10 electrons. Its charge is…",
+    "options": [
+     "2−",
+     "2+",
+     "22+",
+     "10−"
+    ],
+    "answer": 1,
+    "explain": "Two more positives than negatives → 2+. This is Mg²⁺ (magnesium, atomic number 12)."
+   },
+   {
+    "id": "M48",
+    "q": "The electrons in the outer shell of an atom are important because they…",
+    "options": [
+     "hold the nucleus together",
+     "determine the chemical properties",
+     "give the atom its mass",
+     "make the atom radioactive"
+    ],
+    "answer": 1,
+    "explain": "Bonding and reactions are all outer-shell electrons — which is why the group number (= outer electrons) predicts chemistry so well."
+   },
+   {
+    "id": "M49",
+    "q": "Which element has the electronic configuration 2.8.8?",
+    "options": [
+     "Neon",
+     "Argon",
+     "Chlorine",
+     "Potassium"
+    ],
+    "answer": 1,
+    "explain": "18 electrons = argon, a Group 8 noble gas with a full outer shell. Neon is 2.8; chlorine 2.8.7; potassium 2.8.8.1."
+   },
+   {
+    "id": "M50",
+    "q": "Going ACROSS a period from left to right, the number of occupied shells…",
+    "options": [
+     "increases by one each time",
+     "stays the same",
+     "decreases",
+     "doubles"
+    ],
+    "answer": 1,
+    "explain": "Across a period the shell count is fixed and outer electrons build up; DOWN a group a new shell is added each time."
+   },
+   {
+    "id": "M51",
+    "q": "An atom of ³⁹₁₉K contains…",
+    "options": [
+     "19 protons, 20 neutrons, 19 electrons",
+     "39 protons, 19 neutrons, 39 electrons",
+     "19 protons, 39 neutrons, 20 electrons",
+     "20 protons, 19 neutrons, 20 electrons"
+    ],
+    "answer": 0,
+    "explain": "Bottom = protons (19), so 19 electrons in a neutral atom; neutrons = 39 − 19 = 20."
+   },
+   {
+    "id": "M52",
+    "q": "Which statement about electrons is TRUE?",
+    "options": [
+     "They are found in the nucleus",
+     "They have a relative mass of 1",
+     "They occupy shells around the nucleus",
+     "They have no charge"
+    ],
+    "answer": 2,
+    "explain": "Shells (energy levels) around the nucleus; relative mass ≈ 1/1836; charge −1. Only protons and neutrons live in the nucleus."
+   },
+   {
+    "id": "M53",
+    "q": "The relative atomic mass of magnesium is 24.3, not a whole number, because…",
+    "options": [
+     "magnesium atoms are damaged",
+     "it is a weighted average of magnesium's isotopes",
+     "electrons add extra mass",
+     "the periodic table rounds up"
+    ],
+    "answer": 1,
+    "explain": "Natural magnesium is a mixture of ²⁴Mg, ²⁵Mg and ²⁶Mg; the average sits just above 24 because the lightest isotope dominates."
+   },
+   {
+    "id": "M54",
+    "q": "Which pair of ions both have the electronic configuration 2.8?",
+    "options": [
+     "Na⁺ and F⁻",
+     "Na⁺ and Cl⁻",
+     "Mg²⁺ and S²⁻",
+     "K⁺ and F⁻"
+    ],
+    "answer": 0,
+    "explain": "Na (2.8.1) loses one → 2.8; F (2.7) gains one → 2.8. Both reach the neon configuration — this is what 'full outer shell' means in practice."
+   },
+   {
+    "id": "M55",
+    "q": "Which is NOT a reason the periodic table is arranged as it is?",
+    "options": [
+     "Elements are in order of atomic number",
+     "Elements in a group have the same number of outer electrons",
+     "Elements in a period have the same number of shells",
+     "Elements are arranged by density"
+    ],
+    "answer": 3,
+    "explain": "Density plays no part. Order = atomic number; columns share outer-electron count; rows share shell count."
+   }
+  ],
+  "02-bonding-and-structures": [
+   {
+    "id": "M1",
+    "q": "An ionic bond is best described as…",
+    "options": [
+     "a shared pair of electrons",
+     "the electrostatic attraction between oppositely charged ions",
+     "the transfer of electrons",
+     "weak forces between molecules"
+    ],
+    "answer": 1,
+    "explain": "The transfer creates the ions; the BOND is the attraction between them. Sharing is covalent; weak intermolecular forces are not bonds at all."
+   },
+   {
+    "id": "M2",
+    "q": "When magnesium (2.8.2) bonds with oxygen (2.6), what happens?",
+    "options": [
+     "Each Mg shares two electrons with O",
+     "Each Mg loses two electrons and each O gains two",
+     "Each Mg gains two electrons and each O loses two",
+     "Electrons are transferred from oxygen to magnesium"
+    ],
+    "answer": 1,
+    "explain": "Metal loses, non-metal gains — and the number matters: two each. The 2023 scheme refused marks for \"electrons moved\" without saying how many."
+   },
+   {
+    "id": "M3",
+    "q": "A covalent bond holds two atoms together because…",
+    "options": [
+     "the shared pair of electrons is attracted to the nucleus",
+     "the shared pair of electrons is attracted to the nuclei of both atoms",
+     "opposite ions attract",
+     "delocalised electrons hold the atoms"
+    ],
+    "answer": 1,
+    "explain": "Nuclei — plural. Both 2021 and 2022 refused the mark when only one nucleus was mentioned."
+   },
+   {
+    "id": "M4",
+    "q": "Hydrogen has very strong H–H bonds but boils at −253 °C. Why?",
+    "options": [
+     "The covalent bonds break easily",
+     "There are only weak forces between the molecules",
+     "Hydrogen molecules are very small ions",
+     "The bonds are weakened by heating"
+    ],
+    "answer": 1,
+    "explain": "Boiling separates molecules; it never breaks covalent bonds. The 2021 scheme scored any bond-breaking answer 0/2 — the weak intermolecular forces are the whole story."
+   },
+   {
+    "id": "M5",
+    "q": "Sodium chloride conducts electricity when molten because…",
+    "options": [
+     "its electrons become free to move",
+     "its ions become free to move",
+     "it becomes a metal when heated",
+     "molten salts always contain free atoms"
+    ],
+    "answer": 1,
+    "explain": "Ionic conduction is always ions moving. Electron answers score zero — electrons carry charge in metals and graphite, not in molten salts."
+   },
+   {
+    "id": "M6",
+    "q": "Which substance has a giant covalent structure?",
+    "options": [
+     "Carbon dioxide",
+     "Sodium chloride",
+     "Diamond",
+     "C₆₀ fullerene"
+    ],
+    "answer": 2,
+    "explain": "Diamond is a continuous covalent network. CO₂ and C₆₀ are simple molecular (C₆₀ is the classic trap — 60 atoms, but still discrete molecules); NaCl is giant ionic."
+   },
+   {
+    "id": "M7",
+    "q": "Magnesium oxide has a high melting point because…",
+    "options": [
+     "strong covalent bonds must be broken",
+     "strong intermolecular forces must be overcome",
+     "there is a strong attraction between oppositely charged ions",
+     "the molecules are held in a rigid lattice"
+    ],
+    "answer": 2,
+    "explain": "Giant ionic lattice: strong electrostatic attraction between opposite ions needs lots of energy. In 2025 any mention of covalent bonds, molecules or IMF scored 0/3."
+   },
+   {
+    "id": "M8",
+    "q": "Graphite conducts electricity because…",
+    "options": [
+     "its ions are free to move",
+     "it contains delocalised electrons",
+     "its layers can slide over each other",
+     "it is a metal"
+    ],
+    "answer": 1,
+    "explain": "Each carbon bonds to only three others, freeing one electron per atom — delocalised between the layers. Sliding layers explain softness, not conduction."
+   },
+   {
+    "id": "M9",
+    "q": "C₆₀ fullerene melts far below graphite because…",
+    "options": [
+     "its covalent bonds are weaker",
+     "melting it only overcomes intermolecular forces between molecules",
+     "it contains fewer carbon atoms per bond",
+     "its layers slide more easily"
+    ],
+    "answer": 1,
+    "explain": "C₆₀ is simple molecular — the balls separate without breaking a single bond. Graphite is giant covalent, so melting it breaks covalent bonds, which costs far more energy."
+   },
+   {
+    "id": "M10",
+    "q": "The two types of particle in a metallic structure are…",
+    "options": [
+     "positive ions and delocalised electrons",
+     "protons and electrons",
+     "atoms and molecules",
+     "positive and negative ions"
+    ],
+    "answer": 0,
+    "explain": "A lattice of positive ions in a sea of delocalised electrons. \"Protons\" was explicitly rejected in 2025 — the labels are ions and electrons."
+   },
+   {
+    "id": "M11",
+    "q": "Metals are malleable because…",
+    "options": [
+     "intermolecular forces between atoms are weak",
+     "the delocalised electrons repel each other",
+     "layers of ions can slide over one another",
+     "the metallic bonds break when hammered"
+    ],
+    "answer": 2,
+    "explain": "Layers slide and the electron sea keeps binding them in the new position. Intermolecular-force answers were rejected — there are no molecules in a metal."
+   },
+   {
+    "id": "M12",
+    "q": "A substance melts at −101 °C and never conducts electricity. Its structure is…",
+    "options": [
+     "giant ionic",
+     "giant covalent",
+     "simple molecular",
+     "giant metallic"
+    ],
+    "answer": 2,
+    "explain": "Low melting point + no conduction in any state = simple molecular. Ionic conducts when molten; metals conduct always; giant covalent has a huge melting point."
+   },
+   {
+    "id": "M13",
+    "q": "Calcium phosphide has the formula Ca₃P₂ because…",
+    "options": [
+     "calcium shares three electrons with phosphorus",
+     "three Ca²⁺ ions balance two P³⁻ ions",
+     "phosphorus is in Group 3",
+     "two Ca³⁺ ions balance three P²⁻ ions"
+    ],
+    "answer": 1,
+    "explain": "Ca²⁺ (Group 2) and P³⁻ (Group 5): 3 × (2+) = 6+ balances 2 × (3−) = 6−. Any sharing-based answer scored zero in 2025 — metal + non-metal is ionic."
+   },
+   {
+    "id": "M14",
+    "q": "Which statement about ionic compounds is correct?",
+    "options": [
+     "They conduct electricity when solid",
+     "They conduct when molten or dissolved in water",
+     "They never conduct electricity",
+     "They conduct only when solid"
+    ],
+    "answer": 1,
+    "explain": "The ions must be free to move: molten or in solution. In the solid they are locked in the lattice."
+   },
+   {
+    "id": "M15",
+    "q": "In a dot-and-cross diagram of N₂, the number of shared electrons is…",
+    "options": [
+     "2",
+     "4",
+     "6",
+     "8"
+    ],
+    "answer": 2,
+    "explain": "Nitrogen needs three more electrons each → a triple bond: three shared pairs = six electrons, plus one lone pair on each atom. 2022's M1 was exactly \"6 bonding electrons\"."
+   },
+   {
+    "id": "M16",
+    "q": "Ionic bonding occurs between…",
+    "options": [
+     "two non-metals",
+     "a metal and a non-metal",
+     "two metals",
+     "identical atoms"
+    ],
+    "answer": 1,
+    "explain": "Metal loses electrons, non-metal gains: ions form and attract. Non-metal + non-metal share instead (covalent)."
+   },
+   {
+    "id": "M17",
+    "q": "Covalent bonding occurs between…",
+    "options": [
+     "a metal and a non-metal",
+     "two non-metals",
+     "ions of opposite charge",
+     "layers of a metal"
+    ],
+    "answer": 1,
+    "explain": "Two non-metals both need electrons, so they share pairs."
+   },
+   {
+    "id": "M18",
+    "q": "In a dot-and-cross diagram of HCl, chlorine keeps how many lone pairs?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "0"
+    ],
+    "answer": 2,
+    "explain": "One of chlorine's seven outer electrons is in the shared pair; the other six form three lone pairs."
+   },
+   {
+    "id": "M19",
+    "q": "The formula of the compound formed from Na⁺ and O²⁻ is…",
+    "options": [
+     "NaO",
+     "Na₂O",
+     "NaO₂",
+     "Na₂O₂"
+    ],
+    "answer": 1,
+    "explain": "Two 1+ ions balance one 2− ion: Na₂O."
+   },
+   {
+    "id": "M20",
+    "q": "When sodium reacts with chlorine, each sodium atom…",
+    "options": [
+     "gains one electron",
+     "loses one electron",
+     "shares one electron",
+     "loses one proton"
+    ],
+    "answer": 1,
+    "explain": "Metal atoms lose their outer electrons; sodium's single outer electron transfers to chlorine. Protons never move in chemistry."
+   },
+   {
+    "id": "M21",
+    "q": "Solid sodium chloride does not conduct electricity because…",
+    "options": [
+     "it has no ions",
+     "its ions cannot move",
+     "its electrons are delocalised",
+     "it is covalent"
+    ],
+    "answer": 1,
+    "explain": "The ions are there but locked in the lattice. Free them (melt or dissolve) and it conducts."
+   },
+   {
+    "id": "M22",
+    "q": "Diamond is extremely hard because…",
+    "options": [
+     "its molecules pack tightly",
+     "each carbon is covalently bonded to four others in a rigid network",
+     "it contains delocalised electrons",
+     "its layers interlock"
+    ],
+    "answer": 1,
+    "explain": "A giant covalent network with every atom pinned by four strong bonds. Layers belong to graphite; delocalised electrons too."
+   },
+   {
+    "id": "M23",
+    "q": "Graphite is soft and slippery because…",
+    "options": [
+     "its covalent bonds are weak",
+     "its layers can slide over each other",
+     "it contains ions",
+     "its molecules are round"
+    ],
+    "answer": 1,
+    "explain": "Strong bonds within each layer, weak attraction between layers — they slide, which is why it works as a lubricant and pencil lead."
+   },
+   {
+    "id": "M24",
+    "q": "Which substance does NOT conduct electricity in any state?",
+    "options": [
+     "Copper",
+     "Molten sodium chloride",
+     "Chlorine",
+     "Graphite"
+    ],
+    "answer": 2,
+    "explain": "Covalent molecules: no ions, no delocalised electrons, nothing to carry charge. The other three all conduct."
+   },
+   {
+    "id": "M25",
+    "q": "The melting points of the halogens increase down the group because…",
+    "options": [
+     "the covalent bonds get stronger",
+     "the intermolecular forces between larger molecules are stronger",
+     "they become ionic",
+     "they gain more electrons in bonds"
+    ],
+    "answer": 1,
+    "explain": "Bigger molecules → stronger IMF → more energy to separate them. The bonds inside each molecule are irrelevant to melting."
+   },
+   {
+    "id": "M26",
+    "q": "Ice melts at 0 °C but salt melts at 801 °C. The best explanation is…",
+    "options": [
+     "water molecules are smaller",
+     "melting ice overcomes weak intermolecular forces; melting salt overcomes strong ionic attractions",
+     "salt contains stronger covalent bonds",
+     "ice contains no bonds"
+    ],
+    "answer": 1,
+    "explain": "Simple molecular vs giant ionic — different structures, different particles being separated, hugely different energies."
+   },
+   {
+    "id": "M27",
+    "q": "The particles at the lattice points of a metal are…",
+    "options": [
+     "neutral atoms",
+     "positive ions",
+     "negative ions",
+     "molecules"
+    ],
+    "answer": 1,
+    "explain": "The outer electrons have left to join the delocalised sea, leaving positive ions in the lattice."
+   },
+   {
+    "id": "M28",
+    "q": "Metals conduct electricity because…",
+    "options": [
+     "their ions vibrate",
+     "their delocalised electrons can move through the structure",
+     "they contain acids",
+     "their layers slide"
+    ],
+    "answer": 1,
+    "explain": "The electron sea drifts when a voltage is applied. Sliding layers explain malleability, not conduction."
+   },
+   {
+    "id": "M29",
+    "q": "An unknown solid melts at 3550 °C and never conducts. It is most likely…",
+    "options": [
+     "a metal",
+     "simple molecular",
+     "giant covalent",
+     "ionic"
+    ],
+    "answer": 2,
+    "explain": "Huge melting point rules out molecular; no conduction ever rules out metal and (molten) ionic. Diamond fits exactly."
+   },
+   {
+    "id": "M30",
+    "q": "An unknown solid conducts when molten but not when solid. It is…",
+    "options": [
+     "a metal",
+     "giant covalent",
+     "simple molecular",
+     "ionic"
+    ],
+    "answer": 3,
+    "explain": "The signature of an ionic compound: ions locked when solid, free when molten."
+   },
+   {
+    "id": "M31",
+    "q": "How many electrons does each nitrogen atom contribute to the triple bond in N₂?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "6"
+    ],
+    "answer": 2,
+    "explain": "Three shared pairs = six electrons total, three from each atom."
+   },
+   {
+    "id": "M32",
+    "q": "The formula of the ionic compound formed from Al³⁺ and O²⁻ is…",
+    "options": [
+     "AlO",
+     "Al₂O₃",
+     "Al₃O₂",
+     "AlO₃"
+    ],
+    "answer": 1,
+    "explain": "Charges must cancel: 2 × (3+) = 3 × (2−) = 6 each way → Al₂O₃."
+   },
+   {
+    "id": "M33",
+    "q": "Which of these is a property of MOST metals?",
+    "options": [
+     "Brittle",
+     "Low melting point",
+     "Malleable and a good conductor",
+     "Insoluble insulator"
+    ],
+    "answer": 2,
+    "explain": "Sliding layers make them malleable; delocalised electrons make them conduct."
+   },
+   {
+    "id": "M34",
+    "q": "In magnesium oxide, the ions present are…",
+    "options": [
+     "Mg⁺ and O⁻",
+     "Mg²⁺ and O²⁻",
+     "Mg²⁻ and O²⁺",
+     "Mg⁺ and O²⁻"
+    ],
+    "answer": 1,
+    "explain": "Group 2 loses two, Group 6 gains two — a 1:1 compound of doubly charged ions (which is why MgO's melting point is so high)."
+   },
+   {
+    "id": "M35",
+    "q": "Why does C₆₀ fullerene dissolve in some solvents while graphite dissolves in none?",
+    "options": [
+     "C₆₀ is ionic",
+     "C₆₀ consists of separate molecules that can be surrounded by solvent",
+     "graphite is too dense",
+     "C₆₀ contains weaker covalent bonds"
+    ],
+    "answer": 1,
+    "explain": "Discrete molecules can be pried apart by solvent (only IMF to overcome); a giant covalent network cannot be dissolved without breaking bonds."
+   },
+   {
+    "id": "M36",
+    "q": "When magnesium burns in oxygen, the product's bonding is…",
+    "options": [
+     "covalent",
+     "metallic",
+     "ionic",
+     "intermolecular"
+    ],
+    "answer": 2,
+    "explain": "Metal + non-metal → electron transfer → ionic MgO."
+   },
+   {
+    "id": "M37",
+    "q": "The attraction holding a metallic lattice together is between…",
+    "options": [
+     "positive ions and delocalised electrons",
+     "positive and negative ions",
+     "molecules",
+     "protons and neutrons"
+    ],
+    "answer": 0,
+    "explain": "That ion–electron attraction IS metallic bonding."
+   },
+   {
+    "id": "M38",
+    "q": "Which substance is a gas at room temperature?",
+    "options": [
+     "A giant covalent solid",
+     "A substance with mp −101 °C and bp −35 °C",
+     "An ionic lattice",
+     "A metal"
+    ],
+    "answer": 1,
+    "explain": "Room temperature (~20 °C) is above its boiling point, so it is a gas — the simple molecular pattern from 2021's table."
+   },
+   {
+    "id": "M39",
+    "q": "A dot-and-cross diagram of water (H₂O) shows oxygen with…",
+    "options": [
+     "two bonding pairs and two lone pairs",
+     "four bonding pairs",
+     "one bonding pair and three lone pairs",
+     "two bonding pairs and no lone pairs"
+    ],
+    "answer": 0,
+    "explain": "Two O–H shared pairs; oxygen's remaining four electrons sit as two lone pairs."
+   },
+   {
+    "id": "M40",
+    "q": "Why must an ionic-melting-point answer avoid the word \"molecule\"?",
+    "options": [
+     "Molecules are too small",
+     "A giant ionic lattice contains no molecules — the word signals the wrong model and scores 0",
+     "Examiners prefer formal language",
+     "Molecules only exist in gases"
+    ],
+    "answer": 1,
+    "explain": "2025's scheme: covalent/molecule/IMF language in the ionic answer = 0/3. Giant structures are continuous — no molecules anywhere."
+   },
+   {
+    "id": "M41",
+    "q": "Which shows the ions in calcium chloride?",
+    "options": [
+     "Ca⁺ and Cl⁻",
+     "Ca²⁺ and Cl₂²⁻",
+     "Ca²⁺ and two Cl⁻",
+     "Ca²⁻ and two Cl⁺"
+    ],
+    "answer": 2,
+    "explain": "Ca²⁺ needs two 1− chloride ions: CaCl₂. Metals form positive ions, non-metals negative."
+   },
+   {
+    "id": "M42",
+    "q": "Graphite is used as an electrode material because it…",
+    "options": [
+     "is malleable",
+     "conducts electricity and is inert",
+     "dissolves slowly",
+     "is magnetic"
+    ],
+    "answer": 1,
+    "explain": "Delocalised electrons carry the current, and it survives the chemistry — the same reason it appears in the electrolysis module."
+   },
+   {
+    "id": "M43",
+    "q": "The bonding within one layer of graphite is…",
+    "options": [
+     "weak intermolecular forces",
+     "strong covalent bonds",
+     "ionic attractions",
+     "metallic bonding"
+    ],
+    "answer": 1,
+    "explain": "Each carbon covalently bonds to three neighbours within the layer; only the BETWEEN-layer attraction is weak."
+   },
+   {
+    "id": "M44",
+    "q": "Substance X conducts electricity as a solid and can be hammered flat. X is…",
+    "options": [
+     "ionic",
+     "giant covalent",
+     "a metal",
+     "simple molecular"
+    ],
+    "answer": 2,
+    "explain": "Solid-state conduction + malleability is the metallic fingerprint (graphite conducts but is brittle and flaky)."
+   },
+   {
+    "id": "M45",
+    "q": "How many atoms are in one molecule of C₆₀ fullerene?",
+    "options": [
+     "6",
+     "12",
+     "60",
+     "It is a giant structure"
+    ],
+    "answer": 2,
+    "explain": "Sixty carbons per ball — large, but still a fixed, countable molecule, which is exactly why it behaves as simple molecular."
+   },
+   {
+    "id": "M46",
+    "q": "Which type of bonding involves a transfer of electrons?",
+    "options": [
+     "Covalent",
+     "Ionic",
+     "Metallic",
+     "Intermolecular"
+    ],
+    "answer": 1,
+    "explain": "Ionic: metal transfers to non-metal, forming oppositely charged ions that attract. Covalent shares; metallic pools electrons."
+   },
+   {
+    "id": "M47",
+    "q": "How many covalent bonds does a carbon atom normally form?",
+    "options": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "answer": 2,
+    "explain": "Four outer electrons, four bonds — the rule that makes every organic displayed formula checkable: if a carbon has fewer than four bonds, the drawing is wrong."
+   },
+   {
+    "id": "M48",
+    "q": "In a dot-and-cross diagram of methane, CH₄, the carbon has…",
+    "options": [
+     "four bonding pairs and no lone pairs",
+     "two bonding pairs and two lone pairs",
+     "four lone pairs",
+     "one bonding pair"
+    ],
+    "answer": 0,
+    "explain": "All four outer electrons are used in C–H bonds, so no lone pairs remain on carbon."
+   },
+   {
+    "id": "M49",
+    "q": "Why does sodium chloride have a much higher melting point than chlorine gas?",
+    "options": [
+     "Its covalent bonds are stronger",
+     "It has a giant ionic lattice with strong attractions between ions, not weak forces between molecules",
+     "It contains heavier atoms",
+     "It is a metal"
+    ],
+    "answer": 1,
+    "explain": "Structure decides everything: giant ionic vs simple molecular. Never explain an ionic melting point with covalent or intermolecular language — 2025 scored that 0."
+   },
+   {
+    "id": "M50",
+    "q": "Substance X conducts electricity when dissolved in water but not as a solid. X is…",
+    "options": [
+     "a metal",
+     "an ionic compound",
+     "a simple covalent molecule",
+     "graphite"
+    ],
+    "answer": 1,
+    "explain": "Dissolving frees the ions to move. Metals conduct as solids; simple molecular substances never conduct; graphite conducts as a solid."
+   },
+   {
+    "id": "M51",
+    "q": "In C₆₀ fullerene, what is overcome when it melts?",
+    "options": [
+     "Covalent bonds within each molecule",
+     "Intermolecular forces between the molecules",
+     "Ionic attractions",
+     "Metallic bonds"
+    ],
+    "answer": 1,
+    "explain": "The balls separate; every covalent bond inside them survives. That is exactly why it melts far below giant covalent graphite."
+   },
+   {
+    "id": "M52",
+    "q": "Which substance contains delocalised electrons?",
+    "options": [
+     "Diamond",
+     "Sodium chloride",
+     "Graphite",
+     "Methane"
+    ],
+    "answer": 2,
+    "explain": "Graphite (and all metals). Each carbon bonds to only three others, leaving one electron per atom free — hence graphite conducts, unlike diamond."
+   },
+   {
+    "id": "M53",
+    "q": "Why can a metal be drawn into a wire?",
+    "options": [
+     "Its delocalised electrons stretch",
+     "Layers of positive ions slide over one another while the bonding survives",
+     "The ions break apart",
+     "Its molecules are long and thin"
+    ],
+    "answer": 1,
+    "explain": "Ductility and malleability are both the sliding-layers story. Ionic crystals shatter instead because sliding brings like charges together."
+   },
+   {
+    "id": "M54",
+    "q": "Which pairing of substance and structure is WRONG?",
+    "options": [
+     "Diamond — giant covalent",
+     "Magnesium oxide — giant ionic",
+     "Carbon dioxide — giant covalent",
+     "Copper — giant metallic"
+    ],
+    "answer": 2,
+    "explain": "CO₂ is SIMPLE MOLECULAR — small discrete molecules, which is why it is a gas at room temperature. Silicon dioxide is the giant covalent oxide."
+   },
+   {
+    "id": "M55",
+    "q": "Two atoms share two pairs of electrons. This is a…",
+    "options": [
+     "single bond",
+     "double bond",
+     "triple bond",
+     "ionic bond"
+    ],
+    "answer": 1,
+    "explain": "One shared pair = single, two = double (as in O₂ and CO₂), three = triple (as in N₂, six shared electrons)."
+   }
+  ],
+  "03-formulae-and-equations": [
+   {
+    "id": "M1",
+    "q": "The formula of magnesium nitride is…",
+    "options": [
+     "MgN",
+     "Mg₂N₃",
+     "Mg₃N₂",
+     "MgN₂"
+    ],
+    "answer": 2,
+    "explain": "Mg²⁺ and N³⁻: three magnesiums (6+) balance two nitrides (6−). This was one of 2024's ion-table answers."
+   },
+   {
+    "id": "M2",
+    "q": "The formula of ammonium carbonate is…",
+    "options": [
+     "NH₄CO₃",
+     "(NH₄)₂CO₃",
+     "NH₄(CO₃)₂",
+     "N₂CO₃"
+    ],
+    "answer": 1,
+    "explain": "NH₄⁺ and CO₃²⁻ — two ammoniums per carbonate, with brackets because a molecular ion is being multiplied."
+   },
+   {
+    "id": "M3",
+    "q": "Which of these is written correctly?",
+    "options": [
+     "HBR",
+     "hbr",
+     "HBr",
+     "Hbr"
+    ],
+    "answer": 2,
+    "explain": "Element symbols keep their own capitalisation: H + Br = HBr. The 2024 scheme rejected HBR and hbr outright — case is chemistry."
+   },
+   {
+    "id": "M4",
+    "q": "Which element does NOT exist as diatomic molecules?",
+    "options": [
+     "Nitrogen",
+     "Chlorine",
+     "Neon",
+     "Oxygen"
+    ],
+    "answer": 2,
+    "explain": "The diatomic seven are H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂. Noble gases like neon go around as single atoms."
+   },
+   {
+    "id": "M5",
+    "q": "To balance Mg + O₂ → MgO you should…",
+    "options": [
+     "change MgO to MgO₂",
+     "write 2Mg + O₂ → 2MgO",
+     "change O₂ to O",
+     "write Mg + O₂ → MgO₂"
+    ],
+    "answer": 1,
+    "explain": "Balancing changes only the big numbers in front. Editing a subscript (MgO₂) invents a different substance — formulae are fixed by the ion charges."
+   },
+   {
+    "id": "M6",
+    "q": "In Ca₃(PO₄)₂ the total number of oxygen atoms is…",
+    "options": [
+     "4",
+     "6",
+     "8",
+     "2"
+    ],
+    "answer": 2,
+    "explain": "The bracket multiplies everything inside: 2 × 4 = 8 oxygens. This count is why the phosphide equation needs 8C and 8CO."
+   },
+   {
+    "id": "M7",
+    "q": "The state symbol for zinc nitrate formed in solution from zinc + dilute nitric acid is…",
+    "options": [
+     "(s)",
+     "(l)",
+     "(g)",
+     "(aq)"
+    ],
+    "answer": 3,
+    "explain": "A soluble salt (all nitrates are soluble) stays dissolved where it formed — (aq). 2024's commentary: many wrongly wrote (s) or (l)."
+   },
+   {
+    "id": "M8",
+    "q": "The state symbol for the water produced in a neutralisation is…",
+    "options": [
+     "(aq)",
+     "(l)",
+     "(g)",
+     "(s)"
+    ],
+    "answer": 1,
+    "explain": "Pure water is the liquid itself: (l). (aq) means dissolved IN water — water cannot be dissolved in itself."
+   },
+   {
+    "id": "M9",
+    "q": "Balanced correctly, ethane burning completely in air is…",
+    "options": [
+     "C₂H₆ + 3O₂ → 2CO₂ + 3H₂O",
+     "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+     "C₂H₆ + O₂ → CO₂ + H₂O",
+     "2C₂H₆ + 5O₂ → 4CO₂ + 6H₂O"
+    ],
+    "answer": 1,
+    "explain": "4 C, 12 H, 14 O each side. Option A shorts the oxygen (needs 3.5, not 3) — doubling everything fixes it."
+   },
+   {
+    "id": "M10",
+    "q": "A compound ending in -ate always contains…",
+    "options": [
+     "oxygen",
+     "carbon",
+     "hydrogen",
+     "water"
+    ],
+    "answer": 0,
+    "explain": "-ate = the element plus oxygen (sulfate SO₄²⁻, nitrate NO₃⁻, carbonate CO₃²⁻). -ide means just the element itself."
+   },
+   {
+    "id": "M11",
+    "q": "The charge on the iron ion in iron(III) hydroxide, Fe(OH)₃, is…",
+    "options": [
+     "+1",
+     "+2",
+     "+3",
+     "−3"
+    ],
+    "answer": 2,
+    "explain": "The Roman numeral states the charge: iron(III) = Fe³⁺ — balanced by three OH⁻. Iron is the classic two-charge metal: Fe²⁺ and Fe³⁺."
+   },
+   {
+    "id": "M12",
+    "q": "Which equation for the thermite reaction is correct?",
+    "options": [
+     "Al + Fe₂O₃ → Fe + Al₂O₃",
+     "2Al + Fe₂O₃ → 2Fe + Al₂O₃",
+     "3Al + Fe₂O₃ → 3Fe + AlO₃",
+     "2Al + FeO₃ → 2Fe + Al₂O₃"
+    ],
+    "answer": 1,
+    "explain": "Formulae first (Fe₂O₃, Al₂O₃), then balance: two aluminiums, two irons. 2024's commentary: \"many got close but did not include balancing numbers.\""
+   },
+   {
+    "id": "M13",
+    "q": "The relative formula mass of Na₃N is… [Na = 23, N = 14]",
+    "options": [
+     "37",
+     "83",
+     "60",
+     "97"
+    ],
+    "answer": 1,
+    "explain": "3 × 23 + 14 = 83. The commonest slip is forgetting to multiply the sodium by three."
+   },
+   {
+    "id": "M14",
+    "q": "Which pair of ions produces a compound with the formula X₂Y?",
+    "options": [
+     "X²⁺ and Y²⁻",
+     "X⁺ and Y²⁻",
+     "X²⁺ and Y⁻",
+     "X³⁺ and Y²⁻"
+    ],
+    "answer": 1,
+    "explain": "Two 1+ ions balance one 2− ion: X₂Y (like Na₂O or (NH₄)₂SO₄). X²⁺ with Y⁻ gives XY₂ — the mirror-image trap."
+   },
+   {
+    "id": "M15",
+    "q": "In a balanced equation, what must be the same on both sides?",
+    "options": [
+     "The number of molecules",
+     "The number of atoms of each element",
+     "The number of compounds",
+     "The total of the big numbers"
+    ],
+    "answer": 1,
+    "explain": "Atoms are conserved — that is the whole meaning of balancing. Molecule counts can change freely (4 molecules → 3 is fine)."
+   },
+   {
+    "id": "M16",
+    "q": "The formula of calcium nitrate is…",
+    "options": [
+     "CaNO₃",
+     "Ca(NO₃)₂",
+     "Ca₂NO₃",
+     "Ca(NO₂)₃"
+    ],
+    "answer": 1,
+    "explain": "Ca²⁺ needs two NO₃⁻ ions, bracketed before multiplying: Ca(NO₃)₂."
+   },
+   {
+    "id": "M17",
+    "q": "The formula of iron(II) sulfate is…",
+    "options": [
+     "FeSO₄",
+     "Fe₂(SO₄)₃",
+     "FeS",
+     "Fe₂SO₄"
+    ],
+    "answer": 0,
+    "explain": "Iron(II) = Fe²⁺, which balances one SO₄²⁻ exactly. Fe₂(SO₄)₃ is iron(III) sulfate."
+   },
+   {
+    "id": "M18",
+    "q": "The charge on the sulfate ion is…",
+    "options": [
+     "1−",
+     "2−",
+     "3−",
+     "2+"
+    ],
+    "answer": 1,
+    "explain": "SO₄²⁻. The 2− is why sodium sulfate is Na₂SO₄ and magnesium sulfate is just MgSO₄."
+   },
+   {
+    "id": "M19",
+    "q": "Which formula is wrong?",
+    "options": [
+     "NH₄NO₃",
+     "MgOH₂",
+     "Al₂(SO₄)₃",
+     "K₂CO₃"
+    ],
+    "answer": 1,
+    "explain": "Hydroxide is a molecular ion, so it needs brackets when doubled: Mg(OH)₂. Without them the formula reads one O and two H."
+   },
+   {
+    "id": "M20",
+    "q": "The word equation for zinc + hydrochloric acid is…",
+    "options": [
+     "zinc + hydrochloric acid → zinc chloride + water",
+     "zinc + hydrochloric acid → zinc chloride + hydrogen",
+     "zinc + hydrochloric acid → zinc hydroxide + chlorine",
+     "zinc + hydrochloric acid → zinc + hydrogen chloride"
+    ],
+    "answer": 1,
+    "explain": "Metal + acid → salt + hydrogen. Water comes from acid + base, not acid + metal."
+   },
+   {
+    "id": "M21",
+    "q": "Balancing CH₄ + O₂ → CO₂ + H₂O correctly gives…",
+    "options": [
+     "CH₄ + O₂ → CO₂ + 2H₂O",
+     "CH₄ + 2O₂ → CO₂ + 2H₂O",
+     "CH₄ + 3O₂ → CO₂ + 2H₂O",
+     "2CH₄ + 2O₂ → 2CO₂ + 2H₂O"
+    ],
+    "answer": 1,
+    "explain": "Four hydrogens need 2H₂O; total oxygen on the right is 4 atoms = 2O₂."
+   },
+   {
+    "id": "M22",
+    "q": "In the equation 2Al + Fe₂O₃ → Al₂O₃ + 2Fe, the big 2 in \"2Al\" means…",
+    "options": [
+     "aluminium has a 2+ charge",
+     "two aluminium ATOMS react per formula unit of iron oxide",
+     "aluminium is diatomic",
+     "the reaction happens twice"
+    ],
+    "answer": 1,
+    "explain": "Coefficients count particles; subscripts describe what a particle is. 2Al = two separate atoms of aluminium."
+   },
+   {
+    "id": "M23",
+    "q": "Which substance's formula includes brackets?",
+    "options": [
+     "Sodium hydroxide",
+     "Ammonium sulfate",
+     "Potassium chloride",
+     "Magnesium oxide"
+    ],
+    "answer": 1,
+    "explain": "(NH₄)₂SO₄ — a molecular ion multiplied needs brackets. NaOH has only one OH, so none are needed."
+   },
+   {
+    "id": "M24",
+    "q": "The state symbol (aq) means…",
+    "options": [
+     "a liquid",
+     "a gas dissolved in air",
+     "dissolved in water",
+     "an aqueous gas"
+    ],
+    "answer": 2,
+    "explain": "Aqueous = in water solution. A pure liquid is (l) — the distinction the papers test with water itself."
+   },
+   {
+    "id": "M25",
+    "q": "In CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g), the (s) tells you calcium carbonate is…",
+    "options": [
+     "soluble",
+     "an insoluble solid",
+     "a precipitate formed in the reaction",
+     "molten"
+    ],
+    "answer": 1,
+    "explain": "It enters as solid marble — carbonates (except Na/K/NH₄) are insoluble."
+   },
+   {
+    "id": "M26",
+    "q": "How many oxygen atoms are in 3Ca(NO₃)₂?",
+    "options": [
+     "6",
+     "9",
+     "18",
+     "3"
+    ],
+    "answer": 2,
+    "explain": "Each Ca(NO₃)₂ has 2 × 3 = 6 oxygens; three of them = 18. Coefficients multiply the whole formula."
+   },
+   {
+    "id": "M27",
+    "q": "The correct formula for hydrogen gas in an equation is…",
+    "options": [
+     "H",
+     "H₂",
+     "2H",
+     "H⁺"
+    ],
+    "answer": 1,
+    "explain": "Elemental hydrogen is diatomic: H₂. Lone H atoms don't exist free; H⁺ is an ion in solution."
+   },
+   {
+    "id": "M28",
+    "q": "The products of any acid + metal carbonate reaction are…",
+    "options": [
+     "salt + water",
+     "salt + hydrogen",
+     "salt + water + carbon dioxide",
+     "salt + carbon monoxide"
+    ],
+    "answer": 2,
+    "explain": "The carbonate fizzes CO₂, and water forms too — three products, always."
+   },
+   {
+    "id": "M29",
+    "q": "Which is the correct formula of ammonia?",
+    "options": [
+     "NH₃",
+     "NH₄",
+     "N₃H",
+     "NH₄⁺"
+    ],
+    "answer": 0,
+    "explain": "Ammonia the molecule is NH₃; ammonium the ion is NH₄⁺ — one letter of difference the papers exploit."
+   },
+   {
+    "id": "M30",
+    "q": "Balancing Ca₃P₂ + H₂O → Ca(OH)₂ + PH₃ correctly gives…",
+    "options": [
+     "Ca₃P₂ + 3H₂O → 3Ca(OH)₂ + 2PH₃",
+     "Ca₃P₂ + 6H₂O → 3Ca(OH)₂ + 2PH₃",
+     "Ca₃P₂ + 6H₂O → 2Ca(OH)₂ + 3PH₃",
+     "Ca₃P₂ + 2H₂O → Ca(OH)₂ + 2PH₃"
+    ],
+    "answer": 1,
+    "explain": "3 Ca and 2 P fix the right side; count H: 3×2 + 2×3 = 12 = 6H₂O. The 2025 two-marker."
+   },
+   {
+    "id": "M31",
+    "q": "An -ide ending (as in sodium chloride) tells you the compound contains…",
+    "options": [
+     "oxygen as well",
+     "only the two named elements",
+     "water",
+     "a molecular ion"
+    ],
+    "answer": 1,
+    "explain": "-ide = just the elements named. -ate adds oxygen (chlorate, sulfate, nitrate)."
+   },
+   {
+    "id": "M32",
+    "q": "The formula of copper(II) nitrate is…",
+    "options": [
+     "CuNO₃",
+     "Cu(NO₃)₂",
+     "Cu₂NO₃",
+     "Cu(NO₂)₂"
+    ],
+    "answer": 1,
+    "explain": "Cu²⁺ + two NO₃⁻ → Cu(NO₃)₂. NO₂⁻ would be nitrite — wrong ion."
+   },
+   {
+    "id": "M33",
+    "q": "Which equation is NOT balanced?",
+    "options": [
+     "2Mg + O₂ → 2MgO",
+     "Zn + 2HCl → ZnCl₂ + H₂",
+     "2CuO + C → 2Cu + CO₂",
+     "Al + Fe₂O₃ → Al₂O₃ + Fe"
+    ],
+    "answer": 3,
+    "explain": "The thermite needs 2Al and 2Fe. Recount every element — the aluminium and iron are both short."
+   },
+   {
+    "id": "M34",
+    "q": "The total number of atoms in one formula unit of (NH₄)₂SO₄ is…",
+    "options": [
+     "11",
+     "14",
+     "15",
+     "13"
+    ],
+    "answer": 2,
+    "explain": "2 × (1 N + 4 H) = 10, plus 1 S + 4 O = 5 → 15 atoms."
+   },
+   {
+    "id": "M35",
+    "q": "Silver nitrate solution reacting with sodium chloride solution is written…",
+    "options": [
+     "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)",
+     "AgNO₃(s) + NaCl(s) → AgCl(aq) + NaNO₃(aq)",
+     "AgNO₃(aq) + NaCl(aq) → AgCl(aq) + NaNO₃(s)",
+     "AgNO₃(l) + NaCl(l) → AgCl(s) + NaNO₃(l)"
+    ],
+    "answer": 0,
+    "explain": "Two solutions in, insoluble silver chloride precipitates (s), soluble sodium nitrate stays (aq)."
+   },
+   {
+    "id": "M36",
+    "q": "Which ion has a 3− charge?",
+    "options": [
+     "Nitrate",
+     "Nitride",
+     "Sulfate",
+     "Chloride"
+    ],
+    "answer": 1,
+    "explain": "Nitride N³⁻ (Group 5 gains three). Nitrate NO₃⁻ is 1−; sulfate 2−; chloride 1−."
+   },
+   {
+    "id": "M37",
+    "q": "To balance an equation you may change…",
+    "options": [
+     "the subscripts inside formulae",
+     "the coefficients in front of formulae",
+     "the products into different compounds",
+     "the charges on the ions"
+    ],
+    "answer": 1,
+    "explain": "Only the big numbers. Everything else changes the chemistry itself."
+   },
+   {
+    "id": "M38",
+    "q": "The equation for magnesium burning is 2Mg(s) + O₂(g) → 2MgO(s). Why is MgO given (s)?",
+    "options": [
+     "It dissolves in air",
+     "It forms as a solid (white powder)",
+     "All oxides are liquids",
+     "Because magnesium was solid"
+    ],
+    "answer": 1,
+    "explain": "State symbols describe each substance as it actually is: MgO forms as white solid ash."
+   },
+   {
+    "id": "M39",
+    "q": "Fe³⁺ and SO₄²⁻ combine to give…",
+    "options": [
+     "FeSO₄",
+     "Fe₂(SO₄)₃",
+     "Fe₃(SO₄)₂",
+     "Fe(SO₄)₃"
+    ],
+    "answer": 1,
+    "explain": "Lowest common multiple of 3 and 2 is 6: two Fe³⁺ (6+) balance three SO₄²⁻ (6−)."
+   },
+   {
+    "id": "M40",
+    "q": "The number of hydrogen atoms in 2NH₃ is…",
+    "options": [
+     "3",
+     "5",
+     "6",
+     "2"
+    ],
+    "answer": 2,
+    "explain": "2 × 3 = 6. The coefficient multiplies every atom in the formula."
+   },
+   {
+    "id": "M41",
+    "q": "The formula of aluminium oxide is…",
+    "options": [
+     "AlO",
+     "Al₂O₃",
+     "Al₃O₂",
+     "AlO₂"
+    ],
+    "answer": 1,
+    "explain": "Al³⁺ and O²⁻: two aluminiums (6+) balance three oxides (6−)."
+   },
+   {
+    "id": "M42",
+    "q": "The formula of sodium carbonate is…",
+    "options": [
+     "NaCO₃",
+     "Na₂CO₃",
+     "Na(CO₃)₂",
+     "Na₂C₂O₃"
+    ],
+    "answer": 1,
+    "explain": "Na⁺ with CO₃²⁻ needs two sodiums. No brackets are needed — the carbonate appears only once."
+   },
+   {
+    "id": "M43",
+    "q": "How many atoms in total are in Ca(OH)₂?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "answer": 2,
+    "explain": "1 Ca + 2 O + 2 H = 5. The bracket multiplies BOTH atoms inside it — forgetting the hydrogens is the classic Mr slip."
+   },
+   {
+    "id": "M44",
+    "q": "Which is the correctly balanced equation?",
+    "options": [
+     "H₂ + O₂ → H₂O",
+     "2H₂ + O₂ → 2H₂O",
+     "H₂ + O₂ → 2H₂O",
+     "2H₂ + 2O₂ → 2H₂O"
+    ],
+    "answer": 1,
+    "explain": "4 H and 2 O on each side. Option A has two oxygens on the left and one on the right."
+   },
+   {
+    "id": "M45",
+    "q": "The state symbol for a precipitate formed when two solutions are mixed is…",
+    "options": [
+     "(aq)",
+     "(l)",
+     "(s)",
+     "(g)"
+    ],
+    "answer": 2,
+    "explain": "It is an insoluble SOLID, even though it formed inside a liquid — (s). Everything still dissolved stays (aq)."
+   },
+   {
+    "id": "M46",
+    "q": "In the equation 3Ca(OH)₂, how many oxygen atoms are there?",
+    "options": [
+     "2",
+     "3",
+     "6",
+     "9"
+    ],
+    "answer": 2,
+    "explain": "Each formula unit has 2 oxygens; three of them = 6. Coefficient × bracket contents."
+   },
+   {
+    "id": "M47",
+    "q": "The word equation for a metal carbonate reacting with an acid gives…",
+    "options": [
+     "salt + hydrogen",
+     "salt + water",
+     "salt + water + carbon dioxide",
+     "salt + oxygen"
+    ],
+    "answer": 2,
+    "explain": "Three products, and the CO₂ is what you see fizzing. Metal + acid gives hydrogen instead; base + acid gives just salt + water."
+   },
+   {
+    "id": "M48",
+    "q": "Which formula correctly represents iron(III) oxide?",
+    "options": [
+     "FeO",
+     "Fe₂O₃",
+     "Fe₃O₂",
+     "Fe₃O"
+    ],
+    "answer": 1,
+    "explain": "Fe³⁺ with O²⁻: two irons (6+) to three oxides (6−). FeO would be iron(II) oxide — the Roman numeral is the instruction."
+   },
+   {
+    "id": "M49",
+    "q": "Balancing Fe + O₂ → Fe₂O₃ requires…",
+    "options": [
+     "2Fe + O₂ → Fe₂O₃",
+     "4Fe + 3O₂ → 2Fe₂O₃",
+     "Fe + 3O₂ → Fe₂O₃",
+     "3Fe + 2O₂ → Fe₂O₃"
+    ],
+    "answer": 1,
+    "explain": "4 Fe and 6 O each side. When an odd number of oxygens appears in the product, doubling the product usually resolves it."
+   },
+   {
+    "id": "M50",
+    "q": "Which change is NOT allowed when balancing an equation?",
+    "options": [
+     "Putting a 2 in front of a formula",
+     "Changing H₂O to H₂O₂",
+     "Using a coefficient of 3",
+     "Doubling every coefficient"
+    ],
+    "answer": 1,
+    "explain": "Editing a subscript invents a different substance (hydrogen peroxide, not water). Only the numbers in FRONT may change."
+   }
+  ],
+  "04-acids-alkalis-and-salts": [
+   {
+    "id": "M1",
+    "q": "An acid in aqueous solution is a source of…",
+    "options": [
+     "hydroxide ions",
+     "hydrogen ions",
+     "oxide ions",
+     "electrons"
+    ],
+    "answer": 1,
+    "explain": "Acids release H⁺ in solution (they are proton donors). Alkalis release OH⁻. This one-liner is a recurring one-mark question — 2021 asked it about SO₂ solution."
+   },
+   {
+    "id": "M2",
+    "q": "The colour of methyl orange in dilute hydrochloric acid is…",
+    "options": [
+     "yellow",
+     "colourless",
+     "red",
+     "blue"
+    ],
+    "answer": 2,
+    "explain": "Methyl orange: red in acid, yellow in alkali. Phenolphthalein: colourless in acid, pink in alkali. Litmus: red/blue."
+   },
+   {
+    "id": "M3",
+    "q": "A base that is soluble in water is called…",
+    "options": [
+     "a salt",
+     "an acid",
+     "an alkali",
+     "a neutral solution"
+    ],
+    "answer": 2,
+    "explain": "Alkali = soluble base (NaOH, KOH). All alkalis are bases; most bases (metal oxides, most hydroxides) never dissolve."
+   },
+   {
+    "id": "M4",
+    "q": "The salt produced from zinc and dilute sulfuric acid is…",
+    "options": [
+     "zinc sulfide",
+     "zinc sulfate",
+     "zinc chloride",
+     "zinc nitrate"
+    ],
+    "answer": 1,
+    "explain": "The acid decides the salt's surname: sulfuric → sulfates, hydrochloric → chlorides, nitric → nitrates. Sulfide (-ide) would mean just zinc + sulfur."
+   },
+   {
+    "id": "M5",
+    "q": "Which of these salts is insoluble in water?",
+    "options": [
+     "Sodium carbonate",
+     "Potassium sulfate",
+     "Lead(II) bromide",
+     "Ammonium chloride"
+    ],
+    "answer": 2,
+    "explain": "Sodium, potassium and ammonium salts are always soluble. Lead(II) is an exception in both the chloride and sulfate rules — PbBr₂ is the school's favourite insoluble salt."
+   },
+   {
+    "id": "M6",
+    "q": "Mixing which pair of solutions produces a precipitate?",
+    "options": [
+     "Sodium chloride + ammonium nitrate",
+     "Potassium carbonate + calcium nitrate",
+     "Sodium sulfate + potassium nitrate",
+     "Sodium hydroxide + potassium sulfate"
+    ],
+    "answer": 1,
+    "explain": "Swap the partners and check the rules: calcium carbonate is insoluble → precipitate. In the other three, every product is soluble — nothing happens. This was 2024 Q2b."
+   },
+   {
+    "id": "M7",
+    "q": "In the excess-solid method for a soluble salt, the excess is used so that…",
+    "options": [
+     "more salt is produced",
+     "all the acid is used up",
+     "the reaction goes faster",
+     "the salt crystallises sooner"
+    ],
+    "answer": 1,
+    "explain": "Left-over acid would contaminate the crystals and cannot be filtered out; left-over solid can. \"To make more salt\" misses the logic — 2024's one-marker was \"so all the acid reacts\"."
+   },
+   {
+    "id": "M8",
+    "q": "When preparing hydrated crystals, the filtrate should be heated…",
+    "options": [
+     "until completely dry",
+     "until crystals just start to form, then cooled",
+     "with a Bunsen at full roar until it spits",
+     "after adding more acid"
+    ],
+    "answer": 1,
+    "explain": "Heat to the crystallisation point only, then cool and crystallise. Heating to dryness caps the answer at 1 mark — it destroys the water of crystallisation."
+   },
+   {
+    "id": "M9",
+    "q": "In a precipitation reaction, the salt you want ends up…",
+    "options": [
+     "dissolved in the filtrate",
+     "as the residue on the filter paper",
+     "evaporated with the water",
+     "on the stirring rod"
+    ],
+    "answer": 1,
+    "explain": "The insoluble product is the residue — wash THAT with distilled water and dry it. 2023's commentary: students washing the filtrate had it exactly backwards."
+   },
+   {
+    "id": "M10",
+    "q": "The correct final step for drying a precipitate is…",
+    "options": [
+     "heat it strongly with a Bunsen burner",
+     "leave it in a warm oven or pat with filter paper",
+     "boil it in fresh water",
+     "stir it until dry"
+    ],
+    "answer": 1,
+    "explain": "Gentle drying only — the 2022 scheme explicitly rejected direct Bunsen heating of the product."
+   },
+   {
+    "id": "M11",
+    "q": "Copper(II) sulfate solution is mixed with sodium hydroxide solution. What would you SEE?",
+    "options": [
+     "Fizzing",
+     "A blue precipitate forms",
+     "The solution turns red",
+     "Nothing — both products are soluble"
+    ],
+    "answer": 1,
+    "explain": "Copper(II) hydroxide is an insoluble blue solid. No gas is made, so fizzing is wrong — 2023 rejected it. Hydroxides are insoluble except sodium, potassium (and calcium slightly)."
+   },
+   {
+    "id": "M12",
+    "q": "Which acid and alkali make potassium chloride?",
+    "options": [
+     "Hydrochloric acid + potassium hydroxide",
+     "Sulfuric acid + potassium hydroxide",
+     "Hydrochloric acid + sodium hydroxide",
+     "Nitric acid + potassium hydroxide"
+    ],
+    "answer": 0,
+    "explain": "Chloride needs hydrochloric acid; potassium needs the potassium alkali. Both reactants are soluble, so the titration method is used — no excess to filter."
+   },
+   {
+    "id": "M13",
+    "q": "The observation when magnesium ribbon is added to dilute acid is…",
+    "options": [
+     "hydrogen is given off",
+     "effervescence and the ribbon disappears",
+     "the solution turns blue",
+     "a white precipitate forms"
+    ],
+    "answer": 1,
+    "explain": "An observation is what you SEE: bubbles and the metal disappearing. \"Hydrogen is given off\" is a deduction — the schemes ignore it as an observation."
+   },
+   {
+    "id": "M14",
+    "q": "Which method should be used to prepare pure barium sulfate?",
+    "options": [
+     "Excess barium + sulfuric acid, then filter",
+     "Titration of barium hydroxide with sulfuric acid",
+     "Mix two soluble solutions, filter, wash the residue, dry",
+     "Evaporate a solution of barium sulfate to dryness"
+    ],
+    "answer": 2,
+    "explain": "BaSO₄ is insoluble — precipitation is the only correct method. There is no such thing as \"a solution of barium sulfate\" to evaporate, and describing a soluble-salt method scores at most 1."
+   },
+   {
+    "id": "M15",
+    "q": "In terms of protons, an acid is…",
+    "options": [
+     "a proton acceptor",
+     "a proton donor",
+     "an electron donor",
+     "a neutron donor"
+    ],
+    "answer": 1,
+    "explain": "Acid = proton (H⁺) donor; base = proton acceptor. Neutralisation is one proton handed from acid to base: H⁺ + OH⁻ → H₂O."
+   },
+   {
+    "id": "M16",
+    "q": "The pH of a strongly acidic solution is…",
+    "options": [
+     "around 7",
+     "0–3",
+     "8–10",
+     "11–14"
+    ],
+    "answer": 1,
+    "explain": "0–3 strong acid · 4–6 weak acid · 7 neutral · 8–10 weak alkali · 11–14 strong alkali — the spec's own bands."
+   },
+   {
+    "id": "M17",
+    "q": "Phenolphthalein in an alkaline solution is…",
+    "options": [
+     "red",
+     "colourless",
+     "pink",
+     "yellow"
+    ],
+    "answer": 2,
+    "explain": "Colourless in acid, pink in alkali — the sharpest of the three named indicators."
+   },
+   {
+    "id": "M18",
+    "q": "Universal indicator is more useful than litmus because it…",
+    "options": [
+     "is cheaper",
+     "shows the approximate pH, not just acid or alkali",
+     "works in the dark",
+     "never changes colour"
+    ],
+    "answer": 1,
+    "explain": "Its colour sweep maps to the pH scale; litmus only answers acid-or-alkali."
+   },
+   {
+    "id": "M19",
+    "q": "The ionic equation for every neutralisation is…",
+    "options": [
+     "H⁺ + OH⁻ → H₂O",
+     "H₂ + O → H₂O",
+     "H⁺ + O²⁻ → OH⁻",
+     "OH⁻ + OH⁻ → H₂O + O"
+    ],
+    "answer": 0,
+    "explain": "Acid's proton meets base's hydroxide, making water. Everything else is spectators."
+   },
+   {
+    "id": "M20",
+    "q": "Which oxide would neutralise hydrochloric acid?",
+    "options": [
+     "Carbon dioxide",
+     "Copper(II) oxide",
+     "Sulfur dioxide",
+     "Water"
+    ],
+    "answer": 1,
+    "explain": "Metal oxides are bases. Non-metal oxides (CO₂, SO₂) are acidic — they'd make things worse."
+   },
+   {
+    "id": "M21",
+    "q": "The salt made from copper(II) oxide + sulfuric acid is…",
+    "options": [
+     "copper sulfide",
+     "copper(II) sulfate",
+     "copper chloride",
+     "copper carbonate"
+    ],
+    "answer": 1,
+    "explain": "Base + acid → salt + water; sulfuric acid makes sulfates. The classic blue solution."
+   },
+   {
+    "id": "M22",
+    "q": "Which salt is soluble in water?",
+    "options": [
+     "Silver chloride",
+     "Barium sulfate",
+     "Ammonium carbonate",
+     "Calcium carbonate"
+    ],
+    "answer": 2,
+    "explain": "Ammonium salts are always soluble. AgCl, BaSO₄, CaCO₃ are the rules' three most-quoted insolubles."
+   },
+   {
+    "id": "M23",
+    "q": "Which salt is INSOLUBLE in water?",
+    "options": [
+     "Potassium sulfate",
+     "Lead(II) chloride",
+     "Sodium carbonate",
+     "Magnesium nitrate"
+    ],
+    "answer": 1,
+    "explain": "Chlorides are soluble EXCEPT silver and lead(II). Nitrates: all soluble; Na/K salts: always."
+   },
+   {
+    "id": "M24",
+    "q": "To make copper(II) sulfate crystals you add excess copper(II) oxide to warm sulfuric acid. The next step is…",
+    "options": [
+     "evaporate to dryness",
+     "filter off the excess oxide",
+     "cool immediately",
+     "add water"
+    ],
+    "answer": 1,
+    "explain": "Remove the excess solid first, then heat the filtrate to the crystallisation point, cool, and dry."
+   },
+   {
+    "id": "M25",
+    "q": "Hydrated crystals lose their water of crystallisation if you…",
+    "options": [
+     "cool them slowly",
+     "heat the solution to complete dryness",
+     "wash them with cold water",
+     "filter them twice"
+    ],
+    "answer": 1,
+    "explain": "Boiling everything off drives out the water bound in the crystal — the reason \"heated to dryness\" answers cap at 1 mark."
+   },
+   {
+    "id": "M26",
+    "q": "In the titration method for potassium chloride, the indicator is used to…",
+    "options": [
+     "colour the crystals",
+     "find the exact volumes for neutralisation",
+     "speed up the reaction",
+     "remove impurities"
+    ],
+    "answer": 1,
+    "explain": "It finds the end-point; the reaction is then repeated with those volumes WITHOUT the indicator so the salt is uncontaminated."
+   },
+   {
+    "id": "M27",
+    "q": "Mixing barium chloride solution with sodium sulfate solution produces…",
+    "options": [
+     "no reaction",
+     "a white precipitate of barium sulfate",
+     "a gas",
+     "a blue precipitate"
+    ],
+    "answer": 1,
+    "explain": "Swap partners: BaSO₄ (insoluble — precipitates, white) and NaCl (soluble). Sulfates' exceptions: Ba, Ca, Pb."
+   },
+   {
+    "id": "M28",
+    "q": "The precipitate is washed with distilled water to…",
+    "options": [
+     "dissolve the precipitate",
+     "remove the soluble by-product clinging to it",
+     "cool it down",
+     "make it crystallise"
+    ],
+    "answer": 1,
+    "explain": "The rinse carries away sodium nitrate (or similar) left in the wet solid; the insoluble product can't wash away."
+   },
+   {
+    "id": "M29",
+    "q": "Farmers add lime (calcium hydroxide) to soil to…",
+    "options": [
+     "acidify it",
+     "neutralise excess acidity",
+     "add nitrogen",
+     "kill insects"
+    ],
+    "answer": 1,
+    "explain": "A base neutralises acid soil — everyday neutralisation, a favourite context question."
+   },
+   {
+    "id": "M30",
+    "q": "Which pair reacts WITHOUT producing a gas?",
+    "options": [
+     "Magnesium + hydrochloric acid",
+     "Calcium carbonate + hydrochloric acid",
+     "Sodium hydroxide + hydrochloric acid",
+     "Zinc + sulfuric acid"
+    ],
+    "answer": 2,
+    "explain": "Alkali + acid → salt + water only. Metals give hydrogen; carbonates give CO₂."
+   },
+   {
+    "id": "M31",
+    "q": "The test for carbon dioxide is…",
+    "options": [
+     "squeaky pop with a lit splint",
+     "relights a glowing splint",
+     "turns limewater milky",
+     "bleaches litmus"
+    ],
+    "answer": 2,
+    "explain": "CO₂ + limewater → milky/cloudy. The other three are H₂, O₂ and Cl₂ respectively."
+   },
+   {
+    "id": "M32",
+    "q": "\"Effervescence\" means…",
+    "options": [
+     "a colour change",
+     "bubbling / fizzing as gas is produced",
+     "heat being released",
+     "a precipitate forming"
+    ],
+    "answer": 1,
+    "explain": "The word the schemes want for visible gas production — an observation, unlike naming the gas."
+   },
+   {
+    "id": "M33",
+    "q": "Ammonia solution is…",
+    "options": [
+     "a strong acid",
+     "a base",
+     "a salt",
+     "neutral"
+    ],
+    "answer": 1,
+    "explain": "Ammonia is one of the spec's three named bases (metal oxides, metal hydroxides, ammonia) — it accepts protons."
+   },
+   {
+    "id": "M34",
+    "q": "The method for pure dry copper(II) hydroxide from copper sulfate + sodium hydroxide solutions is…",
+    "options": [
+     "excess solid, filter, crystallise",
+     "titrate, then evaporate",
+     "mix, filter, wash the residue, dry",
+     "boil to dryness"
+    ],
+    "answer": 2,
+    "explain": "It is a precipitation — the product is insoluble. Crystallisation methods belong to soluble salts only."
+   },
+   {
+    "id": "M35",
+    "q": "Why can't you make pure sodium chloride by adding excess sodium hydroxide to hydrochloric acid and filtering?",
+    "options": [
+     "The reaction is too slow",
+     "Excess NaOH is soluble and cannot be filtered out",
+     "Sodium chloride is insoluble",
+     "Filtering destroys the salt"
+    ],
+    "answer": 1,
+    "explain": "Both reactants are soluble — the leftover alkali stays dissolved and contaminates the salt. That is exactly why the titration method exists."
+   },
+   {
+    "id": "M36",
+    "q": "The reaction between an acid and a metal hydroxide produces…",
+    "options": [
+     "salt + hydrogen",
+     "salt + water",
+     "salt + water + CO₂",
+     "no reaction"
+    ],
+    "answer": 1,
+    "explain": "Hydroxides are bases: neutralisation, water as the co-product. Hydrogen needs a metal; CO₂ needs a carbonate."
+   },
+   {
+    "id": "M37",
+    "q": "Nitric acid should NOT be used with which reactant type, according to the spec?",
+    "options": [
+     "Bases",
+     "Metal carbonates",
+     "Metals",
+     "Alkalis"
+    ],
+    "answer": 2,
+    "explain": "The spec excludes nitric acid + metals (it misbehaves — no clean hydrogen). Use HCl or H₂SO₄ in metal examples."
+   },
+   {
+    "id": "M38",
+    "q": "A student's salt crystals taste... — actually, what should a student NEVER do with a prepared salt?",
+    "options": [
+     "Weigh it",
+     "Taste it",
+     "Dry it",
+     "Label it"
+    ],
+    "answer": 1,
+    "explain": "Never taste lab chemicals. (And yes, safety one-markers do appear on school papers.)"
+   },
+   {
+    "id": "M39",
+    "q": "Which observation shows neutralisation is complete when adding acid to alkali with universal indicator?",
+    "options": [
+     "The solution turns purple",
+     "The indicator turns green",
+     "Bubbles stop",
+     "A precipitate forms"
+    ],
+    "answer": 1,
+    "explain": "Green = pH 7 = neutral. Purple means still alkaline; keep adding acid."
+   },
+   {
+    "id": "M40",
+    "q": "The proton-transfer description of neutralisation says the base…",
+    "options": [
+     "donates a proton",
+     "accepts a proton",
+     "donates an electron",
+     "accepts an electron"
+    ],
+    "answer": 1,
+    "explain": "Acid = proton donor; base = proton acceptor. The H⁺ moves from acid to base (OH⁻ → H₂O)."
+   },
+   {
+    "id": "M41",
+    "q": "Which pH value indicates a strongly alkaline solution?",
+    "options": [
+     "1",
+     "7",
+     "9",
+     "13"
+    ],
+    "answer": 3,
+    "explain": "11–14 is strongly alkaline; 8–10 weakly alkaline; 7 neutral; 4–6 weakly acidic; 0–3 strongly acidic."
+   },
+   {
+    "id": "M42",
+    "q": "Adding an acid to an alkali until the solution is neutral means the resulting solution contains…",
+    "options": [
+     "only acid",
+     "salt and water only",
+     "excess alkali",
+     "hydrogen gas"
+    ],
+    "answer": 1,
+    "explain": "Neutralisation consumes both: H⁺ + OH⁻ → H₂O, leaving the salt dissolved in water."
+   },
+   {
+    "id": "M43",
+    "q": "Which acid produces nitrate salts?",
+    "options": [
+     "Hydrochloric acid",
+     "Sulfuric acid",
+     "Nitric acid",
+     "Carbonic acid"
+    ],
+    "answer": 2,
+    "explain": "The acid names the salt: nitric → nitrates, hydrochloric → chlorides, sulfuric → sulfates."
+   },
+   {
+    "id": "M44",
+    "q": "Which substance would neutralise an acidic soil?",
+    "options": [
+     "Sulfuric acid",
+     "Calcium hydroxide",
+     "Sodium chloride",
+     "Carbon dioxide"
+    ],
+    "answer": 1,
+    "explain": "A base — lime, calcium hydroxide. NaCl is a neutral salt and CO₂ dissolves to make things slightly more acidic."
+   },
+   {
+    "id": "M45",
+    "q": "In a precipitation reaction, the two starting substances must both be…",
+    "options": [
+     "solids",
+     "soluble solutions",
+     "acids",
+     "gases"
+    ],
+    "answer": 1,
+    "explain": "Mix two SOLUTIONS so the ions can meet; the insoluble combination drops out as the precipitate. The 2025 scheme rejected mixing solids."
+   },
+   {
+    "id": "M46",
+    "q": "Which salt could be made by the excess-solid method with sulfuric acid?",
+    "options": [
+     "Sodium sulfate",
+     "Copper(II) sulfate",
+     "Potassium sulfate",
+     "Ammonium sulfate"
+    ],
+    "answer": 1,
+    "explain": "Copper(II) oxide/carbonate is insoluble, so the excess filters off. Sodium, potassium and ammonium compounds are soluble — those need the titration route."
+   },
+   {
+    "id": "M47",
+    "q": "Why is the crystallising solution NOT boiled dry when making hydrated crystals?",
+    "options": [
+     "It would take too long",
+     "The water of crystallisation would be driven off and impurities baked in",
+     "The salt would dissolve again",
+     "The dish would crack"
+    ],
+    "answer": 1,
+    "explain": "You lose the hydrated crystal structure and concentrate impurities onto the dish. Heat only to the crystallisation point, then cool."
+   },
+   {
+    "id": "M48",
+    "q": "What is observed when a carbonate is added to dilute acid?",
+    "options": [
+     "A precipitate forms",
+     "Effervescence",
+     "The solution turns blue",
+     "Nothing"
+    ],
+    "answer": 1,
+    "explain": "CO₂ fizzes off (and turns limewater milky). 'Effervescence' is the observation word the schemes want."
+   },
+   {
+    "id": "M49",
+    "q": "In the titration method, why is the experiment repeated without the indicator?",
+    "options": [
+     "The indicator is expensive",
+     "So the salt produced is not contaminated by the indicator",
+     "To make it faster",
+     "The indicator stops the reaction"
+    ],
+    "answer": 1,
+    "explain": "You need the volumes, not the dye. Repeat with the same measured volumes and no indicator, then crystallise a pure salt."
+   },
+   {
+    "id": "M50",
+    "q": "Which combination would NOT produce a salt?",
+    "options": [
+     "Acid + metal oxide",
+     "Acid + metal carbonate",
+     "Acid + alkali",
+     "Alkali + metal oxide"
+    ],
+    "answer": 3,
+    "explain": "Salts come from an ACID plus something basic. Two bases together do nothing — there is no acid to donate the protons."
+   }
+  ],
+  "05-chemical-calculations": [
+   {
+    "id": "M1",
+    "q": "The amount, in moles, of CO₂ (Mr = 44) in 2.20 g is…",
+    "options": [
+     "0.05",
+     "0.5",
+     "20",
+     "96.8"
+    ],
+    "answer": 0,
+    "explain": "n = mass ÷ Mr = 2.20 ÷ 44 = 0.05 mol. 20 is the upside-down fraction (44 ÷ 2.2) — the error the schemes score 0."
+   },
+   {
+    "id": "M2",
+    "q": "The relative formula mass of Ca(OH)₂ is… [Ca = 40, O = 16, H = 1]",
+    "options": [
+     "57",
+     "74",
+     "58",
+     "73"
+    ],
+    "answer": 1,
+    "explain": "40 + 2 × (16 + 1) = 74. The bracket multiplies the whole OH group — forgetting to double the hydrogen gives 73, doubling only the oxygen gives 57."
+   },
+   {
+    "id": "M3",
+    "q": "In an empirical formula calculation you divide each element's % by its…",
+    "options": [
+     "atomic number",
+     "relative atomic mass",
+     "mass number",
+     "group number"
+    ],
+    "answer": 1,
+    "explain": "By Ar — converting mass to moles of atoms. The 2021 scheme: dividing by atomic numbers scores 0/3."
+   },
+   {
+    "id": "M4",
+    "q": "An element ratio comes out as 1 : 1.33. The empirical formula ratio is…",
+    "options": [
+     "1 : 1",
+     "3 : 4",
+     "1 : 2",
+     "2 : 3"
+    ],
+    "answer": 1,
+    "explain": "Multiply up, never round: 1.33 = 4/3, so × 3 gives 3 : 4 (this is how 2025's Pb₃O₄ appears). Rounding 1.33 to 1 destroys the question."
+   },
+   {
+    "id": "M5",
+    "q": "The volume of 0.5 mol of any gas at room temperature and pressure is…",
+    "options": [
+     "24 dm³",
+     "12 dm³",
+     "48 dm³",
+     "22.4 dm³"
+    ],
+    "answer": 1,
+    "explain": "One mole of any gas = 24 dm³ at rtp, so 0.5 mol = 12 dm³. (22.4 is the molar volume at STP — a different condition, not used by this spec.)"
+   },
+   {
+    "id": "M6",
+    "q": "6.4 × 10⁶ g of sulfur (Ar = 32) burns to SO₂. The volume of gas at rtp is…",
+    "options": [
+     "4.8 × 10⁶ dm³",
+     "4.8 × 10⁵ dm³",
+     "2.0 × 10⁵ dm³",
+     "1.5 × 10⁷ dm³"
+    ],
+    "answer": 0,
+    "explain": "Moles = 6.4 × 10⁶ ÷ 32 = 2.0 × 10⁵; × 24 = 4.8 × 10⁶ dm³ — and the paper demanded standard form. Asked identically in 2022 and 2023."
+   },
+   {
+    "id": "M7",
+    "q": "0.081 g of H₂ (Mr = 2) contains how many molecules? [1 mol = 6.0 × 10²³]",
+    "options": [
+     "2.4 × 10²²",
+     "4.9 × 10²²",
+     "2.4 × 10²³",
+     "0.0405"
+    ],
+    "answer": 0,
+    "explain": "n = 0.081 ÷ 2 = 0.0405 mol; × 6.0 × 10²³ = 2.43 × 10²² → 2.4 × 10²² to 2 sf. 0.0405 is the moles, not the molecules — read what the question asks for."
+   },
+   {
+    "id": "M8",
+    "q": "Na₂CO₃·xH₂O gives 3.18 g of Na₂CO₃ (Mr 106) and 3.78 g of water on heating. x = ?",
+    "options": [
+     "7",
+     "10",
+     "3",
+     "5"
+    ],
+    "answer": 0,
+    "explain": "0.03 mol salt and 0.21 mol water → 1 : 7. This was 2022's crucible practical; 2025's version gave x = 10 with different numbers — the method is identical."
+   },
+   {
+    "id": "M9",
+    "q": "In the water-of-crystallisation practical, x comes out too LOW because…",
+    "options": [
+     "some salt evaporated",
+     "not all the water was driven off",
+     "the crucible was too hot",
+     "the balance read too high"
+    ],
+    "answer": 1,
+    "explain": "Left-over water inflates the \"anhydrous\" mass and shrinks the water figure, so the ratio drops. Fix: reheat to constant mass."
+   },
+   {
+    "id": "M10",
+    "q": "Percentage yield is calculated as…",
+    "options": [
+     "actual mass ÷ theoretical mass × 100",
+     "theoretical mass ÷ actual mass × 100",
+     "actual mass ÷ moles expected × 100",
+     "moles made ÷ mass expected × 100"
+    ],
+    "answer": 0,
+    "explain": "Both quantities are masses — convert expected moles to grams first. 2025's scheme explicitly rejected dividing the actual mass by the moles figure."
+   },
+   {
+    "id": "M11",
+    "q": "0.150 mol of PbBr₂ (Mr = 367) is expected; 49.6 g is obtained. The percentage yield is about…",
+    "options": [
+     "90%",
+     "74%",
+     "33%",
+     "13.5%"
+    ],
+    "answer": 0,
+    "explain": "Theoretical = 0.150 × 367 = 55.05 g; 49.6 ÷ 55.05 × 100 = 90.1%."
+   },
+   {
+    "id": "M12",
+    "q": "1.5 g of Mg (Ar = 24) needs how many moles of HCl to react completely? (Mg + 2HCl → MgCl₂ + H₂)",
+    "options": [
+     "0.0625",
+     "0.125",
+     "0.25",
+     "3.0"
+    ],
+    "answer": 1,
+    "explain": "n(Mg) = 0.0625; the 1 : 2 ratio doubles it → 0.125 mol of acid. Comparing this with what's available is how every \"show it is in excess\" question works."
+   },
+   {
+    "id": "M13",
+    "q": "A compound is 37.8% C, 6.3% H, 55.9% Cl. Its empirical formula is… [C 12, H 1, Cl 35.5]",
+    "options": [
+     "CHCl",
+     "C₂H₄Cl",
+     "C₃H₆Cl",
+     "C₄H₈Cl₂"
+    ],
+    "answer": 1,
+    "explain": "3.15 : 6.3 : 1.57 → ÷ smallest → 2 : 4 : 1 = C₂H₄Cl. C₄H₈Cl₂ is the MOLECULAR formula (when Mr = 127 is given) — know which one is being asked for."
+   },
+   {
+    "id": "M14",
+    "q": "XCO₃ has Mr = 148. The Ar of X is… [C = 12, O = 16]",
+    "options": [
+     "88",
+     "100",
+     "136",
+     "120"
+    ],
+    "answer": 0,
+    "explain": "CO₃ contributes 12 + 48 = 60, so X = 148 − 60 = 88 → strontium, the Group 2 metal from 2023's question."
+   },
+   {
+    "id": "M15",
+    "q": "Why does a correct final answer with no working still risk zero on these papers?",
+    "options": [
+     "It never does — the answer always scores full marks",
+     "Because a wrong answer with no working scores nothing, and error-carried-forward cannot rescue it",
+     "Because working is worth more than the answer",
+     "Because calculators are banned"
+    ],
+    "answer": 1,
+    "explain": "A CORRECT answer without working scores full marks — but one slip with nothing on paper scores zero, because the method marks and ECF have nothing to attach to. Show the moles step."
+   },
+   {
+    "id": "M16",
+    "q": "The Mr of CO₂ is… [C = 12, O = 16]",
+    "options": [
+     "28",
+     "44",
+     "32",
+     "56"
+    ],
+    "answer": 1,
+    "explain": "12 + 2 × 16 = 44 — memorise-level familiar from every gas calculation."
+   },
+   {
+    "id": "M17",
+    "q": "The Mr of (NH₄)₂SO₄ is… [N 14, H 1, S 32, O 16]",
+    "options": [
+     "114",
+     "132",
+     "116",
+     "118"
+    ],
+    "answer": 1,
+    "explain": "2 × (14 + 4) = 36, plus 32 + 64 = 96 → 132. The bracket doubles both N and H."
+   },
+   {
+    "id": "M18",
+    "q": "The number of moles in 88 g of CO₂ (Mr = 44) is…",
+    "options": [
+     "0.5",
+     "2",
+     "44",
+     "132"
+    ],
+    "answer": 1,
+    "explain": "88 ÷ 44 = 2 mol."
+   },
+   {
+    "id": "M19",
+    "q": "The mass of 0.25 mol of NaOH (Mr = 40) is…",
+    "options": [
+     "10 g",
+     "160 g",
+     "40 g",
+     "0.00625 g"
+    ],
+    "answer": 0,
+    "explain": "mass = n × Mr = 0.25 × 40 = 10 g. 160 is the upside-down division."
+   },
+   {
+    "id": "M20",
+    "q": "The volume of 2 mol of any gas at rtp is…",
+    "options": [
+     "24 dm³",
+     "12 dm³",
+     "48 dm³",
+     "24,000 dm³"
+    ],
+    "answer": 2,
+    "explain": "2 × 24 = 48 dm³ — molar volume scales with moles, whatever the gas."
+   },
+   {
+    "id": "M21",
+    "q": "The number of moles of gas in 6 dm³ at rtp is…",
+    "options": [
+     "0.25",
+     "4",
+     "144",
+     "0.4"
+    ],
+    "answer": 0,
+    "explain": "n = 6 ÷ 24 = 0.25 mol."
+   },
+   {
+    "id": "M22",
+    "q": "In 2H₂O₂ → 2H₂O + O₂, 1.5 mol of hydrogen peroxide gives how many moles of oxygen?",
+    "options": [
+     "1.5",
+     "3.0",
+     "0.75",
+     "0.5"
+    ],
+    "answer": 2,
+    "explain": "The 2:1 ratio halves it: 0.75 mol — 2024's actual numbers (→ 18 dm³ at rtp)."
+   },
+   {
+    "id": "M23",
+    "q": "The % by mass of nitrogen in NH₄NO₃ (Mr = 80) is…",
+    "options": [
+     "17.5%",
+     "35%",
+     "28%",
+     "14%"
+    ],
+    "answer": 1,
+    "explain": "TWO nitrogens: 28 ÷ 80 × 100 = 35%. Counting one N gives the 17.5% trap."
+   },
+   {
+    "id": "M24",
+    "q": "A hydrated salt loses 1.80 g of water (Mr 18) on heating. The moles of water lost are…",
+    "options": [
+     "0.1",
+     "1.8",
+     "0.01",
+     "32.4"
+    ],
+    "answer": 0,
+    "explain": "1.80 ÷ 18 = 0.10 mol — the water half of every ·xH₂O calculation."
+   },
+   {
+    "id": "M25",
+    "q": "An oxide of copper contains 3.81 g Cu (Ar 63.5) and 0.96 g O (Ar 16). Its empirical formula is…",
+    "options": [
+     "CuO",
+     "Cu₂O",
+     "CuO₂",
+     "Cu₂O₃"
+    ],
+    "answer": 0,
+    "explain": "0.06 mol of each → 1:1 → CuO. 2024's reduction-practical numbers exactly."
+   },
+   {
+    "id": "M26",
+    "q": "The empirical formula of C₄H₁₀ is…",
+    "options": [
+     "C₄H₁₀",
+     "C₂H₅",
+     "CH₂.₅",
+     "CH₃"
+    ],
+    "answer": 1,
+    "explain": "Divide by the highest common factor (2): C₂H₅. Empirical formulae keep whole numbers only."
+   },
+   {
+    "id": "M27",
+    "q": "A compound's empirical formula is CH₂ and its Mr is 56. Its molecular formula is…",
+    "options": [
+     "CH₂",
+     "C₂H₄",
+     "C₄H₈",
+     "C₅H₁₀"
+    ],
+    "answer": 2,
+    "explain": "Empirical mass 14; 56 ÷ 14 = 4 → C₄H₈."
+   },
+   {
+    "id": "M28",
+    "q": "Which sample contains the most molecules?",
+    "options": [
+     "4 g of H₂ (Mr 2)",
+     "32 g of O₂ (Mr 32)",
+     "22 g of CO₂ (Mr 44)",
+     "9 g of H₂O (Mr 18)"
+    ],
+    "answer": 0,
+    "explain": "Convert to moles: 2, 1, 0.5, 0.5 — the lightest sample wins because moles, not grams, count particles."
+   },
+   {
+    "id": "M29",
+    "q": "0.02 mol of a salt has a mass of 2.84 g. Its Mr is…",
+    "options": [
+     "142",
+     "56.8",
+     "0.0070",
+     "284"
+    ],
+    "answer": 0,
+    "explain": "Mr = mass ÷ n = 2.84 ÷ 0.02 = 142 (sodium sulfate — 2025's hydrate question used exactly this)."
+   },
+   {
+    "id": "M30",
+    "q": "The theoretical yield of a reaction is…",
+    "options": [
+     "the mass actually collected",
+     "the maximum mass the equation predicts",
+     "always 100 g",
+     "the mass lost in filtering"
+    ],
+    "answer": 1,
+    "explain": "What the moles route predicts if nothing is lost; % yield = actual ÷ theoretical × 100."
+   },
+   {
+    "id": "M31",
+    "q": "A reaction's percentage yield is 80% and the theoretical yield is 5.0 g. The actual mass collected is…",
+    "options": [
+     "4.0 g",
+     "6.25 g",
+     "0.8 g",
+     "5.8 g"
+    ],
+    "answer": 0,
+    "explain": "actual = 80% of 5.0 = 4.0 g. Rearrange the yield formula confidently in both directions."
+   },
+   {
+    "id": "M32",
+    "q": "Why might a percentage yield be less than 100%? Choose the best reason.",
+    "options": [
+     "The balance weighed too high",
+     "Product is lost in filtering, transferring and crystallising",
+     "Atoms were destroyed in the reaction",
+     "The Mr was calculated wrongly"
+    ],
+    "answer": 1,
+    "explain": "Physical losses at each step (and side reactions). Atoms are never destroyed — conservation of mass."
+   },
+   {
+    "id": "M33",
+    "q": "0.5 mol of CaCO₃ decomposes: CaCO₃ → CaO + CO₂. The volume of CO₂ at rtp is…",
+    "options": [
+     "24 dm³",
+     "12 dm³",
+     "6 dm³",
+     "48 dm³"
+    ],
+    "answer": 1,
+    "explain": "1:1 ratio → 0.5 mol of gas → 0.5 × 24 = 12 dm³."
+   },
+   {
+    "id": "M34",
+    "q": "Which conversion is correct?",
+    "options": [
+     "1 dm³ = 100 cm³",
+     "1 dm³ = 1000 cm³",
+     "1 dm³ = 10 cm³",
+     "1 cm³ = 1000 dm³"
+    ],
+    "answer": 1,
+    "explain": "1 dm³ = 1000 cm³ — hence 24 dm³ = 24,000 cm³ for the molar volume."
+   },
+   {
+    "id": "M35",
+    "q": "4.8 g of magnesium (Ar 24) reacts: 2Mg + O₂ → 2MgO. The moles of O₂ needed are…",
+    "options": [
+     "0.2",
+     "0.1",
+     "0.4",
+     "6.4"
+    ],
+    "answer": 1,
+    "explain": "n(Mg) = 0.2; ratio 2:1 → 0.1 mol O₂. Always moles first, then ratio."
+   },
+   {
+    "id": "M36",
+    "q": "The mass of MgO made from 0.2 mol Mg (Mr of MgO = 40) is…",
+    "options": [
+     "8 g",
+     "4.8 g",
+     "40 g",
+     "0.005 g"
+    ],
+    "answer": 0,
+    "explain": "1:1 ratio keeps 0.2 mol; mass = 0.2 × 40 = 8 g."
+   },
+   {
+    "id": "M37",
+    "q": "In a 'show that magnesium is in excess' question, the comparison must be between…",
+    "options": [
+     "the masses of the two reactants",
+     "moles needed (via the ratio) and moles available",
+     "the volumes of the solutions",
+     "the Ar values"
+    ],
+    "answer": 1,
+    "explain": "Grams of different substances aren't comparable; the equation trades in moles. 2025's show-that was exactly this."
+   },
+   {
+    "id": "M38",
+    "q": "An answer of 2.43 × 10²² asked for to 2 significant figures is written…",
+    "options": [
+     "2.4 × 10²²",
+     "2.43 × 10²²",
+     "24 × 10²¹",
+     "2.5 × 10²²"
+    ],
+    "answer": 0,
+    "explain": "Two sig figs: 2.4; keep standard form. The 2024 scheme docked marks for ignoring the printed '2 sf'."
+   },
+   {
+    "id": "M39",
+    "q": "The number of moles of XCO₃ that decompose to give 0.05 mol of CO₂ (XCO₃ → XO + CO₂) is…",
+    "options": [
+     "0.05",
+     "0.1",
+     "0.025",
+     "1"
+    ],
+    "answer": 0,
+    "explain": "1:1 ratio — the moles carry straight across. That step was its own mark in 2023."
+   },
+   {
+    "id": "M40",
+    "q": "Error carried forward (ECF) means…",
+    "options": [
+     "all errors lose all marks",
+     "later steps can still score if they use your earlier wrong value correctly",
+     "the examiner corrects your arithmetic",
+     "you may erase earlier working"
+    ],
+    "answer": 1,
+    "explain": "Why showing working protects you: one slip costs one mark, not the whole question — but only if the method is on the page."
+   },
+   {
+    "id": "M41",
+    "q": "9 g of water (Mr 18) contains how many molecules? [1 mol = 6.0 × 10²³]",
+    "options": [
+     "3.0 × 10²³",
+     "6.0 × 10²³",
+     "1.2 × 10²⁴",
+     "5.4 × 10²⁴"
+    ],
+    "answer": 0,
+    "explain": "0.5 mol × 6.0 × 10²³ = 3.0 × 10²³ molecules."
+   },
+   {
+    "id": "M42",
+    "q": "A gas syringe collects 120 cm³ of gas at rtp. The amount in moles is…",
+    "options": [
+     "0.005",
+     "5",
+     "0.05",
+     "2.88"
+    ],
+    "answer": 0,
+    "explain": "n = 120 ÷ 24,000 = 0.005 mol — match cm³ with 24,000, dm³ with 24."
+   },
+   {
+    "id": "M43",
+    "q": "The Ar values needed for a calculation are found…",
+    "options": [
+     "by memorising them all",
+     "on the periodic table provided in the exam",
+     "in the question only",
+     "from the mass number of the commonest isotope"
+    ],
+    "answer": 1,
+    "explain": "The periodic table is given — use the LARGER number in each element's box (the Ar, not the atomic number)."
+   },
+   {
+    "id": "M44",
+    "q": "56 g of iron (Ar 56) and 32 g of sulfur (Ar 32) contain…",
+    "options": [
+     "equal masses so equal moles",
+     "1 mol of each",
+     "more moles of iron",
+     "2 mol of sulfur"
+    ],
+    "answer": 1,
+    "explain": "56/56 = 1 and 32/32 = 1 — equal MOLES despite unequal masses. Moles, not grams, count atoms."
+   },
+   {
+    "id": "M45",
+    "q": "A student weighs 27.7 g of salt recovered from 50 g of water. The solubility in g per 100 g is…",
+    "options": [
+     "27.7",
+     "55.4",
+     "13.85",
+     "77"
+    ],
+    "answer": 1,
+    "explain": "Double it: 55.4 g per 100 g — the 2024 evaporating-basin numbers (also lives in the Solubility module)."
+   },
+   {
+    "id": "M46",
+    "q": "The Mr of MgCl₂ is… [Mg = 24, Cl = 35.5]",
+    "options": [
+     "59.5",
+     "95",
+     "71",
+     "83.5"
+    ],
+    "answer": 1,
+    "explain": "24 + (2 × 35.5) = 95. Forgetting to double the chlorine gives 59.5 — the commonest slip."
+   },
+   {
+    "id": "M47",
+    "q": "How many moles are in 5.6 g of iron? [Ar Fe = 56]",
+    "options": [
+     "0.1",
+     "10",
+     "313.6",
+     "1.0"
+    ],
+    "answer": 0,
+    "explain": "n = 5.6 ÷ 56 = 0.1 mol."
+   },
+   {
+    "id": "M48",
+    "q": "What mass is 0.2 mol of CaCO₃? [Mr = 100]",
+    "options": [
+     "500 g",
+     "20 g",
+     "0.002 g",
+     "100 g"
+    ],
+    "answer": 1,
+    "explain": "mass = n × Mr = 0.2 × 100 = 20 g."
+   },
+   {
+    "id": "M49",
+    "q": "In N₂ + 3H₂ → 2NH₃, how many moles of hydrogen react with 2 mol of nitrogen?",
+    "options": [
+     "3",
+     "6",
+     "2",
+     "1.5"
+    ],
+    "answer": 1,
+    "explain": "The ratio is 1 : 3, so 2 mol of N₂ needs 6 mol of H₂ (making 4 mol of NH₃)."
+   },
+   {
+    "id": "M50",
+    "q": "The volume of 0.05 mol of gas at rtp, in cm³, is…",
+    "options": [
+     "1200",
+     "480 000",
+     "0.0021",
+     "120"
+    ],
+    "answer": 0,
+    "explain": "0.05 × 24 000 = 1200 cm³ (= 1.2 dm³). Match the molar volume to the unit demanded: 24 dm³ or 24 000 cm³."
+   },
+   {
+    "id": "M51",
+    "q": "A compound contains 40% carbon, 6.7% hydrogen and 53.3% oxygen. Its empirical formula is… [C 12, H 1, O 16]",
+    "options": [
+     "CHO",
+     "CH₂O",
+     "C₂H₄O₂",
+     "CH₄O"
+    ],
+    "answer": 1,
+    "explain": "3.33 : 6.7 : 3.33 → divide by the smallest → 1 : 2 : 1 = CH₂O (the glucose empirical formula)."
+   },
+   {
+    "id": "M52",
+    "q": "A reaction should yield 8.0 g but produces 6.0 g. The percentage yield is…",
+    "options": [
+     "133%",
+     "75%",
+     "25%",
+     "48%"
+    ],
+    "answer": 1,
+    "explain": "6.0 ÷ 8.0 × 100 = 75%. Yield can never exceed 100% — an answer above it means the fraction is upside down."
+   },
+   {
+    "id": "M53",
+    "q": "The percentage by mass of oxygen in water is… [H 1, O 16]",
+    "options": [
+     "16%",
+     "88.9%",
+     "11.1%",
+     "50%"
+    ],
+    "answer": 1,
+    "explain": "16 ÷ 18 × 100 = 88.9%. Water is mostly oxygen by MASS even though two-thirds of its atoms are hydrogen."
+   },
+   {
+    "id": "M54",
+    "q": "Which quantity is conserved in every chemical reaction?",
+    "options": [
+     "Volume",
+     "Number of molecules",
+     "Total mass",
+     "Temperature"
+    ],
+    "answer": 2,
+    "explain": "Mass (and atoms) are conserved — the basis of balancing. Molecule counts and volumes change freely."
+   },
+   {
+    "id": "M55",
+    "q": "In a 'show that' calculation, marks are earned by…",
+    "options": [
+     "writing the given answer down",
+     "showing the working that leads to the stated answer",
+     "guessing",
+     "drawing a diagram"
+    ],
+    "answer": 1,
+    "explain": "The answer is already printed — the marks are entirely for the route. This is the one question type where working is literally all there is."
+   }
+  ],
+  "06-solubility": [
+   {
+    "id": "M1",
+    "q": "A saturated solution is one in which…",
+    "options": [
+     "all the solvent has evaporated",
+     "no more solute can dissolve at that temperature",
+     "the solute and solvent have equal masses",
+     "no more solute can dissolve at any temperature"
+    ],
+    "answer": 1,
+    "explain": "The phrase \"at that temperature\" carries the mark — a solution saturated at 20 °C can dissolve more when warmed."
+   },
+   {
+    "id": "M2",
+    "q": "Solubility is measured in…",
+    "options": [
+     "g per 100 g of solvent",
+     "g per dm³ of solute",
+     "mol per 100 g of solution",
+     "g per 100 g of solution"
+    ],
+    "answer": 0,
+    "explain": "Grams of solute per 100 g of SOLVENT (water) at a stated temperature — not per 100 g of the finished solution."
+   },
+   {
+    "id": "M3",
+    "q": "In salt water, the salt is the…",
+    "options": [
+     "solvent",
+     "solution",
+     "solute",
+     "residue"
+    ],
+    "answer": 2,
+    "explain": "The solid that dissolves is the solute; the liquid doing the dissolving is the solvent; together they are the solution."
+   },
+   {
+    "id": "M4",
+    "q": "The factor that changes how much solid can dissolve in water is…",
+    "options": [
+     "stirring",
+     "temperature",
+     "crushing the solid",
+     "the shape of the beaker"
+    ],
+    "answer": 1,
+    "explain": "Temperature changes solubility. Stirring and crushing only change how FAST dissolving happens — the schemes explicitly ignore them."
+   },
+   {
+    "id": "M5",
+    "q": "Solubility is 124 g per 100 g of water at 60 °C. The mass dissolving in 250 g of water is…",
+    "options": [
+     "124 g",
+     "310 g",
+     "49.6 g",
+     "224 g"
+    ],
+    "answer": 1,
+    "explain": "Scale linearly: 124 × 2.5 = 310 g. (49.6 is the upside-down scaling trap.)"
+   },
+   {
+    "id": "M6",
+    "q": "A table gives masses dissolving in 25 cm³ of water. To convert to g per 100 g of water…",
+    "options": [
+     "divide by 4",
+     "multiply by 4",
+     "multiply by 25",
+     "no conversion is needed"
+    ],
+    "answer": 1,
+    "explain": "Four lots of 25 make 100 — and 1 cm³ of water has a mass of 1 g, so cm³ of water and g of water are interchangeable. 2025's conversion step."
+   },
+   {
+    "id": "M7",
+    "q": "Solubility is 45 g/100 g at 60 °C and 13 g/100 g at 10 °C. Cooling a saturated solution in 100 g of water from 60 to 10 °C crystallises…",
+    "options": [
+     "58 g",
+     "45 g",
+     "32 g",
+     "13 g"
+    ],
+    "answer": 2,
+    "explain": "The water keeps 13 g dissolved; the surplus 45 − 13 = 32 g comes out as crystals. Two curve reads and a subtraction — 2023 Q12."
+   },
+   {
+    "id": "M8",
+    "q": "When reading a value from a solubility curve in the exam you must…",
+    "options": [
+     "use the nearest curve to your ruler",
+     "show the construction lines on the graph",
+     "round to the nearest 10",
+     "trace the curve in pen"
+    ],
+    "answer": 1,
+    "explain": "The working lines carry their own mark — 2023, 2024 and 2025 all penalised silent readings. And read the curve the question names."
+   },
+   {
+    "id": "M9",
+    "q": "Solubility values measured at 95 °C are less accurate because…",
+    "options": [
+     "thermometers fail near boiling",
+     "some water evaporates during the experiment",
+     "salts decompose at 95 °C",
+     "saturated solutions cannot exist when hot"
+    ],
+    "answer": 1,
+    "explain": "Water evaporating means less solvent than recorded, so the calculated solubility drifts high. 2022's one-marker."
+   },
+   {
+    "id": "M10",
+    "q": "In the evaporating-basin method, the mixture is filtered before evaporating to…",
+    "options": [
+     "speed up the boiling",
+     "remove the undissolved solid so only saturated solution is measured",
+     "make the crystals larger",
+     "remove the water of crystallisation"
+    ],
+    "answer": 1,
+    "explain": "Undissolved solid in the basin would be weighed as if it had been dissolved, inflating the answer. Filter first, then evaporate the clear saturated solution to dryness."
+   },
+   {
+    "id": "M11",
+    "q": "Why is heating to complete dryness CORRECT in the solubility practical but wrong in salt preparation?",
+    "options": [
+     "It is wrong in both",
+     "Here the goal is a mass measurement, not intact hydrated crystals",
+     "Solubility salts contain no water of crystallisation",
+     "Evaporating basins cannot overheat"
+    ],
+    "answer": 1,
+    "explain": "Purpose decides technique: measuring the total dissolved mass needs everything out of solution; preparing crystals needs the water of crystallisation kept — so there you stop at the crystallisation point."
+   },
+   {
+    "id": "M12",
+    "q": "Two solubility curves cross at 68 °C. This means that at 68 °C…",
+    "options": [
+     "both salts are insoluble",
+     "the two salts have the same solubility",
+     "the solutions boil",
+     "the two salts react"
+    ],
+    "answer": 1,
+    "explain": "The crossing point is where the curves share a y-value — equal solubility. Drop a construction line and state the temperature."
+   },
+   {
+    "id": "M13",
+    "q": "In sugar dissolved in tea, the solvent is…",
+    "options": [
+     "the sugar",
+     "the tea (water)",
+     "the sweetness",
+     "the cup"
+    ],
+    "answer": 1,
+    "explain": "The liquid doing the dissolving is the solvent; the sugar is the solute."
+   },
+   {
+    "id": "M14",
+    "q": "As temperature rises, the solubility of most solids in water…",
+    "options": [
+     "falls",
+     "rises",
+     "stays the same",
+     "becomes zero"
+    ],
+    "answer": 1,
+    "explain": "Most solubility curves climb with temperature — which is why cooling a saturated solution grows crystals."
+   },
+   {
+    "id": "M15",
+    "q": "The mass of water in 40 cm³ of water is…",
+    "options": [
+     "4 g",
+     "40 g",
+     "400 g",
+     "unknowable"
+    ],
+    "answer": 1,
+    "explain": "1.00 cm³ of water has a mass of 1.00 g — the silent conversion every solubility question uses."
+   },
+   {
+    "id": "M16",
+    "q": "A solution holds 30 g of salt per 100 g of water at 40 °C, and the curve reads 48 g at 60 °C. Warming the saturated 40 °C solution to 60 °C means…",
+    "options": [
+     "18 g crystallises out",
+     "another 18 g could now dissolve",
+     "the solution stays saturated",
+     "48 g crystallises"
+    ],
+    "answer": 1,
+    "explain": "Warming raises the ceiling: the solution becomes unsaturated with 18 g of headroom. Crystals only appear on COOLING."
+   },
+   {
+    "id": "M17",
+    "q": "Undissolved solid sits at the bottom of a solution. The solution above it is…",
+    "options": [
+     "dilute",
+     "unsaturated",
+     "saturated",
+     "a suspension"
+    ],
+    "answer": 2,
+    "explain": "Solid remaining at that temperature is the visible proof the solution can hold no more — the practical's test for saturation."
+   },
+   {
+    "id": "M18",
+    "q": "The solubility of a gas in water as temperature rises…",
+    "options": [
+     "rises",
+     "falls",
+     "is constant",
+     "doubles"
+    ],
+    "answer": 1,
+    "explain": "Gases behave opposite to solids — warm fizzy drinks go flat. (Background knowledge the school papers have hinted at with dissolved O₂/Cl₂.)"
+   },
+   {
+    "id": "M19",
+    "q": "125 g of salt dissolves in 250 g of water at some temperature. The solubility in g per 100 g is…",
+    "options": [
+     "125",
+     "50",
+     "62.5",
+     "31.25"
+    ],
+    "answer": 1,
+    "explain": "125 ÷ 2.5 = 50 g per 100 g — scale DOWN to the standard 100 g."
+   },
+   {
+    "id": "M20",
+    "q": "On a solubility curve, a point BELOW the curve represents…",
+    "options": [
+     "a saturated solution",
+     "an unsaturated solution",
+     "crystals forming",
+     "an impossible state"
+    ],
+    "answer": 1,
+    "explain": "Below the line = less dissolved than the maximum = unsaturated. On the line = saturated; above it, the excess crystallises."
+   },
+   {
+    "id": "M21",
+    "q": "Cooling a saturated solution from 70 °C to 10 °C, the mass crystallising equals…",
+    "options": [
+     "the solubility at 70 °C",
+     "the solubility at 10 °C",
+     "the difference between the two solubilities",
+     "the mass of the water"
+    ],
+    "answer": 2,
+    "explain": "Hot reading minus cold reading, scaled to the water used — the subtraction that appears every single year."
+   },
+   {
+    "id": "M22",
+    "q": "In the solubility practical, the saturated solution is measured by volume then poured into…",
+    "options": [
+     "a beaker of unknown mass",
+     "a pre-weighed evaporating basin",
+     "the filter funnel",
+     "a measuring cylinder for storage"
+    ],
+    "answer": 1,
+    "explain": "Weigh the basin empty FIRST — the whole calculation is differences of basin weighings."
+   },
+   {
+    "id": "M23",
+    "q": "Which changes how FAST a solid dissolves but not HOW MUCH dissolves?",
+    "options": [
+     "Temperature",
+     "Stirring",
+     "The identity of the solvent",
+     "The identity of the solute"
+    ],
+    "answer": 1,
+    "explain": "Stirring (and crushing) speed things up; only temperature (for a given solute/solvent pair) changes the solubility itself."
+   },
+   {
+    "id": "M24",
+    "q": "Two salts have solubilities of 96 g and 55 g per 100 g at 30 °C. In 25 g of water at 30 °C, the first salt can hold…",
+    "options": [
+     "96 g",
+     "24 g",
+     "48 g",
+     "13.75 g"
+    ],
+    "answer": 1,
+    "explain": "Scale by the water: 96 ÷ 4 = 24 g. (The second would hold 13.75 g — read which salt is asked!)"
+   },
+   {
+    "id": "M25",
+    "q": "The best evidence a solution was saturated when filtered is…",
+    "options": [
+     "it was cold",
+     "excess solid was present and removed by the filter",
+     "it was stirred for five minutes",
+     "the water was boiled first"
+    ],
+    "answer": 1,
+    "explain": "Solid left undissolved (then filtered off) proves the solution took all it could."
+   },
+   {
+    "id": "M26",
+    "q": "A student's solubility result is higher than the true value. A likely cause is…",
+    "options": [
+     "some water evaporated during the experiment",
+     "the solution was unsaturated",
+     "too much water was used",
+     "the basin was too heavy"
+    ],
+    "answer": 0,
+    "explain": "Lost water → salt credited to less solvent than recorded → inflated g-per-100g. The 95 °C accuracy question in reverse."
+   },
+   {
+    "id": "M27",
+    "q": "\"Solubility = 36 g per 100 g of water at 25 °C\" means…",
+    "options": [
+     "36 g of water dissolves 100 g of salt",
+     "100 g of water is saturated by 36 g of salt at 25 °C",
+     "36% of the salt dissolves",
+     "the solution boils at 25 °C"
+    ],
+    "answer": 1,
+    "explain": "Read the units in order: grams of SOLUTE per 100 g of SOLVENT, at the stated temperature."
+   },
+   {
+    "id": "M28",
+    "q": "Why must the temperature be stated with any solubility value?",
+    "options": [
+     "For safety",
+     "Because solubility changes with temperature",
+     "Because thermometers drift",
+     "It is optional"
+    ],
+    "answer": 1,
+    "explain": "The number is meaningless without it — the same salt might hold 13 g at 10 °C and 45 g at 60 °C."
+   },
+   {
+    "id": "M29",
+    "q": "The five steps F(water) G(add salt) B(filter) H(pour) A(evaporate) are in the practical's order. Which step guarantees saturation?",
+    "options": [
+     "F",
+     "G — adding salt until no more dissolves",
+     "H",
+     "A"
+    ],
+    "answer": 1,
+    "explain": "Adding with stirring UNTIL NO MORE DISSOLVES is the saturation step; everything after just measures what dissolved."
+   },
+   {
+    "id": "M30",
+    "q": "Cooling crystallisation is used in salt preparation because…",
+    "options": [
+     "cold solutions are safer",
+     "solubility falls on cooling, forcing pure crystals out of solution",
+     "impurities freeze",
+     "it is faster than filtering"
+    ],
+    "answer": 1,
+    "explain": "The falling curve pushes salt out as well-formed crystals while impurities stay behind in the liquor — chemistry's cleanest purification."
+   },
+   {
+    "id": "M31",
+    "q": "20 g of salt is dissolved in 50 g of water and 4 g remains undissolved after stirring at 20 °C. The solubility at 20 °C is…",
+    "options": [
+     "40 g/100 g",
+     "32 g/100 g",
+     "16 g/100 g",
+     "24 g/100 g"
+    ],
+    "answer": 1,
+    "explain": "Dissolved = 16 g in 50 g of water → × 2 = 32 g per 100 g."
+   },
+   {
+    "id": "M32",
+    "q": "Which line on a graph of solubility vs temperature is typical for a solid salt?",
+    "options": [
+     "Horizontal",
+     "Falling steadily",
+     "Rising with temperature",
+     "A closed loop"
+    ],
+    "answer": 2,
+    "explain": "Solids nearly always dissolve better hot — the standard rising curve of KNO₃ and friends."
+   },
+   {
+    "id": "M33",
+    "q": "What happens to the solubility of most solids as the water is heated?",
+    "options": [
+     "It decreases",
+     "It increases",
+     "It stays the same",
+     "It becomes zero"
+    ],
+    "answer": 1,
+    "explain": "Most solids dissolve better hot — the rising solubility curve. Gases do the opposite."
+   },
+   {
+    "id": "M34",
+    "q": "A solution that can still dissolve more solute is described as…",
+    "options": [
+     "saturated",
+     "unsaturated",
+     "concentrated",
+     "hydrated"
+    ],
+    "answer": 1,
+    "explain": "Unsaturated = below the curve. Saturated = on the curve, holding the maximum for that temperature."
+   },
+   {
+    "id": "M35",
+    "q": "60 g of salt dissolves in 200 g of water. The solubility in g per 100 g is…",
+    "options": [
+     "120",
+     "30",
+     "60",
+     "12"
+    ],
+    "answer": 1,
+    "explain": "Halve it to standardise to 100 g of water: 30 g per 100 g."
+   },
+   {
+    "id": "M36",
+    "q": "Crystals form when a saturated solution cools because…",
+    "options": [
+     "water is created",
+     "the solubility falls, so the excess solute comes out of solution",
+     "the solute evaporates",
+     "the solution becomes unsaturated"
+    ],
+    "answer": 1,
+    "explain": "The ceiling drops as it cools; whatever no longer fits crystallises out. That is both the exam calculation and the purification method."
+   },
+   {
+    "id": "M37",
+    "q": "In the solubility practical, filtering the mixture before evaporating removes…",
+    "options": [
+     "the dissolved salt",
+     "the undissolved excess solid",
+     "the water",
+     "impurities in the water"
+    ],
+    "answer": 1,
+    "explain": "Only the saturated solution should be weighed; undissolved solid would be counted as if it had dissolved and inflate the result."
+   },
+   {
+    "id": "M38",
+    "q": "Which is the correct unit for solubility?",
+    "options": [
+     "g per 100 g of solvent",
+     "g per dm³",
+     "mol per litre",
+     "% by mass"
+    ],
+    "answer": 0,
+    "explain": "The spec's unit: grams of solute per 100 g of solvent, at a stated temperature."
+   },
+   {
+    "id": "M39",
+    "q": "Two curves cross at 40 °C. Below 40 °C, the salt with the higher curve is…",
+    "options": [
+     "less soluble",
+     "more soluble",
+     "equally soluble",
+     "insoluble"
+    ],
+    "answer": 1,
+    "explain": "Higher on the graph = more grams dissolve per 100 g. The crossing point is the single temperature where they match."
+   },
+   {
+    "id": "M40",
+    "q": "Why must a solubility figure always state a temperature?",
+    "options": [
+     "To identify the salt",
+     "Because solubility changes with temperature",
+     "For safety",
+     "To convert to moles"
+    ],
+    "answer": 1,
+    "explain": "The same salt might hold 13 g at 10 °C and 45 g at 60 °C — the number is meaningless without its temperature."
+   },
+   {
+    "id": "M41",
+    "q": "A saturated solution at 80 °C is cooled to 20 °C. Solubility falls from 90 to 30 g/100 g. Using 100 g of water, the mass crystallising is…",
+    "options": [
+     "120 g",
+     "60 g",
+     "30 g",
+     "90 g"
+    ],
+    "answer": 1,
+    "explain": "90 − 30 = 60 g. Hot reading minus cold reading — then scale if the water is not 100 g."
+   },
+   {
+    "id": "M42",
+    "q": "Stirring a mixture makes the solid dissolve faster. This means stirring changes the…",
+    "options": [
+     "solubility",
+     "rate of dissolving only",
+     "saturation point",
+     "temperature"
+    ],
+    "answer": 1,
+    "explain": "Speed, not amount. Only temperature (for a given pair) changes how much can dissolve — the schemes ignore stirring in solubility answers."
+   }
+  ],
+  "07-rates-of-reaction": [
+   {
+    "id": "M1",
+    "q": "A catalyst increases the rate of reaction by…",
+    "options": [
+     "giving the particles more energy",
+     "providing an alternative pathway with a lower activation energy",
+     "increasing the concentration of reactants",
+     "making the collisions harder"
+    ],
+    "answer": 1,
+    "explain": "Both halves needed: alternative pathway AND lower activation energy. \"Lowers the activation energy\" alone lost a mark in 2025."
+   },
+   {
+    "id": "M2",
+    "q": "Increasing the concentration of a solution increases the rate because…",
+    "options": [
+     "the particles move faster",
+     "the particles have more energy",
+     "there are more particles per unit volume so collisions are more frequent",
+     "the activation energy falls"
+    ],
+    "answer": 2,
+    "explain": "Concentration is about crowding, not energy — the 2024 scheme capped any kinetic-energy answer at 1 of 3. Frequency of collisions is the required phrase."
+   },
+   {
+    "id": "M3",
+    "q": "Increasing temperature increases the rate mainly because…",
+    "options": [
+     "more collisions have energy above the activation energy",
+     "the particles get bigger",
+     "the activation energy decreases",
+     "the concentration rises"
+    ],
+    "answer": 0,
+    "explain": "A greater proportion of collisions are successful — that is the dominant effect, with more frequent collisions as the minor one. The activation energy itself never changes with temperature."
+   },
+   {
+    "id": "M4",
+    "q": "In a rate experiment measured on a balance, the cotton wool plug is there to…",
+    "options": [
+     "stop the gas escaping",
+     "stop acid spray escaping so the mass loss is only the gas",
+     "keep the flask warm",
+     "stop air getting in"
+    ],
+    "answer": 1,
+    "explain": "The gas MUST escape or the mass would never change — the plug only holds back the spray. \"Prevents gas escaping\" was explicitly rejected in 2022."
+   },
+   {
+    "id": "M5",
+    "q": "The reaction stops while marble chips remain in the flask because…",
+    "options": [
+     "the chips become inert",
+     "all the acid has reacted",
+     "the temperature fell",
+     "the cotton wool blocked the reaction"
+    ],
+    "answer": 1,
+    "explain": "Visible solid left over means the OTHER reactant ran out — the acid is limiting. The balance shows it: the mass stops changing."
+   },
+   {
+    "id": "M6",
+    "q": "The rate of reaction AT 60 seconds is found from…",
+    "options": [
+     "the total mass change divided by 60",
+     "the gradient of a tangent drawn at 60 s",
+     "the average of the first and last readings",
+     "the y-value of the curve at 60 s"
+    ],
+    "answer": 1,
+    "explain": "Rate at an instant = tangent gradient. Total-change ÷ time is the AVERAGE rate — it scored 1 of 3 in 2022."
+   },
+   {
+    "id": "M7",
+    "q": "A correct unit for a rate of reaction is…",
+    "options": [
+     "cm³/m",
+     "cm/s",
+     "cm³/min",
+     "g × s"
+    ],
+    "answer": 2,
+    "explain": "Volume per time or mass per time: cm³/min, cm³/s, g/s. 2025's commentary: \"m is meters!\" — write min for minutes, and cm³ not cm."
+   },
+   {
+    "id": "M8",
+    "q": "Powdered marble reacts faster than the same mass of chips because the powder has…",
+    "options": [
+     "a higher concentration",
+     "more energy",
+     "a greater surface area",
+     "a larger mass"
+    ],
+    "answer": 2,
+    "explain": "More particles exposed at the surface → more frequent collisions. Solids never have a \"concentration\" — that word cost a mark in 2023."
+   },
+   {
+    "id": "M9",
+    "q": "Compared with the original curve, the volume–time curve at a higher temperature is…",
+    "options": [
+     "steeper and levels off at the same volume",
+     "steeper and levels off higher",
+     "shallower and levels off lower",
+     "identical but shifted right"
+    ],
+    "answer": 0,
+    "explain": "Faster journey, same destination — the amounts of reactant are unchanged, so the plateau height is unchanged. A raised plateau means you changed the AMOUNT, not the rate."
+   },
+   {
+    "id": "M10",
+    "q": "The activation energy is…",
+    "options": [
+     "the energy released by a reaction",
+     "the minimum energy colliding particles need to react",
+     "the energy of the catalyst",
+     "the average energy of the particles"
+    ],
+    "answer": 1,
+    "explain": "The minimum collision energy for reaction. Successful collision = one at or above it."
+   },
+   {
+    "id": "M11",
+    "q": "A catalyst is chemically unchanged at the end of a reaction. The evidence is…",
+    "options": [
+     "it dissolves completely",
+     "its mass is the same before and after",
+     "the reaction stops without it",
+     "it changes colour"
+    ],
+    "answer": 1,
+    "explain": "Filter, dry, reweigh: same mass — and it will catalyse a fresh run just as well. That is the definition's second half: increases the rate, chemically unchanged at the end."
+   },
+   {
+    "id": "M12",
+    "q": "In the decomposition of hydrogen peroxide, manganese(IV) oxide acts as…",
+    "options": [
+     "a reactant",
+     "a catalyst",
+     "an inhibitor",
+     "the solvent"
+    ],
+    "answer": 1,
+    "explain": "2H₂O₂ → 2H₂O + O₂ happens slowly on its own; MnO₂ speeds it up and is recovered unchanged. The school's set catalyst practical (spec 3.16)."
+   },
+   {
+    "id": "M13",
+    "q": "\"More successful collisions\" alone was not enough for the temperature mark in 2023. The full answer also needs…",
+    "options": [
+     "the word exothermic",
+     "a greater PROPORTION of collisions successful, separate from frequency",
+     "the catalyst mentioned",
+     "the surface area stated"
+    ],
+    "answer": 1,
+    "explain": "The scheme wanted the proportion idea (more collisions exceed the activation energy) as its own point, distinct from collision frequency. Merging them lost a mark."
+   },
+   {
+    "id": "M14",
+    "q": "To compare two catalysts fairly using time-to-collect-20 cm³, the better catalyst gives…",
+    "options": [
+     "the longer time",
+     "the shorter time",
+     "the larger final volume",
+     "the higher temperature"
+    ],
+    "answer": 1,
+    "explain": "Less time for the same job = faster rate: rate ∝ 1/time. With time-based measurements the comparison flips — shorter wins."
+   },
+   {
+    "id": "M15",
+    "q": "Which is NOT a way of following the rate of a reaction that makes a gas?",
+    "options": [
+     "Mass loss on a balance",
+     "Volume collected in a gas syringe",
+     "Time for a fixed volume to form",
+     "Measuring the colour of the flask"
+    ],
+    "answer": 3,
+    "explain": "The school's three methods are mass loss, gas volume, and timing. Colour only works for reactions with a colour change."
+   },
+   {
+    "id": "M16",
+    "q": "On a volume–time graph, the reaction is fastest where the curve is…",
+    "options": [
+     "flattest",
+     "steepest",
+     "highest",
+     "crossing the axis"
+    ],
+    "answer": 1,
+    "explain": "Gradient = rate. Steepest (the start) = fastest; flat = finished."
+   },
+   {
+    "id": "M17",
+    "q": "The reaction is complete when the volume–time curve…",
+    "options": [
+     "reaches the y-axis",
+     "becomes horizontal",
+     "starts to fall",
+     "crosses another curve"
+    ],
+    "answer": 1,
+    "explain": "A level curve means no more product is forming — a reactant has run out."
+   },
+   {
+    "id": "M18",
+    "q": "Doubling the concentration of acid (all else equal) makes the initial rate roughly…",
+    "options": [
+     "half",
+     "the same",
+     "double",
+     "quadruple"
+    ],
+    "answer": 2,
+    "explain": "Twice the particles per volume → about twice the collision frequency → about twice the rate."
+   },
+   {
+    "id": "M19",
+    "q": "A gas-pressure increase speeds up a gas reaction because…",
+    "options": [
+     "the particles get hotter",
+     "the same particles are squeezed into less volume, colliding more often",
+     "the activation energy falls",
+     "the particles get heavier"
+    ],
+    "answer": 1,
+    "explain": "Pressure for gases is what concentration is for solutions — more crowding, more frequent collisions. No energy change."
+   },
+   {
+    "id": "M20",
+    "q": "The final volume of gas produced depends on…",
+    "options": [
+     "the temperature",
+     "the amount of limiting reactant",
+     "the surface area",
+     "the catalyst used"
+    ],
+    "answer": 1,
+    "explain": "Rate factors change how FAST the plateau is reached, never its height — only the amounts change how MUCH."
+   },
+   {
+    "id": "M21",
+    "q": "In the H₂O₂ practical, the same volume and concentration of peroxide is used in every run so that…",
+    "options": [
+     "the comparison of catalysts is valid",
+     "the gas smells the same",
+     "the syringe fills faster",
+     "less catalyst is needed"
+    ],
+    "answer": 0,
+    "explain": "Change only the catalyst; control everything else. Naming the controlled variables is what scores — 'fair test' alone does not."
+   },
+   {
+    "id": "M22",
+    "q": "A tangent drawn to a curve at t = 4 min should…",
+    "options": [
+     "cross the curve twice",
+     "touch the curve at 4 min only",
+     "start at the origin",
+     "be horizontal"
+    ],
+    "answer": 1,
+    "explain": "One touch-point at the stated time — then a large triangle for the gradient."
+   },
+   {
+    "id": "M23",
+    "q": "Rate = 24 cm³ ÷ 8 min from a tangent triangle gives…",
+    "options": [
+     "3 cm³/min",
+     "3 min/cm³",
+     "192 cm³/min",
+     "0.33 cm³/min"
+    ],
+    "answer": 0,
+    "explain": "Δy ÷ Δx = 24 ÷ 8 = 3, units cm³/min — the y-unit over the x-unit, always."
+   },
+   {
+    "id": "M24",
+    "q": "The average rate over an experiment lasting 80 s that made 88 cm³ of gas is…",
+    "options": [
+     "1.1 cm³/s",
+     "88 cm³/s",
+     "0.9 cm³/s",
+     "8.8 cm³/s"
+    ],
+    "answer": 0,
+    "explain": "88 ÷ 80 = 1.1 cm³/s — fine for an AVERAGE; a rate AT a time still needs the tangent."
+   },
+   {
+    "id": "M25",
+    "q": "Increasing the temperature by 10 °C typically…",
+    "options": [
+     "has no effect",
+     "roughly doubles the rate",
+     "halves the rate",
+     "only changes the plateau"
+    ],
+    "answer": 1,
+    "explain": "The proportion of collisions beating the activation energy climbs steeply — the dominant effect of temperature."
+   },
+   {
+    "id": "M26",
+    "q": "The 2024 scheme capped at 1 mark any concentration answer that mentioned…",
+    "options": [
+     "particles",
+     "collisions",
+     "kinetic energy",
+     "volume"
+    ],
+    "answer": 2,
+    "explain": "Energy language belongs only in temperature answers. Concentration = crowding → frequency, nothing else."
+   },
+   {
+    "id": "M27",
+    "q": "A catalyst's mass at the end of a reaction is…",
+    "options": [
+     "zero — it is used up",
+     "less than at the start",
+     "the same as at the start",
+     "greater than at the start"
+    ],
+    "answer": 2,
+    "explain": "Chemically unchanged and recoverable — filter, dry, reweigh: identical."
+   },
+   {
+    "id": "M28",
+    "q": "On an energy-level diagram, a catalyst changes…",
+    "options": [
+     "the energy of the products",
+     "the energy of the reactants",
+     "the height of the activation-energy barrier",
+     "the overall energy released"
+    ],
+    "answer": 2,
+    "explain": "Only the barrier drops (via the alternative pathway); start and end energies — and the overall energy change — are untouched."
+   },
+   {
+    "id": "M29",
+    "q": "Which change increases the rate WITHOUT changing the final amount of product?",
+    "options": [
+     "Using powder instead of chips (same mass)",
+     "Adding more acid",
+     "Using more marble",
+     "Doubling both reactants"
+    ],
+    "answer": 0,
+    "explain": "Surface area is pure rate: same moles, same plateau, reached sooner. More reactant changes the amount."
+   },
+   {
+    "id": "M30",
+    "q": "In the marble-chip experiment the balance reading falls because…",
+    "options": [
+     "water evaporates",
+     "carbon dioxide escapes through the cotton wool",
+     "the chips dissolve into gas",
+     "the flask leaks acid"
+    ],
+    "answer": 1,
+    "explain": "The mass loss IS the CO₂ leaving — the reason this set-up measures rate at all."
+   },
+   {
+    "id": "M31",
+    "q": "The steeper start of the powdered-marble curve compared with chips shows…",
+    "options": [
+     "more gas will be made",
+     "a faster initial rate",
+     "a higher activation energy",
+     "a hotter reaction"
+    ],
+    "answer": 1,
+    "explain": "Gradient = rate. Same plateau, steeper approach — the surface-area signature."
+   },
+   {
+    "id": "M32",
+    "q": "\"More successful collisions per unit time\" — the phrase 'per unit time' matters because…",
+    "options": [
+     "it sounds scientific",
+     "rate is about frequency, and 2025's M3 was refused without a time link",
+     "collisions have no duration",
+     "it converts to minutes"
+    ],
+    "answer": 1,
+    "explain": "The teacher commentary is explicit: no time reference, no mark. Frequency is collisions PER SECOND, not just 'more'."
+   },
+   {
+    "id": "M33",
+    "q": "Which experiment best investigates surface area?",
+    "options": [
+     "Same mass of marble as chips vs powder, same acid",
+     "Different acids with the same marble",
+     "Different temperatures with powder",
+     "Different masses of marble chips"
+    ],
+    "answer": 0,
+    "explain": "One variable: particle size. Same mass, same acid volume/concentration, same temperature — spec practical 3.15."
+   },
+   {
+    "id": "M34",
+    "q": "The units g/s would be read from a graph of…",
+    "options": [
+     "volume against time",
+     "mass against time",
+     "temperature against time",
+     "concentration against volume"
+    ],
+    "answer": 1,
+    "explain": "Rate units = y-axis unit per x-axis unit. Mass-loss experiments give g/s; gas-syringe ones give cm³/s or cm³/min."
+   },
+   {
+    "id": "M35",
+    "q": "Why does a reaction slow down long before it stops?",
+    "options": [
+     "The catalyst wears out",
+     "Reactant concentration falls as it is used up, so collisions become less frequent",
+     "The particles get tired",
+     "The activation energy rises"
+    ],
+    "answer": 1,
+    "explain": "The curve's whole shape is falling concentration: fewer reactant particles → rarer collisions → shallower gradient."
+   },
+   {
+    "id": "M36",
+    "q": "Two identical experiments differ only in acid volume: 50 cm³ vs 100 cm³ of the SAME concentration, with marble in excess. The 100 cm³ run…",
+    "options": [
+     "starts faster",
+     "levels off at twice the gas volume",
+     "levels off at the same volume",
+     "never levels off"
+    ],
+    "answer": 1,
+    "explain": "Same concentration = same initial rate; twice the acid = twice the moles = twice the product. Rate factors vs amount factors, cleanly split."
+   },
+   {
+    "id": "M37",
+    "q": "MnO₂ in the H₂O₂ decomposition can be shown to be a catalyst (not a reactant) because…",
+    "options": [
+     "it changes colour",
+     "it is recovered unchanged in mass and still works",
+     "it dissolves completely",
+     "it appears in the equation"
+    ],
+    "answer": 1,
+    "explain": "Recoverable, unchanged, reusable — and absent from the overall equation 2H₂O₂ → 2H₂O + O₂."
+   },
+   {
+    "id": "M38",
+    "q": "The graph mark \"single smooth curve\" was lost in 2023 by students who…",
+    "options": [
+     "used pen",
+     "drew sketchy, feathery, multiple-stroke lines",
+     "labelled the axes",
+     "used a sharp pencil"
+    ],
+    "answer": 1,
+    "explain": "The commentary named blunt pencils and feathery lines. One clean line, drawn once."
+   },
+   {
+    "id": "M39",
+    "q": "In a clock-style experiment, a FASTER reaction gives…",
+    "options": [
+     "a longer time",
+     "a shorter time",
+     "the same time",
+     "no time at all"
+    ],
+    "answer": 1,
+    "explain": "Rate and time are inverse: rate ∝ 1/time. Shorter time to the fixed endpoint = faster."
+   },
+   {
+    "id": "M40",
+    "q": "Raising temperature affects which TWO things about collisions?",
+    "options": [
+     "Frequency only",
+     "Energy only",
+     "Both their frequency and their energy",
+     "Neither — only the catalyst does"
+    ],
+    "answer": 2,
+    "explain": "Hotter particles collide more often AND harder — and the energy part (more beating the activation energy) is the bigger effect."
+   },
+   {
+    "id": "M41",
+    "q": "The activation energy of a reaction is changed by…",
+    "options": [
+     "temperature",
+     "concentration",
+     "a catalyst (via an alternative pathway)",
+     "surface area"
+    ],
+    "answer": 2,
+    "explain": "Only a catalyst changes the barrier. Temperature changes how many collisions CLEAR the unchanged barrier."
+   },
+   {
+    "id": "M42",
+    "q": "A student says 'the particles have more chance to collide'. The scheme's problem with this is…",
+    "options": [
+     "particles cannot collide",
+     "chance is not frequency — collisions per unit time must be stated",
+     "it is too long",
+     "collisions are irrelevant"
+    ],
+    "answer": 1,
+    "explain": "\"IGNORE greater chance of collision\" is written on the 2021 scheme. Frequency, per unit time — the exact words."
+   },
+   {
+    "id": "M43",
+    "q": "Cooling a reaction mixture makes the rate…",
+    "options": [
+     "faster",
+     "slower",
+     "unchanged",
+     "zero instantly"
+    ],
+    "answer": 1,
+    "explain": "Less energy, fewer successful collisions, lower frequency — every temperature effect in reverse."
+   },
+   {
+    "id": "M44",
+    "q": "The correct pairing of practical and measurement is…",
+    "options": [
+     "marble + acid → gas syringe only",
+     "H₂O₂ + catalyst → mass loss only",
+     "marble + acid → mass loss on a balance; H₂O₂ → gas syringe",
+     "both need a thermometer"
+    ],
+    "answer": 2,
+    "explain": "The two named practicals as the school runs them: CO₂ escaping is weighed; O₂ is collected. (Either method can work — this is how the papers show them.)"
+   },
+   {
+    "id": "M45",
+    "q": "Why is only a SMALL mass of catalyst needed?",
+    "options": [
+     "It is expensive",
+     "It is not used up, so each particle keeps working",
+     "It evaporates",
+     "Large masses slow the reaction"
+    ],
+    "answer": 1,
+    "explain": "Unchanged at the end means endlessly reusable during the reaction — a little goes forever."
+   },
+   {
+    "id": "M46",
+    "q": "Rate of reaction is best defined as…",
+    "options": [
+     "the total amount of product formed",
+     "the amount of reactant used or product formed per unit time",
+     "the time taken for a reaction",
+     "the energy released"
+    ],
+    "answer": 1,
+    "explain": "Per unit time is the whole idea. Total amount is a different question — rate factors change speed, not yield."
+   },
+   {
+    "id": "M47",
+    "q": "Which change would NOT increase the rate of a reaction between marble chips and acid?",
+    "options": [
+     "Using more concentrated acid",
+     "Crushing the chips to powder",
+     "Raising the temperature",
+     "Using a larger volume of the same acid"
+    ],
+    "answer": 3,
+    "explain": "More acid of the SAME concentration means more product eventually, but the collision frequency at the start is unchanged. Amount ≠ rate."
+   },
+   {
+    "id": "M48",
+    "q": "For particles to react they must collide…",
+    "options": [
+     "at any speed",
+     "with energy at or above the activation energy",
+     "exactly head-on",
+     "in a catalyst"
+    ],
+    "answer": 1,
+    "explain": "That energy threshold is the definition of a SUCCESSFUL collision — and the word 'successful' carries its own mark."
+   },
+   {
+    "id": "M49",
+    "q": "On a mass-loss graph for marble chips and acid, the line becomes horizontal when…",
+    "options": [
+     "the balance breaks",
+     "one reactant is completely used up",
+     "the acid becomes concentrated",
+     "the temperature drops"
+    ],
+    "answer": 1,
+    "explain": "No more gas is escaping because the reaction has finished — the limiting reactant is gone."
+   },
+   {
+    "id": "M50",
+    "q": "Which measurement would you take to follow a reaction that produces a gas?",
+    "options": [
+     "Colour of the solution",
+     "Volume of gas in a syringe or mass lost on a balance",
+     "The pH at the end",
+     "The mass of the flask before the reaction only"
+    ],
+    "answer": 1,
+    "explain": "The two standard set-ups. A single before-reading tells you nothing about rate — you need readings over time."
+   },
+   {
+    "id": "M51",
+    "q": "A catalyst does NOT…",
+    "options": [
+     "speed up the reaction",
+     "get used up in the reaction",
+     "provide an alternative pathway",
+     "lower the activation energy"
+    ],
+    "answer": 1,
+    "explain": "It is chemically unchanged at the end and can be recovered and reused. Everything else listed is exactly what it does."
+   },
+   {
+    "id": "M52",
+    "q": "Increasing the surface area of a solid reactant increases the rate because…",
+    "options": [
+     "the particles gain energy",
+     "more particles are exposed for collisions",
+     "the concentration rises",
+     "the activation energy falls"
+    ],
+    "answer": 1,
+    "explain": "More exposed surface → more frequent collisions. No energy language belongs in a surface-area answer."
+   },
+   {
+    "id": "M53",
+    "q": "Two runs use the same mass of marble but different chip sizes. Compared with the chips, the powder's graph…",
+    "options": [
+     "is steeper and levels off at the same height",
+     "is steeper and levels off higher",
+     "is shallower and levels off lower",
+     "is identical"
+    ],
+    "answer": 0,
+    "explain": "Same moles → same final volume; bigger surface area → faster start. Sketching that curve correctly is worth two marks most years."
+   },
+   {
+    "id": "M54",
+    "q": "Which unit could NOT be a rate of reaction?",
+    "options": [
+     "cm³/s",
+     "g/s",
+     "cm³/min",
+     "g/cm³"
+    ],
+    "answer": 3,
+    "explain": "g/cm³ is density — no time in it. A rate always has a quantity divided by a TIME."
+   },
+   {
+    "id": "M55",
+    "q": "Why does the rate fall as a reaction proceeds?",
+    "options": [
+     "The catalyst wears out",
+     "The reactants are used up, so collisions become less frequent",
+     "The temperature falls to zero",
+     "The products block the flask"
+    ],
+    "answer": 1,
+    "explain": "Falling concentration = fewer particles per volume = rarer collisions. That is the whole shape of the curve."
+   }
+  ],
+  "08-electrolysis-and-redox": [
+   {
+    "id": "M1",
+    "q": "Solid sodium chloride does not conduct electricity because…",
+    "options": [
+     "its electrons cannot move",
+     "its ions are fixed in the lattice",
+     "it contains no charged particles",
+     "salt is a covalent compound"
+    ],
+    "answer": 1,
+    "explain": "The ions exist but cannot move. Electron-based answers score zero — ionic conduction is always about ions."
+   },
+   {
+    "id": "M2",
+    "q": "During electrolysis, positive ions move to the…",
+    "options": [
+     "anode and lose electrons",
+     "cathode and gain electrons",
+     "cathode and lose electrons",
+     "anode and gain electrons"
+    ],
+    "answer": 1,
+    "explain": "Cations → cathode (negative electrode) → gain electrons = reduction. Anions → anode → lose electrons = oxidation."
+   },
+   {
+    "id": "M3",
+    "q": "The correct half-equation for chlorine forming at the anode is…",
+    "options": [
+     "Cl⁻ → Cl + e⁻",
+     "2Cl⁻ → Cl₂ + 2e⁻",
+     "Cl₂ + 2e⁻ → 2Cl⁻",
+     "2Cl⁻ + 2e⁻ → Cl₂"
+    ],
+    "answer": 1,
+    "explain": "Chlorine is diatomic and the electrons leave (oxidation, so they sit on the right). 2023's commentary: \"fascinating variations including Cl⁺ and Cl₃\" — all wrong."
+   },
+   {
+    "id": "M4",
+    "q": "Mg²⁺ + 2e⁻ → Mg is a reduction because…",
+    "options": [
+     "magnesium gains electrons",
+     "the magnesium ion gains electrons",
+     "magnesium loses electrons",
+     "oxygen is removed"
+    ],
+    "answer": 1,
+    "explain": "The ION gains the electrons and becomes the metal. \"Magnesium gains electrons\" earned double exclamation marks from the 2023 marker — it is not true."
+   },
+   {
+    "id": "M5",
+    "q": "Electrolysing concentrated sodium chloride SOLUTION gives, at the cathode…",
+    "options": [
+     "sodium",
+     "chlorine",
+     "hydrogen",
+     "oxygen"
+    ],
+    "answer": 2,
+    "explain": "Water supplies H⁺, and hydrogen is less reactive than sodium — so H₂ is discharged and Na⁺ stays in solution. Molten NaCl (no water) gives sodium."
+   },
+   {
+    "id": "M6",
+    "q": "The solution near the cathode of NaCl(aq) electrolysis turns universal indicator…",
+    "options": [
+     "red, because H⁺ builds up",
+     "blue/purple, because OH⁻ ions are left behind",
+     "green, because it stays neutral",
+     "colourless"
+    ],
+    "answer": 1,
+    "explain": "Removing H⁺ leaves Na⁺ and OH⁻ — sodium hydroxide. 2025's \"very badly done\" question: name the colour AND the hydroxide ion."
+   },
+   {
+    "id": "M7",
+    "q": "The correct half-equation for oxygen forming at the anode in a solution is…",
+    "options": [
+     "2O²⁻ → O₂ + 4e⁻",
+     "2H₂O → O₂ + 4H⁺ + 4e⁻",
+     "O₂ + 4e⁻ → 2O²⁻",
+     "H₂O → O₂ + 2H⁺"
+    ],
+    "answer": 1,
+    "explain": "Solutions contain no free O²⁻ ions — the oxygen comes from water (or 4OH⁻ → O₂ + 2H₂O + 4e⁻). 2O²⁻ was the year group's favourite wrong answer in 2023."
+   },
+   {
+    "id": "M8",
+    "q": "Electrolysing copper(II) sulfate solution with inert electrodes leaves behind…",
+    "options": [
+     "copper hydroxide",
+     "sulfuric acid",
+     "sodium sulfate",
+     "pure water"
+    ],
+    "answer": 1,
+    "explain": "Cu²⁺ is removed as copper metal; H⁺ (from water) and SO₄²⁻ accumulate → dilute H₂SO₄, and the blue colour fades."
+   },
+   {
+    "id": "M9",
+    "q": "Which is a suitable inert electrode material?",
+    "options": [
+     "Copper",
+     "Iron",
+     "Graphite",
+     "Magnesium"
+    ],
+    "answer": 2,
+    "explain": "Graphite/carbon or platinum (gold and silver also accepted) — materials that carry current without reacting."
+   },
+   {
+    "id": "M10",
+    "q": "The test for hydrogen gas is…",
+    "options": [
+     "a glowing splint relights",
+     "a lit splint gives a squeaky pop",
+     "it turns limewater milky",
+     "it bleaches damp litmus paper"
+    ],
+    "answer": 1,
+    "explain": "LIT splint → pop = H₂. Glowing splint relighting is oxygen — 2024 rejected the swap. Limewater = CO₂; bleached litmus = chlorine."
+   },
+   {
+    "id": "M11",
+    "q": "Electrolysis of NaCl(aq) collects less chlorine than hydrogen because…",
+    "options": [
+     "less chlorine is made",
+     "some chlorine dissolves in the water",
+     "chlorine is denser",
+     "the anode absorbs chlorine"
+    ],
+    "answer": 1,
+    "explain": "Equal moles are made, but chlorine is appreciably soluble — some never reaches the tube. Same reason oxygen under-collects in the water electrolysis."
+   },
+   {
+    "id": "M12",
+    "q": "An oxidising agent is a substance that…",
+    "options": [
+     "loses electrons",
+     "accepts electrons from another species",
+     "is always oxygen",
+     "removes oxygen"
+    ],
+    "answer": 1,
+    "explain": "It takes electrons (or gives oxygen) — and is itself reduced. The reducing agent is its mirror: donates electrons / removes oxygen, and is itself oxidised."
+   },
+   {
+    "id": "M13",
+    "q": "In 2Br⁻ → Br₂ + 2e⁻, the species oxidised is…",
+    "options": [
+     "bromine",
+     "the bromide ions",
+     "the electrons",
+     "the bromine molecule"
+    ],
+    "answer": 1,
+    "explain": "The bromide IONS lose the electrons. \"Bromine loses electrons\" was rejected in 2025 — bromine is the product, not the loser."
+   },
+   {
+    "id": "M14",
+    "q": "Why is dilute acid added to water before electrolysing it?",
+    "options": [
+     "to lower the boiling point",
+     "to increase its conductivity",
+     "to make more oxygen",
+     "to stop the electrodes dissolving"
+    ],
+    "answer": 1,
+    "explain": "Pure water barely conducts. The accepted wording is \"increases the conductivity\" — \"helps carry the current\" was ignored in 2021."
+   },
+   {
+    "id": "M15",
+    "q": "Electrolysis of molten lead(II) bromide gives…",
+    "options": [
+     "lead at the anode and bromine at the cathode",
+     "lead at the cathode and bromine at the anode",
+     "hydrogen and bromine",
+     "lead and oxygen"
+    ],
+    "answer": 1,
+    "explain": "Molten compound, no water: the metal at the negative electrode (Pb²⁺ + 2e⁻ → Pb), the non-metal at the positive (2Br⁻ → Br₂ + 2e⁻)."
+   },
+   {
+    "id": "M16",
+    "q": "Electrolysis is…",
+    "options": [
+     "burning a compound",
+     "breaking down a compound using electricity",
+     "dissolving a compound in water",
+     "melting a compound"
+    ],
+    "answer": 1,
+    "explain": "Electric current in, decomposition out. Melting/dissolving just frees the ions so it can happen."
+   },
+   {
+    "id": "M17",
+    "q": "The electrolyte must be molten or dissolved because…",
+    "options": [
+     "heat speeds the reaction",
+     "the ions must be free to move",
+     "electrons only flow in liquids",
+     "solids are too dense"
+    ],
+    "answer": 1,
+    "explain": "Moving ions ARE the current inside the electrolyte — locked ions, no electrolysis."
+   },
+   {
+    "id": "M18",
+    "q": "An anion is…",
+    "options": [
+     "a positive ion, attracted to the anode",
+     "a negative ion, attracted to the anode",
+     "a negative ion, attracted to the cathode",
+     "a neutral atom"
+    ],
+    "answer": 1,
+    "explain": "Anion = negative → anode (+). Cation = positive → cathode (−). Spec point 1.57C verbatim."
+   },
+   {
+    "id": "M19",
+    "q": "At the cathode, the reaction is always…",
+    "options": [
+     "oxidation",
+     "reduction",
+     "neutralisation",
+     "combustion"
+    ],
+    "answer": 1,
+    "explain": "Positive ions GAIN electrons there — reduction (OIL RIG: gain)."
+   },
+   {
+    "id": "M20",
+    "q": "The half-equation for copper depositing at the cathode is…",
+    "options": [
+     "Cu → Cu²⁺ + 2e⁻",
+     "Cu²⁺ + 2e⁻ → Cu",
+     "Cu⁺ + e⁻ → Cu",
+     "Cu²⁺ → Cu + 2e⁻"
+    ],
+    "answer": 1,
+    "explain": "The copper ION gains two electrons. Electrons on the LEFT for reduction."
+   },
+   {
+    "id": "M21",
+    "q": "Electrolysing molten sodium chloride gives, at the two electrodes…",
+    "options": [
+     "sodium and chlorine",
+     "hydrogen and chlorine",
+     "sodium and oxygen",
+     "hydrogen and oxygen"
+    ],
+    "answer": 0,
+    "explain": "No water, no competition: the compound's own elements — Na at the cathode, Cl₂ at the anode."
+   },
+   {
+    "id": "M22",
+    "q": "Copper forms at the cathode of CuSO₄(aq) but hydrogen forms from K₂SO₄(aq) because…",
+    "options": [
+     "potassium is a gas",
+     "copper is less reactive than hydrogen, potassium is more reactive",
+     "sulfate decides the product",
+     "copper solutions are blue"
+    ],
+    "answer": 1,
+    "explain": "The LESS reactive of metal-vs-hydrogen is discharged. Cu below H → copper; K above H → hydrogen instead."
+   },
+   {
+    "id": "M23",
+    "q": "The product at the anode when a halide solution is electrolysed is…",
+    "options": [
+     "oxygen",
+     "the halogen",
+     "hydrogen",
+     "the metal"
+    ],
+    "answer": 1,
+    "explain": "Halide present → halogen (Cl₂, Br₂). No halide (sulfate/nitrate) → oxygen from water."
+   },
+   {
+    "id": "M24",
+    "q": "The gas at the anode of dilute sulfuric acid electrolysis is…",
+    "options": [
+     "hydrogen",
+     "sulfur dioxide",
+     "oxygen",
+     "chlorine"
+    ],
+    "answer": 2,
+    "explain": "No halide → oxygen (2H₂O → O₂ + 4H⁺ + 4e⁻); hydrogen appears at the cathode. The Hofmann setup from 2025."
+   },
+   {
+    "id": "M25",
+    "q": "In the Hofmann voltameter, the volume of hydrogen compared with oxygen is about…",
+    "options": [
+     "equal",
+     "half",
+     "twice",
+     "four times"
+    ],
+    "answer": 2,
+    "explain": "Four electrons make 2H₂ but only 1O₂ — a 2:1 mole (and volume) ratio, slightly under for O₂ because some dissolves."
+   },
+   {
+    "id": "M26",
+    "q": "Which is a correct statement of OIL RIG?",
+    "options": [
+     "Oxidation is gain of electrons",
+     "Reduction is loss of oxygen only",
+     "Oxidation is loss of electrons; reduction is gain",
+     "Reduction is loss of electrons"
+    ],
+    "answer": 2,
+    "explain": "Oxidation Is Loss, Reduction Is Gain — of electrons. (The oxygen definitions run alongside for extraction chemistry.)"
+   },
+   {
+    "id": "M27",
+    "q": "In Zn + CuSO₄ → ZnSO₄ + Cu, the zinc is…",
+    "options": [
+     "reduced — it gains electrons",
+     "oxidised — it loses electrons to become Zn²⁺",
+     "unchanged",
+     "precipitated"
+    ],
+    "answer": 1,
+    "explain": "Zn atoms → Zn²⁺ (loss = oxidation); Cu²⁺ ions gain those electrons (reduction). Displacement IS redox."
+   },
+   {
+    "id": "M28",
+    "q": "The purpose of the lamp/ammeter in an electrolysis circuit is to show…",
+    "options": [
+     "the products forming",
+     "that current is flowing",
+     "the colour change",
+     "the pH"
+    ],
+    "answer": 1,
+    "explain": "A glowing lamp = charge moving = the electrolyte is conducting — the conduction test from 2023's Q2."
+   },
+   {
+    "id": "M29",
+    "q": "Which solution, when electrolysed, leaves nitric acid behind?",
+    "options": [
+     "Sodium chloride",
+     "Silver nitrate",
+     "Copper(II) sulfate",
+     "Potassium nitrate"
+    ],
+    "answer": 1,
+    "explain": "Ag deposits (unreactive), O₂ leaves the anode, H⁺ + NO₃⁻ remain = HNO₃. KNO₃ loses only water (H₂ + O₂) and stays itself."
+   },
+   {
+    "id": "M30",
+    "q": "The half-equation 4OH⁻ → O₂ + 2H₂O + 4e⁻ shows…",
+    "options": [
+     "reduction at the cathode",
+     "oxidation at the anode",
+     "neutralisation",
+     "displacement"
+    ],
+    "answer": 1,
+    "explain": "Electrons on the right = loss = oxidation, at the positive electrode — the accepted alternative to the water version."
+   },
+   {
+    "id": "M31",
+    "q": "Aluminium is manufactured by electrolysis of…",
+    "options": [
+     "aluminium sulfate solution",
+     "molten aluminium oxide",
+     "aluminium chloride solution",
+     "bauxite dissolved in water"
+    ],
+    "answer": 1,
+    "explain": "MOLTEN oxide — from a solution, hydrogen would form instead of the metal (Al is far above hydrogen)."
+   },
+   {
+    "id": "M32",
+    "q": "Why does the blue colour fade during CuSO₄(aq) electrolysis with inert electrodes?",
+    "options": [
+     "The water dilutes it",
+     "Cu²⁺ ions (the blue) are removed as copper deposits",
+     "Sulfate ions decompose",
+     "Light bleaches it"
+    ],
+    "answer": 1,
+    "explain": "The colour IS the copper ion; plating it out drains the blue and leaves sulfuric acid."
+   },
+   {
+    "id": "M33",
+    "q": "The observation at an electrode making a gas is…",
+    "options": [
+     "\"oxygen is produced\"",
+     "bubbles / effervescence",
+     "the electrode glows",
+     "the solution boils"
+    ],
+    "answer": 1,
+    "explain": "Say what you see. Naming the gas is a conclusion — the schemes IGNORE it as an observation."
+   },
+   {
+    "id": "M34",
+    "q": "Chlorine gas can be identified because it…",
+    "options": [
+     "pops with a lit splint",
+     "relights a glowing splint",
+     "bleaches damp litmus paper",
+     "turns limewater milky"
+    ],
+    "answer": 2,
+    "explain": "Bleached litmus = chlorine. Pop = H₂, relight = O₂, milky = CO₂ — four tests, keep them straight."
+   },
+   {
+    "id": "M35",
+    "q": "An electrode that does not react with the electrolyte or products is called…",
+    "options": [
+     "a cathode",
+     "an inert electrode",
+     "an active electrode",
+     "a sacrificial electrode"
+    ],
+    "answer": 1,
+    "explain": "Inert = chemically uninvolved: platinum or graphite/carbon."
+   },
+   {
+    "id": "M36",
+    "q": "In the electrolysis of molten PbBr₂, the observation at the anode is…",
+    "options": [
+     "silvery beads of lead",
+     "brown/orange vapour (bromine)",
+     "colourless gas popping",
+     "white powder"
+    ],
+    "answer": 1,
+    "explain": "Bromine leaves as a brown vapour; molten lead collects at the cathode."
+   },
+   {
+    "id": "M37",
+    "q": "\"The magnesium ion is reduced\" is preferred to \"magnesium is reduced\" because…",
+    "options": [
+     "it is longer",
+     "the species that exists before the electrons arrive is the ion, not the metal",
+     "magnesium cannot be reduced",
+     "ions sound more scientific"
+    ],
+    "answer": 1,
+    "explain": "Precision about the species is the mark: Mg²⁺ + 2e⁻ → Mg. The metal is the RESULT of the reduction."
+   },
+   {
+    "id": "M38",
+    "q": "Which ionic half-equation is balanced for both atoms AND charge?",
+    "options": [
+     "Cl⁻ → Cl₂ + e⁻",
+     "2Cl⁻ → Cl₂ + 2e⁻",
+     "2Cl⁻ + 2e⁻ → Cl₂",
+     "Cl₂ → 2Cl⁻ + 2e⁻"
+    ],
+    "answer": 1,
+    "explain": "Two chlorides (2−) → neutral Cl₂ + two electrons (2−): atoms 2=2, charge −2=−2. Check both counts, always."
+   },
+   {
+    "id": "M39",
+    "q": "A reducing agent…",
+    "options": [
+     "is itself reduced",
+     "donates electrons (or removes oxygen) and is itself oxidised",
+     "always contains oxygen",
+     "only exists at electrodes"
+    ],
+    "answer": 1,
+    "explain": "It gives the electrons away — so it ends up oxidised. Carbon in metal extraction is the running example."
+   },
+   {
+    "id": "M40",
+    "q": "Universal indicator near the ANODE of NaCl(aq) electrolysis would eventually show…",
+    "options": [
+     "blue (alkali)",
+     "bleaching by the chlorine",
+     "green forever",
+     "red (strong acid)"
+    ],
+    "answer": 1,
+    "explain": "Chlorine forms there and bleaches the indicator — the cathode side is where it turns blue/purple (OH⁻)."
+   },
+   {
+    "id": "M41",
+    "q": "Which metal could NOT be extracted from its molten compound by electrolysis?",
+    "options": [
+     "Sodium",
+     "Aluminium",
+     "Magnesium",
+     "None — electrolysis works for all of them"
+    ],
+    "answer": 3,
+    "explain": "Electrolysis works even for the most reactive metals — that is its point. (It's avoided where carbon is cheaper, not where it fails.)"
+   },
+   {
+    "id": "M42",
+    "q": "During electrolysis, electrons flow…",
+    "options": [
+     "through the electrolyte",
+     "around the external circuit from anode to cathode",
+     "from cathode to anode inside the solution",
+     "nowhere — only ions move"
+    ],
+    "answer": 1,
+    "explain": "Electrons take the wire; ions take the liquid. Two different charge carriers, one circuit."
+   },
+   {
+    "id": "M43",
+    "q": "The reason copper(II) sulfate solution contains some OH⁻ ions is…",
+    "options": [
+     "copper sulfate is alkaline",
+     "water dissociates slightly into H⁺ and OH⁻",
+     "the sulfate breaks up",
+     "the electrodes release them"
+    ],
+    "answer": 1,
+    "explain": "From the water — 2023's Q5d, where \"because the solution is alkaline\" was the marked wrong answer (it isn't)."
+   },
+   {
+    "id": "M44",
+    "q": "In CuS + O₂ → Cu + SO₂, the sulfur is…",
+    "options": [
+     "reduced",
+     "oxidised — it gains oxygen",
+     "unchanged",
+     "displaced"
+    ],
+    "answer": 1,
+    "explain": "Sulfur picks up oxygen → SO₂: oxidation by the gain-of-oxygen definition (2021's extraction question)."
+   },
+   {
+    "id": "M45",
+    "q": "Why does electrolysis of ANY dilute sulfate or nitrate solution effectively electrolyse water?",
+    "options": [
+     "Sulfates are unstable",
+     "Both the metal ion and the anion lose to H⁺ and OH⁻/water at the electrodes",
+     "The salt evaporates",
+     "Water is a better conductor"
+    ],
+    "answer": 1,
+    "explain": "Reactive metal stays in solution (H₂ forms); no halide means O₂ from water — so only H₂O is consumed and the salt remains."
+   },
+   {
+    "id": "M46",
+    "q": "The negative electrode in electrolysis is called the…",
+    "options": [
+     "anode",
+     "cathode",
+     "anion",
+     "electrolyte"
+    ],
+    "answer": 1,
+    "explain": "Cathode = negative, attracts CATIONS (positive ions) which gain electrons. Anode = positive, attracts anions."
+   },
+   {
+    "id": "M47",
+    "q": "Which substance would conduct electricity and be decomposed by it?",
+    "options": [
+     "Solid sodium chloride",
+     "Molten lead(II) bromide",
+     "Copper metal",
+     "Sugar solution"
+    ],
+    "answer": 1,
+    "explain": "An electrolyte must have free-moving IONS: molten or dissolved ionic compounds. Copper conducts but is an element, so nothing decomposes; sugar solution has no ions."
+   },
+   {
+    "id": "M48",
+    "q": "In the electrolysis of copper(II) sulfate solution, copper forms at the cathode because copper is…",
+    "options": [
+     "more reactive than hydrogen",
+     "less reactive than hydrogen",
+     "a transition metal",
+     "blue in solution"
+    ],
+    "answer": 1,
+    "explain": "The less reactive of the competing cations is discharged. Metals above hydrogen stay in solution and H₂ forms instead."
+   },
+   {
+    "id": "M49",
+    "q": "Reduction can be defined as…",
+    "options": [
+     "loss of electrons or gain of oxygen",
+     "gain of electrons or loss of oxygen",
+     "gain of protons",
+     "loss of neutrons"
+    ],
+    "answer": 1,
+    "explain": "OIL RIG plus the oxygen version. Both definitions describe the same event from different angles."
+   },
+   {
+    "id": "M50",
+    "q": "Which is a correctly written half-equation for reduction?",
+    "options": [
+     "2Cl⁻ → Cl₂ + 2e⁻",
+     "Cu²⁺ + 2e⁻ → Cu",
+     "Cu → Cu²⁺ + 2e⁻",
+     "2H₂O → O₂ + 4H⁺ + 4e⁻"
+    ],
+    "answer": 1,
+    "explain": "Electrons on the LEFT = being gained = reduction. The other three all show electrons being lost (oxidation)."
+   },
+   {
+    "id": "M51",
+    "q": "During the electrolysis of dilute sulfuric acid, the product at the negative electrode is…",
+    "options": [
+     "oxygen",
+     "hydrogen",
+     "sulfur",
+     "water"
+    ],
+    "answer": 1,
+    "explain": "H⁺ ions gain electrons: 2H⁺ + 2e⁻ → H₂. Oxygen forms at the positive electrode from water."
+   },
+   {
+    "id": "M52",
+    "q": "In the reaction Mg + CuSO₄ → MgSO₄ + Cu, magnesium is…",
+    "options": [
+     "reduced",
+     "oxidised",
+     "unchanged",
+     "the oxidising agent"
+    ],
+    "answer": 1,
+    "explain": "Mg → Mg²⁺ loses electrons (oxidation), so magnesium is the REDUCING agent; the copper ions are reduced."
+   },
+   {
+    "id": "M53",
+    "q": "Electrolysis of molten aluminium oxide gives aluminium at the cathode and… at the anode.",
+    "options": [
+     "hydrogen",
+     "oxygen",
+     "aluminium",
+     "carbon"
+    ],
+    "answer": 1,
+    "explain": "The oxide ions are oxidised to O₂. (Industrially this oxygen burns the carbon anodes away, so they need regular replacement.)"
+   },
+   {
+    "id": "M54",
+    "q": "Which observation would you record at an electrode producing a gas?",
+    "options": [
+     "\"Chlorine is produced\"",
+     "Bubbles form on the electrode",
+     "The electrode dissolves",
+     "The solution turns solid"
+    ],
+    "answer": 1,
+    "explain": "Observations are what you SEE. Naming the gas is a conclusion drawn from a test, not an observation."
+   },
+   {
+    "id": "M55",
+    "q": "Why must an ionic compound be molten or dissolved for electrolysis?",
+    "options": [
+     "To make it hotter",
+     "So that the ions are free to move to the electrodes",
+     "So the electrons can flow",
+     "To dilute it"
+    ],
+    "answer": 1,
+    "explain": "Mobile ions carry the charge through the electrolyte. In the solid lattice they are fixed, so no current flows."
+   }
+  ],
+  "09-metal-extraction": [
+   {
+    "id": "M1",
+    "q": "Which list is in order of decreasing reactivity?",
+    "options": [
+     "magnesium, zinc, copper, potassium",
+     "potassium, magnesium, zinc, copper",
+     "copper, zinc, magnesium, potassium",
+     "potassium, zinc, magnesium, copper"
+    ],
+    "answer": 1,
+    "explain": "K Na Li Ca Mg Al · Zn Fe · Cu Ag Au. Potassium tops the school's list; copper is near the bottom."
+   },
+   {
+    "id": "M2",
+    "q": "Gold is found in the Earth's crust as the element because it is…",
+    "options": [
+     "very rare",
+     "very unreactive",
+     "very dense",
+     "insoluble in water"
+    ],
+    "answer": 1,
+    "explain": "Too unreactive ever to have formed compounds — found native. Reactive metals are always locked up in ores."
+   },
+   {
+    "id": "M3",
+    "q": "Aluminium cannot be extracted by heating its oxide with carbon because…",
+    "options": [
+     "aluminium oxide has too high a melting point",
+     "aluminium is more reactive than carbon",
+     "carbon is too expensive",
+     "aluminium oxide is insoluble"
+    ],
+    "answer": 1,
+    "explain": "Carbon can only strip oxygen from metals BELOW it in the series. Aluminium (above carbon) needs electrolysis of the molten compound. Same one-marker as 2023's magnesium question."
+   },
+   {
+    "id": "M4",
+    "q": "Iron is extracted from its oxide using carbon because…",
+    "options": [
+     "iron is more reactive than carbon",
+     "carbon is more reactive than iron and removes the oxygen",
+     "carbon melts the ore",
+     "iron dissolves in carbon"
+    ],
+    "answer": 1,
+    "explain": "Carbon out-competes iron for the oxygen — it reduces the oxide. Cheapness is why carbon is preferred wherever it works."
+   },
+   {
+    "id": "M5",
+    "q": "In 2CuO + C → 2Cu + CO₂, the role of carbon is…",
+    "options": [
+     "oxidising agent — it gives oxygen",
+     "reducing agent — it removes oxygen from the copper(II) oxide",
+     "catalyst — it is unchanged",
+     "fuel — it provides heat"
+    ],
+    "answer": 1,
+    "explain": "The two-marker the school asked in both 2024 and 2025: reducing agent + removes oxygen from the named compound. \"Reacts with the oxygen\" was rejected."
+   },
+   {
+    "id": "M6",
+    "q": "In the thermite reaction 2Al + Fe₂O₃ → Al₂O₃ + 2Fe, the species reduced is…",
+    "options": [
+     "aluminium",
+     "iron",
+     "iron(III) oxide",
+     "aluminium oxide"
+    ],
+    "answer": 2,
+    "explain": "The OXIDE loses the oxygen. \"Iron is reduced\" was a named error in 2024 — iron is the product."
+   },
+   {
+    "id": "M7",
+    "q": "Zinc powder is added to copper(II) sulfate solution. What happens?",
+    "options": [
+     "Nothing — zinc is less reactive",
+     "The blue fades and copper coats the zinc",
+     "The solution turns deeper blue",
+     "Zinc oxide precipitates"
+    ],
+    "answer": 1,
+    "explain": "Zinc displaces copper: Zn + CuSO₄ → ZnSO₄ + Cu. Blue Cu²⁺ leaves solution; pink-brown copper appears."
+   },
+   {
+    "id": "M8",
+    "q": "Silver is placed in copper(II) sulfate solution. What happens?",
+    "options": [
+     "Silver sulfate forms",
+     "The solution fades",
+     "No reaction",
+     "Hydrogen is given off"
+    ],
+    "answer": 2,
+    "explain": "A less reactive metal cannot displace a more reactive one. \"No reaction\" is itself the expected answer — say it confidently."
+   },
+   {
+    "id": "M9",
+    "q": "An ore is…",
+    "options": [
+     "any rock containing a metal compound worth extracting",
+     "a pure metal found in the ground",
+     "a metal oxide made in a furnace",
+     "any compound of iron"
+    ],
+    "answer": 0,
+    "explain": "Rock + enough metal compound to make extraction worthwhile. Native metals (gold) are the exception — no compound, no ore chemistry needed."
+   },
+   {
+    "id": "M10",
+    "q": "Metals above carbon in the reactivity series are extracted by…",
+    "options": [
+     "heating with carbon",
+     "electrolysis of the molten compound",
+     "displacement with copper",
+     "roasting in air"
+    ],
+    "answer": 1,
+    "explain": "Carbon can't reduce their oxides, so electrons are supplied directly at the cathode — expensive, but reactivity forces it (aluminium is the spec's example)."
+   },
+   {
+    "id": "M11",
+    "q": "In stage 1 of copper extraction, sulfur in the ore is described as oxidised because it…",
+    "options": [
+     "forms SO₂",
+     "gains oxygen",
+     "loses mass",
+     "is heated"
+    ],
+    "answer": 1,
+    "explain": "Apply the definition: gained oxygen. \"It forms SO₂\" merely names the product — the 2021 scheme wanted the definition-level reason."
+   },
+   {
+    "id": "M12",
+    "q": "The cheap reducing agent used industrially to extract iron is…",
+    "options": [
+     "hydrogen",
+     "aluminium",
+     "carbon (coke)",
+     "electricity"
+    ],
+    "answer": 2,
+    "explain": "Coke is cheap carbon. Aluminium works chemically (thermite!) but costs far more than the iron it would win — economics picks carbon everywhere it can work."
+   },
+   {
+    "id": "M13",
+    "q": "The reactivity series orders metals by…",
+    "options": [
+     "density",
+     "how vigorously they react / how strongly they hold their compounds",
+     "melting point",
+     "cost"
+    ],
+    "answer": 1,
+    "explain": "It ranks reactivity — which then predicts displacement, extraction method and acid behaviour."
+   },
+   {
+    "id": "M14",
+    "q": "Which metal is MOST reactive?",
+    "options": [
+     "Zinc",
+     "Iron",
+     "Potassium",
+     "Copper"
+    ],
+    "answer": 2,
+    "explain": "K tops the school list: K Na Li Ca Mg Al · Zn Fe · Cu Ag Au."
+   },
+   {
+    "id": "M15",
+    "q": "Which metal is LEAST reactive?",
+    "options": [
+     "Gold",
+     "Silver",
+     "Iron",
+     "Aluminium"
+    ],
+    "answer": 0,
+    "explain": "Gold sits at the bottom — so unreactive it is found native."
+   },
+   {
+    "id": "M16",
+    "q": "A metal that displaces copper from copper sulfate solution but not magnesium from magnesium sulfate lies…",
+    "options": [
+     "above magnesium",
+     "between magnesium and copper",
+     "below copper",
+     "outside the series"
+    ],
+    "answer": 1,
+    "explain": "Displaces what is below it, loses to what is above — the sandwich logic used to place unknown metals."
+   },
+   {
+    "id": "M17",
+    "q": "Iron + copper(II) sulfate → iron(II) sulfate + copper is an example of…",
+    "options": [
+     "neutralisation",
+     "displacement",
+     "electrolysis",
+     "cracking"
+    ],
+    "answer": 1,
+    "explain": "More reactive iron takes the sulfate from less reactive copper."
+   },
+   {
+    "id": "M18",
+    "q": "Carbon can extract a metal from its oxide only if the metal is…",
+    "options": [
+     "above carbon in the series",
+     "below carbon in the series",
+     "a transition metal",
+     "shiny"
+    ],
+    "answer": 1,
+    "explain": "Carbon must out-compete the metal for oxygen — possible only for Zn, Fe, Cu and below."
+   },
+   {
+    "id": "M19",
+    "q": "The extraction of iron from iron(III) oxide using carbon is an example of the oxide being…",
+    "options": [
+     "oxidised",
+     "reduced",
+     "neutralised",
+     "electrolysed"
+    ],
+    "answer": 1,
+    "explain": "The oxide LOSES its oxygen — reduction. Carbon (the reducing agent) is oxidised to CO₂."
+   },
+   {
+    "id": "M20",
+    "q": "Aluminium is extracted by electrolysis rather than carbon because…",
+    "options": [
+     "aluminium ore is rare",
+     "aluminium is more reactive than carbon",
+     "electricity is cheaper than coke",
+     "aluminium melts too easily"
+    ],
+    "answer": 1,
+    "explain": "Carbon cannot strip oxygen from a metal above it. The expense is forced by the chemistry, not chosen."
+   },
+   {
+    "id": "M21",
+    "q": "Gold is found 'native'. This means…",
+    "options": [
+     "only in one country",
+     "as the uncombined element",
+     "in plants",
+     "as an oxide"
+    ],
+    "answer": 1,
+    "explain": "Too unreactive to form compounds — it sits in the crust as the metal itself."
+   },
+   {
+    "id": "M22",
+    "q": "In the thermite reaction, the magnesium fuse is needed because…",
+    "options": [
+     "magnesium is a product",
+     "the reaction needs a large initial energy input to start",
+     "magnesium is the catalyst",
+     "it colours the flame"
+    ],
+    "answer": 1,
+    "explain": "Thermite has a high activation energy — the burning fuse supplies it; after that the reaction's own heat sustains it."
+   },
+   {
+    "id": "M23",
+    "q": "Which pairing of metal and extraction method is correct?",
+    "options": [
+     "Sodium — heat with carbon",
+     "Zinc — electrolysis only",
+     "Iron — heat the oxide with carbon",
+     "Gold — electrolysis of molten ore"
+    ],
+    "answer": 2,
+    "explain": "Fe is below carbon → carbon reduction. Na needs electrolysis; Zn can use carbon; gold needs nothing."
+   },
+   {
+    "id": "M24",
+    "q": "An ore is worth mining when…",
+    "options": [
+     "it contains any metal at all",
+     "it contains enough metal (compound) to make extraction economic",
+     "it is close to the surface",
+     "it is colourful"
+    ],
+    "answer": 1,
+    "explain": "\"Enough to be worth extracting\" is part of the definition — economics is built into the word ore."
+   },
+   {
+    "id": "M25",
+    "q": "Zinc + iron(II) sulfate solution →…",
+    "options": [
+     "no reaction",
+     "zinc sulfate + iron",
+     "iron sulfide + zinc",
+     "hydrogen gas"
+    ],
+    "answer": 1,
+    "explain": "Zinc is above iron, so it displaces it. (Iron + zinc sulfate would be the no-reaction direction.)"
+   },
+   {
+    "id": "M26",
+    "q": "Which observation shows displacement is happening in copper(II) sulfate + zinc?",
+    "options": [
+     "The solution turns deeper blue",
+     "The blue fades and a brown solid appears",
+     "Bubbles of oxygen form",
+     "The zinc glows"
+    ],
+    "answer": 1,
+    "explain": "Blue Cu²⁺ leaves the solution as brown copper metal appears on the zinc."
+   },
+   {
+    "id": "M27",
+    "q": "The role of carbon in 2Fe₂O₃ + 3C → 4Fe + 3CO₂ is…",
+    "options": [
+     "oxidising agent",
+     "catalyst",
+     "reducing agent",
+     "fuel only"
+    ],
+    "answer": 2,
+    "explain": "It removes the oxygen from the iron(III) oxide — same two-marker as the copper and calcium phosphide versions."
+   },
+   {
+    "id": "M28",
+    "q": "Which metal is found in the crust ONLY in compounds?",
+    "options": [
+     "Gold",
+     "Silver",
+     "Sodium",
+     "Platinum"
+    ],
+    "answer": 2,
+    "explain": "Reactive metals are always combined; only the unreactive tail of the series occurs native."
+   },
+   {
+    "id": "M29",
+    "q": "Why is extraction by carbon preferred wherever possible?",
+    "options": [
+     "Carbon is a stronger reducing agent than electricity",
+     "Coke is much cheaper than electricity",
+     "It gives purer metal",
+     "It works for every metal"
+    ],
+    "answer": 1,
+    "explain": "Economics: heating with cheap coke beats paying for continuous current — which is reserved for metals above carbon."
+   },
+   {
+    "id": "M30",
+    "q": "\"Comment on this extraction process\" questions (spec 2.24C) should be anchored to…",
+    "options": [
+     "the metal's colour",
+     "the metal's position relative to carbon, and what reduces what",
+     "the country of origin",
+     "the ore's hardness"
+    ],
+    "answer": 1,
+    "explain": "Position → method; then name the reduction and the reducing agent. Detailed process knowledge is explicitly not required."
+   },
+   {
+    "id": "M31",
+    "q": "Copper displaces silver from silver nitrate solution. What does this show?",
+    "options": [
+     "Silver is more reactive than copper",
+     "Copper is more reactive than silver",
+     "Both metals are equally reactive",
+     "Nitrates are unstable"
+    ],
+    "answer": 1,
+    "explain": "The displacer is always the more reactive metal — this experiment places Cu above Ag in the series."
+   },
+   {
+    "id": "M32",
+    "q": "Which statement about the thermite redox is fully correct?",
+    "options": [
+     "Iron is reduced and aluminium oxidised",
+     "Iron(III) oxide is reduced and aluminium is oxidised",
+     "Aluminium is reduced and iron oxidised",
+     "Both metals are oxidised"
+    ],
+    "answer": 1,
+    "explain": "Name the compound: the OXIDE loses oxygen (reduced); aluminium gains it (oxidised). \"Iron is reduced\" lost the mark in 2024."
+   },
+   {
+    "id": "M33",
+    "q": "The reactivity series position of hydrogen matters because…",
+    "options": [
+     "hydrogen is a metal",
+     "metals below hydrogen do not react with dilute acids",
+     "hydrogen is the strongest reducing agent",
+     "it separates the halogens"
+    ],
+    "answer": 1,
+    "explain": "Cu, Ag, Au sit below H: no reaction with dilute acid, and their ions win at the cathode — the same fact doing double duty in electrolysis."
+   },
+   {
+    "id": "M34",
+    "q": "Which metal is extracted by heating its oxide with carbon?",
+    "options": [
+     "Sodium",
+     "Aluminium",
+     "Iron",
+     "Potassium"
+    ],
+    "answer": 2,
+    "explain": "Iron sits below carbon in the reactivity series, so carbon can take its oxygen. The other three are above carbon and need electrolysis."
+   },
+   {
+    "id": "M35",
+    "q": "A metal above carbon in the reactivity series must be extracted by…",
+    "options": [
+     "heating with carbon",
+     "electrolysis of the molten compound",
+     "displacement with iron",
+     "heating in air"
+    ],
+    "answer": 1,
+    "explain": "Carbon cannot reduce it, so electrons are supplied directly at the cathode — expensive, but the chemistry gives no choice."
+   },
+   {
+    "id": "M36",
+    "q": "Which metal would displace zinc from zinc sulfate solution?",
+    "options": [
+     "Copper",
+     "Silver",
+     "Magnesium",
+     "Gold"
+    ],
+    "answer": 2,
+    "explain": "Only a metal ABOVE zinc can displace it — magnesium. Copper, silver and gold are all below zinc."
+   },
+   {
+    "id": "M37",
+    "q": "In 2CuO + C → 2Cu + CO₂, which substance is oxidised?",
+    "options": [
+     "Copper(II) oxide",
+     "Carbon",
+     "Copper",
+     "Carbon dioxide"
+    ],
+    "answer": 1,
+    "explain": "Carbon gains oxygen → CO₂ (oxidised), which is why it is the reducing agent; the copper oxide loses oxygen (reduced)."
+   },
+   {
+    "id": "M38",
+    "q": "Why is gold found as the uncombined metal?",
+    "options": [
+     "It is very dense",
+     "It is very unreactive",
+     "It melts easily",
+     "It is magnetic"
+    ],
+    "answer": 1,
+    "explain": "Unreactive metals never formed compounds — they occur native. That is also why gold needs no extraction chemistry."
+   },
+   {
+    "id": "M39",
+    "q": "A metal displaces copper but not magnesium from their salt solutions. It lies…",
+    "options": [
+     "above magnesium",
+     "between magnesium and copper",
+     "below copper",
+     "at the very bottom"
+    ],
+    "answer": 1,
+    "explain": "It beats copper but loses to magnesium — the sandwich test for placing an unknown metal in the series."
+   },
+   {
+    "id": "M40",
+    "q": "The main reason carbon reduction is preferred to electrolysis where possible is…",
+    "options": [
+     "it gives a purer metal",
+     "coke is far cheaper than electricity",
+     "it is faster",
+     "it works for every metal"
+    ],
+    "answer": 1,
+    "explain": "Pure economics. Electrolysis is reserved for the metals whose reactivity forces it."
+   },
+   {
+    "id": "M41",
+    "q": "In the thermite reaction, aluminium acts as the…",
+    "options": [
+     "oxidising agent",
+     "reducing agent",
+     "catalyst",
+     "electrolyte"
+    ],
+    "answer": 1,
+    "explain": "It removes the oxygen from iron(III) oxide, being oxidised itself — the same role carbon plays in a blast furnace."
+   },
+   {
+    "id": "M42",
+    "q": "What would you observe when magnesium ribbon is placed in copper(II) sulfate solution?",
+    "options": [
+     "No change",
+     "The blue fades and a brown solid forms on the ribbon",
+     "A gas is given off and the solution turns blue",
+     "A white precipitate forms"
+    ],
+    "answer": 1,
+    "explain": "Displacement: Cu²⁺ leaves solution (blue fades) and copper deposits on the magnesium."
+   },
+   {
+    "id": "M43",
+    "q": "Which statement about ores is correct?",
+    "options": [
+     "An ore is a pure metal",
+     "An ore is a rock containing enough metal compound to be worth extracting",
+     "All ores are oxides",
+     "Ores contain no impurities"
+    ],
+    "answer": 1,
+    "explain": "The 'worth extracting' part is in the definition — economics decides whether a rock counts as an ore."
+   }
+  ],
+  "10-crude-oil-and-alkanes": [
+   {
+    "id": "M1",
+    "q": "A hydrocarbon is a compound containing…",
+    "options": [
+     "hydrogen and carbon only",
+     "hydrogen, carbon and oxygen",
+     "any compound with carbon",
+     "hydrogen and any non-metal"
+    ],
+    "answer": 0,
+    "explain": "The word ONLY is the mark. CO₂ and glucose contain carbon but are not hydrocarbons."
+   },
+   {
+    "id": "M2",
+    "q": "Crude oil is…",
+    "options": [
+     "a single giant molecule",
+     "a mixture of hydrocarbons",
+     "a compound of alkanes",
+     "mostly dissolved carbon"
+    ],
+    "answer": 1,
+    "explain": "A mixture — which is why it can be separated physically (by distillation) without any chemical change."
+   },
+   {
+    "id": "M3",
+    "q": "In the fractionating column, each vapour condenses when…",
+    "options": [
+     "it reaches the top",
+     "the column temperature falls below its boiling point",
+     "it touches the walls",
+     "the pressure rises"
+    ],
+    "answer": 1,
+    "explain": "The condensation-at-the-boiling-point link is the M4 of the three-years-running four-marker. \"Turns to liquid\" without the reason does not score."
+   },
+   {
+    "id": "M4",
+    "q": "The temperature in a fractionating column is…",
+    "options": [
+     "highest at the top",
+     "the same throughout",
+     "highest at the bottom",
+     "highest in the middle"
+    ],
+    "answer": 2,
+    "explain": "Hot at the bottom where the vaporised crude enters, cooler toward the top — the gradient that sorts the fractions."
+   },
+   {
+    "id": "M5",
+    "q": "The fraction with the LOWEST boiling point is…",
+    "options": [
+     "bitumen",
+     "fuel oil",
+     "refinery gases",
+     "diesel"
+    ],
+    "answer": 2,
+    "explain": "Shortest molecules, weakest intermolecular forces, lowest bp — they exit at the top (many never condense at all). Bitumen is the opposite extreme."
+   },
+   {
+    "id": "M6",
+    "q": "The fuel oil fraction is used for…",
+    "options": [
+     "cars",
+     "jet aircraft",
+     "ships and power stations",
+     "road surfacing"
+    ],
+    "answer": 2,
+    "explain": "Gasoline → cars; kerosene → jets; diesel → lorries; fuel oil → ships/power stations; bitumen → roads. 2022 and 2024 both asked fuel oil."
+   },
+   {
+    "id": "M7",
+    "q": "Going down the column, the fractions become…",
+    "options": [
+     "lighter in colour and runnier",
+     "darker and more viscous",
+     "shorter-chained",
+     "more flammable"
+    ],
+    "answer": 1,
+    "explain": "Longer chains at the bottom: higher boiling point, darker colour, higher viscosity, LESS flammable."
+   },
+   {
+    "id": "M8",
+    "q": "A long-chain alkane boils higher than a short one because…",
+    "options": [
+     "its covalent bonds are stronger",
+     "the intermolecular forces between its molecules are stronger",
+     "it contains more energy",
+     "the forces between its atoms are stronger"
+    ],
+    "answer": 1,
+    "explain": "Forces BETWEEN MOLECULES — 2024's scheme rejected \"between atoms\" and gave nothing for broken covalent bonds."
+   },
+   {
+    "id": "M9",
+    "q": "The general formula of the alkanes is…",
+    "options": [
+     "CₙH₂ₙ",
+     "CₙH₂ₙ₊₂",
+     "CₙHₙ₊₂",
+     "CₙH₂ₙ₋₂"
+    ],
+    "answer": 1,
+    "explain": "CₙH₂ₙ₊₂ — methane CH₄, ethane C₂H₆, propane C₃H₈… (CₙH₂ₙ is the alkenes.)"
+   },
+   {
+    "id": "M10",
+    "q": "The name of the alkane C₃H₈ is…",
+    "options": [
+     "propane",
+     "propene",
+     "butane",
+     "methane"
+    ],
+    "answer": 0,
+    "explain": "Three carbons = prop-, saturated = -ane. Spelling counts: 2023's marker rejected \"triane\"."
+   },
+   {
+    "id": "M11",
+    "q": "Isomers are compounds with…",
+    "options": [
+     "the same chemical formula and structure",
+     "the same molecular formula but different structural formulae",
+     "the same empirical formula only",
+     "different molecular formulae but the same shape"
+    ],
+    "answer": 1,
+    "explain": "SAME molecular formula, DIFFERENT structure. \"Chemical formula\" lost the mark in 2023 — the precise term matters."
+   },
+   {
+    "id": "M12",
+    "q": "The two isomers of C₄H₁₀ are…",
+    "options": [
+     "butane and butene",
+     "butane and methylpropane",
+     "propane and methylpropane",
+     "butane and pentane"
+    ],
+    "answer": 1,
+    "explain": "Straight-chain butane and branched methylpropane. Butene has a double bond (different formula); pentane is C₅H₁₂."
+   },
+   {
+    "id": "M13",
+    "q": "In a displayed formula you must show…",
+    "options": [
+     "only the carbon skeleton",
+     "every atom and every bond, including all C–H bonds",
+     "the molecular formula in brackets",
+     "the bond angles to scale"
+    ],
+    "answer": 1,
+    "explain": "Displayed = every bond drawn. A –CH₃ written as a lump was rejected in 2021's mark scheme."
+   },
+   {
+    "id": "M14",
+    "q": "Complete combustion of an alkane produces…",
+    "options": [
+     "carbon dioxide and hydrogen",
+     "carbon monoxide and water",
+     "carbon dioxide and water",
+     "carbon and steam"
+    ],
+    "answer": 2,
+    "explain": "CO₂ + H₂O. \"Lots of students said hydrogen instead of water\" — 2025's commentary. CO belongs to INCOMPLETE combustion."
+   },
+   {
+    "id": "M15",
+    "q": "Carbon monoxide forms when a fuel burns in…",
+    "options": [
+     "pure oxygen",
+     "a limited supply of air",
+     "excess air",
+     "ultraviolet light"
+    ],
+    "answer": 1,
+    "explain": "Limited oxygen → incomplete combustion → CO (and soot). Plenty of air gives CO₂."
+   },
+   {
+    "id": "M16",
+    "q": "Carbon monoxide is poisonous because it…",
+    "options": [
+     "is acidic",
+     "reduces the capacity of the blood to transport oxygen",
+     "damages the lungs directly",
+     "causes acid rain"
+    ],
+    "answer": 1,
+    "explain": "The spec's own wording. If you mention haemoglobin you must still mention oxygen — 2025's scheme checked."
+   },
+   {
+    "id": "M17",
+    "q": "Sulfur dioxide in the atmosphere comes from…",
+    "options": [
+     "nitrogen in the air reacting in engines",
+     "sulfur impurities in the fuel burning",
+     "carbon dioxide oxidising",
+     "the fractionating column"
+    ],
+    "answer": 1,
+    "explain": "The fuel CONTAINS sulfur; burning gives SO₂ → acid rain. The nitrogen chain is separate: N₂ + O₂ from the AIR react at engine temperatures → NOₓ."
+   },
+   {
+    "id": "M18",
+    "q": "CH₄ + Br₂ → CH₃Br + HBr is classified as…",
+    "options": [
+     "addition",
+     "displacement",
+     "substitution",
+     "neutralisation"
+    ],
+    "answer": 2,
+    "explain": "A bromine atom substitutes for a hydrogen — needs UV light. \"Displacement\" and \"reduction\" were 2025's popular wrong answers; addition needs a C=C double bond."
+   },
+   {
+    "id": "M19",
+    "q": "The condition required for methane to react with bromine is…",
+    "options": [
+     "a catalyst",
+     "high pressure",
+     "ultraviolet light",
+     "heating under reflux"
+    ],
+    "answer": 2,
+    "explain": "UV (sunlight accepted). The schemes ignore heat — light is the answer."
+   },
+   {
+    "id": "M20",
+    "q": "Catalytic cracking converts long alkanes into…",
+    "options": [
+     "shorter alkanes and alkenes",
+     "hydrogen and carbon",
+     "longer alkanes",
+     "alcohols"
+    ],
+    "answer": 0,
+    "explain": "Silica/alumina catalyst at 600–700 °C: shorter alkanes (fuel) + alkenes (plastics feedstock) — done because demand for short fractions outstrips supply."
+   },
+   {
+    "id": "M21",
+    "q": "The compounds in crude oil are separated by fractional distillation because they have…",
+    "options": [
+     "different colours",
+     "different boiling points",
+     "different densities",
+     "different formulae lengths only"
+    ],
+    "answer": 1,
+    "explain": "The whole column works on boiling-point differences — that is what a fraction shares."
+   },
+   {
+    "id": "M22",
+    "q": "Where does the crude oil enter the fractionating column?",
+    "options": [
+     "At the top, cold",
+     "Near the bottom, as hot vapour",
+     "In the middle, as liquid",
+     "It is poured over the outside"
+    ],
+    "answer": 1,
+    "explain": "Heated and vaporised first, entering low where the column is hottest."
+   },
+   {
+    "id": "M23",
+    "q": "The fraction used as aircraft fuel is…",
+    "options": [
+     "gasoline",
+     "kerosene",
+     "diesel",
+     "bitumen"
+    ],
+    "answer": 1,
+    "explain": "Kerosene (paraffin) = jet fuel. Gasoline cars, diesel lorries, fuel oil ships, bitumen roads."
+   },
+   {
+    "id": "M24",
+    "q": "Bitumen leaves the column at the bottom because it has…",
+    "options": [
+     "the smallest molecules",
+     "the highest boiling point",
+     "the lightest colour",
+     "the most hydrogen"
+    ],
+    "answer": 1,
+    "explain": "Longest chains → strongest IMF → boils (and condenses) hottest → never rises."
+   },
+   {
+    "id": "M25",
+    "q": "The general formula CₙH₂ₙ₊₂ tells you that hexane (6 carbons) is…",
+    "options": [
+     "C₆H₁₂",
+     "C₆H₁₄",
+     "C₆H₆",
+     "C₆H₁₀"
+    ],
+    "answer": 1,
+    "explain": "2 × 6 + 2 = 14 hydrogens: C₆H₁₄."
+   },
+   {
+    "id": "M26",
+    "q": "Alkanes are described as saturated because…",
+    "options": [
+     "they are full of water",
+     "they contain only single carbon–carbon bonds",
+     "they cannot burn",
+     "they contain double bonds"
+    ],
+    "answer": 1,
+    "explain": "Every carbon already holds four single bonds — no capacity to add more atoms (hence substitution, not addition)."
+   },
+   {
+    "id": "M27",
+    "q": "Members of a homologous series differ from their neighbours by…",
+    "options": [
+     "CH₂",
+     "CH₄",
+     "H₂",
+     "C₂"
+    ],
+    "answer": 0,
+    "explain": "Each step adds CH₂ — the reason the general formula works and boiling points climb steadily."
+   },
+   {
+    "id": "M28",
+    "q": "The molecular formula of the alkane with structural formula CH₃CH₂CH₃ is…",
+    "options": [
+     "C₃H₆",
+     "C₃H₈",
+     "C₂H₆",
+     "CH₃"
+    ],
+    "answer": 1,
+    "explain": "Count: 3 carbons, 3+2+3 = 8 hydrogens — propane."
+   },
+   {
+    "id": "M29",
+    "q": "The empirical formula of ethane (C₂H₆) is…",
+    "options": [
+     "C₂H₆",
+     "CH₃",
+     "CH₂",
+     "C₂H₃"
+    ],
+    "answer": 1,
+    "explain": "Divide by the common factor 2: CH₃. Molecular and empirical formulae differ whenever the ratio simplifies."
+   },
+   {
+    "id": "M30",
+    "q": "How many isomers does C₅H₁₂ have?",
+    "options": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "answer": 1,
+    "explain": "Pentane, 2-methylbutane, 2,2-dimethylpropane — the paper gives one and asks you to draw the other two."
+   },
+   {
+    "id": "M31",
+    "q": "Which is NOT an isomer consideration when drawing C₄H₁₀ structures?",
+    "options": [
+     "Same molecular formula",
+     "Different displayed formula",
+     "Every carbon with four bonds",
+     "Different numbers of carbon atoms"
+    ],
+    "answer": 3,
+    "explain": "Isomers keep the SAME molecular formula — changing the carbon count makes a different compound entirely."
+   },
+   {
+    "id": "M32",
+    "q": "A molecule drawn bent versus straight but with identical connections is…",
+    "options": [
+     "two different isomers",
+     "the same molecule",
+     "an alkene",
+     "an empirical formula"
+    ],
+    "answer": 1,
+    "explain": "Rotating or bending bonds doesn't change what is bonded to what — a classic false 'isomer' pair that scores nothing."
+   },
+   {
+    "id": "M33",
+    "q": "Complete combustion of methane is…",
+    "options": [
+     "CH₄ + O₂ → CO + 2H₂O",
+     "CH₄ + 2O₂ → CO₂ + 2H₂O",
+     "CH₄ + O₂ → C + 2H₂O",
+     "CH₄ + 2O₂ → CO₂ + 2H₂"
+    ],
+    "answer": 1,
+    "explain": "CO₂ and WATER, balanced with 2O₂. CO and soot belong to incomplete combustion; H₂ is never a combustion product."
+   },
+   {
+    "id": "M34",
+    "q": "The yellow, sooty flame of a Bunsen with the air hole closed indicates…",
+    "options": [
+     "complete combustion",
+     "incomplete combustion",
+     "no combustion",
+     "an alkene burning"
+    ],
+    "answer": 1,
+    "explain": "Limited air → carbon particles glowing yellow and CO forming — the visible signature of incomplete burning."
+   },
+   {
+    "id": "M35",
+    "q": "Carbon monoxide is dangerous partly because it is…",
+    "options": [
+     "brightly coloured",
+     "colourless and odourless",
+     "heavier than air",
+     "acidic"
+    ],
+    "answer": 1,
+    "explain": "No colour, no smell, no warning — while it quietly reduces the blood's oxygen-carrying capacity."
+   },
+   {
+    "id": "M36",
+    "q": "Oxides of nitrogen form in car engines because…",
+    "options": [
+     "petrol contains nitrogen",
+     "engine temperatures are high enough for nitrogen and oxygen from the AIR to react",
+     "nitrogen burns in the fuel tank",
+     "catalysts create them"
+    ],
+    "answer": 1,
+    "explain": "The nitrogen comes from the air, not the fuel — the distinction that carries the mark."
+   },
+   {
+    "id": "M37",
+    "q": "Acid rain is caused by…",
+    "options": [
+     "carbon dioxide only",
+     "sulfur dioxide and oxides of nitrogen",
+     "methane",
+     "carbon monoxide"
+    ],
+    "answer": 1,
+    "explain": "SO₂ (fuel impurities) and NOₓ (engine heat). CO₂/greenhouse belongs to a different question — mixing them cost marks in 2025."
+   },
+   {
+    "id": "M38",
+    "q": "One effect of acid rain accepted by the schemes is…",
+    "options": [
+     "global warming",
+     "killing fish / damaging limestone buildings",
+     "ozone holes",
+     "smog"
+    ],
+    "answer": 1,
+    "explain": "The two standard consequences: aquatic life killed, carbonate stone eroded."
+   },
+   {
+    "id": "M39",
+    "q": "In CH₄ + Cl₂ → CH₃Cl + HCl (in UV light), the organic product is…",
+    "options": [
+     "chloromethane",
+     "methyl chloride gas",
+     "hydrogen chloride",
+     "dichloromethane"
+    ],
+    "answer": 0,
+    "explain": "One H swapped for Cl: chloromethane, CH₃Cl. HCl is the inorganic co-product; mono-substitution only at this level."
+   },
+   {
+    "id": "M40",
+    "q": "Why does the methane–bromine reaction not happen in the dark?",
+    "options": [
+     "Bromine evaporates",
+     "UV light is needed to provide the energy to start the reaction",
+     "Methane freezes",
+     "The products block light"
+    ],
+    "answer": 1,
+    "explain": "The UV splits the Br₂ to kick things off — no light, no reaction, however long you wait."
+   },
+   {
+    "id": "M41",
+    "q": "Alkenes differ from alkanes in having…",
+    "options": [
+     "a C=C double bond",
+     "more hydrogen",
+     "oxygen atoms",
+     "no carbon"
+    ],
+    "answer": 0,
+    "explain": "Alkenes (CₙH₂ₙ) are unsaturated: one C=C. They appear here as the second product of cracking."
+   },
+   {
+    "id": "M42",
+    "q": "The conditions for catalytic cracking are…",
+    "options": [
+     "UV light at room temperature",
+     "silica or alumina catalyst at 600–700 °C",
+     "high pressure and an iron catalyst",
+     "electrolysis at 900 °C"
+    ],
+    "answer": 1,
+    "explain": "Spec 4.17 verbatim: silica/alumina, 600–700 °C."
+   },
+   {
+    "id": "M43",
+    "q": "Cracking C₁₂H₂₆ could give C₈H₁₈ plus…",
+    "options": [
+     "C₄H₁₀",
+     "C₄H₈",
+     "C₄H₆",
+     "C₂H₄ + C₂H₂"
+    ],
+    "answer": 1,
+    "explain": "Atoms must balance: 12−8 = 4 carbons, 26−18 = 8 hydrogens → C₄H₈, an alkene (as cracking must produce)."
+   },
+   {
+    "id": "M44",
+    "q": "Cracking is economically necessary because…",
+    "options": [
+     "long chains are toxic",
+     "demand for short fractions exceeds their supply in crude oil",
+     "alkenes are waste products",
+     "the column cannot separate long chains"
+    ],
+    "answer": 1,
+    "explain": "Petrol demand outstrips what distillation yields; surplus heavy fractions are cracked down to match supply to demand."
+   },
+   {
+    "id": "M45",
+    "q": "A fuel is defined as a substance that…",
+    "options": [
+     "contains carbon",
+     "releases heat energy when burned",
+     "is a liquid",
+     "comes from crude oil"
+    ],
+    "answer": 1,
+    "explain": "Spec 4.11's definition — heat energy on burning. Not all fuels are hydrocarbons and not all hydrocarbons are used as fuels."
+   },
+   {
+    "id": "M46",
+    "q": "Crude oil is separated by fractional distillation because the hydrocarbons have different…",
+    "options": [
+     "colours",
+     "boiling points",
+     "densities only",
+     "chemical reactions"
+    ],
+    "answer": 1,
+    "explain": "Boiling point is what the column sorts on — which follows from chain length and intermolecular forces."
+   },
+   {
+    "id": "M47",
+    "q": "Which fraction has the shortest hydrocarbon molecules?",
+    "options": [
+     "Bitumen",
+     "Diesel",
+     "Refinery gases",
+     "Fuel oil"
+    ],
+    "answer": 2,
+    "explain": "Shortest chains, weakest forces, lowest boiling point — they leave at the top. Bitumen is the opposite extreme."
+   },
+   {
+    "id": "M48",
+    "q": "The molecular formula of the alkane with 4 carbon atoms is…",
+    "options": [
+     "C₄H₈",
+     "C₄H₁₀",
+     "C₄H₆",
+     "C₄H₄"
+    ],
+    "answer": 1,
+    "explain": "CₙH₂ₙ₊₂ with n = 4: 2(4) + 2 = 10 → C₄H₁₀, butane. C₄H₈ would be an alkene."
+   },
+   {
+    "id": "M49",
+    "q": "Complete combustion of a hydrocarbon requires…",
+    "options": [
+     "a limited supply of oxygen",
+     "a plentiful supply of oxygen",
+     "ultraviolet light",
+     "a catalyst"
+    ],
+    "answer": 1,
+    "explain": "Plenty of oxygen gives CO₂ + H₂O. Limited oxygen gives carbon monoxide and soot."
+   },
+   {
+    "id": "M50",
+    "q": "Which gas produced by burning fuels causes acid rain?",
+    "options": [
+     "Carbon dioxide",
+     "Sulfur dioxide",
+     "Carbon monoxide",
+     "Nitrogen"
+    ],
+    "answer": 1,
+    "explain": "SO₂ (from sulfur impurities) and oxides of nitrogen (from engine heat). CO₂ is the greenhouse gas — a different problem."
+   },
+   {
+    "id": "M51",
+    "q": "Isomers must have the same…",
+    "options": [
+     "displayed formula",
+     "molecular formula",
+     "boiling point",
+     "structural formula"
+    ],
+    "answer": 1,
+    "explain": "Same molecular formula, different structures — and therefore usually different physical properties like boiling point."
+   },
+   {
+    "id": "M52",
+    "q": "The reaction between an alkane and a halogen requires…",
+    "options": [
+     "a catalyst",
+     "ultraviolet light",
+     "high pressure",
+     "an acid"
+    ],
+    "answer": 1,
+    "explain": "UV light starts it. The reaction type is substitution — one hydrogen swapped for a halogen atom."
+   },
+   {
+    "id": "M53",
+    "q": "Cracking produces…",
+    "options": [
+     "longer alkanes only",
+     "shorter alkanes and alkenes",
+     "only alkenes",
+     "crude oil"
+    ],
+    "answer": 1,
+    "explain": "Long chains break into a shorter alkane plus an alkene — matching supply to the high demand for short fractions."
+   },
+   {
+    "id": "M54",
+    "q": "Carbon monoxide is dangerous because it…",
+    "options": [
+     "is explosive",
+     "reduces the capacity of the blood to carry oxygen",
+     "causes acid rain",
+     "smells strongly"
+    ],
+    "answer": 1,
+    "explain": "The spec's wording — and it is colourless and odourless, so there is no warning."
+   },
+   {
+    "id": "M55",
+    "q": "Which property increases going DOWN the fractionating column?",
+    "options": [
+     "Flammability",
+     "Boiling point",
+     "Volatility",
+     "Ease of ignition"
+    ],
+    "answer": 1,
+    "explain": "Down = longer chains = higher boiling point, darker colour, more viscous — and LESS flammable/volatile."
+   }
+  ]
+ }
+}

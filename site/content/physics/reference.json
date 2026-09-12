@@ -1,0 +1,342 @@
+{
+ "comment": "Exam-day facts, the formula sheet actually issued, the department's own list of thrown-away marks (from John-Physics-Plan-v1 and the examiner reports), and self-mark checklists for the drawings that cannot be marked on screen.",
+ "examDay": {
+  "date": "2026-09-07",
+  "dateText": "Monday 7 September 2026",
+  "minutes": 90,
+  "durationText": "1 hour 30 minutes",
+  "bring": [
+   "Calculator",
+   "Ruler",
+   "Black ink or ball-point pen",
+   "Pencil and rubber for graphs and diagrams"
+  ],
+  "provided": [
+   "Equation sheet — on the reverse of the front page. You do not need to memorise anything on it."
+  ],
+  "rules": [
+   "One minute per mark. A 13-mark question is 13 minutes, not 25.",
+   "Answer every question. A blank scores zero; a partial answer often scores something.",
+   "Turn every page. In 2025 several students missed a 15-mark question at the back of the paper.",
+   "If a question says \"state the formula\", write the formula down. It is a free mark and it is asked almost every year.",
+   "Show every step. Substitution and rearrangement earn marks even when the final answer is wrong.",
+   "Check the unit demanded on the answer line before you calculate, not after."
+  ]
+ },
+ "formulaSheet": {
+  "note": "This is what appears on the equation sheet in the exam. Do not spend revision time memorising these. Two of them (orbital speed, momentum) are for topics not on this exam — ignore them.",
+  "given": [
+   {
+    "words": "energy transferred = current × voltage × time",
+    "symbols": "E = I × V × t",
+    "symbolKey": "E = energy transferred (J) · I = current (A) · V = voltage (V) · t = time (s — convert minutes first)"
+   },
+   {
+    "words": "frequency = 1 ÷ time period",
+    "symbols": "f = 1 ÷ T",
+    "symbolKey": "f = frequency (Hz) · T = time period, the time for one complete wave (s)"
+   },
+   {
+    "words": "power = work done ÷ time taken",
+    "symbols": "P = W ÷ t",
+    "symbolKey": "P = power (W, watts) · W = work done, or energy transferred (J) · t = time taken (s) — one watt is one joule per second"
+   },
+   {
+    "words": "(final speed)² = (initial speed)² + (2 × acceleration × distance moved)",
+    "symbols": "v² = u² + (2 × a × s)",
+    "symbolKey": "v = final speed (m/s) · u = initial speed (m/s) · a = acceleration (m/s²) · s = distance moved (m)"
+   },
+   {
+    "words": "pressure × volume = constant",
+    "symbols": "p₁ × V₁ = p₂ × V₂",
+    "symbolKey": "p₁, V₁ = pressure and volume before · p₂, V₂ = after · pressure in Pa or kPa, volume in m³ or cm³ — any units, provided both sides match · temperature must stay constant"
+   },
+   {
+    "words": "pressure ÷ temperature = constant",
+    "symbols": "p₁ ÷ T₁ = p₂ ÷ T₂",
+    "symbolKey": "p₁, T₁ = pressure and temperature before · p₂, T₂ = after · pressure in Pa or kPa · T must be in kelvin (K), never °C · volume must stay constant"
+   },
+   {
+    "words": "change in thermal energy = mass × specific heat capacity × change in temperature",
+    "symbols": "ΔQ = m × c × ΔT",
+    "symbolKey": "ΔQ = energy transferred (J) · m = mass (kg — convert grams first) · c = specific heat capacity (J/kg °C) · ΔT = temperature change (°C)"
+   },
+   {
+    "words": "orbital speed = (2 × π × orbital radius) ÷ time period",
+    "symbols": "v = (2 × π × r) ÷ T",
+    "outOfScope": true,
+    "symbolKey": "v = orbital speed (m/s) · r = orbital radius (m) · T = time for one full orbit (s)"
+   },
+   {
+    "words": "force = change in momentum ÷ time taken",
+    "symbols": "F = (mv − mu) ÷ t",
+    "outOfScope": true,
+    "symbolKey": "F = force (N) · m = mass (kg) · v = final velocity (m/s) · u = initial velocity (m/s) · t = time (s) — mv − mu is the change in momentum (kg m/s)"
+   }
+  ]
+ },
+ "techniqueRules": [
+  {
+   "id": "T1",
+   "group": "Numbers",
+   "rule": "Convert units before you substitute.",
+   "detail": "Grams to kilograms was the single most common cause of lost marks on the specific heat capacity question. Centimetres to metres costs the moment question every year. Convert first, then calculate.",
+   "itemId": "technique/T1"
+  },
+  {
+   "id": "T2",
+   "group": "Numbers",
+   "rule": "Use standard form for very large and very small numbers.",
+   "detail": "The examiner wrote: “Very few used standard form — please use it.” Writing 0.000000004 A invites a counting error and reads badly.",
+   "itemId": "technique/T2"
+  },
+  {
+   "id": "T3",
+   "group": "Numbers",
+   "rule": "Watch the powers of ten.",
+   "detail": "Flagged repeatedly across all three papers. A power-of-ten slip costs one mark even when the method is perfect (the mark schemes label it “−1 for POT error”).",
+   "itemId": "technique/T3"
+  },
+  {
+   "id": "T4",
+   "group": "Numbers",
+   "rule": "Give the answer to the significant figures requested.",
+   "detail": "2 significant figures is not 2 decimal places. In 2025 a significant number of students wrote 8.45 where 8.5 was required, and lost the mark.",
+   "itemId": "technique/T4"
+  },
+  {
+   "id": "T5",
+   "group": "Numbers",
+   "rule": "If it says “state the formula”, write the formula.",
+   "detail": "A free mark, asked almost every year, and skipped by students who jump straight to the numbers.",
+   "itemId": "technique/T5"
+  },
+  {
+   "id": "T6",
+   "group": "Numbers",
+   "rule": "Show every step of the working.",
+   "detail": "Marks are awarded for correct substitution and rearrangement even when the final answer is wrong. A bare wrong answer with no working scores zero.",
+   "itemId": "technique/T6"
+  },
+  {
+   "id": "T7",
+   "group": "Words",
+   "rule": "Say weight or gravitational force — never “gravity”.",
+   "detail": "“BOD given on ‘force of gravity’ but weight or gravitational force should really be used. Just saying gravity is not accepted as per the MS.”",
+   "itemId": "technique/T7"
+  },
+  {
+   "id": "T8",
+   "group": "Words",
+   "rule": "Say air resistance or drag — never “wind resistance”.",
+   "detail": "Underlined in the 2025 examiner report: “Wind resistance not accepted.”",
+   "itemId": "technique/T8"
+  },
+  {
+   "id": "T9",
+   "group": "Words",
+   "rule": "Liquid particles slide, flow or move past each other.",
+   "detail": "“Move” on its own scores nothing for motion. The examiners needed something implying contact between particles.",
+   "itemId": "technique/T9"
+  },
+  {
+   "id": "T10",
+   "group": "Words",
+   "rule": "Name the gold-leaf electroscope.",
+   "detail": "It is named in the specification, so it is expected by name. Marks were deducted from anyone who could not name it.",
+   "itemId": "technique/T10"
+  },
+  {
+   "id": "T11",
+   "group": "Words",
+   "rule": "Efficiency is useful energy OUTPUT ÷ total energy INPUT.",
+   "detail": "“Useful energy / total energy” without the words output and input was explicitly refused.",
+   "itemId": "technique/T11"
+  },
+  {
+   "id": "T12",
+   "group": "Words",
+   "rule": "Half-life is the time for the activity of the SAMPLE to halve.",
+   "detail": "Or for the number of nuclei to halve. “The time for a nucleus to halve” scores zero.",
+   "itemId": "technique/T12"
+  },
+  {
+   "id": "T13",
+   "group": "Words",
+   "rule": "Background radiation is present in the absence of any source.",
+   "detail": "Do not use the word “background” inside the definition, and do not claim it comes only from natural sources — both were penalised. Name a source: radon, rocks, cosmic rays, food, medical equipment.",
+   "itemId": "technique/T13"
+  },
+  {
+   "id": "T14",
+   "group": "Words",
+   "rule": "Temperature is directly proportional to kinetic energy — it is not kinetic energy.",
+   "detail": "In kelvin. Saying “temperature is kinetic energy” loses the mark.",
+   "itemId": "technique/T14"
+  },
+  {
+   "id": "T15",
+   "group": "Words",
+   "rule": "Say “the resultant force is zero”, not “the forces are equal”.",
+   "detail": "One of the specific phrases on the department's refused list, along with “it stops accelerating” for “it travels at constant velocity”.",
+   "itemId": "technique/T15"
+  },
+  {
+   "id": "T16",
+   "group": "Words",
+   "rule": "Elastic behaviour: returns to its original shape AFTER THE FORCE IS REMOVED.",
+   "detail": "“Must state or imply that the return to original shape is after the band has been unloaded, not just after it has been stretched.”",
+   "itemId": "technique/T16"
+  },
+  {
+   "id": "T17",
+   "group": "Answering the question asked",
+   "rule": "If it says “in terms of forces”, answer with forces only.",
+   "detail": "“A number of answers focussed either partly or exclusively on energy which was ignored. The danger with introducing energy concepts here is that they become muddled with forces. Unbalanced forces cause accelerations, NOT GPE/KE.”",
+   "itemId": "technique/T17"
+  },
+  {
+   "id": "T18",
+   "group": "Answering the question asked",
+   "rule": "If it says “use data from the graph”, quote numbers.",
+   "detail": "Describing the shape of the graph scored zero on the 2025 radioactivity question. Students got either 0 or 4 marks on it — the difference was whether they quoted values.",
+   "itemId": "technique/T18"
+  },
+  {
+   "id": "T19",
+   "group": "Answering the question asked",
+   "rule": "A “comment” or “compare” question needs an explicit comparison sentence.",
+   "detail": "On the circuits question, correct calculations without a sentence comparing the two values did not get full marks. Calculations alone cap the score.",
+   "itemId": "technique/T19"
+  },
+  {
+   "id": "T20",
+   "group": "Answering the question asked",
+   "rule": "An “improve the method” question wants an action, not a criticism.",
+   "detail": "“Use rods of the same length” scores; “the rods weren't the same length” does not.",
+   "itemId": "technique/T20"
+  },
+  {
+   "id": "T21",
+   "group": "Answering the question asked",
+   "rule": "“Repeat the experiment” and “take more readings” are too vague.",
+   "detail": "Say what is repeated and what is done with the repeats: “repeat each measurement three times and calculate a mean”.",
+   "itemId": "technique/T21"
+  },
+  {
+   "id": "T22",
+   "group": "Answering the question asked",
+   "rule": "Validity and reliability are different questions.",
+   "detail": "Validity = a fair test, controlling variables. Reliability = repeats and consistency. They are asked separately; do not answer one with the other.",
+   "itemId": "technique/T22"
+  },
+  {
+   "id": "T23",
+   "group": "Answering the question asked",
+   "rule": "Read the assumptions in the box — they change the answer.",
+   "detail": "The 2025 rubber-band question said “assume it does not reach terminal velocity”, which made the standard terminal-velocity script wrong.",
+   "itemId": "technique/T23"
+  },
+  {
+   "id": "T24",
+   "group": "Diagrams and graphs",
+   "rule": "Plot with a large, clearly visible X.",
+   "detail": "“Common error was using dots for plots that were so small I couldn't actually see all of them. Papers will get scanned — I would worry that some would get missed.”",
+   "itemId": "technique/T24"
+  },
+  {
+   "id": "T25",
+   "group": "Diagrams and graphs",
+   "rule": "Label both axes with quantity AND unit.",
+   "detail": "e.g. “Force in N”, not “Force”. Missing units is a standard lost mark.",
+   "itemId": "technique/T25"
+  },
+  {
+   "id": "T26",
+   "group": "Diagrams and graphs",
+   "rule": "Choose a scale that fills at least half the grid and makes every point plottable.",
+   "detail": "Awkward scales cost marks every year. The examiners reject scales in multiples of 30, 45, 60 or 80 across 10 small squares.",
+   "itemId": "technique/T26"
+  },
+  {
+   "id": "T27",
+   "group": "Diagrams and graphs",
+   "rule": "Include (0,0) when the data starts there.",
+   "detail": "Omitting the origin was specifically flagged on the 2023 filament-lamp graph.",
+   "itemId": "technique/T27"
+  },
+  {
+   "id": "T28",
+   "group": "Diagrams and graphs",
+   "rule": "Close every gap in a circuit diagram and use the correct symbol.",
+   "detail": "Students dropped marks for not connecting wires and for drawing a thermistor when a variable resistor was required.",
+   "itemId": "technique/T28"
+  },
+  {
+   "id": "T29",
+   "group": "Diagrams and graphs",
+   "rule": "Sankey diagrams: join the arrows up, include the input arrow, get the widths to scale.",
+   "detail": "Marked strictly. Wasted energy must be labelled thermal or heat — “transferred to surroundings” was not accepted. Many used the same width for input and wasted energy.",
+   "itemId": "technique/T29"
+  }
+ ],
+ "diagramChecklists": [
+  {
+   "id": "D-circuit",
+   "title": "Circuit diagram",
+   "note": "Appears in every past paper, usually worth 4 marks. Draw it, then check yourself against this list.",
+   "items": [
+    "Every component drawn with the correct standard symbol",
+    "Variable resistor is a rectangle with a diagonal arrow — not a thermistor's bent line",
+    "The circuit is a complete closed loop with no gaps",
+    "Every wire actually joins the components (no floating ends)",
+    "Ammeter in SERIES with the component whose current you are measuring",
+    "Voltmeter in PARALLEL across that component only",
+    "Cell or battery drawn with the long line positive",
+    "Drawn with a ruler, large enough to read"
+   ]
+  },
+  {
+   "id": "D-sankey",
+   "title": "Sankey diagram",
+   "note": "Marked strictly. Three separate marks: arrows joined, labels, scale.",
+   "items": [
+    "One input arrow on the left, labelled with the input store and value",
+    "Arrows physically joined — no floating output arrows",
+    "Useful output labelled with the store (e.g. kinetic)",
+    "Wasted output labelled thermal or heat — not “lost” or “to the surroundings”",
+    "Output widths sum to approximately the input width",
+    "Widths roughly to scale — if 140 J is wasted and 25 J is useful, the wasted arrow is far wider",
+    "Drawn on graph paper or with a ruler so widths are measurable"
+   ]
+  },
+  {
+   "id": "D-graph",
+   "title": "Plotting a graph",
+   "note": "Worth 3–4 marks whenever it appears, and entirely procedural.",
+   "items": [
+    "Independent variable on the x-axis, dependent on the y-axis",
+    "Both axes labelled with quantity and unit",
+    "Scale is linear, uses at least half the grid, and every point is plottable",
+    "(0,0) included if the data starts there",
+    "All points plotted as clear crosses, accurate to within half a small square",
+    "Line or curve of best fit — smooth, not dot-to-dot",
+    "Anomalies identified and excluded from the line of best fit",
+    "If asked to read a value, show the construction lines on the graph"
+   ]
+  },
+  {
+   "id": "D-forces",
+   "title": "Force diagram",
+   "note": "Every arrow must start on the object and be labelled with a force name.",
+   "items": [
+    "Arrows drawn from the object, pointing in the direction the force acts",
+    "Arrow lengths reflect relative sizes (longer = bigger force)",
+    "Labelled weight — never “gravity”",
+    "Labelled air resistance or drag — never “wind resistance”",
+    "No invented forces (there is no “force of motion” pushing a moving object along)",
+    "If the object is in equilibrium, opposing arrows are drawn the same length"
+   ]
+  }
+ ]
+}

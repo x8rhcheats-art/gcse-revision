@@ -1,0 +1,844 @@
+{
+  "comment": "Exam predictions for physics, derived ONLY from the three school papers 2023-2025, the topic tests, their mark schemes and the examiner reports. Each item now carries mustKnow (the exact content, in the wording the mark scheme wants) and practice (questions with mark-scheme answers) so the page is revisable on its own.",
+  "basis": "The school's 2023, 2024 and 2025 end-of-year papers, the Y10 topic tests, their mark schemes and the department's examiner reports.",
+  "caveat": "It reads the pattern of three papers and the department’s own reports. Use it to order your revision, never to skip a topic. The resit paper can ask anything on the specification.",
+  "paperShape": {
+    "questions": "8–10 questions",
+    "marks": "79–90 marks (2023: 79 · 2024: 86 · 2025: 90 — trending upwards)",
+    "time": "1 hour 30",
+    "given": "An equation sheet on the reverse of the front page. Seventeen equations are NOT on it — those must be memorised.",
+    "notes": [
+      "One minute per mark. A 13-mark question is 13 minutes, not 25.",
+      "Every paper carries at least one full practical/data question and at least one graph to plot or read.",
+      "Turn every page — in 2025 several students missed a 15-mark question at the back."
+    ]
+  },
+  "bands": [
+    {
+      "id": "nailed-on",
+      "title": "Nailed on",
+      "note": "In all three papers. These are where the marks live — learn the wording, not just the topic.",
+      "items": [
+        {
+          "claim": "Static electricity — the four sentences the department marks hardest",
+          "why": "Every paper, and the bluntest examiner report in the pack.",
+          "evidence": "2023 Q1 (5), 2024 Q3 (12), 2025 Q2 (8)",
+          "marks": "5–12",
+          "moduleIds": [
+            "05-static-electricity"
+          ],
+          "mustKnow": [
+            {
+              "gist": "RUB THING = ELECTRON JUMP ACROSS. THING THAT TAKE = MINUS. THING THAT LOSE = PLUS. PROTON NEVER MOVE.",
+              "exact": "Charging by friction: friction transfers ELECTRONS from one material to the other. The one that GAINS electrons becomes negative; the one that LOSES them is left positive. Protons never move."
+            },
+            {
+              "gist": "BOTH THING END WITH SAME SIZE CHARGE. ONE PLUS, ONE MINUS.",
+              "exact": "The two objects always end up with EQUAL AND OPPOSITE charges, because charge is conserved."
+            },
+            {
+              "gist": "EARTH = SAY WHERE ELECTRON GO. \"ELECTRON FLOW TO EARTH.\" NOT JUST \"IT SAFE\".",
+              "exact": "Earthing: you must say WHERE the electrons go — \"electrons flow to earth (through a conductor) so charge cannot build up\". Saying \"it is earthed so it is safe\" scores zero: it repeats the question."
+            },
+            {
+              "gist": "CHARGED STICK PULL PLAIN THING. NEAR SIDE GO OPPOSITE. ALWAYS PULL, EITHER WAY.",
+              "exact": "A charged rod attracts an UNCHARGED object because it INDUCES an opposite charge on the near side. The object stays uncharged overall, and is attracted whichever sign the rod is."
+            },
+            {
+              "gist": "PLASTIC = CHARGE STUCK WHERE PUT. METAL IN HAND = CHARGE RUN AWAY.",
+              "exact": "Conductor vs insulator: on an insulator charge stays where it was put; on an earthed or handheld metal it flows away instantly, so no charge builds up."
+            },
+            {
+              "gist": "DETECTOR NAME = GOLD-LEAF ELECTROSCOPE. LEAF RISE BECAUSE SAME CHARGE PUSH APART.",
+              "exact": "The detector is the GOLD-LEAF ELECTROSCOPE — learn the name, it is in the spec and a mark was deducted for not knowing it. The leaf rises because leaf and stem carry the SAME charge and like charges repel."
+            },
+            {
+              "gist": "NEVER SAY MAGNET. MAGNET WORD = ALL MARK DEAD.",
+              "exact": "Never write magnet, magnetic or magnetised in this topic — 2025: \"any mention of magnets or electromagnetic force automatically lost all marks\"."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A student rubs a balloon on a jumper. The balloon becomes negatively charged. Explain how, and state the charge on the jumper.",
+              "marks": 3,
+              "a": "Friction transfers electrons <span class=\"mp\">1</span>; electrons move FROM the jumper TO the balloon, so the balloon gains electrons <span class=\"mp\">1</span>; the jumper is left positive, equal and opposite, because charge is conserved <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain why connecting an earthing wire to an aircraft makes refuelling safe.",
+              "marks": 3,
+              "a": "The wire is a conductor providing a path to earth <span class=\"mp\">1</span>; electrons flow to earth <span class=\"mp\">1</span>; so charge cannot build up to the point where a spark jumps and ignites the fuel vapour <span class=\"mp\">1</span>. \"It is earthed so it is safe\" scores 0."
+            },
+            {
+              "q": "A charged rod is brought near a thin stream of uncharged water. Explain why the stream bends towards the rod.",
+              "marks": 3,
+              "a": "The rod repels/attracts the electrons in the water, so charge is INDUCED — the near side gains the opposite charge <span class=\"mp\">1</span>; the water stays uncharged overall <span class=\"mp\">1</span>; the near side is closer so the attraction beats the repulsion and the stream bends towards the rod <span class=\"mp\">1</span>. Never say the water is charged or repelled."
+            }
+          ]
+        },
+        {
+          "claim": "The practical/data question: variables, validity, best-fit line",
+          "why": "56 marks across three papers — the second-biggest topic on the paper, and mostly wording rather than physics.",
+          "evidence": "2023 Q7 (13), 2024 Q2/Q6, 2025 Q8 (10)",
+          "marks": "10–13",
+          "moduleIds": [
+            "07-practical-and-data-skills"
+          ],
+          "mustKnow": [
+            {
+              "gist": "YOU CHANGE = INDEPENDENT. YOU MEASURE = DEPENDENT. YOU KEEP SAME = CONTROL. NAME THEM. \"FAIR TEST\" = NOTHING.",
+              "exact": "INDEPENDENT variable = the one you change. DEPENDENT = the one you measure. CONTROL = the ones you keep the same. Name the actual variables — \"make it a fair test\" scores nothing."
+            },
+            {
+              "gist": "NOT \"DO AGAIN\". SAY: DO THREE TIME, TAKE MEAN.",
+              "exact": "Instead of \"repeat the experiment\": repeat each measurement three times and calculate a MEAN."
+            },
+            {
+              "gist": "NOT \"BE MORE ACCURATE\". NAME BETTER TOOL AND WHY. MICROMETER READ 0.01 MM.",
+              "exact": "Instead of \"be more accurate\": name a finer instrument and why — e.g. a micrometer instead of a ruler, because it reads to 0.01 mm."
+            },
+            {
+              "gist": "NOT \"MORE READING\". SAY: MORE VALUES, WIDER RANGE.",
+              "exact": "Instead of \"take more readings\": take readings at more values of the independent variable, across a wider range."
+            },
+            {
+              "gist": "PRECISE = CLOSE TOGETHER. ACCURATE = CLOSE TO TRUTH. TIGHT BUT WRONG = ZERO ERROR.",
+              "exact": "PRECISE = readings close together. ACCURATE = close to the true value. Tight but wrong = a systematic error (e.g. a zero error)."
+            },
+            {
+              "gist": "WEIRD POINT: NAME IT, KEEP IN TABLE, LEAVE OUT OF MEAN, IGNORE FOR LINE.",
+              "exact": "Anomalies: identify it, leave it in the table, EXCLUDE it from the mean and ignore it when drawing the line."
+            },
+            {
+              "gist": "GRAPH: YOU-CHANGE ON BOTTOM. LABEL AXIS + UNIT. ONE SMOOTH LINE, NOT FUZZY.",
+              "exact": "Graphs: independent on the x-axis, both axes labelled with quantity AND unit, plots to the nearest gridline, ONE smooth best-fit line (not sketchy or feathery), through the origin only if the data says so."
+            },
+            {
+              "gist": "LEAVE YOUR LINES ON GRAPH. LINES = MARKS.",
+              "exact": "Always leave your construction lines on the graph when you read a value — they carry marks of their own."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A student investigates how the extension of a spring depends on the force applied. State the independent, dependent and one control variable.",
+              "marks": 3,
+              "a": "Independent: the force/weight added <span class=\"mp\">1</span>. Dependent: the extension of the spring <span class=\"mp\">1</span>. Control: the same spring / same starting length / same temperature <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A student's five readings are 4.2, 4.4, 4.3, 7.9 and 4.3 cm. Explain what they should do with these results.",
+              "marks": 2,
+              "a": "Identify 7.9 as an anomaly <span class=\"mp\">1</span>; exclude it from the mean, so the mean is (4.2+4.4+4.3+4.3)/4 = 4.3 cm <span class=\"mp\">1</span>. Leave it in the table but ignore it when drawing the line."
+            },
+            {
+              "q": "Suggest two ways the student could improve the accuracy of their measurements of a wire's diameter.",
+              "marks": 2,
+              "a": "Use a micrometer rather than a ruler, because it reads to a finer resolution (0.01 mm) <span class=\"mp\">1</span>; measure at several points along the wire and take a mean <span class=\"mp\">1</span>. \"Be more careful\" and \"be more accurate\" score nothing."
+            }
+          ]
+        },
+        {
+          "claim": "Particles, gases and thermal — the biggest topic on the paper",
+          "why": "65 marks across three papers, more than forces. Mostly particle explanations plus two calculations.",
+          "evidence": "2023 Q5/Q8, 2025 Q3/Q6/Q7, topic test Q2–Q5",
+          "marks": "6–13",
+          "moduleIds": [
+            "02-solids-liquids-gases"
+          ],
+          "mustKnow": [
+            {
+              "gist": "SOLID = NEAT, WOBBLE IN PLACE. LIQUID = CLOSE, MESSY, SLIDE. GAS = FAR, FAST, ALL DIRECTION.",
+              "exact": "Particle arrangement — SOLID: regularly packed, vibrating about fixed positions. LIQUID: close together, irregular, sliding past each other. GAS: far apart, random, fast, in all directions."
+            },
+            {
+              "gist": "MELT = ENERGY IN, BOND BREAK, NEAT GO MESSY. TEMPERATURE STAY SAME — ENERGY BREAK BOND, NOT HEAT UP.",
+              "exact": "Melting: energy in, bonds between particles WEAKEN or break, particles go from regular to irregular and from vibrating to sliding. Temperature stays CONSTANT during a change of state because the energy goes into breaking bonds, not raising temperature."
+            },
+            {
+              "gist": "GAS PRESSURE = PARTICLE HIT WALL. HIT = FORCE. FORCE PER AREA = PRESSURE. SAME ON ALL WALL.",
+              "exact": "Gas pressure is caused by particles COLLIDING WITH THE WALLS; each collision exerts a force, and force per unit area is pressure. It acts equally on all walls because the particles move randomly in all directions."
+            },
+            {
+              "gist": "HOT GAS, SAME BOX: PARTICLE FASTER, HIT WALL MORE OFTEN AND HARDER. PRESSURE UP.",
+              "exact": "Heating a gas at constant volume: particles gain kinetic energy → collide with the walls MORE FREQUENTLY and with MORE FORCE → pressure rises."
+            },
+            {
+              "gist": "GAS LAW = USE KELVIN. K = °C + 273. COLDEST EVER = −273 °C.",
+              "exact": "ALWAYS convert to kelvin for gas laws: K = °C + 273. Absolute zero is −273 °C, found by extrapolating a pressure–temperature graph BACK to zero pressure."
+            },
+            {
+              "gist": "p₁V₁ = p₂V₂ (SAME TEMP). p₁/T₁ = p₂/T₂ (SAME BOX, KELVIN ONLY).",
+              "exact": "p₁V₁ = p₂V₂ (Boyle, constant temperature) · p₁/T₁ = p₂/T₂ (pressure law, constant volume, kelvin only)."
+            },
+            {
+              "gist": "ρ = m ÷ V (MASS, NOT WEIGHT). p = F ÷ A. LIQUID p = hρg — DEEP MATTER, SHAPE NOT.",
+              "exact": "Density ρ = m ÷ V — uses MASS not weight. Pressure p = F ÷ A. Pressure in a liquid p = h × ρ × g, which depends on DEPTH only, not on the shape or width of the container."
+            },
+            {
+              "gist": "E = mcΔθ. MEASURE IT: V AND I GIVE POWER, TIME IT, E = VIt, WEIGH IT, c = E ÷ (mΔθ).",
+              "exact": "Specific heat capacity: E = m × c × Δθ. To measure it: use an ammeter and voltmeter to find power, measure the temperature rise AND the time, find E = VIt, measure the mass on a balance, then c = E ÷ (mΔθ)."
+            }
+          ],
+          "practice": [
+            {
+              "q": "Explain, in terms of particles, why the pressure of a gas in a sealed rigid container increases when it is heated.",
+              "marks": 3,
+              "a": "The particles gain kinetic energy / move faster <span class=\"mp\">1</span>; they collide with the walls more frequently <span class=\"mp\">1</span>; and collide with more force, so the average force (and therefore pressure) increases <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A gas at 8.2 kPa and 1200 K is cooled to 1600 K at constant volume. Calculate the new pressure.",
+              "marks": 3,
+              "a": "Use p₁/T₁ = p₂/T₂ <span class=\"mp\">1</span>; 8.2/1200 = p₂/1600 <span class=\"mp\">1</span>; p₂ = 11 kPa <span class=\"mp\">1</span>. Temperatures must be in kelvin."
+            },
+            {
+              "q": "A substance is heated at constant power. Explain why its temperature stays constant while it melts.",
+              "marks": 2,
+              "a": "The energy supplied is used to weaken/break the bonds between particles <span class=\"mp\">1</span>; rather than to increase the kinetic energy of the particles, so the temperature does not rise <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Calculate the energy needed to raise 1.2 kg of a substance (c = 840 J/kg°C) from 10 °C to 37 °C.",
+              "marks": 3,
+              "a": "Δθ = 37 − 10 = 27 °C <span class=\"mp\">1</span>; E = mcΔθ = 1.2 × 840 × 27 <span class=\"mp\">1</span>; = 27 000 J <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "A circuits question: V = IR plus a component investigation",
+          "why": "Every paper — a filament lamp, thermistor, LDR or diode, plus meter placement and current at a junction.",
+          "evidence": "2023 Q4 (9), 2024 Q4 (12), 2025 Q5 (12), topic test Q5–Q7",
+          "marks": "9–12",
+          "moduleIds": [
+            "03-electrical-circuits"
+          ],
+          "mustKnow": [
+            {
+              "gist": "AMMETER IN LINE. VOLTMETER ACROSS. SWAP THEM = LOSE MARK EVERY TIME.",
+              "exact": "AMMETER in series (the current flows through it). VOLTMETER in parallel, across the component. Getting these the wrong way round is a guaranteed lost mark."
+            },
+            {
+              "gist": "SERIES: SAME CURRENT, VOLTAGE SPLIT, R ADD UP. PARALLEL: SAME VOLTAGE, CURRENT SPLIT, R SMALLER THAN SMALLEST.",
+              "exact": "SERIES: current is the same everywhere, voltage splits between components, resistances add (R = R₁ + R₂). PARALLEL: voltage is the same across each branch, current splits, total resistance is LESS than the smallest branch."
+            },
+            {
+              "gist": "CURRENT IN = CURRENT OUT AT JUNCTION.",
+              "exact": "Current is CONSERVED at a junction — what goes in equals what comes out (16 + 19 = 35 mA)."
+            },
+            {
+              "gist": "V = IR · Q = It (SECONDS) · P = IV · E = IVt. TURN mA INTO A FIRST.",
+              "exact": "V = IR · Q = It (time in SECONDS) · P = IV · E = IVt. Convert mA to A before substituting: the topic test capped answers at 2 marks for not doing it."
+            },
+            {
+              "gist": "LAMP: HOTTER WIRE = MORE RESISTANCE. ELECTRON BUMP LATTICE MORE.",
+              "exact": "FILAMENT LAMP: as voltage rises the current rises less steeply — resistance INCREASES because the filament's temperature increases, so there are more interactions between electrons and the lattice."
+            },
+            {
+              "gist": "THERMISTOR: HOT = LESS RESISTANCE. LDR: BRIGHT = LESS RESISTANCE.",
+              "exact": "THERMISTOR: resistance DECREASES as temperature increases (non-linear). LDR: resistance decreases as light increases."
+            },
+            {
+              "gist": "TEST CIRCUIT: CELL + AMMETER IN LINE + VOLTMETER ACROSS + WAY TO CHANGE VOLTAGE. WORTH 4 MARK ALONE.",
+              "exact": "To investigate a component: cell + ammeter in series + voltmeter in parallel + a variable power supply or rheostat to vary the voltage. That circuit is worth 4 marks on its own."
+            },
+            {
+              "gist": "TAKE PART OUT AND LEAVE GAP: RESISTANCE UP, CURRENT DOWN.",
+              "exact": "If a component is removed leaving a break, total resistance increases (or there are fewer paths), so the current decreases."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A thermistor has 0.59 V across it and a current of 0.0062 A. State the formula linking voltage, current and resistance, then calculate its resistance.",
+              "marks": 4,
+              "a": "voltage = current × resistance <span class=\"mp\">1</span>; substitution 0.59 = 0.0062 × R <span class=\"mp\">1</span>; rearrangement R = 0.59/0.0062 <span class=\"mp\">1</span>; R = 95 Ω <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain how the reading on a voltmeter across a thermistor changes when the room gets colder.",
+              "marks": 3,
+              "a": "The voltmeter reading increases <span class=\"mp\">1</span>; because the resistance OF THE THERMISTOR increases as temperature falls <span class=\"mp\">1</span>; so it takes a greater share of the supply voltage / the current in the circuit decreases <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain why the resistance of a filament lamp increases as the voltage across it increases.",
+              "marks": 2,
+              "a": "Resistance increases as voltage increases <span class=\"mp\">1</span>; because the temperature of the filament increases, so there are more interactions/collisions between the electrons and the lattice ions <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Two resistors are in series across a 12 V supply with a current of 0.016 A. One is 250 Ω. Calculate the other.",
+              "marks": 3,
+              "a": "Total resistance = V/I = 12/0.016 = 750 Ω <span class=\"mp\">1</span>; resistances in series add <span class=\"mp\">1</span>; R = 750 − 250 = 500 Ω <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Radioactivity: decay equations, half-life, background",
+          "why": "In all three papers, and the topic test adds fission/fusion detail.",
+          "evidence": "2023 Q2 (6), 2024 Q5 (10), 2025 Q9 (11), topic test Q1–Q6",
+          "marks": "6–11",
+          "moduleIds": [
+            "06-radioactivity"
+          ],
+          "mustKnow": [
+            {
+              "gist": "ALPHA = HELIUM NUCLEUS, 2 PROTON 2 NEUTRON. BETA = FAST ELECTRON FROM NUCLEUS. GAMMA = WAVE, NO MASS NO CHARGE.",
+              "exact": "ALPHA = a helium NUCLEUS, 2 protons + 2 neutrons. BETA = a fast electron from the nucleus (a neutron becomes a proton). GAMMA = an electromagnetic wave, no mass or charge."
+            },
+            {
+              "gist": "ALPHA STOP BY PAPER. BETA BY ALUMINIUM. GAMMA NEED THICK LEAD. MOST IONISING = ALPHA. BIG IONISE ALWAYS = SMALL PENETRATE.",
+              "exact": "Penetration: alpha stopped by paper/few cm of air; beta by a few mm of aluminium; gamma only reduced by thick lead or concrete. Most ionising = alpha (and least penetrating — the two always go together)."
+            },
+            {
+              "gist": "ALPHA: MASS −4, ATOMIC −2. BETA: MASS SAME, ATOMIC +1. GAMMA: NOTHING CHANGE.",
+              "exact": "Decay changes: ALPHA mass −4, atomic −2. BETA mass unchanged, atomic +1. GAMMA both unchanged. Example: ²³⁵₉₂U → ²³¹₉₀Th + ⁴₂α."
+            },
+            {
+              "gist": "HALF-LIFE = TIME FOR HALF THE LEFTOVER TO DECAY. ALWAYS SAME. HEAT NOT CHANGE IT.",
+              "exact": "HALF-LIFE = the time for half the remaining undecayed nuclei to decay (or for the activity to halve). Constant for an isotope; unaffected by temperature or chemistry."
+            },
+            {
+              "gist": "ON GRAPH: HALVE THE START, READ ACROSS THEN DOWN. SHOW LINES. THREE HALF-LIFE = ÷2 THREE TIME.",
+              "exact": "Read half-life off a graph by halving the starting activity and reading across, then down — and SHOW those lines. Three half-lives means ÷2 three times: 800 → 400 → 200 → 100."
+            },
+            {
+              "gist": "BACKGROUND = RADON FROM ROCK, SPACE RAY, FOOD, BRICK. TAKE BACKGROUND AWAY FIRST.",
+              "exact": "BACKGROUND radiation comes mostly from natural sources — radon from rocks, cosmic rays, food, building materials. Always SUBTRACT background from a count rate before analysing."
+            },
+            {
+              "gist": "ISOTOPE = SAME PROTON, DIFFERENT NEUTRON. ACTIVITY IN BECQUEREL.",
+              "exact": "ISOTOPES: same number of protons, different number of neutrons. Activity is measured in becquerels (Bq)."
+            },
+            {
+              "gist": "FISSION = BIG ONE SPLIT. FUSION = TWO SMALL JOIN. FUSION NEED BIG HEAT AND PRESSURE, NUCLEUS PUSH APART.",
+              "exact": "FISSION is the SPLITTING of a large nucleus; FUSION is the JOINING of two small nuclei. Fusion needs very high temperature and pressure because nuclei repel and need enough energy to get close enough."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A source has an activity of 8000 Bq and a half-life of 5.6 years. Calculate its activity after 16.8 years.",
+              "marks": 2,
+              "a": "16.8 ÷ 5.6 = 3 half-lives <span class=\"mp\">1</span>; 8000 → 4000 → 2000 → 1000 Bq <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Complete: ²³⁵₉₂U → ²³¹...Th + ...₂α",
+              "marks": 2,
+              "a": "Bottom number on Th = 90 <span class=\"mp\">1</span>; top number on α = 4 <span class=\"mp\">1</span>. Alpha decay: mass −4, atomic −2."
+            },
+            {
+              "q": "State two differences between alpha and beta radiation.",
+              "marks": 2,
+              "a": "Any two: alpha is a helium nucleus / beta is an electron <span class=\"mp\">1</span>; alpha is more ionising than beta <span class=\"mp\">1</span>; alpha is less penetrating (stopped by paper) than beta (stopped by aluminium) <span class=\"mp\">1</span>; alpha has more mass / moves more slowly <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain the difference between nuclear fission and nuclear fusion.",
+              "marks": 2,
+              "a": "Fission is the SPLITTING of a large nucleus into smaller nuclei <span class=\"mp\">1</span>; fusion is the JOINING of two small nuclei to form a larger nucleus <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Waves: v = fλ with a unit conversion built in",
+          "why": "Every paper, and the conversion is deliberate — the reports call these POT (power-of-ten) errors.",
+          "evidence": "2023 Q3 (14), 2024 Q2, 2025 Q1/Q4",
+          "marks": "4–14",
+          "moduleIds": [
+            "04-waves-and-em-spectrum"
+          ],
+          "mustKnow": [
+            {
+              "gist": "v = fλ. CHANGE UNIT FIRST. 40 kHz MEAN 40 000 Hz.",
+              "exact": "v = f × λ. Convert first: 1 kHz = 1000 Hz, 1 MHz = 1 000 000 Hz. A 40 kHz question means 40 000 Hz."
+            },
+            {
+              "gist": "TRANSVERSE = WOBBLE SIDEWAYS (LIGHT). LONGITUDINAL = WOBBLE ALONG (SOUND).",
+              "exact": "TRANSVERSE: vibrations perpendicular to the direction of travel (light, water, all EM waves). LONGITUDINAL: vibrations parallel to travel (sound)."
+            },
+            {
+              "gist": "LONG TO SHORT: RADIO, MICRO, INFRARED, VISIBLE, UV, X-RAY, GAMMA. LONG WAVE = LOW FREQUENCY.",
+              "exact": "EM spectrum in order, longest wavelength to shortest: RADIO, MICROWAVE, INFRARED, VISIBLE, ULTRAVIOLET, X-RAY, GAMMA. Longest wavelength = lowest frequency."
+            },
+            {
+              "gist": "USE: RADIO TALK · MICRO COOK+PHONE · INFRARED REMOTE+HEAT PICTURE · VISIBLE SEE+FIBRE · UV MARK+SUNBED · X-RAY BONE · GAMMA KILL GERM+CANCER.",
+              "exact": "Uses: radio — broadcasting; microwave — cooking and mobile/satellite signals; infrared — remote controls, thermal imaging, grills; visible — sight, optical fibres; UV — security marking, sun beds; X-ray — bone imaging; gamma — sterilising, treating cancer."
+            },
+            {
+              "gist": "HARM: MICRO COOK INSIDE · INFRARED BURN SKIN · UV SKIN CANCER+EYE · X-RAY AND GAMMA IONISE, MAKE CANCER.",
+              "exact": "Dangers: microwaves heat internal tissue; infrared burns skin; UV damages surface cells and causes skin cancer and eye damage; X-rays and gamma are ionising and can mutate cells causing cancer."
+            },
+            {
+              "gist": "ECHO GO THERE AND BACK. DISTANCE TO THING = HALF. FORGET HALF = LOSE MARK.",
+              "exact": "Echo/sonar questions: the pulse travels there AND BACK, so the distance to the object is HALF the total. Forgetting to halve is the standard error."
+            },
+            {
+              "gist": "REFLECT: ANGLE IN = ANGLE OUT. MEASURE FROM NORMAL, NEVER FROM SURFACE.",
+              "exact": "Reflection: angle of incidence = angle of reflection, both measured from the NORMAL (the perpendicular), never from the surface."
+            },
+            {
+              "gist": "GO INTO THICK STUFF: SLOW, BEND TOWARD NORMAL. COME OUT: FAST, BEND AWAY. FREQUENCY NEVER CHANGE.",
+              "exact": "Refraction: entering a denser medium (air → glass) the wave SLOWS and bends TOWARDS the normal; leaving it speeds up and bends away. The frequency never changes."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A sound wave has a frequency of 40 kHz and travels at 1500 m/s in water. Calculate its wavelength.",
+              "marks": 3,
+              "a": "Convert: 40 kHz = 40 000 Hz <span class=\"mp\">1</span>; λ = v/f = 1500/40 000 <span class=\"mp\">1</span>; = 0.0375 m (3.75 cm) <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A sonar pulse returns after 0.4 s. Sound travels at 1500 m/s in water. Calculate the depth of the seabed.",
+              "marks": 3,
+              "a": "Total distance = 1500 × 0.4 = 600 m <span class=\"mp\">1</span>; the pulse travels there and back <span class=\"mp\">1</span>; depth = 600 ÷ 2 = 300 m <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "State one use and one danger of ultraviolet radiation.",
+              "marks": 2,
+              "a": "Use: security marking / sun beds / detecting forged notes / sterilising water <span class=\"mp\">1</span>. Danger: damages surface cells, causing skin cancer and eye damage <span class=\"mp\">1</span>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "very-likely",
+      "title": "Very likely",
+      "note": "Twice in three years, or flagged hard by the reports.",
+      "items": [
+        {
+          "claim": "Hooke's law and a spring investigation",
+          "why": "Two of three papers, and 2025's biggest question (15 marks) was built on it.",
+          "evidence": "2024 Q7 (10), 2025 Q10 (15)",
+          "marks": "10–15",
+          "moduleIds": [
+            "01-forces-and-motion",
+            "08-energy"
+          ],
+          "mustKnow": [
+            {
+              "gist": "PULL TWICE HARD = STRETCH TWICE FAR. STRAIGHT LINE THROUGH ZERO.",
+              "exact": "Hooke's law: extension is DIRECTLY PROPORTIONAL to the force applied — a straight line through the ORIGIN on a force–extension graph."
+            },
+            {
+              "gist": "EXTENSION = NEW LENGTH − OLD LENGTH. NOT THE WHOLE LENGTH.",
+              "exact": "EXTENSION = stretched length − original length. Never plot the total length."
+            },
+            {
+              "gist": "LINE STOP AT LIMIT OF PROPORTIONALITY. AFTER THAT: CURVE, SPRING MAY STAY BENT.",
+              "exact": "The straight line stops at the LIMIT OF PROPORTIONALITY; beyond it the graph curves and the spring may not return to its original length (it deforms inelastically)."
+            },
+            {
+              "gist": "ELASTIC = GO BACK TO OLD SHAPE WHEN YOU LET GO.",
+              "exact": "ELASTIC behaviour = the object returns to its original shape when the force is removed."
+            },
+            {
+              "gist": "F = kx. k = SPRING CONSTANT IN N/m = GRADIENT OF GRAPH.",
+              "exact": "F = k × x, where k is the spring constant in N/m — the gradient of the force–extension graph."
+            },
+            {
+              "gist": "ENERGY IN STRETCHED SPRING = AREA UNDER FORCE–EXTENSION GRAPH.",
+              "exact": "Energy stored in a stretched spring comes from the work done stretching it, and is the AREA under the force–extension graph."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A spring extends 4.0 cm when a force of 2.0 N is applied. Calculate the spring constant in N/m.",
+              "marks": 3,
+              "a": "Convert: 4.0 cm = 0.040 m <span class=\"mp\">1</span>; k = F/x = 2.0/0.040 <span class=\"mp\">1</span>; k = 50 N/m <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain what is meant by the limit of proportionality on a force–extension graph.",
+              "marks": 2,
+              "a": "The point beyond which extension is no longer directly proportional to force <span class=\"mp\">1</span>; the graph stops being a straight line and begins to curve <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Moments and the principle of moments",
+          "why": "Two years running.",
+          "evidence": "2024 Q7, 2025 Q3",
+          "marks": "4–7",
+          "moduleIds": [
+            "01-forces-and-motion"
+          ],
+          "mustKnow": [
+            {
+              "gist": "MOMENT = FORCE × PERPENDICULAR DISTANCE FROM PIVOT. UNIT N m. NOT DISTANCE MOVED — THAT WORK.",
+              "exact": "Moment = force × PERPENDICULAR distance from the pivot, in newton metres (N m). Not 'distance moved' — that is work."
+            },
+            {
+              "gist": "BALANCED: CLOCKWISE MOMENT = ANTICLOCKWISE MOMENT.",
+              "exact": "PRINCIPLE OF MOMENTS: for a balanced object, total clockwise moments = total anticlockwise moments."
+            },
+            {
+              "gist": "F₁d₁ = F₂d₂ ACROSS PIVOT. THAT THE SEE-SAW SUM.",
+              "exact": "So F₁ × d₁ = F₂ × d₂ across the pivot — the standard see-saw calculation."
+            },
+            {
+              "gist": "TURN DISTANCE INTO METRE FIRST. CHECK WHICH SIDE EACH FORCE ON.",
+              "exact": "Convert distances to metres before calculating, and check which forces act on which side of the pivot."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A 3.0 N weight sits 0.40 m to the left of a pivot. A second weight sits 0.24 m to the right and the beam balances. Calculate that weight.",
+              "marks": 3,
+              "a": "Principle of moments: clockwise = anticlockwise <span class=\"mp\">1</span>; 3.0 × 0.40 = F × 0.24 <span class=\"mp\">1</span>; F = 1.2/0.24 = 5.0 N <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Efficiency and energy transfers",
+          "why": "Energy is in all three papers, usually as efficiency or conservation. The wording is marked exactly.",
+          "evidence": "2023 Q6 (13), 2024 Q1 (5), 2025 Q10",
+          "marks": "5–13",
+          "moduleIds": [
+            "08-energy"
+          ],
+          "mustKnow": [
+            {
+              "gist": "EFFICIENCY = USEFUL OUT ÷ TOTAL IN × 100. DROP \"USEFUL\" OR \"TOTAL\" = LOSE MARK. NEVER OVER 100%.",
+              "exact": "efficiency = (USEFUL energy output ÷ TOTAL energy input) × 100. Dropping either 'useful' or 'total' loses the mark. Efficiency can never exceed 100%."
+            },
+            {
+              "gist": "ENERGY NEVER MADE, NEVER GONE. ONLY MOVE. \"LOST\" MEAN WENT TO HEAT.",
+              "exact": "Energy is CONSERVED — never created or destroyed, only transferred between stores. 'Energy is lost' means transferred to a less useful store, usually heating the surroundings."
+            },
+            {
+              "gist": "STORES: KINETIC, GRAVITY, ELASTIC, THERMAL, CHEMICAL, NUCLEAR, ELECTROSTATIC, MAGNETIC.",
+              "exact": "The energy stores: kinetic, gravitational potential, elastic potential, thermal, chemical, nuclear, electrostatic, magnetic."
+            },
+            {
+              "gist": "GPE = mgh (h = HEIGHT CHANGE). KE = ½mv². SPEED IS SQUARED — TWICE SPEED = FOUR TIME ENERGY.",
+              "exact": "GPE = m × g × h (h is the CHANGE IN HEIGHT). KE = ½ × m × v² — the speed is SQUARED, so doubling speed quadruples the energy."
+            },
+            {
+              "gist": "W = Fd, DISTANCE ALONG THE FORCE. P = E ÷ t, IN WATT (1 W = 1 J/s).",
+              "exact": "Work done W = F × d, distance moved IN THE DIRECTION OF THE FORCE. Power P = E ÷ t, in watts (1 W = 1 J/s)."
+            },
+            {
+              "gist": "SANKEY: ARROW WIDTH = ENERGY. WIDTH GOING OUT MUST ADD UP TO WIDTH GOING IN.",
+              "exact": "Sankey diagram: arrow WIDTH is proportional to energy, and the widths out must total the width in."
+            },
+            {
+              "gist": "QUESTION SAY \"IN TERMS OF FORCES\" = TALK FORCE (WEIGHT, AIR RESISTANCE, RESULTANT). NOT ENERGY.",
+              "exact": "A falling object question asked 'in terms of forces' must be answered with forces (weight, air resistance, resultant) — NOT energy. 2025 penalised energy answers here."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A motor is supplied with 500 J and does 150 J of useful work. Calculate its efficiency.",
+              "marks": 2,
+              "a": "efficiency = (useful output ÷ total input) × 100 <span class=\"mp\">1</span>; = (150/500) × 100 = 30% <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A 2.0 kg ball is dropped from 5.0 m (g = 10 N/kg). Calculate its speed just before it lands, assuming no air resistance.",
+              "marks": 3,
+              "a": "GPE = mgh = 2.0 × 10 × 5.0 = 100 J <span class=\"mp\">1</span>; all GPE becomes KE, so ½mv² = 100, giving v² = 2 × 100 ÷ 2.0 = 100 <span class=\"mp\">1</span>; v = <strong>10 m/s</strong> <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain, in terms of forces, why a falling object reaches terminal velocity.",
+              "marks": 3,
+              "a": "At first weight is greater than air resistance, so there is a resultant downward force and it accelerates <span class=\"mp\">1</span>; as speed increases, air resistance increases <span class=\"mp\">1</span>; when air resistance equals weight the resultant force is zero, so it travels at constant (terminal) velocity <span class=\"mp\">1</span>. Do not mention energy."
+            }
+          ]
+        },
+        {
+          "claim": "Specific heat capacity or an E = IVt calculation",
+          "why": "An electrical-heating experiment turned into a calculation — 2024 as SHC, 2025 as E = IVt.",
+          "evidence": "2024 Q6 (11), 2025 Q7 (9)",
+          "marks": "9–11",
+          "moduleIds": [
+            "08-energy",
+            "02-solids-liquids-gases"
+          ],
+          "mustKnow": [
+            {
+              "gist": "E = mcΔθ. JOULE, kg, J/kg°C, AND Δθ = TEMP CHANGE (END − START).",
+              "exact": "E = m × c × Δθ — energy in joules, mass in kg, c in J/kg°C, Δθ the TEMPERATURE CHANGE (final − initial)."
+            },
+            {
+              "gist": "ELECTRIC ENERGY IN: E = IVt. TIME IN SECONDS.",
+              "exact": "Electrical energy supplied: E = I × V × t, with time in SECONDS."
+            },
+            {
+              "gist": "WHOLE EXPERIMENT: V AND I GIVE POWER, TIME THE HEATING, E = IVt, WEIGH IT, c = E ÷ (mΔθ).",
+              "exact": "Combining them is the whole experiment: measure V and I to get power, time the heating, find E = IVt, weigh the substance, then c = E ÷ (mΔθ)."
+            },
+            {
+              "gist": "WHY c COME OUT TOO BIG: HEAT ESCAPE TO ROOM, SO YOU COUNT MORE ENERGY THAN WENT IN. WRAP THE BLOCK.",
+              "exact": "Why the measured c comes out too HIGH: energy is lost to the surroundings, so more energy is recorded than actually went into the substance. Insulate the block to reduce it."
+            },
+            {
+              "gist": "Δθ IS A DIFFERENCE — SAME NUMBER IN °C OR K. BUT GAS LAW STILL NEED KELVIN.",
+              "exact": "Δθ is a DIFFERENCE, so it is the same number in °C or K — but absolute temperatures in gas laws must be in kelvin."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A 50 W heater warms 0.50 kg of aluminium (c = 900 J/kg°C) for 3.0 minutes. Calculate the temperature rise.",
+              "marks": 4,
+              "a": "t = 3.0 × 60 = 180 s <span class=\"mp\">1</span>; E = Pt = 50 × 180 = 9000 J <span class=\"mp\">1</span>; rearrange Δθ = E/(mc) = 9000/(0.50 × 900) <span class=\"mp\">1</span>; Δθ = 20 °C <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Suggest why the value of specific heat capacity found in this experiment is higher than the true value.",
+              "marks": 2,
+              "a": "Some energy is transferred to the surroundings rather than to the block <span class=\"mp\">1</span>; so the energy recorded is greater than the energy that actually raised the block's temperature, making c appear larger <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Q = It with an answer in standard form",
+          "why": "The 2024 electroscope question, and the report's complaint about power-of-ten errors.",
+          "evidence": "2024 Q3",
+          "marks": "3–4",
+          "moduleIds": [
+            "05-static-electricity",
+            "03-electrical-circuits"
+          ],
+          "mustKnow": [
+            {
+              "gist": "Q = It. COULOMB, AMP, SECONDS. MINUTE MUST BE CHANGED.",
+              "exact": "Q = I × t — charge in coulombs, current in amps, time in SECONDS. Minutes must be converted."
+            },
+            {
+              "gist": "FLIP IT: I = Q ÷ t, AND t = Q ÷ I.",
+              "exact": "Rearranged: I = Q ÷ t and t = Q ÷ I."
+            },
+            {
+              "gist": "TINY ANSWER STAY IN STANDARD FORM. 6.0 × 10⁻⁸ ÷ 15 = 4.0 × 10⁻⁹ A.",
+              "exact": "Small answers stay in standard form: 6.0 × 10⁻⁸ ÷ 15 = 4.0 × 10⁻⁹ A. The 2025 report begged for standard form and flagged 'far too many POT errors'."
+            },
+            {
+              "gist": "PREFIX: mA = ×10⁻³, µA = ×10⁻⁶, nC = ×10⁻⁹.",
+              "exact": "Watch the prefixes: mA = ×10⁻³, µA = ×10⁻⁶, nC = ×10⁻⁹."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A charge of 6.0 × 10⁻⁸ C is transferred in 15 s. Calculate the current. Give your answer in standard form.",
+              "marks": 3,
+              "a": "State Q = It or I = Q/t <span class=\"mp\">1</span>; I = 6.0 × 10⁻⁸ ÷ 15 <span class=\"mp\">1</span>; I = 4.0 × 10⁻⁹ A <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A current of 250 mA flows for 2.0 minutes. Calculate the charge transferred.",
+              "marks": 3,
+              "a": "Convert: 250 mA = 0.25 A and 2.0 min = 120 s <span class=\"mp\">1</span>; Q = It = 0.25 × 120 <span class=\"mp\">1</span>; Q = 30 C <span class=\"mp\">1</span>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "due",
+      "title": "Due a return",
+      "note": "On the specification but thin or missing in the last three papers — worth an hour each.",
+      "items": [
+        {
+          "claim": "Distance–time and velocity–time graph interpretation",
+          "why": "The motion GRAPHS have been light, though the equations appear. Cheap marks if asked.",
+          "evidence": "2024 Q8 used the equations; the graphs themselves have been rare",
+          "marks": "4–8",
+          "moduleIds": [
+            "01-forces-and-motion"
+          ],
+          "mustKnow": [
+            {
+              "gist": "DISTANCE–TIME: GRADIENT = SPEED. FLAT = STOPPED. STEEP = FAST. CURVE = SPEED CHANGING.",
+              "exact": "DISTANCE–TIME graph: the GRADIENT is the SPEED. Flat line = stationary. Steeper = faster. A curve means the speed is changing."
+            },
+            {
+              "gist": "VELOCITY–TIME: GRADIENT = ACCELERATION. AREA UNDER LINE = DISTANCE.",
+              "exact": "VELOCITY–TIME graph: the GRADIENT is the ACCELERATION, and the AREA UNDER the line is the DISTANCE travelled."
+            },
+            {
+              "gist": "TRIANGLE AREA = ½ × BASE × HEIGHT. THAT HOW YOU GET BRAKING DISTANCE.",
+              "exact": "Area of a triangle = ½ × base × height — that is how a braking distance is found from a v–t graph."
+            },
+            {
+              "gist": "GRADIENT GOING DOWN = SLOWING. DO NOT GIVE A PLUS ANSWER.",
+              "exact": "A negative gradient on a v–t graph is deceleration; the mark scheme rejects a positive answer when the object is slowing."
+            },
+            {
+              "gist": "v = u + at · v² = u² + 2as · a = (v − u) ÷ t. a USE CHANGE IN VELOCITY. NOT a = v/t.",
+              "exact": "The suvat equations: v = u + at · v² = u² + 2as · a = (v − u) ÷ t. Note a = CHANGE in velocity ÷ time — the topic test explicitly rejects a = v/t."
+            },
+            {
+              "gist": "STOPPING = THINKING + BRAKING. THINKING GO WITH SPEED. BRAKING GO WITH SPEED SQUARED — GROW MUCH FASTER.",
+              "exact": "Stopping distance = THINKING distance + BRAKING distance. Thinking distance is directly proportional to speed; braking distance is proportional to speed SQUARED, so it grows much faster."
+            },
+            {
+              "gist": "TIRED, DRINK, DISTRACTED = THINKING DISTANCE ONLY. BRAKING NOT CHANGE.",
+              "exact": "Tiredness, alcohol and distraction increase THINKING distance only — they have no effect on braking distance."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A car decelerates from 30 m/s to rest in 6.2 s. Calculate the acceleration, and the distance travelled while braking.",
+              "marks": 5,
+              "a": "a = change in velocity ÷ time = (−)30/6.2 <span class=\"mp\">1</span>; = (−)4.8 m/s² <span class=\"mp\">1</span>. Distance = area under the v–t line <span class=\"mp\">1</span>; = ½ × 30 × 6.2 <span class=\"mp\">1</span>; = 93 m <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "Explain the effect of tiredness on thinking distance and on braking distance.",
+              "marks": 4,
+              "a": "Thinking distance increases <span class=\"mp\">1</span>; because reaction time increases <span class=\"mp\">1</span>. Braking distance is unaffected <span class=\"mp\">1</span>; because it does not depend on human factors — only on speed, brakes, tyres and road conditions <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "State what the gradient of a distance–time graph represents, and what the area under a velocity–time graph represents.",
+              "marks": 2,
+              "a": "Gradient of a distance–time graph = speed <span class=\"mp\">1</span>; area under a velocity–time graph = distance travelled <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Refraction and reflection with a ray diagram",
+          "why": "The waves questions have leaned on v = fλ rather than ray optics. A diagram-labelling question is overdue.",
+          "evidence": "not directly examined 2023–2025",
+          "marks": "3–6",
+          "moduleIds": [
+            "04-waves-and-em-spectrum"
+          ],
+          "mustKnow": [
+            {
+              "gist": "NORMAL = LINE AT 90° TO SURFACE WHERE RAY HIT. ALL ANGLE FROM NORMAL. THAT IS THE MARK.",
+              "exact": "The NORMAL is the line drawn at 90° to the surface at the point where the ray hits. ALL angles are measured from the normal, never from the surface — that is the labelling mark."
+            },
+            {
+              "gist": "REFLECT: ANGLE IN = ANGLE OUT.",
+              "exact": "Law of reflection: angle of incidence = angle of reflection."
+            },
+            {
+              "gist": "INTO THICK STUFF (AIR → GLASS): SLOW DOWN, BEND TOWARD NORMAL.",
+              "exact": "Refraction into a DENSER medium (air → glass or water): the wave slows down and bends TOWARDS the normal."
+            },
+            {
+              "gist": "INTO THIN STUFF (GLASS → AIR): SPEED UP, BEND AWAY FROM NORMAL.",
+              "exact": "Refraction into a LESS dense medium (glass → air): the wave speeds up and bends AWAY from the normal."
+            },
+            {
+              "gist": "FREQUENCY NEVER CHANGE. SPEED AND WAVELENGTH CHANGE TOGETHER.",
+              "exact": "The frequency NEVER changes on refraction — the speed and the wavelength change together."
+            },
+            {
+              "gist": "LABEL: NORMAL DASHED, RAY IN WITH ARROW, ANGLE i, AND RAY OUT WITH ITS ANGLE.",
+              "exact": "Label a ray diagram with: the normal (dashed), the incident ray with an arrow, the angle of incidence i, and the refracted or reflected ray with its angle."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A ray of light passes from air into a glass block. Describe what happens to its speed and direction, and explain why the frequency is unchanged.",
+              "marks": 3,
+              "a": "It slows down <span class=\"mp\">1</span>; it bends towards the normal <span class=\"mp\">1</span>; the frequency is set by the source and does not change — the wavelength changes with the speed so that v = fλ still holds <span class=\"mp\">1</span>."
+            },
+            {
+              "q": "A ray hits a mirror at 30° to the mirror surface. State the angle of reflection.",
+              "marks": 2,
+              "a": "The angle of incidence is measured from the NORMAL, so it is 90 − 30 = 60° <span class=\"mp\">1</span>; angle of reflection = 60° <span class=\"mp\">1</span>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "The marks thrown away regardless of topic",
+      "note": "The department's own list. Worth 5–10 marks a paper on their figures.",
+      "items": [
+        {
+          "claim": "If it says \"state the formula\", write the formula",
+          "why": "A free mark asked almost every year, skipped by people who dive into the arithmetic.",
+          "evidence": "every paper",
+          "marks": "1–2 a paper",
+          "moduleIds": [
+            "07-practical-and-data-skills"
+          ],
+          "mustKnow": [
+            {
+              "gist": "WRITE EQUATION BEFORE PUTTING NUMBER IN. THAT IS ITS OWN MARK.",
+              "exact": "Write the equation in words or symbols BEFORE substituting — it is a separate mark from the answer."
+            },
+            {
+              "gist": "ANY REARRANGE FINE. V = IR, R = V/I, I = V/R ALL SCORE.",
+              "exact": "Standard symbols and rearrangements are accepted (V = IR, R = V/I, I = V/R all score)."
+            },
+            {
+              "gist": "17 EQUATION NOT ON SHEET. LEARN THEM. LIST ON EXAM REFERENCE PAGE.",
+              "exact": "The 17 equations NOT on the formula sheet must be memorised — check the Exam reference page for the list."
+            },
+            {
+              "gist": "CANNOT FINISH SUM? STILL WRITE FORMULA AND NUMBERS. BANK THE MARK.",
+              "exact": "Even if you cannot finish the calculation, writing the formula and the substitution banks marks."
+            }
+          ],
+          "practice": [
+            {
+              "q": "Why does writing 'voltage = current × resistance' before calculating earn a mark on its own?",
+              "marks": 1,
+              "a": "Because the mark scheme awards a separate mark for stating the formula, independently of the substitution and the final answer <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Convert units BEFORE substituting, and check the unit demanded",
+          "why": "POT (power-of-ten) errors are the biggest single arithmetic loss across all three reports.",
+          "evidence": "flagged in every report",
+          "marks": "2–4 a paper",
+          "moduleIds": [
+            "07-practical-and-data-skills"
+          ],
+          "mustKnow": [
+            {
+              "gist": "kHz→Hz ×1000 · MHz→Hz ×10⁶ · min→s ×60 · hour→s ×3600 · g→kg ÷1000 · cm→m ÷100 · mA→A ÷1000 · cm³→m³ ÷10⁶.",
+              "exact": "kHz → Hz (×1000) · MHz → Hz (×10⁶) · minutes → seconds (×60) · hours → seconds (×3600) · g → kg (÷1000) · cm → m (÷100) · mA → A (÷1000) · cm³ → m³ (÷10⁶)."
+            },
+            {
+              "gist": "READ THE ANSWER LINE FIRST. IT TELL YOU THE UNIT, SOMETIME THE SIG FIG.",
+              "exact": "Read the ANSWER LINE before you calculate — it names the unit you must give, and sometimes the number of significant figures."
+            },
+            {
+              "gist": "BIG AND TINY NUMBER STAY IN STANDARD FORM. 4.8 × 10⁶, NOT 4 800 000.",
+              "exact": "Large and small numbers stay in standard form: 4.8 × 10⁶, not 4 800 000."
+            },
+            {
+              "gist": "MARK OFTEN JUST FOR THE UNIT. WRITE cm³/min, NOT cm³/m.",
+              "exact": "A mark is often awarded purely for the correct unit — and cm³/m (metres) instead of cm³/min has cost marks in this department."
+            }
+          ],
+          "practice": [
+            {
+              "q": "A student writes 'rate = 3 cm/m'. Give two things wrong with this unit.",
+              "marks": 2,
+              "a": "It should be cm³ (a volume), not cm <span class=\"mp\">1</span>; 'm' means metres — minutes is 'min' <span class=\"mp\">1</span>."
+            }
+          ]
+        },
+        {
+          "claim": "Show every step — substitution and rearrangement earn marks",
+          "why": "A wrong final answer with correct working still scores; a wrong answer alone scores zero.",
+          "evidence": "standard on all mark schemes",
+          "marks": "2–5 a paper",
+          "moduleIds": [
+            "07-practical-and-data-skills"
+          ],
+          "mustKnow": [
+            {
+              "gist": "MARK SCHEME = SUBSTITUTION 1, REARRANGE 1, ANSWER 1. THREE SEPARATE MARK.",
+              "exact": "The standard calculation mark scheme is: substitution [1], rearrangement [1], evaluation [1]. Three separate marks."
+            },
+            {
+              "gist": "ECF: EARLY MISTAKE COST ONE MARK ONLY — BUT ONLY IF WORKING IS ON THE PAGE.",
+              "exact": "ECF (error carried forward) means a mistake early on costs ONE mark, not the whole question — but only if your working is on the page."
+            },
+            {
+              "gist": "RIGHT ANSWER NO WORKING = USUALLY FULL MARK. WRONG ANSWER NO WORKING = ZERO.",
+              "exact": "A correct answer with no working usually scores full marks; a wrong answer with no working scores nothing."
+            },
+            {
+              "gist": "ROUND AT THE END ONLY, TO THE SIG FIG THE QUESTION ASK FOR.",
+              "exact": "Round only at the END, and to the number of significant figures the question asks for."
+            }
+          ],
+          "practice": [
+            {
+              "q": "You substitute correctly but make an arithmetic slip in the final step of a 3-mark calculation. How many marks can you still score?",
+              "marks": 1,
+              "a": "2 of 3 — the substitution and rearrangement marks stand, and ECF applies to later parts, provided the working is shown <span class=\"mp\">1</span>."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
