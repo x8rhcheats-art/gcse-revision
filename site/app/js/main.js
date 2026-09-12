@@ -29,7 +29,7 @@ import { renderLanding } from './views/landing.js';
 import { renderPredict } from './views/predict.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v32';
+const APP_VERSION = 'v33';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -170,7 +170,10 @@ function buildNav(activePath) {
     link('#/eq-drill', ['Equation drill']),
     link('#/mix-drill', ['Mixed practice']),
     link('#/practice', ['Build a session']),
-    link('#/mcq', ['Multiple choice'], { prefix: '/mcq' }),
+    // a subject whose multiple-choice bank has not been written yet would send
+    // this link to "not found", so it only appears once there are questions
+    ...(Object.values(content.mcq || {}).some(qs => qs.length)
+      ? [link('#/mcq', ['Multiple choice'], { prefix: '/mcq' })] : []),
     link('#/search', ['Search']),
     el('div', { class: 'navgroup' }, 'Modules'),
     link('#/priority', ['Priority Module']),

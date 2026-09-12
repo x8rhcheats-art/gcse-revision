@@ -150,9 +150,37 @@ function buildIndexes() {
       });
     }
 
-    // The teaching section is prose only — taggable and searchable, but it
-    // holds no equations or definitions of its own; those stay on the sheet so
-    // they are defined in exactly one place.
+    // An equation must be indexed exactly once, however the module is laid out.
+    // Physics and chemistry keep theirs in the cheat sheet; biology keeps them
+    // inline in the teaching prose, where they read better. Indexing both and
+    // de-duplicating on the equation name enforces the one-definition rule
+    // directly, rather than by convention about which section they sit in.
+    const seenEquations = new Set();
+    const addEquation = (eq, parentItemId) => {
+      if (seenEquations.has(eq.name)) return;
+      seenEquations.add(eq.name);
+      addItem(eq.itemId, parentItemId, { kind: 'equation', label: eq.name, moduleId: mod.id });
+      // no-name equation boxes (formula-sheet items, the EM spectrum order) would
+      // make front===back cards — taggable and searchable, but not flashcards
+      if (eq.name !== eq.formula) {
+        const fix = CARD_FIXES[eq.itemId] || {};
+        const note = eq.symbolKey;
+        index.cards.push({
+          cardId: eq.itemId, moduleId: mod.id, type: 'equation',
+          prompt: CARD_PROMPTS.equation,
+          front: fix.front || eqCardFront(eq.name),
+          // structured too, so consumers never have to unpick the HTML
+          formula: fix.back || eq.formula,
+          symbolKey: note || null,
+          backHtml: `<span class="eqtext">${fix.back || eq.formula}</span>` +
+            (note ? `<div class="card-note">${note}</div>` : ''),
+          meta: eq.mustMemorise ? 'must memorise' : (eq.onFormulaSheet ? 'on the formula sheet' : ''),
+        });
+      }
+      index.searchDocs.push({ itemId: eq.itemId, moduleId: mod.id, kind: 'equation', label: eq.name, text: (eq.name + ' ' + eq.formula).toLowerCase() });
+    };
+
+    // Definitions stay on the cheat sheet, where the marked wording belongs.
     for (const sub of (mod.sections.teach ? mod.sections.teach.subsections : [])) {
       const label = sub.heading || 'Introduction';
       addItem(sub.itemId, `${mod.id}/section/teach`, { kind: 'teaching', label, moduleId: mod.id });
@@ -160,6 +188,7 @@ function buildIndexes() {
         itemId: sub.itemId, moduleId: mod.id, kind: 'how it works', label,
         text: (label + ' ' + stripTags(sub.html)).toLowerCase(),
       });
+      for (const eq of sub.equations) addEquation(eq, sub.itemId);
     }
 
     for (const sub of mod.sections.sheet.subsections) {
@@ -167,27 +196,7 @@ function buildIndexes() {
       addItem(sub.itemId, `${mod.id}/section/sheet`, { kind: 'sheet section', label, moduleId: mod.id });
       index.searchDocs.push({ itemId: sub.itemId, moduleId: mod.id, kind: 'cheat sheet', label, text: (label + ' ' + stripTags(sub.html)).toLowerCase() });
 
-      for (const eq of sub.equations) {
-        addItem(eq.itemId, sub.itemId, { kind: 'equation', label: eq.name, moduleId: mod.id });
-        // no-name equation boxes (formula-sheet items, the EM spectrum order) would
-        // make front===back cards — taggable and searchable, but not flashcards
-        if (eq.name !== eq.formula) {
-          const fix = CARD_FIXES[eq.itemId] || {};
-          const note = eq.symbolKey;
-          index.cards.push({
-            cardId: eq.itemId, moduleId: mod.id, type: 'equation',
-            prompt: CARD_PROMPTS.equation,
-            front: fix.front || eqCardFront(eq.name),
-            // structured too, so consumers never have to unpick the HTML
-            formula: fix.back || eq.formula,
-            symbolKey: note || null,
-            backHtml: `<span class="eqtext">${fix.back || eq.formula}</span>` +
-              (note ? `<div class="card-note">${note}</div>` : ''),
-            meta: eq.mustMemorise ? 'must memorise' : (eq.onFormulaSheet ? 'on the formula sheet' : ''),
-          });
-        }
-        index.searchDocs.push({ itemId: eq.itemId, moduleId: mod.id, kind: 'equation', label: eq.name, text: (eq.name + ' ' + eq.formula).toLowerCase() });
-      }
+      for (const eq of sub.equations) addEquation(eq, sub.itemId);
       for (const def of sub.definitions) {
         addItem(def.itemId, sub.itemId, { kind: 'definition', label: def.term, moduleId: mod.id });
         index.cards.push({

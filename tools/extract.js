@@ -303,8 +303,10 @@ function extractModule(file) {
 
   const $sheet = $('section#sheet');
   sections.sheet = { subsections: extractSheet($, $sheet, moduleId) };
-  // intel html captured AFTER sheet so annotations don't matter there; intel has none
-  sections.intel.html = sectionHtml($, $intel);
+  // intel html captured AFTER sheet so annotations don't matter there; intel has none.
+  // A subject with no past papers yet has nothing to put in this section, so a
+  // module without one is expected rather than fatal — the view omits it.
+  sections.intel.html = $intel.length ? sectionHtml($, $intel) : null;
 
   sections.understanding = { questions: [] };
   $('section#understand .q').each((_, q) => {
@@ -320,11 +322,14 @@ function extractModule(file) {
   const $dIntro = $('section#drill > p').first();
   sections.drill.intro = $dIntro.length ? $dIntro.html().trim() : null;
 
+  // Typed items are pulled from the teaching section as well as the cheat sheet,
+  // so count both — a module that keeps its equations inline in the teaching
+  // prose was previously reported as having none.
+  const allSubs = [...(sections.teach ? sections.teach.subsections : []), ...sections.sheet.subsections];
+  const total = key => allSubs.reduce((a, s) => a + s[key].length, 0);
   note(`${moduleId}: ${sections.teach ? sections.teach.subsections.length : 0} teach subsections, ` +
     `${sections.sheet.subsections.length} sheet subsections, ` +
-    `${sections.sheet.subsections.reduce((a, s) => a + s.equations.length, 0)} eq, ` +
-    `${sections.sheet.subsections.reduce((a, s) => a + s.definitions.length, 0)} def, ` +
-    `${sections.sheet.subsections.reduce((a, s) => a + s.traps.length, 0)} trap, ` +
+    `${total('equations')} eq, ${total('definitions')} def, ${total('traps')} trap, ` +
     `${sections.understanding.questions.length} understanding, ${sections.drill.questions.length} drill`);
 
   return {

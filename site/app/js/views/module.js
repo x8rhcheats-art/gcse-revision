@@ -35,15 +35,19 @@ export function renderModule(params, query) {
 
   // jump nav + red filter
   const filterBtn = el('button', { class: 'act secondary', onclick: () => toggleRed() }, 'Show red only');
-  // Section numbering shifts when a module has a teaching section, so it is
-  // derived rather than hard-coded — otherwise the module page and the printed
-  // sheet disagree about which section is which.
   const teach = mod.sections.teach;
-  const num = (n) => String(teach ? n + 1 : n).padStart(2, '0');
+  // Two sections are optional: "what comes up" needs past papers to read, and
+  // the teaching section is written module by module. Number the sections in
+  // the order they are actually built rather than from fixed positions —
+  // otherwise a subject without papers shows an empty 01, and the module page
+  // and the printed sheet disagree about which section is which.
+  const hasIntel = !!(mod.sections.intel && mod.sections.intel.html);
+  let secNo = 0;
+  const num = () => String(++secNo).padStart(2, '0');
 
   const jump = el('nav', { class: 'jump' },
     el('a', { href: '#/home' }, '← All modules'),
-    el('a', { href: '#intel-a' }, 'What comes up'),
+    hasIntel ? el('a', { href: '#intel-a' }, 'What comes up') : null,
     teach ? el('a', { href: '#teach-a' }, 'How it works') : null,
     el('a', { href: '#sheet-a' }, 'Cheat sheet'),
     el('a', { href: '#understand-a' }, 'Understanding it'),
@@ -65,25 +69,26 @@ export function renderModule(params, query) {
     return sec;
   };
 
-  // 01 — intel
-  const intel = el('section', { id: 'intel-a' }, sectionHeading(mod, 'intel', '01'),
-    el('div', { html: mod.sections.intel.html }));
-  root.append(intel);
+  // what comes up — only where there are past papers behind it
+  if (hasIntel) {
+    root.append(el('section', { id: 'intel-a' }, sectionHeading(mod, 'intel', num()),
+      el('div', { html: mod.sections.intel.html })));
+  }
 
-  // 02 — how it works (only where it has been written)
-  if (teach) root.append(proseSection('teach-a', 'teach', '02', teach.subsections));
+  // how it works — only where it has been written
+  if (teach) root.append(proseSection('teach-a', 'teach', num(), teach.subsections));
 
   // cheat sheet
-  root.append(proseSection('sheet-a', 'sheet', num(2), mod.sections.sheet.subsections));
+  root.append(proseSection('sheet-a', 'sheet', num(), mod.sections.sheet.subsections));
 
   // understanding
-  const und = el('section', { id: 'understand-a' }, sectionHeading(mod, 'understand', num(3)));
+  const und = el('section', { id: 'understand-a' }, sectionHeading(mod, 'understand', num()));
   if (mod.sections.understanding.intro) und.append(el('p', { html: mod.sections.understanding.intro }));
   for (const q of mod.sections.understanding.questions) und.append(questionBlock(q, { writing: false }));
   root.append(und);
 
   // drill
-  const drill = el('section', { id: 'drill-a' }, sectionHeading(mod, 'drill', num(4)));
+  const drill = el('section', { id: 'drill-a' }, sectionHeading(mod, 'drill', num()));
   if (mod.sections.drill.intro) drill.append(el('p', { html: mod.sections.drill.intro }));
   for (const q of mod.sections.drill.questions) drill.append(questionBlock(q));
   root.append(drill);

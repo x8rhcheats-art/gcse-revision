@@ -135,15 +135,23 @@ export function renderEqDrill(query = {}) {
   const all = index.cards.filter(c => c.type === 'equation');
   const memoriseCount = all.filter(isMemorise).length;
 
-  const root = view('Equation drill',
-    `Thirty seconds a card. ${memoriseCount} of these ${all.length} equations are NOT on the exam formula sheet — those are the ones that have to be in your head, and they come first.`);
-  root.append(el('p', {},
-    el('a', { class: `act${memoriseOnly ? '' : ' secondary'}`, href: '#/eq-drill?only=memorise' },
-      `Must-memorise only (${memoriseCount})`),
-    ' ',
-    el('a', { class: `act${memoriseOnly ? ' secondary' : ''}`, href: '#/eq-drill' }, `All (${all.length})`),
-    ' ',
-    el('a', { class: 'act secondary', href: '#/reference' }, 'See the formula sheet')));
+  // Only physics hands out a formula sheet. Where a subject has none, every
+  // equation has to be memorised, so the split and the link to the sheet would
+  // both be nonsense — say the plain thing instead.
+  const hasFormulaSheet = memoriseCount > 0;
+
+  const root = view('Equation drill', hasFormulaSheet
+    ? `Thirty seconds a card. ${memoriseCount} of these ${all.length} equations are NOT on the exam formula sheet — those are the ones that have to be in your head, and they come first.`
+    : `Thirty seconds a card. All ${all.length} of these have to be in your head — there is no formula sheet for this subject.`);
+  if (hasFormulaSheet) {
+    root.append(el('p', {},
+      el('a', { class: `act${memoriseOnly ? '' : ' secondary'}`, href: '#/eq-drill?only=memorise' },
+        `Must-memorise only (${memoriseCount})`),
+      ' ',
+      el('a', { class: `act${memoriseOnly ? ' secondary' : ''}`, href: '#/eq-drill' }, `All (${all.length})`),
+      ' ',
+      el('a', { class: 'act secondary', href: '#/reference' }, 'See the formula sheet')));
+  }
 
   const shuffle = (arr) => {
     const a = [...arr];

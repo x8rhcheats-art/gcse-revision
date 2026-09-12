@@ -77,5 +77,10 @@ module.exports = {
     mocksDir: 'site/mocks/biology',
     out: 'site/content/biology',
     mocks: [],
+    // The checklist for the Year 10 end-of-year exam defines modules 01-10;
+    // modules 11-18 are the Year 11 half of the course, which that exam does
+    // not cover. Both live in one subject — see the phase banner on each.
+    specPoints: 'tools/biology/spec-points.json',
+    plannedModules: 18,
   },
 };
