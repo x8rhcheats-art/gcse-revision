@@ -29,7 +29,7 @@ import { renderLanding } from './views/landing.js';
 import { renderPredict } from './views/predict.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v34';
+const APP_VERSION = 'v35';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store

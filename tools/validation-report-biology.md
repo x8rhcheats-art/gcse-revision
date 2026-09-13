@@ -1,9 +1,9 @@
 # Extraction validation report — Biology
 
-Generated 2026-09-12T22:09:16.561Z from 18 modules, 0 mocks, 0 diagnostic.
+Generated 2026-09-13T18:30:15.082Z from 18 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
-- 01-enzymes: 6 teach subsections, 3 sheet subsections, 0 eq, 8 def, 7 trap, 5 understanding, 7 drill
+- 01-enzymes: 12 teach subsections, 4 sheet subsections, 0 eq, 9 def, 8 trap, 8 understanding, 15 drill
 - 02-photosynthesis: 8 teach subsections, 4 sheet subsections, 3 eq, 7 def, 7 trap, 6 understanding, 8 drill
 - 03-respiration: 6 teach subsections, 4 sheet subsections, 4 eq, 7 def, 7 trap, 5 understanding, 7 drill
 - 04-gas-exchange-in-humans: 7 teach subsections, 3 sheet subsections, 0 eq, 6 def, 8 trap, 5 understanding, 8 drill
@@ -22,15 +22,14 @@ Generated 2026-09-12T22:09:16.561Z from 18 modules, 0 mocks, 0 diagnostic.
 - 17-selection-and-evolution: 4 teach subsections, 3 sheet subsections, 0 eq, 5 def, 5 trap, 2 understanding, 4 drill
 - 18-genetic-modification-and-cloning: 5 teach subsections, 3 sheet subsections, 0 eq, 7 def, 5 trap, 2 understanding, 4 drill
 - past papers: 5 papers, 45 questions
-- mcq bank: 0 questions across 0 modules
+- mcq bank: 40 questions across 1 modules
 - spec tick-sheet: 78 points across 3 topics
-- taggable itemIds: 781
+- taggable itemIds: 802
 
 ## Formula symbol keys
 coverage: no equation glossary for this subject
 
-## Warnings (18)
-- 01-enzymes: missing section #intel
+## Warnings (17)
 - 02-photosynthesis: missing section #intel
 - 03-respiration: missing section #intel
 - 04-gas-exchange-in-humans: missing section #intel
