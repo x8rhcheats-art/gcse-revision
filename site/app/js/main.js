@@ -27,9 +27,10 @@ import { renderSearch } from './views/search.js';
 import { renderSync } from './views/sync.js';
 import { renderLanding } from './views/landing.js';
 import { renderPredict } from './views/predict.js';
+import { renderOfficial } from './views/official.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v35';
+const APP_VERSION = 'v36';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -57,6 +58,7 @@ const ROUTES = [
   [/^\/spec$/, (m, q) => renderSpec({}, q)],
   [/^\/final$/, () => renderFinalSheet()],
   [/^\/predict$/, () => renderPredict()],
+  [/^\/official$/, () => renderOfficial()],
   [/^\/search$/, () => renderSearch()],
   [/^\/sync$/, () => renderSync()],
 ];
@@ -197,6 +199,9 @@ function buildNav(activePath) {
       ...(p.group && p.group !== (all[i - 1] || {}).group ? [el('div', { class: 'navgroup' }, p.group)] : []),
       link(`#/mock/${p.id}`, [p.title]),
     ]),
+    // the board's own papers, for Year 11 — links out, only where some exist
+    ...(((subj.officialPapers || {}).papers || []).length
+      ? [el('div', { class: 'navgroup' }, 'Year 11 — real exams'), link('#/official', ['Real Edexcel papers'])] : []),
     el('div', { class: 'navgroup' }, 'Reference'),
     link('#/reference', ['Exam reference']),
     link('#/spec', ['Specification']),

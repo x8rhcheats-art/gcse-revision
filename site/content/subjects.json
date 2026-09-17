@@ -11,6 +11,174 @@
    "completePack": "complete-pack.html",
    "plannedModules": 9,
    "moduleGroups": null,
+   "officialPapers": {
+    "comment": "Real Edexcel International GCSE Physics (4PH1) papers, triple science Paper 1P and 2P. Links only — the PDFs are hosted by Physics & Maths Tutor, not copied into this app. Every link checked to return a PDF.",
+    "source": "Physics & Maths Tutor",
+    "sourceUrl": "https://www.physicsandmathstutor.com/past-papers/gcse-physics/",
+    "codes": [
+     "1P",
+     "2P"
+    ],
+    "checked": "2026-09-13",
+    "papers": [
+     {
+      "series": "June 2024",
+      "year": 2024,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202024%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202024%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2023",
+      "year": 2023,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2023",
+      "year": 2023,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2022",
+      "year": 2022,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202022%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2022",
+      "year": 2022,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202022%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "November 2021",
+      "year": 2021,
+      "month": 11,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/November%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/November%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2021",
+      "year": 2021,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2021",
+      "year": 2021,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2020",
+      "year": 2020,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202020%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2020",
+      "year": 2020,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202020%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2019",
+      "year": 2019,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202019%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202019%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202019%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202019%20MS.pdf"
+      }
+     },
+     {
+      "series": "Specimen 2017",
+      "year": 2017,
+      "month": 0,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/Specimen%202017%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/Specimen%202017%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/Specimen%202017%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/Specimen%202017%20MS.pdf"
+      }
+     }
+    ]
+   },
    "moduleCount": 9,
    "mcqCount": 332,
    "paperCount": 10
@@ -26,6 +194,174 @@
    "completePack": null,
    "plannedModules": 10,
    "moduleGroups": null,
+   "officialPapers": {
+    "comment": "Real Edexcel International GCSE Chemistry (4CH1) papers, triple science Paper 1C and 2C. Links only — the PDFs are hosted by Physics & Maths Tutor, not copied into this app. Every link checked to return a PDF.",
+    "source": "Physics & Maths Tutor",
+    "sourceUrl": "https://www.physicsandmathstutor.com/past-papers/gcse-chemistry/",
+    "codes": [
+     "1C",
+     "2C"
+    ],
+    "checked": "2026-09-13",
+    "papers": [
+     {
+      "series": "June 2024",
+      "year": 2024,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202024%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202024%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2023",
+      "year": 2023,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2023",
+      "year": 2023,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2022",
+      "year": 2022,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202022%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2022",
+      "year": 2022,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202022%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202022%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "November 2021",
+      "year": 2021,
+      "month": 11,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/November%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/November%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2021",
+      "year": 2021,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202021%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202021%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2021",
+      "year": 2021,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202021%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202021%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2020",
+      "year": 2020,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202020%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202020%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2020",
+      "year": 2020,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202020%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202020%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2019",
+      "year": 2019,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202019%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202019%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202019%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202019%20MS.pdf"
+      }
+     },
+     {
+      "series": "Specimen 2017",
+      "year": 2017,
+      "month": 0,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/Specimen%202017%20QP%20.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/Specimen%202017%20MS%20.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/Specimen%202017%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/Specimen%202017%20MS.pdf"
+      }
+     }
+    ]
+   },
    "moduleCount": 10,
    "mcqCount": 515,
    "paperCount": 5
@@ -52,6 +388,187 @@
      "to": 18
     }
    ],
+   "officialPapers": {
+    "comment": "Real Edexcel International GCSE Biology (4BI1) papers, triple science Paper 1B and 2B. Links only — the PDFs are hosted by Physics & Maths Tutor, not copied into this app. Every link checked to return a PDF.",
+    "source": "Physics & Maths Tutor",
+    "sourceUrl": "https://www.physicsandmathstutor.com/past-papers/gcse-biology/",
+    "codes": [
+     "1B",
+     "2B"
+    ],
+    "checked": "2026-09-13",
+    "papers": [
+     {
+      "series": "June 2024",
+      "year": 2024,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202024%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202024%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202024%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2023",
+      "year": 2023,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2023",
+      "year": 2023,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202023%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202023%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202023%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2022",
+      "year": 2022,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202022%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2022",
+      "year": 2022,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202022%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202022%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202022%20MS.pdf"
+      }
+     },
+     {
+      "series": "November 2021",
+      "year": 2021,
+      "month": 11,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/November%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/November%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/November%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2021",
+      "year": 2021,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2021",
+      "year": 2021,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202021%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202021%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202021%20MS.pdf"
+      }
+     },
+     {
+      "series": "November 2020",
+      "year": 2020,
+      "month": 11,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/November%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/November%202020%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/November%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/November%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2020",
+      "year": 2020,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202020%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "January 2020",
+      "year": 2020,
+      "month": 1,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/January%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/January%202020%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/January%202020%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/January%202020%20MS.pdf"
+      }
+     },
+     {
+      "series": "June 2019",
+      "year": 2019,
+      "month": 6,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/June%202019%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/June%202019%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/June%202019%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/June%202019%20MS.pdf"
+      }
+     },
+     {
+      "series": "Specimen 2017",
+      "year": 2017,
+      "month": 0,
+      "paper1": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/QP/Specimen%202017%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-1/MS/Specimen%202017%20MS.pdf"
+      },
+      "paper2": {
+       "qp": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/Specimen%202017%20QP.pdf",
+       "ms": "https://pmt.physicsandmathstutor.com/download/Biology/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/Specimen%202017%20MS.pdf"
+      }
+     }
+    ]
+   },
    "moduleCount": 18,
    "mcqCount": 40,
    "paperCount": 5

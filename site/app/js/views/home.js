@@ -93,7 +93,8 @@ export function renderHome() {
   root.append(mods);
 
   // papers — only what this subject actually has
-  const hasPapers = content.diagnostic || content.mocks.length || content.pastPapers.length;
+  const official = ((subj.officialPapers || {}).papers || []);
+  const hasPapers = content.diagnostic || content.mocks.length || content.pastPapers.length || official.length;
   const papers = el('section', {}, el('h2', {}, el('span', { class: 'num' }, 'Papers'),
     content.diagnostic ? 'Diagnostic and mocks' : 'Mocks and past papers'));
   if (content.diagnostic) {
@@ -127,6 +128,17 @@ export function renderHome() {
       el('span', { class: 'r' }, att
         ? `sat ${shortDate(att.at)} · ${att.totalScore}/${att.totalMarks}`
         : `${paper.totalMarks} marks`)));
+  }
+  // the board's real papers — what Year 11 is building towards
+  if (official.length) {
+    papers.append(el('h3', {}, 'Year 11 — real Edexcel exams'));
+    const years = official.filter(p => p.month).map(p => p.year);
+    papers.append(el('a', { class: 'rowlink', href: '#/official' },
+      el('span', {},
+        el('span', { class: 't' }, 'Real Edexcel papers'),
+        el('br'),
+        el('span', { class: 'd' }, `The board's own International GCSE papers, ${Math.min(...years)}–${Math.max(...years)}, with official mark schemes`)),
+      el('span', { class: 'r' }, `${official.length} series`)));
   }
   if (hasPapers) root.append(papers);
 

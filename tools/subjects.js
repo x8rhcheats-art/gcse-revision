@@ -35,6 +35,7 @@ module.exports = {
     specPoints: 'tools/physics/spec-points.json',
     examReference: 'tools/physics/exam-reference.json',
     predictions: 'tools/physics/predictions.json',
+    officialPapers: 'tools/physics/official-papers.json',
     pastPapers: ['tools/physics/past-papers.json', 'tools/physics/topic-tests.json'],
     pastPaperSchemes: ['tools/physics/past-papers-schemes.json', 'tools/physics/topic-tests-schemes.json'],
     examDate: '2026-09-07',
@@ -61,6 +62,7 @@ module.exports = {
     specPoints: 'tools/chemistry/spec-points.json',
     examReference: 'tools/chemistry/exam-reference.json',
     predictions: 'tools/chemistry/predictions.json',
+    officialPapers: 'tools/chemistry/official-papers.json',
     pastPapers: 'tools/chemistry/past-papers.json',
     pastPaperSchemes: 'tools/chemistry/past-papers-schemes.json',
     mcqBanks: ['tools/chemistry/mcq-bank-1.json', 'tools/chemistry/mcq-bank-2.json', 'tools/chemistry/mcq-bank-3.json', 'tools/chemistry/mcq-bank-4.json', 'tools/chemistry/mcq-bank-5.json'],
@@ -82,6 +84,7 @@ module.exports = {
     // not cover. Both live in one subject — see the phase banner on each.
     specPoints: 'tools/biology/spec-points.json',
     mcqBanks: ['tools/biology/mcq-bank-1.json'],
+    officialPapers: 'tools/biology/official-papers.json',
     pastPapers: 'tools/biology/past-papers.json',
     pastPaperSchemes: 'tools/biology/past-papers-schemes.json',
     plannedModules: 18,

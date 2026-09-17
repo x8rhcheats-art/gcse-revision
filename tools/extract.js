@@ -715,6 +715,10 @@ const registry = Object.values(SUBJECTS).map(cfg => ({
   completePack: cfg.completePack || null,
   plannedModules: cfg.plannedModules || null,
   moduleGroups: cfg.moduleGroups || null,
+  // links to the board's real papers — small, so they ride in the registry
+  officialPapers: cfg.officialPapers
+    ? JSON.parse(fs.readFileSync(path.join(ROOT, cfg.officialPapers), 'utf8'))
+    : null,
   ...stats[cfg.id],
 }));
 fs.writeFileSync(path.join(SITE, 'content', 'subjects.json'),
