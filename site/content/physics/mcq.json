@@ -3999,6 +3999,2416 @@
     "answer": 1,
     "explain": "No particles in a vacuum, so neither conduction nor convection can occur. The silvered surfaces are for radiation — matching each feature to the right transfer mechanism is the exam skill."
    }
+  ],
+  "10-magnetism-and-electromagnetism": [
+   {
+    "id": "M1",
+    "q": "Which of these materials is attracted to a magnet?",
+    "options": [
+     "Nickel",
+     "Copper",
+     "Aluminium",
+     "Zinc"
+    ],
+    "answer": 0,
+    "explain": "Only iron, steel, nickel and cobalt are magnetic materials. Copper, aluminium and zinc are metals but are not magnetic."
+   },
+   {
+    "id": "M2",
+    "q": "Which way do magnetic field lines point outside a bar magnet?",
+    "options": [
+     "From south to north",
+     "Towards both poles",
+     "From north to south",
+     "Away from both poles"
+    ],
+    "answer": 2,
+    "explain": "Field lines show the direction of the force on a north pole, so outside a magnet they go from the north pole to the south pole."
+   },
+   {
+    "id": "M3",
+    "q": "On a field diagram, how is a stronger magnetic field shown?",
+    "options": [
+     "The lines are longer",
+     "The lines are closer together",
+     "The lines are curved",
+     "The lines have more arrows"
+    ],
+    "answer": 1,
+    "explain": "The closer together the field lines, the stronger the field. Lines spreading apart show the field getting weaker."
+   },
+   {
+    "id": "M4",
+    "q": "An unmagnetised iron nail is placed near the south pole of a magnet. What happens?",
+    "options": [
+     "It is repelled, because a south pole is induced in it",
+     "Nothing, because it is not a magnet",
+     "It is attracted, because it becomes positively charged",
+     "It is attracted, because a north pole is induced at the end nearest the magnet"
+    ],
+    "answer": 3,
+    "explain": "Magnetism is induced in the iron. The near end becomes the opposite pole (north), and opposite poles attract. Charge has nothing to do with it."
+   },
+   {
+    "id": "M5",
+    "q": "Why is steel used to make permanent magnets?",
+    "options": [
+     "It is magnetically soft",
+     "It is a good conductor",
+     "It is magnetically hard, so it keeps its magnetism",
+     "It is easily demagnetised"
+    ],
+    "answer": 2,
+    "explain": "Steel is magnetically hard: once magnetised, it keeps its magnetism. Soft iron loses its magnetism easily, which is no good for a permanent magnet."
+   },
+   {
+    "id": "M6",
+    "q": "Which statement describes a magnetically soft material?",
+    "options": [
+     "It is easily magnetised and loses its magnetism easily",
+     "It keeps its magnetism for a long time",
+     "It cannot be magnetised",
+     "It is only attracted to north poles"
+    ],
+    "answer": 0,
+    "explain": "A soft magnetic material, such as iron, is easily magnetised and loses its magnetism when removed from the field."
+   },
+   {
+    "id": "M7",
+    "q": "What is the only sure test that a piece of metal is itself a magnet?",
+    "options": [
+     "It is attracted to a magnet",
+     "It conducts electricity",
+     "It attracts iron filings only when a current flows",
+     "It is repelled by a magnet"
+    ],
+    "answer": 3,
+    "explain": "Magnetic materials are attracted to either pole, so attraction proves nothing. Only a magnet can be repelled by another magnet."
+   },
+   {
+    "id": "M8",
+    "q": "How can two bar magnets be arranged to give a uniform field between them?",
+    "options": [
+     "Two north poles facing each other",
+     "Opposite poles facing each other, close together and parallel",
+     "The magnets placed side by side, pointing the same way",
+     "The magnets at right angles to each other"
+    ],
+    "answer": 1,
+    "explain": "Opposite poles (N facing S), close together with parallel faces, give straight, parallel, evenly spaced field lines between them: a uniform field."
+   },
+   {
+    "id": "M9",
+    "q": "Which description fits the field lines in a uniform magnetic field?",
+    "options": [
+     "Curved and getting further apart",
+     "Circles around a point",
+     "Straight, parallel and evenly spaced",
+     "Straight but getting closer together"
+    ],
+    "answer": 2,
+    "explain": "A uniform field has the same strength and direction everywhere, so its lines are straight, parallel and evenly spaced."
+   },
+   {
+    "id": "M10",
+    "q": "In the plotting-compass practical, how is a field line drawn?",
+    "options": [
+     "Sprinkle the compass needles on the paper",
+     "Mark the needle direction, move the compass along, repeat, then join the dots",
+     "Draw a straight line from pole to pole",
+     "Tap the compass until it points north"
+    ],
+    "answer": 1,
+    "explain": "Mark where the needle points, move the compass to the new dot, repeat, then join the dots into a continuous line."
+   },
+   {
+    "id": "M11",
+    "q": "In the iron-filings method, why is the card tapped?",
+    "options": [
+     "To help the filings line up along the field lines",
+     "To magnetise the card",
+     "To remove the filings",
+     "To reverse the field"
+    ],
+    "answer": 0,
+    "explain": "Tapping the card lets the filings move and line up along the field lines, so the pattern shows."
+   },
+   {
+    "id": "M12",
+    "q": "What shape is the magnetic field around a long straight wire carrying a current?",
+    "options": [
+     "Straight lines parallel to the wire",
+     "The same as a bar magnet",
+     "No field, because the wire is not magnetic",
+     "Concentric circles centred on the wire"
+    ],
+    "answer": 3,
+    "explain": "The field around a straight wire is a set of concentric circles centred on the wire, getting further apart further away."
+   },
+   {
+    "id": "M13",
+    "q": "A current flows downwards through a card. Seen from above, what is the direction of the magnetic field around the wire?",
+    "options": [
+     "Anticlockwise",
+     "Clockwise",
+     "Straight out from the wire",
+     "There is no direction"
+    ],
+    "answer": 1,
+    "explain": "Right-hand grip rule: thumb along the current (down, away from you), fingers curl clockwise as seen from above."
+   },
+   {
+    "id": "M14",
+    "q": "What does the field inside a long current-carrying solenoid look like?",
+    "options": [
+     "Circles around each turn only",
+     "Zero everywhere inside",
+     "Straight, parallel lines: a strong, uniform field",
+     "Lines that cross in the middle"
+    ],
+    "answer": 2,
+    "explain": "Inside a solenoid the field lines are straight, parallel and evenly spaced. Outside, the field looks like a bar magnet's."
+   },
+   {
+    "id": "M15",
+    "q": "Which is the correct construction of an electromagnet?",
+    "options": [
+     "A coil of wire with a current, wrapped around a soft iron core",
+     "A bar magnet with wire wrapped round it",
+     "A coil of wire around a steel core with no current",
+     "A closed loop of iron with no wire"
+    ],
+    "answer": 0,
+    "explain": "An electromagnet is a coil (solenoid) with a current in it, around a soft iron core. Mark schemes reject a bar magnet and ignore steel."
+   },
+   {
+    "id": "M16",
+    "q": "Why is the core of an electromagnet made of soft iron rather than steel?",
+    "options": [
+     "Soft iron is cheaper to paint",
+     "Soft iron keeps its magnetism when the current is off",
+     "Steel is not a magnetic material",
+     "Soft iron loses its magnetism when the current is switched off"
+    ],
+    "answer": 3,
+    "explain": "The point of an electromagnet is that it can be switched off. Soft iron loses its magnetism when the current stops; steel would stay magnetised."
+   },
+   {
+    "id": "M17",
+    "q": "Which change would make an electromagnet weaker?",
+    "options": [
+     "Using fewer turns on the coil",
+     "Increasing the current",
+     "Adding a soft iron core",
+     "Adding more turns on the coil"
+    ],
+    "answer": 0,
+    "explain": "Fewer turns means a weaker field. More current, more turns and an iron core all make an electromagnet stronger."
+   },
+   {
+    "id": "M18",
+    "q": "Why is there a force on a current-carrying wire in a magnetic field?",
+    "options": [
+     "The wire becomes charged and is attracted to the pole",
+     "The magnet heats the wire",
+     "The field of the current interacts with the magnet's field",
+     "The wire cuts the field lines and a voltage is induced"
+    ],
+    "answer": 2,
+    "explain": "The current makes its own magnetic field, which interacts with the magnet's field to produce a force. Cutting field lines is induction, a different effect."
+   },
+   {
+    "id": "M19",
+    "q": "In Fleming's left-hand rule, what does the second finger represent?",
+    "options": [
+     "Field",
+     "Current",
+     "Motion (force)",
+     "Voltage"
+    ],
+    "answer": 1,
+    "explain": "First finger = Field, seCond finger = Current, thuMb = Motion (force)."
+   },
+   {
+    "id": "M20",
+    "q": "A current-carrying wire is placed parallel to a magnetic field. What is the force on it?",
+    "options": [
+     "Maximum",
+     "Along the wire",
+     "It depends on the direction of the current",
+     "Zero"
+    ],
+    "answer": 3,
+    "explain": "There is no force when the current is parallel to the field. The force is biggest when the wire is at right angles to the field."
+   },
+   {
+    "id": "M21",
+    "q": "Both the current in a wire and the direction of the magnetic field are reversed. What happens to the force on the wire?",
+    "options": [
+     "It reverses",
+     "It becomes zero",
+     "It stays in the same direction",
+     "It doubles"
+    ],
+    "answer": 2,
+    "explain": "Reversing one of them reverses the force. Reversing both reverses it twice, so the force is in the same direction as before."
+   },
+   {
+    "id": "M22",
+    "q": "Which change would NOT increase the force on a current-carrying wire in a magnetic field?",
+    "options": [
+     "Using a bigger current",
+     "Using a stronger magnet",
+     "Keeping the wire at right angles to the field",
+     "Reversing the current"
+    ],
+    "answer": 3,
+    "explain": "Reversing the current reverses the direction of the force but does not change its size. A bigger current or stronger field increases the force."
+   },
+   {
+    "id": "M23",
+    "q": "A proton moves through a magnetic field at right angles to it. What does the force do to the proton?",
+    "options": [
+     "Changes its direction but not its speed",
+     "Speeds it up",
+     "Slows it down to rest",
+     "Has no effect"
+    ],
+    "answer": 0,
+    "explain": "The force is always at right angles to the velocity, so it changes the direction of motion but not the speed. The proton moves in a curve."
+   },
+   {
+    "id": "M24",
+    "q": "An electron moves to the right through a magnetic field. Which way should the second finger point in the left-hand rule?",
+    "options": [
+     "To the right",
+     "Into the page",
+     "To the left",
+     "Along the field"
+    ],
+    "answer": 2,
+    "explain": "The second finger shows conventional current. An electron is negative, so the current is opposite to its motion: to the left."
+   },
+   {
+    "id": "M25",
+    "q": "Two parallel wires both carry current in the same direction. What happens?",
+    "options": [
+     "They repel because they have the same charge",
+     "They attract, because each wire is a current in the other's magnetic field",
+     "Nothing, because currents do not affect each other",
+     "They attract because they have opposite charges"
+    ],
+    "answer": 1,
+    "explain": "Each wire has a magnetic field, so each is a current in the other's field and feels a force towards the other. It is not an electrostatic effect."
+   },
+   {
+    "id": "M26",
+    "q": "Why does the coil of a d.c. motor turn?",
+    "options": [
+     "The coil's north pole is attracted to the magnet's south pole",
+     "The coil cuts field lines and a voltage is induced",
+     "The magnet heats one side of the coil",
+     "The forces on opposite sides of the coil are in opposite directions"
+    ],
+    "answer": 3,
+    "explain": "The current goes one way along one side and back along the other, so the forces are in opposite directions and the coil turns. Mark schemes ignore attraction and repulsion answers."
+   },
+   {
+    "id": "M27",
+    "q": "What does the split-ring commutator in a d.c. motor do?",
+    "options": [
+     "Reverses the current in the coil every half turn",
+     "Makes the magnet stronger",
+     "Changes a.c. into a higher voltage",
+     "Stops the coil from turning too fast"
+    ],
+    "answer": 0,
+    "explain": "It reverses the current every half turn, so the forces keep turning the coil in the same direction instead of rocking back."
+   },
+   {
+    "id": "M28",
+    "q": "Why does the cone of a loudspeaker vibrate?",
+    "options": [
+     "The coil cuts field lines and induces a voltage",
+     "The alternating current makes the force on the coil keep changing direction",
+     "The magnet vibrates on its own",
+     "The cone is charged and repelled by the magnet"
+    ],
+    "answer": 1,
+    "explain": "The a.c. keeps reversing, so the force from the interacting fields keeps reversing. The coil and cone are pushed back and forth: they vibrate and make sound."
+   },
+   {
+    "id": "M29",
+    "q": "A wire is held still between the poles of a strong magnet and connected to a sensitive ammeter. What does the ammeter read?",
+    "options": [
+     "A large steady current",
+     "An alternating current",
+     "Zero",
+     "A current that slowly increases"
+    ],
+    "answer": 2,
+    "explain": "A voltage is induced only when the wire cuts field lines or the field changes. A still wire in a steady field cuts no lines, so there is no induced current."
+   },
+   {
+    "id": "M30",
+    "q": "Which change would increase the voltage induced when a wire is moved through a magnetic field?",
+    "options": [
+     "Moving the wire more slowly",
+     "Using bigger but weaker magnets",
+     "Moving the wire along the field lines",
+     "Moving the wire faster"
+    ],
+    "answer": 3,
+    "explain": "Faster movement, a stronger magnet or a coil with more turns all increase the induced voltage. Moving along the field lines cuts none, so gives zero."
+   },
+   {
+    "id": "M31",
+    "q": "A wire moved between two poles gives an induced current of 2.8 mA. The poles are reversed and the movement repeated in the same way. What is the reading?",
+    "options": [
+     "−2.8 mA",
+     "2.8 mA",
+     "5.6 mA",
+     "0 mA"
+    ],
+    "answer": 0,
+    "explain": "Reversing the field reverses the induced current. It is the same size in the opposite direction: −2.8 mA."
+   },
+   {
+    "id": "M32",
+    "q": "A generator has a coil rotating in a magnetic field. Why is its output alternating?",
+    "options": [
+     "The magnet keeps switching on and off",
+     "Each side of the coil moves up and then down through the field, so the induced voltage reverses",
+     "The coil is connected to the mains",
+     "The generator uses a battery"
+    ],
+    "answer": 1,
+    "explain": "Each side of the coil cuts the field one way, then the other way, every turn, so the induced voltage keeps reversing: a.c."
+   },
+   {
+    "id": "M33",
+    "q": "Which would NOT increase the voltage from a generator?",
+    "options": [
+     "Rotating the coil faster",
+     "Using a stronger magnet",
+     "Using a coil with fewer turns",
+     "Using a coil with more turns"
+    ],
+    "answer": 2,
+    "explain": "Fewer turns means a smaller induced voltage. Faster rotation, a stronger magnet and more turns all increase it."
+   },
+   {
+    "id": "M34",
+    "q": "What are the main parts of a transformer?",
+    "options": [
+     "One coil wound around a steel bar magnet",
+     "A coil and a split-ring commutator",
+     "Two coils with no core",
+     "A primary coil and a secondary coil wound on a soft iron core"
+    ],
+    "answer": 3,
+    "explain": "A transformer is two coils, the primary and the secondary, on the same soft iron core. The core carries the changing field to the secondary."
+   },
+   {
+    "id": "M35",
+    "q": "Why will a transformer not work on a constant d.c. supply?",
+    "options": [
+     "d.c. is too dangerous",
+     "A constant current gives a constant field, and induction needs a changing field",
+     "The iron core melts",
+     "d.c. only flows in the secondary coil"
+    ],
+    "answer": 1,
+    "explain": "Induction needs a changing magnetic field. Constant d.c. makes a constant field in the core, so no voltage is induced in the secondary."
+   },
+   {
+    "id": "M36",
+    "q": "A transformer has 200 turns on the primary and 1000 turns on the secondary. The input voltage is 12 V. What is the output voltage?",
+    "options": [
+     "60 V",
+     "2.4 V",
+     "12 V",
+     "1200 V"
+    ],
+    "answer": 0,
+    "explain": "Vp ÷ Vs = np ÷ ns, so 12 ÷ Vs = 200 ÷ 1000. Vs = 12 × 1000 ÷ 200 = 60 V. It is a step-up transformer."
+   },
+   {
+    "id": "M37",
+    "q": "A 100% efficient transformer steps 230 V down to 11.5 V. The primary current is 0.10 A. What is the secondary current?",
+    "options": [
+     "0.005 A",
+     "0.10 A",
+     "23 A",
+     "2.0 A"
+    ],
+    "answer": 3,
+    "explain": "Vp × Ip = Vs × Is, so 230 × 0.10 = 11.5 × Is. Is = 23 ÷ 11.5 = 2.0 A. The voltage went down 20 times, so the current went up 20 times."
+   },
+   {
+    "id": "M38",
+    "q": "Why is electricity transmitted in the National Grid at a very high voltage?",
+    "options": [
+     "High voltage makes the electricity travel faster",
+     "The current is lower, so there is less heating and less energy wasted in the cables",
+     "High voltage is safer for people near the cables",
+     "Transformers only work at high voltage"
+    ],
+    "answer": 1,
+    "explain": "For the same power (P = I × V), a higher voltage means a lower current. A lower current means less heating in the cables, so less energy is wasted."
+   },
+   {
+    "id": "M39",
+    "q": "Which statement correctly describes alternating current (a.c.)?",
+    "options": [
+     "It flows in one direction only",
+     "It is supplied by a cell or battery",
+     "It continuously changes direction",
+     "It is always smaller than d.c."
+    ],
+    "answer": 2,
+    "explain": "a.c. keeps changing direction, again and again. d.c. from a cell or battery flows in one direction only. Mains electricity is a.c."
+   },
+   {
+    "id": "M40",
+    "q": "The live wire in a kettle touches its metal case, which is earthed. What happens?",
+    "options": [
+     "A large current flows to earth and the fuse melts, breaking the circuit",
+     "The case becomes live and stays live",
+     "The earth wire melts instead of the fuse",
+     "The current falls to zero straight away, with no fuse needed"
+    ],
+    "answer": 0,
+    "explain": "The earth wire has a low resistance, so a large current flows through it to earth. This is more than the fuse rating, so the fuse melts and cuts off the supply."
+   }
+  ],
+  "11-momentum": [
+   {
+    "id": "M1",
+    "q": "Which is the correct equation for momentum?",
+    "options": [
+     "momentum = mass × acceleration",
+     "momentum = force × time ÷ mass",
+     "momentum = mass × velocity",
+     "momentum = mass ÷ velocity"
+    ],
+    "answer": 2,
+    "explain": "p = m × v, which you must learn. Mass × acceleration is force."
+   },
+   {
+    "id": "M2",
+    "q": "What is the unit of momentum?",
+    "options": [
+     "kg m/s",
+     "kg/m/s",
+     "kg m/s²",
+     "kg² m/s"
+    ],
+    "answer": 0,
+    "explain": "From p = m × v: kilograms × metres per second = kg m/s. kg m/s² is the newton."
+   },
+   {
+    "id": "M3",
+    "q": "A 0.41 kg bird flies at 13 m/s. What is its momentum?",
+    "options": [
+     "0.032 kg m/s",
+     "31.7 kg m/s",
+     "13.4 kg m/s",
+     "5.3 kg m/s"
+    ],
+    "answer": 3,
+    "explain": "p = 0.41 × 13 = 5.33 kg m/s (2023 Edexcel 2P Q4). 31.7 comes from dividing 13 by 0.41."
+   },
+   {
+    "id": "M4",
+    "q": "Why is momentum a vector quantity?",
+    "options": [
+     "Because mass is a vector",
+     "Because velocity has a direction",
+     "Because it is measured in kg m/s",
+     "Because it can never be zero"
+    ],
+    "answer": 1,
+    "explain": "Mass is a scalar, but velocity has size and direction, so mass × velocity has a direction too."
+   },
+   {
+    "id": "M5",
+    "q": "A 2 kg trolley moves right at 3 m/s. Another 2 kg trolley moves left at 3 m/s. Taking right as positive, what is their total momentum?",
+    "options": [
+     "12 kg m/s",
+     "0 kg m/s",
+     "6 kg m/s",
+     "−12 kg m/s"
+    ],
+    "answer": 1,
+    "explain": "+6 + (−6) = 0. Momenta in opposite directions cancel. 12 comes from ignoring direction."
+   },
+   {
+    "id": "M6",
+    "q": "Which statement is the principle of conservation of momentum?",
+    "options": [
+     "Momentum is always lost in a collision",
+     "The momentum of each object stays the same in a collision",
+     "Total momentum before a collision equals total momentum after, if no external forces act",
+     "Momentum is converted into kinetic energy in a collision"
+    ],
+    "answer": 2,
+    "explain": "It is the total that is conserved, not each object's momentum. One object gains what the other loses."
+   },
+   {
+    "id": "M7",
+    "q": "Two objects are at rest and then push apart. What is their total momentum afterwards?",
+    "options": [
+     "Zero",
+     "Equal to the momentum of the heavier object",
+     "Equal to the momentum of the faster object",
+     "Twice the momentum of either object"
+    ],
+    "answer": 0,
+    "explain": "It was zero before, so it is zero after. The two momenta are equal in size and opposite in direction."
+   },
+   {
+    "id": "M8",
+    "q": "A rifle fires a bullet. Why does the rifle move back much more slowly than the bullet moves forward?",
+    "options": [
+     "The rifle has less momentum than the bullet",
+     "Some of the momentum is lost as sound",
+     "The rifle's momentum is in the same direction as the bullet's",
+     "The rifle has the same size of momentum but a much larger mass"
+    ],
+    "answer": 3,
+    "explain": "The momenta are equal and opposite. Same momentum with a bigger mass means a smaller velocity."
+   },
+   {
+    "id": "M9",
+    "q": "A 1.9 kg object moves off at 3.7 m/s after pushing apart from a 2.9 kg object at rest. What is the velocity of the 2.9 kg object?",
+    "options": [
+     "+2.4 m/s in the same direction",
+     "−5.6 m/s",
+     "−3.7 m/s",
+     "−2.4 m/s"
+    ],
+    "answer": 3,
+    "explain": "0 = 1.9 × 3.7 + 2.9v, so v = −7.03 ÷ 2.9 = −2.4 m/s (2022 Edexcel 2P Q2). The minus sign means the opposite direction."
+   },
+   {
+    "id": "M10",
+    "q": "A 0.60 kg hawk at 12 m/s catches a 0.30 kg pigeon at 3.0 m/s flying the same way. What is their velocity together?",
+    "options": [
+     "9.0 m/s",
+     "13.5 m/s",
+     "7.5 m/s",
+     "8.1 m/s"
+    ],
+    "answer": 0,
+    "explain": "Total momentum = 7.2 + 0.9 = 8.1 kg m/s. Divide by the total mass 0.90 kg: 9.0 m/s. 13.5 comes from dividing by 0.60 kg only; 8.1 is the momentum, not the velocity."
+   },
+   {
+    "id": "M11",
+    "q": "Two objects collide and stick together. Which mass do you use to find their velocity afterwards?",
+    "options": [
+     "The mass of the heavier object",
+     "The mass of the faster object",
+     "The total mass of both objects",
+     "The difference between the two masses"
+    ],
+    "answer": 2,
+    "explain": "After joining they move as one object, so velocity = total momentum ÷ total mass."
+   },
+   {
+    "id": "M12",
+    "q": "Two objects collide and stick together. The final velocity must be…",
+    "options": [
+     "faster than both starting velocities",
+     "between the two starting velocities",
+     "equal to the faster starting velocity",
+     "zero"
+    ],
+    "answer": 1,
+    "explain": "The fast one slows down and the slow one speeds up, so the shared velocity is between them. A quick check on any answer."
+   },
+   {
+    "id": "M13",
+    "q": "Which equation links force, change in momentum and time?",
+    "options": [
+     "F = (mv − mu) ÷ t",
+     "F = (mv + mu) × t",
+     "F = mv ÷ (u × t)",
+     "F = t ÷ (mv − mu)"
+    ],
+    "answer": 0,
+    "explain": "Force = change in momentum ÷ time taken. It is on the formula sheet."
+   },
+   {
+    "id": "M14",
+    "q": "A driver's momentum of 936 kg m/s falls to zero in 0.29 s. What is the average force on the driver?",
+    "options": [
+     "271 N",
+     "936 N",
+     "0.00031 N",
+     "3200 N"
+    ],
+    "answer": 3,
+    "explain": "F = 936 ÷ 0.29 = 3228 N, about 3200 N (2022 Edexcel Jan 2P Q1(b)). 271 N comes from multiplying by 0.29 instead of dividing."
+   },
+   {
+    "id": "M15",
+    "q": "A 1200 kg car speeds up from 10 m/s to 25 m/s in 6.0 s. What is the resultant force?",
+    "options": [
+     "5000 N",
+     "3000 N",
+     "7000 N",
+     "2000 N"
+    ],
+    "answer": 1,
+    "explain": "Change in momentum = 30 000 − 12 000 = 18 000 kg m/s. 18 000 ÷ 6.0 = 3000 N. 5000 N uses only the final momentum."
+   },
+   {
+    "id": "M16",
+    "q": "Force is equal to…",
+    "options": [
+     "the total momentum of an object",
+     "momentum × time",
+     "the rate of change of momentum",
+     "momentum ÷ mass"
+    ],
+    "answer": 2,
+    "explain": "F = change in momentum ÷ time, which is the rate of change of momentum. Momentum ÷ mass is velocity."
+   },
+   {
+    "id": "M17",
+    "q": "A 0.20 kg ball hits a wall at 8.0 m/s and bounces back at 6.0 m/s. What is the size of its change in momentum?",
+    "options": [
+     "0.4 kg m/s",
+     "1.6 kg m/s",
+     "2.8 kg m/s",
+     "14 kg m/s"
+    ],
+    "answer": 2,
+    "explain": "+1.6 to −1.2: the change is −1.2 − 1.6 = −2.8, size 2.8 kg m/s. 0.4 ignores the change of direction."
+   },
+   {
+    "id": "M18",
+    "q": "A ball hits a wall and bounces back at the same speed. Compared with a ball that stops dead, the change in momentum is…",
+    "options": [
+     "the same",
+     "twice as big",
+     "half as big",
+     "zero"
+    ],
+    "answer": 1,
+    "explain": "From +p to −p is a change of 2p, compared with p for stopping. So the force is twice as big for the same contact time."
+   },
+   {
+    "id": "M19",
+    "q": "How does an airbag reduce the force on a driver in a crash?",
+    "options": [
+     "It reduces the driver's change in momentum",
+     "It increases the driver's momentum",
+     "It reduces the driver's mass",
+     "It increases the time taken for the driver to stop"
+    ],
+    "answer": 3,
+    "explain": "The change in momentum is fixed (speed to zero). A longer time means a smaller rate of change of momentum, so a smaller force."
+   },
+   {
+    "id": "M20",
+    "q": "In a crash, what is the same whether or not the car has a crumple zone?",
+    "options": [
+     "The passengers' change in momentum",
+     "The time taken to stop",
+     "The force on the passengers",
+     "The rate of change of momentum"
+    ],
+    "answer": 0,
+    "explain": "The passengers go from the same speed to zero either way. The crumple zone changes the time, and so the rate of change of momentum and the force."
+   },
+   {
+    "id": "M21",
+    "q": "Which answer would score the marks for how a crumple zone works?",
+    "options": [
+     "It absorbs the momentum of the crash",
+     "It increases the time to stop, so the rate of change of momentum and the force are smaller",
+     "It makes the car lighter so it has less momentum",
+     "It cushions the impact so it is softer"
+    ],
+    "answer": 1,
+    "explain": "The mark scheme wants time up, rate of change of momentum down, force down. 'Absorbs' and 'cushions' are too vague."
+   },
+   {
+    "id": "M22",
+    "q": "An egg dropped on a carpet does not break, but one dropped on a hard floor does. Why?",
+    "options": [
+     "The carpet reduces the egg's momentum before it lands",
+     "The carpet increases the egg's change in momentum",
+     "The carpet pushes up with a bigger force",
+     "The carpet increases the impact time, so the rate of change of momentum is smaller"
+    ],
+    "answer": 3,
+    "explain": "2022 Edexcel 2P Q2(c): the scheme credited the carpet increasing the impact time and reducing the rate of change of momentum."
+   },
+   {
+    "id": "M23",
+    "q": "How does a seat belt reduce injury, in momentum terms?",
+    "options": [
+     "It stretches, increasing the time for the passenger to stop",
+     "It makes the passenger stop in a shorter time",
+     "It increases the passenger's momentum",
+     "It reduces the car's speed before the crash"
+    ],
+    "answer": 0,
+    "explain": "The belt stretches slightly, so the passenger stops over a longer time, so the force on them is smaller."
+   },
+   {
+    "id": "M24",
+    "q": "Why does a cycle helmet have a foam lining?",
+    "options": [
+     "The foam makes the head lighter, so it has less momentum",
+     "The foam reduces the head's change in momentum",
+     "The foam compresses, increasing the time for the head to stop",
+     "The foam increases the force on the head so it stops quickly"
+    ],
+    "answer": 2,
+    "explain": "Compressing foam lengthens the stopping time, so the force on the skull is smaller."
+   },
+   {
+    "id": "M25",
+    "q": "A cricketer pulls her hands back as she catches a ball. This…",
+    "options": [
+     "increases the time to stop the ball, reducing the force on her hands",
+     "reduces the ball's momentum before she catches it",
+     "reduces the change in momentum of the ball",
+     "increases the rate of change of momentum"
+    ],
+    "answer": 0,
+    "explain": "The same argument as a crumple zone: longer time, smaller rate of change of momentum, smaller force."
+   },
+   {
+    "id": "M26",
+    "q": "A car stops in 0.12 s in a crash. With a crumple zone it would stop in 0.30 s. The force with the crumple zone is…",
+    "options": [
+     "2.5 times bigger",
+     "the same",
+     "2.5 times smaller",
+     "0.18 times as big"
+    ],
+    "answer": 2,
+    "explain": "Same change in momentum, 2.5 times the time, so 2.5 times less force."
+   },
+   {
+    "id": "M27",
+    "q": "A 58 g tennis ball leaves a racket at 50 m/s from rest. What is its change in momentum?",
+    "options": [
+     "2900 kg m/s",
+     "2.9 kg m/s",
+     "0.86 kg m/s",
+     "29 kg m/s"
+    ],
+    "answer": 1,
+    "explain": "58 g = 0.058 kg. 0.058 × 50 = 2.9 kg m/s. 2900 comes from forgetting to convert grams to kilograms."
+   },
+   {
+    "id": "M28",
+    "q": "A trolley of 2.0 kg at 3.0 m/s right hits a 1.0 kg trolley at 2.0 m/s left. They stick. What is their velocity?",
+    "options": [
+     "2.7 m/s right",
+     "1.0 m/s right",
+     "2.5 m/s right",
+     "1.3 m/s right"
+    ],
+    "answer": 3,
+    "explain": "Total momentum = 6.0 − 2.0 = 4.0 kg m/s; 4.0 ÷ 3.0 = 1.3 m/s right. 2.7 m/s comes from adding 6.0 and 2.0."
+   },
+   {
+    "id": "M29",
+    "q": "Two skaters at rest push apart. A (60 kg) moves at 2.0 m/s; B moves the other way at 3.0 m/s. What is B's mass?",
+    "options": [
+     "90 kg",
+     "60 kg",
+     "30 kg",
+     "40 kg"
+    ],
+    "answer": 3,
+    "explain": "60 × 2.0 = 120 kg m/s = m × 3.0, so m = 40 kg. B moves faster, so B must be lighter. 90 kg has the ratio upside down."
+   },
+   {
+    "id": "M30",
+    "q": "A 4.0 kg rifle fires a 0.010 kg bullet at 400 m/s. What is the rifle's recoil speed?",
+    "options": [
+     "400 m/s",
+     "1.0 m/s",
+     "0.1 m/s",
+     "4.0 m/s"
+    ],
+    "answer": 1,
+    "explain": "Bullet momentum = 4.0 kg m/s. The rifle has the same size of momentum backwards: 4.0 ÷ 4.0 = 1.0 m/s."
+   },
+   {
+    "id": "M31",
+    "q": "When is momentum NOT conserved for two colliding objects?",
+    "options": [
+     "When they stick together",
+     "When they bounce apart",
+     "When a large external force such as friction acts on them",
+     "When one of them starts at rest"
+    ],
+    "answer": 2,
+    "explain": "Conservation holds in the absence of external forces. Sticking, bouncing or starting at rest do not break it."
+   },
+   {
+    "id": "M32",
+    "q": "Why is momentum conserved when two objects collide?",
+    "options": [
+     "They exert equal and opposite forces on each other for the same time",
+     "The heavier object always keeps its momentum",
+     "The forces between them are always zero",
+     "Kinetic energy is always conserved"
+    ],
+    "answer": 0,
+    "explain": "By Newton's third law the forces are equal and opposite, and act for the same time, so the momentum changes are equal and opposite."
+   },
+   {
+    "id": "M33",
+    "q": "Which has the greatest momentum?",
+    "options": [
+     "A 0.01 kg bullet at 400 m/s",
+     "A 60 kg runner at 5 m/s",
+     "A 12 000 kg lorry at 0.5 m/s",
+     "A 0.16 kg ball at 30 m/s"
+    ],
+    "answer": 2,
+    "explain": "Lorry: 6000 kg m/s. Runner: 300. Bullet: 4. Ball: 4.8. You have to multiply mass by velocity; speed alone does not decide it."
+   },
+   {
+    "id": "M34",
+    "q": "A 0.16 kg ball at 2.5 m/s hits an identical ball at rest and carries on at 0.50 m/s. What is the second ball's velocity?",
+    "options": [
+     "2.0 m/s",
+     "2.5 m/s",
+     "3.0 m/s",
+     "0.32 m/s"
+    ],
+    "answer": 0,
+    "explain": "0.40 = 0.08 + 0.16v, so v = 0.32 ÷ 0.16 = 2.0 m/s. 0.32 is the momentum, not the velocity."
+   },
+   {
+    "id": "M35",
+    "q": "In a momentum calculation, an answer comes out as −3.0 m/s. What does the minus sign mean?",
+    "options": [
+     "The answer is wrong",
+     "The object has slowed down",
+     "The object has less momentum than before",
+     "The object moves in the direction you chose as negative"
+    ],
+    "answer": 3,
+    "explain": "Momentum and velocity are vectors. A negative answer is a direction, opposite to the one you chose as positive."
+   },
+   {
+    "id": "M36",
+    "q": "A 65 kg driver moves at 15 m/s. An airbag stops him in 0.25 s. What is the average force?",
+    "options": [
+     "244 N",
+     "3900 N",
+     "975 N",
+     "60 N"
+    ],
+    "answer": 1,
+    "explain": "Momentum = 65 × 15 = 975 kg m/s. F = 975 ÷ 0.25 = 3900 N. 244 N comes from multiplying by 0.25."
+   },
+   {
+    "id": "M37",
+    "q": "F = (mv − mu) ÷ t is the same as which other equation?",
+    "options": [
+     "F = m × a",
+     "W = m × g",
+     "p = m × v",
+     "v² = u² + 2as"
+    ],
+    "answer": 0,
+    "explain": "(mv − mu) ÷ t = m × (v − u) ÷ t, and (v − u) ÷ t is the acceleration."
+   },
+   {
+    "id": "M38",
+    "q": "A 1500 kg car at 20 m/s has momentum…",
+    "options": [
+     "75 kg m/s",
+     "3000 kg m/s",
+     "300 000 kg m/s",
+     "30 000 kg m/s"
+    ],
+    "answer": 3,
+    "explain": "1500 × 20 = 30 000 kg m/s. 75 comes from dividing mass by velocity."
+   },
+   {
+    "id": "M39",
+    "q": "A stationary object explodes into two pieces. Which statement is correct?",
+    "options": [
+     "Both pieces move in the same direction",
+     "The pieces have equal and opposite momentum",
+     "The pieces always have equal speeds",
+     "The heavier piece moves faster"
+    ],
+    "answer": 1,
+    "explain": "Total momentum stays zero, so the momenta are equal and opposite. The speeds are equal only if the masses are equal; the lighter piece is faster."
+   },
+   {
+    "id": "M40",
+    "q": "Which is true about a safety feature in a crash?",
+    "options": [
+     "It reduces the change in momentum of the passenger",
+     "It increases the force on the passenger",
+     "It reduces the rate of change of momentum of the passenger",
+     "It stops momentum being conserved"
+    ],
+    "answer": 2,
+    "explain": "The change in momentum is fixed; the feature increases the time, so the rate of change of momentum (the force) is smaller."
+   }
+  ],
+  "12-light-and-refraction": [
+   {
+    "id": "M1",
+    "q": "What type of wave is light?",
+    "options": [
+     "Longitudinal",
+     "A wave that needs a medium",
+     "Transverse",
+     "A wave whose vibrations are parallel to its direction of travel"
+    ],
+    "answer": 2,
+    "explain": "Light is a transverse wave: its vibrations are at right angles to its direction of travel. Sound is the longitudinal one."
+   },
+   {
+    "id": "M2",
+    "q": "From which line are the angles of incidence, reflection and refraction measured?",
+    "options": [
+     "The normal",
+     "The surface",
+     "The mirror",
+     "The incident ray"
+    ],
+    "answer": 0,
+    "explain": "Every angle in this topic is measured from the normal, a line at 90° to the surface where the ray meets it."
+   },
+   {
+    "id": "M3",
+    "q": "Which piece of apparatus is used to measure the angles in a reflection or refraction practical?",
+    "options": [
+     "Ruler",
+     "Ray box",
+     "Metre rule",
+     "Protractor"
+    ],
+    "answer": 3,
+    "explain": "A protractor measures angles. This was a 1-mark question on 2022 Jan 1P and 2023 2P."
+   },
+   {
+    "id": "M4",
+    "q": "Which statement is the law of reflection?",
+    "options": [
+     "The angle of incidence equals the angle of refraction",
+     "The angle of incidence equals the angle of reflection",
+     "The angle of reflection is always 90°",
+     "The angle of incidence plus the angle of reflection equals 90°"
+    ],
+    "answer": 1,
+    "explain": "Law of reflection: angle of incidence = angle of reflection, both measured from the normal."
+   },
+   {
+    "id": "M5",
+    "q": "A ray hits a plane mirror at 20° to the mirror's surface. What is the angle of reflection?",
+    "options": [
+     "20°",
+     "70°",
+     "40°",
+     "110°"
+    ],
+    "answer": 1,
+    "explain": "The angle of incidence is measured from the normal: 90 − 20 = 70°. The angle of reflection equals it, 70°."
+   },
+   {
+    "id": "M6",
+    "q": "A ray hits a mirror with an angle of incidence of 35°. What is the angle between the incident ray and the reflected ray?",
+    "options": [
+     "35°",
+     "55°",
+     "110°",
+     "70°"
+    ],
+    "answer": 3,
+    "explain": "The rays sit either side of the normal, each at 35° to it, so the angle between them is 35 + 35 = 70°."
+   },
+   {
+    "id": "M7",
+    "q": "What causes refraction?",
+    "options": [
+     "A change in the speed of the wave as it enters a new material",
+     "A change in the frequency of the wave",
+     "The wave bouncing off the boundary",
+     "The material being thicker"
+    ],
+    "answer": 0,
+    "explain": "Refraction is a change in direction caused by a change of speed when a wave crosses into a different material. The frequency does not change."
+   },
+   {
+    "id": "M8",
+    "q": "A ray of light passes from air into glass at an angle. What happens?",
+    "options": [
+     "It speeds up and bends away from the normal",
+     "It speeds up and bends towards the normal",
+     "It slows down and bends towards the normal",
+     "It slows down and bends away from the normal"
+    ],
+    "answer": 2,
+    "explain": "Glass is optically denser than air, so light slows down and bends towards the normal."
+   },
+   {
+    "id": "M9",
+    "q": "A ray of light passes from water out into air at an angle. Which way does it bend?",
+    "options": [
+     "Towards the normal",
+     "It does not bend",
+     "Along the surface every time",
+     "Away from the normal"
+    ],
+    "answer": 3,
+    "explain": "Light speeds up going from water into air, so it bends away from the normal. The angle in air is bigger."
+   },
+   {
+    "id": "M10",
+    "q": "A ray of light hits a glass block along the normal. What happens as it enters the glass?",
+    "options": [
+     "It slows down but does not change direction",
+     "It does not slow down or change direction",
+     "It bends towards the normal",
+     "It is totally internally reflected"
+    ],
+    "answer": 0,
+    "explain": "Along the normal (i = 0°) the light still slows down, but it does not change direction."
+   },
+   {
+    "id": "M11",
+    "q": "A ray passes into and out of a rectangular glass block through two parallel sides. How does the emerging ray compare with the incident ray?",
+    "options": [
+     "It is at right angles to the incident ray",
+     "It is parallel to the incident ray, shifted sideways",
+     "It travels back the way it came",
+     "It is bent towards the base of the block"
+    ],
+    "answer": 1,
+    "explain": "The two bends cancel because the faces are parallel, so the ray leaves parallel to its original direction, displaced sideways."
+   },
+   {
+    "id": "M12",
+    "q": "Which is the correct equation for refractive index?",
+    "options": [
+     "n = i ÷ r",
+     "n = sin r ÷ sin i",
+     "n = sin i ÷ sin r",
+     "n = sin (i ÷ r)"
+    ],
+    "answer": 2,
+    "explain": "n = sin i ÷ sin r, where i is the angle in air and r the angle in the material. Dividing the angles themselves is rejected."
+   },
+   {
+    "id": "M13",
+    "q": "A student measures i = 44° and r = 28° for a glass prism. What is the refractive index?",
+    "options": [
+     "1.5",
+     "1.6",
+     "0.67",
+     "16"
+    ],
+    "answer": 0,
+    "explain": "n = sin 44° ÷ sin 28° = 0.695 ÷ 0.469 = 1.48, which is 1.5 to 2 s.f. 44 ÷ 28 = 1.57 is the rejected answer."
+   },
+   {
+    "id": "M14",
+    "q": "What is the unit of refractive index?",
+    "options": [
+     "m/s",
+     "degrees",
+     "metres",
+     "It has no unit"
+    ],
+    "answer": 3,
+    "explain": "Refractive index is one sine divided by another, so it has no unit."
+   },
+   {
+    "id": "M15",
+    "q": "A ray enters glass of refractive index 1.5 with an angle of incidence of 40°. What is the angle of refraction?",
+    "options": [
+     "27°",
+     "60°",
+     "25°",
+     "40°"
+    ],
+    "answer": 2,
+    "explain": "sin r = sin 40° ÷ 1.5 = 0.643 ÷ 1.5 = 0.429, so r = 25°. It is smaller than 40°, as it must be entering glass."
+   },
+   {
+    "id": "M16",
+    "q": "A diagram shows a refracted ray inside a prism making 54° with the surface. What is the angle of refraction?",
+    "options": [
+     "54°",
+     "36°",
+     "144°",
+     "27°"
+    ],
+    "answer": 1,
+    "explain": "Angles are measured from the normal: 90 − 54 = 36°. This was 2022 Jan 1P Q10(a)(i)."
+   },
+   {
+    "id": "M17",
+    "q": "Which is a typical refractive index for glass?",
+    "options": [
+     "0.67",
+     "3.0 × 10⁸",
+     "15",
+     "1.5"
+    ],
+    "answer": 3,
+    "explain": "Glass is about 1.5 and water 1.33. Refractive index is always more than 1 for these materials."
+   },
+   {
+    "id": "M18",
+    "q": "Why is the refractive index of glass always greater than 1?",
+    "options": [
+     "Light bends towards the normal in glass, so sin i is bigger than sin r",
+     "Light speeds up in glass",
+     "Glass reflects most of the light",
+     "The angle of refraction is bigger than the angle of incidence"
+    ],
+    "answer": 0,
+    "explain": "Light slows and bends towards the normal, so r is smaller than i and sin i ÷ sin r is more than 1."
+   },
+   {
+    "id": "M19",
+    "q": "In the glass block practical, why should the crosses marking the emerging ray be placed far apart?",
+    "options": [
+     "To make the ray brighter",
+     "To stop the ray reflecting",
+     "So the line drawn through them is more accurate",
+     "So the block does not move"
+    ],
+    "answer": 2,
+    "explain": "Crosses far apart give a more accurate direction for the ray, so the angles are measured more accurately."
+   },
+   {
+    "id": "M20",
+    "q": "A student plots sin i on the y-axis against sin r on the x-axis for a glass block. What does the gradient give?",
+    "options": [
+     "The critical angle",
+     "The refractive index",
+     "The speed of light",
+     "The angle of incidence"
+    ],
+    "answer": 1,
+    "explain": "sin i = n × sin r, so a graph of sin i against sin r is a straight line through the origin with gradient n."
+   },
+   {
+    "id": "M21",
+    "q": "In a semi-circular block experiment, why is the ray aimed at the centre of the flat face through the curved side?",
+    "options": [
+     "So it enters along a normal and does not bend at the curved side",
+     "So it is totally internally reflected at the curved side",
+     "So it speeds up as it enters",
+     "So it splits into colours"
+    ],
+    "answer": 0,
+    "explain": "Aimed at the centre, the ray travels along a radius, which is normal to the curved surface, so it does not bend going in. All the bending happens at the flat face."
+   },
+   {
+    "id": "M22",
+    "q": "White light passes through a prism. Which colour is refracted the most?",
+    "options": [
+     "Red",
+     "Green",
+     "Violet",
+     "All colours equally"
+    ],
+    "answer": 2,
+    "explain": "Violet is bent the most and red the least, so the colours spread out."
+   },
+   {
+    "id": "M23",
+    "q": "Red light has a longer wavelength than violet and is refracted less by glass. What can you deduce?",
+    "options": [
+     "Refractive index is the same for all colours",
+     "Refractive index increases as wavelength increases",
+     "Red light travels more slowly in glass",
+     "Refractive index decreases as wavelength increases"
+    ],
+    "answer": 3,
+    "explain": "Red refracts less, so it has a lower refractive index. Red has the longer wavelength, so refractive index decreases as wavelength increases (2022 Jan 1P Q10(b))."
+   },
+   {
+    "id": "M24",
+    "q": "Which is the correct definition of the critical angle?",
+    "options": [
+     "The angle of refraction when the angle of incidence is 90°",
+     "The angle of incidence in the denser material for which the angle of refraction is 90°",
+     "The largest angle a mirror can reflect",
+     "The angle at which light stops travelling"
+    ],
+    "answer": 1,
+    "explain": "The critical angle is the angle of incidence, inside the denser material, that gives an angle of refraction of 90°."
+   },
+   {
+    "id": "M25",
+    "q": "Which pair of conditions is needed for total internal reflection?",
+    "options": [
+     "Light going from less dense to more dense; angle of incidence greater than the critical angle",
+     "Light going from more dense to less dense; angle of incidence less than the critical angle",
+     "Light going from more dense to less dense; angle of incidence greater than the critical angle",
+     "Any material; angle of incidence of exactly 90°"
+    ],
+    "answer": 2,
+    "explain": "Both are needed: light going from the denser to the less dense material, and an angle of incidence greater than the critical angle."
+   },
+   {
+    "id": "M26",
+    "q": "Why can light going from air into water never be totally internally reflected?",
+    "options": [
+     "It is going into the denser material, so it bends towards the normal",
+     "Water absorbs all the light",
+     "The critical angle of water is 90°",
+     "Light does not slow down in water"
+    ],
+    "answer": 0,
+    "explain": "Total internal reflection needs light going from denser to less dense. Going into water, the ray bends towards the normal and can always get in."
+   },
+   {
+    "id": "M27",
+    "q": "Which is the correct equation linking critical angle and refractive index?",
+    "options": [
+     "sin c = n",
+     "sin c = 1 ÷ n",
+     "c = 1 ÷ n",
+     "sin c = n ÷ 90"
+    ],
+    "answer": 1,
+    "explain": "sin c = 1 ÷ n. Use sin⁻¹ to find c."
+   },
+   {
+    "id": "M28",
+    "q": "Glass has a refractive index of 1.50. What is its critical angle?",
+    "options": [
+     "0.67°",
+     "56°",
+     "48°",
+     "42°"
+    ],
+    "answer": 3,
+    "explain": "sin c = 1 ÷ 1.50 = 0.667, so c = sin⁻¹ 0.667 = 41.8°, which is 42°. 0.67 is the sine, not the angle."
+   },
+   {
+    "id": "M29",
+    "q": "Water has a refractive index of 1.33. What is its critical angle?",
+    "options": [
+     "49°",
+     "41°",
+     "0.75°",
+     "37°"
+    ],
+    "answer": 0,
+    "explain": "sin c = 1 ÷ 1.33 = 0.752, so c = sin⁻¹ 0.752 = 48.8°, about 49°."
+   },
+   {
+    "id": "M30",
+    "q": "A block has a critical angle of 43°. What is its refractive index?",
+    "options": [
+     "0.68",
+     "2.3",
+     "1.47",
+     "43"
+    ],
+    "answer": 2,
+    "explain": "n = 1 ÷ sin 43° = 1 ÷ 0.682 = 1.47."
+   },
+   {
+    "id": "M31",
+    "q": "Material X has a higher refractive index than material Y. How do their critical angles compare?",
+    "options": [
+     "X has a larger critical angle",
+     "They are the same",
+     "Neither has a critical angle",
+     "X has a smaller critical angle"
+    ],
+    "answer": 3,
+    "explain": "sin c = 1 ÷ n, so a bigger n gives a smaller sin c and a smaller critical angle."
+   },
+   {
+    "id": "M32",
+    "q": "Light inside glass (critical angle 42°) meets a glass/air boundary at an angle of incidence of 30°. What happens?",
+    "options": [
+     "It is totally internally reflected",
+     "Most of it refracts out into the air, bending away from the normal",
+     "It travels along the boundary",
+     "It refracts out, bending towards the normal"
+    ],
+    "answer": 1,
+    "explain": "30° is less than the critical angle, so the light refracts out, bending away from the normal. A weak reflected ray is also present."
+   },
+   {
+    "id": "M33",
+    "q": "At the critical angle, where does the refracted ray go?",
+    "options": [
+     "Along the boundary, at 90° to the normal",
+     "Straight back along the incident ray",
+     "Along the normal",
+     "Nowhere; all light is absorbed"
+    ],
+    "answer": 0,
+    "explain": "At the critical angle the angle of refraction is 90°, so the refracted ray skims along the boundary."
+   },
+   {
+    "id": "M34",
+    "q": "As the angle of incidence inside a semi-circular block is increased towards the critical angle, what happens to the reflected ray?",
+    "options": [
+     "It disappears",
+     "It stays the same brightness",
+     "It gets brighter",
+     "It changes colour"
+    ],
+    "answer": 2,
+    "explain": "The refracted ray gets dimmer and the reflected ray gets brighter. Above the critical angle all the light is reflected."
+   },
+   {
+    "id": "M35",
+    "q": "How does light travel along an optical fibre?",
+    "options": [
+     "By refraction at every point along the fibre",
+     "By total internal reflection at the sides of the fibre",
+     "By bouncing off a mirror coating",
+     "By diffraction round the bends"
+    ],
+    "answer": 1,
+    "explain": "The light meets the sides at more than the critical angle, going from dense glass to a less dense material, so it is totally internally reflected many times."
+   },
+   {
+    "id": "M36",
+    "q": "On 2023 Jan 1P Q6, which reason was credited for total internal reflection in an optical fibre?",
+    "options": [
+     "The fibre is very thin",
+     "The light travels faster in the core",
+     "The core is a mirror",
+     "The angle of incidence is greater than the critical angle"
+    ],
+    "answer": 3,
+    "explain": "The scheme gave marks for total internal reflection, the core having a higher refractive index, and the angle of incidence being greater than the critical angle."
+   },
+   {
+    "id": "M37",
+    "q": "Which statement about waves in optical fibre communication is correct?",
+    "options": [
+     "Waves transfer energy and information without transferring matter",
+     "Waves transfer energy, information and matter",
+     "Waves transfer matter but not energy",
+     "Waves transfer energy without transferring information"
+    ],
+    "answer": 0,
+    "explain": "Waves transfer energy and information without transferring matter. This was 2023 Jan 1P Q6(a)."
+   },
+   {
+    "id": "M38",
+    "q": "A ray enters a 45°–45°–90° glass prism along the normal to a short face and hits the long face at 45°. The critical angle is 42°. What happens?",
+    "options": [
+     "It refracts out of the long face",
+     "It is totally internally reflected and turned through 90°",
+     "It passes straight through without changing direction",
+     "It splits into colours"
+    ],
+    "answer": 1,
+    "explain": "45° is greater than 42°, and the light is going from glass to air, so it is totally internally reflected and turned through 90°, as in a periscope."
+   },
+   {
+    "id": "M39",
+    "q": "What type of wave is sound?",
+    "options": [
+     "Transverse, and cannot be refracted",
+     "Transverse, and can be reflected",
+     "Longitudinal, and can be reflected and refracted",
+     "Longitudinal, and cannot be reflected"
+    ],
+    "answer": 2,
+    "explain": "Sound is longitudinal and, like all waves, can be reflected (an echo) and refracted."
+   },
+   {
+    "id": "M40",
+    "q": "Sound travels faster in water than in air. Which way does sound bend when it passes from air into water at an angle?",
+    "options": [
+     "Towards the normal, like light",
+     "It cannot enter water",
+     "It does not bend",
+     "Away from the normal"
+    ],
+    "answer": 3,
+    "explain": "Sound speeds up going into water, so it bends away from the normal: the opposite way to light."
+   }
+  ],
+  "13-stars-and-the-universe": [
+   {
+    "id": "M1",
+    "q": "Which colour of star has the hottest surface?",
+    "options": [
+     "Red",
+     "Blue",
+     "Yellow",
+     "Orange"
+    ],
+    "answer": 1,
+    "explain": "A star's colour depends on its surface temperature. Blue stars are the hottest and red stars are the coolest."
+   },
+   {
+    "id": "M2",
+    "q": "Betelgeuse is red. Rigel is blue. What can you conclude?",
+    "options": [
+     "Betelgeuse is closer to the Earth",
+     "Rigel has less mass",
+     "Betelgeuse is younger than Rigel",
+     "Rigel has a hotter surface than Betelgeuse"
+    ],
+    "answer": 3,
+    "explain": "Colour tells you surface temperature. Blue means a hotter surface than red. Colour alone does not tell you distance, age or mass."
+   },
+   {
+    "id": "M3",
+    "q": "Which list puts star colours in order of increasing surface temperature?",
+    "options": [
+     "red, yellow, white, blue",
+     "blue, white, yellow, red",
+     "yellow, red, blue, white",
+     "red, blue, yellow, white"
+    ],
+    "answer": 0,
+    "explain": "Coolest to hottest: red, orange, yellow, white, blue."
+   },
+   {
+    "id": "M4",
+    "q": "A student says a star is the hottest in a table because it has the largest mass. How would the mark scheme treat this reason?",
+    "options": [
+     "Full marks",
+     "One mark for mentioning mass",
+     "It is ignored: the reason must link colour to surface temperature",
+     "It is accepted if the star is also the biggest"
+    ],
+    "answer": 2,
+    "explain": "In 2023 the scheme said to ignore links between mass and temperature. The mark is for saying colour depends on surface temperature."
+   },
+   {
+    "id": "M5",
+    "q": "What is a nebula?",
+    "options": [
+     "A dying star that has exploded",
+     "A group of billions of stars",
+     "A small, dense star with no fusion",
+     "A cloud of gas and dust in space"
+    ],
+    "answer": 3,
+    "explain": "A nebula is a cloud of gas (mostly hydrogen) and dust. Stars form when part of it collapses under gravity. A galaxy is a group of billions of stars."
+   },
+   {
+    "id": "M6",
+    "q": "What makes a nebula collapse to form a star?",
+    "options": [
+     "Gravity",
+     "Fusion",
+     "Magnetism",
+     "Radiation pressure"
+    ],
+    "answer": 0,
+    "explain": "Gravity pulls the gas and dust together. Fusion only starts later, once the core is hot enough."
+   },
+   {
+    "id": "M7",
+    "q": "As a nebula collapses to form a star, what happens to the gravitational potential energy store of the gas?",
+    "options": [
+     "It increases",
+     "It stays the same",
+     "It is transferred to the nuclear store",
+     "It decreases"
+    ],
+    "answer": 3,
+    "explain": "The gas falls inwards, so its gravitational potential store decreases. The energy goes to the thermal store, which is why the protostar heats up."
+   },
+   {
+    "id": "M8",
+    "q": "What is the energy source of a main sequence star?",
+    "options": [
+     "Nuclear fission of uranium",
+     "Nuclear fusion of hydrogen into helium",
+     "Burning of hydrogen gas with oxygen",
+     "Radioactive alpha decay"
+    ],
+    "answer": 1,
+    "explain": "Fusion is the energy source for stars. Fission is splitting large nuclei; burning is a chemical reaction; alpha decay is radioactivity."
+   },
+   {
+    "id": "M9",
+    "q": "When does a star leave the main sequence?",
+    "options": [
+     "When it becomes a white dwarf",
+     "When its outer layers cool down",
+     "When fusion first begins",
+     "When the hydrogen in its core runs out"
+    ],
+    "answer": 3,
+    "explain": "A main sequence star fuses hydrogen in its core. When that hydrogen runs out, it expands into a red giant or red supergiant."
+   },
+   {
+    "id": "M10",
+    "q": "Which is the correct life cycle for a star of similar mass to the Sun?",
+    "options": [
+     "nebula → main sequence → red supergiant → supernova",
+     "nebula → main sequence → red giant → white dwarf",
+     "nebula → red giant → main sequence → white dwarf",
+     "nebula → main sequence → white dwarf → red giant"
+    ],
+    "answer": 1,
+    "explain": "Sun-like stars go nebula, (protostar), main sequence, red giant, white dwarf. Supergiants and supernovae are for much more massive stars."
+   },
+   {
+    "id": "M11",
+    "q": "Which property of a star decides whether it becomes a red giant or a red supergiant?",
+    "options": [
+     "Its colour",
+     "Its size",
+     "Its mass",
+     "Its distance from Earth"
+    ],
+    "answer": 2,
+    "explain": "Mass decides the path. In 2024 the mark scheme said to ignore size and weight."
+   },
+   {
+    "id": "M12",
+    "q": "What is left behind when a red giant sheds its outer layers?",
+    "options": [
+     "A white dwarf",
+     "A neutron star",
+     "A black hole",
+     "A protostar"
+    ],
+    "answer": 0,
+    "explain": "A red giant throws off its outer layers as a planetary nebula, and its hot, dense core remains as a white dwarf. Neutron stars and black holes come from supernovae."
+   },
+   {
+    "id": "M13",
+    "q": "Which statement correctly compares a red giant with a white dwarf?",
+    "options": [
+     "The red giant is larger and has a lower surface temperature",
+     "The red giant is smaller and hotter",
+     "The white dwarf is brighter and larger",
+     "Both have fusion in their cores"
+    ],
+    "answer": 0,
+    "explain": "A red giant is huge with a cool (red) surface; a white dwarf is tiny and hot. Fusion still happens in a red giant but not in a white dwarf."
+   },
+   {
+    "id": "M14",
+    "q": "Why does a white dwarf slowly fade?",
+    "options": [
+     "It is moving away from the Earth",
+     "It is losing mass in a supernova",
+     "No fusion takes place in it, so it cools",
+     "Its hydrogen fusion speeds up"
+    ],
+    "answer": 2,
+    "explain": "A white dwarf has no fusion. It is just a hot leftover core that gradually cools and fades."
+   },
+   {
+    "id": "M15",
+    "q": "Which of these is much denser than a red giant?",
+    "options": [
+     "A nebula",
+     "A white dwarf",
+     "A red supergiant",
+     "A protostar"
+    ],
+    "answer": 1,
+    "explain": "A white dwarf packs about a Sun's worth of mass into something about the size of the Earth, so it is extremely dense. A red giant is spread out and has low density."
+   },
+   {
+    "id": "M16",
+    "q": "What is a planetary nebula?",
+    "options": [
+     "A cloud of gas from which planets form",
+     "A planet that has been destroyed by its star",
+     "A disc of rocks around a young star",
+     "The shell of gas thrown off by a red giant"
+    ],
+    "answer": 3,
+    "explain": "Despite the name, it has nothing to do with planets. It is the outer layers of a red giant, leaving a white dwarf in the middle."
+   },
+   {
+    "id": "M17",
+    "q": "A star much more massive than the Sun leaves the main sequence. What does it become?",
+    "options": [
+     "A red supergiant",
+     "A white dwarf",
+     "A red giant, then a white dwarf",
+     "A nebula"
+    ],
+    "answer": 0,
+    "explain": "High-mass stars become red supergiants, then explode as supernovae."
+   },
+   {
+    "id": "M18",
+    "q": "What happens to a red supergiant at the end of its life?",
+    "options": [
+     "It explodes as a supernova",
+     "It shrinks quietly into a white dwarf",
+     "It becomes a main sequence star again",
+     "It turns into a nebula and forms planets"
+    ],
+    "answer": 0,
+    "explain": "A red supergiant collapses and explodes as a supernova, leaving a neutron star or a black hole."
+   },
+   {
+    "id": "M19",
+    "q": "After a supernova, what can be left behind?",
+    "options": [
+     "A red giant or a white dwarf",
+     "A protostar or a nebula",
+     "A main sequence star",
+     "A neutron star or a black hole"
+    ],
+    "answer": 3,
+    "explain": "The remnant of a supernova is a neutron star, or for the most massive stars, a black hole."
+   },
+   {
+    "id": "M20",
+    "q": "Rigel has 21 solar masses. Sirius has 2 solar masses. Which statement is correct?",
+    "options": [
+     "Both will become white dwarfs",
+     "Rigel will become a red giant and Sirius a supernova",
+     "Rigel will become a supernova and Sirius a white dwarf",
+     "Both will become black holes"
+    ],
+    "answer": 2,
+    "explain": "Rigel is a high-mass star: red supergiant, supernova, neutron star. Sirius is low mass, like the Sun: red giant, white dwarf."
+   },
+   {
+    "id": "M21",
+    "q": "What is absolute magnitude?",
+    "options": [
+     "How bright a star looks from Earth",
+     "The mass of a star compared with the Sun",
+     "The surface temperature of a star",
+     "The brightness of a star at a standard distance"
+    ],
+    "answer": 3,
+    "explain": "Absolute magnitude is brightness at a standard distance. Two marks in 2024: brightness (1), standard distance (1)."
+   },
+   {
+    "id": "M22",
+    "q": "Why is absolute magnitude used instead of how bright stars look from Earth?",
+    "options": [
+     "It removes the effect of different distances",
+     "It measures the star's temperature more accurately",
+     "It shows how old the star is",
+     "It includes the mass of the star"
+    ],
+    "answer": 0,
+    "explain": "How bright a star looks depends on how far away it is. Comparing at the same standard distance is a fair comparison of the stars themselves."
+   },
+   {
+    "id": "M23",
+    "q": "Star P has an absolute magnitude of −3. Star Q has an absolute magnitude of +6. Which is correct?",
+    "options": [
+     "Q gives out more light because its number is bigger",
+     "They give out the same light",
+     "P gives out more light because a lower number means brighter",
+     "You cannot tell without their distances"
+    ],
+    "answer": 2,
+    "explain": "The magnitude scale runs backwards: lower (more negative) means brighter. Absolute magnitude already accounts for distance."
+   },
+   {
+    "id": "M24",
+    "q": "On an HR diagram, what is plotted on the vertical axis?",
+    "options": [
+     "Surface temperature",
+     "Absolute magnitude",
+     "Mass",
+     "Distance from Earth"
+    ],
+    "answer": 1,
+    "explain": "The vertical axis is absolute magnitude (brightness), with the brightest stars at the top. Colour or temperature goes along the horizontal axis."
+   },
+   {
+    "id": "M25",
+    "q": "On an HR diagram, where are the hottest stars?",
+    "options": [
+     "On the right",
+     "At the bottom",
+     "At the top",
+     "On the left"
+    ],
+    "answer": 3,
+    "explain": "The temperature axis runs 'backwards': hot blue stars on the left, cool red stars on the right."
+   },
+   {
+    "id": "M26",
+    "q": "On an HR diagram, where are white dwarfs found?",
+    "options": [
+     "Top right",
+     "Top left",
+     "Bottom left",
+     "Along the main sequence"
+    ],
+    "answer": 2,
+    "explain": "White dwarfs are hot (left) but dim (bottom), because they are tiny."
+   },
+   {
+    "id": "M27",
+    "q": "On an HR diagram, where are red giants found?",
+    "options": [
+     "Bottom left",
+     "Top right",
+     "Bottom right",
+     "Top left"
+    ],
+    "answer": 1,
+    "explain": "Red giants are cool (right) but very bright (top), because they are enormous."
+   },
+   {
+    "id": "M28",
+    "q": "Which describes the main sequence on an HR diagram?",
+    "options": [
+     "A diagonal band from top left to bottom right",
+     "A horizontal line across the middle",
+     "A vertical line on the right-hand side",
+     "A small group at the bottom left"
+    ],
+    "answer": 0,
+    "explain": "The main sequence runs from hot, bright stars at the top left to cool, dim stars at the bottom right. The Sun is in the middle of it."
+   },
+   {
+    "id": "M29",
+    "q": "According to the Big Bang theory, how have the size and temperature of the universe changed?",
+    "options": [
+     "It has been expanding and cooling",
+     "It has been expanding and heating up",
+     "It has been shrinking and cooling",
+     "Its size and temperature have stayed the same"
+    ],
+    "answer": 0,
+    "explain": "The universe began extremely hot and dense at a single point. Since then it has expanded and cooled. One mark for each idea in 2022."
+   },
+   {
+    "id": "M30",
+    "q": "Which two pieces of evidence support the Big Bang theory?",
+    "options": [
+     "Fusion in stars and the colours of stars",
+     "Red-shift of galaxies and the CMB radiation",
+     "Black holes and supernovae",
+     "The orbits of planets and comets"
+    ],
+    "answer": 1,
+    "explain": "The spec names red-shift and cosmic microwave background (CMB) radiation as the evidence."
+   },
+   {
+    "id": "M31",
+    "q": "A galaxy is moving away from the Earth. What happens to the light we receive from it?",
+    "options": [
+     "Its wavelength decreases and frequency increases",
+     "It travels more slowly than normal light",
+     "Its wavelength increases and frequency decreases",
+     "It turns completely red"
+    ],
+    "answer": 2,
+    "explain": "The source moves away between wavefronts, so they arrive further apart: longer wavelength, lower frequency. The speed of light is unchanged. The light is shifted towards the red end, not turned red."
+   },
+   {
+    "id": "M32",
+    "q": "Light from a galaxy moving towards the Earth is observed. What is this called?",
+    "options": [
+     "Red-shift",
+     "Refraction",
+     "Background radiation",
+     "Blue-shift"
+    ],
+    "answer": 3,
+    "explain": "A source moving towards us gives a shorter wavelength and higher frequency: a shift towards the blue end."
+   },
+   {
+    "id": "M33",
+    "q": "In the equation Δλ ÷ λ₀ = v ÷ c, what is λ₀?",
+    "options": [
+     "The wavelength observed on Earth",
+     "The reference wavelength, as emitted by the source",
+     "The change in wavelength",
+     "The wavelength of microwaves"
+    ],
+    "answer": 1,
+    "explain": "λ₀ is the reference wavelength. Using the observed wavelength instead cost all but 1 mark in 2023."
+   },
+   {
+    "id": "M34",
+    "q": "Light with a reference wavelength of 600 nm arrives with a wavelength of 612 nm. Speed of light = 3.0 × 10⁸ m/s. What is the speed of the galaxy?",
+    "options": [
+     "5.9 × 10⁶ m/s",
+     "1.2 × 10⁷ m/s",
+     "6.0 × 10⁶ m/s",
+     "3.6 × 10⁹ m/s"
+    ],
+    "answer": 2,
+    "explain": "Δλ = 12 nm. v = (12 ÷ 600) × 3.0 × 10⁸ = 6.0 × 10⁶ m/s. Dividing by 612 (the observed wavelength) gives 5.9 × 10⁶, the classic error."
+   },
+   {
+    "id": "M35",
+    "q": "A galaxy moves away at 1.5 × 10⁷ m/s. Light is emitted at 6.0 × 10⁻⁷ m. Speed of light = 3.0 × 10⁸ m/s. What is the change in wavelength?",
+    "options": [
+     "3.0 × 10⁻⁸ m",
+     "6.3 × 10⁻⁷ m",
+     "3.0 × 10⁻⁶ m",
+     "1.2 × 10⁻⁵ m"
+    ],
+    "answer": 0,
+    "explain": "Δλ = 6.0 × 10⁻⁷ × (1.5 × 10⁷ ÷ 3.0 × 10⁸) = 6.0 × 10⁻⁷ × 0.05 = 3.0 × 10⁻⁸ m. 6.3 × 10⁻⁷ m is the received wavelength, not the change."
+   },
+   {
+    "id": "M36",
+    "q": "What do astronomers observe about the red-shift of galaxies at different distances?",
+    "options": [
+     "Nearer galaxies have greater red-shift",
+     "All galaxies have the same red-shift",
+     "Only nearby galaxies are red-shifted",
+     "The further away the galaxy, the greater the red-shift"
+    ],
+    "answer": 3,
+    "explain": "Greater red-shift for more distant galaxies means the further away a galaxy is, the faster it is moving away."
+   },
+   {
+    "id": "M37",
+    "q": "Galaxy B has twice the red-shift of galaxy A. What does this tell you?",
+    "options": [
+     "B is twice as hot as A",
+     "B is moving away twice as fast as A",
+     "B is twice as massive as A",
+     "B is moving towards us"
+    ],
+    "answer": 1,
+    "explain": "Red-shift is proportional to speed: twice the red-shift, twice the speed of recession. This link was the first mark in 2023 2P Q7(b)(iii)."
+   },
+   {
+    "id": "M38",
+    "q": "Why is the red-shift of galaxies evidence that the universe is expanding?",
+    "options": [
+     "Red light has the longest wavelength",
+     "Galaxies are getting redder as they age",
+     "The further away a galaxy is, the faster it moves away, so galaxies are moving apart",
+     "Stars at the edge of the universe are all red giants"
+    ],
+    "answer": 2,
+    "explain": "Further galaxies move away faster, so galaxies are moving apart: the universe is expanding. Run backwards, it started at a single point."
+   },
+   {
+    "id": "M39",
+    "q": "What is the cosmic microwave background (CMB) radiation?",
+    "options": [
+     "Microwaves from stars in the Milky Way",
+     "Microwave radiation from all directions, left over from the early hot universe",
+     "Radiation given out by black holes",
+     "Microwaves reflected from the Earth's atmosphere"
+    ],
+    "answer": 1,
+    "explain": "The CMB comes from every direction and is left over from the hot early universe. That it is the same in all directions suggests all parts of the universe were once in contact."
+   },
+   {
+    "id": "M40",
+    "q": "Why is the CMB radiation now in the microwave region?",
+    "options": [
+     "Microwaves travel faster than other radiation",
+     "Stars have been giving out more microwaves over time",
+     "The expansion of the universe has stretched its wavelength",
+     "The early universe was cold"
+    ],
+    "answer": 2,
+    "explain": "The radiation was emitted when the universe was very hot, at short wavelengths. As the universe expanded, its wavelength increased into the microwave region."
+   }
+  ],
+  "14-thermal-energy-transfer": [
+   {
+    "id": "M1",
+    "q": "In which direction is thermal energy always transferred between two objects?",
+    "options": [
+     "From the hotter object to the colder object",
+     "From the colder object to the hotter object",
+     "From the larger object to the smaller object",
+     "From the denser object to the less dense object"
+    ],
+    "answer": 0,
+    "explain": "Energy flows from hot to cold until both reach the same temperature. Cold does not flow anywhere."
+   },
+   {
+    "id": "M2",
+    "q": "By which mechanism is energy mainly transferred through a solid metal rod?",
+    "options": [
+     "Convection",
+     "Radiation",
+     "Conduction",
+     "Evaporation"
+    ],
+    "answer": 2,
+    "explain": "Solids transfer energy by conduction. Convection needs a fluid that can flow."
+   },
+   {
+    "id": "M3",
+    "q": "Why are metals better thermal conductors than other solids?",
+    "options": [
+     "Their particles are bigger",
+     "They contain free electrons that carry energy through the metal",
+     "They are always shiny",
+     "Their particles can flow like a liquid"
+    ],
+    "answer": 1,
+    "explain": "Metals have free (delocalised) electrons that move through the metal and carry energy quickly, on top of the vibrating particles."
+   },
+   {
+    "id": "M4",
+    "q": "Which mechanism of energy transfer can take place through a vacuum?",
+    "options": [
+     "Conduction",
+     "Convection",
+     "Conduction and convection",
+     "Radiation"
+    ],
+    "answer": 3,
+    "explain": "Infrared radiation is an electromagnetic wave and needs no medium. Conduction and convection both need particles."
+   },
+   {
+    "id": "M5",
+    "q": "When air is heated, why does it rise?",
+    "options": [
+     "Heat always rises",
+     "It becomes less dense",
+     "Its particles get bigger",
+     "It becomes denser"
+    ],
+    "answer": 1,
+    "explain": "The particles move faster and spread further apart, so the air expands and becomes less dense. The particles themselves do not get bigger."
+   },
+   {
+    "id": "M6",
+    "q": "Which type of surface is the best absorber of infrared radiation?",
+    "options": [
+     "Dark and matt",
+     "Light and shiny",
+     "Dark and shiny",
+     "Light and matt"
+    ],
+    "answer": 0,
+    "explain": "Dark matt surfaces are the best absorbers (and emitters). Light shiny surfaces are the worst."
+   },
+   {
+    "id": "M7",
+    "q": "Which type of surface is the poorest emitter of infrared radiation?",
+    "options": [
+     "Matt black",
+     "Dull grey",
+     "Matt white",
+     "Shiny silver"
+    ],
+    "answer": 3,
+    "explain": "Light shiny surfaces are the poorest emitters and the best reflectors."
+   },
+   {
+    "id": "M8",
+    "q": "In which states of matter can convection take place?",
+    "options": [
+     "Solids only",
+     "Solids and liquids",
+     "Liquids and gases",
+     "Solids, liquids and gases"
+    ],
+    "answer": 2,
+    "explain": "Convection needs the material to flow, so it only happens in fluids: liquids and gases. Particles in a solid are fixed in place."
+   },
+   {
+    "id": "M9",
+    "q": "Which is the best description of conduction in a non-metal solid?",
+    "options": [
+     "Warm parts of the solid rise and cool parts sink",
+     "Particles vibrate more and pass energy to neighbouring particles",
+     "Infrared waves pass through the solid",
+     "Free electrons carry energy through the solid"
+    ],
+    "answer": 1,
+    "explain": "In a non-metal there are no free electrons, so energy passes only by vibrating particles passing energy to their neighbours."
+   },
+   {
+    "id": "M10",
+    "q": "What is the main purpose of the vacuum in a vacuum flask?",
+    "options": [
+     "To reduce radiation",
+     "To reflect infrared back into the flask",
+     "To stop evaporation from the top",
+     "To stop conduction and convection"
+    ],
+    "answer": 3,
+    "explain": "A vacuum has no particles, so conduction and convection cannot happen across it. Radiation can still cross a vacuum; the silvering deals with that."
+   },
+   {
+    "id": "M11",
+    "q": "Why are the walls of a vacuum flask silvered?",
+    "options": [
+     "To reduce energy transfer by radiation",
+     "To stop conduction",
+     "To stop convection",
+     "To make the flask stronger"
+    ],
+    "answer": 0,
+    "explain": "Shiny surfaces are poor emitters and good reflectors of infrared, so they reduce transfer by radiation."
+   },
+   {
+    "id": "M12",
+    "q": "Why is the heating element of a kettle placed at the bottom?",
+    "options": [
+     "Because heat always travels downwards",
+     "Because water conducts energy well",
+     "So that convection currents carry heated water upwards through all the water",
+     "So that the element is kept away from the lid"
+    ],
+    "answer": 2,
+    "explain": "Heated water at the bottom becomes less dense and rises; cooler, denser water sinks to be heated. A convection current heats all the water."
+   },
+   {
+    "id": "M13",
+    "q": "Why is the freezer compartment usually at the top of a fridge?",
+    "options": [
+     "Cold air rises to the top",
+     "Cooled air becomes denser and sinks, setting up a convection current",
+     "Cold is conducted downwards through the shelves",
+     "Infrared is reflected downwards"
+    ],
+    "answer": 1,
+    "explain": "Air cooled at the top is denser and sinks; warmer air rises to be cooled, so the whole fridge is cooled by convection."
+   },
+   {
+    "id": "M14",
+    "q": "Loft insulation such as mineral wool reduces energy transfer mainly because it:",
+    "options": [
+     "reflects infrared back into the house",
+     "is a metal",
+     "contains free electrons",
+     "traps air, which is a poor conductor and cannot form convection currents"
+    ],
+    "answer": 3,
+    "explain": "Trapped air is a poor conductor, and because it cannot move, convection currents cannot form."
+   },
+   {
+    "id": "M15",
+    "q": "Why is an empty wall cavity a poorer insulator than one filled with foam?",
+    "options": [
+     "Air in an empty cavity can circulate in convection currents",
+     "Air is a good conductor",
+     "Foam is a good emitter of infrared",
+     "Foam contains free electrons"
+    ],
+    "answer": 0,
+    "explain": "In an empty cavity the air can move and carry energy by convection. Foam traps the air in small pockets so it cannot circulate."
+   },
+   {
+    "id": "M16",
+    "q": "How does energy from the Sun reach the Earth?",
+    "options": [
+     "By conduction through space",
+     "By convection currents in space",
+     "By infrared and other electromagnetic radiation",
+     "By conduction and convection together"
+    ],
+    "answer": 2,
+    "explain": "Space is a vacuum with no particles, so only radiation can cross it."
+   },
+   {
+    "id": "M17",
+    "q": "Two identical cans, one matt black and one shiny silver, are filled with the same volume of hot water at the same temperature. What happens?",
+    "options": [
+     "The silver can cools faster",
+     "Both cool at the same rate",
+     "The black can cools faster",
+     "Neither can cools"
+    ],
+    "answer": 2,
+    "explain": "Matt black is a better emitter of infrared, so the black can loses energy faster and cools faster."
+   },
+   {
+    "id": "M18",
+    "q": "Two identical bottles of cold water, one black and one silver, are placed the same distance from an infrared heater. What happens?",
+    "options": [
+     "The silver bottle warms faster because it reflects infrared",
+     "Both warm at the same rate",
+     "Neither warms, because infrared needs a medium",
+     "The black bottle warms faster because it is a better absorber"
+    ],
+    "answer": 3,
+    "explain": "Black absorbs more infrared, so more energy is transferred to it in the same time. Both warm up; black is always ahead."
+   },
+   {
+    "id": "M19",
+    "q": "White snow in direct sunlight takes a long time to melt. Why?",
+    "options": [
+     "White snow is a poor absorber and good reflector of infrared",
+     "White snow is a good conductor",
+     "White snow is a good absorber of infrared",
+     "Convection currents carry energy into the snow"
+    ],
+    "answer": 0,
+    "explain": "White surfaces reflect most infrared and absorb little, so the snow gains energy slowly."
+   },
+   {
+    "id": "M20",
+    "q": "Snow melts faster on a metal drain cover than on the ground around it. Which is the best explanation?",
+    "options": [
+     "Cold is conducted from the snow into the metal",
+     "The metal is a good conductor, so energy is transferred from the warmer metal to the snow",
+     "The metal reflects infrared onto the snow",
+     "The metal is a good emitter of convection"
+    ],
+    "answer": 1,
+    "explain": "Energy goes from the warmer metal into the colder snow by conduction. The direction matters: cold is not what moves."
+   },
+   {
+    "id": "M21",
+    "q": "What happens to the amount of infrared radiation an object emits as its temperature rises?",
+    "options": [
+     "It decreases",
+     "It stays the same",
+     "It becomes zero above 100 °C",
+     "It increases"
+    ],
+    "answer": 3,
+    "explain": "The hotter an object is, the more infrared radiation it emits."
+   },
+   {
+    "id": "M22",
+    "q": "What is meant by thermal equilibrium?",
+    "options": [
+     "The objects have the same mass",
+     "The objects are at the same temperature, so there is no net energy transfer",
+     "The objects are both at 0 °C",
+     "Energy transfer is at its fastest"
+    ],
+    "answer": 1,
+    "explain": "When temperatures are equal there is no temperature difference, so no net energy transfer."
+   },
+   {
+    "id": "M23",
+    "q": "Why does a cooling curve level off over time?",
+    "options": [
+     "The object runs out of particles",
+     "Radiation stops at low temperatures",
+     "The temperature difference gets smaller, so the rate of energy transfer decreases",
+     "Convection reverses direction"
+    ],
+    "answer": 2,
+    "explain": "The rate of transfer depends on the temperature difference. As the object approaches room temperature, the transfer slows."
+   },
+   {
+    "id": "M24",
+    "q": "Why is air a poor conductor of thermal energy?",
+    "options": [
+     "Its particles are far apart",
+     "It is transparent",
+     "Its particles do not move",
+     "It contains free electrons"
+    ],
+    "answer": 0,
+    "explain": "Gas particles are widely spaced, so they rarely pass energy on by collisions. That is why trapped air is used in insulation."
+   },
+   {
+    "id": "M25",
+    "q": "A metal spoon and a wooden spoon are at the same temperature. Why does the metal spoon feel colder to touch?",
+    "options": [
+     "The metal is at a lower temperature",
+     "The metal conducts energy away from your hand faster",
+     "The wood emits more infrared",
+     "The metal absorbs cold from the air"
+    ],
+    "answer": 1,
+    "explain": "Both are at the same temperature. Metal is a good conductor, so energy leaves your hand faster and it feels colder."
+   },
+   {
+    "id": "M26",
+    "q": "Why does a saucepan have a plastic handle?",
+    "options": [
+     "Plastic is a good conductor",
+     "Plastic reflects infrared",
+     "Plastic is a poor conductor, so little energy reaches your hand",
+     "Plastic stops convection in the water"
+    ],
+    "answer": 2,
+    "explain": "Plastic is an insulator (poor conductor), so the handle stays cool."
+   },
+   {
+    "id": "M27",
+    "q": "A lid is put on a cup of hot water. Which change does it cause?",
+    "options": [
+     "The water cools faster",
+     "Conduction through the sides stops completely",
+     "The water absorbs more infrared",
+     "Less energy is lost from the surface by convection and evaporation, so it cools more slowly"
+    ],
+    "answer": 3,
+    "explain": "A lid cuts losses from the top by convection and evaporation, so the water stays warmer for longer."
+   },
+   {
+    "id": "M28",
+    "q": "Which statement about conduction and convection is correct?",
+    "options": [
+     "Both need particles",
+     "Both can happen in a vacuum",
+     "Only conduction needs particles",
+     "Only convection needs particles"
+    ],
+    "answer": 0,
+    "explain": "Conduction needs particles to pass on vibrations; convection needs a fluid to flow. Only radiation needs no particles."
+   },
+   {
+    "id": "M29",
+    "q": "A convection current is set up in a beaker of water heated at one side of the base. Where does the heated water go?",
+    "options": [
+     "It sinks to the bottom",
+     "It rises above the heat, then moves across and sinks on the other side",
+     "It stays where it is",
+     "It moves sideways along the bottom only"
+    ],
+    "answer": 1,
+    "explain": "Heated water is less dense and rises; it spreads across the top, cools and sinks on the far side, forming a circulating current."
+   },
+   {
+    "id": "M30",
+    "q": "Which is the correct explanation of why warm water is less dense than cold water?",
+    "options": [
+     "The water particles get bigger",
+     "The water particles get lighter",
+     "The water loses mass",
+     "The water particles move further apart, so the same mass takes up more volume"
+    ],
+    "answer": 3,
+    "explain": "Particles speed up and move further apart; the same mass fills a bigger volume, so density falls. Particles do not grow or lose mass."
+   },
+   {
+    "id": "M31",
+    "q": "In a conduction practical, pins are fixed with wax to the ends of rods of different metals and the other ends are heated equally. How is the best conductor identified?",
+    "options": [
+     "Its pin falls off last",
+     "Its rod glows first",
+     "Its pin falls off first",
+     "Its rod stays coolest"
+    ],
+    "answer": 2,
+    "explain": "The best conductor carries energy to the far end fastest, so its wax melts and its pin drops first."
+   },
+   {
+    "id": "M32",
+    "q": "In the conduction practical in the previous question, which variable must be kept the same for a fair test?",
+    "options": [
+     "The length and thickness of the rods",
+     "The type of metal",
+     "The time for each pin to fall",
+     "The colour of the pins"
+    ],
+    "answer": 0,
+    "explain": "Rods must be the same length and thickness so that only the material changes. The metal is the independent variable and the time is the dependent variable."
+   },
+   {
+    "id": "M33",
+    "q": "A metal cube has one matt black face and one shiny silver face and is filled with hot water. Why must an infrared detector be held the same distance from each face?",
+    "options": [
+     "So the water cools evenly",
+     "So the detector does not melt",
+     "So convection is prevented",
+     "Because the reading also depends on distance, so only the surface should change"
+    ],
+    "answer": 3,
+    "explain": "It is a control variable. Changing the distance would change the reading as well as the surface."
+   },
+   {
+    "id": "M34",
+    "q": "A spinning satellite has a dull black bar and a shiny white bar. When the bars face away from the Sun, what happens?",
+    "options": [
+     "The white bar cools faster because it is a better emitter",
+     "The black bar cools faster because it is a better emitter",
+     "Both cool by convection",
+     "Neither cools, because space is a vacuum"
+    ],
+    "answer": 1,
+    "explain": "Black is the better emitter, so it loses energy by radiation faster. There is no convection or conduction in space because there are no particles."
+   },
+   {
+    "id": "M35",
+    "q": "Why is shiny foil sometimes placed on the wall behind a room heater?",
+    "options": [
+     "To conduct energy into the wall",
+     "To absorb infrared",
+     "To reflect infrared back into the room",
+     "To start a convection current"
+    ],
+    "answer": 2,
+    "explain": "A shiny surface is a good reflector, so infrared that would warm the wall is sent back into the room."
+   },
+   {
+    "id": "M36",
+    "q": "A room heater is often called a radiator. By which mechanism does it transfer most of its energy to the room?",
+    "options": [
+     "Radiation only",
+     "Conduction through the air",
+     "Convection",
+     "Evaporation"
+    ],
+    "answer": 2,
+    "explain": "Air next to the heater warms, rises and is replaced by cooler air: most of the energy spreads round the room by convection."
+   },
+   {
+    "id": "M37",
+    "q": "On a still day, a convection current in the air above snow slows its melting. Why?",
+    "options": [
+     "Warm air rises away, leaving the coldest air next to the snow",
+     "Cold air rises away from the snow",
+     "The air reflects infrared onto the snow",
+     "Convection carries energy downwards into the snow"
+    ],
+    "answer": 0,
+    "explain": "Warmer air rises; the coldest, densest air stays nearest the snow, so the rate of energy transfer to the snow falls."
+   },
+   {
+    "id": "M38",
+    "q": "Why does double glazing reduce energy loss through a window?",
+    "options": [
+     "The glass is a good conductor",
+     "The gap between the panes contains air or a vacuum, which conducts poorly",
+     "It reflects all visible light",
+     "It increases convection through the glass"
+    ],
+    "answer": 1,
+    "explain": "The layer of air (or vacuum) between the panes reduces conduction, and a narrow gap limits convection."
+   },
+   {
+    "id": "M39",
+    "q": "Why does a wool jumper keep you warm?",
+    "options": [
+     "Wool gives out energy",
+     "Wool is a good emitter of infrared",
+     "Wool contains free electrons",
+     "Wool traps air, which reduces conduction and convection"
+    ],
+    "answer": 3,
+    "explain": "The fibres trap air. Trapped air is a poor conductor and cannot form convection currents, so energy leaves your body slowly."
+   },
+   {
+    "id": "M40",
+    "q": "Black paint on a car hardens faster than white paint under infrared lamps. Which explanation earns the marks?",
+    "options": [
+     "Black absorbs more infrared, so more energy is transferred to it",
+     "Black attracts heat",
+     "White paint is thicker",
+     "White paint emits more infrared"
+    ],
+    "answer": 0,
+    "explain": "Name the process and link it to colour: black is a better absorber of infrared, so it gains more energy in the same time. \"Attracts heat\" scores nothing."
+   }
   ]
  }
 }

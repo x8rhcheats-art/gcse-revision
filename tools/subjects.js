@@ -31,7 +31,7 @@ module.exports = {
       outDir: 'site/diagnostic/physics',
     },
     equationGlossary: 'tools/physics/equation-glossary.json',
-    mcqBanks: ['tools/physics/mcq-bank-1.json', 'tools/physics/mcq-bank-2.json', 'tools/physics/mcq-bank-3.json'],
+    mcqBanks: ['tools/physics/mcq-bank-1.json', 'tools/physics/mcq-bank-2.json', 'tools/physics/mcq-bank-3.json', 'tools/physics/mcq-bank-4.json'],
     specPoints: 'tools/physics/spec-points.json',
     examReference: 'tools/physics/exam-reference.json',
     predictions: 'tools/physics/predictions.json',
@@ -43,7 +43,12 @@ module.exports = {
     scheduleFrom: 'site/index.html',
     // physics-only extras surfaced in the app
     completePack: 'complete-pack.html',
-    plannedModules: 9,
+    plannedModules: 14,
+    // 01-09 are the resit topics; 10-14 are the rest of the 4PH1 spec
+    moduleGroups: [
+      { title: 'Resit topics', from: 1, to: 9 },
+      { title: 'Year 11 — rest of the spec', from: 10, to: 14 },
+    ],
   },
 
   // Content for these two is being authored from the school material in
@@ -65,8 +70,12 @@ module.exports = {
     officialPapers: 'tools/chemistry/official-papers.json',
     pastPapers: ['tools/chemistry/past-papers.json', 'tools/chemistry/real-papers.json'],
     pastPaperSchemes: ['tools/chemistry/past-papers-schemes.json', 'tools/chemistry/real-papers-schemes.json'],
-    mcqBanks: ['tools/chemistry/mcq-bank-1.json', 'tools/chemistry/mcq-bank-2.json', 'tools/chemistry/mcq-bank-3.json', 'tools/chemistry/mcq-bank-4.json', 'tools/chemistry/mcq-bank-5.json'],
-    plannedModules: 10,
+    mcqBanks: ['tools/chemistry/mcq-bank-1.json', 'tools/chemistry/mcq-bank-2.json', 'tools/chemistry/mcq-bank-3.json', 'tools/chemistry/mcq-bank-4.json', 'tools/chemistry/mcq-bank-5.json', 'tools/chemistry/mcq-bank-6.json'],
+    plannedModules: 17,
+    moduleGroups: [
+      { title: 'Year 10', from: 1, to: 10 },
+      { title: 'Year 11', from: 11, to: 17 },
+    ],
   },
 
   biology: {

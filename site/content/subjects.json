@@ -9,8 +9,19 @@
    "standfirst": "Resit Monday 7 September",
    "examDate": "2026-09-07",
    "completePack": "complete-pack.html",
-   "plannedModules": 9,
-   "moduleGroups": null,
+   "plannedModules": 14,
+   "moduleGroups": [
+    {
+     "title": "Resit topics",
+     "from": 1,
+     "to": 9
+    },
+    {
+     "title": "Year 11 — rest of the spec",
+     "from": 10,
+     "to": 14
+    }
+   ],
    "officialPapers": {
     "comment": "Real Edexcel International GCSE Physics (4PH1) papers, triple science Paper 1P and 2P. Links only — the PDFs are hosted by Physics & Maths Tutor, not copied into this app. Every link checked to return a PDF.",
     "source": "Physics & Maths Tutor",
@@ -179,8 +190,8 @@
      }
     ]
    },
-   "moduleCount": 13,
-   "mcqCount": 332,
+   "moduleCount": 14,
+   "mcqCount": 532,
    "paperCount": 20
   },
   {
@@ -192,8 +203,19 @@
    "standfirst": "GCSE summer 2027 — long-haul revision, no exam date yet",
    "examDate": null,
    "completePack": null,
-   "plannedModules": 10,
-   "moduleGroups": null,
+   "plannedModules": 17,
+   "moduleGroups": [
+    {
+     "title": "Year 10",
+     "from": 1,
+     "to": 10
+    },
+    {
+     "title": "Year 11",
+     "from": 11,
+     "to": 17
+    }
+   ],
    "officialPapers": {
     "comment": "Real Edexcel International GCSE Chemistry (4CH1) papers, triple science Paper 1C and 2C. Links only — the PDFs are hosted by Physics & Maths Tutor, not copied into this app. Every link checked to return a PDF.",
     "source": "Physics & Maths Tutor",
@@ -362,8 +384,8 @@
      }
     ]
    },
-   "moduleCount": 16,
-   "mcqCount": 515,
+   "moduleCount": 17,
+   "mcqCount": 795,
    "paperCount": 15
   },
   {

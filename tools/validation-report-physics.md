@@ -1,6 +1,6 @@
 # Extraction validation report — Physics
 
-Generated 2026-09-18T21:52:38.512Z from 13 modules, 2 mocks, 1 diagnostic.
+Generated 2026-09-18T21:58:05.087Z from 14 modules, 2 mocks, 1 diagnostic.
 
 ## Counts
 - 01-forces-and-motion: 12 teach subsections, 5 sheet subsections, 6 eq, 11 def, 6 trap, 12 understanding, 22 drill
@@ -12,31 +12,29 @@ Generated 2026-09-18T21:52:38.512Z from 13 modules, 2 mocks, 1 diagnostic.
 - 07-practical-and-data-skills: 11 teach subsections, 6 sheet subsections, 0 eq, 0 def, 5 trap, 8 understanding, 14 drill
 - 08-energy: 10 teach subsections, 8 sheet subsections, 6 eq, 0 def, 0 trap, 8 understanding, 15 drill
 - 09-motion-in-the-universe: 7 teach subsections, 4 sheet subsections, 2 eq, 8 def, 7 trap, 5 understanding, 6 drill
-- 10-magnetism-and-electromagnetism: 14 teach subsections, 4 sheet subsections, 6 eq, 13 def, 9 trap, 8 understanding, 15 drill
+- 10-magnetism-and-electromagnetism: 14 teach subsections, 4 sheet subsections, 3 eq, 13 def, 9 trap, 8 understanding, 15 drill
 - 11-momentum: 13 teach subsections, 4 sheet subsections, 2 eq, 7 def, 8 trap, 8 understanding, 15 drill
 - 12-light-and-refraction: 14 teach subsections, 4 sheet subsections, 2 eq, 10 def, 8 trap, 8 understanding, 15 drill
+- 13-stars-and-the-universe: 14 teach subsections, 4 sheet subsections, 1 eq, 10 def, 9 trap, 8 understanding, 15 drill
 - 14-thermal-energy-transfer: 14 teach subsections, 3 sheet subsections, 0 eq, 9 def, 9 trap, 8 understanding, 15 drill
 - mock-1: 10 questions, 100 marks
 - mock-2: 9 questions, 90 marks
 - diagnostic: 8 sections, 63 marks
 - diagnostic: rendered site/diagnostic/diagnostic.html and diagnostic-markscheme.html
 - past papers: 17 papers, 145 questions
-- mcq bank: 332 questions across 8 modules
+- mcq bank: 532 questions across 13 modules
 - spec tick-sheet: 136 points across 6 topics
 - exam reference: 29 technique rules, 4 diagram checklists, 9 given formulae
 - predictions: 16 items across 4 bands
-- taggable itemIds: 960
+- taggable itemIds: 1024
 
 ## Formula symbol keys
 coverage: every formula has a symbol key
 
-## Warnings (9)
+## Warnings (6)
 - unparsed past-paper ref cell: "Topic test Q5 (7)"
 - unparsed past-paper ref cell: "Topic test Q6 (5)"
 - unparsed past-paper ref cell: "Topic test Q7 (10)"
 - unparsed past-paper ref cell: "Topic test Q8 (11)"
-- itemId collision resolved by suffix: 10-magnetism-and-electromagnetism/eq/transformer-turns-ratio-2
-- itemId collision resolved by suffix: 10-magnetism-and-electromagnetism/eq/transformer-power-100-efficient-2
-- itemId collision resolved by suffix: 10-magnetism-and-electromagnetism/eq/electrical-power-2
 - mock-1: question marks sum to 100, header says 90
 - diagnostic section D (Static Electricity): marks sum to 7, expected 8

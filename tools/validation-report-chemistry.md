@@ -1,6 +1,6 @@
 # Extraction validation report — Chemistry
 
-Generated 2026-09-18T21:52:38.916Z from 16 modules, 0 mocks, 0 diagnostic.
+Generated 2026-09-18T21:58:05.553Z from 17 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-atomic-structure: 11 teach subsections, 4 sheet subsections, 2 eq, 9 def, 7 trap, 8 understanding, 15 drill
@@ -18,13 +18,14 @@ Generated 2026-09-18T21:52:38.916Z from 16 modules, 0 mocks, 0 diagnostic.
 - 13-reactivity-rusting-and-alloys: 16 teach subsections, 4 sheet subsections, 17 eq, 9 def, 10 trap, 8 understanding, 15 drill
 - 14-chemical-tests: 14 teach subsections, 4 sheet subsections, 11 eq, 8 def, 10 trap, 8 understanding, 15 drill
 - 15-energetics-and-equilibria: 14 teach subsections, 4 sheet subsections, 6 eq, 8 def, 13 trap, 8 understanding, 15 drill
+- 16-alkenes-and-addition-polymers: 14 teach subsections, 4 sheet subsections, 6 eq, 12 def, 14 trap, 8 understanding, 15 drill
 - 17-alcohols-acids-esters-and-polyesters: 14 teach subsections, 4 sheet subsections, 11 eq, 12 def, 15 trap, 8 understanding, 15 drill
 - past papers: 15 papers, 141 questions
-- mcq bank: 515 questions across 10 modules
+- mcq bank: 795 questions across 17 modules
 - spec tick-sheet: 93 points across 10 topics
 - exam reference: 31 technique rules, 4 diagram checklists, 7 given formulae
 - predictions: 21 items across 4 bands
-- taggable itemIds: 1301
+- taggable itemIds: 1380
 
 ## Formula symbol keys
 coverage: no equation glossary for this subject

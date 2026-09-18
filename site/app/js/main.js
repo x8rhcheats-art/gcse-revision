@@ -30,7 +30,7 @@ import { renderPredict } from './views/predict.js';
 import { renderOfficial } from './views/official.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v38';
+const APP_VERSION = 'v39';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store

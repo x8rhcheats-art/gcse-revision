@@ -1,0 +1,3379 @@
+{
+ "comment": "Chemistry multiple choice for the Year 11 modules 11-17. answer is the 0-based index.",
+ "modules": {
+  "11-groups-1-7-and-0": [
+   {
+    "id": "M1",
+    "q": "Why do lithium, sodium and potassium have similar chemical reactions?",
+    "options": [
+     "They all have one electron in their outer shell",
+     "They all have the same number of shells",
+     "They all have the same number of protons",
+     "They are all soft metals"
+    ],
+    "answer": 0,
+    "explain": "Reactions happen at the outer shell. All Group 1 atoms have one outer electron, so they react in the same way."
+   },
+   {
+    "id": "M2",
+    "q": "What are the products when sodium reacts with water?",
+    "options": [
+     "Sodium oxide and hydrogen",
+     "Sodium hydroxide and hydrogen",
+     "Sodium hydroxide and oxygen",
+     "Sodium oxide and water"
+    ],
+    "answer": 1,
+    "explain": "2Na + 2H₂O → 2NaOH + H₂. A Group 1 metal and water always give a metal hydroxide and hydrogen."
+   },
+   {
+    "id": "M3",
+    "q": "Phenolphthalein is added to the solution left after sodium reacts with water. What colour does it turn?",
+    "options": [
+     "Red",
+     "Purple",
+     "Pink",
+     "Colourless"
+    ],
+    "answer": 2,
+    "explain": "Phenolphthalein turns pink in alkali, and the solution contains OH⁻ ions. The 2024 mark scheme rejected red and purple."
+   },
+   {
+    "id": "M4",
+    "q": "Which observation is seen when potassium reacts with water but NOT when lithium does?",
+    "options": [
+     "Fizzing",
+     "The metal floats",
+     "The metal gets smaller",
+     "A lilac flame"
+    ],
+    "answer": 3,
+    "explain": "Potassium releases so much heat that the hydrogen ignites with a lilac flame. Lithium reacts too slowly for that."
+   },
+   {
+    "id": "M5",
+    "q": "What is the final colour of universal indicator after sodium has reacted with the water it is in?",
+    "options": [
+     "Red",
+     "Blue / purple",
+     "Green",
+     "Yellow"
+    ],
+    "answer": 1,
+    "explain": "The sodium hydroxide solution is alkaline, so universal indicator turns blue or purple."
+   },
+   {
+    "id": "M6",
+    "q": "Why does sodium melt into a ball when it reacts with water?",
+    "options": [
+     "It reacts with oxygen dissolved in the water",
+     "It is denser than water",
+     "The water boils",
+     "The reaction is exothermic and sodium has a low melting point"
+    ],
+    "answer": 3,
+    "explain": "The heat given out is enough to melt sodium, which melts at 98 °C."
+   },
+   {
+    "id": "M7",
+    "q": "Which is the correct order of reactivity, most reactive first?",
+    "options": [
+     "Potassium, sodium, lithium",
+     "Lithium, sodium, potassium",
+     "Sodium, potassium, lithium",
+     "Sodium, lithium, potassium"
+    ],
+    "answer": 0,
+    "explain": "Reactivity increases down Group 1, so potassium is the most reactive of the three."
+   },
+   {
+    "id": "M8",
+    "q": "Why is potassium more reactive than sodium?",
+    "options": [
+     "Potassium has more protons, so it attracts electrons more strongly",
+     "Potassium has more outer electrons to lose",
+     "Potassium's outer electron is further from the nucleus, so it is less strongly attracted",
+     "Potassium has a smaller atomic radius"
+    ],
+    "answer": 2,
+    "explain": "Potassium has more shells, so its outer electron is further from the nucleus and more shielded. It is lost more easily."
+   },
+   {
+    "id": "M9",
+    "q": "Why are Group 1 metals stored under oil?",
+    "options": [
+     "To keep them warm",
+     "To stop them reacting with air and water",
+     "To stop them melting",
+     "To make them easier to cut"
+    ],
+    "answer": 1,
+    "explain": "The oil keeps oxygen and water away from the metal, so it does not tarnish or react."
+   },
+   {
+    "id": "M10",
+    "q": "A freshly cut piece of lithium is shiny but slowly goes dull. What causes this?",
+    "options": [
+     "It reacts with oxygen to form an oxide",
+     "It reacts with nitrogen to form a nitride",
+     "It absorbs water and dissolves",
+     "It melts in the warm air"
+    ],
+    "answer": 0,
+    "explain": "The shiny metal reacts with oxygen in the air to form a dull oxide layer. This is called tarnishing."
+   },
+   {
+    "id": "M11",
+    "q": "The melting points of Li, Na and K are 181 °C, 98 °C and 63 °C. Which is the best prediction for rubidium's melting point?",
+    "options": [
+     "120 °C",
+     "98 °C",
+     "75 °C",
+     "39 °C"
+    ],
+    "answer": 3,
+    "explain": "Melting point decreases down Group 1, so rubidium's must be below 63 °C. Its actual melting point is 39 °C."
+   },
+   {
+    "id": "M12",
+    "q": "What is the formula of rubidium hydroxide?",
+    "options": [
+     "Rb(OH)₂",
+     "RbOH",
+     "Rb₂OH",
+     "RbO"
+    ],
+    "answer": 1,
+    "explain": "Rubidium is in Group 1, so it forms Rb⁺ ions. One Rb⁺ balances one OH⁻."
+   },
+   {
+    "id": "M13",
+    "q": "Which equation for lithium reacting with water is correctly balanced?",
+    "options": [
+     "Li + H₂O → LiOH + H₂",
+     "2Li + H₂O → Li₂O + H₂",
+     "Li + 2H₂O → LiOH + H₂",
+     "2Li + 2H₂O → 2LiOH + H₂"
+    ],
+    "answer": 3,
+    "explain": "There are two H atoms in H₂, so two LiOH and two H₂O are needed, and therefore two Li."
+   },
+   {
+    "id": "M14",
+    "q": "0.46 g of sodium reacts with water. How many moles of hydrogen are made? [Aᵣ of Na = 23]",
+    "options": [
+     "0.020 mol",
+     "0.040 mol",
+     "0.010 mol",
+     "0.46 mol"
+    ],
+    "answer": 2,
+    "explain": "0.46 ÷ 23 = 0.020 mol of Na. Two Na give one H₂, so 0.010 mol of H₂ is made."
+   },
+   {
+    "id": "M15",
+    "q": "What colour and state is chlorine at room temperature?",
+    "options": [
+     "Red-brown liquid",
+     "Pale yellow-green gas",
+     "Grey-black solid",
+     "Colourless gas"
+    ],
+    "answer": 1,
+    "explain": "Chlorine is a pale yellow-green gas. Bromine is the red-brown liquid and iodine is the grey-black solid."
+   },
+   {
+    "id": "M16",
+    "q": "What colour and state is bromine at room temperature?",
+    "options": [
+     "Red-brown liquid",
+     "Pale green gas",
+     "Purple solid",
+     "Grey-black solid"
+    ],
+    "answer": 0,
+    "explain": "Bromine is a red-brown liquid that gives off an orange-brown vapour."
+   },
+   {
+    "id": "M17",
+    "q": "What colour is iodine vapour?",
+    "options": [
+     "Brown",
+     "Orange",
+     "Pale green",
+     "Purple"
+    ],
+    "answer": 3,
+    "explain": "Solid iodine is grey-black, but when it is warmed it gives a purple vapour."
+   },
+   {
+    "id": "M18",
+    "q": "Which halogen has the palest colour?",
+    "options": [
+     "Astatine",
+     "Bromine",
+     "Fluorine",
+     "Iodine"
+    ],
+    "answer": 2,
+    "explain": "Colour darkens down Group 7, so fluorine, at the top, is the palest (pale yellow)."
+   },
+   {
+    "id": "M19",
+    "q": "Which halogen is a solid at room temperature?",
+    "options": [
+     "Astatine",
+     "Bromine",
+     "Chlorine",
+     "Fluorine"
+    ],
+    "answer": 0,
+    "explain": "Melting points rise down Group 7. Iodine and astatine are solids, bromine is a liquid, and chlorine and fluorine are gases."
+   },
+   {
+    "id": "M20",
+    "q": "Why do the boiling points of the halogens increase down the group?",
+    "options": [
+     "The covalent bonds get stronger",
+     "The intermolecular forces get stronger as the molecules get bigger",
+     "The atoms lose electrons more easily",
+     "The ionic bonds get stronger"
+    ],
+    "answer": 1,
+    "explain": "Boiling overcomes the forces between molecules. These get stronger as the molecules get larger. No covalent bonds are broken."
+   },
+   {
+    "id": "M21",
+    "q": "Chlorine water is added to potassium bromide solution. What is seen?",
+    "options": [
+     "No change",
+     "A white precipitate forms",
+     "The solution turns orange",
+     "The solution turns purple"
+    ],
+    "answer": 2,
+    "explain": "Chlorine is more reactive, so it displaces bromine, and bromine in solution is orange."
+   },
+   {
+    "id": "M22",
+    "q": "Bromine water is added to potassium chloride solution. What happens?",
+    "options": [
+     "The solution turns brown",
+     "Chlorine gas is given off",
+     "The solution turns colourless",
+     "There is no change — it stays orange"
+    ],
+    "answer": 3,
+    "explain": "Bromine is less reactive than chlorine, so it cannot displace chlorine. The mixture stays orange."
+   },
+   {
+    "id": "M23",
+    "q": "Bromine water is added to potassium iodide solution. What colour does the solution become?",
+    "options": [
+     "Brown",
+     "Colourless",
+     "Pale green",
+     "Blue-black"
+    ],
+    "answer": 0,
+    "explain": "Bromine displaces iodine, and iodine in solution is brown."
+   },
+   {
+    "id": "M24",
+    "q": "Which mixture will NOT react?",
+    "options": [
+     "Chlorine + potassium iodide",
+     "Iodine + potassium bromide",
+     "Bromine + potassium iodide",
+     "Chlorine + potassium bromide"
+    ],
+    "answer": 1,
+    "explain": "Iodine is less reactive than bromine, so it cannot displace bromine from potassium bromide."
+   },
+   {
+    "id": "M25",
+    "q": "Which is the correct ionic equation for chlorine reacting with bromide ions?",
+    "options": [
+     "Cl₂ + Br⁻ → Cl⁻ + Br₂",
+     "Cl + Br⁻ → Cl⁻ + Br",
+     "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂",
+     "2Cl⁻ + Br₂ → Cl₂ + 2Br⁻"
+    ],
+    "answer": 2,
+    "explain": "Two Br⁻ ions make one Br₂ molecule, and Cl₂ becomes two Cl⁻ ions. Atoms and charges both balance."
+   },
+   {
+    "id": "M26",
+    "q": "In the reaction Cl₂ + 2I⁻ → 2Cl⁻ + I₂, which species is oxidised?",
+    "options": [
+     "Cl₂",
+     "Cl⁻",
+     "I₂",
+     "I⁻"
+    ],
+    "answer": 3,
+    "explain": "Iodide ions lose electrons to form iodine (2I⁻ → I₂ + 2e⁻). Loss of electrons is oxidation."
+   },
+   {
+    "id": "M27",
+    "q": "In a halogen displacement reaction, what is the role of the more reactive halogen?",
+    "options": [
+     "Oxidising agent — it gains electrons",
+     "Reducing agent — it loses electrons",
+     "Catalyst",
+     "Spectator"
+    ],
+    "answer": 0,
+    "explain": "The halogen takes electrons from the halide ion. It is reduced and acts as the oxidising agent."
+   },
+   {
+    "id": "M28",
+    "q": "In the reaction between chlorine and potassium bromide solution, which ions are spectator ions?",
+    "options": [
+     "Bromide ions",
+     "Chloride ions",
+     "Potassium ions",
+     "Hydroxide ions"
+    ],
+    "answer": 2,
+    "explain": "K⁺ ions are unchanged in the reaction, so they are left out of the ionic equation."
+   },
+   {
+    "id": "M29",
+    "q": "Which is the correct half-equation for chlorine in a displacement reaction?",
+    "options": [
+     "Cl₂ → 2Cl⁻ + 2e⁻",
+     "Cl₂ + 2e⁻ → 2Cl⁻",
+     "Cl₂ + e⁻ → Cl⁻",
+     "2Cl⁻ + 2e⁻ → Cl₂"
+    ],
+    "answer": 1,
+    "explain": "Each chlorine atom gains one electron, so Cl₂ gains two electrons to form 2Cl⁻. This is reduction."
+   },
+   {
+    "id": "M30",
+    "q": "Why is fluorine more reactive than chlorine?",
+    "options": [
+     "Fluorine's outer shell is closer to the nucleus, so it attracts an extra electron more strongly",
+     "Fluorine has more electrons in its outer shell",
+     "Fluorine loses electrons more easily",
+     "Fluorine has stronger intermolecular forces"
+    ],
+    "answer": 0,
+    "explain": "Fluorine (2.7) has fewer shells than chlorine (2.8.7), so the nucleus pulls an incoming electron more strongly."
+   },
+   {
+    "id": "M31",
+    "q": "Going down Group 7, what happens to the reactivity of the halogens?",
+    "options": [
+     "It increases",
+     "It stays the same",
+     "It increases, then decreases",
+     "It decreases"
+    ],
+    "answer": 3,
+    "explain": "The outer shell gets further from the nucleus, so an extra electron is gained less readily."
+   },
+   {
+    "id": "M32",
+    "q": "What is the best prediction for what happens when chlorine water is added to sodium astatide solution?",
+    "options": [
+     "No reaction, because astatine is more reactive",
+     "Astatine is displaced, because chlorine is more reactive",
+     "Chlorine is displaced",
+     "Sodium is displaced"
+    ],
+    "answer": 1,
+    "explain": "Astatine is at the bottom of Group 7, so it is the least reactive halogen. Chlorine displaces it."
+   },
+   {
+    "id": "M33",
+    "q": "What is the correct equation for lithium reacting with chlorine?",
+    "options": [
+     "Li + Cl → LiCl",
+     "Li + Cl₂ → LiCl₂",
+     "2Li + Cl₂ → 2LiCl",
+     "Li₂ + Cl₂ → 2LiCl"
+    ],
+    "answer": 2,
+    "explain": "Chlorine is diatomic (Cl₂) and lithium chloride is LiCl, so two lithium atoms are needed."
+   },
+   {
+    "id": "M34",
+    "q": "Why is neon unreactive?",
+    "options": [
+     "It has a full outer shell, so it does not need to lose, gain or share electrons",
+     "It has 10 protons",
+     "It is a gas at room temperature",
+     "It has one electron in its outer shell"
+    ],
+    "answer": 0,
+    "explain": "Neon is 2.8, with a full outer shell. That is stable, so it does not form bonds."
+   },
+   {
+    "id": "M35",
+    "q": "Helium has only 2 outer electrons. Why is it still unreactive?",
+    "options": [
+     "It has no protons",
+     "2 electrons fill its only shell, so its outer shell is full",
+     "It is too light to react",
+     "Its electrons are too far from the nucleus"
+    ],
+    "answer": 1,
+    "explain": "Helium's first shell holds a maximum of 2 electrons, so helium has a full outer shell like the other noble gases."
+   },
+   {
+    "id": "M36",
+    "q": "Magnesium is used to extract titanium from TiCl₄ in a container of argon. Why argon rather than air?",
+    "options": [
+     "Argon speeds up the reaction",
+     "Argon is a reactant",
+     "Argon is unreactive, whereas oxygen in air would oxidise the magnesium",
+     "Argon cools the magnesium"
+    ],
+    "answer": 2,
+    "explain": "Argon does not react with the hot metal. In air, oxygen would react with the magnesium and titanium."
+   },
+   {
+    "id": "M37",
+    "q": "Which is the least reactive gas in the atmosphere?",
+    "options": [
+     "Nitrogen",
+     "Oxygen",
+     "Carbon dioxide",
+     "Argon"
+    ],
+    "answer": 3,
+    "explain": "Argon is a noble gas with a full outer shell, so it is the least reactive gas in air."
+   },
+   {
+    "id": "M38",
+    "q": "Noble gases exist as single atoms. What is the word for this?",
+    "options": [
+     "Diatomic",
+     "Monatomic",
+     "Giant covalent",
+     "Ionic"
+    ],
+    "answer": 1,
+    "explain": "Noble gas atoms do not bond to each other, so they exist as separate atoms. They are monatomic."
+   },
+   {
+    "id": "M39",
+    "q": "Why are filament light bulbs filled with argon?",
+    "options": [
+     "Argon glows brightly",
+     "Argon conducts electricity",
+     "The hot filament does not react with argon",
+     "Argon is cheaper than air"
+    ],
+    "answer": 2,
+    "explain": "Argon is unreactive. In air, the hot filament would react with oxygen and burn out."
+   },
+   {
+    "id": "M40",
+    "q": "Which statement about Group 1 and Group 7 is correct?",
+    "options": [
+     "Both groups get more reactive down the group",
+     "Group 1 atoms gain electrons; Group 7 atoms lose electrons",
+     "Both groups get less reactive down the group",
+     "Group 1 gets more reactive down the group; Group 7 gets less reactive"
+    ],
+    "answer": 3,
+    "explain": "The outer shell gets further from the nucleus in both groups. That makes losing an electron easier (Group 1) but gaining one harder (Group 7)."
+   }
+  ],
+  "12-gases-in-the-atmosphere": [
+   {
+    "id": "M1",
+    "q": "What is the approximate percentage by volume of nitrogen in dry air?",
+    "options": [
+     "21%",
+     "50%",
+     "78%",
+     "95%"
+    ],
+    "answer": 2,
+    "explain": "Dry air is about 78% nitrogen, which is roughly four-fifths. In 2024 the multiple-choice answer was given as 80%."
+   },
+   {
+    "id": "M2",
+    "q": "What is the approximate percentage by volume of oxygen in dry air?",
+    "options": [
+     "21%",
+     "0.9%",
+     "35%",
+     "78%"
+    ],
+    "answer": 0,
+    "explain": "Oxygen is about 21%, roughly one-fifth of dry air. 0.9% is argon and 78% is nitrogen."
+   },
+   {
+    "id": "M3",
+    "q": "Which gas makes up about 1% of dry air?",
+    "options": [
+     "Carbon dioxide",
+     "Neon",
+     "Hydrogen",
+     "Argon"
+    ],
+    "answer": 3,
+    "explain": "Argon is about 0.9%, the trace gas with the highest percentage. Carbon dioxide is only about 0.04%."
+   },
+   {
+    "id": "M4",
+    "q": "Which of these gases has the lowest percentage by volume in dry air?",
+    "options": [
+     "Argon",
+     "Carbon dioxide",
+     "Nitrogen",
+     "Oxygen"
+    ],
+    "answer": 1,
+    "explain": "Carbon dioxide is about 0.04%, much less than argon (0.9%), oxygen (21%) or nitrogen (78%)."
+   },
+   {
+    "id": "M5",
+    "q": "Which gas is NOT normally found in the atmosphere?",
+    "options": [
+     "Argon",
+     "Hydrogen",
+     "Water vapour",
+     "Carbon dioxide"
+    ],
+    "answer": 1,
+    "explain": "Hydrogen is not normally found in the atmosphere (2022 Edexcel 2C Q1). The other three are all present."
+   },
+   {
+    "id": "M6",
+    "q": "Why is the composition of air usually given for DRY air?",
+    "options": [
+     "Water vapour reacts with oxygen",
+     "Dry air contains more oxygen",
+     "Water vapour is a greenhouse gas",
+     "The amount of water vapour varies from place to place and day to day"
+    ],
+    "answer": 3,
+    "explain": "Water vapour changes a lot, so it is left out. That way the percentages of the other gases stay fixed."
+   },
+   {
+    "id": "M7",
+    "q": "Why does argon not react with hot copper or iron?",
+    "options": [
+     "It has a full outer shell of electrons",
+     "It is a gas at room temperature",
+     "It is denser than air",
+     "It has no electrons"
+    ],
+    "answer": 0,
+    "explain": "Argon has a full outer shell, so it does not gain, lose or share electrons. Being a gas has nothing to do with it."
+   },
+   {
+    "id": "M8",
+    "q": "In the iron wool and test tube experiment, why does water rise up the tube?",
+    "options": [
+     "The iron dissolves in the water",
+     "The water evaporates into the tube",
+     "The iron uses up the oxygen, so the gas volume decreases",
+     "Nitrogen dissolves in the water"
+    ],
+    "answer": 2,
+    "explain": "Iron reacts with oxygen to form solid rust. The gas volume falls and water moves up to fill the space."
+   },
+   {
+    "id": "M9",
+    "q": "Why must the iron wool be wet in the rusting experiment?",
+    "options": [
+     "To keep it cool",
+     "To stop it catching fire",
+     "To dissolve the nitrogen",
+     "Water is needed for iron to rust"
+    ],
+    "answer": 3,
+    "explain": "Iron needs both oxygen and water to rust, so the iron must be wet for the oxygen to be used up."
+   },
+   {
+    "id": "M10",
+    "q": "Why is iron powder better than an iron nail for finding the % of oxygen in air?",
+    "options": [
+     "Powder makes more rust",
+     "Powder has a larger surface area, so it reacts faster",
+     "Powder does not need water",
+     "Powder also reacts with nitrogen"
+    ],
+    "answer": 1,
+    "explain": "A larger surface area means more collisions per second, so the oxygen is used up sooner. The final result is the same."
+   },
+   {
+    "id": "M11",
+    "q": "What colour is rust?",
+    "options": [
+     "Brown",
+     "Black",
+     "Green",
+     "White"
+    ],
+    "answer": 0,
+    "explain": "Rust is brown (orange-brown or red-brown was also allowed). The 2022 scheme ignored 'red' on its own."
+   },
+   {
+    "id": "M12",
+    "q": "What is the formula of the iron oxide in rust?",
+    "options": [
+     "FeO",
+     "Fe₃O₂",
+     "Fe₂O₃",
+     "FeO₂"
+    ],
+    "answer": 2,
+    "explain": "Rust is hydrated iron(III) oxide. Fe³⁺ and O²⁻ give Fe₂O₃."
+   },
+   {
+    "id": "M13",
+    "q": "A gas column in an inverted tube falls from 75 mm to 30 mm as the oxygen is used. What is the percentage of oxygen?",
+    "options": [
+     "40%",
+     "60%",
+     "30%",
+     "45%"
+    ],
+    "answer": 1,
+    "explain": "The decrease is 45 mm, and 45 ÷ 75 × 100 = 60%. 40% is the gas left, which scored only 1 of 2 in 2023."
+   },
+   {
+    "id": "M14",
+    "q": "A flask and tube hold 260 cm³. The syringe falls from 90 cm³ to 22 cm³. What is the % oxygen?",
+    "options": [
+     "26.2%",
+     "75.6%",
+     "34.6%",
+     "19.4%"
+    ],
+    "answer": 3,
+    "explain": "Oxygen = 68 cm³ and total air = 260 + 90 = 350 cm³, so 68 ÷ 350 × 100 = 19.4%. 26.2% leaves out the syringe air."
+   },
+   {
+    "id": "M15",
+    "q": "In the gas-syringe method, what is the total starting volume of air?",
+    "options": [
+     "The flask volume only",
+     "The syringe reading only",
+     "The flask volume plus the starting syringe reading",
+     "The flask volume minus the final syringe reading"
+    ],
+    "answer": 2,
+    "explain": "The flask and syringe are connected, so the iron removes oxygen from both. The total is the apparatus plus the starting syringe reading."
+   },
+   {
+    "id": "M16",
+    "q": "How do you know all the oxygen has reacted in the heated-copper method?",
+    "options": [
+     "The syringe readings stay the same",
+     "The copper turns pink",
+     "The syringe reads zero",
+     "The gas turns limewater milky"
+    ],
+    "answer": 0,
+    "explain": "When repeated passes give the same reading, no more oxygen is being removed."
+   },
+   {
+    "id": "M17",
+    "q": "Why is the copper heated in the two-syringe experiment?",
+    "options": [
+     "To make the argon react",
+     "To dry the air",
+     "To melt the copper",
+     "To increase the rate so the copper reacts with the oxygen"
+    ],
+    "answer": 3,
+    "explain": "Cold copper reacts with oxygen far too slowly. Heating gives the particles enough energy to react quickly."
+   },
+   {
+    "id": "M18",
+    "q": "What is the black solid formed when copper reacts with oxygen?",
+    "options": [
+     "Copper(I) oxide",
+     "Copper(II) oxide",
+     "Copper carbonate",
+     "Copper hydroxide"
+    ],
+    "answer": 1,
+    "explain": "2Cu + O₂ → 2CuO, which is black copper(II) oxide. The mark scheme rejected copper(I) oxide."
+   },
+   {
+    "id": "M19",
+    "q": "Why should the apparatus cool to room temperature before the final syringe reading?",
+    "options": [
+     "Warm gas takes up a larger volume",
+     "Copper only reacts when cold",
+     "Cooling removes the argon",
+     "Oxygen condenses when hot"
+    ],
+    "answer": 0,
+    "explain": "Gas expands when hot. A warm final reading is too big, which makes the % oxygen too low."
+   },
+   {
+    "id": "M20",
+    "q": "Syringe A reads 78 cm³ at the start and 58 cm³ at the end. The tube holds 175 cm³. What is the % oxygen in the mixture?",
+    "options": [
+     "25.6%",
+     "11.4%",
+     "7.9%",
+     "34.5%"
+    ],
+    "answer": 2,
+    "explain": "Oxygen = 20 cm³ and total = 175 + 78 = 253 cm³, so 20 ÷ 253 × 100 = 7.9% (2022 Jan Edexcel 1C Q4)."
+   },
+   {
+    "id": "M21",
+    "q": "Which non-metal is named in the spec for finding the % of oxygen in air?",
+    "options": [
+     "Sulfur",
+     "Carbon",
+     "Nitrogen",
+     "Phosphorus"
+    ],
+    "answer": 3,
+    "explain": "The spec names iron (a metal) and phosphorus (a non-metal) for this experiment."
+   },
+   {
+    "id": "M22",
+    "q": "Which observation is seen when magnesium burns in oxygen?",
+    "options": [
+     "A blue flame and a choking gas",
+     "A bright white light and a white powder",
+     "A white precipitate",
+     "A green solid forms"
+    ],
+    "answer": 1,
+    "explain": "Magnesium burns with a bright white light and leaves white magnesium oxide powder. 'White precipitate' was rejected."
+   },
+   {
+    "id": "M23",
+    "q": "Which is the correct balanced equation for magnesium burning?",
+    "options": [
+     "Mg + O₂ → MgO₂",
+     "Mg + O → MgO",
+     "2Mg + O₂ → 2MgO",
+     "2Mg + O₂ → Mg₂O"
+    ],
+    "answer": 2,
+    "explain": "Oxygen is O₂ and magnesium oxide is MgO, so you need 2Mg + O₂ → 2MgO."
+   },
+   {
+    "id": "M24",
+    "q": "What are the state symbols in 2Mg + O₂ → 2MgO?",
+    "options": [
+     "(s), (g), (s)",
+     "(s), (g), (aq)",
+     "(l), (g), (s)",
+     "(s), (aq), (s)"
+    ],
+    "answer": 0,
+    "explain": "Magnesium is a solid, oxygen a gas and magnesium oxide a solid: (s), (g), (s), as in the school's 2025 Q4(b)."
+   },
+   {
+    "id": "M25",
+    "q": "What is seen when sulfur burns in oxygen?",
+    "options": [
+     "A bright white light",
+     "A blue flame and a colourless, choking gas",
+     "An orange flame and black smoke",
+     "No flame, just a brown solid"
+    ],
+    "answer": 1,
+    "explain": "Sulfur burns with a blue flame to form sulfur dioxide, a colourless gas with a choking smell."
+   },
+   {
+    "id": "M26",
+    "q": "What is the product when hydrogen burns in oxygen?",
+    "options": [
+     "Hydrogen peroxide",
+     "Hydroxide ions",
+     "Hydrogen oxide gas that is acidic",
+     "Water"
+    ],
+    "answer": 3,
+    "explain": "2H₂ + O₂ → 2H₂O. The only product is water."
+   },
+   {
+    "id": "M27",
+    "q": "What type of oxide does a metal form?",
+    "options": [
+     "Acidic",
+     "Neutral",
+     "Basic",
+     "Amphoteric only"
+    ],
+    "answer": 2,
+    "explain": "Metal oxides are basic. Those that dissolve give alkaline solutions with a pH above 7."
+   },
+   {
+    "id": "M28",
+    "q": "Sulfur dioxide dissolves in water. What would the solution do to blue litmus?",
+    "options": [
+     "Turn it red",
+     "Turn it purple",
+     "Bleach it white",
+     "Leave it blue"
+    ],
+    "answer": 0,
+    "explain": "SO₂ is an acidic oxide, so its solution contains H⁺ ions and turns blue litmus red."
+   },
+   {
+    "id": "M29",
+    "q": "Which ion makes a solution of sulfur dioxide acidic?",
+    "options": [
+     "OH⁻",
+     "SO₄²⁻",
+     "O²⁻",
+     "H⁺"
+    ],
+    "answer": 3,
+    "explain": "Acidic solutions contain hydrogen ions, H⁺ (school 2021 Q10(c))."
+   },
+   {
+    "id": "M30",
+    "q": "An element conducts electricity and its oxide gives a solution of pH 11. The element is most likely:",
+    "options": [
+     "a non-metal",
+     "a metal",
+     "a noble gas",
+     "carbon"
+    ],
+    "answer": 1,
+    "explain": "Conducting electricity and forming a basic oxide are both properties of metals."
+   },
+   {
+    "id": "M31",
+    "q": "Which element forms a basic oxide?",
+    "options": [
+     "Lithium",
+     "Sulfur",
+     "Carbon",
+     "Phosphorus"
+    ],
+    "answer": 0,
+    "explain": "Lithium is a metal, so its oxide is basic. This was the 2024 Edexcel 1C Q1(a) answer. The others are non-metals."
+   },
+   {
+    "id": "M32",
+    "q": "Where are non-metals found in the Periodic Table?",
+    "options": [
+     "On the far left",
+     "In the centre block",
+     "On the right, beyond the stepped line",
+     "Only in Group 0"
+    ],
+    "answer": 2,
+    "explain": "Non-metals are on the right of the stepped line (plus hydrogen). Metals are on the left and in the centre."
+   },
+   {
+    "id": "M33",
+    "q": "Which non-metal element conducts electricity?",
+    "options": [
+     "Sulfur",
+     "Phosphorus",
+     "Iodine",
+     "Carbon, as graphite"
+    ],
+    "answer": 3,
+    "explain": "Graphite has delocalised electrons, so it conducts. It is the usual exception to 'non-metals do not conduct'."
+   },
+   {
+    "id": "M34",
+    "q": "What type of reaction happens when copper(II) carbonate is heated?",
+    "options": [
+     "Oxidation",
+     "Thermal decomposition",
+     "Neutralisation",
+     "Combustion"
+    ],
+    "answer": 1,
+    "explain": "Heat breaks one substance into two: CuCO₃ → CuO + CO₂. This is thermal decomposition."
+   },
+   {
+    "id": "M35",
+    "q": "What colour change is seen when copper(II) carbonate is heated?",
+    "options": [
+     "Blue to black",
+     "Green to orange",
+     "Green to black",
+     "Blue to white"
+    ],
+    "answer": 2,
+    "explain": "Copper(II) carbonate is green, and copper(II) oxide is black. Both 2022 and 2023 asked this."
+   },
+   {
+    "id": "M36",
+    "q": "Which equation shows the thermal decomposition of copper(II) carbonate?",
+    "options": [
+     "CuCO₃ → CuO + CO₂",
+     "CuCO₃ → Cu + CO₃",
+     "CuCO₃ + O₂ → CuO + CO₃",
+     "2CuCO₃ → 2Cu + 2CO₂ + O₂"
+    ],
+    "answer": 0,
+    "explain": "A metal carbonate decomposes to the metal oxide and carbon dioxide: CuCO₃ → CuO + CO₂."
+   },
+   {
+    "id": "M37",
+    "q": "7.40 g of XCO₃ gives off 2.20 g of CO₂ when heated. What is the Mᵣ of XCO₃?",
+    "options": [
+     "88",
+     "148",
+     "74",
+     "336"
+    ],
+    "answer": 1,
+    "explain": "n(CO₂) = 2.20 ÷ 44 = 0.05 mol = n(XCO₃), so Mᵣ = 7.40 ÷ 0.05 = 148. Then Aᵣ(X) = 88, which is strontium."
+   },
+   {
+    "id": "M38",
+    "q": "Which of these reactions produces carbon dioxide?",
+    "options": [
+     "Rusting of iron",
+     "Magnesium with hydrochloric acid",
+     "Cracking an alkane",
+     "Complete combustion of an alkane"
+    ],
+    "answer": 3,
+    "explain": "Complete combustion of a hydrocarbon gives carbon dioxide and water. Mg + HCl gives hydrogen."
+   },
+   {
+    "id": "M39",
+    "q": "Why is an increasing amount of carbon dioxide in the atmosphere a problem?",
+    "options": [
+     "It is a greenhouse gas that may contribute to climate change",
+     "It destroys the ozone layer",
+     "It is the main cause of acid rain",
+     "It reduces the amount of nitrogen"
+    ],
+    "answer": 0,
+    "explain": "CO₂ traps heat in the atmosphere. Mark schemes reject answers about the ozone layer and ignore acid rain."
+   },
+   {
+    "id": "M40",
+    "q": "Which is an accepted effect of increasing carbon dioxide levels?",
+    "options": [
+     "More ozone in the upper atmosphere",
+     "Less argon in the air",
+     "Rising sea levels from melting ice caps",
+     "More nitrogen in the air"
+    ],
+    "answer": 2,
+    "explain": "Climate change leads to melting ice caps, rising sea levels, flooding and wildfires. Oceans becoming more acidic is also accepted."
+   }
+  ],
+  "13-reactivity-rusting-and-alloys": [
+   {
+    "id": "M1",
+    "q": "Which two substances must both be present for iron to rust?",
+    "options": [
+     "Oxygen and water",
+     "Oxygen and carbon dioxide",
+     "Water and salt",
+     "Nitrogen and water"
+    ],
+    "answer": 0,
+    "explain": "Iron rusts only when both oxygen (air) and water are present. Salt speeds rusting up but is not needed."
+   },
+   {
+    "id": "M2",
+    "q": "What is the chemical name for rust?",
+    "options": [
+     "Iron(II) oxide",
+     "Hydrated iron(III) oxide",
+     "Iron(III) hydroxide carbonate",
+     "Anhydrous iron(II) sulfate"
+    ],
+    "answer": 1,
+    "explain": "Rust is hydrated iron(III) oxide, simplified formula Fe₂O₃. Iron(II) oxide is rejected by the mark schemes."
+   },
+   {
+    "id": "M3",
+    "q": "What type of reaction is the rusting of iron?",
+    "options": [
+     "Combustion",
+     "Neutralisation",
+     "Oxidation",
+     "Thermal decomposition"
+    ],
+    "answer": 2,
+    "explain": "Iron gains oxygen (and loses electrons) when it rusts, so rusting is oxidation."
+   },
+   {
+    "id": "M4",
+    "q": "Which metal is used to galvanise iron?",
+    "options": [
+     "Copper",
+     "Tin",
+     "Magnesium",
+     "Zinc"
+    ],
+    "answer": 3,
+    "explain": "Galvanising means coating iron or steel with a layer of zinc."
+   },
+   {
+    "id": "M5",
+    "q": "A galvanised bucket is scratched through to the steel, but the steel does not rust. Why?",
+    "options": [
+     "Zinc is more reactive than iron, so the zinc is oxidised instead of the iron",
+     "Zinc is less reactive than iron, so it seals the scratch",
+     "The zinc rusts instead of the iron",
+     "The scratch fills with zinc oxide paint"
+    ],
+    "answer": 0,
+    "explain": "Zinc is more reactive, so it corrodes (is oxidised) instead of the iron. Saying zinc 'rusts' is rejected — only iron rusts."
+   },
+   {
+    "id": "M6",
+    "q": "Which of these is a barrier method of rust prevention?",
+    "options": [
+     "Attaching magnesium blocks",
+     "Greasing",
+     "Galvanising only when scratched",
+     "Connecting to a less reactive metal"
+    ],
+    "answer": 1,
+    "explain": "Greasing coats the iron so water and oxygen cannot reach it. Magnesium blocks are sacrificial protection, not a barrier."
+   },
+   {
+    "id": "M7",
+    "q": "Why are blocks of magnesium attached to the steel hull of a ship?",
+    "options": [
+     "Magnesium is less reactive than iron, so it protects it",
+     "Magnesium makes the hull lighter",
+     "Magnesium is more reactive than iron, so it corrodes instead of the iron",
+     "Magnesium reacts with salt to make a waterproof layer"
+    ],
+    "answer": 2,
+    "explain": "This is sacrificial protection: the more reactive magnesium is oxidised instead of the iron."
+   },
+   {
+    "id": "M8",
+    "q": "In the rusting experiment, why is a layer of oil put on top of the boiled water?",
+    "options": [
+     "To remove water vapour",
+     "To speed up rusting",
+     "To keep the nail warm",
+     "To stop air dissolving back into the water"
+    ],
+    "answer": 3,
+    "explain": "Boiling removes dissolved air; the oil layer stops oxygen dissolving back in, so the tube has water but no oxygen."
+   },
+   {
+    "id": "M9",
+    "q": "What is the job of anhydrous calcium chloride in a rusting experiment?",
+    "options": [
+     "It absorbs water vapour, keeping the air dry",
+     "It absorbs oxygen",
+     "It speeds up rusting",
+     "It stops the iron dissolving"
+    ],
+    "answer": 0,
+    "explain": "Anhydrous calcium chloride is a drying agent; that tube shows iron does not rust without water."
+   },
+   {
+    "id": "M10",
+    "q": "Which tube will show rust after a week?",
+    "options": [
+     "Nail in boiled water under a layer of oil",
+     "Nail in tap water, open to the air",
+     "Nail in dry air with calcium chloride, stoppered",
+     "Nail in a sealed tube of dry nitrogen"
+    ],
+    "answer": 1,
+    "explain": "Only the tube with both water and oxygen rusts."
+   },
+   {
+    "id": "M11",
+    "q": "Why does iron powder rust faster than an iron nail?",
+    "options": [
+     "Powder contains more water",
+     "Powder is more reactive than iron in a nail",
+     "Powder has a larger surface area",
+     "Powder is iron(III) oxide already"
+    ],
+    "answer": 2,
+    "explain": "A larger surface area gives a faster reaction — the same metal, just more of it exposed."
+   },
+   {
+    "id": "M12",
+    "q": "What is observed when magnesium ribbon is added to dilute hydrochloric acid?",
+    "options": [
+     "No reaction",
+     "A brown solid forms",
+     "The solution turns blue",
+     "Vigorous fizzing and the tube gets warm"
+    ],
+    "answer": 3,
+    "explain": "Magnesium is high in the series, so it reacts fast with acid to give hydrogen; the reaction is exothermic."
+   },
+   {
+    "id": "M13",
+    "q": "Which metal does NOT react with dilute sulfuric acid?",
+    "options": [
+     "Copper",
+     "Zinc",
+     "Iron",
+     "Magnesium"
+    ],
+    "answer": 0,
+    "explain": "Copper is below hydrogen in the reactivity series, so it cannot displace hydrogen from acids."
+   },
+   {
+    "id": "M14",
+    "q": "What are the products when zinc reacts with dilute sulfuric acid?",
+    "options": [
+     "Zinc sulfide and water",
+     "Zinc sulfate and hydrogen",
+     "Zinc oxide and hydrogen",
+     "Zinc sulfate and water"
+    ],
+    "answer": 1,
+    "explain": "Metal + acid → salt + hydrogen: Zn + H₂SO₄ → ZnSO₄ + H₂."
+   },
+   {
+    "id": "M15",
+    "q": "Which is the correct equation for iron reacting with dilute sulfuric acid?",
+    "options": [
+     "2Fe + 3H₂SO₄ → Fe₂(SO₄)₃ + 3H₂O",
+     "Fe + H₂SO₄ → FeS + H₂O",
+     "Fe + H₂SO₄ → FeSO₄ + H₂",
+     "Fe + 2H₂SO₄ → FeSO₄ + 2H₂"
+    ],
+    "answer": 2,
+    "explain": "Iron forms iron(II) sulfate and hydrogen with dilute sulfuric acid; the equation is balanced 1:1:1:1."
+   },
+   {
+    "id": "M16",
+    "q": "Give the word equation for aluminium reacting with hydrochloric acid.",
+    "options": [
+     "aluminium + hydrochloric acid → aluminium chlorine + hydrogen",
+     "aluminium + hydrochloric acid → aluminium oxide + hydrogen",
+     "aluminium + hydrochloric acid → aluminium chloride + water",
+     "aluminium + hydrochloric acid → aluminium chloride + hydrogen"
+    ],
+    "answer": 3,
+    "explain": "Hydrochloric acid makes chlorides, and a metal with acid gives hydrogen."
+   },
+   {
+    "id": "M17",
+    "q": "Why is the reaction of sodium with dilute hydrochloric acid not done in school?",
+    "options": [
+     "It would be explosive / dangerous",
+     "It would be too slow",
+     "Sodium does not react with acid",
+     "It makes a toxic gas"
+    ],
+    "answer": 0,
+    "explain": "Sodium is very high in the series; its reaction with acid is violent. 'Vigorous' or 'volatile' alone scored nothing in 2024."
+   },
+   {
+    "id": "M18",
+    "q": "Metal A reacts very fast with water. Metal B does not react with water but fizzes slowly in acid. Metal C does not react with either. Which could B be?",
+    "options": [
+     "Potassium",
+     "Zinc",
+     "Gold",
+     "Sodium"
+    ],
+    "answer": 1,
+    "explain": "B is above hydrogen but does not react with cold water — zinc or iron fits. Potassium and sodium react fast with water; gold does not react with acid."
+   },
+   {
+    "id": "M19",
+    "q": "What forms when magnesium reacts with steam?",
+    "options": [
+     "Magnesium hydroxide and oxygen",
+     "Magnesium hydroxide only",
+     "Magnesium oxide and hydrogen",
+     "Magnesium carbonate and hydrogen"
+    ],
+    "answer": 2,
+    "explain": "With steam the product is the oxide: Mg + H₂O → MgO + H₂."
+   },
+   {
+    "id": "M20",
+    "q": "Which is the balanced equation for calcium reacting with water?",
+    "options": [
+     "Ca + H₂O → CaO + H₂O",
+     "Ca + H₂O → Ca(OH)₂ + H₂",
+     "2Ca + H₂O → Ca₂O + H₂",
+     "Ca + 2H₂O → Ca(OH)₂ + H₂"
+    ],
+    "answer": 3,
+    "explain": "Metal + water → metal hydroxide + hydrogen; two water molecules balance the OH groups."
+   },
+   {
+    "id": "M21",
+    "q": "Iron is added to copper(II) sulfate solution. What is the solid that forms?",
+    "options": [
+     "Pink-brown copper",
+     "Blue copper(II) ions",
+     "Green iron(II) sulfate crystals",
+     "Black iron oxide"
+    ],
+    "answer": 0,
+    "explain": "Iron displaces copper, which forms as a pink-brown solid. The blue colour fades to pale green."
+   },
+   {
+    "id": "M22",
+    "q": "Why is there no reaction when iron is added to magnesium sulfate solution?",
+    "options": [
+     "Magnesium sulfate is insoluble",
+     "Iron is less reactive than magnesium",
+     "Iron is more reactive than magnesium",
+     "Iron has an oxide layer"
+    ],
+    "answer": 1,
+    "explain": "A less reactive metal cannot displace a more reactive one from its compound."
+   },
+   {
+    "id": "M23",
+    "q": "Magnesium is added to magnesium sulfate solution. Why is there no change?",
+    "options": [
+     "Magnesium is too unreactive",
+     "The solution is too dilute",
+     "Magnesium cannot displace itself",
+     "Magnesium sulfate is not a salt"
+    ],
+    "answer": 2,
+    "explain": "Displacement needs a more reactive metal. A metal cannot be more reactive than itself."
+   },
+   {
+    "id": "M24",
+    "q": "Metal X displaces copper from copper(II) sulfate but does not displace aluminium from aluminium sulfate. What could X be?",
+    "options": [
+     "Magnesium",
+     "Silver",
+     "Gold",
+     "Zinc"
+    ],
+    "answer": 3,
+    "explain": "X lies between aluminium and copper, so zinc or iron fit."
+   },
+   {
+    "id": "M25",
+    "q": "In 3Mg + 2Al³⁺ → 3Mg²⁺ + 2Al, which statement is correct?",
+    "options": [
+     "Magnesium is the reducing agent because it donates electrons",
+     "Magnesium is reduced because it gains electrons",
+     "Al³⁺ is the reducing agent because it gains electrons",
+     "Aluminium is oxidised"
+    ],
+    "answer": 0,
+    "explain": "Magnesium loses electrons (is oxidised) and gives them to Al³⁺, so magnesium is the reducing agent."
+   },
+   {
+    "id": "M26",
+    "q": "Which is the balanced equation for the thermite reaction?",
+    "options": [
+     "Al + Fe₂O₃ → Al₂O₃ + Fe",
+     "2Al + Fe₂O₃ → Al₂O₃ + 2Fe",
+     "2Al + 3Fe₂O₃ → Al₂O₃ + 6Fe",
+     "Al + FeO → AlO + Fe"
+    ],
+    "answer": 1,
+    "explain": "2Al + Fe₂O₃ → Al₂O₃ + 2Fe: two Al, two Fe and three O on each side."
+   },
+   {
+    "id": "M27",
+    "q": "Why does aluminium displace iron from iron(III) oxide?",
+    "options": [
+     "Aluminium has a lower density",
+     "Iron is more reactive than aluminium",
+     "Aluminium is more reactive than iron",
+     "Aluminium is a better conductor"
+    ],
+    "answer": 2,
+    "explain": "A more reactive metal takes the oxygen from the oxide of a less reactive metal."
+   },
+   {
+    "id": "M28",
+    "q": "In the thermite reaction, which substance is reduced?",
+    "options": [
+     "Aluminium",
+     "Iron",
+     "Aluminium oxide",
+     "Iron(III) oxide"
+    ],
+    "answer": 3,
+    "explain": "Iron(III) oxide loses oxygen, so it is reduced. 'Iron is reduced' loses the mark — name the oxide."
+   },
+   {
+    "id": "M29",
+    "q": "What does 'exothermic' mean?",
+    "options": [
+     "Heat is given out to the surroundings",
+     "Heat is taken in from the surroundings",
+     "Energy is created",
+     "A gas is given off"
+    ],
+    "answer": 0,
+    "explain": "Exothermic reactions give out heat (thermal energy). 'Energy released' on its own was ignored in 2024."
+   },
+   {
+    "id": "M30",
+    "q": "Why does aluminium resist corrosion even though it is quite high in the reactivity series?",
+    "options": [
+     "It is below hydrogen",
+     "It is coated in a thin protective layer of aluminium oxide",
+     "It is always alloyed with zinc",
+     "It does not react with oxygen"
+    ],
+    "answer": 1,
+    "explain": "The tough oxide layer stops water and oxygen reaching the metal underneath."
+   },
+   {
+    "id": "M31",
+    "q": "Which property makes aluminium suitable for aircraft bodies?",
+    "options": [
+     "High density",
+     "Good thermal insulator",
+     "Low density",
+     "Very reactive with water"
+    ],
+    "answer": 2,
+    "explain": "Aluminium has a low density (and its alloys are strong and resist corrosion), so aircraft are lighter."
+   },
+   {
+    "id": "M32",
+    "q": "Why is copper used for electrical wiring?",
+    "options": [
+     "It is magnetic",
+     "It has a low melting point",
+     "It is very reactive",
+     "It is a very good electrical conductor and is ductile"
+    ],
+    "answer": 3,
+    "explain": "Copper conducts electricity very well and can be drawn into wires."
+   },
+   {
+    "id": "M33",
+    "q": "Why is copper used for water pipes?",
+    "options": [
+     "It does not react with water",
+     "It is the cheapest metal",
+     "It is very hard and brittle",
+     "It dissolves slowly to clean the water"
+    ],
+    "answer": 0,
+    "explain": "Copper is unreactive — below hydrogen — so it does not react with water, and it is easy to bend."
+   },
+   {
+    "id": "M34",
+    "q": "Which type of steel is best for car body panels?",
+    "options": [
+     "High-carbon steel",
+     "Low-carbon (mild) steel",
+     "Stainless steel",
+     "Cast iron"
+    ],
+    "answer": 1,
+    "explain": "Mild steel is soft and malleable, so it can be pressed into shape."
+   },
+   {
+    "id": "M35",
+    "q": "Which type of steel is best for a drill bit?",
+    "options": [
+     "Low-carbon (mild) steel",
+     "Pure iron",
+     "High-carbon steel",
+     "Galvanised mild steel"
+    ],
+    "answer": 2,
+    "explain": "High-carbon steel is very hard, so it keeps a cutting edge, although it is brittle."
+   },
+   {
+    "id": "M36",
+    "q": "What makes stainless steel suitable for cutlery?",
+    "options": [
+     "It is magnetic",
+     "It is soft and easily shaped",
+     "It contains a lot of carbon",
+     "It resists corrosion"
+    ],
+    "answer": 3,
+    "explain": "Stainless steel contains chromium (and nickel), so it does not rust."
+   },
+   {
+    "id": "M37",
+    "q": "Which is the best definition of an alloy?",
+    "options": [
+     "A mixture of a metal and one or more other elements",
+     "A compound of two metals",
+     "A pure metal that has been heated",
+     "A metal coated with zinc"
+    ],
+    "answer": 0,
+    "explain": "An alloy is a mixture, usually of a metal with other metals or carbon — not a compound."
+   },
+   {
+    "id": "M38",
+    "q": "Why is an alloy harder than the pure metal?",
+    "options": [
+     "The alloy has stronger covalent bonds",
+     "Atoms of different sizes disrupt the layers, so they cannot slide easily",
+     "The alloy molecules are bigger",
+     "The alloy has no delocalised electrons"
+    ],
+    "answer": 1,
+    "explain": "Different-sized atoms distort the regular layers. Metals have no molecules and alloys still have delocalised electrons."
+   },
+   {
+    "id": "M39",
+    "q": "Why are pure metals malleable?",
+    "options": [
+     "Their molecules are held by weak forces",
+     "Their electrons can be squeezed",
+     "Layers of atoms (ions) can slide over one another",
+     "They have a low melting point"
+    ],
+    "answer": 2,
+    "explain": "Regular layers of identical positive ions slide over each other without the metallic bonding breaking."
+   },
+   {
+    "id": "M40",
+    "q": "Which gives the correct order of reactivity, most reactive first?",
+    "options": [
+     "Zinc, magnesium, iron, copper",
+     "Magnesium, iron, zinc, copper",
+     "Copper, iron, zinc, magnesium",
+     "Magnesium, zinc, iron, copper"
+    ],
+    "answer": 3,
+    "explain": "From the series: magnesium, (aluminium, carbon), zinc, iron, (hydrogen), copper."
+   }
+  ],
+  "14-chemical-tests": [
+   {
+    "id": "M1",
+    "q": "Which is the correct test and result for hydrogen?",
+    "options": [
+     "A lighted splint gives a squeaky pop",
+     "A glowing splint relights",
+     "Limewater turns milky",
+     "Damp red litmus paper turns blue"
+    ],
+    "answer": 0,
+    "explain": "Hydrogen burns with a squeaky pop when a lighted splint is held near it. A glowing splint is the oxygen test."
+   },
+   {
+    "id": "M2",
+    "q": "Which gas relights a glowing splint?",
+    "options": [
+     "Hydrogen",
+     "Carbon dioxide",
+     "Oxygen",
+     "Chlorine"
+    ],
+    "answer": 2,
+    "explain": "Oxygen helps things burn, so a glowing splint bursts back into flame."
+   },
+   {
+    "id": "M3",
+    "q": "What is seen when carbon dioxide is bubbled through limewater?",
+    "options": [
+     "The limewater turns blue",
+     "The limewater turns milky",
+     "The limewater fizzes",
+     "The limewater turns pink"
+    ],
+    "answer": 1,
+    "explain": "Carbon dioxide reacts with calcium hydroxide to form insoluble calcium carbonate, which makes the limewater milky or cloudy."
+   },
+   {
+    "id": "M4",
+    "q": "Which is the test for ammonia gas?",
+    "options": [
+     "Damp blue litmus paper is bleached",
+     "A lighted splint goes out",
+     "Limewater turns milky",
+     "Damp red litmus paper turns blue"
+    ],
+    "answer": 3,
+    "explain": "Ammonia is an alkaline gas, so it turns damp red litmus paper blue."
+   },
+   {
+    "id": "M5",
+    "q": "Which is the test for chlorine?",
+    "options": [
+     "Damp blue litmus paper is bleached white",
+     "Damp red litmus paper turns blue",
+     "A glowing splint relights",
+     "Limewater turns milky"
+    ],
+    "answer": 0,
+    "explain": "Chlorine bleaches damp litmus paper. Blue litmus may turn red first, but the bleaching is what identifies chlorine."
+   },
+   {
+    "id": "M6",
+    "q": "Why must litmus paper be damp when testing a gas?",
+    "options": [
+     "So that it does not catch fire",
+     "So that the gas can dissolve in the water and act as an acid or alkali",
+     "So that it sticks to the test tube",
+     "So that it changes colour more slowly"
+    ],
+    "answer": 1,
+    "explain": "A gas has to dissolve in water before it can change the colour of an indicator."
+   },
+   {
+    "id": "M7",
+    "q": "Which flame colour is produced by lithium ions?",
+    "options": [
+     "Yellow",
+     "Lilac",
+     "Red",
+     "Orange-red"
+    ],
+    "answer": 2,
+    "explain": "Lithium ions give a red flame. Orange-red (brick-red) is calcium, and mark schemes reject it for lithium."
+   },
+   {
+    "id": "M8",
+    "q": "Which flame colour is produced by sodium ions?",
+    "options": [
+     "Lilac",
+     "Blue-green",
+     "Red",
+     "Yellow"
+    ],
+    "answer": 3,
+    "explain": "Sodium ions give a yellow flame."
+   },
+   {
+    "id": "M9",
+    "q": "Which ion gives a lilac flame?",
+    "options": [
+     "K⁺",
+     "Na⁺",
+     "Ca²⁺",
+     "Li⁺"
+    ],
+    "answer": 0,
+    "explain": "Potassium ions give a lilac (pale purple) flame."
+   },
+   {
+    "id": "M10",
+    "q": "Which ion gives an orange-red flame?",
+    "options": [
+     "Li⁺",
+     "Ca²⁺",
+     "Cu²⁺",
+     "K⁺"
+    ],
+    "answer": 1,
+    "explain": "Calcium ions give an orange-red flame, often called brick-red."
+   },
+   {
+    "id": "M11",
+    "q": "Which flame colour is produced by copper(II) ions?",
+    "options": [
+     "Lilac",
+     "Yellow",
+     "Blue-green",
+     "Red"
+    ],
+    "answer": 2,
+    "explain": "Copper(II) ions give a blue-green flame."
+   },
+   {
+    "id": "M12",
+    "q": "How is a flame-test wire cleaned?",
+    "options": [
+     "Wipe it with a paper towel",
+     "Rinse it in distilled water only",
+     "Dip it in sodium hydroxide solution",
+     "Dip it in concentrated hydrochloric acid and heat it until it gives no colour"
+    ],
+    "answer": 3,
+    "explain": "Dipping in concentrated HCl and heating removes ions left from earlier tests, so they cannot mask the colour."
+   },
+   {
+    "id": "M13",
+    "q": "Why is the flame-test wire cleaned before use?",
+    "options": [
+     "To remove other ions that would mask or change the flame colour",
+     "To make the wire hotter",
+     "To stop the wire melting",
+     "To make the sample dissolve"
+    ],
+    "answer": 0,
+    "explain": "Other ions on the wire would colour the flame too and interfere with the result."
+   },
+   {
+    "id": "M14",
+    "q": "Which part of the Bunsen flame is used for a flame test?",
+    "options": [
+     "The yellow, luminous flame",
+     "The hottest part of the blue, non-luminous flame",
+     "Just above the top of the flame",
+     "The cool centre just above the barrel"
+    ],
+    "answer": 1,
+    "explain": "The blue flame is hot and almost colourless, so it does not hide the colour from the ion."
+   },
+   {
+    "id": "M15",
+    "q": "What is seen when sodium hydroxide solution is added to copper(II) sulfate solution?",
+    "options": [
+     "A green precipitate",
+     "A white precipitate",
+     "A blue precipitate",
+     "Effervescence"
+    ],
+    "answer": 2,
+    "explain": "Copper(II) hydroxide forms, which is an insoluble blue solid."
+   },
+   {
+    "id": "M16",
+    "q": "What colour precipitate forms when sodium hydroxide solution is added to an iron(II) salt solution?",
+    "options": [
+     "Orange-brown",
+     "Blue",
+     "White",
+     "Green"
+    ],
+    "answer": 3,
+    "explain": "Iron(II) hydroxide, Fe(OH)₂, is a green precipitate."
+   },
+   {
+    "id": "M17",
+    "q": "What colour precipitate forms when sodium hydroxide solution is added to an iron(III) salt solution?",
+    "options": [
+     "Orange-brown",
+     "Green",
+     "Blue",
+     "Cream"
+    ],
+    "answer": 0,
+    "explain": "Iron(III) hydroxide, Fe(OH)₃, is an orange-brown (red-brown) precipitate."
+   },
+   {
+    "id": "M18",
+    "q": "Which is the correct ionic equation for the reaction of iron(III) ions with sodium hydroxide solution?",
+    "options": [
+     "Fe³⁺ + OH⁻ → FeOH",
+     "Fe³⁺ + 3OH⁻ → Fe(OH)₃",
+     "Fe²⁺ + 2OH⁻ → Fe(OH)₂",
+     "Fe³⁺ + 3NaOH → Fe(OH)₃ + 3Na"
+    ],
+    "answer": 1,
+    "explain": "Three hydroxide ions balance the 3+ charge. Sodium ions are spectator ions and are left out."
+   },
+   {
+    "id": "M19",
+    "q": "Which ionic equation shows the formation of the blue precipitate in the copper(II) ion test?",
+    "options": [
+     "Cu⁺ + OH⁻ → CuOH",
+     "Cu²⁺ + SO₄²⁻ → CuSO₄",
+     "Cu²⁺ + 2OH⁻ → Cu(OH)₂",
+     "Cu²⁺ + O²⁻ → CuO"
+    ],
+    "answer": 2,
+    "explain": "Copper(II) ions join two hydroxide ions to form insoluble copper(II) hydroxide."
+   },
+   {
+    "id": "M20",
+    "q": "How is the test for ammonium ions carried out?",
+    "options": [
+     "Add dilute acid and bubble the gas through limewater",
+     "Do a flame test",
+     "Add silver nitrate solution",
+     "Warm with sodium hydroxide solution and test the gas with damp red litmus paper"
+    ],
+    "answer": 3,
+    "explain": "NaOH and warming release ammonia gas, which turns damp red litmus paper blue."
+   },
+   {
+    "id": "M21",
+    "q": "In the ammonium test, why is the litmus paper held in the gas rather than dipped in the solution?",
+    "options": [
+     "The solution contains sodium hydroxide, which is alkaline anyway",
+     "The solution is too hot",
+     "Litmus does not work in liquids",
+     "The solution would bleach the paper"
+    ],
+    "answer": 0,
+    "explain": "Sodium hydroxide would turn red litmus blue on its own, so only testing the gas proves ammonia was made."
+   },
+   {
+    "id": "M22",
+    "q": "Which ionic equation shows ammonium ions reacting with hydroxide ions?",
+    "options": [
+     "NH₃ + H⁺ → NH₄⁺",
+     "NH₄⁺ + OH⁻ → NH₃ + H₂O",
+     "NH₄⁺ + OH⁻ → NH₄OH(s)",
+     "NH₄⁺ + Cl⁻ → NH₄Cl"
+    ],
+    "answer": 1,
+    "explain": "The hydroxide ion takes an H⁺ from the ammonium ion, giving ammonia gas and water."
+   },
+   {
+    "id": "M23",
+    "q": "Which reagents are used to test for chloride ions?",
+    "options": [
+     "Dilute hydrochloric acid then barium chloride solution",
+     "Dilute sulfuric acid then silver nitrate solution",
+     "Dilute nitric acid then silver nitrate solution",
+     "Sodium hydroxide solution then silver nitrate solution"
+    ],
+    "answer": 2,
+    "explain": "Halide ions are tested with nitric acid followed by silver nitrate solution."
+   },
+   {
+    "id": "M24",
+    "q": "What colour precipitate do bromide ions give with acidified silver nitrate?",
+    "options": [
+     "White",
+     "Yellow",
+     "Blue",
+     "Cream"
+    ],
+    "answer": 3,
+    "explain": "Silver bromide is a cream precipitate. Chloride gives white and iodide gives yellow."
+   },
+   {
+    "id": "M25",
+    "q": "What colour precipitate do iodide ions give with acidified silver nitrate?",
+    "options": [
+     "Yellow",
+     "White",
+     "Cream",
+     "Green"
+    ],
+    "answer": 0,
+    "explain": "Silver iodide is a yellow precipitate."
+   },
+   {
+    "id": "M26",
+    "q": "Why is hydrochloric acid NOT used to acidify the sample in the halide test?",
+    "options": [
+     "It is too weak",
+     "It contains chloride ions that would form a white precipitate",
+     "It reacts with nitrate ions",
+     "It would dissolve the precipitate"
+    ],
+    "answer": 1,
+    "explain": "Chloride from the acid would give white silver chloride whatever was in the sample."
+   },
+   {
+    "id": "M27",
+    "q": "Why is the sample acidified before silver nitrate is added?",
+    "options": [
+     "To make the precipitate a brighter colour",
+     "To speed up the reaction",
+     "To remove carbonate ions that would also form a precipitate",
+     "To dissolve the silver nitrate"
+    ],
+    "answer": 2,
+    "explain": "Carbonate ions would give a precipitate with silver ions too; the acid removes them as carbon dioxide."
+   },
+   {
+    "id": "M28",
+    "q": "Which ionic equation shows the formation of the precipitate in the chloride test?",
+    "options": [
+     "Ag⁺ + NO₃⁻ → AgNO₃",
+     "Na⁺ + Cl⁻ → NaCl",
+     "Ag + Cl → AgCl",
+     "Ag⁺ + Cl⁻ → AgCl"
+    ],
+    "answer": 3,
+    "explain": "Silver ions and chloride ions join to form insoluble white silver chloride."
+   },
+   {
+    "id": "M29",
+    "q": "Which reagents are used to test for sulfate ions?",
+    "options": [
+     "Dilute hydrochloric acid then barium chloride solution",
+     "Dilute nitric acid then silver nitrate solution",
+     "Dilute sulfuric acid then barium chloride solution",
+     "Sodium hydroxide solution then limewater"
+    ],
+    "answer": 0,
+    "explain": "Sulfate ions give a white precipitate of barium sulfate with acidified barium chloride."
+   },
+   {
+    "id": "M30",
+    "q": "Why is sulfuric acid NOT used to acidify the sample in the sulfate test?",
+    "options": [
+     "It is too concentrated",
+     "It contains sulfate ions, so a white precipitate would always form",
+     "It reacts with barium to give a gas",
+     "It would turn the solution blue"
+    ],
+    "answer": 1,
+    "explain": "Sulfate from the acid itself would form barium sulfate, giving a false positive."
+   },
+   {
+    "id": "M31",
+    "q": "What is seen in a positive test for sulfate ions?",
+    "options": [
+     "A cream precipitate",
+     "Effervescence",
+     "A white precipitate",
+     "A blue precipitate"
+    ],
+    "answer": 2,
+    "explain": "Barium sulfate is an insoluble white solid."
+   },
+   {
+    "id": "M32",
+    "q": "Which ionic equation shows the formation of the precipitate in the sulfate test?",
+    "options": [
+     "Ba²⁺ + 2Cl⁻ → BaCl₂",
+     "H⁺ + SO₄²⁻ → HSO₄",
+     "Ag⁺ + SO₄²⁻ → AgSO₄",
+     "Ba²⁺ + SO₄²⁻ → BaSO₄"
+    ],
+    "answer": 3,
+    "explain": "Barium ions and sulfate ions form insoluble barium sulfate."
+   },
+   {
+    "id": "M33",
+    "q": "A solid fizzes when dilute hydrochloric acid is added, and the gas turns limewater milky. Which ion is present?",
+    "options": [
+     "Carbonate, CO₃²⁻",
+     "Sulfate, SO₄²⁻",
+     "Chloride, Cl⁻",
+     "Ammonium, NH₄⁺"
+    ],
+    "answer": 0,
+    "explain": "Carbonates react with acid to give carbon dioxide, which turns limewater milky."
+   },
+   {
+    "id": "M34",
+    "q": "Which is the ionic equation for carbonate ions reacting with an acid?",
+    "options": [
+     "CO₃²⁻ + H⁺ → HCO₃",
+     "CO₃²⁻ + 2H⁺ → CO₂ + H₂O",
+     "CO₃²⁻ + 2OH⁻ → CO₂ + H₂O",
+     "CO₂ + H₂O → CO₃²⁻ + 2H⁺"
+    ],
+    "answer": 1,
+    "explain": "Two hydrogen ions react with one carbonate ion to give carbon dioxide and water."
+   },
+   {
+    "id": "M35",
+    "q": "Which chemical test shows that a liquid contains water?",
+    "options": [
+     "It turns blue cobalt chloride blue",
+     "It boils at 100 °C",
+     "It turns anhydrous copper(II) sulfate from white to blue",
+     "It turns limewater milky"
+    ],
+    "answer": 2,
+    "explain": "Water turns white anhydrous copper(II) sulfate blue. The boiling point is a physical test, not a chemical one."
+   },
+   {
+    "id": "M36",
+    "q": "Which is a physical test to show that a sample of water is pure?",
+    "options": [
+     "Add anhydrous copper(II) sulfate",
+     "Evaporate it and weigh the residue",
+     "Add universal indicator",
+     "Measure its boiling point — it should be exactly 100 °C"
+    ],
+    "answer": 3,
+    "explain": "Pure water has a fixed boiling point of 100 °C (and freezing point of 0 °C)."
+   },
+   {
+    "id": "M37",
+    "q": "A sample of seawater is tested with anhydrous copper(II) sulfate. What is seen, and what does it show?",
+    "options": [
+     "It turns blue; water is present, but not that the water is pure",
+     "It turns blue; the water is pure",
+     "It stays white; no water is present",
+     "It turns green; salt is present"
+    ],
+    "answer": 0,
+    "explain": "The test only shows water is present. Dissolved salt does not stop the colour change, so it says nothing about purity."
+   },
+   {
+    "id": "M38",
+    "q": "A solid gives a yellow flame, and its solution gives a white precipitate with dilute nitric acid and silver nitrate. What is the solid?",
+    "options": [
+     "Potassium chloride",
+     "Sodium chloride",
+     "Sodium iodide",
+     "Lithium chloride"
+    ],
+    "answer": 1,
+    "explain": "Yellow flame means sodium ions; white precipitate with acidified silver nitrate means chloride ions."
+   },
+   {
+    "id": "M39",
+    "q": "A solution gives an orange-brown precipitate with sodium hydroxide, and a white precipitate with dilute hydrochloric acid and barium chloride. What is it?",
+    "options": [
+     "Iron(II) sulfate",
+     "Copper(II) sulfate",
+     "Iron(III) sulfate",
+     "Iron(III) chloride"
+    ],
+    "answer": 2,
+    "explain": "Orange-brown hydroxide means iron(III) ions; white barium precipitate means sulfate ions."
+   },
+   {
+    "id": "M40",
+    "q": "A white solid gives a red flame and fizzes with dilute acid, giving a gas that turns limewater milky. What is the solid?",
+    "options": [
+     "Calcium carbonate",
+     "Sodium carbonate",
+     "Lithium chloride",
+     "Lithium carbonate"
+    ],
+    "answer": 3,
+    "explain": "A red flame means lithium; fizzing with a gas that turns limewater milky means carbonate. Calcium would give an orange-red flame."
+   }
+  ],
+  "15-energetics-and-equilibria": [
+   {
+    "id": "M1",
+    "q": "Which statement describes an exothermic reaction?",
+    "options": [
+     "Heat energy is taken in from the surroundings",
+     "The products have more energy than the reactants",
+     "Heat energy is given out to the surroundings",
+     "The temperature of the surroundings falls"
+    ],
+    "answer": 2,
+    "explain": "Exothermic means heat energy is given out to the surroundings, so the temperature rises. The products end up with less energy than the reactants."
+   },
+   {
+    "id": "M2",
+    "q": "When ammonium nitrate dissolves in water, the temperature of the water falls. What type of change is this?",
+    "options": [
+     "Endothermic",
+     "Exothermic",
+     "Neutralisation",
+     "Combustion"
+    ],
+    "answer": 0,
+    "explain": "The temperature falls because heat energy is taken in from the water, so the change is endothermic."
+   },
+   {
+    "id": "M3",
+    "q": "What is the sign of ΔH for an exothermic reaction?",
+    "options": [
+     "Positive",
+     "Zero",
+     "It depends on the temperature",
+     "Negative"
+    ],
+    "answer": 3,
+    "explain": "In an exothermic reaction the chemicals lose energy to the surroundings, so ΔH is negative."
+   },
+   {
+    "id": "M4",
+    "q": "In Q = mcΔT for a combustion experiment, what does m stand for?",
+    "options": [
+     "The mass of fuel burned",
+     "The mass of water heated",
+     "The mass of the copper can",
+     "The relative formula mass of the fuel"
+    ],
+    "answer": 1,
+    "explain": "Q is the heat taken in by the water, and c is the specific heat capacity of water, so m is the mass of water heated."
+   },
+   {
+    "id": "M5",
+    "q": "50 cm³ of solution rises in temperature by 10.0 °C. What is Q? (c = 4.2 J/g/°C)",
+    "options": [
+     "210 J",
+     "2100 J",
+     "420 J",
+     "21 000 J"
+    ],
+    "answer": 1,
+    "explain": "Q = 50 × 4.2 × 10.0 = 2100 J, taking 1 cm³ of solution as 1 g."
+   },
+   {
+    "id": "M6",
+    "q": "Q = 2.1 kJ is released when 0.010 mol of a reactant is used up and the temperature rises. What is ΔH?",
+    "options": [
+     "+210 kJ/mol",
+     "+0.021 kJ/mol",
+     "−21 kJ/mol",
+     "−210 kJ/mol"
+    ],
+    "answer": 3,
+    "explain": "ΔH = −Q ÷ n = −2.1 ÷ 0.010 = −210 kJ/mol. It is negative because the temperature rose."
+   },
+   {
+    "id": "M7",
+    "q": "Why is a polystyrene cup used instead of a glass beaker in a neutralisation experiment?",
+    "options": [
+     "Polystyrene is an insulator, so less heat is lost",
+     "Polystyrene reacts with the acid",
+     "Polystyrene conducts heat into the solution",
+     "Polystyrene stops all heat loss"
+    ],
+    "answer": 0,
+    "explain": "Polystyrene is a poor conductor of heat, so less heat is lost to the surroundings. The mark scheme rejects 'no heat loss'."
+   },
+   {
+    "id": "M8",
+    "q": "In a combustion experiment, why is the water in the copper can stirred?",
+    "options": [
+     "To make the fuel burn faster",
+     "To stop the fuel evaporating",
+     "To spread the heat evenly through the water",
+     "To cool the copper can"
+    ],
+    "answer": 2,
+    "explain": "Stirring distributes the heat evenly, so the thermometer reads the true temperature of all the water."
+   },
+   {
+    "id": "M9",
+    "q": "A black solid forms on the bottom of the copper can above a burning fuel. What is it?",
+    "options": [
+     "Copper oxide",
+     "Carbon dioxide",
+     "Water",
+     "Carbon (soot)"
+    ],
+    "answer": 3,
+    "explain": "Soot is carbon, formed by incomplete combustion of the fuel when there is not enough oxygen."
+   },
+   {
+    "id": "M10",
+    "q": "Which is NOT a reason why a measured enthalpy of combustion is smaller than the data-book value?",
+    "options": [
+     "Heat is lost to the surroundings",
+     "The water was stirred",
+     "Incomplete combustion of the fuel",
+     "Fuel evaporates from the wick"
+    ],
+    "answer": 1,
+    "explain": "Stirring improves accuracy. Heat loss, incomplete combustion and evaporation all make the measured value too small."
+   },
+   {
+    "id": "M11",
+    "q": "Why should a spirit burner be reweighed immediately after the flame is put out?",
+    "options": [
+     "The burner cools and gets lighter",
+     "The water would evaporate",
+     "The volatile fuel could evaporate, giving a false mass loss",
+     "The copper can would lose mass"
+    ],
+    "answer": 2,
+    "explain": "Liquid fuels evaporate easily. Any fuel that evaporates would be counted as burned, making n too big."
+   },
+   {
+    "id": "M12",
+    "q": "0.12 g of magnesium (Ar 24) reacts completely. How many moles is this?",
+    "options": [
+     "0.005 mol",
+     "0.05 mol",
+     "0.0005 mol",
+     "2.88 mol"
+    ],
+    "answer": 0,
+    "explain": "n = mass ÷ Ar = 0.12 ÷ 24 = 0.005 mol."
+   },
+   {
+    "id": "M13",
+    "q": "Excess zinc powder is added to copper(II) sulfate solution. Which moles should be used to calculate ΔH?",
+    "options": [
+     "Moles of copper(II) sulfate",
+     "Moles of zinc",
+     "Moles of water",
+     "Moles of zinc plus copper(II) sulfate"
+    ],
+    "answer": 0,
+    "explain": "The zinc is in excess, so the copper(II) sulfate is the reactant that is completely used up. Use its moles."
+   },
+   {
+    "id": "M14",
+    "q": "In a neutralisation experiment the temperature rises from 21.0 °C to 34.7 °C. What is ΔT?",
+    "options": [
+     "34.7 °C",
+     "55.7 °C",
+     "13.7 °C",
+     "21.0 °C"
+    ],
+    "answer": 2,
+    "explain": "ΔT is the change: 34.7 − 21.0 = 13.7 °C. Using the final temperature is a common error."
+   },
+   {
+    "id": "M15",
+    "q": "On an energy level diagram for an exothermic reaction, where are the products?",
+    "options": [
+     "At the same level as the reactants",
+     "Below the reactants",
+     "Above the reactants",
+     "At the top of the hump"
+    ],
+    "answer": 1,
+    "explain": "The chemicals lose energy in an exothermic reaction, so the products are at a lower energy than the reactants."
+   },
+   {
+    "id": "M16",
+    "q": "On a reaction profile, the activation energy arrow goes from…",
+    "options": [
+     "the products up to the peak",
+     "the reactants down to the products",
+     "the x-axis up to the peak",
+     "the reactants up to the peak"
+    ],
+    "answer": 3,
+    "explain": "Activation energy is the energy needed to get from the reactants to the top of the hump, so the arrow starts at the reactants level and points up."
+   },
+   {
+    "id": "M17",
+    "q": "How does a catalysed reaction profile compare with the uncatalysed one?",
+    "options": [
+     "Lower peak, same reactant and product levels",
+     "Higher peak, same reactant and product levels",
+     "Same peak, lower products level",
+     "Lower peak, lower products level"
+    ],
+    "answer": 0,
+    "explain": "A catalyst provides a pathway with a lower activation energy, so the peak is lower. The reactants and products, and so ΔH, are unchanged."
+   },
+   {
+    "id": "M18",
+    "q": "What effect does a catalyst have on ΔH for a reaction?",
+    "options": [
+     "Makes it more negative",
+     "Makes it more positive",
+     "No effect",
+     "Makes it zero"
+    ],
+    "answer": 2,
+    "explain": "The reactants and products have the same energies with or without a catalyst, so ΔH does not change."
+   },
+   {
+    "id": "M19",
+    "q": "Which statement about bonds is correct?",
+    "options": [
+     "Bond breaking gives out energy",
+     "Bond making takes in energy",
+     "Bond breaking and making both take in energy",
+     "Bond breaking takes in energy and bond making gives out energy"
+    ],
+    "answer": 3,
+    "explain": "Energy is needed to pull atoms apart (endothermic). Energy is released when new bonds form (exothermic)."
+   },
+   {
+    "id": "M20",
+    "q": "How is ΔH calculated from bond energies?",
+    "options": [
+     "Bonds broken − bonds made",
+     "Bonds made − bonds broken",
+     "Bonds broken + bonds made",
+     "Bonds made ÷ bonds broken"
+    ],
+    "answer": 0,
+    "explain": "ΔH = energy taken in breaking bonds minus energy given out making bonds. A negative answer means exothermic."
+   },
+   {
+    "id": "M21",
+    "q": "H₂ + Cl₂ → 2HCl. H–H 436, Cl–Cl 242, H–Cl 431 kJ/mol. What is ΔH?",
+    "options": [
+     "+184 kJ/mol",
+     "−184 kJ/mol",
+     "−247 kJ/mol",
+     "+1109 kJ/mol"
+    ],
+    "answer": 1,
+    "explain": "Broken = 436 + 242 = 678. Made = 2 × 431 = 862. ΔH = 678 − 862 = −184 kJ/mol."
+   },
+   {
+    "id": "M22",
+    "q": "A reaction is exothermic. What must be true about its bonds?",
+    "options": [
+     "More energy is released making bonds than is taken in breaking bonds",
+     "More energy is taken in breaking bonds than is released making bonds",
+     "No bonds are broken",
+     "The same bonds are broken and made"
+    ],
+    "answer": 0,
+    "explain": "If bond making releases more energy than bond breaking takes in, there is a net release of energy, so ΔH is negative."
+   },
+   {
+    "id": "M23",
+    "q": "Why is ΔH for making an ester from ethanoic acid and ethanol approximately 0 kJ/mol?",
+    "options": [
+     "No bonds are broken",
+     "The reaction is reversible",
+     "The same bonds are broken and made",
+     "A catalyst is used"
+    ],
+    "answer": 2,
+    "explain": "One C–O and one O–H bond are broken and one C–O and one O–H bond are made, so the energy in equals the energy out."
+   },
+   {
+    "id": "M24",
+    "q": "How many O–H bonds are made in 2H₂ + O₂ → 2H₂O?",
+    "options": [
+     "2",
+     "4",
+     "1",
+     "6"
+    ],
+    "answer": 1,
+    "explain": "Each water molecule has two O–H bonds, and there are two water molecules, so four O–H bonds are made."
+   },
+   {
+    "id": "M25",
+    "q": "What does the symbol ⇌ show in an equation?",
+    "options": [
+     "The reaction is exothermic",
+     "The reaction is fast",
+     "A catalyst is needed",
+     "The reaction is reversible"
+    ],
+    "answer": 3,
+    "explain": "⇌ means the reaction can go in both directions: the products can react to re-form the reactants."
+   },
+   {
+    "id": "M26",
+    "q": "What colour change happens when hydrated copper(II) sulfate is heated?",
+    "options": [
+     "White to blue",
+     "Blue to white",
+     "Blue to black",
+     "Green to black"
+    ],
+    "answer": 1,
+    "explain": "Heating removes the water of crystallisation. Blue hydrated copper(II) sulfate becomes white anhydrous copper(II) sulfate."
+   },
+   {
+    "id": "M27",
+    "q": "Which substance is used to test whether a liquid contains water?",
+    "options": [
+     "Hydrated copper(II) sulfate, which turns white",
+     "Limewater, which turns milky",
+     "Anhydrous copper(II) sulfate, which turns blue",
+     "Universal indicator, which turns green"
+    ],
+    "answer": 2,
+    "explain": "Water turns white anhydrous copper(II) sulfate blue. Hydrated copper(II) sulfate is already blue."
+   },
+   {
+    "id": "M28",
+    "q": "Ammonium chloride is heated at the bottom of a test tube. What is seen near the cooler top of the tube?",
+    "options": [
+     "A white solid forms",
+     "A brown gas",
+     "A blue solid forms",
+     "Nothing"
+    ],
+    "answer": 0,
+    "explain": "NH₄Cl ⇌ NH₃ + HCl. The gases recombine in the cooler part of the tube to form white ammonium chloride again."
+   },
+   {
+    "id": "M29",
+    "q": "Which equation shows the effect of heat on ammonium chloride?",
+    "options": [
+     "NH₄Cl ⇌ N₂ + H₂ + Cl₂",
+     "NH₄Cl → NH₄ + Cl",
+     "NH₄Cl ⇌ NH₃ + Cl₂",
+     "NH₄Cl ⇌ NH₃ + HCl"
+    ],
+    "answer": 3,
+    "explain": "Ammonium chloride decomposes into ammonia and hydrogen chloride, and the reaction is reversible."
+   },
+   {
+    "id": "M30",
+    "q": "Which is a characteristic of a reaction at dynamic equilibrium?",
+    "options": [
+     "The reaction has stopped",
+     "The concentrations of reactants and products are equal",
+     "Only the forward reaction occurs",
+     "The forward and reverse reactions occur at the same rate"
+    ],
+    "answer": 3,
+    "explain": "At dynamic equilibrium both reactions continue at the same rate. 'Concentrations are equal' is rejected by mark schemes."
+   },
+   {
+    "id": "M31",
+    "q": "At dynamic equilibrium, the concentrations of reactants and products…",
+    "options": [
+     "are equal",
+     "remain constant",
+     "keep increasing",
+     "fall to zero"
+    ],
+    "answer": 1,
+    "explain": "Because the forward and reverse rates are equal, the concentrations stop changing. They are constant, not necessarily equal."
+   },
+   {
+    "id": "M32",
+    "q": "Why must a reversible reaction be in a sealed container to reach dynamic equilibrium?",
+    "options": [
+     "To keep the pressure low",
+     "To keep it hot",
+     "So that no reactants or products escape",
+     "So that air can get in"
+    ],
+    "answer": 2,
+    "explain": "If a product escapes, the reverse reaction cannot happen, so equilibrium is never reached."
+   },
+   {
+    "id": "M33",
+    "q": "What is the effect of a catalyst on the position of equilibrium?",
+    "options": [
+     "It shifts to the right",
+     "No effect, but equilibrium is reached sooner",
+     "It shifts to the left",
+     "It shifts towards the exothermic side"
+    ],
+    "answer": 1,
+    "explain": "A catalyst increases the rates of the forward and backward reactions equally, so the position does not change."
+   },
+   {
+    "id": "M34",
+    "q": "Why does a catalyst not change the yield of a reversible reaction?",
+    "options": [
+     "It is used up in the reaction",
+     "It only speeds up the forward reaction",
+     "It increases the rates of the forward and backward reactions equally",
+     "It lowers the temperature"
+    ],
+    "answer": 2,
+    "explain": "Both rates rise by the same amount, so they stay equal at the same concentrations. The yield is unchanged."
+   },
+   {
+    "id": "M35",
+    "q": "Increasing the temperature shifts the position of equilibrium in which direction?",
+    "options": [
+     "The endothermic direction",
+     "The exothermic direction",
+     "Towards fewer moles of gas",
+     "It never has an effect"
+    ],
+    "answer": 0,
+    "explain": "A rise in temperature shifts equilibrium in the direction of the endothermic reaction."
+   },
+   {
+    "id": "M36",
+    "q": "CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g), ΔH = +206 kJ/mol. What happens to the yield of hydrogen if the temperature is lowered?",
+    "options": [
+     "It increases",
+     "It stays the same",
+     "It doubles",
+     "It decreases"
+    ],
+    "answer": 3,
+    "explain": "The forward reaction is endothermic. Lowering the temperature shifts equilibrium in the exothermic direction, to the left, so less hydrogen."
+   },
+   {
+    "id": "M37",
+    "q": "For CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g), what happens to the yield of hydrogen if the pressure is lowered?",
+    "options": [
+     "It decreases",
+     "It stays the same",
+     "It increases",
+     "It falls to zero"
+    ],
+    "answer": 2,
+    "explain": "There are 2 moles of gas on the left and 4 on the right. Lower pressure shifts equilibrium to more moles of gas, the right, so more hydrogen."
+   },
+   {
+    "id": "M38",
+    "q": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g). Increasing the pressure shifts the equilibrium…",
+    "options": [
+     "to the right, because there are fewer moles of gas on the right",
+     "to the left, because there are fewer moles of gas on the left",
+     "to the right, because the reaction is exothermic",
+     "nowhere, because pressure has no effect"
+    ],
+    "answer": 0,
+    "explain": "There are 3 moles of gas on the left and 2 on the right. Higher pressure shifts equilibrium towards fewer moles of gas."
+   },
+   {
+    "id": "M39",
+    "q": "H₂(g) + I₂(g) ⇌ 2HI(g). What is the effect of increasing the pressure on the position of equilibrium?",
+    "options": [
+     "Shifts to the right",
+     "Shifts to the left",
+     "Depends on the catalyst",
+     "No effect"
+    ],
+    "answer": 3,
+    "explain": "There are 2 moles of gas on each side, so changing the pressure does not favour either side."
+   },
+   {
+    "id": "M40",
+    "q": "N₂ + 3H₂ ⇌ 2NH₃ has a negative ΔH. What happens to the yield of ammonia if the temperature is increased?",
+    "options": [
+     "It increases",
+     "It decreases",
+     "It stays the same",
+     "It increases then stays the same"
+    ],
+    "answer": 1,
+    "explain": "The forward reaction is exothermic, so the reverse is endothermic. Heating shifts equilibrium to the left, so less ammonia."
+   }
+  ],
+  "16-alkenes-and-addition-polymers": [
+   {
+    "id": "M1",
+    "q": "What is the functional group of the alkenes?",
+    "options": [
+     "C=C",
+     "C–C",
+     "–OH",
+     "–COOH"
+    ],
+    "answer": 0,
+    "explain": "Alkenes all contain the carbon–carbon double bond, >C=C<. –OH is the alcohol group and –COOH the carboxylic acid group."
+   },
+   {
+    "id": "M2",
+    "q": "What is the general formula of the alkenes?",
+    "options": [
+     "CₙH₂ₙ₊₂",
+     "CₙH₂ₙ",
+     "CₙH₂ₙ₋₂",
+     "CₙH₂ₙ₊₁OH"
+    ],
+    "answer": 1,
+    "explain": "Alkenes have twice as many H atoms as C atoms, CₙH₂ₙ. CₙH₂ₙ₊₂ is the alkanes."
+   },
+   {
+    "id": "M3",
+    "q": "What is the molecular formula of propene?",
+    "options": [
+     "C₃H₈",
+     "C₂H₄",
+     "C₃H₆",
+     "C₄H₈"
+    ],
+    "answer": 2,
+    "explain": "Propene has 3 carbons and fits CₙH₂ₙ, so it is C₃H₆. C₃H₈ is propane."
+   },
+   {
+    "id": "M4",
+    "q": "Why is ethene described as unsaturated?",
+    "options": [
+     "It contains only carbon and hydrogen",
+     "It is a gas at room temperature",
+     "It dissolves in water",
+     "It contains a carbon–carbon double bond"
+    ],
+    "answer": 3,
+    "explain": "Unsaturated means it contains a C=C double bond. 'Only carbon and hydrogen' is what makes it a hydrocarbon."
+   },
+   {
+    "id": "M5",
+    "q": "Which statement is the definition of a hydrocarbon?",
+    "options": [
+     "A compound containing hydrogen and carbon atoms only",
+     "A compound containing hydrogen and carbon molecules",
+     "An element made of carbon and hydrogen",
+     "A compound containing carbon, hydrogen and oxygen"
+    ],
+    "answer": 0,
+    "explain": "A hydrocarbon is a compound of hydrogen and carbon atoms only. Mark schemes reject 'molecules' and 'element' here."
+   },
+   {
+    "id": "M6",
+    "q": "What is the empirical formula of every alkene?",
+    "options": [
+     "CH",
+     "CH₂",
+     "CH₃",
+     "C₂H₄"
+    ],
+    "answer": 1,
+    "explain": "CₙH₂ₙ always simplifies to a 1 : 2 ratio of C to H, so the empirical formula is CH₂."
+   },
+   {
+    "id": "M7",
+    "q": "Bromine water is added to an alkene and shaken. What colour change is seen?",
+    "options": [
+     "Colourless to orange",
+     "Orange to purple",
+     "Orange to colourless",
+     "No change — stays orange"
+    ],
+    "answer": 2,
+    "explain": "The bromine adds across the C=C and is used up, so the orange bromine water is decolourised."
+   },
+   {
+    "id": "M8",
+    "q": "Bromine water is shaken with an alkane at room temperature, in the dark. What is observed?",
+    "options": [
+     "It turns colourless",
+     "It turns green",
+     "A white precipitate forms",
+     "It stays orange"
+    ],
+    "answer": 3,
+    "explain": "Alkanes are saturated, so there is no C=C to add to. They only react with bromine in UV light, by substitution."
+   },
+   {
+    "id": "M9",
+    "q": "What is the product when ethene reacts with bromine?",
+    "options": [
+     "1,2-dibromoethane",
+     "Bromoethane and hydrogen bromide",
+     "Bromoethene",
+     "Dibromomethane"
+    ],
+    "answer": 0,
+    "explain": "C₂H₄ + Br₂ → C₂H₄Br₂. One Br adds to each carbon of the double bond, giving 1,2-dibromoethane as the only product."
+   },
+   {
+    "id": "M10",
+    "q": "What type of reaction happens between ethene and bromine?",
+    "options": [
+     "Substitution",
+     "Addition",
+     "Combustion",
+     "Displacement"
+    ],
+    "answer": 1,
+    "explain": "Two molecules join into one and the C=C opens, so it is addition. Substitution is the alkane reaction."
+   },
+   {
+    "id": "M11",
+    "q": "Which condition is needed for ethane to react with bromine?",
+    "options": [
+     "A nickel catalyst",
+     "High pressure",
+     "Ultraviolet light",
+     "Concentrated sulfuric acid"
+    ],
+    "answer": 2,
+    "explain": "Alkanes react with halogens only in UV light, by substitution. Alkenes need no UV."
+   },
+   {
+    "id": "M12",
+    "q": "Which are the products of the reaction between ethane and bromine in UV light?",
+    "options": [
+     "C₂H₄Br₂ only",
+     "C₂H₅Br and H₂",
+     "C₂H₄ and HBr",
+     "C₂H₅Br and HBr"
+    ],
+    "answer": 3,
+    "explain": "C₂H₆ + Br₂ → C₂H₅Br + HBr. One H is swapped for a Br, and the H leaves as hydrogen bromide."
+   },
+   {
+    "id": "M13",
+    "q": "But-1-ene reacts with bromine. What is the molecular formula of the product?",
+    "options": [
+     "C₄H₈Br₂",
+     "C₄H₇Br",
+     "C₄H₁₀Br₂",
+     "C₄H₉Br"
+    ],
+    "answer": 0,
+    "explain": "Addition keeps every atom: C₄H₈ + Br₂ → C₄H₈Br₂. No hydrogen is lost."
+   },
+   {
+    "id": "M14",
+    "q": "What is the structural formula of but-2-ene?",
+    "options": [
+     "CH₂=CHCH₂CH₃",
+     "CH₃CH=CHCH₃",
+     "CH₃CH₂CH₂CH₃",
+     "CH₂=C(CH₃)CH₃"
+    ],
+    "answer": 1,
+    "explain": "In but-2-ene the double bond is between carbons 2 and 3, in the middle of the chain. CH₂=CHCH₂CH₃ is but-1-ene."
+   },
+   {
+    "id": "M15",
+    "q": "What is the structural formula of but-1-ene?",
+    "options": [
+     "CH₃CH=CHCH₃",
+     "CH₃CH₂CH₂CH₃",
+     "CH₂=CHCH₂CH₃",
+     "CH₂=CHCH₃"
+    ],
+    "answer": 2,
+    "explain": "But-1-ene has four carbons with the double bond starting at carbon 1. CH₂=CHCH₃ is propene."
+   },
+   {
+    "id": "M16",
+    "q": "What is meant by the term isomers?",
+    "options": [
+     "Compounds with the same empirical formula and the same structure",
+     "Compounds with the same chemical formula",
+     "Atoms of the same element with different numbers of neutrons",
+     "Compounds with the same molecular formula but different structural formulae"
+    ],
+    "answer": 3,
+    "explain": "Isomers share a molecular formula but have different arrangements of atoms. 'Chemical formula' was rejected by the mark scheme."
+   },
+   {
+    "id": "M17",
+    "q": "Which pair of compounds are isomers?",
+    "options": [
+     "But-1-ene and but-2-ene",
+     "Ethene and ethane",
+     "Propene and propane",
+     "Ethene and propene"
+    ],
+    "answer": 0,
+    "explain": "Both are C₄H₈ with the C=C in different positions. The other pairs have different molecular formulae."
+   },
+   {
+    "id": "M18",
+    "q": "Which compound is saturated but still fits the formula CₙH₂ₙ?",
+    "options": [
+     "Propene",
+     "A ring of four carbon atoms joined by single bonds",
+     "But-2-ene",
+     "Ethene"
+    ],
+    "answer": 1,
+    "explain": "A four-carbon ring is C₄H₈ but has only single bonds, so it is saturated. Real papers have used this as a trick."
+   },
+   {
+    "id": "M19",
+    "q": "How many pairs of electrons are shared between the two carbon atoms in ethene?",
+    "options": [
+     "One",
+     "Three",
+     "Two",
+     "Four"
+    ],
+    "answer": 2,
+    "explain": "A double bond is two shared pairs, four electrons in total. Each C–H bond is one shared pair."
+   },
+   {
+    "id": "M20",
+    "q": "Which is the correct way to describe a test to show a compound is unsaturated?",
+    "options": [
+     "Add bromine and it goes clear",
+     "Add bromine water and it changes colour",
+     "Add bromine water in UV light and it turns colourless",
+     "Add bromine water and it turns from orange to colourless"
+    ],
+    "answer": 3,
+    "explain": "The reagent must be bromine water and the result must be colourless. 'Clear' and 'changes colour' score nothing, and UV is wrong for alkenes."
+   },
+   {
+    "id": "M21",
+    "q": "What is a monomer?",
+    "options": [
+     "A small molecule that joins with many others to form a polymer",
+     "A very long chain molecule",
+     "The part of a polymer shown in brackets",
+     "A catalyst used in polymerisation"
+    ],
+    "answer": 0,
+    "explain": "Monomers are the small molecules, such as ethene, that join together to make a polymer."
+   },
+   {
+    "id": "M22",
+    "q": "Which of these substances can be used to form an addition polymer?",
+    "options": [
+     "Methane",
+     "Ethene",
+     "Ethane",
+     "Diamond"
+    ],
+    "answer": 1,
+    "explain": "An addition polymer needs a monomer with a C=C. Ethene has one; methane and ethane are saturated."
+   },
+   {
+    "id": "M23",
+    "q": "What happens to the C=C double bond of each monomer during addition polymerisation?",
+    "options": [
+     "It stays in the polymer chain",
+     "It becomes a triple bond",
+     "It opens up so the monomers can join together",
+     "It is broken and water is released"
+    ],
+    "answer": 2,
+    "explain": "Each double bond opens to a single bond, freeing a bond on each carbon to link to the next monomer. No water is made in addition polymerisation."
+   },
+   {
+    "id": "M24",
+    "q": "What is the name of the polymer made from CH₂=CHCl?",
+    "options": [
+     "Poly(ethene)",
+     "Poly(propene)",
+     "Poly(tetrafluoroethene)",
+     "Poly(chloroethene)"
+    ],
+    "answer": 3,
+    "explain": "CH₂=CHCl is chloroethene, so its polymer is poly(chloroethene)."
+   },
+   {
+    "id": "M25",
+    "q": "Which monomer is used to make PTFE?",
+    "options": [
+     "CF₂=CF₂",
+     "CH₂=CHF",
+     "CH₂=CH₂",
+     "CCl₂=CCl₂"
+    ],
+    "answer": 0,
+    "explain": "PTFE is poly(tetrafluoroethene). Its monomer tetrafluoroethene has four F atoms: CF₂=CF₂."
+   },
+   {
+    "id": "M26",
+    "q": "Which is the repeat unit of poly(propene)?",
+    "options": [
+     "–CH₂–CH₂–CH₂–",
+     "–CH₂–CH(CH₃)–",
+     "–CH₂–CH₂–",
+     "–CH(CH₃)–CH(CH₃)–"
+    ],
+    "answer": 1,
+    "explain": "Only the two C=C carbons form the chain. The third carbon stays as a CH₃ branch."
+   },
+   {
+    "id": "M27",
+    "q": "A student draws a repeat unit without the bonds sticking out through the brackets. What is wrong?",
+    "options": [
+     "Nothing — the brackets are enough",
+     "The n should be inside the brackets",
+     "The extension bonds are missing",
+     "The double bond is missing"
+    ],
+    "answer": 2,
+    "explain": "A repeat unit needs an extension bond out of each side. The 2023 scheme rejected a structure without them."
+   },
+   {
+    "id": "M28",
+    "q": "How many carbon atoms are in the main chain of one poly(propene) repeat unit?",
+    "options": [
+     "One",
+     "Three",
+     "Four",
+     "Two"
+    ],
+    "answer": 3,
+    "explain": "The two carbons from the C=C form the main chain. The CH₃ carbon is a side branch."
+   },
+   {
+    "id": "M29",
+    "q": "A repeat unit contains two carbons, each bonded to two F atoms. What is the monomer?",
+    "options": [
+     "Tetrafluoroethene",
+     "Tetrafluoroethane",
+     "Difluoroethene",
+     "Fluoroethene"
+    ],
+    "answer": 0,
+    "explain": "Put a C=C between the two chain carbons and keep the four F atoms: CF₂=CF₂, tetrafluoroethene. The -ane name has no double bond."
+   },
+   {
+    "id": "M30",
+    "q": "A repeat unit is –CH₂–CHCl–. Which monomer was used?",
+    "options": [
+     "Chloroethane",
+     "Chloroethene",
+     "Chloropropene",
+     "Dichloroethene"
+    ],
+    "answer": 1,
+    "explain": "Put a double bond between the two chain carbons: CH₂=CHCl, chloroethene. Chloroethane has no C=C, and chloropropene has three carbons."
+   },
+   {
+    "id": "M31",
+    "q": "What is the Mᵣ of chloroethene, C₂H₃Cl? [C = 12, H = 1, Cl = 35.5]",
+    "options": [
+     "62",
+     "64.5",
+     "62.5",
+     "59.5"
+    ],
+    "answer": 2,
+    "explain": "(2 × 12) + (3 × 1) + 35.5 = 62.5."
+   },
+   {
+    "id": "M32",
+    "q": "A poly(ethene) molecule has Mᵣ = 56 000. About how many ethene monomers made it? [C = 12, H = 1]",
+    "options": [
+     "56 000",
+     "4000",
+     "1000",
+     "2000"
+    ],
+    "answer": 3,
+    "explain": "Mᵣ of C₂H₄ = 28, and 56 000 ÷ 28 = 2000."
+   },
+   {
+    "id": "M33",
+    "q": "What is the empirical formula of poly(ethene)?",
+    "options": [
+     "CH₂",
+     "C₂H₄",
+     "CH",
+     "CH₃"
+    ],
+    "answer": 0,
+    "explain": "An addition polymer has the same atom ratio as its monomer. Ethene C₂H₄ simplifies to CH₂."
+   },
+   {
+    "id": "M34",
+    "q": "Why does poly(ethene) not decolourise bromine water?",
+    "options": [
+     "It is a solid",
+     "It is saturated — its C=C bonds were used up in polymerisation",
+     "It contains oxygen",
+     "It is too reactive"
+    ],
+    "answer": 1,
+    "explain": "The double bonds opened to make the chain, so the polymer has only single bonds and cannot add bromine."
+   },
+   {
+    "id": "M35",
+    "q": "Why do addition polymers cause problems in landfill sites?",
+    "options": [
+     "They react with rainwater to form acids",
+     "They release oxygen as they rot",
+     "They are inert and do not biodegrade",
+     "They dissolve in groundwater quickly"
+    ],
+    "answer": 2,
+    "explain": "Addition polymers are inert and non-biodegradable, so they stay in landfill for hundreds of years and the sites fill up."
+   },
+   {
+    "id": "M36",
+    "q": "Which is an environmental problem of burning addition polymers?",
+    "options": [
+     "It damages the ozone layer",
+     "It produces no useful energy",
+     "It makes the polymer biodegradable",
+     "It produces toxic gases"
+    ],
+    "answer": 3,
+    "explain": "Burning releases toxic gases such as carbon monoxide (and hydrogen chloride from poly(chloroethene)), plus CO₂. The ozone layer is the wrong idea and was penalised."
+   },
+   {
+    "id": "M37",
+    "q": "Which toxic gas can be produced by burning poly(chloroethene) but not poly(ethene)?",
+    "options": [
+     "Hydrogen chloride",
+     "Carbon monoxide",
+     "Carbon dioxide",
+     "Water vapour"
+    ],
+    "answer": 0,
+    "explain": "Only poly(chloroethene) contains chlorine, which ends up as hydrogen chloride. Either polymer can give CO and CO₂."
+   },
+   {
+    "id": "M38",
+    "q": "Which reaction is a substitution reaction?",
+    "options": [
+     "C₂H₄ + Br₂ → C₂H₄Br₂",
+     "CH₄ + Cl₂ → CH₃Cl + HCl",
+     "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O",
+     "n C₂H₄ → poly(ethene)"
+    ],
+    "answer": 1,
+    "explain": "In CH₄ + Cl₂, one H is replaced by Cl and HCl is made — substitution. The others are addition, combustion and addition polymerisation."
+   },
+   {
+    "id": "M39",
+    "q": "Which type of reaction is 2C₃H₆ + 9O₂ → 6CO₂ + 6H₂O?",
+    "options": [
+     "Addition",
+     "Substitution",
+     "Combustion",
+     "Polymerisation"
+    ],
+    "answer": 2,
+    "explain": "Burning in oxygen to give carbon dioxide and water is combustion."
+   },
+   {
+    "id": "M40",
+    "q": "Why is there only one product when an addition polymer forms?",
+    "options": [
+     "A catalyst removes the other products",
+     "Water is the only by-product",
+     "The monomers lose hydrogen",
+     "Every atom of every monomer ends up in the polymer"
+    ],
+    "answer": 3,
+    "explain": "In addition polymerisation the monomers join whole and nothing is removed. Condensation polymers (module 17) also make water."
+   }
+  ],
+  "17-alcohols-acids-esters-and-polyesters": [
+   {
+    "id": "M1",
+    "q": "Which functional group is found in all alcohols?",
+    "options": [
+     "–OH",
+     "–COOH",
+     "–COO–",
+     "C=C"
+    ],
+    "answer": 0,
+    "explain": "Alcohols contain the –OH group. –COOH is a carboxylic acid, –COO– is an ester and C=C is an alkene."
+   },
+   {
+    "id": "M2",
+    "q": "Which is the functional group of a carboxylic acid?",
+    "options": [
+     "–OH",
+     "–COO–",
+     "–COOH",
+     "–CHO"
+    ],
+    "answer": 2,
+    "explain": "Carboxylic acids contain –COOH: a carbon with a double-bonded O and an O–H."
+   },
+   {
+    "id": "M3",
+    "q": "Which functional group is found in an ester?",
+    "options": [
+     "–COOH",
+     "–COO–",
+     "–OH",
+     "C=C"
+    ],
+    "answer": 1,
+    "explain": "Esters contain the –COO– group, where the single-bonded O joins to another carbon instead of H."
+   },
+   {
+    "id": "M4",
+    "q": "What is the molecular formula of ethanol?",
+    "options": [
+     "C₂H₅OH",
+     "CH₃CH₂OH",
+     "C₂H₄O₂",
+     "C₂H₆O"
+    ],
+    "answer": 3,
+    "explain": "A molecular formula just counts atoms: 2 C, 6 H, 1 O. A 2022 mark scheme rejected C₂H₅OH for this."
+   },
+   {
+    "id": "M5",
+    "q": "What is the structural formula of propan-1-ol?",
+    "options": [
+     "CH₃CH₂CH₂OH",
+     "CH₃CH₂COOH",
+     "CH₃CH₂OH",
+     "CH₃COOCH₃"
+    ],
+    "answer": 0,
+    "explain": "Propan-1-ol has three carbons with the –OH on the end carbon."
+   },
+   {
+    "id": "M6",
+    "q": "What is the molecular formula of butan-1-ol?",
+    "options": [
+     "C₄H₈O",
+     "C₄H₁₀O",
+     "C₄H₈O₂",
+     "C₄H₉O"
+    ],
+    "answer": 1,
+    "explain": "CH₃CH₂CH₂CH₂OH has 4 C, 10 H and 1 O."
+   },
+   {
+    "id": "M7",
+    "q": "Which statement about a homologous series is correct?",
+    "options": [
+     "Members have the same chemical properties and the same boiling point",
+     "Members have the same molecular formula",
+     "Members have the same general formula and similar chemical properties",
+     "Consecutive members differ by CH₃"
+    ],
+    "answer": 2,
+    "explain": "Same general formula and similar chemical properties. Consecutive members differ by CH₂, and boiling points show a trend."
+   },
+   {
+    "id": "M8",
+    "q": "Ethanol is heated with acidified potassium dichromate(VI). What is the colour change?",
+    "options": [
+     "Green to orange",
+     "Colourless to orange",
+     "Orange to colourless",
+     "Orange to green"
+    ],
+    "answer": 3,
+    "explain": "The dichromate(VI) changes from orange to green as it oxidises the ethanol. The order matters."
+   },
+   {
+    "id": "M9",
+    "q": "Methanol is heated with potassium dichromate(VI) and one other reagent. What is the other reagent?",
+    "options": [
+     "Dilute sulfuric acid",
+     "Sodium hydroxide solution",
+     "Phosphoric acid",
+     "Water"
+    ],
+    "answer": 0,
+    "explain": "The dichromate is used in dilute sulfuric acid (H₂SO₄), as in 2024 Edexcel 2C Q5(b)(i)."
+   },
+   {
+    "id": "M10",
+    "q": "Which product forms when ethanol is oxidised by potassium dichromate(VI)?",
+    "options": [
+     "Ethene",
+     "Ethanoic acid",
+     "Ethyl ethanoate",
+     "Methanol"
+    ],
+    "answer": 1,
+    "explain": "Ethanol is oxidised to ethanoic acid. The carbon count stays at two."
+   },
+   {
+    "id": "M11",
+    "q": "Wine left open to the air turns sour. Why?",
+    "options": [
+     "Ethanol evaporates, leaving water",
+     "Yeast makes more glucose",
+     "Microbes use oxygen to oxidise ethanol to ethanoic acid",
+     "Ethanol reacts with carbon dioxide"
+    ],
+    "answer": 2,
+    "explain": "This is microbial oxidation. Oxygen in the air is used to turn ethanol into ethanoic acid, which gives vinegar."
+   },
+   {
+    "id": "M12",
+    "q": "What is vinegar?",
+    "options": [
+     "Pure ethanoic acid",
+     "An aqueous solution of ethanol",
+     "An ester",
+     "An aqueous solution containing ethanoic acid"
+    ],
+    "answer": 3,
+    "explain": "Vinegar is an aqueous solution containing ethanoic acid."
+   },
+   {
+    "id": "M13",
+    "q": "Which is the balanced equation for the complete combustion of ethanol?",
+    "options": [
+     "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+     "C₂H₅OH + 3½O₂ → 2CO₂ + 3H₂O",
+     "C₂H₅OH + 2O₂ → 2CO + 3H₂O",
+     "C₂H₅OH + 3O₂ → 2CO₂ + 2H₂O"
+    ],
+    "answer": 0,
+    "explain": "The alcohol already has one O. Seven O are needed on the right (4 + 3), so 6 come from 3O₂."
+   },
+   {
+    "id": "M14",
+    "q": "What are the conditions for making ethanol by hydration of ethene?",
+    "options": [
+     "30 °C, 1 atm, yeast",
+     "300 °C, 60–70 atm, phosphoric acid catalyst",
+     "450 °C, 200 atm, iron catalyst",
+     "300 °C, 1 atm, concentrated sulfuric acid"
+    ],
+    "answer": 1,
+    "explain": "Ethene and steam react at about 300 °C and 60–70 atm over a phosphoric acid catalyst."
+   },
+   {
+    "id": "M15",
+    "q": "What is the catalyst in fermentation?",
+    "options": [
+     "Phosphoric acid",
+     "Concentrated sulfuric acid",
+     "Enzymes in yeast",
+     "Nickel"
+    ],
+    "answer": 2,
+    "explain": "Fermentation uses enzymes in yeast at about 30 °C."
+   },
+   {
+    "id": "M16",
+    "q": "Which is the balanced equation for fermentation?",
+    "options": [
+     "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+     "C₆H₁₂O₆ → C₂H₅OH + CO₂",
+     "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+     "C₆H₁₂O₆ → 3C₂H₅OH"
+    ],
+    "answer": 0,
+    "explain": "One glucose gives two ethanol and two carbon dioxide: 6 C, 12 H and 6 O on each side."
+   },
+   {
+    "id": "M17",
+    "q": "Why is fermentation carried out in the absence of air?",
+    "options": [
+     "Air would cool the mixture",
+     "Nitrogen would react with the glucose",
+     "Air would make the enzymes work too fast",
+     "Oxygen would oxidise the ethanol to ethanoic acid"
+    ],
+    "answer": 3,
+    "explain": "With oxygen present, ethanol is oxidised to ethanoic acid. Aerobic respiration would also give only CO₂ and water."
+   },
+   {
+    "id": "M18",
+    "q": "Why is fermentation not carried out at 60 °C?",
+    "options": [
+     "The glucose would boil",
+     "The enzymes in the yeast would denature",
+     "The ethanol would oxidise",
+     "The reaction would become reversible"
+    ],
+    "answer": 1,
+    "explain": "Above the optimum of about 30 °C the enzymes' active sites change shape, so they stop working."
+   },
+   {
+    "id": "M19",
+    "q": "Which is an advantage of fermentation compared with hydration of ethene?",
+    "options": [
+     "It is faster",
+     "It gives purer ethanol",
+     "It uses a renewable raw material",
+     "It is a continuous process"
+    ],
+    "answer": 2,
+    "explain": "Glucose comes from plants, which are renewable. Ethene comes from finite crude oil. The other three are advantages of hydration."
+   },
+   {
+    "id": "M20",
+    "q": "Which is a disadvantage of fermentation compared with hydration?",
+    "options": [
+     "It needs a high pressure",
+     "It uses crude oil",
+     "It needs a temperature of 300 °C",
+     "It is a slow batch process"
+    ],
+    "answer": 3,
+    "explain": "Fermentation is slow and runs in batches, and the ethanol has to be purified."
+   },
+   {
+    "id": "M21",
+    "q": "What is the name of CH₃CH₂COOH?",
+    "options": [
+     "Propanol",
+     "Propanoic acid",
+     "Ethanoic acid",
+     "Butanoic acid"
+    ],
+    "answer": 1,
+    "explain": "Count all three carbons, including the one in –COOH: propanoic acid."
+   },
+   {
+    "id": "M22",
+    "q": "What is the structural formula of methanoic acid?",
+    "options": [
+     "HCOOH",
+     "CH₃OH",
+     "CH₃COOH",
+     "HCOOCH₃"
+    ],
+    "answer": 0,
+    "explain": "Methanoic acid has one carbon, which carries an H, a C=O and an O–H."
+   },
+   {
+    "id": "M23",
+    "q": "What is the molecular formula of butanoic acid?",
+    "options": [
+     "C₄H₁₀O",
+     "C₅H₁₀O₂",
+     "C₄H₈O₂",
+     "C₄H₆O₂"
+    ],
+    "answer": 2,
+    "explain": "CH₃CH₂CH₂COOH has 4 C, 8 H and 2 O."
+   },
+   {
+    "id": "M24",
+    "q": "What are the products when ethanoic acid reacts with magnesium?",
+    "options": [
+     "Magnesium ethanoate and water",
+     "Magnesium ethanoate and hydrogen",
+     "Magnesium oxide and ethanol",
+     "Magnesium ethanoate, water and carbon dioxide"
+    ],
+    "answer": 1,
+    "explain": "Acid + metal → salt + hydrogen. The salt of ethanoic acid is an ethanoate."
+   },
+   {
+    "id": "M25",
+    "q": "What are the products when methanoic acid reacts with sodium carbonate?",
+    "options": [
+     "Sodium methanoate and hydrogen",
+     "Sodium methanoate and water only",
+     "Methanol and carbon dioxide",
+     "Sodium methanoate, water and carbon dioxide"
+    ],
+    "answer": 3,
+    "explain": "Acid + carbonate → salt + water + carbon dioxide: 2HCOOH + Na₂CO₃ → 2HCOONa + H₂O + CO₂."
+   },
+   {
+    "id": "M26",
+    "q": "What is the formula of sodium ethanoate?",
+    "options": [
+     "NaCOOCH₃",
+     "NaCH₃COOH",
+     "CH₃CH₂ONa",
+     "CH₃COONa"
+    ],
+    "answer": 3,
+    "explain": "Sodium replaces the H of the –COOH. A mark scheme rejected NaCOOH for sodium methanoate."
+   },
+   {
+    "id": "M27",
+    "q": "Which test shows that a liquid contains ethanoic acid rather than ethanol?",
+    "options": [
+     "Add sodium carbonate — effervescence",
+     "Add bromine water — decolourised",
+     "Add water — it mixes",
+     "Smell it — no smell"
+    ],
+    "answer": 0,
+    "explain": "Carboxylic acids fizz with carbonates (and metals such as magnesium). Alcohols do not."
+   },
+   {
+    "id": "M28",
+    "q": "What is needed to make ethyl ethanoate from ethanol and ethanoic acid?",
+    "options": [
+     "Yeast at 30 °C",
+     "Phosphoric acid at 300 °C",
+     "A few drops of concentrated sulfuric acid, warmed",
+     "Potassium dichromate(VI)"
+    ],
+    "answer": 2,
+    "explain": "Concentrated sulfuric acid is the catalyst. The mixture is warmed in a water bath."
+   },
+   {
+    "id": "M29",
+    "q": "Why does the amount of concentrated sulfuric acid stay the same when an ester is made?",
+    "options": [
+     "It is too concentrated to react",
+     "It is a catalyst",
+     "It is a product as well as a reactant",
+     "It evaporates and condenses"
+    ],
+    "answer": 1,
+    "explain": "A catalyst speeds up the reaction without being used up, so its moles do not change."
+   },
+   {
+    "id": "M30",
+    "q": "What is the name of the ester CH₃COOCH₂CH₃?",
+    "options": [
+     "Ethyl methanoate",
+     "Methyl propanoate",
+     "Propyl ethanoate",
+     "Ethyl ethanoate"
+    ],
+    "answer": 3,
+    "explain": "The C=O side has 2 carbons (ethanoate) and the O side has 2 carbons (ethyl)."
+   },
+   {
+    "id": "M31",
+    "q": "What is the name of the ester made from propanol and methanoic acid?",
+    "options": [
+     "Propyl methanoate",
+     "Methyl propanoate",
+     "Propyl propanoate",
+     "Methyl methanoate"
+    ],
+    "answer": 0,
+    "explain": "Alcohol part first with -yl (propyl), then acid part with -oate (methanoate)."
+   },
+   {
+    "id": "M32",
+    "q": "What is the name of the ester CH₃COOCH₂CH₂CH₂CH₃?",
+    "options": [
+     "Butyl methanoate",
+     "Ethyl butanoate",
+     "Butyl ethanoate",
+     "Methyl butanoate"
+    ],
+    "answer": 2,
+    "explain": "CH₃CO– is the ethanoate part and –CH₂CH₂CH₂CH₃ is butyl: butyl ethanoate (2024 Edexcel 2C Q5(d))."
+   },
+   {
+    "id": "M33",
+    "q": "What is the molecular formula of butyl ethanoate?",
+    "options": [
+     "C₆H₁₂O₂",
+     "C₆H₁₄O₂",
+     "C₅H₁₀O₂",
+     "C₆H₁₂O"
+    ],
+    "answer": 0,
+    "explain": "CH₃COOCH₂CH₂CH₂CH₃ has 6 C, 12 H and 2 O."
+   },
+   {
+    "id": "M34",
+    "q": "Which alcohol and acid react to make methyl propanoate?",
+    "options": [
+     "Propanol and methanoic acid",
+     "Methanol and propanoic acid",
+     "Methanol and methanoic acid",
+     "Propanol and propanoic acid"
+    ],
+    "answer": 1,
+    "explain": "'Methyl' comes from the alcohol (methanol) and 'propanoate' from the acid (propanoic acid)."
+   },
+   {
+    "id": "M35",
+    "q": "Why are esters used in perfumes and food flavourings?",
+    "options": [
+     "They are acidic",
+     "They are unreactive and have no smell",
+     "They are volatile and have distinctive smells",
+     "They dissolve in water to form alkalis"
+    ],
+    "answer": 2,
+    "explain": "Esters evaporate easily and have distinctive, often fruity, smells."
+   },
+   {
+    "id": "M36",
+    "q": "In the ester practical, the mixture is poured into sodium carbonate solution. How do you know an ester has formed?",
+    "options": [
+     "The solution turns green",
+     "A white precipitate forms",
+     "The mixture fizzes",
+     "A fruity smell and an oily layer on the surface"
+    ],
+    "answer": 3,
+    "explain": "The ester is a fruity-smelling oily layer. The fizzing is only the carbonate reacting with leftover acid."
+   },
+   {
+    "id": "M37",
+    "q": "Which pair of monomers can form a polyester?",
+    "options": [
+     "Ethene and propene",
+     "A dicarboxylic acid and a diol",
+     "Ethanol and ethanoic acid",
+     "Glucose and ethanol"
+    ],
+    "answer": 1,
+    "explain": "Each monomer needs a functional group at both ends, so the chain keeps growing. Ethanol + ethanoic acid only make one ester molecule."
+   },
+   {
+    "id": "M38",
+    "q": "What else is made when ethanedioic acid and ethanediol form a polyester?",
+    "options": [
+     "Hydrogen",
+     "Carbon dioxide",
+     "Nothing — it is addition polymerisation",
+     "Water"
+    ],
+    "answer": 3,
+    "explain": "Condensation polymerisation gives out one water molecule for each ester link formed."
+   },
+   {
+    "id": "M39",
+    "q": "When a dicarboxylic acid and a diol join, which atoms are lost as water?",
+    "options": [
+     "–OH from the acid and –H from the diol",
+     "–H from the acid and –OH from the diol",
+     "–COOH from the acid",
+     "A C=O from the acid"
+    ],
+    "answer": 0,
+    "explain": "The acid loses –OH from its –COOH and the diol loses H from its –OH. They combine as H₂O."
+   },
+   {
+    "id": "M40",
+    "q": "What is special about biopolyesters?",
+    "options": [
+     "They are made by addition polymerisation",
+     "They are made from crude oil",
+     "They are biodegradable",
+     "They cannot be broken down by microorganisms"
+    ],
+    "answer": 2,
+    "explain": "Biopolyesters are biodegradable. Microorganisms break them down, so they cause fewer disposal problems."
+   }
+  ]
+ }
+}
