@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 13 · Reactivity, Rusting and Alloys — IGCSE Chemistry 4CH1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 13 of 17 · Edexcel IGCSE Chemistry 4CH1</p>
+  <h1>Reactivity, Rusting and Alloys</h1>
+  <p class="standfirst">Year 11 topic. It turns up as an easy-looking early question on almost every real paper: an unknown-metal table, a rusting question or a sacrificial-protection explanation. The marks go to people who say <em>water and oxygen</em>, <em>more reactive</em>, <em>corrodes instead of iron</em> and <em>atoms of different sizes</em>.</p>
+  <div class="meta">
+    <span class="tag"><strong>Year 11</strong> content</span>
+    <span class="tag">Spec <strong>2.15</strong>, <strong>2.17 – 2.21</strong>, <strong>2.25C – 2.27C</strong></span>
+    <span class="tag">In <strong>9 of 10</strong> real Edexcel papers</span>
+    <span class="tag">Est. <strong>2 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2025 school Q4(a) <span class="marks">(4)</span></td><td>Magnesium: label the metallic structure (positive ions, delocalised electrons); why the metal is malleable — layers slide</td></tr>
+<tr><td>2024 school Q5(a) <span class="marks">(3)</span></td><td>Thermite: the balanced equation, and why it is redox — aluminium gains oxygen, iron(III) oxide loses it</td></tr>
+<tr><td>2024 Edexcel 1C Q2 <span class="marks">(9)</span></td><td>Metals P, Q, R, S with water and dilute HCl: order of reactivity, which could be zinc, Al + HCl word equation, an unreactive metal, why one reaction was not done (explosive); thermite — exothermic, why Al displaces iron, why it is redox</td></tr>
+<tr><td>2024 Edexcel 2C Q2 <span class="marks">(5)</span></td><td>Rusting: the two substances needed, a barrier method, explain sacrificial protection</td></tr>
+<tr><td>2023 Edexcel 1C Q2 <span class="marks">(8)</span></td><td>Chemical name of rust, rusting is oxidation, metal used to galvanise; Fe + H₂SO₄ equation and the hydrogen test; iron in copper(II) sulfate — displacement, pink-brown solid; why iron does not react with magnesium sulfate</td></tr>
+<tr><td>2023 Jan Edexcel 1C Q3(b)(i) <span class="marks">(1)</span></td><td>Wet iron wool used to remove oxygen: give the chemical name for rust</td></tr>
+<tr><td>2023 Jan Edexcel 1C Q5 <span class="marks">(7)</span></td><td>Magnesium and metal X in sulfate solutions: brown coating is copper, why no change with its own sulfate, order Mg &gt; Al &gt; X &gt; Cu, X could be zinc or iron; Mg is the reducing agent because it donates electrons</td></tr>
+<tr><td>2023 Jan Edexcel 2C Q5(a) <span class="marks">(2)</span></td><td>Explain why metals are malleable</td></tr>
+<tr><td>2022 Edexcel 1C Q4(a) <span class="marks">(5)</span></td><td>Wet iron powder and air: why it must be wet, colour and formula of the product, why powder is better than pieces</td></tr>
+<tr><td>2022 Edexcel 2C Q6(c) <span class="marks">(3)</span></td><td>Why an aluminium–titanium alloy is stronger than pure titanium — atoms of different sizes</td></tr>
+<tr><td>2022 Jan Edexcel 1C Q2 <span class="marks">(9)</span></td><td>Rusting: two substances needed, chemical name of rust, type of reaction; galvanising — name it, why it still protects when scratched, two other methods</td></tr>
+<tr><td>2022 Jan Edexcel 2C Q6(c)(i) <span class="marks">(2)</span></td><td>Why copper can be stretched into wires — layers of ions slide</td></tr>
+</table>
+
+<div class="trap">
+<p>From the June 2024 Paper 2C mark scheme, on explaining sacrificial protection:</p>
+<p><span class="said">"REJECT a more reactive metal rusts instead of iron"</span></p>
+<p>Only iron <strong>rusts</strong>. Zinc and magnesium <strong>corrode</strong>, <strong>react</strong> or are <strong>oxidised</strong> instead of the iron. The January 2022 scheme says the same about galvanising: <span class="said">"REJECT references to zinc rusting"</span>.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>This module builds on the reactivity series you met in Module 9 (Metal Extraction). There the list was used to decide how a metal is extracted. Here you see the <strong>evidence</strong> for the order — reactions with water, acids and other metals' compounds — then what reactivity means for iron in the real world: it rusts, and we stop it with barriers, zinc and magnesium. The module ends with why we use alloys rather than pure metals.</p>
+
+<h3>The order, and the two kinds of evidence</h3>
+<p class="asked">Spec 2.15, 2.17 · recap of Module 9 · used in every question below</p>
+<p><strong>The more vigorously a metal reacts with water or acid, the higher it sits in the reactivity series.</strong></p>
+<div class="eq"><span class="name">Reactivity series (spec 2.17)</span>K · Na · Li · Ca · Mg · Al · (C) · Zn · Fe · (H) · Cu · Ag · Au<span class="sym">most reactive on the left · carbon and hydrogen are markers, not metals</span></div>
+<p>There are two ways to put metals in order:</p>
+<ol>
+<li><strong>How fast they react</strong> with water or dilute acid — watch the bubbles (hydrogen) and the temperature rise. Faster = more reactive.</li>
+<li><strong>Displacement</strong> — a more reactive metal pushes a less reactive one out of its compound. If A displaces B, A is above B.</li>
+</ol>
+<p>Hydrogen's place matters: metals <strong>above hydrogen</strong> react with dilute acids to make hydrogen; metals <strong>below hydrogen</strong> (copper, silver, gold) do not react at all.</p>
+
+<h3>Metals with water</h3>
+<p class="asked">Spec 2.15 · <strong>2024 Edexcel 1C Q2(a)</strong></p>
+<p><strong>A metal that reacts with water makes a metal hydroxide and hydrogen; only the most reactive metals do this with cold water.</strong></p>
+<table>
+<tr><th>Metal</th><th>With cold water</th><th>With steam</th></tr>
+<tr><td>Potassium, sodium, lithium</td><td><strong>Very fast</strong> — floats, fizzes, moves around; potassium catches fire (lilac flame)</td><td>(too dangerous)</td></tr>
+<tr><td>Calcium</td><td>Steady fizzing; water goes cloudy (calcium hydroxide)</td><td>(too dangerous)</td></tr>
+<tr><td>Magnesium</td><td><strong>Very slow</strong> — a few bubbles over days</td><td>Burns with a bright white glow → magnesium oxide + hydrogen</td></tr>
+<tr><td>Zinc, iron</td><td>No visible reaction</td><td>React when heated → metal oxide + hydrogen (iron only slowly)</td></tr>
+<tr><td>Copper, silver, gold</td><td>No reaction</td><td>No reaction</td></tr>
+</table>
+<div class="eq"><span class="name">Sodium with water</span>2Na + 2H₂O → 2NaOH + H₂<span class="sym">metal + water → metal hydroxide + hydrogen</span></div>
+<div class="eq"><span class="name">Calcium with water</span>Ca + 2H₂O → Ca(OH)₂ + H₂<span class="sym">steady fizzing · the solution is alkaline</span></div>
+<div class="eq"><span class="name">Magnesium with steam</span>Mg + H₂O → MgO + H₂<span class="sym">with steam the product is the oxide, not the hydroxide</span></div>
+<p>If a table says a metal reacts "very fast" with water, it is from the top of the series (Group 1 or calcium).</p>
+
+<h3>Metals with dilute acids</h3>
+<p class="asked">Spec 2.15 · <strong>2024 Edexcel 1C Q2(a)(iii)</strong> · <strong>2023 Edexcel 1C Q2(b)</strong></p>
+<p><strong>A metal above hydrogen reacts with a dilute acid to give a salt and hydrogen; the faster the fizzing, the more reactive the metal.</strong></p>
+<div class="eq"><span class="name">Metal + acid (general)</span>metal + acid → salt + hydrogen<span class="sym">hydrochloric acid → chlorides · sulfuric acid → sulfates</span></div>
+<table>
+<tr><th>Metal</th><th>With dilute HCl or H₂SO₄</th></tr>
+<tr><td>K, Na, Li, Ca</td><td><strong>Not done</strong> — the reaction is violent / <strong>explosive</strong></td></tr>
+<tr><td>Magnesium</td><td>Vigorous fizzing, metal disappears quickly, tube gets warm</td></tr>
+<tr><td>Aluminium</td><td>Slow at first (oxide layer), then fast</td></tr>
+<tr><td>Zinc</td><td>Steady fizzing</td></tr>
+<tr><td>Iron</td><td>Slow bubbling; solution turns pale green (Fe²⁺)</td></tr>
+<tr><td>Copper, silver, gold</td><td><strong>No reaction</strong> — below hydrogen</td></tr>
+</table>
+<div class="eq"><span class="name">Magnesium + hydrochloric acid</span>Mg + 2HCl → MgCl₂ + H₂<span class="sym">magnesium chloride + hydrogen</span></div>
+<div class="eq"><span class="name">Zinc + sulfuric acid</span>Zn + H₂SO₄ → ZnSO₄ + H₂<span class="sym">zinc sulfate + hydrogen</span></div>
+<div class="eq"><span class="name">Iron + sulfuric acid</span>Fe + H₂SO₄ → FeSO₄ + H₂<span class="sym">iron forms iron(II) salts with dilute acids — 2023 Edexcel 1C Q2(b)(i)</span></div>
+<div class="eq"><span class="name">Aluminium + hydrochloric acid</span>2Al + 6HCl → 2AlCl₃ + 3H₂<span class="sym">word equation: aluminium + hydrochloric acid → aluminium chloride + hydrogen</span></div>
+<p>The gas is hydrogen: a lighted splint gives a <strong>squeaky pop</strong>. Gas tests are covered fully in Module 14.</p>
+<div class="trap">
+<p>✗ "aluminium + hydrochloric acid → aluminium chlorine + hydrogen"<br>
+✗ "iron + sulfuric acid → iron sulfide + hydrogen"<br>
+✓ Chlor<strong>ide</strong> from hydrochloric acid; sulf<strong>ate</strong> from sulfuric acid. Sulfide means no oxygen at all.</p>
+</div>
+
+<h3>Why aluminium looks less reactive than it is</h3>
+<p class="asked">Spec 2.15, 2.25C</p>
+<p><strong>Aluminium is covered by a thin, tough layer of aluminium oxide that stops water and acid reaching the metal underneath.</strong></p>
+<p>That is why aluminium reacts slowly with acid at first and then speeds up once the acid has eaten through the layer. It is also why aluminium is used outdoors without rusting away: the oxide layer <strong>protects</strong> it from corrosion. On the series it is still above zinc and iron — thermite proves it.</p>
+
+<h3>Practical: metals in dilute acid</h3>
+<p class="asked">Spec 2.21 · <strong>2023 Edexcel 1C Q2(b)</strong></p>
+<p><strong>To compare magnesium, zinc and iron fairly, change only the metal and compare how fast each makes hydrogen.</strong></p>
+<ol>
+<li>Put the <strong>same volume</strong> (e.g. 20 cm³) of the <strong>same concentration</strong> of dilute hydrochloric (or sulfuric) acid into three test tubes.</li>
+<li>Measure the starting <strong>temperature</strong> of the acid.</li>
+<li>Add the <strong>same mass</strong> of each metal, in the <strong>same form</strong> (all powder, or pieces of the same size) so the surface area is the same.</li>
+<li>Observe the <strong>rate of bubbling</strong>, and record the <strong>temperature rise</strong> — or collect the hydrogen in a gas syringe and measure the volume in a set time.</li>
+<li>The most bubbles / biggest temperature rise / most gas = the most reactive.</li>
+</ol>
+<p>Expected order: <strong>magnesium &gt; zinc &gt; iron</strong>. Copper can be added as a comparison: no bubbles at all.</p>
+<div class="panel">
+<h4>Mark script — describe how to compare three metals with acid</h4>
+<p><strong>1.</strong> Same volume and concentration of acid <span class="mp">1</span></p>
+<p><strong>2.</strong> Same mass and surface area (form) of each metal <span class="mp">1</span></p>
+<p><strong>3.</strong> Measure something: rate of bubbles, temperature rise or volume of gas in a set time <span class="mp">1</span></p>
+<p><strong>4.</strong> The fastest reaction / greatest rise shows the most reactive metal <span class="mp">1</span></p>
+</div>
+
+<h3>Reading an unknown-metal table</h3>
+<p class="asked">Spec 2.15 · <strong>2024 Edexcel 1C Q2(a)</strong></p>
+<p><strong>Rank the metals by the water results first, then use the acid results to separate the ones that did not react with water.</strong></p>
+<p>The 2024 paper gave four metals (the letters are not symbols):</p>
+<table>
+<tr><th>Metal</th><th>With water</th><th>With dilute HCl</th></tr>
+<tr><td>P</td><td>no reaction</td><td>no reaction</td></tr>
+<tr><td>Q</td><td>very fast reaction</td><td>(not done)</td></tr>
+<tr><td>R</td><td>no reaction</td><td>slow reaction</td></tr>
+<tr><td>S</td><td>slow reaction</td><td>fast reaction</td></tr>
+</table>
+<ol>
+<li>Q reacts very fast with water → <strong>most reactive</strong> (a Group 1 metal). The acid test is not done because it would be <strong>explosive / dangerous</strong>.</li>
+<li>S reacts slowly with water and fast with acid → next (like magnesium or calcium).</li>
+<li>R does not react with water, but does with acid, slowly → next. <strong>R could be zinc</strong> (or iron).</li>
+<li>P does nothing with either → least reactive, below hydrogen: <strong>copper, silver or gold</strong>.</li>
+</ol>
+<p>Answer: <strong>Q, S, R, P</strong>. One mark for the whole order.</p>
+<div class="trap">
+<p>✗ Reason the acid test was not done: "it is volatile" / "it is vigorous" — the 2024 scheme ignores both.<br>
+✓ "The reaction would be <strong>explosive</strong> / <strong>dangerous</strong> / violent."</p>
+</div>
+
+<h3>Displacement from salt solutions as evidence</h3>
+<p class="asked">Spec 2.15, 2.20 · <strong>2023 Jan Edexcel 1C Q5</strong> · <strong>2023 Edexcel 1C Q2(c)–(d)</strong></p>
+<p><strong>A metal coats itself with a less reactive metal from a salt solution; if nothing happens, the metal in the solution is more reactive (or is the same metal).</strong></p>
+<p>Module 9 gave you the basic rule. Exam questions turn it into a results table. January 2023 put magnesium, then metal X, into four sulfate solutions:</p>
+<table>
+<tr><th>Solution</th><th>Magnesium added</th><th>Metal X added</th></tr>
+<tr><td>aluminium sulfate</td><td>grey coating</td><td>no change</td></tr>
+<tr><td>magnesium sulfate</td><td>no change</td><td>no change</td></tr>
+<tr><td>copper(II) sulfate</td><td>brown coating</td><td>brown coating</td></tr>
+<tr><td>sulfate of X</td><td>grey coating</td><td>no change</td></tr>
+</table>
+<ol>
+<li>Magnesium displaces Al, Cu and X → magnesium is the most reactive.</li>
+<li>X displaces only copper → X is below aluminium but above copper.</li>
+<li>Order: <strong>magnesium, aluminium, X, copper</strong>. X could be <strong>zinc or iron</strong>.</li>
+<li>No change with magnesium sulfate: <strong>magnesium cannot displace itself</strong>.</li>
+</ol>
+<div class="eq"><span class="name">Iron in copper(II) sulfate</span>Fe + CuSO₄ → FeSO₄ + Cu<span class="sym">blue fades to pale green · pink-brown copper forms</span></div>
+<div class="eq"><span class="name">Displacement as an ionic equation</span>Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)<span class="sym">the sulfate ion is a spectator and is left out</span></div>
+<p>The copper that forms is a <strong>pink-brown</strong> (or brown / orange-brown) solid. Iron added to magnesium sulfate does nothing because <strong>iron is less reactive than magnesium</strong>.</p>
+<div class="trap">
+<p>✗ "The brown coating is copper(II) ions" / "Cu²⁺" — the 2023 January scheme rejects both.<br>
+✓ "Copper" — the metal atoms, which are the solid.</p>
+</div>
+
+<h3>Displacement and electrons: the reducing agent</h3>
+<p class="asked">Spec 2.20 · <strong>2023 Jan Edexcel 1C Q5(c)</strong></p>
+<p><strong>In every displacement the more reactive metal loses electrons, so it is oxidised and is the reducing agent.</strong></p>
+<div class="eq"><span class="name">Magnesium and aluminium ions</span>3Mg(s) + 2Al³⁺(aq) → 3Mg²⁺(aq) + 2Al(s)<span class="sym">each Mg loses 2e⁻ · each Al³⁺ gains 3e⁻</span></div>
+<ol>
+<li>Mg → Mg²⁺ + 2e⁻: magnesium <strong>loses electrons</strong> — it is <strong>oxidised</strong>.</li>
+<li>Al³⁺ + 3e⁻ → Al: aluminium ions <strong>gain electrons</strong> — they are <strong>reduced</strong>.</li>
+<li>Magnesium <strong>donates</strong> the electrons that reduce Al³⁺, so magnesium is the <strong>reducing agent</strong>. Al³⁺ is the oxidising agent.</li>
+</ol>
+<div class="panel">
+<h4>Mark script — "explain which substance is the reducing agent"</h4>
+<p><strong>1.</strong> Magnesium is the reducing agent <span class="mp">1</span></p>
+<p><strong>2.</strong> Because it <strong>donates / loses electrons</strong> (to the aluminium ions) <span class="mp">1</span></p>
+</div>
+<p>Full definitions of oxidation, reduction and the agents in electron terms are in Module 8 (Electrolysis and Redox).</p>
+
+<h3>Displacement from oxides: thermite</h3>
+<p class="asked">Spec 2.20 · <strong>2024 Edexcel 1C Q2(b)</strong> · <strong>2024 school Q5(a)</strong></p>
+<p><strong>Aluminium takes the oxygen from iron(III) oxide because aluminium is more reactive than iron; the reaction is very exothermic.</strong></p>
+<div class="eq"><span class="name">Thermite reaction</span>2Al + Fe₂O₃ → 2Fe + Al₂O₃<span class="sym">started with a burning magnesium fuse · the iron comes out molten</span></div>
+<ul>
+<li><strong>Exothermic:</strong> heat (thermal energy) is given out to the surroundings. Enough to melt the iron — used to weld railway lines.</li>
+<li><strong>Why aluminium displaces iron:</strong> aluminium is <strong>more reactive</strong> (higher in the reactivity series) than iron.</li>
+<li><strong>Redox:</strong> aluminium <strong>gains oxygen</strong> so it is <strong>oxidised</strong>; iron(III) oxide <strong>loses oxygen</strong> so it is <strong>reduced</strong>.</li>
+<li>Aluminium is the <strong>reducing agent</strong>; iron(III) oxide is the <strong>oxidising agent</strong>.</li>
+</ul>
+<div class="trap">
+<p>✗ "Exothermic means energy is released" — the 2024 scheme ignores "energy" on its own.<br>
+✓ "<strong>Heat / thermal energy</strong> is given out to the surroundings."</p>
+<p>✗ "Oxidation and reduction happen at the same time." — no species named, no marks.<br>
+✓ "Aluminium gains oxygen and is oxidised; iron(III) oxide loses oxygen and is reduced."</p>
+</div>
+
+<h3>Rusting: what it needs and what it makes</h3>
+<p class="asked">Spec 2.18 · <strong>2024 Edexcel 2C Q2(a)</strong> · <strong>2023 Edexcel 1C Q2(a)</strong> · <strong>2022 Jan Edexcel 1C Q2(a)</strong> · <strong>2022 Edexcel 1C Q4(a)</strong></p>
+<p><strong>Iron rusts only when both water and oxygen are present; rust is hydrated iron(III) oxide.</strong></p>
+<div class="eq"><span class="name">Rusting — word equation</span>iron + oxygen + water → hydrated iron(III) oxide<span class="sym">simplified formula Fe₂O₃ · a brown / orange-brown solid</span></div>
+<div class="eq"><span class="name">Rusting — symbol equation</span>4Fe + 3O₂ + 2xH₂O → 2Fe₂O₃·xH₂O<span class="sym">x varies — that is why rust has no single formula</span></div>
+<ul>
+<li>Rusting is <strong>oxidation</strong>: the iron <strong>gains oxygen</strong> (and loses electrons, Fe → Fe³⁺).</li>
+<li>It is slow, and it is <strong>exothermic</strong>. Hand warmers use fast rusting of iron powder.</li>
+<li>Iron <strong>powder</strong> rusts faster than a nail: <strong>larger surface area</strong>, so a faster reaction. That is why 2022's oxygen-in-air experiment used wet iron powder.</li>
+<li>Only iron and steel <strong>rust</strong>. Other metals <strong>corrode</strong>.</li>
+</ul>
+<div class="trap">
+<p>✗ "Rust is iron oxide" — ignored. ✗ "Iron(II) oxide" — rejected.<br>
+✓ "(Hydrated) <strong>iron(III) oxide</strong>" or Fe₂O₃.</p>
+<p>✗ Colour of rust: "red" alone — the 2022 scheme ignores it.<br>
+✓ "Brown", "orange-brown" or "red-brown".</p>
+</div>
+
+<h3>The three-tube experiment</h3>
+<p class="asked">Spec 2.18 · <strong>2022 Edexcel 1C Q4(a)(i)</strong></p>
+<p><strong>Each tube removes one condition; only the tube with both air and water shows rust.</strong></p>
+<table>
+<tr><th>Tube</th><th>Set-up</th><th>Result</th><th>What it shows</th></tr>
+<tr><td>A</td><td>Iron nail in tap water, open to the air</td><td><strong>Rusts</strong></td><td>Water + oxygen → rust</td></tr>
+<tr><td>B</td><td>Nail in <strong>boiled</strong> water with a layer of <strong>oil</strong> on top</td><td>No rust</td><td>Oxygen is needed</td></tr>
+<tr><td>C</td><td>Nail in dry air with <strong>anhydrous calcium chloride</strong>, tube stoppered</td><td>No rust</td><td>Water is needed</td></tr>
+</table>
+<ol>
+<li><strong>Boiling</strong> the water drives out the dissolved air (oxygen).</li>
+<li>The <strong>oil layer</strong> stops air dissolving back into the water.</li>
+<li><strong>Anhydrous calcium chloride</strong> is a drying agent — it absorbs water vapour from the air.</li>
+<li>The <strong>stopper</strong> stops moist air getting in.</li>
+</ol>
+<p>Conclusion: iron needs <strong>both water and oxygen</strong> to rust. Remove either one and it does not rust.</p>
+
+<h3>Preventing rust: barrier methods</h3>
+<p class="asked">Spec 2.19 · <strong>2024 Edexcel 2C Q2(a)(ii)</strong> · <strong>2022 Jan Edexcel 1C Q2(b)(iii)</strong></p>
+<p><strong>A barrier method coats the iron so that water and oxygen cannot reach its surface.</strong></p>
+<ul>
+<li><strong>Painting</strong> — bridges, cars, railings.</li>
+<li><strong>Oiling or greasing</strong> — bike chains, moving machine parts (paint would crack off).</li>
+<li><strong>Plastic coating</strong> — garden wire, fridge shelves.</li>
+<li><strong>Electroplating</strong> with another metal, e.g. chromium plating.</li>
+</ul>
+<p>The weakness: if the barrier is <strong>scratched or chipped</strong>, water and oxygen reach the iron and it rusts at that point.</p>
+<div class="trap">
+<p>✗ Asked for a <strong>barrier</strong> method: "sacrificial protection" — the 2024 scheme rejects it. It is a different method.<br>
+✓ "Painting", "oiling", "greasing" or "coating with plastic".</p>
+</div>
+
+<h3>Galvanising and sacrificial protection</h3>
+<p class="asked">Spec 2.19 · <strong>2024 Edexcel 2C Q2(b)</strong> · <strong>2022 Jan Edexcel 1C Q2(b)</strong> · <strong>2023 Edexcel 1C Q2(a)(iii)</strong></p>
+<p><strong>A more reactive metal in contact with iron is oxidised instead of the iron, so the iron does not rust.</strong></p>
+<p><strong>Sacrificial protection:</strong> blocks of <strong>magnesium or zinc</strong> are bolted to ship hulls, oil rigs and underground pipes. The block corrodes away and must be <strong>replaced</strong> from time to time; the iron stays intact.</p>
+<p><strong>Galvanising:</strong> iron or steel is coated with a layer of <strong>zinc</strong> (e.g. dipped in molten zinc). It protects in two ways:</p>
+<ol>
+<li>The zinc is a <strong>barrier</strong> that keeps water and oxygen off the iron.</li>
+<li>If the zinc is <strong>scratched</strong>, zinc is <strong>more reactive than iron</strong>, so the zinc reacts / is oxidised <strong>instead of</strong> the iron — sacrificial protection keeps working.</li>
+</ol>
+<div class="eq"><span class="name">Sacrificial zinc</span>Zn → Zn²⁺ + 2e⁻<span class="sym">zinc loses electrons in place of the iron (Fe → Fe³⁺ + 3e⁻ does not happen)</span></div>
+<div class="panel">
+<h4>Mark script — explain how sacrificial protection works (2)</h4>
+<p><strong>1.</strong> A <strong>more reactive metal</strong> (e.g. zinc or magnesium) is attached to / coats the iron <span class="mp">1</span></p>
+<p><strong>2.</strong> The more reactive metal <strong>reacts / is oxidised / corrodes instead of the iron</strong> <span class="mp">1</span></p>
+<p>Never "rusts instead". Never just "an element".</p>
+</div>
+
+<h3>Uses of aluminium, copper, iron and steel</h3>
+<p class="asked">Spec 2.25C (triple only)</p>
+<p><strong>Every use must be linked to a property: say what the metal does and why that property suits the job.</strong></p>
+<table>
+<tr><th>Material</th><th>Key properties</th><th>Uses</th></tr>
+<tr><td><strong>Aluminium</strong></td><td><strong>Low density</strong>; resists corrosion (oxide layer); good conductor of electricity and heat</td><td>Aircraft bodies (as an alloy), overhead power cables, drinks cans, foil, window frames</td></tr>
+<tr><td><strong>Copper</strong></td><td><strong>Very good electrical conductor</strong>; ductile (draws into wires); unreactive — does not react with water</td><td>Electrical wiring, water pipes, bases of saucepans</td></tr>
+<tr><td><strong>Iron</strong> (from the blast furnace)</td><td>About 4% carbon: hard but <strong>brittle</strong>; pure iron is too soft</td><td>Mostly turned into steel</td></tr>
+<tr><td><strong>Low-carbon (mild) steel</strong></td><td>Little carbon: <strong>soft, malleable</strong>, easily shaped, strong</td><td>Car bodies, ship panels, nails, wire</td></tr>
+<tr><td><strong>High-carbon steel</strong></td><td>More carbon: <strong>harder</strong> and stronger, but more brittle</td><td>Cutting tools, drill bits, chisels, knives</td></tr>
+<tr><td><strong>Stainless steel</strong></td><td>Iron with <strong>chromium</strong> (and nickel): <strong>resists corrosion</strong>, hard</td><td>Cutlery, sinks, surgical instruments, chemical plant</td></tr>
+</table>
+<p>Overhead power cables are aluminium, not copper: aluminium has a much <strong>lower density</strong>, so the cables are lighter and need fewer pylons. They usually have a steel core for strength.</p>
+<div class="trap">
+<p>✗ "Aluminium is used for aeroplanes because it is light."<br>
+✓ "Aluminium has a <strong>low density</strong> (and its alloys are strong), and it <strong>resists corrosion</strong>."</p>
+<p>✗ "Copper is used in wires because it conducts."<br>
+✓ "Copper is a <strong>very good conductor of electricity</strong> and is <strong>ductile</strong>, so it can be drawn into wires."</p>
+</div>
+
+<h3>Alloys, and why they are harder</h3>
+<p class="asked">Spec 2.26C, 2.27C (triple only) · <strong>2022 Edexcel 2C Q6(c)</strong> · <strong>2023 Jan Edexcel 2C Q5(a)</strong> · <strong>2025 school Q4(a)</strong></p>
+<p><strong>In an alloy, atoms of different sizes disrupt the regular layers, so the layers cannot slide over each other easily and the alloy is harder.</strong></p>
+<div class="eq"><span class="name">Alloy — definition</span>alloy = a mixture of a metal and one or more other elements<span class="sym">usually other metals or carbon · steel = iron + carbon · brass = copper + zinc</span></div>
+<ol>
+<li>In a <strong>pure metal</strong>, all the atoms (positive ions) are the <strong>same size</strong> and sit in regular <strong>layers</strong>. The layers can <strong>slide over one another</strong>, so the metal is soft and <strong>malleable</strong>. (Metallic bonding itself is in Module 2.)</li>
+<li>An <strong>alloy</strong> contains <strong>atoms of different sizes</strong>.</li>
+<li>The different-sized atoms <strong>distort / disrupt the layers</strong>.</li>
+<li>So the layers <strong>cannot slide</strong> over each other as easily — the alloy is <strong>harder and stronger</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Mark script — why is the alloy stronger than the pure metal? (3)</h4>
+<p><strong>1.</strong> In the pure metal all the atoms are the same size, so layers can slide over each other <span class="mp">1</span></p>
+<p><strong>2.</strong> The alloy has atoms of different sizes <span class="mp">1</span></p>
+<p><strong>3.</strong> This disrupts the structure, so the layers cannot slide as easily <span class="mp">1</span></p>
+<p>A labelled diagram can score all three: a regular grid of equal circles next to a grid with some bigger circles.</p>
+</div>
+<div class="trap">
+<p>✗ "The molecules in the alloy can't slide." — metals have no molecules; the 2022 and January 2023 schemes reject "molecules".<br>
+✓ "The <strong>layers of atoms / ions</strong> cannot slide."</p>
+<p>✗ "The alloy has stronger bonds." — not the reason.<br>
+✓ "Atoms of <strong>different sizes</strong> make it harder for the layers to slide."</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The sentences behind most of the marks</h4>
+<p><strong>Order:</strong> K Na Li Ca Mg Al (C) Zn Fe (H) Cu Ag Au. Faster with water or acid = more reactive. Below hydrogen = no reaction with acid.</p>
+<p><strong>Rusting:</strong> needs <strong>water and oxygen</strong>; rust is <strong>hydrated iron(III) oxide</strong>; rusting is <strong>oxidation</strong>.</p>
+<p><strong>Sacrificial:</strong> a <strong>more reactive metal</strong> is <strong>oxidised / corrodes instead of the iron</strong>.</p>
+<p><strong>Alloys:</strong> <strong>atoms of different sizes</strong> stop the <strong>layers sliding</strong>, so alloys are harder.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Reactivity series</td><td>A list of metals in order of how <strong>vigorously</strong> they react, most reactive first</td></tr>
+<tr><td>Rust</td><td><strong>Hydrated iron(III) oxide</strong> (Fe₂O₃·xH₂O)</td></tr>
+<tr><td>Rusting</td><td>The <strong>oxidation</strong> of iron by <strong>oxygen and water</strong></td></tr>
+<tr><td>Barrier method</td><td>A coating (paint, oil, grease, plastic) that stops <strong>water and oxygen</strong> reaching the iron</td></tr>
+<tr><td>Galvanising</td><td>Coating iron or steel with a layer of <strong>zinc</strong></td></tr>
+<tr><td>Sacrificial protection</td><td>Attaching a <strong>more reactive metal</strong> to iron so it is <strong>oxidised instead of the iron</strong></td></tr>
+<tr><td>Alloy</td><td>A <strong>mixture</strong> of a metal and one or more other elements, usually <strong>metals or carbon</strong></td></tr>
+<tr><td>Exothermic</td><td><strong>Heat</strong> is given out to the surroundings</td></tr>
+<tr><td>Reducing agent</td><td>Removes oxygen from / <strong>donates electrons</strong> to another substance; it is itself oxidised</td></tr>
+</table>
+
+<h3>Three steels</h3>
+<table>
+<tr><th>Steel</th><th>Property</th><th>Use</th></tr>
+<tr><td>Low-carbon (mild)</td><td>Soft, malleable, easily shaped</td><td>Car bodies, nails</td></tr>
+<tr><td>High-carbon</td><td>Hard, strong, brittle</td><td>Cutting tools, drill bits</td></tr>
+<tr><td>Stainless (Cr, Ni added)</td><td>Resists corrosion</td><td>Cutlery, sinks, surgical tools</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">the zinc rusts instead of the iron</td><td class="yes">the zinc <strong>corrodes / is oxidised</strong> instead of the iron</td></tr>
+<tr><td class="no">rust is iron oxide</td><td class="yes">rust is <strong>hydrated iron(III) oxide</strong></td></tr>
+<tr><td class="no">iron needs air or water to rust</td><td class="yes">iron needs <strong>both</strong> oxygen <strong>and</strong> water</td></tr>
+<tr><td class="no">a more reactive element is attached</td><td class="yes">a more reactive <strong>metal</strong>, e.g. zinc or magnesium</td></tr>
+<tr><td class="no">exothermic: energy is released</td><td class="yes"><strong>heat</strong> is given out to the surroundings</td></tr>
+<tr><td class="no">the brown coating is copper ions</td><td class="yes">the brown coating is <strong>copper</strong> (metal)</td></tr>
+<tr><td class="no">the molecules in the alloy can't slide</td><td class="yes">the <strong>layers of atoms</strong> cannot slide</td></tr>
+<tr><td class="no">iron is reduced in thermite</td><td class="yes"><strong>iron(III) oxide</strong> is reduced — it loses oxygen</td></tr>
+<tr><td class="no">not done because it is too vigorous</td><td class="yes">not done because it would be <strong>explosive / dangerous</strong></td></tr>
+<tr><td class="no">iron + sulfuric acid → iron sulfide + hydrogen</td><td class="yes">iron + sulfuric acid → <strong>iron(II) sulfate</strong> + hydrogen</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Aluminium is above zinc in the reactivity series, yet aluminium foil barely reacts with dilute acid at first and aluminium window frames do not corrode. Explain.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Aluminium reacts instantly with oxygen in the air to form a thin, tough layer of <strong>aluminium oxide</strong>. That layer sticks to the metal and stops water, oxygen and acid reaching the aluminium underneath.</p>
+<p>In acid the reaction is slow until the oxide has been dissolved, then it speeds up. Outdoors the layer never goes away, so the frame is protected. The metal is reactive; its <strong>coating</strong> is not.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why does copper not react with dilute hydrochloric acid, while magnesium fizzes rapidly?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A metal reacts with acid by displacing hydrogen from it. Only metals <strong>above hydrogen</strong> in the reactivity series can do this.</p>
+<p>Magnesium is well above hydrogen, so it gives up electrons easily and makes hydrogen gas fast. Copper is <strong>below hydrogen</strong>, so it cannot displace it — no bubbles, no salt, no reaction.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>In the three-tube rusting experiment, why is the water boiled, why is oil added, and why do you need all three tubes rather than just one?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Boiling</strong> drives out dissolved air, so there is no oxygen in the water. The <strong>oil</strong> stops air dissolving back in. That tube has water but no oxygen.</p>
+<p>One tube can only show that rusting happens. To prove <strong>both</strong> water and oxygen are needed you must remove each one separately: no oxygen (boiled water and oil), no water (calcium chloride). Tube A, with both, shows what happens when nothing is removed — the comparison.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>A painted steel gate and a galvanised steel gate are both scratched through to the steel. Explain why only one of them starts to rust.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Painted gate:</strong> paint is only a barrier. Once scratched, water and oxygen reach the bare steel, and it rusts at the scratch.</p>
+<p><strong>Galvanised gate:</strong> the zinc is also a barrier, but zinc is <strong>more reactive than iron</strong>. At the scratch the zinc is oxidised <strong>instead of</strong> the iron — it gives up its electrons first. The iron is protected until the nearby zinc is used up.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why do the mark schemes reject "the zinc rusts instead of the iron", when zinc is clearly corroding?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Rusting</strong> has a precise meaning: the oxidation of <strong>iron</strong> to form hydrated iron(III) oxide. Zinc does not make rust; it forms zinc compounds.</p>
+<p>So the correct words for zinc or magnesium are <strong>corrodes</strong>, <strong>reacts</strong> or <strong>is oxidised</strong>. Saying zinc "rusts" shows the examiner you do not know what rust is.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>In the January 2023 question, magnesium was put into four sulfate solutions and then metal X was. Why was the magnesium table alone not enough to find the full order?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Magnesium displaced aluminium, copper and X. That tells you magnesium is top, but nothing about how Al, X and Cu compare with <strong>each other</strong>.</p>
+<p>Metal X displaced only copper, and not aluminium. So X is below aluminium and above copper. You need one test for <strong>each pair</strong> you want to compare — the second table supplied the missing pairs: <strong>Mg &gt; Al &gt; X &gt; Cu</strong>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>In the thermite reaction, why is aluminium called the reducing agent, and why is it also correct to say it loses electrons?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Aluminium <strong>removes oxygen</strong> from iron(III) oxide, so it reduces it: that makes it the reducing agent. Aluminium gains the oxygen, so it is itself oxidised.</p>
+<p>In electron terms: aluminium atoms become Al³⁺ ions in Al₂O₃ — they <strong>lose electrons</strong> (oxidation). The Fe³⁺ ions in Fe₂O₃ become iron atoms — they <strong>gain electrons</strong> (reduction). The oxygen version and the electron version describe the same change.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Pure iron is softer than steel, and a chisel is made of high-carbon steel but a car door of mild steel. Explain both facts.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Softer pure iron:</strong> all the iron atoms are the same size, in regular layers that slide easily. In steel the <strong>carbon atoms are a different size</strong>; they disrupt the layers, so they slide less easily and the steel is harder.</p>
+<p><strong>More carbon, more disruption:</strong> high-carbon steel is very hard, so it keeps a sharp cutting edge — ideal for a chisel, though brittle. A car door must be pressed into curved shapes, so it needs <strong>mild steel</strong>, which has little carbon and is still malleable.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>The table shows the reactions of four metals, W, X, Y and Z. The letters are not the symbols of the elements.</p>
+<table>
+<tr><th>Metal</th><th>Reaction with water</th><th>Reaction with dilute sulfuric acid</th></tr>
+<tr><td>W</td><td>no reaction</td><td>slow bubbling</td></tr>
+<tr><td>X</td><td>no reaction</td><td>no reaction</td></tr>
+<tr><td>Y</td><td>very fast reaction</td><td>(not done)</td></tr>
+<tr><td>Z</td><td>very slow reaction</td><td>fast bubbling</td></tr>
+</table>
+<p>(a) Deduce the order of reactivity, most reactive first. <span class="marks">(1)</span><br>
+(b) Give the letter of the metal that could be iron. <span class="marks">(1)</span><br>
+(c) Give a word equation for the reaction between magnesium and dilute sulfuric acid. <span class="marks">(1)</span><br>
+(d) Give the name of a metal that could be X. <span class="marks">(1)</span><br>
+(e) Give a reason why the reaction of Y with dilute sulfuric acid is not done. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Y, Z, W, X <span class="mp">1</span></p>
+<p><strong>(b)</strong> W <span class="mp">1</span></p>
+<p><strong>(c)</strong> magnesium + sulfuric acid → magnesium sulfate + hydrogen <span class="mp">1</span></p>
+<p><strong>(d)</strong> Copper / silver / gold <span class="mp">1</span></p>
+<p><strong>(e)</strong> It would be explosive / dangerous / violent <span class="mp">1</span> — "vigorous" alone is ignored</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>A mixture of aluminium powder and iron(III) oxide is lit with a magnesium fuse. A very exothermic reaction occurs.</p>
+<p>Fe₂O₃ + 2Al → 2Fe + Al₂O₃</p>
+<p>(a) State what is meant by the term exothermic. <span class="marks">(1)</span><br>
+(b) State why aluminium displaces iron. <span class="marks">(1)</span><br>
+(c) Explain why this reaction is a redox reaction. <span class="marks">(2)</span><br>
+(d) Identify the reducing agent. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Heat / thermal energy is given out to the surroundings <span class="mp">1</span></p>
+<p><strong>(b)</strong> Aluminium is more reactive than iron / higher in the reactivity series <span class="mp">1</span></p>
+<p><strong>(c)</strong> Aluminium gains oxygen and iron(III) oxide loses oxygen <span class="mp">1</span>; so aluminium is oxidised and iron(III) oxide is reduced <span class="mp">1</span></p>
+<p><strong>(d)</strong> Aluminium <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>Calculate the maximum mass of iron that can be made from 32.0 g of iron(III) oxide in the thermite reaction. [Mᵣ of Fe₂O₃ = 160; Aᵣ of Fe = 56]<br>
+2Al + Fe₂O₃ → 2Fe + Al₂O₃ <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Moles of Fe₂O₃ = 32.0 ÷ 160 = 0.200 mol <span class="mp">1</span></p>
+<p>Moles of Fe = 0.200 × 2 = 0.400 mol <span class="mp">1</span></p>
+<p>Mass of Fe = 0.400 × 56 = <strong>22.4 g</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>Steel railings outside a school have started to rust.</p>
+<p>(a) Name the two substances needed for iron to rust. <span class="marks">(2)</span><br>
+(b) Give the chemical name for rust. <span class="marks">(1)</span><br>
+(c) What type of reaction occurs when iron rusts? <span class="marks">(1)</span><br>
+A combustion &nbsp; B neutralisation &nbsp; C oxidation &nbsp; D thermal decomposition</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Oxygen / air <span class="mp">1</span>; water / moisture <span class="mp">1</span></p>
+<p><strong>(b)</strong> (Hydrated) iron(III) oxide <span class="mp">1</span> — "iron oxide" is ignored; iron(II) oxide is rejected</p>
+<p><strong>(c)</strong> C — oxidation <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>A student sets up three test tubes, each containing an iron nail. Tube A: tap water, open to the air. Tube B: boiled water with a layer of oil on top. Tube C: dry air with anhydrous calcium chloride, stoppered.</p>
+<p>(a) State which tube shows rust after a week. <span class="marks">(1)</span><br>
+(b) Explain why the water in tube B is boiled. <span class="marks">(1)</span><br>
+(c) State the purpose of the layer of oil. <span class="marks">(1)</span><br>
+(d) State the purpose of the anhydrous calcium chloride. <span class="marks">(1)</span><br>
+(e) State the conclusion the student can make. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Tube A <span class="mp">1</span></p>
+<p><strong>(b)</strong> To remove dissolved air / oxygen from the water <span class="mp">1</span></p>
+<p><strong>(c)</strong> To stop air / oxygen dissolving back into the water <span class="mp">1</span></p>
+<p><strong>(d)</strong> To absorb water (vapour) — it keeps the air dry <span class="mp">1</span></p>
+<p><strong>(e)</strong> Iron needs both water and oxygen to rust <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Blocks of magnesium are attached to the steel legs of an oil rig.</p>
+<p>(a) Explain how this prevents the steel from rusting. <span class="marks">(2)</span><br>
+(b) Suggest why the blocks must be replaced every few years. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Magnesium is more reactive than iron <span class="mp">1</span>; so the magnesium reacts / is oxidised / corrodes instead of the iron <span class="mp">1</span> — never "rusts instead"</p>
+<p><strong>(b)</strong> The magnesium is used up / corrodes away over time <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>Some steel buckets are coated with a layer of zinc to prevent rusting.</p>
+<p>(a) Name this type of rust prevention. <span class="marks">(1)</span><br>
+(b) Explain how this method continues to protect the iron when the layer of zinc is scratched. <span class="marks">(2)</span><br>
+(c) Give two other methods used to prevent iron from rusting. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Galvanising <span class="mp">1</span></p>
+<p><strong>(b)</strong> Zinc is more reactive than iron <span class="mp">1</span>; so zinc reacts / is oxidised / corrodes instead of the iron <span class="mp">1</span></p>
+<p><strong>(c)</strong> Any two of painting, oiling / greasing, plastic coating, chromium plating, sacrificial protection with magnesium blocks <span class="mp">1</span> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>A student adds pieces of zinc to four sulfate solutions. She then repeats the experiment with pieces of metal M.</p>
+<table>
+<tr><th>Solution</th><th>Zinc added</th><th>Metal M added</th></tr>
+<tr><td>magnesium sulfate</td><td>no change</td><td>no change</td></tr>
+<tr><td>zinc sulfate</td><td>no change</td><td>grey coating</td></tr>
+<tr><td>iron(II) sulfate</td><td>grey coating</td><td>grey coating</td></tr>
+<tr><td>copper(II) sulfate</td><td>brown coating</td><td>brown coating</td></tr>
+</table>
+<p>(a) Name the substance that forms the brown coating on the zinc. <span class="marks">(1)</span><br>
+(b) State why there is no change when zinc is added to zinc sulfate solution. <span class="marks">(1)</span><br>
+(c) Deduce the order of reactivity of magnesium, zinc, iron, copper and M, most reactive first. <span class="marks">(2)</span><br>
+(d) Give a possible identity for M. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Copper <span class="mp">1</span> — not copper ions</p>
+<p><strong>(b)</strong> Zinc cannot displace itself <span class="mp">1</span></p>
+<p><strong>(c)</strong> M above zinc, because M displaces zinc <span class="mp">1</span>; full order magnesium, M, zinc, iron, copper <span class="mp">1</span> — neither metal displaces magnesium, so magnesium is top</p>
+<p><strong>(d)</strong> Aluminium <span class="mp">1</span> — it sits between magnesium and zinc</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>This ionic equation shows the reaction when zinc powder is added to blue copper(II) sulfate solution.</p>
+<p>Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)</p>
+<p>(a) Explain which substance is the reducing agent. <span class="marks">(2)</span><br>
+(b) Give two observations. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Zinc (is the reducing agent) <span class="mp">1</span>; because zinc donates / loses electrons (to the copper(II) ions) <span class="mp">1</span></p>
+<p><strong>(b)</strong> The blue colour fades / solution becomes colourless <span class="mp">1</span>; a pink-brown solid forms (zinc disappears; mixture gets warm) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>(a) Give a chemical equation for the reaction between iron and dilute sulfuric acid. The products are iron(II) sulfate and hydrogen. <span class="marks">(1)</span><br>
+(b) Give a test for hydrogen. <span class="marks">(1)</span><br>
+(c) An excess of iron is added to copper(II) sulfate solution. State the appearance of the solid that forms. <span class="marks">(1)</span><br>
+(d) Give the reason why no reaction occurs when iron is added to magnesium sulfate solution. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Fe + H₂SO₄ → FeSO₄ + H₂ <span class="mp">1</span></p>
+<p><strong>(b)</strong> A lighted splint gives a (squeaky) pop <span class="mp">1</span> — a glowing splint is rejected</p>
+<p><strong>(c)</strong> Pink-brown (solid) <span class="mp">1</span></p>
+<p><strong>(d)</strong> Iron is less reactive than magnesium / lower in the reactivity series <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>A student is given magnesium, zinc and iron and some dilute hydrochloric acid.</p>
+<p>(a) Describe an experiment the student could do to put the three metals in order of reactivity. <span class="marks">(4)</span><br>
+(b) Predict the order, most reactive first. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Use the same volume and concentration of acid for each metal <span class="mp">1</span>; use the same mass of each metal in the same form / surface area <span class="mp">1</span>; observe the rate of bubbling, or measure the temperature rise, or the volume of gas in a set time <span class="mp">1</span>; the fastest bubbling / largest temperature rise / most gas shows the most reactive <span class="mp">1</span></p>
+<p><strong>(b)</strong> Magnesium, zinc, iron <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>0.60 g of magnesium ribbon reacts completely with excess dilute hydrochloric acid.<br>
+Mg + 2HCl → MgCl₂ + H₂<br>
+Calculate the volume of hydrogen formed, in cm³, at room temperature and pressure. [Aᵣ of Mg = 24; one mole of gas occupies 24 dm³ at rtp] <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Moles of Mg = 0.60 ÷ 24 = 0.025 mol <span class="mp">1</span></p>
+<p>Moles of H₂ = 0.025 mol (1 : 1); volume = 0.025 × 24 = 0.60 dm³ <span class="mp">1</span></p>
+<p>= <strong>600 cm³</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>Brass is an alloy of copper and zinc.</p>
+<p>(a) Explain why pure copper is malleable. <span class="marks">(2)</span><br>
+(b) Explain why brass is harder than pure copper. You may include diagrams in your answer. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Layers / rows of atoms (positive ions) <span class="mp">1</span>; can slide over one another <span class="mp">1</span> — "molecules" is rejected</p>
+<p><strong>(b)</strong> In pure copper all the atoms are the same size, so the layers can slide <span class="mp">1</span>; brass has atoms of different sizes <span class="mp">1</span>; these disrupt the layers so they cannot slide over each other as easily <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>(a) Explain why aluminium alloys are used to build aircraft. <span class="marks">(2)</span><br>
+(b) Explain why copper is used for electrical wiring. <span class="marks">(2)</span><br>
+(c) Give the property that makes stainless steel suitable for cutlery. <span class="marks">(1)</span><br>
+(d) Explain why high-carbon steel is used for drill bits but low-carbon (mild) steel is used for car bodies. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Low density <span class="mp">1</span>; resists corrosion / strong (as an alloy) <span class="mp">1</span></p>
+<p><strong>(b)</strong> Very good conductor of electricity <span class="mp">1</span>; ductile — can be drawn into wires <span class="mp">1</span></p>
+<p><strong>(c)</strong> Resists corrosion / does not rust <span class="mp">1</span></p>
+<p><strong>(d)</strong> High-carbon steel is hard / strong, so it keeps a cutting edge <span class="mp">1</span>; mild steel is softer / malleable, so it can be pressed into shape <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A student uses wet iron powder to remove the oxygen from a sample of air trapped in a tube. The column of air is 50.0 cm long at the start and 39.6 cm long after a week.</p>
+<p>(a) State why the iron powder needs to be wet. <span class="marks">(1)</span><br>
+(b) Explain the advantage of using iron powder rather than pieces of iron. <span class="marks">(2)</span><br>
+(c) Calculate the percentage of oxygen in the air. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> Water is needed for iron to rust / react <span class="mp">1</span></p>
+<p><strong>(b)</strong> The powder has a larger surface area <span class="mp">1</span>; so the iron rusts faster / results are obtained more quickly <span class="mp">1</span></p>
+<p><strong>(c)</strong> Oxygen used = 50.0 − 39.6 = 10.4 cm <span class="mp">1</span>; (10.4 ÷ 50.0) × 100 <span class="mp">1</span>; = <strong>20.8 %</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 13 · Reactivity, Rusting and Alloys · Edexcel IGCSE Chemistry 4CH1 · Year 11 content</footer>
+</div>
+</body>
+</html>
