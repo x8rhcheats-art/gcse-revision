@@ -1,6 +1,6 @@
 # Extraction validation report — Physics
 
-Generated 2026-09-13T19:02:23.526Z from 9 modules, 2 mocks, 1 diagnostic.
+Generated 2026-09-18T14:31:39.990Z from 9 modules, 2 mocks, 1 diagnostic.
 
 ## Counts
 - 01-forces-and-motion: 12 teach subsections, 5 sheet subsections, 6 eq, 11 def, 6 trap, 12 understanding, 22 drill
@@ -16,7 +16,7 @@ Generated 2026-09-13T19:02:23.526Z from 9 modules, 2 mocks, 1 diagnostic.
 - mock-2: 9 questions, 90 marks
 - diagnostic: 8 sections, 63 marks
 - diagnostic: rendered site/diagnostic/diagnostic.html and diagnostic-markscheme.html
-- past papers: 7 papers, 46 questions
+- past papers: 17 papers, 145 questions
 - mcq bank: 332 questions across 8 modules
 - spec tick-sheet: 136 points across 6 topics
 - exam reference: 29 technique rules, 4 diagram checklists, 9 given formulae

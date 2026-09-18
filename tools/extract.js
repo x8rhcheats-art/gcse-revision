@@ -582,7 +582,8 @@ function buildSubject(cfg) {
       if (sum !== p.totalMarks) warn(`${p.id}: question marks sum to ${sum}, expected ${p.totalMarks}`);
       // a null file means "no PDF exists for this one" (e.g. a docx-only mark
       // scheme) — the app hides the link; only real paths are checked
-      for (const f of [p.paperFile, p.markSchemeFile].filter(Boolean)) {
+      // web links (the board's real papers) are hosted elsewhere, so only local paths are checked
+      for (const f of [p.paperFile, p.markSchemeFile].filter(f => f && !/^https?:/.test(f))) {
         if (!fs.existsSync(path.join(SITE, f))) warn(`${p.id}: missing file ${f}`);
       }
       for (const q of p.questions) {

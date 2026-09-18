@@ -1,6 +1,6 @@
 # Extraction validation report — Chemistry
 
-Generated 2026-09-13T19:02:23.636Z from 10 modules, 0 mocks, 0 diagnostic.
+Generated 2026-09-18T14:31:40.424Z from 10 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-atomic-structure: 5 teach subsections, 4 sheet subsections, 1 eq, 7 def, 5 trap, 5 understanding, 5 drill
@@ -13,7 +13,7 @@ Generated 2026-09-13T19:02:23.636Z from 10 modules, 0 mocks, 0 diagnostic.
 - 08-electrolysis-and-redox: 7 teach subsections, 5 sheet subsections, 0 eq, 8 def, 9 trap, 7 understanding, 6 drill
 - 09-metal-extraction: 6 teach subsections, 4 sheet subsections, 0 eq, 7 def, 6 trap, 5 understanding, 5 drill
 - 10-crude-oil-and-alkanes: 8 teach subsections, 5 sheet subsections, 0 eq, 10 def, 12 trap, 6 understanding, 7 drill
-- past papers: 5 papers, 53 questions
+- past papers: 15 papers, 141 questions
 - mcq bank: 515 questions across 10 modules
 - spec tick-sheet: 93 points across 10 topics
 - exam reference: 31 technique rules, 4 diagram checklists, 7 given formulae

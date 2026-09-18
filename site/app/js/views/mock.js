@@ -175,7 +175,7 @@ function revisionView(exam) {
     const inner = el('div', { class: 'inner' });
     if (q.markSchemeHtml) inner.append(el('div', { html: q.markSchemeHtml }));
     if (isPaper(exam)) inner.append(el('p', { class: 'plain-note' },
-      q.markSchemeHtml ? 'Transcribed from the school mark scheme — ' : 'The full answer is in the ',
+      q.markSchemeHtml ? (exam.official ? 'Summarised from the Edexcel mark scheme — ' : 'Transcribed from the school mark scheme — ') : 'The full answer is in the ',
       schemeHref(exam) ? el('a', { href: schemeHref(exam), target: '_blank' }, q.markSchemeHtml ? 'original with diagrams' : 'mark scheme') : null,
       q.markSchemeHtml ? '.' : `, question ${q.number}.`));
     inner.append(relatedLinks(q));

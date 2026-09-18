@@ -26,7 +26,9 @@ const WEAK_STATES = {
 
 /** Per-module appearance count and marks, computed from the papers we hold. */
 function paperStats() {
-  const papers = [...content.pastPapers, ...content.mocks];
+  // school papers only — the board's real papers are practice, and would
+  // swamp the pattern of what this school's exams actually ask
+  const papers = [...content.pastPapers.filter(p => !p.official), ...content.mocks];
   const years = [...new Set(papers.map(p => p.year).filter(Boolean))].sort();
   const byModule = new Map();
   for (const p of papers) {

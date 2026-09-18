@@ -181,7 +181,7 @@
    },
    "moduleCount": 9,
    "mcqCount": 332,
-   "paperCount": 10
+   "paperCount": 20
   },
   {
    "id": "chemistry",
@@ -364,7 +364,7 @@
    },
    "moduleCount": 10,
    "mcqCount": 515,
-   "paperCount": 5
+   "paperCount": 15
   },
   {
    "id": "biology",
@@ -571,7 +571,7 @@
    },
    "moduleCount": 18,
    "mcqCount": 40,
-   "paperCount": 5
+   "paperCount": 15
   }
  ]
 }

@@ -1,6 +1,6 @@
 # Extraction validation report — Biology
 
-Generated 2026-09-13T19:02:23.771Z from 18 modules, 0 mocks, 0 diagnostic.
+Generated 2026-09-18T14:31:41.059Z from 18 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-enzymes: 12 teach subsections, 4 sheet subsections, 0 eq, 9 def, 8 trap, 8 understanding, 15 drill
@@ -21,7 +21,7 @@ Generated 2026-09-13T19:02:23.771Z from 18 modules, 0 mocks, 0 diagnostic.
 - 16-inheritance: 6 teach subsections, 3 sheet subsections, 0 eq, 8 def, 5 trap, 2 understanding, 5 drill
 - 17-selection-and-evolution: 4 teach subsections, 3 sheet subsections, 0 eq, 5 def, 5 trap, 2 understanding, 4 drill
 - 18-genetic-modification-and-cloning: 5 teach subsections, 3 sheet subsections, 0 eq, 7 def, 5 trap, 2 understanding, 4 drill
-- past papers: 5 papers, 45 questions
+- past papers: 15 papers, 124 questions
 - mcq bank: 40 questions across 1 modules
 - spec tick-sheet: 78 points across 3 topics
 - taggable itemIds: 802

@@ -26,3 +26,7 @@ site/content/*/spec.json
 John-*-Offline.html
 John-*-Phone.html
 John-Revision-Offline.html
+
+# Real Edexcel papers: answers parsed from the board's mark schemes
+tools/*/real-papers.json
+tools/*/real-papers-schemes.json
