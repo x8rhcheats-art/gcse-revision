@@ -32,7 +32,13 @@
     "v = (2 × π × r) ÷ T": "v = orbital speed (m/s) · r = orbital radius (m) · T = time for one full orbit (s)",
     "p₁V₁ = p₂V₂": "p₁, V₁ = pressure and volume before · p₂, V₂ = after · temperature constant · any units, provided both sides match",
     "F = (mv − mu) ÷ t": "F = force (N) · m = mass (kg) · v = final velocity (m/s) · u = initial velocity (m/s) · t = time (s) — mv − mu is the change in momentum (kg m/s)",
-    "¹⁴₆C → ___ ___N + ⁰₋₁e": "top number = mass number (protons + neutrons) · bottom number = atomic number (protons) · ⁰₋₁e is the beta particle · both sides must balance: mass numbers total the same, atomic numbers total the same"
+    "¹⁴₆C → ___ ___N + ⁰₋₁e": "top number = mass number (protons + neutrons) · bottom number = atomic number (protons) · ⁰₋₁e is the beta particle · both sides must balance: mass numbers total the same, atomic numbers total the same",
+    "p = m × v": "p = momentum (kg m/s) · m = mass (kg) · v = velocity (m/s) — a vector, so give it a direction or a sign",
+    "n = sin i ÷ sin r": "n = refractive index (no unit, always greater than 1) · i = angle of incidence (°) · r = angle of refraction (°) — both angles measured from the normal, i in air",
+    "sin c = 1 ÷ n": "c = critical angle (°), measured from the normal inside the denser material · n = refractive index of that material (no unit)",
+    "Vp ÷ Vs = np ÷ ns": "Vp = primary (input) voltage (V) · Vs = secondary (output) voltage (V) · np = number of turns on the primary coil · ns = number of turns on the secondary coil",
+    "Vp × Ip = Vs × Is": "Vp = primary voltage (V) · Ip = primary current (A) · Vs = secondary voltage (V) · Is = secondary current (A) — input power = output power, for a 100% efficient transformer",
+    "Δλ ÷ λ₀ = v ÷ c": "Δλ = change in wavelength, λ − λ₀ (m) · λ₀ = reference wavelength, as emitted (m) · v = velocity of the galaxy away from us (m/s) · c = speed of light, 3.0 × 10⁸ m/s — keep v and c in the same units"
   },
   "skip": [
     "Radio · Microwave · Infrared · Visible · Ultraviolet · X-ray · Gamma",
