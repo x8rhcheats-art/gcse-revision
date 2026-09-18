@@ -83,7 +83,7 @@ module.exports = {
     // modules 11-18 are the Year 11 half of the course, which that exam does
     // not cover. Both live in one subject — see the phase banner on each.
     specPoints: 'tools/biology/spec-points.json',
-    mcqBanks: ['tools/biology/mcq-bank-1.json'],
+    mcqBanks: ['tools/biology/mcq-bank-1.json', 'tools/biology/mcq-bank-2.json'],
     officialPapers: 'tools/biology/official-papers.json',
     pastPapers: ['tools/biology/past-papers.json', 'tools/biology/real-papers.json'],
     pastPaperSchemes: ['tools/biology/past-papers-schemes.json', 'tools/biology/real-papers-schemes.json'],
