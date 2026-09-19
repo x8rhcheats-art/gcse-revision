@@ -118,5 +118,13 @@ module.exports = {
     pastPapers: ['tools/maths/past-papers.json'],
     pastPaperSchemes: ['tools/maths/past-papers-schemes.json'],
     plannedModules: 14,
+    // The school teaches most maths topics across both years (see the Dr Frost
+    // revision booklets); each module sits where most of it is taught.
+    moduleGroups: [
+      { title: 'Year 10', note: 'Mostly taught in Year 10 — some parts come back in Year 11.',
+        modules: ['01-number-indices-surds-standard-form', '02-fractions-percentages-ratio-proportion', '04-algebraic-manipulation', '05-equations-and-inequalities', '06-sequences', '07-functions-and-graphs', '10-mensuration-and-similarity', '11-pythagoras-and-trigonometry'] },
+      { title: 'Year 11', note: 'Mostly taught in Year 11.',
+        modules: ['03-accuracy-and-bounds', '08-differentiation', '09-angles-polygons-circle-theorems', '12-vectors-and-transformations', '13-statistics', '14-probability-and-sets'] },
+    ],
   },
 };

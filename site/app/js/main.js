@@ -5,7 +5,7 @@
 // the active subject, then the hash is quietly rewritten to the canonical
 // prefixed form so any link copied from the address bar names its subject.
 
-import { loadContent, loadRegistry, registry, activeSubject, content } from './content.js';
+import { loadContent, loadRegistry, registry, activeSubject, content, inGroup } from './content.js';
 import { initStore, touchOpened } from './store.js';
 import { redCount, dueCards } from './model.js';
 import { el } from './ui.js';
@@ -30,7 +30,7 @@ import { renderPredict } from './views/predict.js';
 import { renderOfficial } from './views/official.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v41';
+const APP_VERSION = 'v42';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -179,13 +179,16 @@ function buildNav(activePath) {
     link('#/search', ['Search']),
     el('div', { class: 'navgroup' }, 'Modules'),
     link('#/priority', ['Priority Module']),
-    ...content.modules.flatMap((m, i, all) => {
-      const a = link(`#/module/${m.id}`, [`${m.number}. ${m.title}`]);
-      a.classList.add('navmod');
-      // year headings for subjects that group their modules
-      const group = (subj.moduleGroups || []).find(g => m.number >= g.from && m.number <= g.to);
-      const prev = i ? (subj.moduleGroups || []).find(g => all[i - 1].number >= g.from && all[i - 1].number <= g.to) : null;
-      return group && group !== prev ? [el('div', { class: 'navgroup' }, `${group.title} modules`), a] : [a];
+    // subjects split into years list each year under its own heading
+    ...(subj.moduleGroups || [{ title: null, from: -Infinity, to: Infinity }]).flatMap(g => {
+      const mods = content.modules.filter(m => inGroup(g, m));
+      if (!mods.length) return [];
+      const links = mods.map(m => {
+        const a = link(`#/module/${m.id}`, [`${m.number}. ${m.title}`]);
+        a.classList.add('navmod');
+        return a;
+      });
+      return g.title ? [el('div', { class: 'navgroup' }, `${g.title} modules`), ...links] : links;
     }),
     // the complete pack is a plain page, not a route — it opens in its own tab
     ...(subj.completePack

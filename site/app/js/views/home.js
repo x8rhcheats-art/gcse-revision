@@ -1,6 +1,6 @@
 // views/home.js — quiet landing view. Counts of work, never percentages.
 
-import { content, modulesByWeight, activeSubject } from '../content.js';
+import { content, modulesByWeight, activeSubject, inGroup } from '../content.js';
 import { el, view, shortDate } from '../ui.js';
 import { getState, latestMockAttempt, latestDiagnostic, toggleChecklist, exportJson, importJson } from '../store.js';
 import { redCount, dueCards, daysToExam } from '../model.js';
@@ -76,13 +76,13 @@ export function renderHome() {
   const groupSections = [];
   if (groups.length) {
     for (const g of groups) {
-      const inGroup = modulesByWeight().filter(m => m.number >= g.from && m.number <= g.to);
-      if (!inGroup.length) continue;
+      const members = modulesByWeight().filter(m => inGroup(g, m));
+      if (!members.length) continue;
       const sec = el('section', { class: 'module-group' },
-        el('h2', {}, el('span', { class: 'num' }, `${inGroup.length} module${inGroup.length === 1 ? '' : 's'}`),
+        el('h2', {}, el('span', { class: 'num' }, `${members.length} module${members.length === 1 ? '' : 's'}`),
           `${g.title} topics`));
       if (g.note) sec.append(el('p', { class: 'plain-note' }, g.note));
-      for (const m of inGroup) sec.append(moduleRow(m));
+      for (const m of members) sec.append(moduleRow(m));
       groupSections.push(sec);
     }
   } else {

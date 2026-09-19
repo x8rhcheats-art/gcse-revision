@@ -12,6 +12,12 @@ export function activeSubject() {
   return registry.subjects.find(s => s.id === registry.activeId) || null;
 }
 
+/** Does a year group contain this module? A group names its modules either as a
+ *  number range (from/to) or, where the years interleave (maths), as a list of ids. */
+export function inGroup(g, m) {
+  return g.modules ? g.modules.includes(m.id) : m.number >= g.from && m.number <= g.to;
+}
+
 export const content = {
   modules: [],
   mocks: [],

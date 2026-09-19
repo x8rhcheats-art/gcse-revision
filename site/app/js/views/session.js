@@ -5,7 +5,7 @@
 // to practise. The selection travels in the URL as module numbers, so every
 // session is bookmarkable and survives a reload.
 
-import { content, modsToParam, activeSubject } from '../content.js';
+import { content, modsToParam, activeSubject, inGroup } from '../content.js';
 import { el, view, navigate, modeSwitch } from '../ui.js';
 import { getPref, setPref } from '../store.js';
 import { modulesByNeed, modulesWithRed, redItemsByModule, dueCards } from '../model.js';
@@ -110,7 +110,7 @@ export function renderSession() {
     ...(activeSubject().moduleGroups || []).map(g => el('button', {
       class: 'act secondary', onclick: () => {
         selected.clear();
-        for (const m of content.modules) if (m.number >= g.from && m.number <= g.to) selected.add(m.id);
+        for (const m of content.modules) if (inGroup(g, m)) selected.add(m.id);
         refresh();
       },
     }, `${g.title} only`)),

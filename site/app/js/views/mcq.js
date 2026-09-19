@@ -3,7 +3,7 @@
 // evidence (correct = got-it, wrong = no-idea, 1 mark each) and feeds the
 // coach view like any other attempt. Options are shuffled on every showing.
 
-import { content, modulesByWeight, moduleTitle, paramToMods, modsToParam, activeSubject } from '../content.js';
+import { content, modulesByWeight, moduleTitle, paramToMods, modsToParam, activeSubject, inGroup } from '../content.js';
 import { el, view, modeSwitch, navigate, notFound, attachKeys } from '../ui.js';
 import { recordAttempt, getPref, setPref } from '../store.js';
 import { wrongAttempts } from './review.js';
@@ -77,7 +77,7 @@ export function renderMcqHome() {
   // subjects split into years list each year under its own heading
   const groups = activeSubject().moduleGroups || [{ title: null, from: -Infinity, to: Infinity }];
   for (const g of groups) {
-    const rows = modulesByWeight().filter(m => m.number >= g.from && m.number <= g.to && (content.mcq[m.id] || []).length);
+    const rows = modulesByWeight().filter(m => inGroup(g, m) && (content.mcq[m.id] || []).length);
     if (!rows.length) continue;
     if (g.title) root.append(el('h3', {}, g.title));
     for (const m of rows) {
