@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 4 · Algebraic Manipulation — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 4 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Algebraic Manipulation</h1>
+  <p class="standfirst">Expanding, factorising, algebraic fractions, rearranging formulae and proof. These are the skills that every later algebra question depends on. On their own they are worth 2 to 4 marks each and appear on every paper. The Higher-only versions to master are triple brackets, quadratics with a ≠ 1, the difference of two squares, fractions over quadratic denominators, and formulae where the subject appears twice.</p>
+  <div class="meta">
+    <span class="tag"><strong>~7% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>2.2, 2.3</strong></span>
+    <span class="tag">Appeared in <strong>every</strong> 4MA1 paper here</span>
+    <span class="tag">Est. <strong>3–4 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q3(d)(i) <span class="marks">(2)</span></td><td>Factorise x<sup>2</sup> + 2x − 24</td></tr>
+<tr><td>2018 Edexcel May 1H Q11(a) <span class="marks">(3)</span></td><td>Expand and simplify (2x − 1)(x + 3)(x − 5)</td></tr>
+<tr><td>2018 Edexcel May 1H Q15(b) <span class="marks">(3)</span></td><td>Express 1/(9x<sup>2</sup> − 25) − 1/(6x + 10) as a single fraction in its simplest form</td></tr>
+<tr><td>2018 Edexcel May 2H Q1(a) <span class="marks">(2)</span></td><td>Make a the subject of M = ac − bd</td></tr>
+<tr><td>2018 Edexcel May 2H Q1(c) <span class="marks">(2)</span></td><td>Factorise fully 18e<sup>2</sup>f<sup>3</sup> − 12e<sup>3</sup>f</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q6(a) <span class="marks">(2)</span></td><td>Factorise fully 18e<sup>3</sup>f + 45e<sup>2</sup>f<sup>4</sup></td></tr>
+<tr><td>2016 Edexcel SAM 1H Q11 <span class="marks">(3)</span></td><td>Expand and simplify (x + 5)(x − 3)(x + 3)</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q18 <span class="marks">(4)</span></td><td>Show that an expression with algebraic fractions simplifies to a single fraction (factorise x<sup>2</sup> − 1, then combine)</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q13 <span class="marks">(3)</span></td><td>Make b the subject of P = ½ab<sup>2</sup> + c, where b is positive</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q16 <span class="marks">(5)</span></td><td>Make y the subject of a formula where y appears on both sides, one of them inside a square root (old spec)</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q19 <span class="marks">(2)</span></td><td>Factorise completely (12x − y)<sup>2</sup> − (4x − 3y)<sup>2</sup> (old spec)</td></tr>
+<tr><td>2016 Edexcel Jan 4HR Q19 <span class="marks">(3)</span></td><td>Make g the subject of 3e + 4g = 7 + 9eg (old spec)</td></tr>
+<tr><td>2012 Edexcel Jan 3H Q11 <span class="marks">(3)</span></td><td>Make y the subject of 3(y + 2x − 1) = x + 5y (old spec)</td></tr>
+<tr><td>2015 Edexcel Jan 4HR Q11 <span class="marks">(7)</span></td><td>Includes expanding (3x − 2y)(x + 2y) and factorising 4x<sup>2</sup> − 7x − 2 (old spec)</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2018 May 2H mark scheme, on "Make a the subject of M = ac − bd":</p>
+<p><span class="said">"[must have been seen with a = to award accuracy mark]"</span></p>
+<p>An answer of (M + bd)/c on its own loses the A1. The subject has to be stated: <strong>a = (M + bd)/c</strong>. The 2018 May 1H scheme, for the triple expansion, required that <span class="said">"the correct number of terms must be present"</span>. That means 8 terms before collecting, or 6 after the first two brackets are multiplied by the third.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>Expanding and factorising are the same process run in opposite directions, and every section below comes back to that. Algebraic fractions are ordinary fraction rules applied after factorising. Rearranging is solving an equation with letters left in. Proof is expanding until the answer can be seen.</p>
+
+<h3>Expanding single and double brackets</h3>
+<p class="asked">Spec 2.2C, 2.2E · <strong>2015 Edexcel Jan 4HR Q11(c)</strong></p>
+<p><strong>Every term in one bracket multiplies every term in the other; then collect like terms.</strong></p>
+<ol>
+<li>Single bracket: multiply the outside term by each inside term, and watch the signs: −2(x − 4) = −2x + 8.</li>
+<li>Double bracket: four products (a grid or FOIL), then collect the two middle terms.</li>
+<li>A squared bracket is two brackets: (3x − 2)<sup>2</sup> = (3x − 2)(3x − 2).</li>
+</ol>
+<div class="panel">
+<h4>Worked example — expand (2x − 3)(x + 5) and (3x − 2)<sup>2</sup></h4>
+<p>2x × x = 2x<sup>2</sup>; 2x × 5 = 10x; −3 × x = −3x; −3 × 5 = −15 <em>(M1 for 4 terms, 3 correct)</em></p>
+<p>= <strong>2x<sup>2</sup> + 7x − 15</strong> <em>(A1)</em></p>
+<p>(3x − 2)(3x − 2) = 9x<sup>2</sup> − 6x − 6x + 4 = <strong>9x<sup>2</sup> − 12x + 4</strong></p>
+</div>
+<div class="trap">
+<p>✗ (3x − 2)<sup>2</sup> = 9x<sup>2</sup> + 4 or 9x<sup>2</sup> − 4. The middle terms are missing.<br>
+✗ −2(x − 4) = −2x − 8. The sign on the second term is wrong.<br>
+✓ Write the squared bracket out twice, and multiply the sign with the number.</p>
+</div>
+
+<h3>Expanding triple brackets</h3>
+<p class="asked">Spec 2.2A (Higher) · <strong>2018 Edexcel May 1H Q11(a)</strong> · <strong>2016 Edexcel SAM 1H Q11</strong></p>
+<p><strong>Multiply two of the brackets first and simplify, then multiply that quadratic by the third bracket.</strong></p>
+<ol>
+<li>Choose two brackets and expand them to a simplified quadratic (3 terms).</li>
+<li>Multiply each of those 3 terms by each term of the third bracket, giving 6 terms.</li>
+<li>Collect like terms: x<sup>3</sup>, then x<sup>2</sup>, then x, then the number.</li>
+<li>Check: substitute x = 1 into the question and into your answer. They must agree.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — expand and simplify (x + 2)(x − 3)(x + 4)</h4>
+<p>(x + 2)(x − 3) = x<sup>2</sup> − 3x + 2x − 6 = x<sup>2</sup> − x − 6 <em>(M1 for expanding any two brackets, at least 3 of 4 terms correct)</em></p>
+<p>(x<sup>2</sup> − x − 6)(x + 4) = x<sup>3</sup> + 4x<sup>2</sup> − x<sup>2</sup> − 4x − 6x − 24 <em>(M1 for 6 terms, at least half correct)</em></p>
+<p>= <strong>x<sup>3</sup> + 3x<sup>2</sup> − 10x − 24</strong> <em>(A1)</em></p>
+<p>Check with x = 1: 3 × (−2) × 5 = −30, and 1 + 3 − 10 − 24 = −30 ✓</p>
+</div>
+
+<h3>Factorising — common factors</h3>
+<p class="asked">Spec 2.2D · <strong>2018 Edexcel May 2H Q1(c)</strong> · <strong>2016 Edexcel SAM 1H Q6(a)</strong></p>
+<p><strong>"Factorise fully" means take out the highest common factor of the numbers and the lowest power of every shared letter.</strong></p>
+<ol>
+<li>HCF of the numbers.</li>
+<li>For each letter in every term, take the lowest power.</li>
+<li>Divide each term by that factor to fill the bracket.</li>
+<li>Check the bracket has no common factor left, then expand to check.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — factorise fully 15a<sup>3</sup>b − 25a<sup>2</sup>b<sup>2</sup></h4>
+<p>HCF of 15 and 25 is 5; lowest powers a<sup>2</sup> and b → 5a<sup>2</sup>b</p>
+<p>15a<sup>3</sup>b ÷ 5a<sup>2</sup>b = 3a; 25a<sup>2</sup>b<sup>2</sup> ÷ 5a<sup>2</sup>b = 5b</p>
+<p><strong>5a<sup>2</sup>b(3a − 5b)</strong> <em>(M1 A1; the 2018 2H scheme gave the M1 for "any correct partially factorised expression with at least 2 terms in the common factor", such as 5a(3a<sup>2</sup>b − 5ab<sup>2</sup>) here)</em></p>
+</div>
+<div class="trap">
+<p>✗ 5a(3a<sup>2</sup>b − 5ab<sup>2</sup>). Correct, but not <em>fully</em> factorised, so 1 mark out of 2.<br>
+✓ Check the bracket: if every term inside still shares a factor, take it out.</p>
+</div>
+
+<h3>Factorising quadratics x<sup>2</sup> + bx + c</h3>
+<p class="asked">Spec 2.2F · <strong>2018 Edexcel May 1H Q3(d)</strong></p>
+<p><strong>Find two numbers that multiply to c and add to b.</strong></p>
+<ol>
+<li>List factor pairs of c, with signs.</li>
+<li>Pick the pair that adds to b.</li>
+<li>Write (x + p)(x + q) and expand to check.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — factorise x<sup>2</sup> + x − 30</h4>
+<p>Multiply to −30, add to +1: 6 and −5 <em>(M1 for (x ± 6)(x ± 5))</em></p>
+<p><strong>(x + 6)(x − 5)</strong> <em>(A1)</em></p>
+</div>
+
+<h3>Factorising quadratics with a ≠ 1</h3>
+<p class="asked">Spec 2.2B (Higher) · <strong>2015 Edexcel Jan 4HR Q11(d)</strong></p>
+<p><strong>Multiply a × c, find two numbers with that product and sum b, split the middle term, then factorise in pairs.</strong></p>
+<ol>
+<li>Work out a × c.</li>
+<li>Find two numbers that multiply to ac and add to b.</li>
+<li>Split bx into those two terms.</li>
+<li>Factorise the first pair and the second pair; the same bracket appears in both.</li>
+<li>Take out that bracket. Expand to check.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — factorise 6x<sup>2</sup> + x − 12</h4>
+<p>ac = 6 × −12 = −72; two numbers with product −72 and sum +1: 9 and −8</p>
+<p>6x<sup>2</sup> + 9x − 8x − 12 = 3x(2x + 3) − 4(2x + 3) <em>(M1 for splitting correctly or for (3x ± 4)(2x ± 3))</em></p>
+<p>= <strong>(3x − 4)(2x + 3)</strong> <em>(A1)</em></p>
+</div>
+<div class="trap">
+<p>✗ (6x − 4)(x + 3). This expands to 6x<sup>2</sup> + 14x − 12. Always expand to check the middle term.<br>
+✓ With a ≠ 1, use the ac method rather than guessing.</p>
+</div>
+
+<h3>Difference of two squares</h3>
+<p class="asked">Spec 2.2B (Higher) · <strong>2014 Edexcel Jan 3H Q19</strong> · <strong>2018 Edexcel May 1H Q15(b)</strong></p>
+<p><strong>Anything squared minus anything squared factorises into (first − second)(first + second).</strong></p>
+<div class="eq"><span class="name">Difference of two squares — memorise</span>a<sup>2</sup> − b<sup>2</sup> = (a − b)(a + b)<span class="sym">a and b can be numbers, terms or whole brackets · a<sup>2</sup> + b<sup>2</sup> does not factorise</span></div>
+<ol>
+<li>Take out any common factor first (2x<sup>2</sup> − 50 = 2(x<sup>2</sup> − 25)).</li>
+<li>Identify what is being squared: 25x<sup>2</sup> = (5x)<sup>2</sup>, 36y<sup>2</sup> = (6y)<sup>2</sup>.</li>
+<li>Write (a − b)(a + b). If a and b are brackets, simplify inside each factor.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — factorise 25x<sup>2</sup> − 36y<sup>2</sup>, 2x<sup>2</sup> − 50 and (x + 5)<sup>2</sup> − (x − 1)<sup>2</sup></h4>
+<p>25x<sup>2</sup> − 36y<sup>2</sup> = <strong>(5x − 6y)(5x + 6y)</strong></p>
+<p>2x<sup>2</sup> − 50 = 2(x<sup>2</sup> − 25) = <strong>2(x − 5)(x + 5)</strong></p>
+<p>[(x + 5) − (x − 1)][(x + 5) + (x − 1)] <em>(M1)</em> = 6(2x + 4) = <strong>12(x + 2)</strong> <em>(A1)</em></p>
+</div>
+<div class="trap">
+<p>✗ (x + 5) − (x − 1) = 4. The bracket sign flips −1 to +1, so it is 6.<br>
+✓ Put every bracket in its own bracket before simplifying: (x + 5) − (x − 1) = x + 5 − x + 1 = 6.</p>
+</div>
+
+<h3>Simplifying algebraic fractions</h3>
+<p class="asked">Spec 2.2C (Higher)</p>
+<p><strong>You can only cancel factors, never individual terms, so factorise the top and the bottom completely first.</strong></p>
+<ol>
+<li>Factorise the numerator fully.</li>
+<li>Factorise the denominator fully.</li>
+<li>Cancel any bracket (or factor) that appears in both.</li>
+<li>Leave the answer factorised.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — simplify fully (3x<sup>2</sup> − 6x)/(x<sup>2</sup> − 4)</h4>
+<p>Top: 3x(x − 2) <em>(B1)</em>. Bottom: (x − 2)(x + 2) <em>(B1)</em></p>
+<p>Cancel (x − 2): <strong>3x/(x + 2)</strong> <em>(B1)</em></p>
+</div>
+<div class="trap">
+<p>✗ (x<sup>2</sup> + 3)/(x<sup>2</sup> + 5) = 3/5, "cancelling the x<sup>2</sup>". Terms joined by + or − cannot be cancelled.<br>
+✓ Cancel only whole factors, after factorising.</p>
+</div>
+
+<h3>Adding and subtracting algebraic fractions</h3>
+<p class="asked">Spec 2.2C (Higher) · <strong>2018 Edexcel May 1H Q15(b)</strong></p>
+<p><strong>Put both fractions over a common denominator, the product of the denominators or, better, their LCM, then combine the numerators.</strong></p>
+<ol>
+<li>Factorise each denominator; the common denominator is every factor that appears, used once.</li>
+<li>Multiply each numerator by whatever its denominator is missing.</li>
+<li>Combine the numerators in a bracket, <strong>watching the minus sign</strong>, and simplify.</li>
+<li>Leave the denominator factorised.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — write 2/(x + 3) + 5/(x − 1) as a single fraction</h4>
+<p>Common denominator (x + 3)(x − 1) <em>(M1)</em></p>
+<p>[2(x − 1) + 5(x + 3)] / [(x + 3)(x − 1)] <em>(M1)</em></p>
+<p>= <strong>(7x + 13)/((x + 3)(x − 1))</strong> <em>(A1)</em></p>
+<p>With a quadratic denominator, as in 2018: 1/(9x<sup>2</sup> − 25) = 1/((3x − 5)(3x + 5)) and 1/(6x + 10) = 1/(2(3x + 5)), so the common denominator is 2(3x − 5)(3x + 5), not the product of the two.</p>
+</div>
+<div class="trap">
+<p>✗ [2(x − 1) − 5(x + 3)] written as 2x − 2 − 5x + 15. The minus must go through the whole bracket, so it is −5x − 15.<br>
+✓ Bracket each new numerator before combining.</p>
+</div>
+
+<h3>Multiplying and dividing algebraic fractions</h3>
+<p class="asked">Spec 2.2C (Higher) · <strong>2016 Edexcel SAM 1H Q18</strong></p>
+<p><strong>Multiply tops and bottoms, or, to divide, flip the second fraction and multiply, factorising everything so you can cancel.</strong></p>
+<ol>
+<li>Dividing? Turn the second fraction upside down and change ÷ to ×.</li>
+<li>Factorise every numerator and denominator.</li>
+<li>Cancel common factors across the whole product.</li>
+<li>Multiply what is left.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — simplify (x<sup>2</sup> − 16)/(3x + 12) ÷ (x<sup>2</sup> − 3x − 4)/(6x)</h4>
+<p>= (x<sup>2</sup> − 16)/(3x + 12) × 6x/(x<sup>2</sup> − 3x − 4) <em>(M1)</em></p>
+<p>= (x − 4)(x + 4)/[3(x + 4)] × 6x/[(x − 4)(x + 1)] <em>(M1 for correct factorising)</em></p>
+<p>Cancel (x − 4), (x + 4) and 3: <strong>2x/(x + 1)</strong> <em>(A1)</em></p>
+</div>
+
+<h3>Changing the subject — subject appears once</h3>
+<p class="asked">Spec 2.3F, 2.3A (Higher) · <strong>2018 Edexcel May 2H Q1(a)</strong> · <strong>2016 Edexcel SAM 2H Q13</strong></p>
+<p><strong>Undo what has been done to the subject, in reverse order, doing the same to both sides.</strong></p>
+<ol>
+<li>Clear fractions by multiplying both sides by the denominator.</li>
+<li>Get the term containing the subject on its own (add or subtract).</li>
+<li>Divide by its coefficient.</li>
+<li>Undo any power or root last: square root to undo a square (± or "positive" as stated), square to undo a root, cube root to undo a cube.</li>
+<li>Write "subject = …". The A1 depends on it.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — make r the subject of V = πr<sup>2</sup>h/3</h4>
+<p>3V = πr<sup>2</sup>h <em>(M1 for a correct first step)</em></p>
+<p>r<sup>2</sup> = 3V/(πh)</p>
+<p><strong>r = √(3V/(πh))</strong> <em>(A1)</em></p>
+</div>
+<div class="trap">
+<p>✗ Stopping at r<sup>2</sup> = 3V/(πh). The subject is r, not r<sup>2</sup>.<br>
+✗ Writing only "√(3V/(πh))". The 2018 scheme required the answer "seen with a =".</p>
+</div>
+
+<h3>Changing the subject — subject appears twice</h3>
+<p class="asked">Spec 2.3A (Higher) · <strong>2016 Edexcel Jan 4HR Q19</strong> · <strong>2014 Edexcel Jan 3H Q16</strong></p>
+<p><strong>Gather every term containing the subject on one side, then factorise the subject out.</strong></p>
+<ol>
+<li>Clear any fraction or root first (multiply up, or square both sides).</li>
+<li>Expand brackets.</li>
+<li>Collect all terms with the subject on one side and everything else on the other.</li>
+<li><strong>Factorise</strong>: take the subject out as a common factor.</li>
+<li>Divide by the bracket.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — make q the subject of p = (2q + 1)/(q − 3)</h4>
+<p>p(q − 3) = 2q + 1 <em>(M1 for clearing the fraction)</em></p>
+<p>pq − 3p = 2q + 1</p>
+<p>pq − 2q = 1 + 3p <em>(M1 for collecting q terms on one side)</em></p>
+<p>q(p − 2) = 1 + 3p <em>(M1 for factorising)</em></p>
+<p><strong>q = (1 + 3p)/(p − 2)</strong> <em>(A1)</em></p>
+</div>
+<div class="trap">
+<p>✗ q = (1 + 3p + 2q)/p. q is still on both sides, so it is not the subject.<br>
+✓ If the subject appears twice, you must <strong>factorise</strong> it out. That step is the method mark.</p>
+</div>
+
+<h3>Algebraic proof</h3>
+<p class="asked">Spec 2.2E (Higher)</p>
+<p><strong>Write the general numbers in algebra, expand and simplify, then show the result has the required form and say so in words.</strong></p>
+<ol>
+<li>Choose the representation: any integer n; consecutive n, n + 1; even 2n; odd 2n + 1; consecutive odd 2n + 1, 2n + 3.</li>
+<li>Write the expression the question describes and expand it.</li>
+<li>Simplify and factorise to show the form: a multiple of 8 is 8 × (an integer); odd is 2 × (integer) + 1.</li>
+<li>Finish with a sentence: "8(n + 1) is a multiple of 8 because n + 1 is an integer."</li>
+</ol>
+<div class="panel">
+<h4>Worked example — prove that (2n + 3)<sup>2</sup> − (2n − 3)<sup>2</sup> is a multiple of 12 for all integers n</h4>
+<p>(4n<sup>2</sup> + 12n + 9) − (4n<sup>2</sup> − 12n + 9) <em>(M1 for expanding both)</em></p>
+<p>= 24n <em>(A1)</em></p>
+<p>= 12 × 2n, and 2n is an integer, so it is a multiple of 12 <em>(A1 for the conclusion)</em></p>
+</div>
+<div class="trap">
+<p>✗ "n = 1 gives 24, n = 2 gives 48, so it is true." Examples are not a proof.<br>
+✗ Using n and n + 1 for two odd numbers. They are not both odd.<br>
+✓ Use algebra for the general case, and finish with a sentence.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>Routines to know cold</h4>
+<p><strong>Triple brackets:</strong> two first → simplify → × the third → collect. Check with x = 1.</p>
+<p><strong>ax<sup>2</sup> + bx + c:</strong> product ac, sum b → split the middle → factorise in pairs</p>
+<p><strong>a<sup>2</sup> − b<sup>2</sup></strong> = (a − b)(a + b)</p>
+<p><strong>Fractions:</strong> factorise first; cancel factors only; the common denominator is the LCM of the denominators</p>
+<p><strong>Subject twice:</strong> clear fractions → expand → collect → factorise → divide</p>
+<p><strong>Proof:</strong> n, 2n, 2n + 1; expand; factorise to the form; finish with a sentence</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Expand</td><td>Multiply out the brackets</td></tr>
+<tr><td>Factorise fully</td><td>Write as a product, with <strong>no common factor left</strong> inside any bracket</td></tr>
+<tr><td>Expression</td><td>A collection of terms <strong>with no equals sign</strong>, e.g. 3x + 2</td></tr>
+<tr><td>Equation</td><td>A statement that two expressions are equal, true for <strong>particular values</strong></td></tr>
+<tr><td>Identity</td><td>A statement true for <strong>all values</strong> of the variable, written ≡</td></tr>
+<tr><td>Formula</td><td>A rule linking <strong>two or more variables</strong>, e.g. A = πr<sup>2</sup></td></tr>
+<tr><td>Subject</td><td>The variable on its own on <strong>one side</strong> of a formula</td></tr>
+<tr><td>Coefficient</td><td>The <strong>number multiplying</strong> a variable, e.g. 7 in 7x</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">(M + bd)/c</td><td class="yes"><strong>a =</strong> (M + bd)/c</td></tr>
+<tr><td class="no">(3x − 2)<sup>2</sup> = 9x<sup>2</sup> + 4</td><td class="yes">9x<sup>2</sup> <strong>− 12x</strong> + 4</td></tr>
+<tr><td class="no">5a(3a<sup>2</sup>b − 5ab<sup>2</sup>) for "factorise fully"</td><td class="yes">5a<sup>2</sup>b(3a − 5b)</td></tr>
+<tr><td class="no">(x<sup>2</sup> + 3)/(x<sup>2</sup> + 5) = 3/5</td><td class="yes">cancel only <strong>factors</strong>, after factorising</td></tr>
+<tr><td class="no">2(x − 1) − 5(x + 3) = −3x + 13</td><td class="yes">2x − 2 − 5x <strong>− 15</strong> = −3x − 17</td></tr>
+<tr><td class="no">q = (1 + 3p + 2q)/p</td><td class="yes">collect q terms and <strong>factorise</strong>: q(p − 2) = 1 + 3p</td></tr>
+<tr><td class="no">"It works for n = 1, 2, 3, so it's true"</td><td class="yes">algebra for <strong>all n</strong>, then a concluding sentence</td></tr>
+<tr><td class="no">r<sup>2</sup> = 3V/(πh) as the final answer</td><td class="yes">r = √(3V/(πh))</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why does (x + 3)<sup>2</sup> not equal x<sup>2</sup> + 9? Use a number to show it.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>(x + 3)<sup>2</sup> = (x + 3)(x + 3) = x<sup>2</sup> + 3x + 3x + 9 = x<sup>2</sup> + 6x + 9. The two middle terms come from the "cross" products.</p>
+<p>With x = 1: (1 + 3)<sup>2</sup> = 16, but 1<sup>2</sup> + 9 = 10. The missing 6 is the 6x term.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why does a triple expansion like (x + 2)(x − 3)(x + 4) have to give an x<sup>3</sup> term and a constant of −24 before you do any working?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The x<sup>3</sup> term comes only from x × x × x, and the constant comes only from 2 × (−3) × 4 = −24.</p>
+<p>So you can check your final answer at a glance: leading term x<sup>3</sup>, constant −24. If either is wrong, there is a slip in the working.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>In the ac method for 6x<sup>2</sup> + x − 12, why do you look for two numbers that multiply to −72?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>If 6x<sup>2</sup> + x − 12 = (px + q)(rx + s), then expanding gives pr x<sup>2</sup> + (ps + qr)x + qs. The two middle products ps and qr multiply to pr × qs = 6 × (−12) = −72, and they add to the middle coefficient, 1.</p>
+<p>So the pair with product ac and sum b is exactly the two parts of the middle term, and splitting there lets the grouping work.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Why does x<sup>2</sup> − 9 factorise, but x<sup>2</sup> + 9 does not?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>(x − 3)(x + 3) = x<sup>2</sup> + 3x − 3x − 9 = x<sup>2</sup> − 9. The middle terms cancel because the signs differ.</p>
+<p>For x<sup>2</sup> + 9 you would need two numbers that multiply to +9 and add to 0, which is impossible for real numbers. There is no difference of squares, because it is a <strong>sum</strong>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why can you cancel (x − 2) in 3x(x − 2)/((x − 2)(x + 2)), but not the x in (x + 3)/(x + 5)?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>(x − 2) is a <strong>factor</strong> of both top and bottom, since everything is multiplied by it. Dividing top and bottom by the same factor leaves the value unchanged.</p>
+<p>In (x + 3)/(x + 5), x is a <strong>term</strong>, added to something else. Check with x = 1: 4/6 = 2/3, but "cancelling x" gives 3/5. Cancelling terms changes the value.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>For 1/(9x<sup>2</sup> − 25) − 1/(6x + 10), why is the best common denominator 2(3x − 5)(3x + 5) and not (9x<sup>2</sup> − 25)(6x + 10)?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Factorised, the denominators are (3x − 5)(3x + 5) and 2(3x + 5). They share (3x + 5). The lowest common multiple needs each factor only once: 2(3x − 5)(3x + 5).</p>
+<p>The product works too, but it contains (3x + 5) twice, so you would have to cancel at the end. That is extra algebra where slips happen, and the "simplest form" mark depends on it.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>When the subject appears twice, why must you factorise it out rather than just divide?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>After collecting, you have something like pq − 2q = 1 + 3p. You cannot divide by "p" or by "−2" alone, because each only removes q from one term.</p>
+<p>Factorising gives q(p − 2) = 1 + 3p. Now q is multiplied by one thing, (p − 2), so dividing by it leaves q on its own. Without factorising, the subject never ends up alone on one side.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Why is "2n + 1" a good way to write any odd number, and why don't examples count as a proof?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>2n is a multiple of 2, so it is always even when n is an integer, and one more than an even number is odd. Every odd number can be written this way, so working with 2n + 1 covers them all at once.</p>
+<p>Examples only check the cases you tried. A statement can hold for the first few numbers and fail later. The algebra shows it holds for <strong>every</strong> integer n.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>(a) Expand and simplify 3(2x − 5) − 2(x − 4) <span class="marks">(2)</span><br>
+(b) Expand and simplify (2x + 5)(3x − 4) <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 6x − 15 − 2x + 8 (three of the four terms correct) <span class="mp">1</span></p>
+<p>A1 for <strong>4x − 7</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 6x<sup>2</sup> − 8x + 15x − 20 (four terms, three correct) <span class="mp">1</span></p>
+<p>A1 for <strong>6x<sup>2</sup> + 7x − 20</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>Expand and simplify (x + 4)(x − 2)(2x + 3) <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for expanding any two brackets, at least 3 of 4 terms correct, e.g. (x + 4)(x − 2) = x<sup>2</sup> + 2x − 8 <span class="mp">1</span></p>
+<p>M1 (dep) for multiplying by the third bracket with 6 terms, at least half correct: 2x<sup>3</sup> + 3x<sup>2</sup> + 4x<sup>2</sup> + 6x − 16x − 24 <span class="mp">1</span></p>
+<p>A1 for <strong>2x<sup>3</sup> + 7x<sup>2</sup> − 10x − 24</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>Factorise fully 24a<sup>3</sup>b<sup>2</sup> − 36a<sup>2</sup>b<sup>4</sup> <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a correct partial factorisation with at least two parts of the common factor, e.g. 12a<sup>2</sup>(2ab<sup>2</sup> − 3b<sup>4</sup>) or 6a<sup>2</sup>b<sup>2</sup>(4a − 6b<sup>2</sup>) <span class="mp">1</span></p>
+<p>A1 for <strong>12a<sup>2</sup>b<sup>2</sup>(2a − 3b<sup>2</sup>)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>Factorise x<sup>2</sup> − 3x − 40 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (x ± 8)(x ± 5) <span class="mp">1</span></p>
+<p>A1 for <strong>(x − 8)(x + 5)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>Factorise 10x<sup>2</sup> − 11x − 6 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (5x ± 2)(2x ± 3) or for splitting the middle term: 10x<sup>2</sup> − 15x + 4x − 6 <span class="mp">1</span></p>
+<p>A1 for <strong>(5x + 2)(2x − 3)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>(a) Factorise 49y<sup>2</sup> − 16 <span class="marks">(1)</span><br>
+(b) Factorise completely 3x<sup>2</sup> − 75 <span class="marks">(2)</span><br>
+(c) Factorise completely (2x + 7)<sup>2</sup> − (x − 1)<sup>2</sup> <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>(7y − 4)(7y + 4)</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 3(x<sup>2</sup> − 25) or (3x − 15)(x + 5) <span class="mp">1</span></p>
+<p>A1 for <strong>3(x − 5)(x + 5)</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for [(2x + 7) − (x − 1)][(2x + 7) + (x − 1)] or (x + 8)(3x + 6) <span class="mp">1</span></p>
+<p>A1 for <strong>3(x + 8)(x + 2)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>Simplify fully (x<sup>2</sup> − 9)/(2x<sup>2</sup> + 5x − 3) <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for (x − 3)(x + 3) <span class="mp">1</span></p>
+<p>B1 for (2x − 1)(x + 3) <span class="mp">1</span></p>
+<p>B1 for <strong>(x − 3)/(2x − 1)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>Write 3/(x + 2) + 2/(x − 3) as a single fraction in its simplest form. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a common denominator (x + 2)(x − 3) <span class="mp">1</span></p>
+<p>M1 for the numerator 3(x − 3) + 2(x + 2) <span class="mp">1</span></p>
+<p>A1 for <strong>(5x − 5)/((x + 2)(x − 3))</strong> oe, e.g. 5(x − 1)/(x<sup>2</sup> − x − 6) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>Express 1/(4x<sup>2</sup> − 9) − 1/(4x + 6) as a single fraction in its simplest form. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 (indep) for (2x − 3)(2x + 3) <span class="mp">1</span></p>
+<p>M1 for two correct fractions with a common denominator: 2/(2(2x − 3)(2x + 3)) − (2x − 3)/(2(2x − 3)(2x + 3)) <span class="mp">1</span></p>
+<p>A1 for <strong>(5 − 2x)/(2(2x − 3)(2x + 3))</strong> oe <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>Simplify fully (x<sup>2</sup> + 5x)/(x<sup>2</sup> − 4) ÷ (x<sup>2</sup> + 2x − 15)/(x<sup>2</sup> − x − 6) <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for turning the second fraction upside down and multiplying <span class="mp">1</span></p>
+<p>M1 for correctly factorising at least two of x(x + 5), (x − 2)(x + 2), (x + 5)(x − 3), (x − 3)(x + 2) <span class="mp">1</span></p>
+<p>M1 for all four correct <span class="mp">1</span></p>
+<p>A1 for <strong>x/(x − 2)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>Make r the subject of V = 4πr<sup>3</sup>/3 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for r<sup>3</sup> = 3V/(4π) <span class="mp">1</span></p>
+<p>A1 for <strong>r = ∛(3V/(4π))</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Make L the subject of T = 2π√(L/g) <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for T/(2π) = √(L/g) <span class="mp">1</span></p>
+<p>M1 for squaring: T<sup>2</sup>/(4π<sup>2</sup>) = L/g <span class="mp">1</span></p>
+<p>A1 for <strong>L = gT<sup>2</sup>/(4π<sup>2</sup>)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>Make a the subject of 2a − 7 = (5 + a)/k <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for clearing the fraction: k(2a − 7) = 5 + a <span class="mp">1</span></p>
+<p>M1 for expanding and collecting the a terms on one side: 2ak − a = 5 + 7k <span class="mp">1</span></p>
+<p>M1 for factorising: a(2k − 1) = 5 + 7k <span class="mp">1</span></p>
+<p>A1 for <strong>a = (5 + 7k)/(2k − 1)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>Make y the subject of x = √((y + 2)/(y − 1)) <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for squaring both sides: x<sup>2</sup> = (y + 2)/(y − 1) <span class="mp">1</span></p>
+<p>M1 for x<sup>2</sup>(y − 1) = y + 2, i.e. x<sup>2</sup>y − x<sup>2</sup> = y + 2 <span class="mp">1</span></p>
+<p>M1 for collecting and factorising: y(x<sup>2</sup> − 1) = x<sup>2</sup> + 2 <span class="mp">1</span></p>
+<p>A1 for <strong>y = (x<sup>2</sup> + 2)/(x<sup>2</sup> − 1)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>Prove algebraically that the difference between the squares of any two consecutive odd numbers is a multiple of 8. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for representing consecutive odd numbers, e.g. 2n + 1 and 2n + 3 <span class="mp">1</span></p>
+<p>M1 for expanding (2n + 3)<sup>2</sup> − (2n + 1)<sup>2</sup> = 4n<sup>2</sup> + 12n + 9 − (4n<sup>2</sup> + 4n + 1) <span class="mp">1</span></p>
+<p>A1 for 8n + 8 <span class="mp">1</span></p>
+<p>A1 for 8(n + 1), with a statement that this is a multiple of 8 because n + 1 is an integer <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 4 · Algebraic Manipulation · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

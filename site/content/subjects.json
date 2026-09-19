@@ -12,14 +12,16 @@
    "plannedModules": 14,
    "moduleGroups": [
     {
-     "title": "Resit topics",
+     "title": "Year 10",
      "from": 1,
-     "to": 9
+     "to": 9,
+     "note": "The topics on the Year 10 exam and the September resit."
     },
     {
-     "title": "Year 11 — rest of the spec",
+     "title": "Year 11",
      "from": 10,
-     "to": 14
+     "to": 14,
+     "note": "The rest of the 4PH1 specification — new for Year 11, not on the Year 10 exam."
     }
    ],
    "officialPapers": {
@@ -208,12 +210,14 @@
     {
      "title": "Year 10",
      "from": 1,
-     "to": 10
+     "to": 10,
+     "note": "The topics on the Year 10 end-of-year exam."
     },
     {
      "title": "Year 11",
      "from": 11,
-     "to": 17
+     "to": 17,
+     "note": "The rest of the 4CH1 specification — new for Year 11, not on the Year 10 exam."
     }
    ],
    "officialPapers": {
@@ -594,6 +598,22 @@
    "moduleCount": 18,
    "mcqCount": 720,
    "paperCount": 15
+  },
+  {
+   "id": "maths",
+   "title": "Maths",
+   "code": "4MA1",
+   "board": "Edexcel IGCSE Mathematics A 4MA1 (Higher)",
+   "tagline": null,
+   "standfirst": "GCSE summer 2027 — Higher tier, two calculator papers",
+   "examDate": null,
+   "completePack": null,
+   "plannedModules": 14,
+   "moduleGroups": null,
+   "officialPapers": null,
+   "moduleCount": 14,
+   "mcqCount": 560,
+   "paperCount": 21
   }
  ]
 }

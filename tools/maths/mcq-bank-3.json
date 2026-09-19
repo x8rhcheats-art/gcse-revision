@@ -1,0 +1,851 @@
+{
+  "comment": "Maths MCQ bank, modules 09-11 (4MA1 Higher): angles, polygons and circle theorems; mensuration and similarity; Pythagoras and trigonometry. Authored from the module content, the 2018 May 1H/2H papers, the 2016 SAMs and the old-spec January papers, with numbers changed. answer = index into options. Distractors are the classic errors (360 ÷ n for the interior angle, forgetting the ⅓ or the two radii, area ratio used for volume, 9 h 45 min = 9.45 h, multiplying instead of dividing by cos, sin⁻¹ missing the obtuse angle). Every numerical answer is checked by a script.",
+  "modules": {
+    "09-angles-polygons-circle-theorems": [
+      {
+        "id": "M1",
+        "q": "Two angles lie on a straight line. One of them is 127°. What is the other?",
+        "options": ["53°", "63°", "233°", "127°"],
+        "answer": 0,
+        "explain": "Angles on a straight line add up to 180°: 180 − 127 = 53°. 233° comes from using 360°, which is for angles at a point."
+      },
+      {
+        "id": "M2",
+        "q": "PQ is parallel to RS. A straight line crossing both makes an angle of 74° with PQ. What is the alternate angle at RS?",
+        "options": ["106°", "74°", "16°", "286°"],
+        "answer": 1,
+        "explain": "Alternate angles are equal, so it is 74°. 106° is the co-interior angle (180 − 74), which is a different pair."
+      },
+      {
+        "id": "M3",
+        "q": "What is true of co-interior (allied) angles between parallel lines?",
+        "options": ["They are equal", "They add up to 90°", "They add up to 180°", "They add up to 360°"],
+        "answer": 2,
+        "explain": "Co-interior angles (the C or U shape) add up to 180°. Alternate and corresponding angles are the pairs that are equal."
+      },
+      {
+        "id": "M4",
+        "q": "Which reason would an examiner accept for two angles in a Z shape between parallel lines?",
+        "options": ["Z angles are equal", "Corresponding angles are equal", "Parallel angles are equal", "Alternate angles are equal"],
+        "answer": 3,
+        "explain": "The accepted wording is \"alternate angles are equal\". The letter shapes are memory aids only, and corresponding angles are the F shape."
+      },
+      {
+        "id": "M5",
+        "q": "The two interior opposite angles of a triangle are 48° and 67°. What is the exterior angle at the third vertex?",
+        "options": ["65°", "245°", "115°", "19°"],
+        "answer": 2,
+        "explain": "The exterior angle of a triangle equals the sum of the two interior opposite angles: 48 + 67 = 115°. 65° is the interior angle at that vertex."
+      },
+      {
+        "id": "M6",
+        "q": "An isosceles triangle has an apex angle of 40°. What is each base angle?",
+        "options": ["70°", "40°", "140°", "50°"],
+        "answer": 0,
+        "explain": "The base angles are equal and the three angles add up to 180°: (180 − 40) ÷ 2 = 70°."
+      },
+      {
+        "id": "M7",
+        "q": "A quadrilateral has angles 95°, 110°, 70° and x°. What is x?",
+        "options": ["95", "265", "5", "85"],
+        "answer": 3,
+        "explain": "Angles in a quadrilateral add up to 360°: 360 − (95 + 110 + 70) = 360 − 275 = 85. 5 comes from using 180° as the total."
+      },
+      {
+        "id": "M8",
+        "q": "What is the sum of the interior angles of an octagon?",
+        "options": ["1440°", "1080°", "1260°", "360°"],
+        "answer": 1,
+        "explain": "(n − 2) × 180 = 6 × 180 = 1080°. 1440° is 8 × 180, forgetting the − 2, and 360° is the sum of the exterior angles."
+      },
+      {
+        "id": "M9",
+        "q": "What is each exterior angle of a regular 12-sided polygon?",
+        "options": ["150°", "30°", "15°", "1800°"],
+        "answer": 1,
+        "explain": "Exterior angles add up to 360°, so each is 360 ÷ 12 = 30°. 150° is the interior angle (180 − 30)."
+      },
+      {
+        "id": "M10",
+        "q": "What is each interior angle of a regular hexagon?",
+        "options": ["60°", "720°", "108°", "120°"],
+        "answer": 3,
+        "explain": "Exterior angle = 360 ÷ 6 = 60°, so interior = 180 − 60 = 120°. 720° is the total of all six, and 108° is a pentagon's angle."
+      },
+      {
+        "id": "M11",
+        "q": "Each exterior angle of a regular polygon is 24°. How many sides does it have?",
+        "options": ["15", "7.5", "24", "13"],
+        "answer": 0,
+        "explain": "n = 360 ÷ exterior angle = 360 ÷ 24 = 15."
+      },
+      {
+        "id": "M12",
+        "q": "Each interior angle of a regular polygon is 162°. How many sides does it have?",
+        "options": ["18", "10", "20", "2.2"],
+        "answer": 2,
+        "explain": "Go through the exterior angle: 180 − 162 = 18°, so n = 360 ÷ 18 = 20. Dividing 360 by the interior angle (2.2) is the classic error."
+      },
+      {
+        "id": "M13",
+        "q": "A hexagon has angles 100°, 130°, 125°, 140°, y° and y°. What is y?",
+        "options": ["225", "22.5", "62.5", "112.5"],
+        "answer": 3,
+        "explain": "Hexagon sum = (6 − 2) × 180 = 720°. 720 − 495 = 225, and there are two y's, so y = 112.5. 22.5 comes from using the pentagon total 540°."
+      },
+      {
+        "id": "M14",
+        "q": "The interior angle of a regular polygon with n sides is 140°. What is the interior angle of a regular polygon with 2n sides?",
+        "options": ["70°", "280°", "160°", "150°"],
+        "answer": 2,
+        "explain": "Exterior 40°, so n = 9 and 2n = 18. Exterior angle of the 18-gon = 360 ÷ 18 = 20°, so interior = 160°. Doubling the sides does not double or halve the angle."
+      },
+      {
+        "id": "M15",
+        "q": "The bearing of B from A is 070°. What is the bearing of A from B?",
+        "options": ["110°", "250°", "290°", "070°"],
+        "answer": 1,
+        "explain": "A back bearing differs by 180°: 070 + 180 = 250°. 110° is 180 − 70, which is not a bearing rule."
+      },
+      {
+        "id": "M16",
+        "q": "The bearing of Q from P is 305°. What is the bearing of P from Q?",
+        "options": ["125°", "485°", "055°", "235°"],
+        "answer": 0,
+        "explain": "305 + 180 goes past 360, so subtract instead: 305 − 180 = 125°. (485 − 360 = 125 too.)"
+      },
+      {
+        "id": "M17",
+        "q": "Which of these is written correctly as a three-figure bearing?",
+        "options": ["045°", "45°", "N45°E", "45° clockwise"],
+        "answer": 0,
+        "explain": "Bearings are measured clockwise from north and written with three figures, so 45° is written 045°."
+      },
+      {
+        "id": "M18",
+        "q": "What is the first step in constructing the bisector of angle ABC with ruler and compasses?",
+        "options": ["Measure the angle with a protractor and halve it", "With the compass point on B, draw an arc crossing both arms BA and BC", "Draw arcs of different radii from A and from C", "Join B to the midpoint of AC"],
+        "answer": 1,
+        "explain": "The SAM 1H scheme's M1 was for a circular arc, centre B, crossing both lines. A protractor is not a construction, and B to the midpoint of AC only bisects the angle if AB = BC."
+      },
+      {
+        "id": "M19",
+        "q": "To construct the perpendicular bisector of AB, the compasses must be opened to",
+        "options": ["exactly half of AB", "less than half of AB", "more than half of AB", "any width, changed between arcs"],
+        "answer": 2,
+        "explain": "The arcs from A and B must cross, so the radius must be more than half of AB, and the same radius is used from both ends."
+      },
+      {
+        "id": "M20",
+        "q": "What does \"congruent\" mean?",
+        "options": ["The same shape, any size", "The same area", "The same perimeter", "Exactly the same shape and size"],
+        "answer": 3,
+        "explain": "Congruent shapes are identical in shape and size. The same shape at a different size is similar."
+      },
+      {
+        "id": "M21",
+        "q": "Which of these does NOT prove that two triangles are congruent?",
+        "options": ["SSS", "RHS", "AAA", "SAS"],
+        "answer": 2,
+        "explain": "Three equal angles fix the shape but not the size, so AAA only proves the triangles are similar."
+      },
+      {
+        "id": "M22",
+        "q": "What is the angle between a tangent and the radius at the point of contact?",
+        "options": ["90°", "180°", "45°", "It equals the angle at the centre"],
+        "answer": 0,
+        "explain": "The angle between a tangent and a radius is 90°. Write it with both words, tangent and radius, for the reason mark."
+      },
+      {
+        "id": "M23",
+        "q": "PA and PB are tangents from P to a circle, centre O. Angle APB = 64°. What is angle AOB?",
+        "options": ["64°", "128°", "296°", "116°"],
+        "answer": 3,
+        "explain": "Angles OAP and OBP are 90° (tangent and radius). The quadrilateral's angles add up to 360°: 360 − 90 − 90 − 64 = 116°."
+      },
+      {
+        "id": "M24",
+        "q": "A circle has radius 10 cm. A chord has length 16 cm. How far is the chord from the centre?",
+        "options": ["12.8 cm", "6 cm", "8 cm", "2 cm"],
+        "answer": 1,
+        "explain": "The perpendicular from the centre bisects the chord, so use half of it: √(10² − 8²) = √36 = 6 cm. 12.8 comes from adding the squares."
+      },
+      {
+        "id": "M25",
+        "q": "An angle at the circumference is 37°. What is the angle at the centre standing on the same arc?",
+        "options": ["18.5°", "37°", "143°", "74°"],
+        "answer": 3,
+        "explain": "The angle at the centre is twice the angle at the circumference: 2 × 37 = 74°."
+      },
+      {
+        "id": "M26",
+        "q": "Reflex angle AOB at the centre is 250°. C is on the minor arc AB. What is angle ACB?",
+        "options": ["55°", "125°", "250°", "110°"],
+        "answer": 1,
+        "explain": "With C on the minor arc, angle ACB stands on the major arc, whose angle at the centre is the reflex 250°. Half of it is 125°."
+      },
+      {
+        "id": "M27",
+        "q": "AB is a diameter of a circle and C is on the circle. Angle CAB = 34°. What is angle CBA?",
+        "options": ["56°", "34°", "146°", "68°"],
+        "answer": 0,
+        "explain": "The angle in a semicircle is 90°, so angle ACB = 90° and angle CBA = 180 − 90 − 34 = 56°."
+      },
+      {
+        "id": "M28",
+        "q": "A, B, C and D are on a circle, with C and D on the same side of chord AB. Angle ACB = 48°. What is angle ADB?",
+        "options": ["132°", "96°", "48°", "24°"],
+        "answer": 2,
+        "explain": "Angles in the same segment are equal, so ADB = 48°. 132° would be right only if D were on the other side of AB (cyclic quadrilateral)."
+      },
+      {
+        "id": "M29",
+        "q": "One angle of a cyclic quadrilateral is 112°. What is the opposite angle?",
+        "options": ["112°", "248°", "56°", "68°"],
+        "answer": 3,
+        "explain": "Opposite angles of a cyclic quadrilateral add up to 180°: 180 − 112 = 68°. Equal opposite angles is a parallelogram property."
+      },
+      {
+        "id": "M30",
+        "q": "Which statement about a cyclic quadrilateral is correct?",
+        "options": ["Opposite angles are equal", "Adjacent angles add up to 180°", "Opposite angles add up to 180°", "All four angles add up to 180°"],
+        "answer": 2,
+        "explain": "Opposite angles of a cyclic quadrilateral add up to 180°. All four add up to 360°, as in any quadrilateral."
+      },
+      {
+        "id": "M31",
+        "q": "A tangent touches a circle at A. The angle between the tangent and the chord AB is 58°. C is on the circle in the alternate segment. What is angle ACB?",
+        "options": ["32°", "58°", "122°", "116°"],
+        "answer": 1,
+        "explain": "Alternate segment theorem: the angle between a tangent and a chord equals the angle in the alternate segment, 58°. 32° is 90 − 58."
+      },
+      {
+        "id": "M32",
+        "q": "P and Q are on a circle, centre O. QT is the tangent at Q and angle PQT is acute. Angle OPQ = 22°. What is angle PQT?",
+        "options": ["68°", "22°", "44°", "112°"],
+        "answer": 0,
+        "explain": "OP = OQ (radii), so angle OQP = 22°. Angle OQT = 90° (tangent and radius), so PQT = 90 − 22 = 68°."
+      },
+      {
+        "id": "M33",
+        "q": "Chords AB and CD cross at P inside a circle. AP = 4 cm, PB = 9 cm and CP = 6 cm. What is PD?",
+        "options": ["6 cm", "11 cm", "2.67 cm", "13.5 cm"],
+        "answer": 0,
+        "explain": "Intersecting chords: AP × PB = CP × PD, so 36 = 6 × PD and PD = 6 cm. 13.5 puts the pieces in the wrong places (6 × 9 ÷ 4)."
+      },
+      {
+        "id": "M34",
+        "q": "From a point P outside a circle, one line cuts the circle at A and B with PA = 4 cm and PB = 12 cm. Another cuts it at C and D with PC = 3 cm. What is PD?",
+        "options": ["10.7 cm", "9 cm", "16 cm", "5 cm"],
+        "answer": 2,
+        "explain": "PA × PB = PC × PD, with both distances measured from P: 4 × 12 = 3 × PD, so PD = 16 cm. 10.7 comes from using the chord AB = 8 instead of PB."
+      },
+      {
+        "id": "M35",
+        "q": "Which reason scores the mark for doubling an angle at the circumference?",
+        "options": ["Angle at the centre theorem", "The angle at the centre is twice the angle at the circumference", "Angles in a circle add up to 360°", "The angle at the circumference is twice the angle at the centre"],
+        "answer": 1,
+        "explain": "The 2018 1H scheme underlined the key words: angle, centre, twice, circumference. A bare theorem name is not enough, and the last option has it backwards."
+      },
+      {
+        "id": "M36",
+        "q": "A line from the centre O passes through F to D on the circle, with FD = 3 cm. A chord through F has AF × FB = 36. What is the radius?",
+        "options": ["15 cm", "12 cm", "6 cm", "7.5 cm"],
+        "answer": 3,
+        "explain": "The line through O is a diameter. 36 = 3 × FG, so FG = 12 and the diameter is 12 + 3 = 15 cm. The radius is 7.5 cm. Giving 15 is the error the 2018 scheme marked M0A0."
+      },
+      {
+        "id": "M37",
+        "q": "Why is the angle in a semicircle 90°?",
+        "options": ["The triangle is isosceles", "Opposite angles of a cyclic quadrilateral add up to 180°", "The tangent meets the radius at 90°", "The angle at the centre is 180°, and the angle at the circumference is half of it"],
+        "answer": 3,
+        "explain": "A diameter makes a straight angle of 180° at the centre. The angle at the circumference is half the angle at the centre: 90°."
+      },
+      {
+        "id": "M38",
+        "q": "Two congruent regular pentagons and a regular polygon A fit together exactly at a point. How many sides does A have?",
+        "options": ["5", "10", "8", "12"],
+        "answer": 1,
+        "explain": "Each pentagon angle is 108°. 360 − 216 = 144° is A's interior angle, so its exterior angle is 36° and it has 360 ÷ 36 = 10 sides."
+      },
+      {
+        "id": "M39",
+        "q": "The interior angles of a polygon add up to 2340°. How many sides does it have?",
+        "options": ["13", "11", "15", "17"],
+        "answer": 2,
+        "explain": "(n − 2) × 180 = 2340, so n − 2 = 13 and n = 15. 13 forgets to add the 2 back."
+      },
+      {
+        "id": "M40",
+        "q": "A reflex angle is an angle",
+        "options": ["between 180° and 360°", "between 90° and 180°", "of more than 90°", "of exactly 180°"],
+        "answer": 0,
+        "explain": "Acute: less than 90°. Obtuse: between 90° and 180°. Reflex: between 180° and 360°."
+      }
+    ],
+    "10-mensuration-and-similarity": [
+      {
+        "id": "M1",
+        "q": "How many cm² are there in 1 m²?",
+        "options": ["10 000", "100", "1000", "1 000 000"],
+        "answer": 0,
+        "explain": "1 m = 100 cm, so 1 m² = 100 × 100 = 10 000 cm². Area conversions square the length factor."
+      },
+      {
+        "id": "M2",
+        "q": "How many litres are there in 2.5 m³?",
+        "options": ["25", "2500", "250", "2 500 000"],
+        "answer": 1,
+        "explain": "1 m³ = 1000 litres, so 2.5 m³ = 2500 litres. 2 500 000 is the number of cm³, not litres."
+      },
+      {
+        "id": "M3",
+        "q": "Convert 450 000 cm² to m².",
+        "options": ["4500 m²", "0.45 m²", "45 m²", "4.5 m²"],
+        "answer": 2,
+        "explain": "Divide by 10 000: 450 000 ÷ 10 000 = 45 m². Dividing by 100 (the length factor) gives 4500."
+      },
+      {
+        "id": "M4",
+        "q": "A triangle has base 12 cm and perpendicular height 7 cm. What is its area?",
+        "options": ["84 cm²", "19 cm²", "38 cm²", "42 cm²"],
+        "answer": 3,
+        "explain": "½ × 12 × 7 = 42 cm². 84 forgets the ½."
+      },
+      {
+        "id": "M5",
+        "q": "A trapezium has parallel sides 6 cm and 10 cm, 4 cm apart. What is its area?",
+        "options": ["64 cm²", "32 cm²", "20 cm²", "240 cm²"],
+        "answer": 1,
+        "explain": "½(a + b)h = ½ × (6 + 10) × 4 = 32 cm². 64 forgets the ½."
+      },
+      {
+        "id": "M6",
+        "q": "What is the circumference of a circle with diameter 10 cm?",
+        "options": ["31.4 cm", "78.5 cm", "62.8 cm", "314 cm"],
+        "answer": 0,
+        "explain": "C = πd = π × 10 = 31.4 cm. 78.5 is the area (π × 5²), and 62.8 uses 2π with the diameter."
+      },
+      {
+        "id": "M7",
+        "q": "What is the area of a circle with radius 6 cm?",
+        "options": ["37.7 cm²", "18.8 cm²", "452 cm²", "113 cm²"],
+        "answer": 3,
+        "explain": "A = πr² = π × 36 = 113 cm². 37.7 is 2πr, the circumference, and 452 squares the diameter."
+      },
+      {
+        "id": "M8",
+        "q": "What is the perimeter of a semicircle with diameter 8 cm?",
+        "options": ["12.6 cm", "20.6 cm", "25.1 cm", "16.6 cm"],
+        "answer": 1,
+        "explain": "Half the circumference plus the diameter: ½ × π × 8 + 8 = 4π + 8 = 20.6 cm. 12.6 leaves out the straight edge."
+      },
+      {
+        "id": "M9",
+        "q": "A sector has radius 6 cm and angle 60°. What is its arc length?",
+        "options": ["18.8 cm", "12.6 cm", "37.7 cm", "6.28 cm"],
+        "answer": 3,
+        "explain": "Arc = (60/360) × 2π × 6 = 2π = 6.28 cm. 18.8 (6π) uses πr², which gives the sector's area."
+      },
+      {
+        "id": "M10",
+        "q": "A sector has radius 10 cm and angle 72°. What is its area?",
+        "options": ["62.8 cm²", "314 cm²", "31.4 cm²", "12.6 cm²"],
+        "answer": 0,
+        "explain": "(72/360) × π × 100 = 20π = 62.8 cm². 12.6 is the arc length, and 314 is the whole circle."
+      },
+      {
+        "id": "M11",
+        "q": "A sector has radius 5 cm and angle 90°. What is its perimeter?",
+        "options": ["17.9 cm", "7.85 cm", "12.9 cm", "19.6 cm"],
+        "answer": 0,
+        "explain": "Arc = ¼ × 2π × 5 = 7.85 cm. Perimeter = arc + two radii = 7.85 + 10 = 17.9 cm. 7.85 leaves out both radii."
+      },
+      {
+        "id": "M12",
+        "q": "A sector has angle 30° and area 12π cm². What is its radius?",
+        "options": ["144 cm", "6 cm", "12 cm", "3.46 cm"],
+        "answer": 2,
+        "explain": "(30/360) × πr² = 12π, so r² = 12 × 12 = 144 and r = 12 cm. 144 forgets the square root."
+      },
+      {
+        "id": "M13",
+        "q": "A prism has cross-sectional area 24 cm² and length 15 cm. What is its volume?",
+        "options": ["360 cm³", "180 cm³", "720 cm³", "39 cm³"],
+        "answer": 0,
+        "explain": "Volume = area of cross-section × length = 24 × 15 = 360 cm³. 180 wrongly halves, as if it were a triangle formula."
+      },
+      {
+        "id": "M14",
+        "q": "What is the volume of a cylinder with radius 3 cm and height 10 cm?",
+        "options": ["94.2 cm³", "283 cm³", "188 cm³", "848 cm³"],
+        "answer": 1,
+        "explain": "V = πr²h = π × 9 × 10 = 90π = 283 cm³. 188 is 2πrh, the curved surface area."
+      },
+      {
+        "id": "M15",
+        "q": "What is the curved surface area of a cylinder with radius 4 cm and height 5 cm?",
+        "options": ["251 cm²", "50.3 cm²", "126 cm²", "226 cm²"],
+        "answer": 2,
+        "explain": "Curved surface = 2πrh = 2π × 4 × 5 = 40π = 126 cm². 226 adds the two ends (the total surface area), which is not what was asked."
+      },
+      {
+        "id": "M16",
+        "q": "What is the volume of a cone with base radius 3 cm and vertical height 4 cm?",
+        "options": ["37.7 cm³", "113 cm³", "47.1 cm³", "12.6 cm³"],
+        "answer": 0,
+        "explain": "V = ⅓πr²h = ⅓ × π × 9 × 4 = 12π = 37.7 cm³. 113 forgets the ⅓, and 47.1 uses the slant height 5."
+      },
+      {
+        "id": "M17",
+        "q": "A cone has base radius 6 cm and vertical height 8 cm. What is its slant height?",
+        "options": ["14 cm", "5.29 cm", "100 cm", "10 cm"],
+        "answer": 3,
+        "explain": "l² = r² + h² = 36 + 64 = 100, so l = 10 cm. The slant height is the hypotenuse, so the squares are added."
+      },
+      {
+        "id": "M18",
+        "q": "A cone has base radius 5 cm and slant height 13 cm. What is its curved surface area?",
+        "options": ["283 cm²", "408 cm²", "204 cm²", "314 cm²"],
+        "answer": 2,
+        "explain": "πrl = π × 5 × 13 = 65π = 204 cm². 283 (90π) adds the base, which makes it the total surface area."
+      },
+      {
+        "id": "M19",
+        "q": "What is the volume of a sphere with radius 3 cm?",
+        "options": ["339 cm³", "37.7 cm³", "28.3 cm³", "113 cm³"],
+        "answer": 3,
+        "explain": "V = (4/3)πr³ = (4/3) × π × 27 = 36π = 113 cm³. 339 forgets the ÷ 3."
+      },
+      {
+        "id": "M20",
+        "q": "What is the surface area of a sphere with radius 5 cm?",
+        "options": ["314 cm²", "524 cm²", "157 cm²", "78.5 cm²"],
+        "answer": 0,
+        "explain": "4πr² = 4 × π × 25 = 100π = 314 cm². 524 is the volume, and 78.5 is only one circle, πr²."
+      },
+      {
+        "id": "M21",
+        "q": "What is the total surface area of a solid hemisphere of radius r?",
+        "options": ["2πr²", "3πr²", "4πr²", "(2/3)πr³"],
+        "answer": 1,
+        "explain": "Curved part: half of 4πr² = 2πr². Flat circular face: πr². Total 3πr². 2πr² is only right for a hollow bowl."
+      },
+      {
+        "id": "M22",
+        "q": "A pyramid has a square base of side 9 cm and a vertical height of 10 cm. What is its volume?",
+        "options": ["810 cm³", "270 cm³", "30 cm³", "405 cm³"],
+        "answer": 1,
+        "explain": "⅓ × base area × height = ⅓ × 81 × 10 = 270 cm³. 810 forgets the ⅓. The pyramid formula is not on the formula sheet."
+      },
+      {
+        "id": "M23",
+        "q": "A large cone has volume 240 cm³. A similar small cone with half its height is cut off the top. What is the volume of the frustum left?",
+        "options": ["120 cm³", "180 cm³", "210 cm³", "30 cm³"],
+        "answer": 2,
+        "explain": "Length factor ½, so the small cone is (½)³ = ⅛ of 240 = 30 cm³. Frustum = 240 − 30 = 210 cm³. 120 halves the volume as if it scaled like length."
+      },
+      {
+        "id": "M24",
+        "q": "A cylinder has radius 2 cm and height 5 cm. What is its volume, in terms of π?",
+        "options": ["62.8 cm³", "10π cm³", "40π cm³", "20π cm³"],
+        "answer": 3,
+        "explain": "πr²h = π × 4 × 5 = 20π cm³. 62.8 is the same value evaluated, which is not \"in terms of π\"."
+      },
+      {
+        "id": "M25",
+        "q": "Two triangles are similar. A side of 4 cm in the small triangle corresponds to 10 cm in the large one. Another side of the small triangle is 6 cm. What is the corresponding side in the large triangle?",
+        "options": ["12 cm", "15 cm", "2.4 cm", "9 cm"],
+        "answer": 1,
+        "explain": "Scale factor 10 ÷ 4 = 2.5, so 6 × 2.5 = 15 cm. 12 adds 6 (the difference 10 − 4) instead of multiplying."
+      },
+      {
+        "id": "M26",
+        "q": "In triangle ABC, DE is parallel to BC, with D on AB. AD = 3 cm, DB = 6 cm and DE = 4 cm. What is BC?",
+        "options": ["8 cm", "10 cm", "7 cm", "12 cm"],
+        "answer": 3,
+        "explain": "Triangles ADE and ABC are similar. AB = 3 + 6 = 9, so the scale factor is 9 ÷ 3 = 3 and BC = 12 cm. 8 uses DB instead of the whole side AB."
+      },
+      {
+        "id": "M27",
+        "q": "A shape is enlarged with length scale factor 3. By what factor is its area multiplied?",
+        "options": ["9", "3", "6", "27"],
+        "answer": 0,
+        "explain": "Area scale factor = k² = 3² = 9. 27 is the volume factor, k³."
+      },
+      {
+        "id": "M28",
+        "q": "Two similar shapes have corresponding lengths in the ratio 2 : 5. The smaller has area 12 cm². What is the area of the larger?",
+        "options": ["30 cm²", "75 cm²", "187.5 cm²", "60 cm²"],
+        "answer": 1,
+        "explain": "Area factor (5/2)² = 6.25, so 12 × 6.25 = 75 cm². 30 uses the length factor, and 187.5 the volume factor."
+      },
+      {
+        "id": "M29",
+        "q": "Two similar solids have volumes in the ratio 8 : 27. What is the ratio of their corresponding lengths?",
+        "options": ["4 : 9", "64 : 729", "2 : 3", "8 : 27"],
+        "answer": 2,
+        "explain": "Length ratio = cube root of the volume ratio: ∛8 : ∛27 = 2 : 3. 4 : 9 would be the area ratio."
+      },
+      {
+        "id": "M30",
+        "q": "Two similar solids have surface areas 45 cm² and 80 cm². What is the ratio of their corresponding lengths?",
+        "options": ["9 : 16", "27 : 64", "3 : 4", "81 : 256"],
+        "answer": 2,
+        "explain": "45 : 80 = 9 : 16 is the area ratio. Square root it: 3 : 4. Then cube it (27 : 64) if you need volumes."
+      },
+      {
+        "id": "M31",
+        "q": "Similar solids A and B have surface areas 36 cm² and 81 cm². A has volume 40 cm³. What is the volume of B?",
+        "options": ["90 cm³", "60 cm³", "135 cm³", "202.5 cm³"],
+        "answer": 2,
+        "explain": "Length factor √(81/36) = 3/2, volume factor (3/2)³ = 27/8, so 40 × 27/8 = 135 cm³. 90 multiplies by the area ratio 81/36."
+      },
+      {
+        "id": "M32",
+        "q": "A frustum is made by cutting a similar small cone off a large cone of height h. Volume of frustum ÷ volume of large cone = 7/8. What is the height of the frustum?",
+        "options": ["h/2", "7h/8", "h/8", "h/4"],
+        "answer": 0,
+        "explain": "Small cone = 1 − 7/8 = 1/8 of the large one. Length factor ∛(1/8) = ½, so the small cone has height h/2 and the frustum h − h/2 = h/2."
+      },
+      {
+        "id": "M33",
+        "q": "A car travels 180 km in 2 hours 15 minutes. What is its average speed?",
+        "options": ["83.7 km/h", "90 km/h", "405 km/h", "80 km/h"],
+        "answer": 3,
+        "explain": "15 minutes = 0.25 h, so the time is 2.25 h: 180 ÷ 2.25 = 80 km/h. 83.7 comes from writing 2 h 15 min as 2.15 h."
+      },
+      {
+        "id": "M34",
+        "q": "Convert 90 km/h to metres per second.",
+        "options": ["324 m/s", "25 m/s", "1.5 m/s", "90 000 m/s"],
+        "answer": 1,
+        "explain": "90 km/h = 90 000 m per 3600 s = 25 m/s. Quick rule: divide km/h by 3.6. 324 multiplies instead."
+      },
+      {
+        "id": "M35",
+        "q": "A metal block has mass 540 g and volume 200 cm³. What is its density?",
+        "options": ["108 000 g/cm³", "0.37 g/cm³", "2.7 g/cm³", "340 g/cm³"],
+        "answer": 2,
+        "explain": "Density = mass ÷ volume = 540 ÷ 200 = 2.7 g/cm³. The units, g per cm³, tell you which way to divide."
+      },
+      {
+        "id": "M36",
+        "q": "Steel has density 7.8 g/cm³. What is the mass of 50 cm³ of steel?",
+        "options": ["6.41 g", "0.156 g", "57.8 g", "390 g"],
+        "answer": 3,
+        "explain": "Mass = density × volume = 7.8 × 50 = 390 g."
+      },
+      {
+        "id": "M37",
+        "q": "pressure = force ÷ area. A force of 360 N acts on an area of 1.5 m². What is the pressure?",
+        "options": ["540 N/m²", "0.00417 N/m²", "358.5 N/m²", "240 N/m²"],
+        "answer": 3,
+        "explain": "360 ÷ 1.5 = 240 N/m². 540 multiplies instead of dividing."
+      },
+      {
+        "id": "M38",
+        "q": "How long does it take to travel 150 km at 60 km/h?",
+        "options": ["2 hours 50 minutes", "2 hours 30 minutes", "2 hours 5 minutes", "9000 hours"],
+        "answer": 1,
+        "explain": "Time = distance ÷ speed = 150 ÷ 60 = 2.5 hours = 2 hours 30 minutes. 0.5 of an hour is 30 minutes, not 50."
+      },
+      {
+        "id": "M39",
+        "q": "A shape is a right-angled triangle with shorter sides 6 cm and 8 cm, plus a semicircle drawn outwards on the hypotenuse. What is its total area?",
+        "options": ["102.5 cm²", "49.1 cm²", "63.3 cm²", "39.3 cm²"],
+        "answer": 2,
+        "explain": "Hypotenuse √(36 + 64) = 10, so the semicircle has radius 5: ½ × π × 25 = 39.27. Triangle ½ × 6 × 8 = 24. Total 63.3 cm². 102.5 uses a full circle."
+      },
+      {
+        "id": "M40",
+        "q": "How many cm³ are there in 1 m³, and why?",
+        "options": ["1 000 000, because 100 × 100 × 100", "100, because 1 m = 100 cm", "10 000, because 100 × 100", "1000, because 1 litre = 1000 cm³"],
+        "answer": 0,
+        "explain": "A 1 m cube is 100 cm by 100 cm by 100 cm, so its volume is 1 000 000 cm³. The length factor is applied once for each dimension."
+      }
+    ],
+    "11-pythagoras-and-trigonometry": [
+      {
+        "id": "M1",
+        "q": "A right-angled triangle has shorter sides 5 cm and 12 cm. How long is the hypotenuse?",
+        "options": ["13 cm", "17 cm", "10.9 cm", "169 cm"],
+        "answer": 0,
+        "explain": "c = √(5² + 12²) = √169 = 13 cm. 17 adds the sides without squaring, and 169 forgets the square root."
+      },
+      {
+        "id": "M2",
+        "q": "A right-angled triangle has hypotenuse 10 cm and one side 6 cm. How long is the third side?",
+        "options": ["11.7 cm", "8 cm", "4 cm", "64 cm"],
+        "answer": 1,
+        "explain": "For a shorter side, subtract: √(10² − 6²) = √64 = 8 cm. 11.7 adds the squares, which would make it longer than the hypotenuse."
+      },
+      {
+        "id": "M3",
+        "q": "The shorter sides of a right-angled triangle are 2.4 m and 7 m. How long is the hypotenuse?",
+        "options": ["7.4 m", "6.58 m", "9.4 m", "54.76 m"],
+        "answer": 0,
+        "explain": "√(2.4² + 7²) = √(5.76 + 49) = √54.76 = 7.4 m. 9.4 adds the lengths, and 6.58 subtracts the squares."
+      },
+      {
+        "id": "M4",
+        "q": "In a right-angled triangle, which side is the hypotenuse?",
+        "options": ["The side next to the angle you are using", "The side opposite the angle you are using", "The shortest side", "The side opposite the right angle"],
+        "answer": 3,
+        "explain": "The hypotenuse is opposite the right angle, and it is always the longest side. Opposite and adjacent depend on the angle you are using; the hypotenuse does not."
+      },
+      {
+        "id": "M5",
+        "q": "In a right-angled triangle you know the side adjacent to angle θ and want the hypotenuse. Which ratio do you use?",
+        "options": ["sin θ", "tan θ", "cos θ", "Pythagoras"],
+        "answer": 2,
+        "explain": "Adjacent and hypotenuse: CAH, so cos θ = A/H. Pythagoras needs two sides, not a side and an angle."
+      },
+      {
+        "id": "M6",
+        "q": "A right-angled triangle has hypotenuse 20 cm and an angle of 35°. How long is the side opposite the 35° angle?",
+        "options": ["11.5 cm", "16.4 cm", "14.0 cm", "34.9 cm"],
+        "answer": 0,
+        "explain": "sin 35 = O/20, so O = 20 × sin 35 = 11.5 cm. 16.4 uses cos, which gives the adjacent side."
+      },
+      {
+        "id": "M7",
+        "q": "cos 52° = 12/x. What is x?",
+        "options": ["19.5", "15.2", "9.38", "7.39"],
+        "answer": 0,
+        "explain": "The unknown is on the bottom, so x = 12 ÷ cos 52 = 19.5. 7.39 multiplies by cos 52 instead."
+      },
+      {
+        "id": "M8",
+        "q": "In a right-angled triangle, the side opposite θ is 7 cm and the side adjacent to θ is 4 cm. What is θ?",
+        "options": ["29.7°", "60.3°", "1.05°", "55.2°"],
+        "answer": 1,
+        "explain": "tan θ = 7/4, so θ = tan⁻¹(1.75) = 60.3°. 29.7° swaps opposite and adjacent, and 1.05 is what a calculator in radians gives."
+      },
+      {
+        "id": "M9",
+        "q": "An angle of elevation is measured from",
+        "options": ["the vertical", "north", "the horizontal", "the top of the object"],
+        "answer": 2,
+        "explain": "Elevation (up) and depression (down) are both measured from the horizontal."
+      },
+      {
+        "id": "M10",
+        "q": "A point on level ground is 50 m from the foot of a tower. The angle of elevation of the top is 28°. How tall is the tower?",
+        "options": ["26.6 m", "44.1 m", "94.0 m", "23.5 m"],
+        "answer": 0,
+        "explain": "tan 28 = h/50, so h = 50 × tan 28 = 26.6 m. The height is opposite the angle and the 50 m is adjacent: TOA."
+      },
+      {
+        "id": "M11",
+        "q": "From the top of a 40 m cliff, the angle of depression of a boat is 15°. How far is the boat from the foot of the cliff?",
+        "options": ["10.7 m", "155 m", "149 m", "41.4 m"],
+        "answer": 2,
+        "explain": "The angle of elevation from the boat is also 15° (alternate angles). tan 15 = 40/d, so d = 40 ÷ tan 15 = 149 m. 10.7 multiplies by tan 15."
+      },
+      {
+        "id": "M12",
+        "q": "B is 20 km east and 20 km north of A. What is the bearing of B from A?",
+        "options": ["45°", "135°", "315°", "045°"],
+        "answer": 3,
+        "explain": "tan θ = 20/20 = 1, so θ = 45° from north, clockwise. Bearings are written with three figures: 045°."
+      },
+      {
+        "id": "M13",
+        "q": "B is 12 km east and 5 km south of A. What is the bearing of B from A, to the nearest degree?",
+        "options": ["067°", "113°", "023°", "293°"],
+        "answer": 1,
+        "explain": "B is south of east. The angle below the east line is tan⁻¹(5/12) = 22.6°, so the bearing is 090 + 22.6 = 113°. 067° measures the angle the wrong way from east."
+      },
+      {
+        "id": "M14",
+        "q": "Which of these is equal to sin 150°?",
+        "options": ["−sin 30°", "cos 30°", "sin 30°", "−0.5"],
+        "answer": 2,
+        "explain": "sin(180° − x) = sin x, so sin 150° = sin 30° = 0.5. Sines of obtuse angles are positive."
+      },
+      {
+        "id": "M15",
+        "q": "What is cos 120°?",
+        "options": ["−0.5", "0.5", "−0.866", "0.866"],
+        "answer": 0,
+        "explain": "cos(180° − x) = −cos x, so cos 120° = −cos 60° = −0.5. Cosines of obtuse angles are negative."
+      },
+      {
+        "id": "M16",
+        "q": "Which angles between 0° and 180° have sin x = 0.6?",
+        "options": ["36.9° only", "36.9° and 143.1°", "53.1° and 126.9°", "36.9° and 323.1°"],
+        "answer": 1,
+        "explain": "sin⁻¹(0.6) = 36.9°, and sin(180 − 36.9) = sin 36.9, so 143.1° also works. This is why the sine rule can give two possible angles."
+      },
+      {
+        "id": "M17",
+        "q": "When can you use the sine rule?",
+        "options": ["When you know two sides and the angle between them", "When you know all three sides", "Only in right-angled triangles", "When you know a side and its opposite angle, plus one more side or angle"],
+        "answer": 3,
+        "explain": "The sine rule pairs each side with its opposite angle, so you need one complete pair. Two sides and the included angle, or three sides, need the cosine rule."
+      },
+      {
+        "id": "M18",
+        "q": "In triangle ABC, angle A = 35°, angle B = 80° and a = 10 cm. What is b?",
+        "options": ["5.82 cm", "17.2 cm", "5.65 cm", "22.9 cm"],
+        "answer": 1,
+        "explain": "b/sin 80 = 10/sin 35, so b = 10 × sin 80 ÷ sin 35 = 17.2 cm. 5.82 has the sines the wrong way up."
+      },
+      {
+        "id": "M19",
+        "q": "In triangle ABC, a = 9 cm, b = 7 cm and angle B = 40°. Angle A is acute. What is angle A?",
+        "options": ["30.0°", "124.3°", "55.7°", "0.826°"],
+        "answer": 2,
+        "explain": "sin A = 9 × sin 40 ÷ 7 = 0.826, so A = 55.7°. 124.3° is the obtuse alternative, ruled out because A is acute. 0.826 is the sine, not the angle."
+      },
+      {
+        "id": "M20",
+        "q": "In triangle ABC, b = 5 cm, c = 8 cm and angle A = 60°. What is a?",
+        "options": ["9.43 cm", "3 cm", "49 cm", "7 cm"],
+        "answer": 3,
+        "explain": "a² = 25 + 64 − 2 × 5 × 8 × cos 60 = 89 − 40 = 49, so a = 7 cm. 9.43 forgets the − 2bc cos A term, and 49 forgets the square root."
+      },
+      {
+        "id": "M21",
+        "q": "A triangle has sides 3 cm, 5 cm and 7 cm. What is its largest angle?",
+        "options": ["60°", "38.2°", "120°", "21.8°"],
+        "answer": 2,
+        "explain": "Largest angle is opposite 7: cos θ = (9 + 25 − 49) ÷ 30 = −0.5, so θ = 120°. The negative cosine means obtuse."
+      },
+      {
+        "id": "M22",
+        "q": "In cos A = (b² + c² − a²) ÷ 2bc, which side is a?",
+        "options": ["The longest side", "The side opposite angle A", "A side next to angle A", "The shortest side"],
+        "answer": 1,
+        "explain": "a is always the side opposite the angle you are finding, and it is the one subtracted. It is only the longest side if A is the largest angle."
+      },
+      {
+        "id": "M23",
+        "q": "A triangle has sides 8 cm and 11 cm with an angle of 30° between them. What is its area?",
+        "options": ["44 cm²", "38.1 cm²", "88 cm²", "22 cm²"],
+        "answer": 3,
+        "explain": "½ab sin C = ½ × 8 × 11 × sin 30 = 22 cm². 44 forgets the ½, and 38.1 uses cos."
+      },
+      {
+        "id": "M24",
+        "q": "A triangle has sides 10 cm and 12 cm and area 30 cm². The angle between those sides is acute. What is it?",
+        "options": ["60°", "14.5°", "30°", "150°"],
+        "answer": 2,
+        "explain": "½ × 10 × 12 × sin C = 30, so sin C = 0.5 and C = 30°. 150° has the same sine, but the question says acute."
+      },
+      {
+        "id": "M25",
+        "q": "You know two sides of a triangle and the angle between them. Which rule finds the third side?",
+        "options": ["The cosine rule", "The sine rule", "SOHCAHTOA", "½ab sin C"],
+        "answer": 0,
+        "explain": "Two sides and the included angle: cosine rule, a² = b² + c² − 2bc cos A. The sine rule needs a side with its opposite angle."
+      },
+      {
+        "id": "M26",
+        "q": "A cuboid measures 2 cm by 3 cm by 6 cm. How long is its space diagonal?",
+        "options": ["11 cm", "3.61 cm", "49 cm", "7 cm"],
+        "answer": 3,
+        "explain": "d = √(2² + 3² + 6²) = √49 = 7 cm. 3.61 is only the diagonal of the 2 by 3 face."
+      },
+      {
+        "id": "M27",
+        "q": "How long is the space diagonal of a cube with side 4 cm?",
+        "options": ["6.93 cm", "5.66 cm", "12 cm", "8 cm"],
+        "answer": 0,
+        "explain": "√(4² + 4² + 4²) = √48 = 6.93 cm. 5.66 (4√2) is the diagonal of one face."
+      },
+      {
+        "id": "M28",
+        "q": "The angle between a line and a plane is the angle between the line and",
+        "options": ["the nearest edge of the plane", "its projection (shadow) on the plane", "the vertical", "any line in the plane through the same point"],
+        "answer": 1,
+        "explain": "Drop a perpendicular from the top of the line to the plane. The line, its projection and the perpendicular make a right-angled triangle, and the angle is between the line and the projection."
+      },
+      {
+        "id": "M29",
+        "q": "A cuboid is 8 cm long, 6 cm wide and 5 cm high. What is the angle between a space diagonal and the base?",
+        "options": ["63.4°", "32.0°", "26.6°", "39.8°"],
+        "answer": 2,
+        "explain": "The projection is the base diagonal √(8² + 6²) = 10. tan θ = 5/10, so θ = 26.6°. 32.0° uses the 8 cm edge instead of the base diagonal."
+      },
+      {
+        "id": "M30",
+        "q": "A pyramid has a square base of side 10 cm and its apex 12 cm vertically above the centre. What is the angle between a sloping edge and the base?",
+        "options": ["67.4°", "50.2°", "30.5°", "59.5°"],
+        "answer": 3,
+        "explain": "From a corner to the centre is half the diagonal: ½√200 = 7.07. tan θ = 12/7.07, so θ = 59.5°. 67.4° uses 5, the distance to the middle of a side, which gives the angle of a face, not an edge."
+      },
+      {
+        "id": "M31",
+        "q": "A 6 m ladder makes an angle of 70° with horizontal ground. How far up the wall does it reach?",
+        "options": ["2.05 m", "16.5 m", "5.64 m", "6.39 m"],
+        "answer": 2,
+        "explain": "The height is opposite the 70° angle and the ladder is the hypotenuse: 6 × sin 70 = 5.64 m. 2.05 uses cos, which gives the distance from the wall."
+      },
+      {
+        "id": "M32",
+        "q": "Why should you keep full calculator values until the final answer?",
+        "options": ["Rounding early can push the final answer outside the accepted range", "Examiners take off a mark for every rounded value", "Calculators cannot use rounded numbers", "It makes no difference to the answer"],
+        "answer": 0,
+        "explain": "Schemes accept a narrow range, e.g. 20.4 – 20.5. An early rounding error carries forward and can grow, costing the A1."
+      },
+      {
+        "id": "M33",
+        "q": "A ship sails 5 km due north, then 12 km due east. What is the bearing of its finishing point from its start?",
+        "options": ["023°", "067°", "247°", "113°"],
+        "answer": 1,
+        "explain": "tan θ = 12/5 measured from north, so θ = 67.4° and the bearing is 067°. 023° is tan⁻¹(5/12), the angle from east."
+      },
+      {
+        "id": "M34",
+        "q": "The cosine rule gives cos C as a negative number. What does that tell you about angle C?",
+        "options": ["It is acute", "It is a right angle", "The triangle is impossible", "It is obtuse"],
+        "answer": 3,
+        "explain": "Cosines of angles between 90° and 180° are negative, so C is obtuse. cos⁻¹ handles it correctly."
+      },
+      {
+        "id": "M35",
+        "q": "A ship sails on a bearing of 040° to a buoy, then turns onto a bearing of 115°. What is the angle inside the triangle at the buoy?",
+        "options": ["75°", "105°", "155°", "255°"],
+        "answer": 1,
+        "explain": "At the buoy, the bearing back to the start is 040 + 180 = 220°. The angle between that and the new course is 220 − 115 = 105°. 75° is the turn, not the angle in the triangle."
+      },
+      {
+        "id": "M36",
+        "q": "In any triangle, the largest angle is opposite",
+        "options": ["the shortest side", "the hypotenuse only", "the side between the other two angles", "the longest side"],
+        "answer": 3,
+        "explain": "Larger angles face longer sides. So for the largest angle, put the longest side as a in the cosine rule."
+      },
+      {
+        "id": "M37",
+        "q": "A triangle has sides 7 cm and 9 cm with an angle of 120° between them. What is its area?",
+        "options": ["54.6 cm²", "−15.8 cm²", "31.5 cm²", "27.3 cm²"],
+        "answer": 3,
+        "explain": "½ × 7 × 9 × sin 120 = 27.3 cm². sin 120° = sin 60° is positive. −15.8 uses cos, and 54.6 forgets the ½."
+      },
+      {
+        "id": "M38",
+        "q": "An isosceles triangle has two sides of 10 cm and a base of 12 cm. What is its perpendicular height?",
+        "options": ["15.6 cm", "8 cm", "11.7 cm", "6 cm"],
+        "answer": 1,
+        "explain": "The height bisects the base, making a right-angled triangle with hypotenuse 10 and side 6: √(100 − 36) = 8 cm. 11.7 adds the squares."
+      },
+      {
+        "id": "M39",
+        "q": "In a right-angled triangle, tan θ equals",
+        "options": ["adjacent ÷ opposite", "opposite ÷ hypotenuse", "opposite ÷ adjacent", "hypotenuse ÷ adjacent"],
+        "answer": 2,
+        "explain": "TOA: tan θ = opposite ÷ adjacent. Opposite ÷ hypotenuse is sin θ."
+      },
+      {
+        "id": "M40",
+        "q": "A cone has base radius 4.5 cm and slant height 9 cm. What is the angle at the apex between two opposite slant edges?",
+        "options": ["60°", "30°", "120°", "26.6°"],
+        "answer": 0,
+        "explain": "Half the cone is a right-angled triangle with hypotenuse 9 and opposite side 4.5: sin θ = 0.5, θ = 30°. The full apex angle is 2 × 30 = 60°."
+      }
+    ]
+  }
+}

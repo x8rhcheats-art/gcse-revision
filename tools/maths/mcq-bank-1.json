@@ -1,0 +1,1933 @@
+{
+  "comment": "Maths MCQ bank, modules 01-04 (4MA1 Higher). Authored from the module content, the 2018 May 1H/2H papers, the 2016 SAMs and the old-spec January papers, with numbers changed. answer = index into options. Distractors are the classic errors (adding indices instead of multiplying, dividing by the new amount, UB - UB for a difference, cancelling terms). Every numerical answer is checked by a script.",
+  "modules": {
+    "01-number-indices-surds-standard-form": [
+      {
+        "id": "M1",
+        "q": "Which of these is 360 written as a product of powers of its prime factors?",
+        "options": [
+          "2³ × 3² × 5",
+          "2² × 3² × 10",
+          "2³ × 45",
+          "2 × 3 × 60"
+        ],
+        "answer": 0,
+        "explain": "360 = 2 × 2 × 2 × 3 × 3 × 5 = 2³ × 3² × 5. The others multiply to 360 but contain non-primes (10, 45, 60)."
+      },
+      {
+        "id": "M2",
+        "q": "What is the HCF of 2³ × 3² × 5 and 2² × 3⁴ × 7?",
+        "options": [
+          "2³ × 3⁴ × 5 × 7",
+          "6",
+          "2² × 3² = 36",
+          "2² × 3² × 5 × 7"
+        ],
+        "answer": 2,
+        "explain": "HCF: primes common to both (2 and 3) to their LOWEST powers: 2² × 3² = 36. Taking the highest powers and every prime gives the LCM instead."
+      },
+      {
+        "id": "M3",
+        "q": "What is the LCM of 12 and 15?",
+        "options": [
+          "180",
+          "60",
+          "3",
+          "30"
+        ],
+        "answer": 1,
+        "explain": "12 = 2² × 3, 15 = 3 × 5. LCM = 2² × 3 × 5 = 60. 180 is 12 × 15, a common multiple but not the lowest; 3 is the HCF."
+      },
+      {
+        "id": "M4",
+        "q": "What is the LCM of 2⁴ × 3 and 2² × 3³ × 5?",
+        "options": [
+          "2² × 3",
+          "2⁶ × 3⁴ × 5",
+          "2⁴ × 3³",
+          "2⁴ × 3³ × 5"
+        ],
+        "answer": 3,
+        "explain": "LCM: every prime, highest power: 2⁴, 3³ and 5. Adding the powers (2⁶ × 3⁴) multiplies the numbers together instead; leaving out the 5 misses a prime."
+      },
+      {
+        "id": "M5",
+        "q": "One light flashes every 8 seconds and another every 12 seconds. They flash together now. After how many seconds do they next flash together?",
+        "options": [
+          "96",
+          "4",
+          "24",
+          "20"
+        ],
+        "answer": 2,
+        "explain": "The LCM of 8 and 12 is 24. 96 = 8 × 12 is a common multiple but not the first; 4 is the HCF."
+      },
+      {
+        "id": "M6",
+        "q": "Which of these numbers is prime?",
+        "options": [
+          "59",
+          "51",
+          "57",
+          "91"
+        ],
+        "answer": 0,
+        "explain": "51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13. 59 has no factors other than 1 and itself."
+      },
+      {
+        "id": "M7",
+        "q": "Simplify y⁵ × y⁹",
+        "options": [
+          "y⁴⁵",
+          "2y¹⁴",
+          "y⁴",
+          "y¹⁴"
+        ],
+        "answer": 3,
+        "explain": "Multiplying powers of the same base: ADD the indices. 5 + 9 = 14."
+      },
+      {
+        "id": "M8",
+        "q": "Simplify (2m³)⁴",
+        "options": [
+          "2m¹²",
+          "16m¹²",
+          "8m¹²",
+          "16m⁷"
+        ],
+        "answer": 1,
+        "explain": "Everything in the bracket is raised to the power 4: 2⁴ = 16 and (m³)⁴ = m¹². 2m¹² forgets the 2; 16m⁷ adds the indices instead of multiplying."
+      },
+      {
+        "id": "M9",
+        "q": "Simplify (m⁴)⁻³",
+        "options": [
+          "m⁻¹²",
+          "m",
+          "m¹²",
+          "m⁻⁷"
+        ],
+        "answer": 0,
+        "explain": "Power of a power: multiply the indices. 4 × (−3) = −12."
+      },
+      {
+        "id": "M10",
+        "q": "What is the value of c⁰ (c ≠ 0)?",
+        "options": [
+          "0",
+          "c",
+          "1",
+          "It cannot be worked out"
+        ],
+        "answer": 2,
+        "explain": "c³ ÷ c³ = c⁰ by the index laws, and anything divided by itself is 1."
+      },
+      {
+        "id": "M11",
+        "q": "Write ∛2 as a power of 2",
+        "options": [
+          "2³",
+          "2^(1/3)",
+          "2^(−3)",
+          "2^(3/2)"
+        ],
+        "answer": 1,
+        "explain": "A cube root is the power 1/3, because 2^(1/3) × 2^(1/3) × 2^(1/3) = 2¹."
+      },
+      {
+        "id": "M12",
+        "q": "Simplify 12x⁷y² ÷ 4x³y⁵",
+        "options": [
+          "8x⁴y³",
+          "3x¹⁰y⁷",
+          "3x⁴y³",
+          "3x⁴y⁻³"
+        ],
+        "answer": 3,
+        "explain": "Divide the numbers (12 ÷ 4 = 3) and SUBTRACT indices: x⁷⁻³ = x⁴, y²⁻⁵ = y⁻³."
+      },
+      {
+        "id": "M13",
+        "q": "What is the value of 25^(−1/2)?",
+        "options": [
+          "−5",
+          "−12.5",
+          "1/5",
+          "5"
+        ],
+        "answer": 2,
+        "explain": "Negative index → reciprocal; power 1/2 → square root. 1/√25 = 1/5. A negative index never makes the answer negative, and it is not a multiplier (25 × −1/2)."
+      },
+      {
+        "id": "M14",
+        "q": "What is the value of 27^(2/3)?",
+        "options": [
+          "9",
+          "18",
+          "729",
+          "3"
+        ],
+        "answer": 0,
+        "explain": "Root first: ∛27 = 3, then square: 3² = 9. 18 comes from 27 × 2/3, which treats the index as a multiplier."
+      },
+      {
+        "id": "M15",
+        "q": "What is the value of (16/81)^(−3/4)?",
+        "options": [
+          "8/27",
+          "−27/8",
+          "81/16",
+          "27/8"
+        ],
+        "answer": 3,
+        "explain": "Flip for the negative: (81/16)^(3/4). Fourth root: 3/2. Cube: 27/8. 8/27 forgets to flip."
+      },
+      {
+        "id": "M16",
+        "q": "What is the value of 8^(−2/3)?",
+        "options": [
+          "−16/3",
+          "1/4",
+          "−4",
+          "4"
+        ],
+        "answer": 1,
+        "explain": "8^(−2/3) = 1/8^(2/3). ∛8 = 2, 2² = 4, so the answer is 1/4. −16/3 multiplies 8 by −2/3."
+      },
+      {
+        "id": "M17",
+        "q": "9ˣ = 3⁷ × 3. What is the value of x?",
+        "options": [
+          "4",
+          "8",
+          "3.5",
+          "7"
+        ],
+        "answer": 0,
+        "explain": "Write 9 as 3²: 3²ˣ = 3⁸, so 2x = 8 and x = 4. 8 forgets that 9 is 3²."
+      },
+      {
+        "id": "M18",
+        "q": "8 ÷ 2⁷ = 2ⁿ. What is the value of n?",
+        "options": [
+          "4",
+          "−7/3",
+          "−4",
+          "10"
+        ],
+        "answer": 2,
+        "explain": "8 = 2³, so 2³ ÷ 2⁷ = 2³⁻⁷ = 2⁻⁴. n = 4 subtracts the wrong way round."
+      },
+      {
+        "id": "M19",
+        "q": "Which of these is √72 written in its simplest form?",
+        "options": [
+          "2√18",
+          "6√2",
+          "3√8",
+          "36√2"
+        ],
+        "answer": 1,
+        "explain": "Take out the LARGEST square factor: 72 = 36 × 2, so √72 = 6√2. 2√18 and 3√8 are equal to √72 but not fully simplified."
+      },
+      {
+        "id": "M20",
+        "q": "Simplify √48 + √27",
+        "options": [
+          "√75",
+          "5√3",
+          "12√3",
+          "7√3"
+        ],
+        "answer": 3,
+        "explain": "√48 = 4√3 and √27 = 3√3, so the sum is 7√3. √48 + √27 is NOT √75: roots don't add like that (√75 = 5√3)."
+      },
+      {
+        "id": "M21",
+        "q": "Work out √5 × √20",
+        "options": [
+          "√25",
+          "100",
+          "10",
+          "5√4"
+        ],
+        "answer": 2,
+        "explain": "√5 × √20 = √100 = 10. √25 adds the numbers under the root instead of multiplying them."
+      },
+      {
+        "id": "M22",
+        "q": "Expand and simplify (3 + √5)²",
+        "options": [
+          "14 + 6√5",
+          "14",
+          "9 + √5",
+          "14 + 3√5"
+        ],
+        "answer": 0,
+        "explain": "(3 + √5)(3 + √5) = 9 + 3√5 + 3√5 + 5 = 14 + 6√5. Just squaring each term (9 + 5) misses the two middle terms."
+      },
+      {
+        "id": "M23",
+        "q": "Expand and simplify (2 + √3)(2 − √3)",
+        "options": [
+          "7",
+          "4 − √3",
+          "1 − 4√3",
+          "1"
+        ],
+        "answer": 3,
+        "explain": "Difference of two squares: 2² − (√3)² = 4 − 3 = 1. The surd terms +2√3 and −2√3 cancel."
+      },
+      {
+        "id": "M24",
+        "q": "Rationalise the denominator of 10/√5",
+        "options": [
+          "10√5",
+          "2√5",
+          "√2",
+          "5√2"
+        ],
+        "answer": 1,
+        "explain": "Multiply top and bottom by √5: 10√5/5 = 2√5."
+      },
+      {
+        "id": "M25",
+        "q": "To rationalise the denominator of 4/(3 − √5), you multiply the top and bottom by…",
+        "options": [
+          "3 + √5",
+          "3 − √5",
+          "√5",
+          "4"
+        ],
+        "answer": 0,
+        "explain": "Use the denominator with the sign flipped: (3 − √5)(3 + √5) = 9 − 5 = 4, a whole number. Multiplying by (3 − √5) leaves a surd."
+      },
+      {
+        "id": "M26",
+        "q": "Write 4/(3 − √5) in the form a + √b",
+        "options": [
+          "3 − √5",
+          "(12 + 4√5)/14",
+          "3 + √5",
+          "12 + 4√5"
+        ],
+        "answer": 2,
+        "explain": "4(3 + √5)/(9 − 5) = 4(3 + √5)/4 = 3 + √5. Dividing by 14 comes from adding 9 + 5 instead of subtracting."
+      },
+      {
+        "id": "M27",
+        "q": "Which of these is a surd?",
+        "options": [
+          "√16",
+          "√12",
+          "√0.25",
+          "∛27"
+        ],
+        "answer": 1,
+        "explain": "√16 = 4, √0.25 = 0.5 and ∛27 = 3 are all rational. √12 = 2√3 is irrational, so it is a surd."
+      },
+      {
+        "id": "M28",
+        "q": "Which of these numbers is irrational?",
+        "options": [
+          "0.333… (recurring)",
+          "22/7",
+          "√9",
+          "√2"
+        ],
+        "answer": 3,
+        "explain": "Recurring decimals and fractions are rational, and √9 = 3. √2 cannot be written as a fraction of integers."
+      },
+      {
+        "id": "M29",
+        "q": "Write 0.00052 in standard form",
+        "options": [
+          "5.2 × 10⁴",
+          "52 × 10⁻⁵",
+          "5.2 × 10⁻⁴",
+          "5.2 × 10⁻³"
+        ],
+        "answer": 2,
+        "explain": "Move the decimal point 4 places to get 5.2, which lies between 1 and 10. The number is small, so the power is negative: 10⁻⁴. 52 × 10⁻⁵ has A bigger than 10."
+      },
+      {
+        "id": "M30",
+        "q": "Work out (4.2 × 10⁵) × (3 × 10⁻⁸), giving your answer in standard form",
+        "options": [
+          "1.26 × 10⁻²",
+          "12.6 × 10⁻³",
+          "1.26 × 10⁻⁴",
+          "7.2 × 10⁻³"
+        ],
+        "answer": 0,
+        "explain": "4.2 × 3 = 12.6 and 10⁵ × 10⁻⁸ = 10⁻³, giving 12.6 × 10⁻³. That is not in standard form, so adjust to 1.26 × 10⁻²."
+      },
+      {
+        "id": "M31",
+        "q": "Work out (1.2 × 10⁷) ÷ (4.8 × 10³), giving your answer in standard form",
+        "options": [
+          "0.25 × 10⁴",
+          "2.5 × 10⁴",
+          "4 × 10³",
+          "2.5 × 10³"
+        ],
+        "answer": 3,
+        "explain": "1.2 ÷ 4.8 = 0.25 and 10⁷ ÷ 10³ = 10⁴, giving 0.25 × 10⁴ = 2.5 × 10³. When A gets 10 times bigger, the power goes DOWN by 1."
+      },
+      {
+        "id": "M32",
+        "q": "Work out 3.2 × 10⁵ + 4.5 × 10⁴, giving your answer in standard form",
+        "options": [
+          "7.7 × 10⁹",
+          "3.65 × 10⁵",
+          "7.7 × 10⁵",
+          "3.65 × 10⁴"
+        ],
+        "answer": 1,
+        "explain": "Match the powers: 3.2 × 10⁵ + 0.45 × 10⁵ = 3.65 × 10⁵ (320 000 + 45 000 = 365 000). You cannot add the front numbers when the powers differ."
+      },
+      {
+        "id": "M33",
+        "q": "Which of these numbers is written in standard form?",
+        "options": [
+          "3.4 × 10³",
+          "34 × 10³",
+          "0.34 × 10⁴",
+          "3.4 × 10^0.5"
+        ],
+        "answer": 0,
+        "explain": "Standard form is A × 10ⁿ with 1 ≤ A < 10 and n an integer. 34 and 0.34 are outside that range, and 0.5 is not an integer."
+      },
+      {
+        "id": "M34",
+        "q": "A calculator shows 2.52E−03. How should the answer be written?",
+        "options": [
+          "2.52⁻³",
+          "2520",
+          "2.52 × 10⁻³",
+          "2.52 − 3"
+        ],
+        "answer": 2,
+        "explain": "E−03 means × 10⁻³. The E notation is not accepted on the answer line, so write it in full."
+      },
+      {
+        "id": "M35",
+        "q": "Which fraction is equal to 0.4545… (45 recurring)?",
+        "options": [
+          "9/20",
+          "5/11",
+          "45/100",
+          "4/9"
+        ],
+        "answer": 1,
+        "explain": "x = 0.4545…, 100x = 45.4545…, so 99x = 45 and x = 45/99 = 5/11. 45/100 is 0.45 exactly, which does not recur."
+      },
+      {
+        "id": "M36",
+        "q": "Which fraction is equal to 0.1444… (4 recurring)?",
+        "options": [
+          "13/99",
+          "1/7",
+          "144/1000",
+          "13/90"
+        ],
+        "answer": 3,
+        "explain": "10x = 1.444… and 100x = 14.444…, so 90x = 13 and x = 13/90."
+      },
+      {
+        "id": "M37",
+        "q": "To write 0.245245… (245 recurring) as a fraction, x is multiplied by which number before subtracting x?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10 000"
+        ],
+        "answer": 2,
+        "explain": "The repeating block has 3 digits, so use 1000x = 245.245…; then 999x = 245."
+      },
+      {
+        "id": "M38",
+        "q": "Which fraction is equal to 0.2727… (27 recurring)?",
+        "options": [
+          "3/11",
+          "27/100",
+          "2/7",
+          "27/90"
+        ],
+        "answer": 0,
+        "explain": "100x − x = 27, so 99x = 27 and x = 27/99 = 3/11."
+      },
+      {
+        "id": "M39",
+        "q": "(3 + √x)² = y + 6√2, where x and y are positive integers. Find x and y.",
+        "options": [
+          "x = 2, y = 9",
+          "x = 4, y = 13",
+          "x = √2, y = 11",
+          "x = 2, y = 11"
+        ],
+        "answer": 3,
+        "explain": "(3 + √x)² = 9 + 6√x + x. Matching the surd parts: 6√x = 6√2, so x = 2. Then y = 9 + 2 = 11."
+      },
+      {
+        "id": "M40",
+        "q": "The HCF of 18 and 24 is 6. What is their LCM?",
+        "options": [
+          "432",
+          "72",
+          "144",
+          "6"
+        ],
+        "answer": 1,
+        "explain": "HCF × LCM = the product of the two numbers, so LCM = 18 × 24 ÷ 6 = 72. 432 is the product itself."
+      }
+    ],
+    "02-fractions-percentages-ratio-proportion": [
+      {
+        "id": "M1",
+        "q": "Work out 3 2/5 − 1 3/4",
+        "options": [
+          "1 13/20",
+          "2 1/20",
+          "1 1/20",
+          "2 7/20"
+        ],
+        "answer": 0,
+        "explain": "17/5 − 7/4 = 68/20 − 35/20 = 33/20 = 1 13/20. Subtracting whole numbers (2) and then fractions needs care: 2/5 − 3/4 is negative (−7/20)."
+      },
+      {
+        "id": "M2",
+        "q": "Work out 2 1/3 ÷ 1 5/9",
+        "options": [
+          "3 17/27",
+          "2 3/5",
+          "1 1/2",
+          "2/3"
+        ],
+        "answer": 2,
+        "explain": "7/3 ÷ 14/9 = 7/3 × 9/14 = 63/42 = 3/2. 3 17/27 multiplies by 14/9 without flipping it."
+      },
+      {
+        "id": "M3",
+        "q": "What single number do you multiply by to increase an amount by 15%?",
+        "options": [
+          "0.15",
+          "1.15",
+          "1.5",
+          "0.85"
+        ],
+        "answer": 1,
+        "explain": "100% + 15% = 115% = 1.15. 0.15 gives just the increase; 0.85 is a 15% DEcrease."
+      },
+      {
+        "id": "M4",
+        "q": "What single number do you multiply by to decrease an amount by 7.5%?",
+        "options": [
+          "0.75",
+          "1.075",
+          "0.925 × 7.5",
+          "0.925"
+        ],
+        "answer": 3,
+        "explain": "100% − 7.5% = 92.5% = 0.925."
+      },
+      {
+        "id": "M5",
+        "q": "A price rises from $480 to $552. What is the percentage increase?",
+        "options": [
+          "13.0%",
+          "72%",
+          "15%",
+          "115%"
+        ],
+        "answer": 2,
+        "explain": "Change = 72. 72 ÷ 480 (the ORIGINAL) × 100 = 15%. Dividing by 552 gives 13.0%."
+      },
+      {
+        "id": "M6",
+        "q": "After a 12% increase a laptop costs $1344. What was the price before the increase?",
+        "options": [
+          "$1200",
+          "$1182.72",
+          "$1505.28",
+          "$1332"
+        ],
+        "answer": 0,
+        "explain": "Original × 1.12 = 1344, so original = 1344 ÷ 1.12 = 1200. Taking 12% off 1344 (× 0.88) gives 1182.72, which is wrong because the 12% was of the original."
+      },
+      {
+        "id": "M7",
+        "q": "After an 8% pay rise, Mia earns $32 400. What did she earn before the rise?",
+        "options": [
+          "$29 808",
+          "$34 992",
+          "$32 392",
+          "$30 000"
+        ],
+        "answer": 3,
+        "explain": "32 400 ÷ 1.08 = 30 000. 32 400 × 0.92 = 29 808 takes 8% of the NEW salary, the error that scored M0 M0 A0 in 2018."
+      },
+      {
+        "id": "M8",
+        "q": "In a 35% sale, a coat costs $91. What was the price before the sale?",
+        "options": [
+          "$59.15",
+          "$140",
+          "$122.85",
+          "$260"
+        ],
+        "answer": 1,
+        "explain": "Sale price = 65% of the original, so 91 ÷ 0.65 = 140. 91 × 0.65 and 91 × 1.35 apply the percentage to the wrong amount."
+      },
+      {
+        "id": "M9",
+        "q": "A 15% reduction takes $22.50 off the normal price of a mixer. What is the normal price?",
+        "options": [
+          "$150",
+          "$172.50",
+          "$26.47",
+          "$127.50"
+        ],
+        "answer": 0,
+        "explain": "15% = 22.50, so 1% = 1.50 and 100% = 150."
+      },
+      {
+        "id": "M10",
+        "q": "$25 000 is invested at 3.5% per year compound interest. What is it worth after 4 years, to the nearest cent?",
+        "options": [
+          "$28 500.00",
+          "$25 875.00",
+          "$28 688.08",
+          "$3688.08"
+        ],
+        "answer": 2,
+        "explain": "25 000 × 1.035⁴ = 28 688.08. $28 500 is SIMPLE interest (3.5% × 4 = 14%). $3688.08 is only the interest."
+      },
+      {
+        "id": "M11",
+        "q": "A boat loses 4% of its value each year. Which calculation gives its value after 3 years, starting from V?",
+        "options": [
+          "V × 0.88",
+          "V × 0.96³",
+          "V × 0.96 × 3",
+          "V × 1.04³"
+        ],
+        "answer": 1,
+        "explain": "Each year multiplies by 0.96, so 3 years is × 0.96³. × 0.88 is simple depreciation (12%); × 0.96 × 3 triples the value."
+      },
+      {
+        "id": "M12",
+        "q": "A price rises by 30%, then falls by 20%. What is the overall percentage change?",
+        "options": [
+          "10% increase",
+          "6% decrease",
+          "No change",
+          "4% increase"
+        ],
+        "answer": 3,
+        "explain": "1.3 × 0.8 = 1.04, a 4% increase. Percentage changes multiply; they don't add."
+      },
+      {
+        "id": "M13",
+        "q": "A price rises by 20%, then the new price falls by 20%. What is the overall change?",
+        "options": [
+          "No change",
+          "4% increase",
+          "4% decrease",
+          "40% decrease"
+        ],
+        "answer": 2,
+        "explain": "1.2 × 0.8 = 0.96, so it ends at 96% of the original: a 4% decrease."
+      },
+      {
+        "id": "M14",
+        "q": "$2000 is invested at 5% per year compound interest. How much INTEREST is earned in 2 years?",
+        "options": [
+          "$205",
+          "$200",
+          "$2205",
+          "$210"
+        ],
+        "answer": 0,
+        "explain": "2000 × 1.05² = 2205, so the interest is 205. $200 is simple interest; $2205 is the total value, not the interest."
+      },
+      {
+        "id": "M15",
+        "q": "A car bought for $24 000 depreciates by 12% per year. What is it worth after 2 years?",
+        "options": [
+          "$18 240.00",
+          "$21 120.00",
+          "$18 720.00",
+          "$18 585.60"
+        ],
+        "answer": 3,
+        "explain": "24 000 × 0.88² = 18 585.60. $18 240 takes 24% off in one go (simple depreciation)."
+      },
+      {
+        "id": "M16",
+        "q": "$2880 is shared in the ratio 3 : 5 : 7. What is the largest share?",
+        "options": [
+          "$960",
+          "$1344",
+          "$2016",
+          "$411.43"
+        ],
+        "answer": 1,
+        "explain": "15 parts, so 2880 ÷ 15 = 192 per part, and 7 × 192 = 1344. $411.43 is 2880 ÷ 7, dividing by a ratio number instead of the total."
+      },
+      {
+        "id": "M17",
+        "q": "Amir and Beth share money in the ratio 5 : 3. Amir gets $36 more than Beth. How much does Beth get?",
+        "options": [
+          "$54",
+          "$90",
+          "$13.50",
+          "$21.60"
+        ],
+        "answer": 0,
+        "explain": "The difference is 5 − 3 = 2 parts = $36, so 1 part = $18 and Beth gets 3 × 18 = $54 ($90 is Amir's share)."
+      },
+      {
+        "id": "M18",
+        "q": "Write the ratio 45 : 60 in its simplest form",
+        "options": [
+          "9 : 12",
+          "4 : 3",
+          "3 : 4",
+          "15 : 20"
+        ],
+        "answer": 2,
+        "explain": "Divide both by the HCF, 15: 3 : 4. 9 : 12 and 15 : 20 are equivalent but not simplest; 4 : 3 is the wrong way round."
+      },
+      {
+        "id": "M19",
+        "q": "Write 2.5 × 10³ : 1.5 × 10⁶ in the form 1 : n",
+        "options": [
+          "1 : 6000",
+          "1 : 600",
+          "600 : 1",
+          "1 : 60"
+        ],
+        "answer": 1,
+        "explain": "Divide both parts by 2.5 × 10³: 1.5 × 10⁶ ÷ 2.5 × 10³ = 600."
+      },
+      {
+        "id": "M20",
+        "q": "a : b = 2 : 3 and b : c = 4 : 5. What is a : b : c?",
+        "options": [
+          "2 : 3 : 5",
+          "2 : 12 : 5",
+          "6 : 9 : 15",
+          "8 : 12 : 15"
+        ],
+        "answer": 3,
+        "explain": "Make the b parts equal: 2 : 3 = 8 : 12 and 4 : 5 = 12 : 15, so a : b : c = 8 : 12 : 15."
+      },
+      {
+        "id": "M21",
+        "q": "For the children at a show, girls : boys = 2 : 7. What fraction of the children are girls?",
+        "options": [
+          "2/7",
+          "7/9",
+          "2/9",
+          "2/5"
+        ],
+        "answer": 2,
+        "explain": "2 + 7 = 9 parts, of which 2 are girls, so 2/9. 2/7 compares girls to boys, not girls to all children."
+      },
+      {
+        "id": "M22",
+        "q": "y is directly proportional to x². y = 45 when x = 3. What is the value of k in y = kx²?",
+        "options": [
+          "5",
+          "15",
+          "1/5",
+          "135"
+        ],
+        "answer": 0,
+        "explain": "45 = k × 3² = 9k, so k = 5. 15 comes from using x instead of x²."
+      },
+      {
+        "id": "M23",
+        "q": "y = 5x². What is y when x = 4?",
+        "options": [
+          "20",
+          "400",
+          "40",
+          "80"
+        ],
+        "answer": 3,
+        "explain": "5 × 4² = 5 × 16 = 80. 400 squares the 5 as well: (5 × 4)²."
+      },
+      {
+        "id": "M24",
+        "q": "F is inversely proportional to d². F = 20 when d = 3. Which formula is correct?",
+        "options": [
+          "F = 60/d²",
+          "F = 180/d²",
+          "F = 20d²/9",
+          "F = 60/d"
+        ],
+        "answer": 1,
+        "explain": "F = k/d², so 20 = k/9 and k = 180. 60/d² uses d instead of d² when finding k."
+      },
+      {
+        "id": "M25",
+        "q": "y is directly proportional to x³. What happens to y when x is doubled?",
+        "options": [
+          "It is multiplied by 8",
+          "It is multiplied by 2",
+          "It is multiplied by 6",
+          "It is multiplied by 9"
+        ],
+        "answer": 0,
+        "explain": "k(2x)³ = 8kx³ = 8y."
+      },
+      {
+        "id": "M26",
+        "q": "y is inversely proportional to x². What happens to y when x is tripled?",
+        "options": [
+          "It is divided by 3",
+          "It is multiplied by 9",
+          "It is divided by 9",
+          "It is divided by 6"
+        ],
+        "answer": 2,
+        "explain": "k/(3x)² = k/(9x²) = y/9."
+      },
+      {
+        "id": "M27",
+        "q": "F is inversely proportional to d². d is increased by 25%. What is the percentage change in F?",
+        "options": [
+          "25% decrease",
+          "36% decrease",
+          "20% decrease",
+          "56.25% decrease"
+        ],
+        "answer": 1,
+        "explain": "F is multiplied by 1/1.25² = 0.64, which is a 36% decrease."
+      },
+      {
+        "id": "M28",
+        "q": "Which graph shows that y is directly proportional to x?",
+        "options": [
+          "A straight line crossing the y-axis above the origin",
+          "A curve through the origin that gets steeper",
+          "A curve that never meets either axis",
+          "A straight line through the origin"
+        ],
+        "answer": 3,
+        "explain": "y = kx is a straight line through (0, 0). A line with a y-intercept (y = kx + c) is linear but not proportional. The steepening curve is y ∝ x² and the curve that never meets the axes is y ∝ 1/x."
+      },
+      {
+        "id": "M29",
+        "q": "'T is inversely proportional to the square root of L' means…",
+        "options": [
+          "T = k√L",
+          "T = kL²",
+          "T = k/√L",
+          "T = k/L²"
+        ],
+        "answer": 2,
+        "explain": "Inversely proportional to √L: T = k ÷ √L."
+      },
+      {
+        "id": "M30",
+        "q": "T = 48/√L. What is T when L = 36?",
+        "options": [
+          "8",
+          "1.33",
+          "288",
+          "4/3"
+        ],
+        "answer": 0,
+        "explain": "√36 = 6, and 48 ÷ 6 = 8. 1.33 is 48 ÷ 36, which forgets the square root."
+      },
+      {
+        "id": "M31",
+        "q": "£1 = €1.16. What is €348 in pounds?",
+        "options": [
+          "£403.68",
+          "£348",
+          "£346.84",
+          "£300"
+        ],
+        "answer": 3,
+        "explain": "Euros to pounds: divide by 1.16. 348 ÷ 1.16 = 300. Multiplying gives £403.68, the wrong direction."
+      },
+      {
+        "id": "M32",
+        "q": "3/5 of the people in a hall are children. There are 72 children. How many people are in the hall?",
+        "options": [
+          "43.2",
+          "120",
+          "180",
+          "115.2"
+        ],
+        "answer": 1,
+        "explain": "3/5 = 72, so 1/5 = 24 and 5/5 = 120. 43.2 is 3/5 of 72, which works the wrong way."
+      },
+      {
+        "id": "M33",
+        "q": "A price falls from $552 to $480. What is the percentage decrease, to 3 significant figures?",
+        "options": [
+          "13.0%",
+          "15%",
+          "72%",
+          "87.0%"
+        ],
+        "answer": 0,
+        "explain": "Change 72 ÷ ORIGINAL 552 × 100 = 13.0%. 15% divides by the new price."
+      },
+      {
+        "id": "M34",
+        "q": "A trader buys goods for $180 and sells them for $207. What is the percentage profit?",
+        "options": [
+          "13.0%",
+          "27%",
+          "15%",
+          "1.15%"
+        ],
+        "answer": 2,
+        "explain": "Profit 27 ÷ cost 180 × 100 = 15%."
+      },
+      {
+        "id": "M35",
+        "q": "x is increased by 8% to give 27 000. Which calculation finds x?",
+        "options": [
+          "27 000 × 0.92",
+          "27 000 ÷ 1.08",
+          "27 000 × 1.08",
+          "27 000 − 8"
+        ],
+        "answer": 1,
+        "explain": "x × 1.08 = 27 000, so x = 27 000 ÷ 1.08 = 25 000."
+      },
+      {
+        "id": "M36",
+        "q": "$50 000 is invested at 3% per year compound interest. What is it worth after 2 years?",
+        "options": [
+          "$53 000",
+          "$53 090",
+          "$3045",
+          "$53 045"
+        ],
+        "answer": 3,
+        "explain": "50 000 × 1.03² = 50 000 × 1.0609 = 53 045. $53 000 is simple interest."
+      },
+      {
+        "id": "M37",
+        "q": "Dividing by 14/9 is the same as multiplying by…",
+        "options": [
+          "14/9",
+          "−14/9",
+          "9/14",
+          "1/14"
+        ],
+        "answer": 2,
+        "explain": "Dividing by a fraction = multiplying by its reciprocal, because 14/9 × 9/14 = 1."
+      },
+      {
+        "id": "M38",
+        "q": "Write 36 as a fraction of 60, in its simplest form",
+        "options": [
+          "3/5",
+          "36/60",
+          "5/3",
+          "0.6%"
+        ],
+        "answer": 0,
+        "explain": "36/60: divide top and bottom by 12 to get 3/5. 36/60 is right but not simplest."
+      },
+      {
+        "id": "M39",
+        "q": "Which of these does NOT show y directly proportional to x?",
+        "options": [
+          "y = 2x",
+          "y = x/4",
+          "y = 0.7x",
+          "y = 2x + 3"
+        ],
+        "answer": 3,
+        "explain": "Proportional means y = kx with no added constant. y = 2x + 3 does not double when x doubles."
+      },
+      {
+        "id": "M40",
+        "q": "Raj earns $20 000 and gets a 10% rise. Sam earns $17 600. What percentage rise must Sam get to earn the same as Raj?",
+        "options": [
+          "10%",
+          "25%",
+          "20%",
+          "12.5%"
+        ],
+        "answer": 1,
+        "explain": "Raj: 20 000 × 1.1 = 22 000. Sam needs 22 000 − 17 600 = 4400, and 4400 ÷ 17 600 = 25%. 20% divides by the new amount."
+      }
+    ],
+    "03-accuracy-and-bounds": [
+      {
+        "id": "M1",
+        "q": "Round 7.2968 to 2 decimal places",
+        "options": [
+          "7.30",
+          "7.3",
+          "7.29",
+          "7.297"
+        ],
+        "answer": 0,
+        "explain": "The third decimal is 6, so 7.29 rounds up to 7.30. Keep the trailing zero: it shows the accuracy is 2 dp."
+      },
+      {
+        "id": "M2",
+        "q": "Round 0.004076 to 2 significant figures",
+        "options": [
+          "0.00",
+          "0.004",
+          "0.0041",
+          "0.0040"
+        ],
+        "answer": 2,
+        "explain": "The first significant figure is the 4. Keep 4 and 0; the next digit is 7, so round up to 0.0041."
+      },
+      {
+        "id": "M3",
+        "q": "Round 38 472 to 3 significant figures",
+        "options": [
+          "385",
+          "38 500",
+          "38 400",
+          "38 470"
+        ],
+        "answer": 1,
+        "explain": "Keep 3, 8, 4; the next digit is 7, so round up to 385, then fill with zeros to keep the size: 38 500."
+      },
+      {
+        "id": "M4",
+        "q": "How many significant figures does 0.04070 have?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": 3,
+        "explain": "Count from the first non-zero digit: 4, 0, 7, 0. The zero between 4 and 7 counts, and the final zero shows the accuracy."
+      },
+      {
+        "id": "M5",
+        "q": "Round 0.0060749 to 2 decimal places",
+        "options": [
+          "0.0061",
+          "0.00",
+          "0.01",
+          "0.006"
+        ],
+        "answer": 2,
+        "explain": "The second decimal place is 0 and the next digit is 6, so round up to 0.01. 0.0061 is 2 SIGNIFICANT figures, not 2 dp."
+      },
+      {
+        "id": "M6",
+        "q": "Estimate (48.7 × 3.12) ÷ 0.487 by rounding each number to 1 significant figure",
+        "options": [
+          "300",
+          "30",
+          "3",
+          "75"
+        ],
+        "answer": 0,
+        "explain": "(50 × 3) ÷ 0.5 = 150 ÷ 0.5 = 300. Dividing by 0.5 DOUBLES. The exact value is 312."
+      },
+      {
+        "id": "M7",
+        "q": "Estimate (6.12 × 39.7) ÷ 0.198",
+        "options": [
+          "48",
+          "120",
+          "12 000",
+          "1200"
+        ],
+        "answer": 3,
+        "explain": "(6 × 40) ÷ 0.2 = 240 ÷ 0.2 = 1200."
+      },
+      {
+        "id": "M8",
+        "q": "A length is 6.4 cm correct to 1 decimal place. What is its upper bound?",
+        "options": [
+          "6.49 cm",
+          "6.45 cm",
+          "6.5 cm",
+          "6.44 cm"
+        ],
+        "answer": 1,
+        "explain": "Half of 0.1 is 0.05, so the bounds are 6.35 and 6.45. The upper bound is written 6.45, not 6.49."
+      },
+      {
+        "id": "M9",
+        "q": "A length l is 7.4 cm correct to 1 decimal place. Which is the error interval?",
+        "options": [
+          "7.35 ≤ l < 7.45",
+          "7.3 ≤ l < 7.5",
+          "7.35 < l ≤ 7.45",
+          "7.39 ≤ l ≤ 7.41"
+        ],
+        "answer": 0,
+        "explain": "The lower bound 7.35 is included (it rounds up to 7.4) and the upper bound 7.45 is not (it would round to 7.5)."
+      },
+      {
+        "id": "M10",
+        "q": "3400 g is correct to 2 significant figures. What is the lower bound?",
+        "options": [
+          "3399.5 g",
+          "3395 g",
+          "3350 g",
+          "3300 g"
+        ],
+        "answer": 2,
+        "explain": "The second significant figure is in the hundreds, so it was rounded to the nearest 100. Half of 100 is 50: 3400 − 50 = 3350."
+      },
+      {
+        "id": "M11",
+        "q": "A mass is 70 kg to the nearest 5 kg. What are its bounds?",
+        "options": [
+          "65 kg and 75 kg",
+          "67.5 kg and 72.5 kg",
+          "69.5 kg and 70.5 kg",
+          "68 kg and 72 kg"
+        ],
+        "answer": 1,
+        "explain": "Half of 5 is 2.5, so 70 ± 2.5."
+      },
+      {
+        "id": "M12",
+        "q": "The distance from A to B is 110 km correct to 2 significant figures. What is the upper bound?",
+        "options": [
+          "110.5 km",
+          "111 km",
+          "120 km",
+          "115 km"
+        ],
+        "answer": 3,
+        "explain": "To 2 sf, 110 is rounded to the nearest 10. Half of 10 is 5, so the upper bound is 115."
+      },
+      {
+        "id": "M13",
+        "q": "There are 1300 sheets correct to the nearest 100. What is the lower bound?",
+        "options": [
+          "1200",
+          "1299.5",
+          "1250",
+          "1295"
+        ],
+        "answer": 2,
+        "explain": "Half of 100 is 50, so 1300 − 50 = 1250."
+      },
+      {
+        "id": "M14",
+        "q": "a = 8.3 and b = 5.6, both to 1 dp. What is the upper bound of a × b?",
+        "options": [
+          "47.1775",
+          "46.48",
+          "45.7875",
+          "47.5"
+        ],
+        "answer": 0,
+        "explain": "For a product, the maximum is UB × UB: 8.35 × 5.65 = 47.1775."
+      },
+      {
+        "id": "M15",
+        "q": "a = 12.4 and b = 5.7, both to 1 dp. What is the upper bound of a − b?",
+        "options": [
+          "6.7",
+          "6.6",
+          "6.75",
+          "6.8"
+        ],
+        "answer": 3,
+        "explain": "Largest a minus SMALLEST b: 12.45 − 5.65 = 6.8. UB − UB gives 6.7, which is not the maximum."
+      },
+      {
+        "id": "M16",
+        "q": "a = 12.4 and b = 5.7, both to 1 dp. What is the lower bound of a − b?",
+        "options": [
+          "6.7",
+          "6.6",
+          "6.8",
+          "6.65"
+        ],
+        "answer": 1,
+        "explain": "Smallest a minus LARGEST b: 12.35 − 5.75 = 6.6."
+      },
+      {
+        "id": "M17",
+        "q": "e = 6.47 and f = 2.83, both to 2 dp. What is the upper bound of e − f?",
+        "options": [
+          "3.65",
+          "3.64",
+          "3.635",
+          "3.645"
+        ],
+        "answer": 0,
+        "explain": "UB(e) − LB(f) = 6.475 − 2.825 = 3.65."
+      },
+      {
+        "id": "M18",
+        "q": "Which gives the upper bound of a speed, where speed = distance ÷ time?",
+        "options": [
+          "UB of distance ÷ UB of time",
+          "LB of distance ÷ LB of time",
+          "UB of distance ÷ LB of time",
+          "LB of distance ÷ UB of time"
+        ],
+        "answer": 2,
+        "explain": "A fraction is largest with the biggest top and the smallest bottom. LB ÷ UB gives the LOWER bound."
+      },
+      {
+        "id": "M19",
+        "q": "A runner covers 200 m (nearest 5 m) in 24.6 s (nearest 0.1 s). What is the upper bound of the speed, to 3 sf?",
+        "options": [
+          "8.13 m/s",
+          "8.25 m/s",
+          "8.01 m/s",
+          "8.22 m/s"
+        ],
+        "answer": 1,
+        "explain": "202.5 ÷ 24.55 = 8.248… → 8.25 m/s. 8.01 is the lower bound (197.5 ÷ 24.65)."
+      },
+      {
+        "id": "M20",
+        "q": "1300 sheets (nearest 100) make a pile 160 mm high (nearest 10 mm). Which calculation gives the UPPER bound of the thickness of one sheet?",
+        "options": [
+          "165 ÷ 1350",
+          "155 ÷ 1250",
+          "160 ÷ 1300",
+          "165 ÷ 1250"
+        ],
+        "answer": 3,
+        "explain": "Thickness = height ÷ number. For the maximum: largest height ÷ smallest number = 165 ÷ 1250 = 0.132 mm."
+      },
+      {
+        "id": "M21",
+        "q": "y = (a + b)/c with a = 5.3, b = 2.1 and c = 1.8, all to 1 dp. Which gives the upper bound of y?",
+        "options": [
+          "(5.35 + 2.15) ÷ 1.85",
+          "(5.25 + 2.05) ÷ 1.75",
+          "(5.35 + 2.15) ÷ 1.75",
+          "(5.3 + 2.1) ÷ 1.8"
+        ],
+        "answer": 2,
+        "explain": "Make the top as big as possible and the bottom as small as possible."
+      },
+      {
+        "id": "M22",
+        "q": "y = 3a/(b − c). For the LARGEST y, which bounds of b and c should you use?",
+        "options": [
+          "Lower bound of b and upper bound of c",
+          "Upper bound of b and lower bound of c",
+          "Upper bounds of both",
+          "Lower bounds of both"
+        ],
+        "answer": 0,
+        "explain": "To make y big, the denominator b − c must be SMALL: small b minus big c."
+      },
+      {
+        "id": "M23",
+        "q": "y = 3a/(b − c) with a = 42, b = 31, c = 17, each to 2 sf. What is the lower bound of y, to 2 sf?",
+        "options": [
+          "9.8",
+          "9.0",
+          "8.9",
+          "8.3"
+        ],
+        "answer": 3,
+        "explain": "LB = 3 × 41.5 ÷ (31.5 − 16.5) = 124.5 ÷ 15 = 8.3. 9.8 is the upper bound."
+      },
+      {
+        "id": "M24",
+        "q": "A rectangle is 20 cm by 11 cm, each to the nearest cm. What is the smallest possible area as a percentage of the largest, to 3 sf?",
+        "options": [
+          "90.9%",
+          "86.9%",
+          "115%",
+          "95.2%"
+        ],
+        "answer": 1,
+        "explain": "(19.5 × 10.5) ÷ (20.5 × 11.5) × 100 = 204.75 ÷ 235.75 × 100 = 86.85… → 86.9%."
+      },
+      {
+        "id": "M25",
+        "q": "The side of a cube is 6.2 cm to 1 dp. What is the upper bound of its volume?",
+        "options": [
+          "6.25³ cm³",
+          "6.3³ cm³",
+          "6.2³ + 0.05 cm³",
+          "6.249³ cm³"
+        ],
+        "answer": 0,
+        "explain": "Use the upper bound of the side, 6.25, and cube it: 244.14… cm³."
+      },
+      {
+        "id": "M26",
+        "q": "A circle has area 50 cm² to the nearest cm². What is the lower bound of its radius, to 3 sf?",
+        "options": [
+          "3.99 cm",
+          "3.94 cm",
+          "3.97 cm",
+          "7.04 cm"
+        ],
+        "answer": 2,
+        "explain": "LB area = 49.5, so r = √(49.5 ÷ π) = 3.969… → 3.97 cm."
+      },
+      {
+        "id": "M27",
+        "q": "P = 23.7 × 8.46 (23.7 to 1 dp, 8.46 to 2 dp). The bounds of P are 199.96… and 201.04… To what accuracy can P be given?",
+        "options": [
+          "201 (3 sf)",
+          "200 (2 sf)",
+          "200.5 (4 sf)",
+          "200.50"
+        ],
+        "answer": 1,
+        "explain": "To 3 sf the bounds give 200 and 201, which disagree. To 2 sf both give 200, so P = 200 to 2 sf."
+      },
+      {
+        "id": "M28",
+        "q": "z = x/y with bounds 13.478 (upper) and 13.423 (lower). What is z to a suitable degree of accuracy?",
+        "options": [
+          "13.5",
+          "13.45",
+          "13.4",
+          "13"
+        ],
+        "answer": 3,
+        "explain": "To 3 sf the bounds round to 13.5 and 13.4, which disagree. To 2 sf both round to 13."
+      },
+      {
+        "id": "M29",
+        "q": "An angle is 38° correct to 2 significant figures. What is its lower bound?",
+        "options": [
+          "37°",
+          "37.95°",
+          "37.5°",
+          "38.5°"
+        ],
+        "answer": 2,
+        "explain": "To 2 sf, 38 is rounded to the nearest 1. Half of 1 is 0.5, so the lower bound is 37.5°."
+      },
+      {
+        "id": "M30",
+        "q": "The volume of a sphere of radius 2.35 cm is 54.36… cm³. What goes wrong if you round the radius to 2.4 first?",
+        "options": [
+          "You get about 57.9 cm³, which is too big",
+          "Nothing: the answer still rounds to 54.4",
+          "You get about 54.9 cm³, which is slightly too big",
+          "You get about 52.0 cm³, which is too small"
+        ],
+        "answer": 0,
+        "explain": "4/3 × π × 2.4³ = 57.9. Cubing magnifies the rounding error, so keep full values and round once at the end."
+      },
+      {
+        "id": "M31",
+        "q": "100 eggs are packed in boxes of 12. How many boxes are needed to hold all of them?",
+        "options": [
+          "8",
+          "8.33",
+          "8.3",
+          "9"
+        ],
+        "answer": 3,
+        "explain": "100 ÷ 12 = 8.33… Eight boxes hold only 96 eggs, so round UP to 9 boxes."
+      },
+      {
+        "id": "M32",
+        "q": "A length is 5.8 cm correct to 2 significant figures. What is the upper bound?",
+        "options": [
+          "5.9 cm",
+          "5.85 cm",
+          "5.84 cm",
+          "5.805 cm"
+        ],
+        "answer": 1,
+        "explain": "2 sf for 5.8 means to 1 dp. Half of 0.1 is 0.05, so the upper bound is 5.85."
+      },
+      {
+        "id": "M33",
+        "q": "The time taken for a journey is 150 km (2 sf) ÷ 60 km/h (nearest 5 km/h). Which gives the LOWER bound of the time?",
+        "options": [
+          "145 ÷ 62.5",
+          "155 ÷ 57.5",
+          "145 ÷ 57.5",
+          "150 ÷ 62.5"
+        ],
+        "answer": 0,
+        "explain": "Time = distance ÷ speed. The minimum is the smallest distance ÷ the largest speed = 145 ÷ 62.5 = 2.32 h."
+      },
+      {
+        "id": "M34",
+        "q": "Mass 440 g (nearest 10 g), volume 52 cm³ (nearest cm³). What is the upper bound of the density, to 3 sf?",
+        "options": [
+          "8.46 g/cm³",
+          "8.56 g/cm³",
+          "8.64 g/cm³",
+          "8.37 g/cm³"
+        ],
+        "answer": 2,
+        "explain": "445 ÷ 51.5 = 8.640… → 8.64. Density is a division, so use UB mass ÷ LB volume."
+      },
+      {
+        "id": "M35",
+        "q": "A hypotenuse is 12 cm (nearest cm) and an angle is 40° (nearest degree). What is the upper bound of the opposite side, 12 sin 40°?",
+        "options": [
+          "12.5 × sin 39.5°",
+          "12.5 × sin 40.5°",
+          "11.5 × sin 40.5°",
+          "12 × sin 40°"
+        ],
+        "answer": 1,
+        "explain": "sin increases between 0° and 90°, so the largest value uses the largest angle and the largest hypotenuse: 12.5 × sin 40.5° = 8.12 cm."
+      },
+      {
+        "id": "M36",
+        "q": "Which is the correct way to give a final answer of 28 688.075… dollars?",
+        "options": [
+          "$28 688.07",
+          "$28 700",
+          "$28 688.1",
+          "$28 688.08"
+        ],
+        "answer": 3,
+        "explain": "Money is given to 2 dp (the nearest cent). The third decimal is 5, so round up to .08."
+      },
+      {
+        "id": "M37",
+        "q": "The perimeter of a rectangle 8.3 cm by 5.6 cm (each to 1 dp) has what upper bound?",
+        "options": [
+          "27.8 cm",
+          "28.2 cm",
+          "28 cm",
+          "27.6 cm"
+        ],
+        "answer": 2,
+        "explain": "2 × (8.35 + 5.65) = 2 × 14 = 28. For a sum, use both upper bounds."
+      },
+      {
+        "id": "M38",
+        "q": "x = 7.3 and y = 2.1, both to 1 dp. Which gives the LOWER bound of x ÷ y?",
+        "options": [
+          "7.25 ÷ 2.15",
+          "7.25 ÷ 2.05",
+          "7.35 ÷ 2.15",
+          "7.35 ÷ 2.05"
+        ],
+        "answer": 0,
+        "explain": "For the smallest quotient, divide the smallest top by the largest bottom."
+      },
+      {
+        "id": "M39",
+        "q": "A value is 2.4 to 1 dp. Why is 2.45 used as its upper bound, even though 2.45 rounds to 2.5?",
+        "options": [
+          "Because 2.45 is closer to 2.4 than to 2.5",
+          "Because upper bounds are always rounded down",
+          "It isn't: the upper bound is 2.449",
+          "The value can be anything up to, but not including, 2.45"
+        ],
+        "answer": 3,
+        "explain": "The true value can get as close to 2.45 as you like, so 2.45 is the boundary: 2.35 ≤ x < 2.45."
+      },
+      {
+        "id": "M40",
+        "q": "With no instruction about accuracy, how should a non-exact decimal answer normally be given?",
+        "options": [
+          "To 1 decimal place",
+          "To 3 significant figures",
+          "To the nearest whole number",
+          "As the full calculator display"
+        ],
+        "answer": 1,
+        "explain": "Edexcel expects 3 sf unless told otherwise (angles to 1 dp). Write the longer value first, then the rounded one."
+      }
+    ],
+    "04-algebraic-manipulation": [
+      {
+        "id": "M1",
+        "q": "Expand and simplify (2x − 3)(x + 5)",
+        "options": [
+          "2x² + 7x − 15",
+          "2x² − 15",
+          "2x² + 13x − 15",
+          "2x² + 7x + 15"
+        ],
+        "answer": 0,
+        "explain": "2x² + 10x − 3x − 15 = 2x² + 7x − 15."
+      },
+      {
+        "id": "M2",
+        "q": "Expand and simplify (3x − 2)²",
+        "options": [
+          "9x² + 4",
+          "9x² − 4",
+          "9x² − 12x + 4",
+          "9x² − 6x + 4"
+        ],
+        "answer": 2,
+        "explain": "(3x − 2)(3x − 2) = 9x² − 6x − 6x + 4. Squaring each term misses the two middle terms."
+      },
+      {
+        "id": "M3",
+        "q": "Expand and simplify 3(2x − 5) − 2(x − 4)",
+        "options": [
+          "4x − 23",
+          "4x − 7",
+          "4x − 9",
+          "8x − 7"
+        ],
+        "answer": 1,
+        "explain": "6x − 15 − 2x + 8 = 4x − 7. −2 × −4 = +8, not −8."
+      },
+      {
+        "id": "M4",
+        "q": "Expand and simplify (x + 2)(x − 3)(x + 4)",
+        "options": [
+          "x³ − 24",
+          "x³ + 3x² + 10x − 24",
+          "x³ + 3x² − 10x + 24",
+          "x³ + 3x² − 10x − 24"
+        ],
+        "answer": 3,
+        "explain": "(x + 2)(x − 3) = x² − x − 6; × (x + 4) gives x³ + 4x² − x² − 4x − 6x − 24 = x³ + 3x² − 10x − 24. The constant is 2 × −3 × 4 = −24."
+      },
+      {
+        "id": "M5",
+        "q": "When (x + 5)(x − 3)(x + 3) is expanded, what is the constant term?",
+        "options": [
+          "45",
+          "5",
+          "−45",
+          "−9"
+        ],
+        "answer": 2,
+        "explain": "The constant comes only from 5 × (−3) × 3 = −45."
+      },
+      {
+        "id": "M6",
+        "q": "How many terms are there after multiplying a simplified quadratic (3 terms) by a bracket with 2 terms, before collecting?",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "4"
+        ],
+        "answer": 0,
+        "explain": "3 × 2 = 6 terms. Expanding all three brackets at once gives 8 terms. The 2018 scheme required the correct number of terms to be present."
+      },
+      {
+        "id": "M7",
+        "q": "Factorise fully 15a³b − 25a²b²",
+        "options": [
+          "5a(3a²b − 5ab²)",
+          "5(3a³b − 5a²b²)",
+          "a²b(15a − 25b)",
+          "5a²b(3a − 5b)"
+        ],
+        "answer": 3,
+        "explain": "HCF of 15 and 25 is 5, and the lowest powers are a² and b. The other answers still have a common factor left in the bracket."
+      },
+      {
+        "id": "M8",
+        "q": "Factorise fully 24a³b² − 36a²b⁴",
+        "options": [
+          "6a²b²(4a − 6b²)",
+          "12a²b²(2a − 3b²)",
+          "12a³b⁴(2 − 3)",
+          "12ab(2a²b − 3ab³)"
+        ],
+        "answer": 1,
+        "explain": "HCF(24, 36) = 12; lowest powers a² and b². What is left is 2a − 3b²."
+      },
+      {
+        "id": "M9",
+        "q": "Factorise x² + x − 30",
+        "options": [
+          "(x + 6)(x − 5)",
+          "(x − 6)(x + 5)",
+          "(x + 10)(x − 3)",
+          "(x + 15)(x − 2)"
+        ],
+        "answer": 0,
+        "explain": "The two numbers must multiply to −30 and add to +1: 6 and −5. (x − 6)(x + 5) gives −x."
+      },
+      {
+        "id": "M10",
+        "q": "Factorise x² − 3x − 40",
+        "options": [
+          "(x + 8)(x − 5)",
+          "(x − 10)(x + 4)",
+          "(x − 8)(x + 5)",
+          "(x − 8)(x − 5)"
+        ],
+        "answer": 2,
+        "explain": "Multiply to −40, add to −3: −8 and +5."
+      },
+      {
+        "id": "M11",
+        "q": "Factorise 6x² + x − 12",
+        "options": [
+          "(3x + 4)(2x − 3)",
+          "(3x − 4)(2x + 3)",
+          "(6x − 4)(x + 3)",
+          "(2x − 4)(3x + 3)"
+        ],
+        "answer": 1,
+        "explain": "ac = −72; 9 and −8 multiply to −72 and add to 1. So 6x² + 9x − 8x − 12 = 3x(2x + 3) − 4(2x + 3)."
+      },
+      {
+        "id": "M12",
+        "q": "Factorise 10x² − 11x − 6",
+        "options": [
+          "(5x − 2)(2x + 3)",
+          "(10x + 1)(x − 6)",
+          "(5x − 3)(2x + 2)",
+          "(5x + 2)(2x − 3)"
+        ],
+        "answer": 3,
+        "explain": "ac = −60; −15 and 4. 10x² − 15x + 4x − 6 = 5x(2x − 3) + 2(2x − 3)."
+      },
+      {
+        "id": "M13",
+        "q": "In the ac method for 6x² + x − 12, which two numbers do you look for?",
+        "options": [
+          "Product −12 and sum 1",
+          "Product 72 and sum −1",
+          "Product −72 and sum 1",
+          "Product −72 and sum 6"
+        ],
+        "answer": 2,
+        "explain": "Multiply a × c = 6 × −12 = −72, and the sum must be b = 1."
+      },
+      {
+        "id": "M14",
+        "q": "Factorise 25x² − 36y²",
+        "options": [
+          "(5x − 6y)(5x + 6y)",
+          "(5x − 6y)²",
+          "(25x − 36y)(x + y)",
+          "(5x + 6y)²"
+        ],
+        "answer": 0,
+        "explain": "Difference of two squares: (5x)² − (6y)² = (5x − 6y)(5x + 6y)."
+      },
+      {
+        "id": "M15",
+        "q": "Factorise completely 2x² − 50",
+        "options": [
+          "2(x² − 25)",
+          "(2x − 5)(x + 10)",
+          "2(x − 5)²",
+          "2(x − 5)(x + 5)"
+        ],
+        "answer": 3,
+        "explain": "Take out the common factor 2 first, then factorise the difference of squares: x² − 25 = (x − 5)(x + 5). 2(x² − 25) is not completely factorised."
+      },
+      {
+        "id": "M16",
+        "q": "Factorise completely (x + 5)² − (x − 1)²",
+        "options": [
+          "4(2x + 4)",
+          "12(x + 2)",
+          "(x + 4)(2x + 6)",
+          "24"
+        ],
+        "answer": 1,
+        "explain": "[(x + 5) − (x − 1)][(x + 5) + (x − 1)] = 6(2x + 4) = 12(x + 2). Note (x + 5) − (x − 1) = 6, not 4."
+      },
+      {
+        "id": "M17",
+        "q": "Which of these can NOT be factorised using real numbers?",
+        "options": [
+          "x² + 9",
+          "x² − 9",
+          "9 − x²",
+          "x² − 9x"
+        ],
+        "answer": 0,
+        "explain": "x² + 9 is a SUM of squares. x² − 9 = (x − 3)(x + 3), 9 − x² = (3 − x)(3 + x), and x² − 9x = x(x − 9)."
+      },
+      {
+        "id": "M18",
+        "q": "Simplify fully (3x² − 6x)/(x² − 4)",
+        "options": [
+          "3x/(x − 2)",
+          "(3x − 6)/(x − 4)",
+          "3x/(x + 2)",
+          "−6x/(−4)"
+        ],
+        "answer": 2,
+        "explain": "3x(x − 2) / ((x − 2)(x + 2)). Cancel the common FACTOR (x − 2)."
+      },
+      {
+        "id": "M19",
+        "q": "Simplify fully (x² − 9)/(2x² + 5x − 3)",
+        "options": [
+          "(x + 3)/(2x − 1)",
+          "(x − 3)/(2x − 1)",
+          "(x − 3)/(2x + 1)",
+          "−3/(5x − 3)"
+        ],
+        "answer": 1,
+        "explain": "(x − 3)(x + 3) / ((2x − 1)(x + 3)). Cancel (x + 3)."
+      },
+      {
+        "id": "M20",
+        "q": "A student writes (x + 3)/(x + 5) = 3/5. What is wrong?",
+        "options": [
+          "Nothing: the x's cancel",
+          "It should be 5/3",
+          "It should be (x + 3)/5",
+          "x is a term, not a factor, so it cannot be cancelled"
+        ],
+        "answer": 3,
+        "explain": "You can only cancel factors. Test x = 1: 4/6 = 2/3, which is not 3/5."
+      },
+      {
+        "id": "M21",
+        "q": "Write 2/(x + 3) + 5/(x − 1) as a single fraction",
+        "options": [
+          "7/(2x + 2)",
+          "(7x + 17)/((x + 3)(x − 1))",
+          "(7x + 13)/((x + 3)(x − 1))",
+          "(7x − 13)/((x + 3)(x − 1))"
+        ],
+        "answer": 2,
+        "explain": "[2(x − 1) + 5(x + 3)] / ((x + 3)(x − 1)) = (2x − 2 + 5x + 15)/… = (7x + 13)/((x + 3)(x − 1)). You cannot add the tops and bottoms separately."
+      },
+      {
+        "id": "M22",
+        "q": "Write 3/(x + 2) + 2/(x − 3) as a single fraction",
+        "options": [
+          "(5x − 5)/((x + 2)(x − 3))",
+          "(5x − 13)/((x + 2)(x − 3))",
+          "5/(2x − 1)",
+          "(5x + 5)/((x + 2)(x − 3))"
+        ],
+        "answer": 0,
+        "explain": "3(x − 3) + 2(x + 2) = 3x − 9 + 2x + 4 = 5x − 5."
+      },
+      {
+        "id": "M23",
+        "q": "What is the simplest common denominator for 1/(9x² − 25) − 1/(6x + 10)?",
+        "options": [
+          "(9x² − 25)(6x + 10)",
+          "(3x − 5)(3x + 5)",
+          "6x + 10",
+          "2(3x − 5)(3x + 5)"
+        ],
+        "answer": 3,
+        "explain": "9x² − 25 = (3x − 5)(3x + 5) and 6x + 10 = 2(3x + 5). The LCM uses each factor once: 2(3x − 5)(3x + 5)."
+      },
+      {
+        "id": "M24",
+        "q": "Express 1/(4x² − 9) − 1/(4x + 6) as a single fraction",
+        "options": [
+          "(2x − 1)/(2(2x − 3)(2x + 3))",
+          "(5 − 2x)/(2(2x − 3)(2x + 3))",
+          "−1/(4x² − 4x − 3)",
+          "(−1 − 2x)/(2(2x − 3)(2x + 3))"
+        ],
+        "answer": 1,
+        "explain": "Common denominator 2(2x − 3)(2x + 3). Numerator 2 − (2x − 3) = 5 − 2x. The minus sign must go through the whole bracket."
+      },
+      {
+        "id": "M25",
+        "q": "Simplify (x² − 16)/(3x + 12) ÷ (x² − 3x − 4)/(6x)",
+        "options": [
+          "2x/(x + 1)",
+          "(x + 1)/(2x)",
+          "2x/(x − 1)",
+          "(x − 4)²/(18x)"
+        ],
+        "answer": 0,
+        "explain": "Flip and multiply, then factorise: (x − 4)(x + 4)/[3(x + 4)] × 6x/[(x − 4)(x + 1)] = 2x/(x + 1)."
+      },
+      {
+        "id": "M26",
+        "q": "Make p the subject of N = pq − rs",
+        "options": [
+          "p = (N − rs)/q",
+          "p = N/q + rs",
+          "p = (N + rs)/q",
+          "(N + rs)/q"
+        ],
+        "answer": 2,
+        "explain": "Add rs to both sides: pq = N + rs, then divide by q. Write p = at the start. The 2018 scheme only gave the A1 if the answer was seen with the subject and an equals sign."
+      },
+      {
+        "id": "M27",
+        "q": "Make r the subject of V = πr²h/3",
+        "options": [
+          "r = 3V/(πh)",
+          "r = √(3V/(πh))",
+          "r = √(V/(3πh))",
+          "r² = 3V/(πh)"
+        ],
+        "answer": 1,
+        "explain": "3V = πr²h, so r² = 3V/(πh) and r = √(3V/(πh)). Stopping at r² does not make r the subject."
+      },
+      {
+        "id": "M28",
+        "q": "Make L the subject of T = 2π√(L/g)",
+        "options": [
+          "L = gT/(2π)",
+          "L = T²/(4π²g)",
+          "L = g(T − 2π)²",
+          "L = gT²/(4π²)"
+        ],
+        "answer": 3,
+        "explain": "T/(2π) = √(L/g), square: T²/(4π²) = L/g, then multiply by g."
+      },
+      {
+        "id": "M29",
+        "q": "Make v the subject of E = ½mv² + h, where v is positive",
+        "options": [
+          "v = √(2E/m) − h",
+          "v = 2(E − h)/m",
+          "v = √(2(E − h)/m)",
+          "v = √((E − h)/(2m))"
+        ],
+        "answer": 2,
+        "explain": "E − h = ½mv², so v² = 2(E − h)/m, then take the positive square root."
+      },
+      {
+        "id": "M30",
+        "q": "Make q the subject of p = (2q + 1)/(q − 3)",
+        "options": [
+          "q = (1 + 3p)/(p − 2)",
+          "q = (1 + 3p + 2q)/p",
+          "q = (1 + 3p)/(p + 2)",
+          "q = (3p − 1)/(p − 2)"
+        ],
+        "answer": 0,
+        "explain": "pq − 3p = 2q + 1 → pq − 2q = 1 + 3p → q(p − 2) = 1 + 3p. The first wrong answer still has q on both sides."
+      },
+      {
+        "id": "M31",
+        "q": "When the subject appears in two terms, which step MUST you use?",
+        "options": [
+          "Square both sides",
+          "Divide both sides by the subject",
+          "Cancel the subject from both sides",
+          "Factorise the subject out of the terms that contain it"
+        ],
+        "answer": 3,
+        "explain": "Collect the subject terms on one side, then factorise, e.g. q(p − 2) = 1 + 3p, so you can divide by the bracket."
+      },
+      {
+        "id": "M32",
+        "q": "Make a the subject of 2a − 7 = (5 + a)/k",
+        "options": [
+          "a = (5 + 7k)/(2k + 1)",
+          "a = (5 + 7k)/(2k − 1)",
+          "a = (5 + 7)/(2k − 1)",
+          "a = (5 + 7k)/(2 − k)"
+        ],
+        "answer": 1,
+        "explain": "k(2a − 7) = 5 + a → 2ak − 7k = 5 + a → 2ak − a = 5 + 7k → a(2k − 1) = 5 + 7k."
+      },
+      {
+        "id": "M33",
+        "q": "Make g the subject of 2e + 5g = 3 + 4eg",
+        "options": [
+          "g = (3 − 2e)/(5 − 4e)",
+          "g = (3 − 2e)/(5 + 4e)",
+          "g = (3 + 2e)/(5 − 4e)",
+          "g = (3 − 2e)/(e)"
+        ],
+        "answer": 0,
+        "explain": "Collect the g terms: 5g − 4eg = 3 − 2e, then factorise: g(5 − 4e) = 3 − 2e."
+      },
+      {
+        "id": "M34",
+        "q": "Make y the subject of x = √((y + 2)/(y − 1))",
+        "options": [
+          "y = (x² − 2)/(x² + 1)",
+          "y = (x + 2)/(x − 1)",
+          "y = (x² + 2)/(x² − 1)",
+          "y = (x² + 2)/(1 − x²)"
+        ],
+        "answer": 2,
+        "explain": "x² = (y + 2)/(y − 1) → x²y − x² = y + 2 → y(x² − 1) = x² + 2."
+      },
+      {
+        "id": "M35",
+        "q": "Which expression represents any odd number, where n is an integer?",
+        "options": [
+          "n + 1",
+          "2n + 1",
+          "2n",
+          "n²"
+        ],
+        "answer": 1,
+        "explain": "2n is always even, so 2n + 1 is always odd. n + 1 and n² can be either odd or even."
+      },
+      {
+        "id": "M36",
+        "q": "(2n + 3)² − (2n + 1)² simplifies to…",
+        "options": [
+          "8",
+          "4n + 8",
+          "8n + 10",
+          "8n + 8"
+        ],
+        "answer": 3,
+        "explain": "4n² + 12n + 9 − (4n² + 4n + 1) = 8n + 8 = 8(n + 1), a multiple of 8."
+      },
+      {
+        "id": "M37",
+        "q": "(2n + 3)² − (2n − 3)² simplifies to…",
+        "options": [
+          "18",
+          "12n",
+          "24n",
+          "0"
+        ],
+        "answer": 2,
+        "explain": "(4n² + 12n + 9) − (4n² − 12n + 9) = 24n = 12 × 2n, so it is always a multiple of 12."
+      },
+      {
+        "id": "M38",
+        "q": "Why is 'it works for n = 1, 2 and 3' not a proof?",
+        "options": [
+          "Examples only check some cases; a proof must work for every n",
+          "Three examples are not enough, but ten would be",
+          "It is a proof if the examples are chosen at random",
+          "It is a proof if n = 0 is also checked"
+        ],
+        "answer": 0,
+        "explain": "However many examples you try, you have not covered every integer. Algebra with a general n does."
+      },
+      {
+        "id": "M39",
+        "q": "The sum of three consecutive integers n, n + 1 and n + 2 is always…",
+        "options": [
+          "even",
+          "odd",
+          "a multiple of 6",
+          "a multiple of 3"
+        ],
+        "answer": 3,
+        "explain": "n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1), a multiple of 3. It can be odd or even (e.g. 6 and 9)."
+      },
+      {
+        "id": "M40",
+        "q": "Which is an identity (true for ALL values of x)?",
+        "options": [
+          "x² = 4",
+          "(x + 1)² ≡ x² + 2x + 1",
+          "2x + 1 = 7",
+          "(x + 1)² = x² + 1"
+        ],
+        "answer": 1,
+        "explain": "An identity holds for every x. x² = 4 and 2x + 1 = 7 are equations; (x + 1)² = x² + 1 is false for most x."
+      }
+    ]
+  }
+}

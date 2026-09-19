@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 6 · Sequences and Arithmetic Series — IGCSE Mathematics A 4MA1 (Higher)</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 6 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Sequences and Arithmetic Series</h1>
+  <p class="standfirst">A small topic that earns a lot of marks. There is an easy nth-term question near the start of a paper, and a 5-mark arithmetic-series question near the end. Both are pure method: one formula to memorise, one on the formula sheet, and a pair of simultaneous equations.</p>
+  <div class="meta">
+    <span class="tag"><strong>~2% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Spec <strong>3.1</strong> (Foundation A–C, Higher A–C)</span>
+    <span class="tag">Appeared in <strong>3 of 4</strong> current-spec papers</span>
+    <span class="tag">Est. <strong>2 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2016 Edexcel SAM 2H Q2 <span class="marks">(2)</span></td><td>The nth term of the arithmetic sequence 2, 9, 16, 23, …</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q23 <span class="marks">(5)</span></td><td>The 4th term is 17 and the 10th term is 35: find the sum of the first 50 terms</td></tr>
+<tr><td>2018 Edexcel May 2H Q23 <span class="marks">(5)</span></td><td>The sum of the first 48 terms is 4 times the sum of the first 36: find the sum of the first 30 terms (the answer is 0)</td></tr>
+<tr><td>2015 Edexcel Jan 4HR Q5 <span class="marks">(3)</span></td><td>A number pattern of rows 1 × 3 + 1, 4, 2²: which row has 676, and expressions in n for the columns (old spec)</td></tr>
+</table>
+<p>Arithmetic series were <strong>added</strong> in the 4MA1 spec, so no old-spec paper asks for S<sub>n</sub>. The same SAM 1H question was reused, word for word, as Q22 of the school's Practice Paper 5.</p>
+
+<div class="trap">
+<p>From the SAM 2H mark scheme, on the nth term of 2, 9, 16, 23:</p>
+<p><span class="said">"M1 for 7n + k (k may be zero)"</span></p>
+<p>So "7n" on its own scores 1 mark out of 2. The second mark needs the right constant: <strong>7n − 5</strong>. Check it with n = 1: 7 − 5 = 2. ✓</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>A sequence is a list of numbers that follow a rule. The rule can link each term to the one before (term-to-term) or give any term directly from its position (the nth term). An <strong>arithmetic</strong> sequence adds the same amount each time. That constant step is what makes a clean nth-term formula and a clean sum formula possible.</p>
+
+<h3>Term-to-term rules</h3>
+<p class="asked">Spec 3.1A, 3.1B (Foundation)</p>
+<p><strong>A term-to-term rule tells you how to get from one term to the next.</strong></p>
+<ol>
+<li>Work out the <strong>differences</strong> between consecutive terms. If they are all the same, the rule is "add d".</li>
+<li>If not, try the <strong>ratio</strong>: does each term multiply by the same number?</li>
+<li>If neither works, look for special patterns: <strong>squares</strong>, <strong>cubes</strong>, <strong>powers</strong>, or adding the previous two terms.</li>
+</ol>
+<table>
+<tr><th>Sequence</th><th>Rule</th><th>Next two terms</th></tr>
+<tr><td>5, 9, 13, 17, …</td><td>add 4</td><td>21, 25</td></tr>
+<tr><td>20, 14, 8, 2, …</td><td>subtract 6</td><td>−4, −10</td></tr>
+<tr><td>1, 2, 4, 8, …</td><td>multiply by 2 (powers of 2)</td><td>16, 32</td></tr>
+<tr><td>1, 4, 9, 16, …</td><td>square numbers (n<sup>2</sup>)</td><td>25, 36</td></tr>
+<tr><td>1, 1, 2, 3, 5, …</td><td>add the previous two terms</td><td>8, 13</td></tr>
+</table>
+<div class="trap">
+<p>✗ "The rule is +4" for 5, 9, 13, 17 when the question asks for the <strong>nth term</strong>. That is the term-to-term rule, and it scores nothing there.<br>
+✓ Read which one is asked for. "Rule for the next term" means term-to-term. "Expression in terms of n" means the nth term.</p>
+</div>
+
+<h3>Position-to-term rules: generating terms from the nth term</h3>
+<p class="asked">Spec 3.1A (Foundation) · <strong>2015 Edexcel Jan 4HR Q5</strong> (old spec)</p>
+<p><strong>An nth-term rule gives any term directly: replace n with the position number.</strong></p>
+<ol>
+<li>Substitute <strong>n = 1, 2, 3, …</strong> in turn.</li>
+<li>Use brackets for anything squared: for n = 3 in 2n<sup>2</sup> − 1, 2 × 3<sup>2</sup> − 1 = 17, not (2 × 3)<sup>2</sup> − 1.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples</h4>
+<p><strong>4n + 3:</strong> n = 1, 2, 3 gives <strong>7, 11, 15</strong>. The differences are all 4, the number in front of n.</p>
+<p><strong>n<sup>2</sup> + 3:</strong> n = 1 to 5 gives <strong>4, 7, 12, 19, 28</strong>. The differences are 3, 5, 7, 9, which are not constant, so this is <em>not</em> arithmetic.</p>
+<p><strong>The 2015 pattern:</strong> row n was n × (n + 2) + 1 = (n + 1)<sup>2</sup>. Column 2 held 4, 9, 16, … so 676 = 26<sup>2</sup> is in row <strong>25</strong>.</p>
+</div>
+
+<h3>The nth term of a linear sequence</h3>
+<p class="asked">Spec 3.1C · <strong>2016 Edexcel SAM 2H Q2</strong></p>
+<p><strong>The nth term of a sequence that goes up by d each time is dn + (first term − d).</strong></p>
+<ol>
+<li>Find the <strong>common difference</strong> d. That is the number in front of n.</li>
+<li>Write out the <strong>d times table</strong> underneath the sequence and see what you must add or subtract to get each term. That is the constant.</li>
+<li>Write <strong>dn + constant</strong>, then <strong>check</strong> it with n = 1 and n = 2.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 5, 8, 11, 14, …</h4>
+<p>Difference = +3, so compare with 3n: 3, 6, 9, 12. Each term is 2 more. &nbsp; <strong>nth term = 3n + 2</strong> &nbsp; <strong>(M1 for 3n + k · A1)</strong></p>
+<p>Check: n = 1 gives 5 ✓, n = 4 gives 14 ✓.</p>
+</div>
+<div class="panel">
+<h4>Worked example: 20, 14, 8, 2, … (decreasing)</h4>
+<p>Difference = −6, so compare with −6n: −6, −12, −18, −24. Each term is 26 more. &nbsp; <strong>nth term = 26 − 6n</strong></p>
+</div>
+<div class="trap">
+<p>✗ n + 3 for 5, 8, 11, 14. That adds 1 each time, not 3.<br>
+✗ 6n + 26 for 20, 14, 8, 2. A decreasing sequence needs a <strong>negative</strong> coefficient of n.<br>
+✓ The coefficient of n is always the common difference, sign included.</p>
+</div>
+
+<h3>Using the nth term: is a number in the sequence?</h3>
+<p class="asked">Spec 3.1C · <strong>2015 Edexcel Jan 4HR Q5(a)</strong> (old spec)</p>
+<p><strong>Set the nth term equal to the number and solve for n. The number is in the sequence only if n comes out as a positive whole number.</strong></p>
+<ol>
+<li>Write <strong>nth term = the number</strong>.</li>
+<li><strong>Solve</strong> for n.</li>
+<li>If n is a <strong>positive integer</strong>, the number is term n. If not, it is <strong>not</strong> in the sequence. Say so, and give the reason.</li>
+<li>For "the first term greater than 200", solve as an <strong>inequality</strong> and round n <strong>up</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: is 100 a term of 3n + 2?</h4>
+<p>3n + 2 = 100, so 3n = 98, so n = 32.67 (to 2 d.p.). Not a whole number, so <strong>100 is not in the sequence</strong>. It falls between term 32 (98) and term 33 (101).</p>
+</div>
+<div class="panel">
+<h4>Worked example: the first term of 8n − 3 that is greater than 200</h4>
+<p>8n − 3 &gt; 200, so n &gt; 25.375, so n = 26. The term is 8 × 26 − 3 = <strong>205</strong>.</p>
+</div>
+
+<h3>Arithmetic sequences: a, d and the nth term</h3>
+<p class="asked">Spec 3.1A, 3.1B (Higher)</p>
+<p><strong>In an arithmetic sequence the first term is a and each step adds d, so the nth term has had (n − 1) steps added.</strong></p>
+<div class="eq"><span class="name">nth term of an arithmetic sequence — memorise</span>u<sub>n</sub> = a + (n − 1)d<span class="sym">a = first term · d = common difference · n = position · NOT on the formula sheet</span></div>
+<p>It is the same rule as dn + (a − d), just written a different way: a + (n − 1)d = dn + (a − d). For 5, 8, 11, … it gives 5 + 3(n − 1) = 3n + 2.</p>
+<p>d can be <strong>negative</strong> (a decreasing sequence) or a <strong>fraction</strong>. The 20th term of 7, 4.5, 2, … is 7 + 19 × (−2.5) = −40.5.</p>
+<div class="trap">
+<p>✗ u<sub>20</sub> = a + 20d. To get from term 1 to term 20 you take <strong>19</strong> steps.<br>
+✓ u<sub>20</sub> = a + 19d.</p>
+</div>
+
+<h3>Finding a and d from two terms</h3>
+<p class="asked">Spec 3.1A (Higher) · <strong>2016 Edexcel SAM 1H Q23</strong></p>
+<p><strong>Each term you are given makes one equation in a and d. Two terms give a pair of simultaneous equations.</strong></p>
+<ol>
+<li>Write each given term as <strong>a + (n − 1)d</strong> = its value.</li>
+<li><strong>Subtract</strong> the equations: the a's cancel and leave a multiple of d.</li>
+<li>Find <strong>d</strong>, then substitute back to find <strong>a</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the 2nd term is 7 and the 5th term is 19</h4>
+<p>a + d = 7 and a + 4d = 19 &nbsp; <strong>(M1)</strong></p>
+<p>Subtract: 3d = 12, so <strong>d = 4</strong> &nbsp; <strong>(A1)</strong>. Then a = 7 − 4 = <strong>3</strong> &nbsp; <strong>(A1)</strong></p>
+<p>The sequence is 3, 7, 11, 15, 19, … ✓</p>
+</div>
+<p>Shortcut: from the 2nd term to the 5th is 3 steps, and the value rises by 12, so d = 12 ÷ 3. In SAM 1H Q23, the 4th term is 17 and the 10th is 35: 6 steps, a rise of 18, so d = 3 and a = 17 − 3 × 3 = 8.</p>
+
+<h3>The sum of an arithmetic series</h3>
+<p class="asked">Spec 3.1C (Higher) · <strong>2016 Edexcel SAM 1H Q23</strong> · <strong>2018 Edexcel May 2H Q23</strong></p>
+<p><strong>A series is the terms of a sequence added together. For an arithmetic series there is a formula for the sum of the first n terms, and it is on the formula sheet.</strong></p>
+<div class="eq"><span class="name">Sum of an arithmetic series — on the formula sheet</span>S<sub>n</sub> = n/2 [2a + (n − 1)d]<span class="sym">S<sub>n</sub> = sum of the first n terms · a = first term · d = common difference</span></div>
+<div class="eq"><span class="name">Sum using the last term — memorise</span>S<sub>n</sub> = n/2 (a + l)<span class="sym">l = the last term added · useful when you know where the series ends</span></div>
+<ol>
+<li>Identify <strong>a</strong>, <strong>d</strong> and <strong>n</strong> (the number of terms, not the last term).</li>
+<li><strong>Substitute</strong> and write the substitution down: that line is the method mark.</li>
+<li>Work out the <strong>square bracket first</strong>, then multiply by n/2.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the sum of the first 50 terms of 4 + 7 + 10 + 13 + …</h4>
+<p>a = 4, d = 3, n = 50</p>
+<p>S<sub>50</sub> = 50/2 [2 × 4 + 49 × 3] = 25 × [8 + 147] = 25 × 155 = <strong>3875</strong> &nbsp; <strong>(M1 · A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example: SAM 1H Q23 finished</h4>
+<p>a = 8, d = 3: &nbsp; S<sub>50</sub> = 25 × [16 + 49 × 3] = 25 × 163 = <strong>4075</strong></p>
+<p>Or: the 50th term is 8 + 49 × 3 = 155, so S<sub>50</sub> = 25 × (8 + 155) = 4075.</p>
+</div>
+<div class="trap">
+<p>✗ Putting the <strong>last term</strong> in as n. n is <strong>how many terms</strong> there are.<br>
+✗ n/2 × 2a + (n − 1)d, with the bracket missing, so only 2a gets multiplied by n/2.<br>
+✓ Brackets exactly as on the formula sheet, and the square bracket worked out first.</p>
+</div>
+
+<h3>Sums of multiples, and sums between two limits</h3>
+<p class="asked">Spec 3.1C (Higher)</p>
+<p><strong>To add up a run of terms, first find how many there are, then use S<sub>n</sub> = n/2 (a + l).</strong></p>
+<ol>
+<li>Find the <strong>first</strong> and <strong>last</strong> terms in the range.</li>
+<li><strong>Number of terms</strong> n = (last − first) ÷ d + 1. The "+ 1" counts the first term.</li>
+<li>S = n/2 × (first + last).</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the sum of all the multiples of 7 between 100 and 300</h4>
+<p>First multiple: 105 (7 × 15). Last: 294 (7 × 42).</p>
+<p>n = (294 − 105) ÷ 7 + 1 = 27 + 1 = <strong>28</strong> terms</p>
+<p>S = 28/2 × (105 + 294) = 14 × 399 = <strong>5586</strong></p>
+</div>
+<div class="trap">
+<p>✗ n = (294 − 105) ÷ 7 = 27. That counts the gaps, not the terms, and loses one.<br>
+✓ Check with a small case: from 7 to 21 in 7s is (21 − 7) ÷ 7 + 1 = 3 terms: 7, 14, 21.</p>
+</div>
+
+<h3>Finding n when the sum is given</h3>
+<p class="asked">Spec 3.1C (Higher), with 2.7C</p>
+<p><strong>If S<sub>n</sub> is known and n is not, the formula becomes a quadratic in n. Solve it, and keep only the positive whole-number answer.</strong></p>
+<ol>
+<li>Substitute a and d into S<sub>n</sub> = n/2 [2a + (n − 1)d], leaving n as a letter.</li>
+<li>Set it equal to the given sum, <strong>multiply out</strong> and rearrange to <strong>= 0</strong>.</li>
+<li><strong>Solve</strong> the quadratic (factorise or use the formula).</li>
+<li><strong>Reject</strong> a negative or fractional n. For "how many terms before the sum first exceeds …", round <strong>up</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: how many terms of 3 + 7 + 11 + … add up to 210?</h4>
+<p>n/2 [6 + 4(n − 1)] = n/2 (4n + 2) = n(2n + 1) = 2n<sup>2</sup> + n &nbsp; <strong>(M1)</strong></p>
+<p>2n<sup>2</sup> + n = 210, so 2n<sup>2</sup> + n − 210 = 0 &nbsp; <strong>(A1)</strong></p>
+<p>(2n + 21)(n − 10) = 0, so n = 10 or n = −10.5 &nbsp; <strong>(M1)</strong></p>
+<p>n must be a positive whole number, so <strong>n = 10</strong> &nbsp; <strong>(A1)</strong>. Check: S<sub>10</sub> = 5 × (6 + 36) = 210 ✓</p>
+</div>
+
+<h3>Harder problems: when a and d are both unknown</h3>
+<p class="asked">Spec 3.1 (Higher) · <strong>2018 Edexcel May 2H Q23</strong></p>
+<p><strong>Turn each piece of information into an equation in a and d, then solve them together, exactly as with any simultaneous equations.</strong></p>
+<ol>
+<li>A term gives <strong>a + (n − 1)d = value</strong>. A sum gives <strong>n/2 [2a + (n − 1)d] = value</strong>.</li>
+<li>Simplify each equation: divide out common factors.</li>
+<li>Solve simultaneously, then answer the actual question, which is often a different sum.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the 5th term is 14 and the sum of the first 10 terms is 155</h4>
+<p>a + 4d = 14 &nbsp; and &nbsp; 10/2 [2a + 9d] = 155, so 2a + 9d = 31</p>
+<p>Double the first: 2a + 8d = 28. Subtract: <strong>d = 3</strong>, then a = 14 − 12 = <strong>2</strong>.</p>
+</div>
+<div class="panel">
+<h4>How 2018 2H Q23 worked: S<sub>48</sub> = 4 × S<sub>36</sub>, find S<sub>30</sub></h4>
+<p>24(2a + 47d) = 4 × 18(2a + 35d) = 72(2a + 35d)</p>
+<p>48a + 1128d = 144a + 2520d, so 96a + 1392d = 0, so <strong>2a + 29d = 0</strong> (÷ 48)</p>
+<p>S<sub>30</sub> = 15(2a + 29d) = 15 × 0 = <strong>0</strong>. You never need a and d separately. The positive and negative terms cancel.</p>
+</div>
+<div class="trap">
+<p>✗ Giving up because there are "two unknowns and one equation". Look at what is asked. S<sub>30</sub> needed only the combination 2a + 29d.<br>
+✓ Write S<sub>30</sub> = 15(2a + 29d) early, and look for that bracket in your working.</p>
+</div>
+
+<h3>Sequences in context</h3>
+<p class="asked">Spec 3.1C, 3.1B (Higher)</p>
+<p><strong>A pattern that grows by the same amount each time is an arithmetic sequence. Decide what a, d and n mean in the story before you use a formula.</strong></p>
+<ul>
+<li><strong>"How many in pattern/row/week n?"</strong> That is a <strong>term</strong>: u<sub>n</sub> = a + (n − 1)d.</li>
+<li><strong>"How many altogether in the first n?"</strong> That is a <strong>sum</strong>: S<sub>n</sub>.</li>
+</ul>
+<div class="panel">
+<h4>Worked example: a theatre has 20 seats in row 1, and each row has 2 more seats than the row in front. There are 25 rows.</h4>
+<p>Row 25: 20 + 24 × 2 = <strong>68 seats</strong> (a term)</p>
+<p>Total: S<sub>25</sub> = 25/2 × (20 + 68) = 12.5 × 88 = <strong>1100 seats</strong> (a sum)</p>
+</div>
+
+<h3>Sequences that are not arithmetic</h3>
+<p class="asked">Spec 3.1A (Foundation): odd, even, squares, multiples and powers</p>
+<p><strong>If the differences are not constant, the sequence is not arithmetic, so neither a + (n − 1)d nor S<sub>n</sub> applies.</strong></p>
+<ul>
+<li><strong>Squares</strong> 1, 4, 9, 16, … have nth term n<sup>2</sup>. Anything like n<sup>2</sup> + 3 or (n + 1)<sup>2</sup> is a square pattern shifted.</li>
+<li><strong>Powers</strong> such as 2, 4, 8, 16, … (nth term 2<sup>n</sup>) multiply by the same number each time.</li>
+<li><strong>Odd</strong> numbers are 2n − 1, <strong>even</strong> numbers are 2n, and multiples of k are kn.</li>
+</ul>
+<p>4MA1 asks you to <strong>generate</strong> terms from rules like these and to recognise them. It does <strong>not</strong> ask you to find the nth term of a quadratic sequence, or to sum a geometric series. Those belong to other courses.</p>
+<div class="trap">
+<p>✗ Using S<sub>n</sub> = n/2 [2a + (n − 1)d] to add up 1 + 4 + 9 + 16 + …. The formula only works when the differences are constant.<br>
+✓ Check the differences before you reach for a formula.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>What to write down</h4>
+<p><strong>Linear nth term:</strong> dn + (first term − d). Check with n = 1.</p>
+<p><strong>Arithmetic nth term (memorise):</strong> u<sub>n</sub> = a + (n − 1)d</p>
+<p><strong>Sum (formula sheet):</strong> S<sub>n</sub> = n/2 [2a + (n − 1)d] &nbsp; or &nbsp; S<sub>n</sub> = n/2 (a + l)</p>
+<p><strong>Two terms given:</strong> two equations in a and d, then subtract.</p>
+<p><strong>Is x a term?</strong> nth term = x. It is a term only if n is a positive integer.</p>
+<p><strong>Number of terms from first to last:</strong> (last − first) ÷ d + 1</p>
+<p><strong>Sum given, n unknown:</strong> quadratic in n; keep the positive whole number.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Sequence</td><td>An ordered list of numbers that follow a <strong>rule</strong></td></tr>
+<tr><td>Term-to-term rule</td><td>The rule that gives each term from the <strong>previous</strong> term</td></tr>
+<tr><td>nth term</td><td>A position-to-term rule: an expression in <strong>n</strong> that gives the term in position n</td></tr>
+<tr><td>Arithmetic sequence</td><td>A sequence with a <strong>constant difference</strong> between consecutive terms</td></tr>
+<tr><td>Common difference, d</td><td>The amount <strong>added</strong> each time. It is negative for a decreasing sequence</td></tr>
+<tr><td>Series</td><td>The <strong>sum</strong> of the terms of a sequence</td></tr>
+<tr><td>S<sub>n</sub></td><td>The sum of the <strong>first n terms</strong></td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">nth term = +3</td><td class="yes">nth term = <strong>3n + 2</strong>, an expression in n</td></tr>
+<tr><td class="no">nth term = 7n (for 2, 9, 16, 23)</td><td class="yes"><strong>7n − 5</strong>, checked with n = 1</td></tr>
+<tr><td class="no">u<sub>20</sub> = a + 20d</td><td class="yes">u<sub>20</sub> = a + <strong>19</strong>d</td></tr>
+<tr><td class="no">100 is not in the sequence (no reason)</td><td class="yes">3n + 2 = 100 gives n = 32.67, which is <strong>not an integer</strong>, so 100 is not a term</td></tr>
+<tr><td class="no">n = 294 (the last term) in S<sub>n</sub></td><td class="yes">n = the <strong>number</strong> of terms: (294 − 105) ÷ 7 + 1 = 28</td></tr>
+<tr><td class="no">n = 10 or n = −10.5</td><td class="yes">n = 10, because n must be a <strong>positive whole number</strong></td></tr>
+<tr><td class="no">sum after 32.3 weeks</td><td class="yes">round <strong>up</strong> to a whole week, then check both S<sub>32</sub> and S<sub>33</sub></td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why is the number in front of n in a linear nth term always the common difference?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Each time n goes up by 1, dn goes up by exactly d, and the constant stays the same. So consecutive terms differ by d.</p>
+<p>That is why you can read d straight off the sequence, and why a decreasing sequence must have a negative coefficient: 26 − 6n drops by 6 each time.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why is the formula u<sub>n</sub> = a + (n − 1)d and not a + nd?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The first term is a itself, with no steps added. The 2nd term has 1 step, the 3rd has 2, and so the nth has <strong>(n − 1)</strong> steps.</p>
+<p>A quick check: n = 1 must give a. a + (1 − 1)d = a ✓, but a + 1d would already be the 2nd term.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>The nth term is 5n − 3. Explain how you know that 72 is a term but 75 is not.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>5n − 3 = 72 gives 5n = 75, so n = 15, a whole number. So 72 is the 15th term.</p>
+<p>5n − 3 = 75 gives 5n = 78, so n = 15.6. There is no "15.6th term", so 75 is not in the sequence. Every term is 3 less than a multiple of 5, so ends in 2 or 7, and 75 does not.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Why does S<sub>n</sub> = n/2 (a + l) work? Use 1 + 2 + 3 + … + 100.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Pair the first and last terms: 1 + 100 = 101. The second and second-last: 2 + 99 = 101. Every pair adds to the same total, <strong>a + l</strong>, because as one term goes up by d the other goes down by d.</p>
+<p>There are 100 terms, so 50 pairs: 50 × 101 = 5050. In general, n/2 pairs, each worth (a + l). The formula-sheet version is the same thing with l = a + (n − 1)d put in.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why does "find n when S<sub>n</sub> is given" always lead to a quadratic, and why do you throw one answer away?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>S<sub>n</sub> = n/2 [2a + (n − 1)d] has n outside the bracket and n inside it. Multiplying out gives an <strong>n<sup>2</sup></strong> term, so it is a quadratic.</p>
+<p>The algebra gives two roots, but n counts terms, so it must be a <strong>positive whole number</strong>. A negative or fractional root has no meaning and is rejected, with a reason.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>What is the difference between an arithmetic sequence and an arithmetic series? Give an example of each.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A <strong>sequence</strong> is the list: 4, 7, 10, 13, …. Questions about it ask for a term, or the nth term.</p>
+<p>A <strong>series</strong> is the terms added: 4 + 7 + 10 + 13 + …. Questions about it ask for a sum, S<sub>n</sub>. If a question says "series", expect to use the formula-sheet sum.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>A student says the nth term of 4, 7, 12, 19, 28 is 3n + 1, because it "starts by going up in 3". What is wrong?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The differences are 3, 5, 7, 9. They are not constant, so it is <strong>not</strong> an arithmetic sequence and no rule of the form dn + c can fit it. 3n + 1 gives 4, 7, 10, and the third term is already wrong.</p>
+<p>It is n<sup>2</sup> + 3. Always look at more than one difference. On 4MA1 you would be given this rule and asked to use it, not to find it.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>In 2018 2H Q23 the sum of the first 30 terms was 0. How can a sum of 30 terms be zero?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The terms can be negative. 2a + 29d = 0 means a = −14.5d, so if d = 1 the series is −14.5 − 13.5 − … + 13.5 + 14.5. The first term and the 30th cancel, as do the 2nd and 29th, and so on.</p>
+<p>In the pairing picture, a + l = 0, so every pair adds to zero, and n/2 × (a + l) = 0.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>Here are the first four terms of a sequence: 3, 7, 11, 15. Write down the next two terms, and the term-to-term rule. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 19 and 23 <span class="mp">1</span>; B1 for "add 4" <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>Find an expression, in terms of n, for the nth term of 5, 8, 11, 14, … <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 3n + k <span class="mp">1</span>; A1 for <strong>3n + 2</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>Find an expression, in terms of n, for the nth term of 20, 14, 8, 2, … <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for −6n + k <span class="mp">1</span>; A1 for <strong>26 − 6n</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>The nth term of a sequence is 4n − 7.</p>
+<p>(a) Write down the first three terms. <span class="marks">(1)</span></p>
+<p>(b) Is 91 a term of this sequence? Give a reason. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for −3, 1, 5 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 4n − 7 = 91, so n = 24.5 <span class="mp">1</span>; A1 for "No, because 24.5 is not a whole number" <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>The nth term of a sequence is n<sup>2</sup> + 4.</p>
+<p>(a) Find the 5th term. <span class="marks">(1)</span></p>
+<p>(b) Which term of the sequence is equal to 229? <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 5<sup>2</sup> + 4 = <strong>29</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for n<sup>2</sup> + 4 = 229, so n<sup>2</sup> = 225 <span class="mp">1</span>; A1 for the <strong>15th</strong> term (n = −15 is rejected) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>The 2nd term of an arithmetic sequence is 7. The 5th term is 19. Find the first term and the common difference. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a + d = 7 and a + 4d = 19 <span class="mp">1</span></p>
+<p>M1 for subtracting: 3d = 12 <span class="mp">1</span></p>
+<p>A1 for <strong>a = 3, d = 4</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>Find the sum of the first 40 terms of the arithmetic series 4 + 7 + 10 + 13 + … <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for a = 4 and d = 3 <span class="mp">1</span></p>
+<p>M1 for 40/2 [2 × 4 + 39 × 3] <span class="mp">1</span></p>
+<p>A1 for 20 × 125 = <strong>2500</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>The 3rd term of an arithmetic series is 11. The 8th term of the same series is 31. Find the sum of the first 50 terms of the series. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a + 2d = 11 or a + 7d = 31 <span class="mp">1</span></p>
+<p>A1 for d = 4 (from 5d = 20) <span class="mp">1</span></p>
+<p>A1 for a = 3 <span class="mp">1</span></p>
+<p>M1 for 50/2 [2 × 3 + 49 × 4] <span class="mp">1</span></p>
+<p>A1 for 25 × 202 = <strong>5050</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>Find the sum of all the multiples of 6 between 100 and 400. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for the first term 102 and the last term 396 <span class="mp">1</span></p>
+<p>M1 for the number of terms: (396 − 102) ÷ 6 + 1 <span class="mp">1</span></p>
+<p>A1 for n = 50 <span class="mp">1</span></p>
+<p>A1 for 50/2 × (102 + 396) = 25 × 498 = <strong>12 450</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>An arithmetic series has first term 5 and common difference 4. The sum of the first n terms is 1224. Find the value of n. Show clear algebraic working. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for n/2 [10 + 4(n − 1)] = 1224 <span class="mp">1</span></p>
+<p>A1 for 2n<sup>2</sup> + 3n − 1224 = 0 <span class="mp">1</span></p>
+<p>M1 for (2n + 51)(n − 24) = 0, or the correct formula <span class="mp">1</span></p>
+<p>A1 for <strong>n = 24</strong> (n = −25.5 is rejected) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>Priya saves $15 in week 1. Each week after that she saves $3 more than the week before.</p>
+<p>(a) How much does she save in week 20? <span class="marks">(2)</span></p>
+<p>(b) How much has she saved altogether after 20 weeks? <span class="marks">(2)</span></p>
+<p>(c) In which week does her total first exceed $2000? <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 15 + 19 × 3 <span class="mp">1</span>; A1 for <strong>$72</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 20/2 × (15 + 72) or 10[30 + 19 × 3] <span class="mp">1</span>; A1 for <strong>$870</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for n/2 [30 + 3(n − 1)] &gt; 2000, giving 3n<sup>2</sup> + 27n − 4000 &gt; 0 <span class="mp">1</span></p>
+<p>M1 for solving 3n<sup>2</sup> + 27n − 4000 = 0, giving n = 32.29…, or for S<sub>32</sub> = 1968 and S<sub>33</sub> = 2079 <span class="mp">1</span></p>
+<p>A1 for <strong>week 33</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Pattern 1 uses 6 matchsticks, pattern 2 uses 11 and pattern 3 uses 16. The patterns continue in the same way.</p>
+<p>(a) Find an expression for the number of matchsticks in pattern n. <span class="marks">(2)</span></p>
+<p>(b) Which pattern uses exactly 151 matchsticks? <span class="marks">(1)</span></p>
+<p>(c) Kim has 400 matchsticks. What is the largest pattern number she can make? <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 5n + k <span class="mp">1</span>; A1 for <strong>5n + 1</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 5n + 1 = 151, so pattern <strong>30</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for 5n + 1 ≤ 400, so n ≤ 79.8 <span class="mp">1</span>; A1 for pattern <strong>79</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>In an arithmetic series, the 10th term is 3 times the 3rd term. The sum of the first 12 terms is 168. Find the first term and the common difference. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a + 9d = 3(a + 2d), which gives 2a = 3d <span class="mp">1</span></p>
+<p>M1 for 12/2 [2a + 11d] = 168, which gives 2a + 11d = 28 <span class="mp">1</span></p>
+<p>M1 for solving: 3d + 11d = 28 <span class="mp">1</span></p>
+<p>A1 for <strong>d = 2</strong> <span class="mp">1</span></p>
+<p>A1 for <strong>a = 3</strong> <span class="mp">1</span></p>
+<p>Check: u<sub>3</sub> = 7 and u<sub>10</sub> = 21 = 3 × 7 ✓</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>The first term of an arithmetic series is 11. The sum of the first 20 terms is 3 times the sum of the first 10 terms. Find the sum of the first 30 terms. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a correct expression for S<sub>20</sub> or S<sub>10</sub>: 10(22 + 19d) or 5(22 + 9d) <span class="mp">1</span></p>
+<p>M1 for a correct equation: 10(22 + 19d) = 3 × 5(22 + 9d) <span class="mp">1</span></p>
+<p>A1 for 220 + 190d = 330 + 135d, so 55d = 110, so d = 2 <span class="mp">1</span></p>
+<p>M1 for 30/2 [22 + 29 × 2] <span class="mp">1</span></p>
+<p>A1 for 15 × 80 = <strong>1200</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>Use the formula for the sum of an arithmetic series to prove that the sum of the first n odd numbers is n<sup>2</sup>. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a = 1, d = 2 substituted: n/2 [2 × 1 + (n − 1) × 2] <span class="mp">1</span></p>
+<p>M1 for simplifying the bracket: 2 + 2n − 2 = 2n <span class="mp">1</span></p>
+<p>A1 for n/2 × 2n = n<sup>2</sup>, with a conclusion <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 6 · Sequences and Arithmetic Series · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 5 · Equations and Inequalities — IGCSE Mathematics A 4MA1 (Higher)</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 5 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Equations and Inequalities</h1>
+  <p class="standfirst">The engine room of both papers. Every current-spec paper has a linear equation, a quadratic and a pair of simultaneous equations, and most have an inequality or a shaded region. The marks go to people who show each line of algebra: "show clear algebraic working" means a correct answer with no working can score nothing.</p>
+  <div class="meta">
+    <span class="tag"><strong>~11% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Spec <strong>2.4, 2.6 – 2.8</strong> (with 2.2D)</span>
+    <span class="tag">Appeared in <strong>4 of 4</strong> current-spec papers</span>
+    <span class="tag">Est. <strong>4 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q3(c) <span class="marks">(3)</span></td><td>Solve 5(x + 3) = 3x − 4, "show clear algebraic working"</td></tr>
+<tr><td>2018 Edexcel May 1H Q3(d) <span class="marks">(3)</span></td><td>Factorise x<sup>2</sup> + 2x − 24, then "hence" solve x<sup>2</sup> + 2x − 24 = 0</td></tr>
+<tr><td>2018 Edexcel May 1H Q11(b) <span class="marks">(3)</span></td><td>Solve 3x<sup>2</sup> + 6x − 5 = 0 to 3 significant figures: the quadratic formula</td></tr>
+<tr><td>2018 Edexcel May 1H Q12 <span class="marks">(4)</span></td><td>Read the solution of two simultaneous equations off a graph, then shade the region defined by five inequalities</td></tr>
+<tr><td>2018 Edexcel May 2H Q1(b) <span class="marks">(2)</span></td><td>Solve the inequality 5x − 4 &lt; 39</td></tr>
+<tr><td>2018 Edexcel May 2H Q9 <span class="marks">(3)</span></td><td>Simultaneous equations x + y = 15 and 7x − 5y = 3</td></tr>
+<tr><td>2018 Edexcel May 2H Q21(c) <span class="marks">(2)</span></td><td>Complete the square on x<sup>2</sup> + 6√2x − 1, giving (x + a)<sup>2</sup> + b</td></tr>
+<tr><td>2018 Edexcel May 2H Q22 <span class="marks">(6)</span></td><td>Intersecting chords give x<sup>2</sup> + 16x − 80 = 0; solve and reject the negative root</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q6(b) <span class="marks">(3)</span></td><td>Solve x<sup>2</sup> − 4x − 12 = 0 by factorising</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q15 <span class="marks">(7)</span></td><td>Lawn and path: show that 6x<sup>2</sup> + 7x − 98 = 0, solve it, then find the area</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q4(e) <span class="marks">(3)</span></td><td>Solve 5(x + 7) = 2x − 10</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q9 <span class="marks">(3)</span></td><td>Simultaneous equations 3x + y = 13 and x − 2y = 9</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q14 <span class="marks">(5)</span></td><td>Draw 4x + 3y = 12, then shade the region defined by four inequalities</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q22 <span class="marks">(4)</span></td><td>Write 2x<sup>2</sup> − 8x + 9 as a(x + b)<sup>2</sup> + c; explain why the curve never meets the x-axis</td></tr>
+<tr><td>2014 Edexcel Jan 4H Q22 <span class="marks">(7)</span></td><td>2x − y = 7 and x<sup>2</sup> + y<sup>2</sup> = 34: linear with quadratic (old spec)</td></tr>
+<tr><td>2013 Edexcel Jan 4H Q26 <span class="marks">(6)</span></td><td>y = 3x + 2 and x<sup>2</sup> + y<sup>2</sup> = 20 (old spec; the same pair came back in January 2016)</td></tr>
+<tr><td>2015 Edexcel Jan 4HR Q14 <span class="marks">(4)</span></td><td>Solve x<sup>2</sup> − 4x − 1 = 0 to 3 s.f., then "hence" solve the same equation in (x + 3) (old spec)</td></tr>
+<tr><td>2016 Edexcel Jan 3H Q16 <span class="marks">(3)</span></td><td>Solve the quadratic inequality 5x<sup>2</sup> − 13 &lt; 32 (old spec)</td></tr>
+</table>
+
+<div class="trap">
+<p>The front of the May 2018 1H mark scheme sets the rule for every "show your working" equation:</p>
+<p><span class="said">"Apart from questions 3c, 11b and 20 (where the mark scheme states otherwise) the correct answer, unless clearly obtained from an incorrect method, should be taken to imply a correct method."</span></p>
+<p>Q3c and Q11b were the linear equation and the quadratic formula. On those, a bare correct answer is <strong>not</strong> enough. Write every line: expand, collect, divide. For the formula, write the substitution out in full.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>An equation is a balance. Whatever you do to one side you do to the other, until the letter is on its own. Inequalities follow the same rules, with one extra: multiplying or dividing by a negative number reverses the sign. Quadratics need one more idea: if two things multiply to give zero, one of them must be zero.</p>
+
+<h3>Linear equations with brackets and unknowns on both sides</h3>
+<p class="asked">Spec 2.4A · <strong>2018 Edexcel May 1H Q3(c)</strong> · <strong>2016 Edexcel SAM 2H Q4(e)</strong></p>
+<p><strong>Get rid of brackets, get every x-term on one side and every number on the other, then divide.</strong></p>
+<ol>
+<li><strong>Expand</strong> any brackets, taking care with a minus sign in front.</li>
+<li><strong>Collect the x-terms</strong> on the side where there are more of them, so the x-coefficient stays positive.</li>
+<li><strong>Collect the numbers</strong> on the other side.</li>
+<li><strong>Divide</strong> by the coefficient of x. Leave the answer as a fraction or exact decimal unless told otherwise.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve 4(x − 2) = 7x + 13</h4>
+<p>4x − 8 = 7x + 13 &nbsp; <strong>(M1: brackets expanded correctly)</strong></p>
+<p>−8 − 13 = 7x − 4x &nbsp; → &nbsp; −21 = 3x &nbsp; <strong>(M1: x-terms on one side, numbers on the other)</strong></p>
+<p>x = <strong>−7</strong> &nbsp; <strong>(A1)</strong></p>
+<p>Check: 4(−7 − 2) = −36 and 7(−7) + 13 = −36. ✓</p>
+</div>
+<div class="trap">
+<p>✗ 3(x − 4) − 2(x − 5) → 3x − 12 − 2x − 10. The second bracket has a −2 in front, so −2 × −5 = <strong>+10</strong>.<br>
+✗ 3x = 12 → x = 36, or x = 12 − 3. Dividing is the only move that undoes "3 times".<br>
+✓ 3x − 12 − 2x + 10 = x − 2.</p>
+</div>
+
+<h3>Equations with fractions, and forming equations</h3>
+<p class="asked">Spec 2.4A, 2.4B · <strong>2017 Edexcel Jan 3HR Q16(a)</strong> (old spec)</p>
+<p><strong>Multiply every term, on both sides, by the lowest common denominator. Then the fractions disappear and it is an ordinary linear equation.</strong></p>
+<ol>
+<li>Find the <strong>LCD</strong> of all the denominators.</li>
+<li><strong>Multiply every term</strong> by it, including any term with no fraction. Put each numerator in a bracket first.</li>
+<li>Expand, collect and solve as before.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve (2x + 1)/3 − (x − 2)/4 = 2</h4>
+<p>LCD = 12. &nbsp; 4(2x + 1) − 3(x − 2) = 24 &nbsp; <strong>(M1: all three terms multiplied by 12)</strong></p>
+<p>8x + 4 − 3x + 6 = 24 &nbsp; <strong>(M1: brackets expanded, sign on the +6 correct)</strong></p>
+<p>5x = 14 &nbsp; → &nbsp; x = <strong>2.8</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<p><strong>Forming an equation.</strong> Turn the words into algebra, then solve. For example, the angles of a triangle are a°, (a + 10)° and (a + 20)°, so a + a + 10 + a + 20 = 180, 3a = 150 and a = 50.</p>
+<div class="trap">
+<p>✗ Multiplying only the fractions by 12 and leaving the "= 2" alone. The 2 must become 24.<br>
+✗ 4(2x + 1) − 3x − 2. Without the bracket the −3 only hits the x, so the sign of the −2 is wrong.<br>
+✓ Bracket every numerator before you multiply out.</p>
+</div>
+
+<h3>Linear inequalities and the number line</h3>
+<p class="asked">Spec 2.8 (Foundation A–C) · <strong>2018 Edexcel May 2H Q1(b)</strong> · <strong>2013 Edexcel Jan 3H Q7</strong> (old spec)</p>
+<p><strong>Solve an inequality exactly like an equation, except that multiplying or dividing by a negative number reverses the inequality sign.</strong></p>
+<ol>
+<li>Treat the inequality sign like an equals sign: add, subtract, multiply and divide both sides.</li>
+<li>If you <strong>multiply or divide by a negative</strong>, <strong>flip the sign</strong>. Or avoid it by moving the x-term to the other side.</li>
+<li>For a <strong>double inequality</strong>, such as −3 &lt; 2x + 1 ≤ 9, do the same thing to all <strong>three</strong> parts.</li>
+<li>On a number line, use an <strong>open circle</strong> for &lt; or &gt; and a <strong>filled circle</strong> for ≤ or ≥.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve −3 &lt; 2x + 1 ≤ 9 and list the integers</h4>
+<p>Subtract 1 from all three parts: −4 &lt; 2x ≤ 8 &nbsp; <strong>(M1)</strong></p>
+<p>Divide all three parts by 2: <strong>−2 &lt; x ≤ 4</strong> &nbsp; <strong>(A1)</strong></p>
+<p>Integers: <strong>−1, 0, 1, 2, 3, 4</strong>. −2 is not included (strict &lt;); 4 is included (≤) &nbsp; <strong>(B1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example: solve 7 − 3x ≥ 19</h4>
+<p>−3x ≥ 12. Divide by −3 and <strong>flip</strong>: x ≤ −4.</p>
+<p>Or avoid the negative: 7 − 19 ≥ 3x, so −12 ≥ 3x, so −4 ≥ x, which is the same as <strong>x ≤ −4</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ −3x ≥ 12 → x ≥ −4. The sign did not flip. Test x = 0: 7 − 0 ≥ 19 is false, so x ≥ −4 cannot be right.<br>
+✗ Writing "x = 3" as the answer to an inequality. The answer is a <strong>range</strong>, with an inequality sign in it.<br>
+✓ Test one value from your answer in the original inequality before moving on.</p>
+</div>
+
+<h3>Simultaneous linear equations by elimination</h3>
+<p class="asked">Spec 2.6A · <strong>2018 Edexcel May 2H Q9</strong> · <strong>2016 Edexcel SAM 2H Q9</strong></p>
+<p><strong>Make the coefficients of one letter the same size, then add or subtract the equations so that letter disappears.</strong></p>
+<ol>
+<li><strong>Multiply</strong> one or both equations so that x (or y) has the same coefficient in each.</li>
+<li><strong>Same signs, subtract. Different signs, add.</strong></li>
+<li><strong>Solve</strong> the equation in one letter.</li>
+<li><strong>Substitute</strong> back into an original equation to find the other letter.</li>
+<li><strong>Check</strong> both values in the <em>other</em> original equation.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 3x + 2y = 16 and 5x − 3y = 14</h4>
+<p>× 3 and × 2: &nbsp; 9x + 6y = 48 &nbsp; and &nbsp; 10x − 6y = 28 &nbsp; <strong>(M1: coefficients of y matched)</strong></p>
+<p>The y-signs are different, so add: 19x = 76, so x = 4 &nbsp; <strong>(M1: correct operation to eliminate y)</strong></p>
+<p>3(4) + 2y = 16, so 2y = 4, so y = 2. &nbsp; <strong>x = 4, y = 2</strong> &nbsp; <strong>(A1)</strong></p>
+<p>Check in the second equation: 5(4) − 3(2) = 14. ✓</p>
+</div>
+<p>If one equation is already "y = …" or "x = …", <strong>substitution</strong> is quicker. Put that expression into the other equation.</p>
+<div class="trap">
+<p>✗ 9x + 6y = 48 and 10x − 6y = 28, subtracted: −x + 12y = 20. That removes nothing.<br>
+✗ Multiplying only the left-hand side: 3x + 2y = 16 becomes 9x + 6y = 16.<br>
+✓ Multiply <strong>every</strong> term, including the right-hand side. Add when the signs are different.</p>
+</div>
+
+<h3>Simultaneous equations as intersecting lines</h3>
+<p class="asked">Spec 2.6B · <strong>2018 Edexcel May 1H Q12(a)</strong></p>
+<p><strong>The solution of two simultaneous equations is the point where their graphs cross.</strong></p>
+<p>Every point on a line satisfies that line's equation. The crossing point lies on both lines, so it satisfies both equations at once. In 2018 1H Q12(a) the lines 3y = 2x + 6 and 4x + 3y = 24 crossed at (3, 4), so the answer was x = 3, y = 4, read straight off the grid for 1 mark.</p>
+<ul>
+<li>Parallel lines never meet, so their equations have <strong>no solution</strong>.</li>
+<li>A reading off a graph is an <strong>estimate</strong>. If the question says "show clear algebraic working", a graphical answer scores nothing.</li>
+</ul>
+
+<h3>Quadratic equations by factorising</h3>
+<p class="asked">Spec 2.7A · <strong>2018 Edexcel May 1H Q3(d)</strong> · <strong>2016 Edexcel SAM 1H Q6(b)</strong></p>
+<p><strong>Rearrange to "= 0", factorise, then set each bracket equal to zero. If two numbers multiply to give 0, one of them must be 0.</strong></p>
+<ol>
+<li><strong>Rearrange</strong> so that one side is 0: ax<sup>2</sup> + bx + c = 0.</li>
+<li><strong>Factorise.</strong> For x<sup>2</sup> + bx + c, find two numbers that multiply to c and add to b. For ax<sup>2</sup> + bx + c, find two numbers that multiply to <strong>ac</strong> and add to b, then split the middle term.</li>
+<li>Set <strong>each bracket = 0</strong> and solve. There are usually <strong>two</strong> answers.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve 2x<sup>2</sup> + 5x − 12 = 0</h4>
+<p>ac = 2 × −12 = −24. Two numbers that multiply to −24 and add to 5: <strong>8 and −3</strong>.</p>
+<p>2x<sup>2</sup> + 8x − 3x − 12 = 2x(x + 4) − 3(x + 4) = (2x − 3)(x + 4) &nbsp; <strong>(M1: correct factors)</strong></p>
+<p>2x − 3 = 0 or x + 4 = 0 &nbsp; → &nbsp; <strong>x = 1.5 or x = −4</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<p>Special cases: x<sup>2</sup> − 25 = 0 is a <strong>difference of two squares</strong>, (x − 5)(x + 5) = 0, so x = ±5. For x<sup>2</sup> = 7x, rearrange to x<sup>2</sup> − 7x = 0, so x(x − 7) = 0, giving x = 0 or x = 7.</p>
+<div class="trap">
+<p>✗ (x − 4)(x + 6) = 0 → x = −4 or x = 6. The signs flip: x − 4 = 0 gives x = <strong>+4</strong>.<br>
+✗ x<sup>2</sup> = 7x → divide by x → x = 7. Dividing by x throws away the solution <strong>x = 0</strong>.<br>
+✓ Always rearrange to "= 0" and factorise. Never divide by x.</p>
+</div>
+
+<h3>The quadratic formula</h3>
+<p class="asked">Spec 2.7B · <strong>2018 Edexcel May 1H Q11(b)</strong> · <strong>2015 Edexcel Jan 4HR Q14</strong> (old spec)</p>
+<p><strong>The formula solves every quadratic, factorisable or not. Use it whenever the question asks for decimals or significant figures.</strong></p>
+<div class="eq"><span class="name">The quadratic formula — on the formula sheet</span>x = (−b ± √(b<sup>2</sup> − 4ac)) ÷ 2a<span class="sym">solves ax<sup>2</sup> + bx + c = 0 (a ≠ 0) · the whole of −b ± √… is divided by 2a</span></div>
+<ol>
+<li>Rearrange to ax<sup>2</sup> + bx + c = 0 and write down <strong>a, b and c with their signs</strong>.</li>
+<li><strong>Substitute</strong> in full and write it down. That line is the M marks.</li>
+<li>Work out <strong>b<sup>2</sup> − 4ac</strong> first, then the two answers: one with +, one with −.</li>
+<li><strong>Round at the end</strong>, to the accuracy asked.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve 2x<sup>2</sup> − 7x + 2 = 0, giving answers to 3 s.f.</h4>
+<p>a = 2, b = −7, c = 2</p>
+<p>x = (7 ± √((−7)<sup>2</sup> − 4 × 2 × 2)) ÷ (2 × 2) = (7 ± √33) ÷ 4 &nbsp; <strong>(M1: correct substitution · M1: √33 correctly evaluated)</strong></p>
+<p>x = (7 + 5.7445…) ÷ 4 = 3.186… &nbsp; or &nbsp; x = (7 − 5.7445…) ÷ 4 = 0.3138…</p>
+<p><strong>x = 3.19 or x = 0.314</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ b = 7 when the equation says −7x. Then −b is wrong and so is everything after it.<br>
+✗ −7<sup>2</sup> typed into a calculator gives −49. Type <strong>(−7)<sup>2</sup></strong> = 49.<br>
+✗ 7 ± √33 ÷ 4, where only the root is divided by 4. The <strong>whole numerator</strong> goes over 2a.<br>
+✓ Write the substitution with brackets round every negative number.</p>
+</div>
+
+<h3>Completing the square and the turning point</h3>
+<p class="asked">Spec 2.2D, 2.7B · <strong>2016 Edexcel SAM 2H Q22</strong> · <strong>2018 Edexcel May 2H Q21(c)</strong></p>
+<p><strong>Halve the coefficient of x to make the bracket, then subtract the square of that half to put the expression back as it was.</strong></p>
+<div class="eq"><span class="name">Completing the square — memorise</span>x<sup>2</sup> + bx + c = (x + b/2)<sup>2</sup> − (b/2)<sup>2</sup> + c<span class="sym">b/2 = half the x-coefficient · the turning point of y = (x + p)<sup>2</sup> + q is (−p, q)</span></div>
+<ol>
+<li>If the x<sup>2</sup> term has a coefficient a ≠ 1, <strong>take a out</strong> of the x<sup>2</sup> and x terms first: a(x<sup>2</sup> + (b/a)x) + c.</li>
+<li>Write <strong>(x + half)<sup>2</sup></strong> and <strong>subtract half<sup>2</sup></strong>.</li>
+<li>Tidy the numbers. If you took a out, multiply the subtracted square by a.</li>
+<li>To <strong>solve</strong>: make the bracket the subject, square-root (±), then isolate x.</li>
+<li><strong>Turning point</strong> of y = a(x + p)<sup>2</sup> + q is <strong>(−p, q)</strong>: a minimum if a &gt; 0, a maximum if a &lt; 0.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: x<sup>2</sup> + 6x − 5</h4>
+<p>Half of 6 is 3: (x + 3)<sup>2</sup> − 9 − 5 = <strong>(x + 3)<sup>2</sup> − 14</strong> &nbsp; <strong>(M1: (x + 3)<sup>2</sup> seen · A1)</strong></p>
+<p><strong>Solve</strong> x<sup>2</sup> + 6x − 5 = 0: (x + 3)<sup>2</sup> = 14, so x + 3 = ±√14, so <strong>x = −3 ± √14</strong> (0.742 or −6.74).</p>
+<p><strong>Turning point</strong> of y = x<sup>2</sup> + 6x − 5: the bracket is 0 when x = −3, and then y = −14. Minimum at <strong>(−3, −14)</strong>.</p>
+</div>
+<div class="panel">
+<h4>Worked example: 2x<sup>2</sup> − 12x + 7 in the form a(x + b)<sup>2</sup> + c</h4>
+<p>2(x<sup>2</sup> − 6x) + 7 &nbsp; <strong>(M1: 2 taken out of the first two terms)</strong></p>
+<p>2[(x − 3)<sup>2</sup> − 9] + 7 = 2(x − 3)<sup>2</sup> − 18 + 7 &nbsp; <strong>(M1)</strong></p>
+<p>= <strong>2(x − 3)<sup>2</sup> − 11</strong>, so a = 2, b = −3, c = −11 &nbsp; <strong>(A1)</strong></p>
+</div>
+<p>SAM 2H Q22(b) asked why y = 2x<sup>2</sup> − 8x + 9 never meets the x-axis. 2x<sup>2</sup> − 8x + 9 = 2(x − 2)<sup>2</sup> + 1. A square is never negative, so y ≥ 1: the minimum point (2, 1) is <strong>above</strong> the x-axis.</p>
+<div class="trap">
+<p>✗ 2(x − 3)<sup>2</sup> − 9 + 7. The −9 is inside the bracket that is multiplied by 2, so it becomes <strong>−18</strong>.<br>
+✗ Turning point of (x + 3)<sup>2</sup> − 14 is (3, −14). The x-coordinate is the value that makes the bracket zero: <strong>−3</strong>.<br>
+✓ Expand your answer back out to check it gives the original expression.</p>
+</div>
+
+<h3>Forming and solving quadratics from a context</h3>
+<p class="asked">Spec 2.7C · <strong>2016 Edexcel SAM 1H Q15</strong> · <strong>2018 Edexcel May 2H Q22</strong></p>
+<p><strong>Write an expression for the quantity you are given (an area, a total, a product), set it equal to the value, rearrange to "= 0" and solve.</strong> Then check which answers make sense.</p>
+<ol>
+<li>Write the <strong>expression</strong> (for example, area = length × width) using the lengths in x.</li>
+<li><strong>Set it equal</strong> to the given value and <strong>expand</strong>.</li>
+<li><strong>Rearrange</strong> to ax<sup>2</sup> + bx + c = 0. In a "show that", this line must match the question exactly.</li>
+<li><strong>Solve</strong>, then <strong>reject</strong> any answer that gives a negative length, a negative number of people, and so on. Say why.</li>
+<li><strong>Answer the question asked.</strong> It usually wants an area or a perimeter, not x.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: a rectangle is (x + 4) cm by (x − 1) cm, with area 36 cm². Find its perimeter.</h4>
+<p>(x + 4)(x − 1) = 36 &nbsp; → &nbsp; x<sup>2</sup> + 3x − 4 = 36 &nbsp; → &nbsp; x<sup>2</sup> + 3x − 40 = 0 &nbsp; <strong>(M1 · A1)</strong></p>
+<p>(x + 8)(x − 5) = 0 &nbsp; → &nbsp; x = 5 or x = −8 &nbsp; <strong>(M1)</strong></p>
+<p>x = −8 gives a width of −9 cm, which is impossible, so <strong>x = 5</strong> &nbsp; <strong>(A1)</strong></p>
+<p>Rectangle is 9 cm by 4 cm, so the perimeter is 2(9 + 4) = <strong>26 cm</strong> &nbsp; <strong>(M1 · A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ Stopping at "x = 5". The question asked for the perimeter.<br>
+✗ Keeping both roots. The SAM 1H Q15 scheme said "Ignore negative root". Reject it and say why.</p>
+</div>
+
+<h3>Simultaneous equations: one linear, one quadratic</h3>
+<p class="asked">Spec 2.7D · <strong>2014 Edexcel Jan 4H Q22</strong> · <strong>2013 Edexcel Jan 4H Q26</strong> (old spec)</p>
+<p><strong>Rearrange the linear equation to make one letter the subject, substitute it into the quadratic, and solve the resulting quadratic. There are usually two pairs of answers.</strong></p>
+<ol>
+<li>Make <strong>y</strong> (or x) the subject of the <strong>linear</strong> equation.</li>
+<li><strong>Substitute</strong> into the quadratic one, using brackets: (2x − 1)<sup>2</sup>, not 2x − 1<sup>2</sup>.</li>
+<li><strong>Expand and simplify</strong> to a 3-term quadratic = 0. Divide through by a common factor if there is one.</li>
+<li><strong>Solve</strong> (factorise or formula).</li>
+<li>Put each x into the <strong>linear</strong> equation to get its partner y. Give the answers as <strong>pairs</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: y = x + 1 and x<sup>2</sup> + y<sup>2</sup> = 13</h4>
+<p>x<sup>2</sup> + (x + 1)<sup>2</sup> = 13 &nbsp; <strong>(M1: substitution)</strong></p>
+<p>x<sup>2</sup> + x<sup>2</sup> + 2x + 1 = 13 &nbsp; → &nbsp; 2x<sup>2</sup> + 2x − 12 = 0 &nbsp; → &nbsp; x<sup>2</sup> + x − 6 = 0 &nbsp; <strong>(M1: 3-term quadratic)</strong></p>
+<p>(x + 3)(x − 2) = 0 &nbsp; → &nbsp; x = −3 or x = 2 &nbsp; <strong>(M1 · A1)</strong></p>
+<p>y = x + 1: &nbsp; <strong>x = 2, y = 3</strong> and <strong>x = −3, y = −2</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<p>Geometrically, this finds where a straight line crosses a circle (x<sup>2</sup> + y<sup>2</sup> = 13 is a circle, centre O, radius √13) or a curve. Two points of intersection give two pairs.</p>
+<div class="trap">
+<p>✗ (x + 1)<sup>2</sup> = x<sup>2</sup> + 1. The middle term, <strong>2x</strong>, is missing. Write (x + 1)(x + 1) if you need to.<br>
+✗ Pairing the answers wrongly: x = 2 with y = −2. Each x gives its <strong>own</strong> y.<br>
+✓ Substitute each pair back into the quadratic equation as a check: 2<sup>2</sup> + 3<sup>2</sup> = 13 ✓.</p>
+</div>
+
+<h3>Quadratic inequalities</h3>
+<p class="asked">Spec 2.8A · <strong>2016 Edexcel Jan 3H Q16</strong> (old spec) · <strong>2018 Edexcel May 2H Q17(b)</strong></p>
+<p><strong>Find the critical values by solving the equation, sketch the parabola, then read off where the graph is below (&lt; 0) or above (&gt; 0) the x-axis.</strong></p>
+<ol>
+<li>Rearrange to <strong>quadratic &lt; 0</strong> (or &gt; 0, ≤ 0, ≥ 0).</li>
+<li>Solve the <strong>equation</strong> = 0 to get the two <strong>critical values</strong>.</li>
+<li><strong>Sketch</strong> the U-shaped curve (for a positive x<sup>2</sup> term) through them.</li>
+<li><strong>&lt; 0</strong>: the part <strong>below</strong> the axis, which is <strong>between</strong> the roots, <strong>one</strong> inequality: p &lt; x &lt; q.<br>
+<strong>&gt; 0</strong>: the parts <strong>above</strong>, which are the <strong>two tails</strong>, written as <strong>two</strong> inequalities: x &lt; p <strong>or</strong> x &gt; q.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: solve x<sup>2</sup> − x − 12 &lt; 0</h4>
+<p>(x − 4)(x + 3) = 0 gives critical values <strong>−3 and 4</strong> &nbsp; <strong>(M1 · A1)</strong></p>
+<p>U-shaped curve, below the axis between the roots: <strong>−3 &lt; x &lt; 4</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example: solve 2x<sup>2</sup> + 5x − 3 &gt; 0</h4>
+<p>(2x − 1)(x + 3) = 0 gives critical values −3 and ½. Above the axis means the tails: <strong>x &lt; −3 or x &gt; ½</strong>.</p>
+</div>
+<div class="panel">
+<h4>Worked example: solve x<sup>2</sup> ≥ 25</h4>
+<p>Critical values ±5. x<sup>2</sup> − 25 ≥ 0 means the tails: <strong>x ≤ −5 or x ≥ 5</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ x<sup>2</sup> &lt; 16 → x &lt; ±4, or x &lt; 4. x = −10 satisfies x &lt; 4 but (−10)<sup>2</sup> = 100 is not less than 16.<br>
+✗ "−3 &gt; x &gt; 5" for the two tails. No number is both less than −3 and greater than 5.<br>
+✓ x<sup>2</sup> &lt; 16 → <strong>−4 &lt; x &lt; 4</strong>. The tails need <strong>two separate</strong> inequalities joined by "or".</p>
+</div>
+
+<h3>Regions defined by linear inequalities</h3>
+<p class="asked">Spec 2.8 (Foundation D–E, Higher B) · <strong>2018 Edexcel May 1H Q12(b)</strong> · <strong>2016 Edexcel SAM 2H Q14</strong></p>
+<p><strong>Draw each boundary line, then use a test point to decide which side of each line is wanted. The region is where every inequality is true at once.</strong></p>
+<ol>
+<li>Draw each boundary as a straight line. For x + y = 7, the easy points are (0, 7) and (7, 0).</li>
+<li>For each line, <strong>test a point</strong> not on it, usually (0, 0). If it makes the inequality true, that side is wanted.</li>
+<li>Find the region that is on the correct side of <strong>every</strong> line. Shade it, or shade what is not wanted if the question says so, and <strong>label it R</strong>.</li>
+<li>y &gt; … is above a line, y &lt; … is below it, x &gt; … is to the right, and x &lt; … is to the left.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: y ≥ 2, y ≤ 2x + 1 and x + y ≤ 7</h4>
+<p>y ≥ 2: on or above the horizontal line y = 2. y ≤ 2x + 1: test (0, 0): 0 ≤ 1 is true, so the side containing O, below the line. x + y ≤ 7: test (0, 0): 0 ≤ 7 is true, so the side containing O.</p>
+<p>The region is the triangle with vertices <strong>(0.5, 2)</strong>, <strong>(5, 2)</strong> and <strong>(2, 5)</strong>. Each vertex is where two boundary lines cross, for example 2x + 1 = 7 − x gives x = 2.</p>
+<svg viewBox="0 0 260 270" width="240" role="img" aria-label="Triangle region between y = 2, y = 2x + 1 and x + y = 7" style="max-width:100%">
+<polygon points="45,190 180,190 90,100" fill="currentColor" fill-opacity="0.18"/>
+<line x1="30" y1="250" x2="250" y2="250" stroke="currentColor"/><line x1="30" y1="250" x2="30" y2="10" stroke="currentColor"/>
+<line x1="30" y1="190" x2="240" y2="190" stroke="currentColor" stroke-dasharray="4 3"/>
+<line x1="30" y1="220" x2="135" y2="10" stroke="currentColor" stroke-dasharray="4 3"/>
+<line x1="30" y1="40" x2="240" y2="250" stroke="currentColor" stroke-dasharray="4 3"/>
+<text x="100" y="170" font-size="14" fill="currentColor">R</text>
+<text x="200" y="184" font-size="11" fill="currentColor">y = 2</text>
+<text x="118" y="30" font-size="11" fill="currentColor">y = 2x + 1</text>
+<text x="170" y="150" font-size="11" fill="currentColor">x + y = 7</text>
+<text x="244" y="264" font-size="11" fill="currentColor">x</text><text x="18" y="16" font-size="11" fill="currentColor">y</text>
+</svg>
+</div>
+<p>The spec says "conventions for the inclusion of boundaries are not required", so solid and dashed lines both score. The 2018 1H scheme accepted <span class="said">"May shade wanted or unwanted regions"</span>, provided the region is clear and labelled.</p>
+<div class="trap">
+<p>✗ Shading below y = 2x + 1 by eye without testing a point. For a steep line, "below" and "to the right" are easy to confuse.<br>
+✗ Forgetting to label R, which leaves the examiner guessing which region you meant.<br>
+✓ Tick each inequality against one point inside your region before you finish.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>Methods and formulae to have ready</h4>
+<p><strong>Linear:</strong> expand → x-terms one side → numbers the other → divide. Fractions: multiply <em>every</em> term by the LCD.</p>
+<p><strong>Inequality:</strong> as an equation, but × or ÷ by a negative <strong>flips the sign</strong>.</p>
+<p><strong>Simultaneous (linear):</strong> match coefficients; same signs subtract, different signs add; substitute back; check.</p>
+<p><strong>Quadratic:</strong> = 0 first. Factorise, or use x = (−b ± √(b<sup>2</sup> − 4ac)) ÷ 2a (on the formula sheet), or complete the square.</p>
+<p><strong>Completing the square:</strong> x<sup>2</sup> + bx + c = (x + b/2)<sup>2</sup> − (b/2)<sup>2</sup> + c. Turning point of y = a(x + p)<sup>2</sup> + q is (−p, q).</p>
+<p><strong>Linear + quadratic:</strong> substitute the linear into the quadratic, solve, and pair each x with its own y.</p>
+<p><strong>Quadratic inequality:</strong> critical values, sketch. <strong>&lt; 0 → between</strong> (p &lt; x &lt; q). <strong>&gt; 0 → tails</strong> (x &lt; p or x &gt; q).</p>
+<p><strong>Regions:</strong> draw the lines, test (0, 0) for each, label R.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Equation</td><td>A statement that two expressions are <strong>equal</strong>, true only for particular values of the unknown</td></tr>
+<tr><td>Identity</td><td>A statement that is true for <strong>all</strong> values of the variable, written with ≡</td></tr>
+<tr><td>Solution (root)</td><td>A value of the unknown that makes the equation <strong>true</strong></td></tr>
+<tr><td>Quadratic equation</td><td>An equation that can be written as ax<sup>2</sup> + bx + c = 0 with <strong>a ≠ 0</strong></td></tr>
+<tr><td>Integer</td><td>A <strong>whole number</strong>: positive, negative or zero</td></tr>
+<tr><td>Critical values</td><td>The solutions of the <strong>equation</strong> that mark the ends of the range for an inequality</td></tr>
+<tr><td>Turning point</td><td>The point where a curve changes direction: a <strong>maximum or minimum</strong>, the vertex of a parabola</td></tr>
+<tr><td>Region</td><td>The set of points on a graph that satisfy <strong>all</strong> the given inequalities</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">x<sup>2</sup> = 9, so x = 3</td><td class="yes">x = <strong>±3</strong>: 3 or −3</td></tr>
+<tr><td class="no">x<sup>2</sup> = 5x, so x = 5 (after dividing by x)</td><td class="yes">x(x − 5) = 0, so <strong>x = 0 or x = 5</strong></td></tr>
+<tr><td class="no">−2x &gt; 8, so x &gt; −4</td><td class="yes">÷ −2 <strong>flips</strong> the sign: x &lt; −4</td></tr>
+<tr><td class="no">x<sup>2</sup> &lt; 16, so x &lt; ±4</td><td class="yes"><strong>−4 &lt; x &lt; 4</strong></td></tr>
+<tr><td class="no">x = 0.7 and −2.7, then rounding again later</td><td class="yes">keep the full calculator value, then round <strong>once</strong> at the end: 0.742, −6.74</td></tr>
+<tr><td class="no">x = 2, x = −3, y = 3, y = −2</td><td class="yes">pairs: <strong>x = 2, y = 3</strong> and <strong>x = −3, y = −2</strong></td></tr>
+<tr><td class="no">x = −8 or x = 5, when x is a length</td><td class="yes">x = −8 is impossible because it gives a negative length, so <strong>x = 5</strong></td></tr>
+<tr><td class="no">an answer with no working when the question says "show clear algebraic working"</td><td class="yes">every line of algebra, because a bare answer can score <strong>0</strong></td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>A student solves x<sup>2</sup> = 6x by dividing both sides by x and gets x = 6. What has gone wrong?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Dividing by x is only allowed if x ≠ 0, and x = 0 is one of the solutions. 0<sup>2</sup> = 6 × 0 is true.</p>
+<p>The safe method is to rearrange to x<sup>2</sup> − 6x = 0, factorise to x(x − 6) = 0, and read off <strong>x = 0 or x = 6</strong>. A quadratic usually has two solutions. If you only find one, check how you lost the other.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why does multiplying an inequality by −1 reverse the sign? Use 2 &lt; 5 to explain.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>2 &lt; 5 is true. Multiply both by −1: −2 and −5. On the number line, −2 is to the <strong>right</strong> of −5, so −2 &gt; −5. The order has swapped.</p>
+<p>Multiplying by a negative reflects every number in 0, so the larger one becomes the smaller one. That is why the sign must flip. You can avoid it altogether by moving the x-term to the side where it will be positive.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why does x<sup>2</sup> &lt; 9 give −3 &lt; x &lt; 3, but x<sup>2</sup> &gt; 9 give x &lt; −3 or x &gt; 3?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Sketch y = x<sup>2</sup> − 9. It is a U-shape crossing the x-axis at −3 and 3.</p>
+<p><strong>x<sup>2</sup> − 9 &lt; 0</strong> means the curve is below the axis. That happens only <strong>between</strong> the roots, so it is one joined-up range.</p>
+<p><strong>x<sup>2</sup> − 9 &gt; 0</strong> means above the axis, which happens on <strong>both</strong> outer sides. These are two separate pieces, so there are two inequalities joined by "or". Test x = −10: 100 &gt; 9 is true, so the left-hand tail really is included.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>How can you tell quickly whether a quadratic will factorise, and what does the formula do when b<sup>2</sup> − 4ac is negative?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Work out <strong>b<sup>2</sup> − 4ac</strong>. If it is a <strong>perfect square</strong> (0, 1, 4, 9, 16, …), the roots are rational and the quadratic factorises. If not (e.g. 33), the roots involve a surd, so use the formula or complete the square.</p>
+<p>If b<sup>2</sup> − 4ac is <strong>negative</strong>, there is no real square root, so the equation has <strong>no real solutions</strong>. The graph of y = ax<sup>2</sup> + bx + c does not cross the x-axis.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why does writing y = (x − 2)<sup>2</sup> + 5 tell you straight away that the minimum point is (2, 5)?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>(x − 2)<sup>2</sup> is a square, so it is <strong>never negative</strong>. Its smallest possible value is 0, when x = 2.</p>
+<p>So the smallest y can be is 0 + 5 = 5, when x = 2. Every other x adds something positive. That is the minimum point: <strong>(2, 5)</strong>. If there is a negative multiplier in front, −(x − 2)<sup>2</sup> + 5, the square is subtracted, so (2, 5) becomes a <strong>maximum</strong>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>In linear-with-quadratic simultaneous equations, why do you substitute the linear equation into the quadratic, and not the other way round? Why must you find y from the linear equation afterwards?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The linear equation is easy to rearrange to "y = …" with no square roots. Rearranging x<sup>2</sup> + y<sup>2</sup> = 13 would give y = ±√(13 − x<sup>2</sup>), which is messy and loses solutions.</p>
+<p>Afterwards, each x must be paired with the correct y. If you put x into the quadratic, you get <strong>two</strong> y-values for each x (±), and only one of them is on the line. The linear equation gives exactly one y, the right one.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>In the SAM lawn question, solving 6x<sup>2</sup> + 7x − 98 = 0 gave x = 3.5 or x = −14/3. Why is only one answer used?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>x was a length (the lawn was 3x by 2x metres). A negative x would give negative lengths, which cannot happen. The algebra does not know that. It solves the equation for every number.</p>
+<p>So you <strong>reject</strong> x = −14/3, and say why in words, then use x = 3.5: the lawn is 10.5 m by 7 m, area <strong>73.5 m²</strong>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Two lines are drawn accurately and cross at about (1.4, 2.7). Why is that only an estimate, and when would the exam refuse to accept it?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The crossing point satisfies both equations, but reading it off a grid is limited by the drawing: a line drawn slightly thick, or a point read to the nearest small square. The exact answer might be (1.375, 2.75).</p>
+<p>If the question says <strong>"Show clear algebraic working"</strong>, you must solve algebraically. A graphical answer scores nothing there. Graphs are for "use the graph" questions, and to check an algebraic answer is sensible.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>Solve 6(x − 2) = 2x + 9. Show clear algebraic working. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for expanding the bracket: 6x − 12 = 2x + 9 <span class="mp">1</span></p>
+<p>M1 for isolating the x-terms and the numbers: 6x − 2x = 9 + 12, so 4x = 21 <span class="mp">1</span></p>
+<p>A1 for x = 21/4 = <strong>5.25</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>Solve (x + 3)/4 + (2x − 1)/3 = 5. Show clear algebraic working. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for multiplying every term by 12: 3(x + 3) + 4(2x − 1) = 60 <span class="mp">1</span></p>
+<p>M1 for expanding correctly: 3x + 9 + 8x − 4 = 60, so 11x = 55 <span class="mp">1</span></p>
+<p>A1 for <strong>x = 5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>(a) Solve the inequality 7 − 3x &gt; 19 <span class="marks">(2)</span></p>
+<p>(b) Solve −5 ≤ 2x + 3 &lt; 11 and write down all the integers that satisfy it. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for −3x &gt; 12, or 7 − 19 &gt; 3x <span class="mp">1</span>; A1 for <strong>x &lt; −4</strong> (the sign flips) <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for subtracting 3 from all three parts: −8 ≤ 2x &lt; 8 <span class="mp">1</span>; A1 for −4 ≤ x &lt; 4 <span class="mp">1</span>; B1 for <strong>−4, −3, −2, −1, 0, 1, 2, 3</strong> (−4 is included, 4 is not) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>Solve the simultaneous equations 4x + 3y = 5 and 6x − 5y = 36. Show clear algebraic working. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for matching coefficients: 12x + 9y = 15 and 12x − 10y = 72 <span class="mp">1</span></p>
+<p>M1 for subtracting to eliminate x: 19y = −57, so y = −3 <span class="mp">1</span></p>
+<p>A1 for 4x − 9 = 5, so <strong>x = 3.5, y = −3</strong> <span class="mp">1</span></p>
+<p>Check: 6(3.5) − 5(−3) = 21 + 15 = 36. ✓</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>Solve 3x<sup>2</sup> − 10x − 8 = 0. Show clear algebraic working. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for two numbers with product 3 × −8 = −24 and sum −10: −12 and 2. So 3x<sup>2</sup> − 12x + 2x − 8 = 3x(x − 4) + 2(x − 4) <span class="mp">1</span></p>
+<p>M1 for (3x + 2)(x − 4) = 0 <span class="mp">1</span></p>
+<p>A1 for <strong>x = −2/3 or x = 4</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Solve 2x<sup>2</sup> + 3x − 7 = 0. Show your working clearly. Give your solutions correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for correct substitution: x = (−3 ± √(3<sup>2</sup> − 4 × 2 × −7)) ÷ (2 × 2) <span class="mp">1</span></p>
+<p>M1 for simplifying correctly: (−3 ± √65) ÷ 4 <span class="mp">1</span></p>
+<p>A1 for <strong>x = 1.27 or x = −2.77</strong> (1.2655… and −2.7655…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>(a) Write x<sup>2</sup> − 8x + 3 in the form (x − p)<sup>2</sup> − q <span class="marks">(2)</span></p>
+<p>(b) Hence solve x<sup>2</sup> − 8x + 3 = 0, giving your answers in the form a ± √b <span class="marks">(2)</span></p>
+<p>(c) Write down the coordinates of the turning point of y = x<sup>2</sup> − 8x + 3 <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for (x − 4)<sup>2</sup> seen <span class="mp">1</span>; A1 for <strong>(x − 4)<sup>2</sup> − 13</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for (x − 4)<sup>2</sup> = 13, so x − 4 = ±√13 <span class="mp">1</span>; A1 for <strong>x = 4 ± √13</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for <strong>(4, −13)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>Write 3x<sup>2</sup> + 12x + 5 in the form a(x + b)<sup>2</sup> + c, where a, b and c are integers. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for taking out 3: 3(x<sup>2</sup> + 4x) + 5 <span class="mp">1</span></p>
+<p>M1 for 3[(x + 2)<sup>2</sup> − 4] + 5 <span class="mp">1</span></p>
+<p>A1 for <strong>3(x + 2)<sup>2</sup> − 7</strong> <span class="mp">1</span></p>
+<p>Check at x = 1: 3 + 12 + 5 = 20 and 3(9) − 7 = 20. ✓</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>A rectangle has length (2x + 1) cm and width (x − 3) cm. Its area is 39 cm².</p>
+<p>(a) Show that 2x<sup>2</sup> − 5x − 42 = 0 <span class="marks">(2)</span></p>
+<p>(b) Find the perimeter of the rectangle. Show clear algebraic working. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for (2x + 1)(x − 3) = 39 <span class="mp">1</span>; A1 for 2x<sup>2</sup> − 6x + x − 3 = 39, leading to 2x<sup>2</sup> − 5x − 42 = 0 with no errors <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for (2x + 7)(x − 6) = 0, or the correct formula <span class="mp">1</span>; A1 for x = 6, rejecting x = −3.5 because it gives a negative length <span class="mp">1</span>; M1 for 2 × (13 + 3) <span class="mp">1</span>; A1 for <strong>32 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>Solve the simultaneous equations y = 2x − 1 and x<sup>2</sup> + y<sup>2</sup> = 34. Show clear algebraic working. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for substituting: x<sup>2</sup> + (2x − 1)<sup>2</sup> = 34 <span class="mp">1</span></p>
+<p>M1 for expanding: x<sup>2</sup> + 4x<sup>2</sup> − 4x + 1 = 34 <span class="mp">1</span></p>
+<p>A1 for 5x<sup>2</sup> − 4x − 33 = 0 <span class="mp">1</span></p>
+<p>M1 for solving: (5x + 11)(x − 3) = 0, so x = 3 or x = −2.2 <span class="mp">1</span></p>
+<p>A1 for <strong>x = 3, y = 5</strong> and <strong>x = −2.2, y = −5.4</strong>, correctly paired <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>Find the coordinates of the points where the line y = 2x − 4 meets the curve y = x<sup>2</sup> − 3x + 2. Show clear algebraic working. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for equating: x<sup>2</sup> − 3x + 2 = 2x − 4 <span class="mp">1</span></p>
+<p>A1 for x<sup>2</sup> − 5x + 6 = 0 <span class="mp">1</span></p>
+<p>M1 for (x − 2)(x − 3) = 0 <span class="mp">1</span></p>
+<p>A1 for <strong>(2, 0) and (3, 2)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Solve the inequality x<sup>2</sup> − 2x − 15 &gt; 0. Show clear algebraic working. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (x − 5)(x + 3), or for solving x<sup>2</sup> − 2x − 15 = 0 <span class="mp">1</span></p>
+<p>A1 for critical values −3 and 5 <span class="mp">1</span></p>
+<p>A1 for <strong>x &lt; −3 or x &gt; 5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>Solve the inequality 4x<sup>2</sup> ≤ 81. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for x<sup>2</sup> ≤ 81/4 = 20.25 <span class="mp">1</span></p>
+<p>M1 for critical values ±4.5 <span class="mp">1</span></p>
+<p>A1 for <strong>−4.5 ≤ x ≤ 4.5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>The region R is defined by the three inequalities y ≥ 1, y ≤ 2x and x + y ≤ 6.</p>
+<p>(a) Find the coordinates of the three vertices of R. <span class="marks">(3)</span></p>
+<p>(b) Find the number of points with integer coordinates that lie in R, including its boundary. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for (0.5, 1), from y = 1 and y = 2x <span class="mp">1</span>; B1 for (5, 1), from y = 1 and x + y = 6 <span class="mp">1</span>; B1 for (2, 4), from 2x = 6 − x <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for a systematic count, column by column: x = 1 gives y = 1, 2; x = 2 gives y = 1–4; x = 3 gives y = 1–3; x = 4 gives y = 1, 2; x = 5 gives y = 1 <span class="mp">1</span></p>
+<p>A1 for 2 + 4 + 3 + 2 + 1 = <strong>12</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>Show that the line y = 3x − 10 does not meet the circle x<sup>2</sup> + y<sup>2</sup> = 8. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for substituting: x<sup>2</sup> + (3x − 10)<sup>2</sup> = 8 <span class="mp">1</span></p>
+<p>A1 for 10x<sup>2</sup> − 60x + 92 = 0 (or 5x<sup>2</sup> − 30x + 46 = 0) <span class="mp">1</span></p>
+<p>M1 for b<sup>2</sup> − 4ac = 3600 − 3680 = −80, or for 10(x − 3)<sup>2</sup> + 2 <span class="mp">1</span></p>
+<p>A1 for the conclusion: the discriminant is negative (or 10(x − 3)<sup>2</sup> + 2 ≥ 2 &gt; 0), so there are no real solutions, and the line and circle do not meet <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 5 · Equations and Inequalities · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

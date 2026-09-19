@@ -1,0 +1,6752 @@
+{
+ "modules": {
+  "01-number-indices-surds-standard-form": [
+   {
+    "id": "M1",
+    "q": "Which of these is 360 written as a product of powers of its prime factors?",
+    "options": [
+     "2³ × 3² × 5",
+     "2² × 3² × 10",
+     "2³ × 45",
+     "2 × 3 × 60"
+    ],
+    "answer": 0,
+    "explain": "360 = 2 × 2 × 2 × 3 × 3 × 5 = 2³ × 3² × 5. The others multiply to 360 but contain non-primes (10, 45, 60)."
+   },
+   {
+    "id": "M2",
+    "q": "What is the HCF of 2³ × 3² × 5 and 2² × 3⁴ × 7?",
+    "options": [
+     "2³ × 3⁴ × 5 × 7",
+     "6",
+     "2² × 3² = 36",
+     "2² × 3² × 5 × 7"
+    ],
+    "answer": 2,
+    "explain": "HCF: primes common to both (2 and 3) to their LOWEST powers: 2² × 3² = 36. Taking the highest powers and every prime gives the LCM instead."
+   },
+   {
+    "id": "M3",
+    "q": "What is the LCM of 12 and 15?",
+    "options": [
+     "180",
+     "60",
+     "3",
+     "30"
+    ],
+    "answer": 1,
+    "explain": "12 = 2² × 3, 15 = 3 × 5. LCM = 2² × 3 × 5 = 60. 180 is 12 × 15, a common multiple but not the lowest; 3 is the HCF."
+   },
+   {
+    "id": "M4",
+    "q": "What is the LCM of 2⁴ × 3 and 2² × 3³ × 5?",
+    "options": [
+     "2² × 3",
+     "2⁶ × 3⁴ × 5",
+     "2⁴ × 3³",
+     "2⁴ × 3³ × 5"
+    ],
+    "answer": 3,
+    "explain": "LCM: every prime, highest power: 2⁴, 3³ and 5. Adding the powers (2⁶ × 3⁴) multiplies the numbers together instead; leaving out the 5 misses a prime."
+   },
+   {
+    "id": "M5",
+    "q": "One light flashes every 8 seconds and another every 12 seconds. They flash together now. After how many seconds do they next flash together?",
+    "options": [
+     "96",
+     "4",
+     "24",
+     "20"
+    ],
+    "answer": 2,
+    "explain": "The LCM of 8 and 12 is 24. 96 = 8 × 12 is a common multiple but not the first; 4 is the HCF."
+   },
+   {
+    "id": "M6",
+    "q": "Which of these numbers is prime?",
+    "options": [
+     "59",
+     "51",
+     "57",
+     "91"
+    ],
+    "answer": 0,
+    "explain": "51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13. 59 has no factors other than 1 and itself."
+   },
+   {
+    "id": "M7",
+    "q": "Simplify y⁵ × y⁹",
+    "options": [
+     "y⁴⁵",
+     "2y¹⁴",
+     "y⁴",
+     "y¹⁴"
+    ],
+    "answer": 3,
+    "explain": "Multiplying powers of the same base: ADD the indices. 5 + 9 = 14."
+   },
+   {
+    "id": "M8",
+    "q": "Simplify (2m³)⁴",
+    "options": [
+     "2m¹²",
+     "16m¹²",
+     "8m¹²",
+     "16m⁷"
+    ],
+    "answer": 1,
+    "explain": "Everything in the bracket is raised to the power 4: 2⁴ = 16 and (m³)⁴ = m¹². 2m¹² forgets the 2; 16m⁷ adds the indices instead of multiplying."
+   },
+   {
+    "id": "M9",
+    "q": "Simplify (m⁴)⁻³",
+    "options": [
+     "m⁻¹²",
+     "m",
+     "m¹²",
+     "m⁻⁷"
+    ],
+    "answer": 0,
+    "explain": "Power of a power: multiply the indices. 4 × (−3) = −12."
+   },
+   {
+    "id": "M10",
+    "q": "What is the value of c⁰ (c ≠ 0)?",
+    "options": [
+     "0",
+     "c",
+     "1",
+     "It cannot be worked out"
+    ],
+    "answer": 2,
+    "explain": "c³ ÷ c³ = c⁰ by the index laws, and anything divided by itself is 1."
+   },
+   {
+    "id": "M11",
+    "q": "Write ∛2 as a power of 2",
+    "options": [
+     "2³",
+     "2^(1/3)",
+     "2^(−3)",
+     "2^(3/2)"
+    ],
+    "answer": 1,
+    "explain": "A cube root is the power 1/3, because 2^(1/3) × 2^(1/3) × 2^(1/3) = 2¹."
+   },
+   {
+    "id": "M12",
+    "q": "Simplify 12x⁷y² ÷ 4x³y⁵",
+    "options": [
+     "8x⁴y³",
+     "3x¹⁰y⁷",
+     "3x⁴y³",
+     "3x⁴y⁻³"
+    ],
+    "answer": 3,
+    "explain": "Divide the numbers (12 ÷ 4 = 3) and SUBTRACT indices: x⁷⁻³ = x⁴, y²⁻⁵ = y⁻³."
+   },
+   {
+    "id": "M13",
+    "q": "What is the value of 25^(−1/2)?",
+    "options": [
+     "−5",
+     "−12.5",
+     "1/5",
+     "5"
+    ],
+    "answer": 2,
+    "explain": "Negative index → reciprocal; power 1/2 → square root. 1/√25 = 1/5. A negative index never makes the answer negative, and it is not a multiplier (25 × −1/2)."
+   },
+   {
+    "id": "M14",
+    "q": "What is the value of 27^(2/3)?",
+    "options": [
+     "9",
+     "18",
+     "729",
+     "3"
+    ],
+    "answer": 0,
+    "explain": "Root first: ∛27 = 3, then square: 3² = 9. 18 comes from 27 × 2/3, which treats the index as a multiplier."
+   },
+   {
+    "id": "M15",
+    "q": "What is the value of (16/81)^(−3/4)?",
+    "options": [
+     "8/27",
+     "−27/8",
+     "81/16",
+     "27/8"
+    ],
+    "answer": 3,
+    "explain": "Flip for the negative: (81/16)^(3/4). Fourth root: 3/2. Cube: 27/8. 8/27 forgets to flip."
+   },
+   {
+    "id": "M16",
+    "q": "What is the value of 8^(−2/3)?",
+    "options": [
+     "−16/3",
+     "1/4",
+     "−4",
+     "4"
+    ],
+    "answer": 1,
+    "explain": "8^(−2/3) = 1/8^(2/3). ∛8 = 2, 2² = 4, so the answer is 1/4. −16/3 multiplies 8 by −2/3."
+   },
+   {
+    "id": "M17",
+    "q": "9ˣ = 3⁷ × 3. What is the value of x?",
+    "options": [
+     "4",
+     "8",
+     "3.5",
+     "7"
+    ],
+    "answer": 0,
+    "explain": "Write 9 as 3²: 3²ˣ = 3⁸, so 2x = 8 and x = 4. 8 forgets that 9 is 3²."
+   },
+   {
+    "id": "M18",
+    "q": "8 ÷ 2⁷ = 2ⁿ. What is the value of n?",
+    "options": [
+     "4",
+     "−7/3",
+     "−4",
+     "10"
+    ],
+    "answer": 2,
+    "explain": "8 = 2³, so 2³ ÷ 2⁷ = 2³⁻⁷ = 2⁻⁴. n = 4 subtracts the wrong way round."
+   },
+   {
+    "id": "M19",
+    "q": "Which of these is √72 written in its simplest form?",
+    "options": [
+     "2√18",
+     "6√2",
+     "3√8",
+     "36√2"
+    ],
+    "answer": 1,
+    "explain": "Take out the LARGEST square factor: 72 = 36 × 2, so √72 = 6√2. 2√18 and 3√8 are equal to √72 but not fully simplified."
+   },
+   {
+    "id": "M20",
+    "q": "Simplify √48 + √27",
+    "options": [
+     "√75",
+     "5√3",
+     "12√3",
+     "7√3"
+    ],
+    "answer": 3,
+    "explain": "√48 = 4√3 and √27 = 3√3, so the sum is 7√3. √48 + √27 is NOT √75: roots don't add like that (√75 = 5√3)."
+   },
+   {
+    "id": "M21",
+    "q": "Work out √5 × √20",
+    "options": [
+     "√25",
+     "100",
+     "10",
+     "5√4"
+    ],
+    "answer": 2,
+    "explain": "√5 × √20 = √100 = 10. √25 adds the numbers under the root instead of multiplying them."
+   },
+   {
+    "id": "M22",
+    "q": "Expand and simplify (3 + √5)²",
+    "options": [
+     "14 + 6√5",
+     "14",
+     "9 + √5",
+     "14 + 3√5"
+    ],
+    "answer": 0,
+    "explain": "(3 + √5)(3 + √5) = 9 + 3√5 + 3√5 + 5 = 14 + 6√5. Just squaring each term (9 + 5) misses the two middle terms."
+   },
+   {
+    "id": "M23",
+    "q": "Expand and simplify (2 + √3)(2 − √3)",
+    "options": [
+     "7",
+     "4 − √3",
+     "1 − 4√3",
+     "1"
+    ],
+    "answer": 3,
+    "explain": "Difference of two squares: 2² − (√3)² = 4 − 3 = 1. The surd terms +2√3 and −2√3 cancel."
+   },
+   {
+    "id": "M24",
+    "q": "Rationalise the denominator of 10/√5",
+    "options": [
+     "10√5",
+     "2√5",
+     "√2",
+     "5√2"
+    ],
+    "answer": 1,
+    "explain": "Multiply top and bottom by √5: 10√5/5 = 2√5."
+   },
+   {
+    "id": "M25",
+    "q": "To rationalise the denominator of 4/(3 − √5), you multiply the top and bottom by…",
+    "options": [
+     "3 + √5",
+     "3 − √5",
+     "√5",
+     "4"
+    ],
+    "answer": 0,
+    "explain": "Use the denominator with the sign flipped: (3 − √5)(3 + √5) = 9 − 5 = 4, a whole number. Multiplying by (3 − √5) leaves a surd."
+   },
+   {
+    "id": "M26",
+    "q": "Write 4/(3 − √5) in the form a + √b",
+    "options": [
+     "3 − √5",
+     "(12 + 4√5)/14",
+     "3 + √5",
+     "12 + 4√5"
+    ],
+    "answer": 2,
+    "explain": "4(3 + √5)/(9 − 5) = 4(3 + √5)/4 = 3 + √5. Dividing by 14 comes from adding 9 + 5 instead of subtracting."
+   },
+   {
+    "id": "M27",
+    "q": "Which of these is a surd?",
+    "options": [
+     "√16",
+     "√12",
+     "√0.25",
+     "∛27"
+    ],
+    "answer": 1,
+    "explain": "√16 = 4, √0.25 = 0.5 and ∛27 = 3 are all rational. √12 = 2√3 is irrational, so it is a surd."
+   },
+   {
+    "id": "M28",
+    "q": "Which of these numbers is irrational?",
+    "options": [
+     "0.333… (recurring)",
+     "22/7",
+     "√9",
+     "√2"
+    ],
+    "answer": 3,
+    "explain": "Recurring decimals and fractions are rational, and √9 = 3. √2 cannot be written as a fraction of integers."
+   },
+   {
+    "id": "M29",
+    "q": "Write 0.00052 in standard form",
+    "options": [
+     "5.2 × 10⁴",
+     "52 × 10⁻⁵",
+     "5.2 × 10⁻⁴",
+     "5.2 × 10⁻³"
+    ],
+    "answer": 2,
+    "explain": "Move the decimal point 4 places to get 5.2, which lies between 1 and 10. The number is small, so the power is negative: 10⁻⁴. 52 × 10⁻⁵ has A bigger than 10."
+   },
+   {
+    "id": "M30",
+    "q": "Work out (4.2 × 10⁵) × (3 × 10⁻⁸), giving your answer in standard form",
+    "options": [
+     "1.26 × 10⁻²",
+     "12.6 × 10⁻³",
+     "1.26 × 10⁻⁴",
+     "7.2 × 10⁻³"
+    ],
+    "answer": 0,
+    "explain": "4.2 × 3 = 12.6 and 10⁵ × 10⁻⁸ = 10⁻³, giving 12.6 × 10⁻³. That is not in standard form, so adjust to 1.26 × 10⁻²."
+   },
+   {
+    "id": "M31",
+    "q": "Work out (1.2 × 10⁷) ÷ (4.8 × 10³), giving your answer in standard form",
+    "options": [
+     "0.25 × 10⁴",
+     "2.5 × 10⁴",
+     "4 × 10³",
+     "2.5 × 10³"
+    ],
+    "answer": 3,
+    "explain": "1.2 ÷ 4.8 = 0.25 and 10⁷ ÷ 10³ = 10⁴, giving 0.25 × 10⁴ = 2.5 × 10³. When A gets 10 times bigger, the power goes DOWN by 1."
+   },
+   {
+    "id": "M32",
+    "q": "Work out 3.2 × 10⁵ + 4.5 × 10⁴, giving your answer in standard form",
+    "options": [
+     "7.7 × 10⁹",
+     "3.65 × 10⁵",
+     "7.7 × 10⁵",
+     "3.65 × 10⁴"
+    ],
+    "answer": 1,
+    "explain": "Match the powers: 3.2 × 10⁵ + 0.45 × 10⁵ = 3.65 × 10⁵ (320 000 + 45 000 = 365 000). You cannot add the front numbers when the powers differ."
+   },
+   {
+    "id": "M33",
+    "q": "Which of these numbers is written in standard form?",
+    "options": [
+     "3.4 × 10³",
+     "34 × 10³",
+     "0.34 × 10⁴",
+     "3.4 × 10^0.5"
+    ],
+    "answer": 0,
+    "explain": "Standard form is A × 10ⁿ with 1 ≤ A < 10 and n an integer. 34 and 0.34 are outside that range, and 0.5 is not an integer."
+   },
+   {
+    "id": "M34",
+    "q": "A calculator shows 2.52E−03. How should the answer be written?",
+    "options": [
+     "2.52⁻³",
+     "2520",
+     "2.52 × 10⁻³",
+     "2.52 − 3"
+    ],
+    "answer": 2,
+    "explain": "E−03 means × 10⁻³. The E notation is not accepted on the answer line, so write it in full."
+   },
+   {
+    "id": "M35",
+    "q": "Which fraction is equal to 0.4545… (45 recurring)?",
+    "options": [
+     "9/20",
+     "5/11",
+     "45/100",
+     "4/9"
+    ],
+    "answer": 1,
+    "explain": "x = 0.4545…, 100x = 45.4545…, so 99x = 45 and x = 45/99 = 5/11. 45/100 is 0.45 exactly, which does not recur."
+   },
+   {
+    "id": "M36",
+    "q": "Which fraction is equal to 0.1444… (4 recurring)?",
+    "options": [
+     "13/99",
+     "1/7",
+     "144/1000",
+     "13/90"
+    ],
+    "answer": 3,
+    "explain": "10x = 1.444… and 100x = 14.444…, so 90x = 13 and x = 13/90."
+   },
+   {
+    "id": "M37",
+    "q": "To write 0.245245… (245 recurring) as a fraction, x is multiplied by which number before subtracting x?",
+    "options": [
+     "10",
+     "100",
+     "1000",
+     "10 000"
+    ],
+    "answer": 2,
+    "explain": "The repeating block has 3 digits, so use 1000x = 245.245…; then 999x = 245."
+   },
+   {
+    "id": "M38",
+    "q": "Which fraction is equal to 0.2727… (27 recurring)?",
+    "options": [
+     "3/11",
+     "27/100",
+     "2/7",
+     "27/90"
+    ],
+    "answer": 0,
+    "explain": "100x − x = 27, so 99x = 27 and x = 27/99 = 3/11."
+   },
+   {
+    "id": "M39",
+    "q": "(3 + √x)² = y + 6√2, where x and y are positive integers. Find x and y.",
+    "options": [
+     "x = 2, y = 9",
+     "x = 4, y = 13",
+     "x = √2, y = 11",
+     "x = 2, y = 11"
+    ],
+    "answer": 3,
+    "explain": "(3 + √x)² = 9 + 6√x + x. Matching the surd parts: 6√x = 6√2, so x = 2. Then y = 9 + 2 = 11."
+   },
+   {
+    "id": "M40",
+    "q": "The HCF of 18 and 24 is 6. What is their LCM?",
+    "options": [
+     "432",
+     "72",
+     "144",
+     "6"
+    ],
+    "answer": 1,
+    "explain": "HCF × LCM = the product of the two numbers, so LCM = 18 × 24 ÷ 6 = 72. 432 is the product itself."
+   }
+  ],
+  "02-fractions-percentages-ratio-proportion": [
+   {
+    "id": "M1",
+    "q": "Work out 3 2/5 − 1 3/4",
+    "options": [
+     "1 13/20",
+     "2 1/20",
+     "1 1/20",
+     "2 7/20"
+    ],
+    "answer": 0,
+    "explain": "17/5 − 7/4 = 68/20 − 35/20 = 33/20 = 1 13/20. Subtracting whole numbers (2) and then fractions needs care: 2/5 − 3/4 is negative (−7/20)."
+   },
+   {
+    "id": "M2",
+    "q": "Work out 2 1/3 ÷ 1 5/9",
+    "options": [
+     "3 17/27",
+     "2 3/5",
+     "1 1/2",
+     "2/3"
+    ],
+    "answer": 2,
+    "explain": "7/3 ÷ 14/9 = 7/3 × 9/14 = 63/42 = 3/2. 3 17/27 multiplies by 14/9 without flipping it."
+   },
+   {
+    "id": "M3",
+    "q": "What single number do you multiply by to increase an amount by 15%?",
+    "options": [
+     "0.15",
+     "1.15",
+     "1.5",
+     "0.85"
+    ],
+    "answer": 1,
+    "explain": "100% + 15% = 115% = 1.15. 0.15 gives just the increase; 0.85 is a 15% DEcrease."
+   },
+   {
+    "id": "M4",
+    "q": "What single number do you multiply by to decrease an amount by 7.5%?",
+    "options": [
+     "0.75",
+     "1.075",
+     "0.925 × 7.5",
+     "0.925"
+    ],
+    "answer": 3,
+    "explain": "100% − 7.5% = 92.5% = 0.925."
+   },
+   {
+    "id": "M5",
+    "q": "A price rises from $480 to $552. What is the percentage increase?",
+    "options": [
+     "13.0%",
+     "72%",
+     "15%",
+     "115%"
+    ],
+    "answer": 2,
+    "explain": "Change = 72. 72 ÷ 480 (the ORIGINAL) × 100 = 15%. Dividing by 552 gives 13.0%."
+   },
+   {
+    "id": "M6",
+    "q": "After a 12% increase a laptop costs $1344. What was the price before the increase?",
+    "options": [
+     "$1200",
+     "$1182.72",
+     "$1505.28",
+     "$1332"
+    ],
+    "answer": 0,
+    "explain": "Original × 1.12 = 1344, so original = 1344 ÷ 1.12 = 1200. Taking 12% off 1344 (× 0.88) gives 1182.72, which is wrong because the 12% was of the original."
+   },
+   {
+    "id": "M7",
+    "q": "After an 8% pay rise, Mia earns $32 400. What did she earn before the rise?",
+    "options": [
+     "$29 808",
+     "$34 992",
+     "$32 392",
+     "$30 000"
+    ],
+    "answer": 3,
+    "explain": "32 400 ÷ 1.08 = 30 000. 32 400 × 0.92 = 29 808 takes 8% of the NEW salary, the error that scored M0 M0 A0 in 2018."
+   },
+   {
+    "id": "M8",
+    "q": "In a 35% sale, a coat costs $91. What was the price before the sale?",
+    "options": [
+     "$59.15",
+     "$140",
+     "$122.85",
+     "$260"
+    ],
+    "answer": 1,
+    "explain": "Sale price = 65% of the original, so 91 ÷ 0.65 = 140. 91 × 0.65 and 91 × 1.35 apply the percentage to the wrong amount."
+   },
+   {
+    "id": "M9",
+    "q": "A 15% reduction takes $22.50 off the normal price of a mixer. What is the normal price?",
+    "options": [
+     "$150",
+     "$172.50",
+     "$26.47",
+     "$127.50"
+    ],
+    "answer": 0,
+    "explain": "15% = 22.50, so 1% = 1.50 and 100% = 150."
+   },
+   {
+    "id": "M10",
+    "q": "$25 000 is invested at 3.5% per year compound interest. What is it worth after 4 years, to the nearest cent?",
+    "options": [
+     "$28 500.00",
+     "$25 875.00",
+     "$28 688.08",
+     "$3688.08"
+    ],
+    "answer": 2,
+    "explain": "25 000 × 1.035⁴ = 28 688.08. $28 500 is SIMPLE interest (3.5% × 4 = 14%). $3688.08 is only the interest."
+   },
+   {
+    "id": "M11",
+    "q": "A boat loses 4% of its value each year. Which calculation gives its value after 3 years, starting from V?",
+    "options": [
+     "V × 0.88",
+     "V × 0.96³",
+     "V × 0.96 × 3",
+     "V × 1.04³"
+    ],
+    "answer": 1,
+    "explain": "Each year multiplies by 0.96, so 3 years is × 0.96³. × 0.88 is simple depreciation (12%); × 0.96 × 3 triples the value."
+   },
+   {
+    "id": "M12",
+    "q": "A price rises by 30%, then falls by 20%. What is the overall percentage change?",
+    "options": [
+     "10% increase",
+     "6% decrease",
+     "No change",
+     "4% increase"
+    ],
+    "answer": 3,
+    "explain": "1.3 × 0.8 = 1.04, a 4% increase. Percentage changes multiply; they don't add."
+   },
+   {
+    "id": "M13",
+    "q": "A price rises by 20%, then the new price falls by 20%. What is the overall change?",
+    "options": [
+     "No change",
+     "4% increase",
+     "4% decrease",
+     "40% decrease"
+    ],
+    "answer": 2,
+    "explain": "1.2 × 0.8 = 0.96, so it ends at 96% of the original: a 4% decrease."
+   },
+   {
+    "id": "M14",
+    "q": "$2000 is invested at 5% per year compound interest. How much INTEREST is earned in 2 years?",
+    "options": [
+     "$205",
+     "$200",
+     "$2205",
+     "$210"
+    ],
+    "answer": 0,
+    "explain": "2000 × 1.05² = 2205, so the interest is 205. $200 is simple interest; $2205 is the total value, not the interest."
+   },
+   {
+    "id": "M15",
+    "q": "A car bought for $24 000 depreciates by 12% per year. What is it worth after 2 years?",
+    "options": [
+     "$18 240.00",
+     "$21 120.00",
+     "$18 720.00",
+     "$18 585.60"
+    ],
+    "answer": 3,
+    "explain": "24 000 × 0.88² = 18 585.60. $18 240 takes 24% off in one go (simple depreciation)."
+   },
+   {
+    "id": "M16",
+    "q": "$2880 is shared in the ratio 3 : 5 : 7. What is the largest share?",
+    "options": [
+     "$960",
+     "$1344",
+     "$2016",
+     "$411.43"
+    ],
+    "answer": 1,
+    "explain": "15 parts, so 2880 ÷ 15 = 192 per part, and 7 × 192 = 1344. $411.43 is 2880 ÷ 7, dividing by a ratio number instead of the total."
+   },
+   {
+    "id": "M17",
+    "q": "Amir and Beth share money in the ratio 5 : 3. Amir gets $36 more than Beth. How much does Beth get?",
+    "options": [
+     "$54",
+     "$90",
+     "$13.50",
+     "$21.60"
+    ],
+    "answer": 0,
+    "explain": "The difference is 5 − 3 = 2 parts = $36, so 1 part = $18 and Beth gets 3 × 18 = $54 ($90 is Amir's share)."
+   },
+   {
+    "id": "M18",
+    "q": "Write the ratio 45 : 60 in its simplest form",
+    "options": [
+     "9 : 12",
+     "4 : 3",
+     "3 : 4",
+     "15 : 20"
+    ],
+    "answer": 2,
+    "explain": "Divide both by the HCF, 15: 3 : 4. 9 : 12 and 15 : 20 are equivalent but not simplest; 4 : 3 is the wrong way round."
+   },
+   {
+    "id": "M19",
+    "q": "Write 2.5 × 10³ : 1.5 × 10⁶ in the form 1 : n",
+    "options": [
+     "1 : 6000",
+     "1 : 600",
+     "600 : 1",
+     "1 : 60"
+    ],
+    "answer": 1,
+    "explain": "Divide both parts by 2.5 × 10³: 1.5 × 10⁶ ÷ 2.5 × 10³ = 600."
+   },
+   {
+    "id": "M20",
+    "q": "a : b = 2 : 3 and b : c = 4 : 5. What is a : b : c?",
+    "options": [
+     "2 : 3 : 5",
+     "2 : 12 : 5",
+     "6 : 9 : 15",
+     "8 : 12 : 15"
+    ],
+    "answer": 3,
+    "explain": "Make the b parts equal: 2 : 3 = 8 : 12 and 4 : 5 = 12 : 15, so a : b : c = 8 : 12 : 15."
+   },
+   {
+    "id": "M21",
+    "q": "For the children at a show, girls : boys = 2 : 7. What fraction of the children are girls?",
+    "options": [
+     "2/7",
+     "7/9",
+     "2/9",
+     "2/5"
+    ],
+    "answer": 2,
+    "explain": "2 + 7 = 9 parts, of which 2 are girls, so 2/9. 2/7 compares girls to boys, not girls to all children."
+   },
+   {
+    "id": "M22",
+    "q": "y is directly proportional to x². y = 45 when x = 3. What is the value of k in y = kx²?",
+    "options": [
+     "5",
+     "15",
+     "1/5",
+     "135"
+    ],
+    "answer": 0,
+    "explain": "45 = k × 3² = 9k, so k = 5. 15 comes from using x instead of x²."
+   },
+   {
+    "id": "M23",
+    "q": "y = 5x². What is y when x = 4?",
+    "options": [
+     "20",
+     "400",
+     "40",
+     "80"
+    ],
+    "answer": 3,
+    "explain": "5 × 4² = 5 × 16 = 80. 400 squares the 5 as well: (5 × 4)²."
+   },
+   {
+    "id": "M24",
+    "q": "F is inversely proportional to d². F = 20 when d = 3. Which formula is correct?",
+    "options": [
+     "F = 60/d²",
+     "F = 180/d²",
+     "F = 20d²/9",
+     "F = 60/d"
+    ],
+    "answer": 1,
+    "explain": "F = k/d², so 20 = k/9 and k = 180. 60/d² uses d instead of d² when finding k."
+   },
+   {
+    "id": "M25",
+    "q": "y is directly proportional to x³. What happens to y when x is doubled?",
+    "options": [
+     "It is multiplied by 8",
+     "It is multiplied by 2",
+     "It is multiplied by 6",
+     "It is multiplied by 9"
+    ],
+    "answer": 0,
+    "explain": "k(2x)³ = 8kx³ = 8y."
+   },
+   {
+    "id": "M26",
+    "q": "y is inversely proportional to x². What happens to y when x is tripled?",
+    "options": [
+     "It is divided by 3",
+     "It is multiplied by 9",
+     "It is divided by 9",
+     "It is divided by 6"
+    ],
+    "answer": 2,
+    "explain": "k/(3x)² = k/(9x²) = y/9."
+   },
+   {
+    "id": "M27",
+    "q": "F is inversely proportional to d². d is increased by 25%. What is the percentage change in F?",
+    "options": [
+     "25% decrease",
+     "36% decrease",
+     "20% decrease",
+     "56.25% decrease"
+    ],
+    "answer": 1,
+    "explain": "F is multiplied by 1/1.25² = 0.64, which is a 36% decrease."
+   },
+   {
+    "id": "M28",
+    "q": "Which graph shows that y is directly proportional to x?",
+    "options": [
+     "A straight line crossing the y-axis above the origin",
+     "A curve through the origin that gets steeper",
+     "A curve that never meets either axis",
+     "A straight line through the origin"
+    ],
+    "answer": 3,
+    "explain": "y = kx is a straight line through (0, 0). A line with a y-intercept (y = kx + c) is linear but not proportional. The steepening curve is y ∝ x² and the curve that never meets the axes is y ∝ 1/x."
+   },
+   {
+    "id": "M29",
+    "q": "'T is inversely proportional to the square root of L' means…",
+    "options": [
+     "T = k√L",
+     "T = kL²",
+     "T = k/√L",
+     "T = k/L²"
+    ],
+    "answer": 2,
+    "explain": "Inversely proportional to √L: T = k ÷ √L."
+   },
+   {
+    "id": "M30",
+    "q": "T = 48/√L. What is T when L = 36?",
+    "options": [
+     "8",
+     "1.33",
+     "288",
+     "4/3"
+    ],
+    "answer": 0,
+    "explain": "√36 = 6, and 48 ÷ 6 = 8. 1.33 is 48 ÷ 36, which forgets the square root."
+   },
+   {
+    "id": "M31",
+    "q": "£1 = €1.16. What is €348 in pounds?",
+    "options": [
+     "£403.68",
+     "£348",
+     "£346.84",
+     "£300"
+    ],
+    "answer": 3,
+    "explain": "Euros to pounds: divide by 1.16. 348 ÷ 1.16 = 300. Multiplying gives £403.68, the wrong direction."
+   },
+   {
+    "id": "M32",
+    "q": "3/5 of the people in a hall are children. There are 72 children. How many people are in the hall?",
+    "options": [
+     "43.2",
+     "120",
+     "180",
+     "115.2"
+    ],
+    "answer": 1,
+    "explain": "3/5 = 72, so 1/5 = 24 and 5/5 = 120. 43.2 is 3/5 of 72, which works the wrong way."
+   },
+   {
+    "id": "M33",
+    "q": "A price falls from $552 to $480. What is the percentage decrease, to 3 significant figures?",
+    "options": [
+     "13.0%",
+     "15%",
+     "72%",
+     "87.0%"
+    ],
+    "answer": 0,
+    "explain": "Change 72 ÷ ORIGINAL 552 × 100 = 13.0%. 15% divides by the new price."
+   },
+   {
+    "id": "M34",
+    "q": "A trader buys goods for $180 and sells them for $207. What is the percentage profit?",
+    "options": [
+     "13.0%",
+     "27%",
+     "15%",
+     "1.15%"
+    ],
+    "answer": 2,
+    "explain": "Profit 27 ÷ cost 180 × 100 = 15%."
+   },
+   {
+    "id": "M35",
+    "q": "x is increased by 8% to give 27 000. Which calculation finds x?",
+    "options": [
+     "27 000 × 0.92",
+     "27 000 ÷ 1.08",
+     "27 000 × 1.08",
+     "27 000 − 8"
+    ],
+    "answer": 1,
+    "explain": "x × 1.08 = 27 000, so x = 27 000 ÷ 1.08 = 25 000."
+   },
+   {
+    "id": "M36",
+    "q": "$50 000 is invested at 3% per year compound interest. What is it worth after 2 years?",
+    "options": [
+     "$53 000",
+     "$53 090",
+     "$3045",
+     "$53 045"
+    ],
+    "answer": 3,
+    "explain": "50 000 × 1.03² = 50 000 × 1.0609 = 53 045. $53 000 is simple interest."
+   },
+   {
+    "id": "M37",
+    "q": "Dividing by 14/9 is the same as multiplying by…",
+    "options": [
+     "14/9",
+     "−14/9",
+     "9/14",
+     "1/14"
+    ],
+    "answer": 2,
+    "explain": "Dividing by a fraction = multiplying by its reciprocal, because 14/9 × 9/14 = 1."
+   },
+   {
+    "id": "M38",
+    "q": "Write 36 as a fraction of 60, in its simplest form",
+    "options": [
+     "3/5",
+     "36/60",
+     "5/3",
+     "0.6%"
+    ],
+    "answer": 0,
+    "explain": "36/60: divide top and bottom by 12 to get 3/5. 36/60 is right but not simplest."
+   },
+   {
+    "id": "M39",
+    "q": "Which of these does NOT show y directly proportional to x?",
+    "options": [
+     "y = 2x",
+     "y = x/4",
+     "y = 0.7x",
+     "y = 2x + 3"
+    ],
+    "answer": 3,
+    "explain": "Proportional means y = kx with no added constant. y = 2x + 3 does not double when x doubles."
+   },
+   {
+    "id": "M40",
+    "q": "Raj earns $20 000 and gets a 10% rise. Sam earns $17 600. What percentage rise must Sam get to earn the same as Raj?",
+    "options": [
+     "10%",
+     "25%",
+     "20%",
+     "12.5%"
+    ],
+    "answer": 1,
+    "explain": "Raj: 20 000 × 1.1 = 22 000. Sam needs 22 000 − 17 600 = 4400, and 4400 ÷ 17 600 = 25%. 20% divides by the new amount."
+   }
+  ],
+  "03-accuracy-and-bounds": [
+   {
+    "id": "M1",
+    "q": "Round 7.2968 to 2 decimal places",
+    "options": [
+     "7.30",
+     "7.3",
+     "7.29",
+     "7.297"
+    ],
+    "answer": 0,
+    "explain": "The third decimal is 6, so 7.29 rounds up to 7.30. Keep the trailing zero: it shows the accuracy is 2 dp."
+   },
+   {
+    "id": "M2",
+    "q": "Round 0.004076 to 2 significant figures",
+    "options": [
+     "0.00",
+     "0.004",
+     "0.0041",
+     "0.0040"
+    ],
+    "answer": 2,
+    "explain": "The first significant figure is the 4. Keep 4 and 0; the next digit is 7, so round up to 0.0041."
+   },
+   {
+    "id": "M3",
+    "q": "Round 38 472 to 3 significant figures",
+    "options": [
+     "385",
+     "38 500",
+     "38 400",
+     "38 470"
+    ],
+    "answer": 1,
+    "explain": "Keep 3, 8, 4; the next digit is 7, so round up to 385, then fill with zeros to keep the size: 38 500."
+   },
+   {
+    "id": "M4",
+    "q": "How many significant figures does 0.04070 have?",
+    "options": [
+     "2",
+     "3",
+     "5",
+     "4"
+    ],
+    "answer": 3,
+    "explain": "Count from the first non-zero digit: 4, 0, 7, 0. The zero between 4 and 7 counts, and the final zero shows the accuracy."
+   },
+   {
+    "id": "M5",
+    "q": "Round 0.0060749 to 2 decimal places",
+    "options": [
+     "0.0061",
+     "0.00",
+     "0.01",
+     "0.006"
+    ],
+    "answer": 2,
+    "explain": "The second decimal place is 0 and the next digit is 6, so round up to 0.01. 0.0061 is 2 SIGNIFICANT figures, not 2 dp."
+   },
+   {
+    "id": "M6",
+    "q": "Estimate (48.7 × 3.12) ÷ 0.487 by rounding each number to 1 significant figure",
+    "options": [
+     "300",
+     "30",
+     "3",
+     "75"
+    ],
+    "answer": 0,
+    "explain": "(50 × 3) ÷ 0.5 = 150 ÷ 0.5 = 300. Dividing by 0.5 DOUBLES. The exact value is 312."
+   },
+   {
+    "id": "M7",
+    "q": "Estimate (6.12 × 39.7) ÷ 0.198",
+    "options": [
+     "48",
+     "120",
+     "12 000",
+     "1200"
+    ],
+    "answer": 3,
+    "explain": "(6 × 40) ÷ 0.2 = 240 ÷ 0.2 = 1200."
+   },
+   {
+    "id": "M8",
+    "q": "A length is 6.4 cm correct to 1 decimal place. What is its upper bound?",
+    "options": [
+     "6.49 cm",
+     "6.45 cm",
+     "6.5 cm",
+     "6.44 cm"
+    ],
+    "answer": 1,
+    "explain": "Half of 0.1 is 0.05, so the bounds are 6.35 and 6.45. The upper bound is written 6.45, not 6.49."
+   },
+   {
+    "id": "M9",
+    "q": "A length l is 7.4 cm correct to 1 decimal place. Which is the error interval?",
+    "options": [
+     "7.35 ≤ l < 7.45",
+     "7.3 ≤ l < 7.5",
+     "7.35 < l ≤ 7.45",
+     "7.39 ≤ l ≤ 7.41"
+    ],
+    "answer": 0,
+    "explain": "The lower bound 7.35 is included (it rounds up to 7.4) and the upper bound 7.45 is not (it would round to 7.5)."
+   },
+   {
+    "id": "M10",
+    "q": "3400 g is correct to 2 significant figures. What is the lower bound?",
+    "options": [
+     "3399.5 g",
+     "3395 g",
+     "3350 g",
+     "3300 g"
+    ],
+    "answer": 2,
+    "explain": "The second significant figure is in the hundreds, so it was rounded to the nearest 100. Half of 100 is 50: 3400 − 50 = 3350."
+   },
+   {
+    "id": "M11",
+    "q": "A mass is 70 kg to the nearest 5 kg. What are its bounds?",
+    "options": [
+     "65 kg and 75 kg",
+     "67.5 kg and 72.5 kg",
+     "69.5 kg and 70.5 kg",
+     "68 kg and 72 kg"
+    ],
+    "answer": 1,
+    "explain": "Half of 5 is 2.5, so 70 ± 2.5."
+   },
+   {
+    "id": "M12",
+    "q": "The distance from A to B is 110 km correct to 2 significant figures. What is the upper bound?",
+    "options": [
+     "110.5 km",
+     "111 km",
+     "120 km",
+     "115 km"
+    ],
+    "answer": 3,
+    "explain": "To 2 sf, 110 is rounded to the nearest 10. Half of 10 is 5, so the upper bound is 115."
+   },
+   {
+    "id": "M13",
+    "q": "There are 1300 sheets correct to the nearest 100. What is the lower bound?",
+    "options": [
+     "1200",
+     "1299.5",
+     "1250",
+     "1295"
+    ],
+    "answer": 2,
+    "explain": "Half of 100 is 50, so 1300 − 50 = 1250."
+   },
+   {
+    "id": "M14",
+    "q": "a = 8.3 and b = 5.6, both to 1 dp. What is the upper bound of a × b?",
+    "options": [
+     "47.1775",
+     "46.48",
+     "45.7875",
+     "47.5"
+    ],
+    "answer": 0,
+    "explain": "For a product, the maximum is UB × UB: 8.35 × 5.65 = 47.1775."
+   },
+   {
+    "id": "M15",
+    "q": "a = 12.4 and b = 5.7, both to 1 dp. What is the upper bound of a − b?",
+    "options": [
+     "6.7",
+     "6.6",
+     "6.75",
+     "6.8"
+    ],
+    "answer": 3,
+    "explain": "Largest a minus SMALLEST b: 12.45 − 5.65 = 6.8. UB − UB gives 6.7, which is not the maximum."
+   },
+   {
+    "id": "M16",
+    "q": "a = 12.4 and b = 5.7, both to 1 dp. What is the lower bound of a − b?",
+    "options": [
+     "6.7",
+     "6.6",
+     "6.8",
+     "6.65"
+    ],
+    "answer": 1,
+    "explain": "Smallest a minus LARGEST b: 12.35 − 5.75 = 6.6."
+   },
+   {
+    "id": "M17",
+    "q": "e = 6.47 and f = 2.83, both to 2 dp. What is the upper bound of e − f?",
+    "options": [
+     "3.65",
+     "3.64",
+     "3.635",
+     "3.645"
+    ],
+    "answer": 0,
+    "explain": "UB(e) − LB(f) = 6.475 − 2.825 = 3.65."
+   },
+   {
+    "id": "M18",
+    "q": "Which gives the upper bound of a speed, where speed = distance ÷ time?",
+    "options": [
+     "UB of distance ÷ UB of time",
+     "LB of distance ÷ LB of time",
+     "UB of distance ÷ LB of time",
+     "LB of distance ÷ UB of time"
+    ],
+    "answer": 2,
+    "explain": "A fraction is largest with the biggest top and the smallest bottom. LB ÷ UB gives the LOWER bound."
+   },
+   {
+    "id": "M19",
+    "q": "A runner covers 200 m (nearest 5 m) in 24.6 s (nearest 0.1 s). What is the upper bound of the speed, to 3 sf?",
+    "options": [
+     "8.13 m/s",
+     "8.25 m/s",
+     "8.01 m/s",
+     "8.22 m/s"
+    ],
+    "answer": 1,
+    "explain": "202.5 ÷ 24.55 = 8.248… → 8.25 m/s. 8.01 is the lower bound (197.5 ÷ 24.65)."
+   },
+   {
+    "id": "M20",
+    "q": "1300 sheets (nearest 100) make a pile 160 mm high (nearest 10 mm). Which calculation gives the UPPER bound of the thickness of one sheet?",
+    "options": [
+     "165 ÷ 1350",
+     "155 ÷ 1250",
+     "160 ÷ 1300",
+     "165 ÷ 1250"
+    ],
+    "answer": 3,
+    "explain": "Thickness = height ÷ number. For the maximum: largest height ÷ smallest number = 165 ÷ 1250 = 0.132 mm."
+   },
+   {
+    "id": "M21",
+    "q": "y = (a + b)/c with a = 5.3, b = 2.1 and c = 1.8, all to 1 dp. Which gives the upper bound of y?",
+    "options": [
+     "(5.35 + 2.15) ÷ 1.85",
+     "(5.25 + 2.05) ÷ 1.75",
+     "(5.35 + 2.15) ÷ 1.75",
+     "(5.3 + 2.1) ÷ 1.8"
+    ],
+    "answer": 2,
+    "explain": "Make the top as big as possible and the bottom as small as possible."
+   },
+   {
+    "id": "M22",
+    "q": "y = 3a/(b − c). For the LARGEST y, which bounds of b and c should you use?",
+    "options": [
+     "Lower bound of b and upper bound of c",
+     "Upper bound of b and lower bound of c",
+     "Upper bounds of both",
+     "Lower bounds of both"
+    ],
+    "answer": 0,
+    "explain": "To make y big, the denominator b − c must be SMALL: small b minus big c."
+   },
+   {
+    "id": "M23",
+    "q": "y = 3a/(b − c) with a = 42, b = 31, c = 17, each to 2 sf. What is the lower bound of y, to 2 sf?",
+    "options": [
+     "9.8",
+     "9.0",
+     "8.9",
+     "8.3"
+    ],
+    "answer": 3,
+    "explain": "LB = 3 × 41.5 ÷ (31.5 − 16.5) = 124.5 ÷ 15 = 8.3. 9.8 is the upper bound."
+   },
+   {
+    "id": "M24",
+    "q": "A rectangle is 20 cm by 11 cm, each to the nearest cm. What is the smallest possible area as a percentage of the largest, to 3 sf?",
+    "options": [
+     "90.9%",
+     "86.9%",
+     "115%",
+     "95.2%"
+    ],
+    "answer": 1,
+    "explain": "(19.5 × 10.5) ÷ (20.5 × 11.5) × 100 = 204.75 ÷ 235.75 × 100 = 86.85… → 86.9%."
+   },
+   {
+    "id": "M25",
+    "q": "The side of a cube is 6.2 cm to 1 dp. What is the upper bound of its volume?",
+    "options": [
+     "6.25³ cm³",
+     "6.3³ cm³",
+     "6.2³ + 0.05 cm³",
+     "6.249³ cm³"
+    ],
+    "answer": 0,
+    "explain": "Use the upper bound of the side, 6.25, and cube it: 244.14… cm³."
+   },
+   {
+    "id": "M26",
+    "q": "A circle has area 50 cm² to the nearest cm². What is the lower bound of its radius, to 3 sf?",
+    "options": [
+     "3.99 cm",
+     "3.94 cm",
+     "3.97 cm",
+     "7.04 cm"
+    ],
+    "answer": 2,
+    "explain": "LB area = 49.5, so r = √(49.5 ÷ π) = 3.969… → 3.97 cm."
+   },
+   {
+    "id": "M27",
+    "q": "P = 23.7 × 8.46 (23.7 to 1 dp, 8.46 to 2 dp). The bounds of P are 199.96… and 201.04… To what accuracy can P be given?",
+    "options": [
+     "201 (3 sf)",
+     "200 (2 sf)",
+     "200.5 (4 sf)",
+     "200.50"
+    ],
+    "answer": 1,
+    "explain": "To 3 sf the bounds give 200 and 201, which disagree. To 2 sf both give 200, so P = 200 to 2 sf."
+   },
+   {
+    "id": "M28",
+    "q": "z = x/y with bounds 13.478 (upper) and 13.423 (lower). What is z to a suitable degree of accuracy?",
+    "options": [
+     "13.5",
+     "13.45",
+     "13.4",
+     "13"
+    ],
+    "answer": 3,
+    "explain": "To 3 sf the bounds round to 13.5 and 13.4, which disagree. To 2 sf both round to 13."
+   },
+   {
+    "id": "M29",
+    "q": "An angle is 38° correct to 2 significant figures. What is its lower bound?",
+    "options": [
+     "37°",
+     "37.95°",
+     "37.5°",
+     "38.5°"
+    ],
+    "answer": 2,
+    "explain": "To 2 sf, 38 is rounded to the nearest 1. Half of 1 is 0.5, so the lower bound is 37.5°."
+   },
+   {
+    "id": "M30",
+    "q": "The volume of a sphere of radius 2.35 cm is 54.36… cm³. What goes wrong if you round the radius to 2.4 first?",
+    "options": [
+     "You get about 57.9 cm³, which is too big",
+     "Nothing: the answer still rounds to 54.4",
+     "You get about 54.9 cm³, which is slightly too big",
+     "You get about 52.0 cm³, which is too small"
+    ],
+    "answer": 0,
+    "explain": "4/3 × π × 2.4³ = 57.9. Cubing magnifies the rounding error, so keep full values and round once at the end."
+   },
+   {
+    "id": "M31",
+    "q": "100 eggs are packed in boxes of 12. How many boxes are needed to hold all of them?",
+    "options": [
+     "8",
+     "8.33",
+     "8.3",
+     "9"
+    ],
+    "answer": 3,
+    "explain": "100 ÷ 12 = 8.33… Eight boxes hold only 96 eggs, so round UP to 9 boxes."
+   },
+   {
+    "id": "M32",
+    "q": "A length is 5.8 cm correct to 2 significant figures. What is the upper bound?",
+    "options": [
+     "5.9 cm",
+     "5.85 cm",
+     "5.84 cm",
+     "5.805 cm"
+    ],
+    "answer": 1,
+    "explain": "2 sf for 5.8 means to 1 dp. Half of 0.1 is 0.05, so the upper bound is 5.85."
+   },
+   {
+    "id": "M33",
+    "q": "The time taken for a journey is 150 km (2 sf) ÷ 60 km/h (nearest 5 km/h). Which gives the LOWER bound of the time?",
+    "options": [
+     "145 ÷ 62.5",
+     "155 ÷ 57.5",
+     "145 ÷ 57.5",
+     "150 ÷ 62.5"
+    ],
+    "answer": 0,
+    "explain": "Time = distance ÷ speed. The minimum is the smallest distance ÷ the largest speed = 145 ÷ 62.5 = 2.32 h."
+   },
+   {
+    "id": "M34",
+    "q": "Mass 440 g (nearest 10 g), volume 52 cm³ (nearest cm³). What is the upper bound of the density, to 3 sf?",
+    "options": [
+     "8.46 g/cm³",
+     "8.56 g/cm³",
+     "8.64 g/cm³",
+     "8.37 g/cm³"
+    ],
+    "answer": 2,
+    "explain": "445 ÷ 51.5 = 8.640… → 8.64. Density is a division, so use UB mass ÷ LB volume."
+   },
+   {
+    "id": "M35",
+    "q": "A hypotenuse is 12 cm (nearest cm) and an angle is 40° (nearest degree). What is the upper bound of the opposite side, 12 sin 40°?",
+    "options": [
+     "12.5 × sin 39.5°",
+     "12.5 × sin 40.5°",
+     "11.5 × sin 40.5°",
+     "12 × sin 40°"
+    ],
+    "answer": 1,
+    "explain": "sin increases between 0° and 90°, so the largest value uses the largest angle and the largest hypotenuse: 12.5 × sin 40.5° = 8.12 cm."
+   },
+   {
+    "id": "M36",
+    "q": "Which is the correct way to give a final answer of 28 688.075… dollars?",
+    "options": [
+     "$28 688.07",
+     "$28 700",
+     "$28 688.1",
+     "$28 688.08"
+    ],
+    "answer": 3,
+    "explain": "Money is given to 2 dp (the nearest cent). The third decimal is 5, so round up to .08."
+   },
+   {
+    "id": "M37",
+    "q": "The perimeter of a rectangle 8.3 cm by 5.6 cm (each to 1 dp) has what upper bound?",
+    "options": [
+     "27.8 cm",
+     "28.2 cm",
+     "28 cm",
+     "27.6 cm"
+    ],
+    "answer": 2,
+    "explain": "2 × (8.35 + 5.65) = 2 × 14 = 28. For a sum, use both upper bounds."
+   },
+   {
+    "id": "M38",
+    "q": "x = 7.3 and y = 2.1, both to 1 dp. Which gives the LOWER bound of x ÷ y?",
+    "options": [
+     "7.25 ÷ 2.15",
+     "7.25 ÷ 2.05",
+     "7.35 ÷ 2.15",
+     "7.35 ÷ 2.05"
+    ],
+    "answer": 0,
+    "explain": "For the smallest quotient, divide the smallest top by the largest bottom."
+   },
+   {
+    "id": "M39",
+    "q": "A value is 2.4 to 1 dp. Why is 2.45 used as its upper bound, even though 2.45 rounds to 2.5?",
+    "options": [
+     "Because 2.45 is closer to 2.4 than to 2.5",
+     "Because upper bounds are always rounded down",
+     "It isn't: the upper bound is 2.449",
+     "The value can be anything up to, but not including, 2.45"
+    ],
+    "answer": 3,
+    "explain": "The true value can get as close to 2.45 as you like, so 2.45 is the boundary: 2.35 ≤ x < 2.45."
+   },
+   {
+    "id": "M40",
+    "q": "With no instruction about accuracy, how should a non-exact decimal answer normally be given?",
+    "options": [
+     "To 1 decimal place",
+     "To 3 significant figures",
+     "To the nearest whole number",
+     "As the full calculator display"
+    ],
+    "answer": 1,
+    "explain": "Edexcel expects 3 sf unless told otherwise (angles to 1 dp). Write the longer value first, then the rounded one."
+   }
+  ],
+  "04-algebraic-manipulation": [
+   {
+    "id": "M1",
+    "q": "Expand and simplify (2x − 3)(x + 5)",
+    "options": [
+     "2x² + 7x − 15",
+     "2x² − 15",
+     "2x² + 13x − 15",
+     "2x² + 7x + 15"
+    ],
+    "answer": 0,
+    "explain": "2x² + 10x − 3x − 15 = 2x² + 7x − 15."
+   },
+   {
+    "id": "M2",
+    "q": "Expand and simplify (3x − 2)²",
+    "options": [
+     "9x² + 4",
+     "9x² − 4",
+     "9x² − 12x + 4",
+     "9x² − 6x + 4"
+    ],
+    "answer": 2,
+    "explain": "(3x − 2)(3x − 2) = 9x² − 6x − 6x + 4. Squaring each term misses the two middle terms."
+   },
+   {
+    "id": "M3",
+    "q": "Expand and simplify 3(2x − 5) − 2(x − 4)",
+    "options": [
+     "4x − 23",
+     "4x − 7",
+     "4x − 9",
+     "8x − 7"
+    ],
+    "answer": 1,
+    "explain": "6x − 15 − 2x + 8 = 4x − 7. −2 × −4 = +8, not −8."
+   },
+   {
+    "id": "M4",
+    "q": "Expand and simplify (x + 2)(x − 3)(x + 4)",
+    "options": [
+     "x³ − 24",
+     "x³ + 3x² + 10x − 24",
+     "x³ + 3x² − 10x + 24",
+     "x³ + 3x² − 10x − 24"
+    ],
+    "answer": 3,
+    "explain": "(x + 2)(x − 3) = x² − x − 6; × (x + 4) gives x³ + 4x² − x² − 4x − 6x − 24 = x³ + 3x² − 10x − 24. The constant is 2 × −3 × 4 = −24."
+   },
+   {
+    "id": "M5",
+    "q": "When (x + 5)(x − 3)(x + 3) is expanded, what is the constant term?",
+    "options": [
+     "45",
+     "5",
+     "−45",
+     "−9"
+    ],
+    "answer": 2,
+    "explain": "The constant comes only from 5 × (−3) × 3 = −45."
+   },
+   {
+    "id": "M6",
+    "q": "How many terms are there after multiplying a simplified quadratic (3 terms) by a bracket with 2 terms, before collecting?",
+    "options": [
+     "6",
+     "5",
+     "8",
+     "4"
+    ],
+    "answer": 0,
+    "explain": "3 × 2 = 6 terms. Expanding all three brackets at once gives 8 terms. The 2018 scheme required the correct number of terms to be present."
+   },
+   {
+    "id": "M7",
+    "q": "Factorise fully 15a³b − 25a²b²",
+    "options": [
+     "5a(3a²b − 5ab²)",
+     "5(3a³b − 5a²b²)",
+     "a²b(15a − 25b)",
+     "5a²b(3a − 5b)"
+    ],
+    "answer": 3,
+    "explain": "HCF of 15 and 25 is 5, and the lowest powers are a² and b. The other answers still have a common factor left in the bracket."
+   },
+   {
+    "id": "M8",
+    "q": "Factorise fully 24a³b² − 36a²b⁴",
+    "options": [
+     "6a²b²(4a − 6b²)",
+     "12a²b²(2a − 3b²)",
+     "12a³b⁴(2 − 3)",
+     "12ab(2a²b − 3ab³)"
+    ],
+    "answer": 1,
+    "explain": "HCF(24, 36) = 12; lowest powers a² and b². What is left is 2a − 3b²."
+   },
+   {
+    "id": "M9",
+    "q": "Factorise x² + x − 30",
+    "options": [
+     "(x + 6)(x − 5)",
+     "(x − 6)(x + 5)",
+     "(x + 10)(x − 3)",
+     "(x + 15)(x − 2)"
+    ],
+    "answer": 0,
+    "explain": "The two numbers must multiply to −30 and add to +1: 6 and −5. (x − 6)(x + 5) gives −x."
+   },
+   {
+    "id": "M10",
+    "q": "Factorise x² − 3x − 40",
+    "options": [
+     "(x + 8)(x − 5)",
+     "(x − 10)(x + 4)",
+     "(x − 8)(x + 5)",
+     "(x − 8)(x − 5)"
+    ],
+    "answer": 2,
+    "explain": "Multiply to −40, add to −3: −8 and +5."
+   },
+   {
+    "id": "M11",
+    "q": "Factorise 6x² + x − 12",
+    "options": [
+     "(3x + 4)(2x − 3)",
+     "(3x − 4)(2x + 3)",
+     "(6x − 4)(x + 3)",
+     "(2x − 4)(3x + 3)"
+    ],
+    "answer": 1,
+    "explain": "ac = −72; 9 and −8 multiply to −72 and add to 1. So 6x² + 9x − 8x − 12 = 3x(2x + 3) − 4(2x + 3)."
+   },
+   {
+    "id": "M12",
+    "q": "Factorise 10x² − 11x − 6",
+    "options": [
+     "(5x − 2)(2x + 3)",
+     "(10x + 1)(x − 6)",
+     "(5x − 3)(2x + 2)",
+     "(5x + 2)(2x − 3)"
+    ],
+    "answer": 3,
+    "explain": "ac = −60; −15 and 4. 10x² − 15x + 4x − 6 = 5x(2x − 3) + 2(2x − 3)."
+   },
+   {
+    "id": "M13",
+    "q": "In the ac method for 6x² + x − 12, which two numbers do you look for?",
+    "options": [
+     "Product −12 and sum 1",
+     "Product 72 and sum −1",
+     "Product −72 and sum 1",
+     "Product −72 and sum 6"
+    ],
+    "answer": 2,
+    "explain": "Multiply a × c = 6 × −12 = −72, and the sum must be b = 1."
+   },
+   {
+    "id": "M14",
+    "q": "Factorise 25x² − 36y²",
+    "options": [
+     "(5x − 6y)(5x + 6y)",
+     "(5x − 6y)²",
+     "(25x − 36y)(x + y)",
+     "(5x + 6y)²"
+    ],
+    "answer": 0,
+    "explain": "Difference of two squares: (5x)² − (6y)² = (5x − 6y)(5x + 6y)."
+   },
+   {
+    "id": "M15",
+    "q": "Factorise completely 2x² − 50",
+    "options": [
+     "2(x² − 25)",
+     "(2x − 5)(x + 10)",
+     "2(x − 5)²",
+     "2(x − 5)(x + 5)"
+    ],
+    "answer": 3,
+    "explain": "Take out the common factor 2 first, then factorise the difference of squares: x² − 25 = (x − 5)(x + 5). 2(x² − 25) is not completely factorised."
+   },
+   {
+    "id": "M16",
+    "q": "Factorise completely (x + 5)² − (x − 1)²",
+    "options": [
+     "4(2x + 4)",
+     "12(x + 2)",
+     "(x + 4)(2x + 6)",
+     "24"
+    ],
+    "answer": 1,
+    "explain": "[(x + 5) − (x − 1)][(x + 5) + (x − 1)] = 6(2x + 4) = 12(x + 2). Note (x + 5) − (x − 1) = 6, not 4."
+   },
+   {
+    "id": "M17",
+    "q": "Which of these can NOT be factorised using real numbers?",
+    "options": [
+     "x² + 9",
+     "x² − 9",
+     "9 − x²",
+     "x² − 9x"
+    ],
+    "answer": 0,
+    "explain": "x² + 9 is a SUM of squares. x² − 9 = (x − 3)(x + 3), 9 − x² = (3 − x)(3 + x), and x² − 9x = x(x − 9)."
+   },
+   {
+    "id": "M18",
+    "q": "Simplify fully (3x² − 6x)/(x² − 4)",
+    "options": [
+     "3x/(x − 2)",
+     "(3x − 6)/(x − 4)",
+     "3x/(x + 2)",
+     "−6x/(−4)"
+    ],
+    "answer": 2,
+    "explain": "3x(x − 2) / ((x − 2)(x + 2)). Cancel the common FACTOR (x − 2)."
+   },
+   {
+    "id": "M19",
+    "q": "Simplify fully (x² − 9)/(2x² + 5x − 3)",
+    "options": [
+     "(x + 3)/(2x − 1)",
+     "(x − 3)/(2x − 1)",
+     "(x − 3)/(2x + 1)",
+     "−3/(5x − 3)"
+    ],
+    "answer": 1,
+    "explain": "(x − 3)(x + 3) / ((2x − 1)(x + 3)). Cancel (x + 3)."
+   },
+   {
+    "id": "M20",
+    "q": "A student writes (x + 3)/(x + 5) = 3/5. What is wrong?",
+    "options": [
+     "Nothing: the x's cancel",
+     "It should be 5/3",
+     "It should be (x + 3)/5",
+     "x is a term, not a factor, so it cannot be cancelled"
+    ],
+    "answer": 3,
+    "explain": "You can only cancel factors. Test x = 1: 4/6 = 2/3, which is not 3/5."
+   },
+   {
+    "id": "M21",
+    "q": "Write 2/(x + 3) + 5/(x − 1) as a single fraction",
+    "options": [
+     "7/(2x + 2)",
+     "(7x + 17)/((x + 3)(x − 1))",
+     "(7x + 13)/((x + 3)(x − 1))",
+     "(7x − 13)/((x + 3)(x − 1))"
+    ],
+    "answer": 2,
+    "explain": "[2(x − 1) + 5(x + 3)] / ((x + 3)(x − 1)) = (2x − 2 + 5x + 15)/… = (7x + 13)/((x + 3)(x − 1)). You cannot add the tops and bottoms separately."
+   },
+   {
+    "id": "M22",
+    "q": "Write 3/(x + 2) + 2/(x − 3) as a single fraction",
+    "options": [
+     "(5x − 5)/((x + 2)(x − 3))",
+     "(5x − 13)/((x + 2)(x − 3))",
+     "5/(2x − 1)",
+     "(5x + 5)/((x + 2)(x − 3))"
+    ],
+    "answer": 0,
+    "explain": "3(x − 3) + 2(x + 2) = 3x − 9 + 2x + 4 = 5x − 5."
+   },
+   {
+    "id": "M23",
+    "q": "What is the simplest common denominator for 1/(9x² − 25) − 1/(6x + 10)?",
+    "options": [
+     "(9x² − 25)(6x + 10)",
+     "(3x − 5)(3x + 5)",
+     "6x + 10",
+     "2(3x − 5)(3x + 5)"
+    ],
+    "answer": 3,
+    "explain": "9x² − 25 = (3x − 5)(3x + 5) and 6x + 10 = 2(3x + 5). The LCM uses each factor once: 2(3x − 5)(3x + 5)."
+   },
+   {
+    "id": "M24",
+    "q": "Express 1/(4x² − 9) − 1/(4x + 6) as a single fraction",
+    "options": [
+     "(2x − 1)/(2(2x − 3)(2x + 3))",
+     "(5 − 2x)/(2(2x − 3)(2x + 3))",
+     "−1/(4x² − 4x − 3)",
+     "(−1 − 2x)/(2(2x − 3)(2x + 3))"
+    ],
+    "answer": 1,
+    "explain": "Common denominator 2(2x − 3)(2x + 3). Numerator 2 − (2x − 3) = 5 − 2x. The minus sign must go through the whole bracket."
+   },
+   {
+    "id": "M25",
+    "q": "Simplify (x² − 16)/(3x + 12) ÷ (x² − 3x − 4)/(6x)",
+    "options": [
+     "2x/(x + 1)",
+     "(x + 1)/(2x)",
+     "2x/(x − 1)",
+     "(x − 4)²/(18x)"
+    ],
+    "answer": 0,
+    "explain": "Flip and multiply, then factorise: (x − 4)(x + 4)/[3(x + 4)] × 6x/[(x − 4)(x + 1)] = 2x/(x + 1)."
+   },
+   {
+    "id": "M26",
+    "q": "Make p the subject of N = pq − rs",
+    "options": [
+     "p = (N − rs)/q",
+     "p = N/q + rs",
+     "p = (N + rs)/q",
+     "(N + rs)/q"
+    ],
+    "answer": 2,
+    "explain": "Add rs to both sides: pq = N + rs, then divide by q. Write p = at the start. The 2018 scheme only gave the A1 if the answer was seen with the subject and an equals sign."
+   },
+   {
+    "id": "M27",
+    "q": "Make r the subject of V = πr²h/3",
+    "options": [
+     "r = 3V/(πh)",
+     "r = √(3V/(πh))",
+     "r = √(V/(3πh))",
+     "r² = 3V/(πh)"
+    ],
+    "answer": 1,
+    "explain": "3V = πr²h, so r² = 3V/(πh) and r = √(3V/(πh)). Stopping at r² does not make r the subject."
+   },
+   {
+    "id": "M28",
+    "q": "Make L the subject of T = 2π√(L/g)",
+    "options": [
+     "L = gT/(2π)",
+     "L = T²/(4π²g)",
+     "L = g(T − 2π)²",
+     "L = gT²/(4π²)"
+    ],
+    "answer": 3,
+    "explain": "T/(2π) = √(L/g), square: T²/(4π²) = L/g, then multiply by g."
+   },
+   {
+    "id": "M29",
+    "q": "Make v the subject of E = ½mv² + h, where v is positive",
+    "options": [
+     "v = √(2E/m) − h",
+     "v = 2(E − h)/m",
+     "v = √(2(E − h)/m)",
+     "v = √((E − h)/(2m))"
+    ],
+    "answer": 2,
+    "explain": "E − h = ½mv², so v² = 2(E − h)/m, then take the positive square root."
+   },
+   {
+    "id": "M30",
+    "q": "Make q the subject of p = (2q + 1)/(q − 3)",
+    "options": [
+     "q = (1 + 3p)/(p − 2)",
+     "q = (1 + 3p + 2q)/p",
+     "q = (1 + 3p)/(p + 2)",
+     "q = (3p − 1)/(p − 2)"
+    ],
+    "answer": 0,
+    "explain": "pq − 3p = 2q + 1 → pq − 2q = 1 + 3p → q(p − 2) = 1 + 3p. The first wrong answer still has q on both sides."
+   },
+   {
+    "id": "M31",
+    "q": "When the subject appears in two terms, which step MUST you use?",
+    "options": [
+     "Square both sides",
+     "Divide both sides by the subject",
+     "Cancel the subject from both sides",
+     "Factorise the subject out of the terms that contain it"
+    ],
+    "answer": 3,
+    "explain": "Collect the subject terms on one side, then factorise, e.g. q(p − 2) = 1 + 3p, so you can divide by the bracket."
+   },
+   {
+    "id": "M32",
+    "q": "Make a the subject of 2a − 7 = (5 + a)/k",
+    "options": [
+     "a = (5 + 7k)/(2k + 1)",
+     "a = (5 + 7k)/(2k − 1)",
+     "a = (5 + 7)/(2k − 1)",
+     "a = (5 + 7k)/(2 − k)"
+    ],
+    "answer": 1,
+    "explain": "k(2a − 7) = 5 + a → 2ak − 7k = 5 + a → 2ak − a = 5 + 7k → a(2k − 1) = 5 + 7k."
+   },
+   {
+    "id": "M33",
+    "q": "Make g the subject of 2e + 5g = 3 + 4eg",
+    "options": [
+     "g = (3 − 2e)/(5 − 4e)",
+     "g = (3 − 2e)/(5 + 4e)",
+     "g = (3 + 2e)/(5 − 4e)",
+     "g = (3 − 2e)/(e)"
+    ],
+    "answer": 0,
+    "explain": "Collect the g terms: 5g − 4eg = 3 − 2e, then factorise: g(5 − 4e) = 3 − 2e."
+   },
+   {
+    "id": "M34",
+    "q": "Make y the subject of x = √((y + 2)/(y − 1))",
+    "options": [
+     "y = (x² − 2)/(x² + 1)",
+     "y = (x + 2)/(x − 1)",
+     "y = (x² + 2)/(x² − 1)",
+     "y = (x² + 2)/(1 − x²)"
+    ],
+    "answer": 2,
+    "explain": "x² = (y + 2)/(y − 1) → x²y − x² = y + 2 → y(x² − 1) = x² + 2."
+   },
+   {
+    "id": "M35",
+    "q": "Which expression represents any odd number, where n is an integer?",
+    "options": [
+     "n + 1",
+     "2n + 1",
+     "2n",
+     "n²"
+    ],
+    "answer": 1,
+    "explain": "2n is always even, so 2n + 1 is always odd. n + 1 and n² can be either odd or even."
+   },
+   {
+    "id": "M36",
+    "q": "(2n + 3)² − (2n + 1)² simplifies to…",
+    "options": [
+     "8",
+     "4n + 8",
+     "8n + 10",
+     "8n + 8"
+    ],
+    "answer": 3,
+    "explain": "4n² + 12n + 9 − (4n² + 4n + 1) = 8n + 8 = 8(n + 1), a multiple of 8."
+   },
+   {
+    "id": "M37",
+    "q": "(2n + 3)² − (2n − 3)² simplifies to…",
+    "options": [
+     "18",
+     "12n",
+     "24n",
+     "0"
+    ],
+    "answer": 2,
+    "explain": "(4n² + 12n + 9) − (4n² − 12n + 9) = 24n = 12 × 2n, so it is always a multiple of 12."
+   },
+   {
+    "id": "M38",
+    "q": "Why is 'it works for n = 1, 2 and 3' not a proof?",
+    "options": [
+     "Examples only check some cases; a proof must work for every n",
+     "Three examples are not enough, but ten would be",
+     "It is a proof if the examples are chosen at random",
+     "It is a proof if n = 0 is also checked"
+    ],
+    "answer": 0,
+    "explain": "However many examples you try, you have not covered every integer. Algebra with a general n does."
+   },
+   {
+    "id": "M39",
+    "q": "The sum of three consecutive integers n, n + 1 and n + 2 is always…",
+    "options": [
+     "even",
+     "odd",
+     "a multiple of 6",
+     "a multiple of 3"
+    ],
+    "answer": 3,
+    "explain": "n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1), a multiple of 3. It can be odd or even (e.g. 6 and 9)."
+   },
+   {
+    "id": "M40",
+    "q": "Which is an identity (true for ALL values of x)?",
+    "options": [
+     "x² = 4",
+     "(x + 1)² ≡ x² + 2x + 1",
+     "2x + 1 = 7",
+     "(x + 1)² = x² + 1"
+    ],
+    "answer": 1,
+    "explain": "An identity holds for every x. x² = 4 and 2x + 1 = 7 are equations; (x + 1)² = x² + 1 is false for most x."
+   }
+  ],
+  "05-equations-and-inequalities": [
+   {
+    "id": "M1",
+    "q": "Solve 3(x − 4) = 2x + 5",
+    "options": [
+     "17",
+     "9",
+     "−7",
+     "1"
+    ],
+    "answer": 0,
+    "explain": "Expand: 3x − 12 = 2x + 5. Subtract 2x and add 12: x = 17. The answer 9 comes from forgetting to multiply the −4 by 3."
+   },
+   {
+    "id": "M2",
+    "q": "Solve (x + 5)/3 = 4",
+    "options": [
+     "17",
+     "−3",
+     "−11/3",
+     "7"
+    ],
+    "answer": 3,
+    "explain": "Multiply both sides by 3: x + 5 = 12, so x = 7. Multiply the whole of the left side, not just the x."
+   },
+   {
+    "id": "M3",
+    "q": "Solve the inequality 7 − 2x > 13",
+    "options": [
+     "x > −3",
+     "x < 3",
+     "x < −3",
+     "x > 3"
+    ],
+    "answer": 2,
+    "explain": "−2x > 6. Dividing by −2 reverses the sign, so x < −3. The answer x > −3 forgets to flip it."
+   },
+   {
+    "id": "M4",
+    "q": "Which integers satisfy −3 < 2x + 1 ≤ 7?",
+    "options": [
+     "−2, −1, 0, 1, 2, 3",
+     "−1, 0, 1, 2, 3",
+     "−1, 0, 1, 2",
+     "−2, −1, 0, 1, 2"
+    ],
+    "answer": 1,
+    "explain": "Subtract 1 from all three parts: −4 < 2x ≤ 6. Halve: −2 < x ≤ 3. −2 is not included (strict <) but 3 is (≤)."
+   },
+   {
+    "id": "M5",
+    "q": "A number line has an open circle at 2, a filled circle at 5 and the part between them shaded. Which inequality does it show?",
+    "options": [
+     "2 ≤ x < 5",
+     "2 < x ≤ 5",
+     "2 ≤ x ≤ 5",
+     "2 < x < 5"
+    ],
+    "answer": 1,
+    "explain": "An open circle means the value is not included (<). A filled circle means it is included (≤). So 2 < x ≤ 5."
+   },
+   {
+    "id": "M6",
+    "q": "Solve the simultaneous equations 2x + y = 11 and x − y = 1",
+    "options": [
+     "x = 4, y = 3",
+     "x = 3, y = 4",
+     "x = 5, y = 1",
+     "x = 4, y = −3"
+    ],
+    "answer": 0,
+    "explain": "Add the equations to eliminate y: 3x = 12, so x = 4. Then 4 − y = 1, so y = 3. Check: 2(4) + 3 = 11."
+   },
+   {
+    "id": "M7",
+    "q": "To eliminate y from 3x + 2y = 12 and 5x − 2y = 4, what should you do?",
+    "options": [
+     "Subtract the equations",
+     "Multiply the first equation by 2",
+     "Divide both equations by 2",
+     "Add the equations"
+    ],
+    "answer": 3,
+    "explain": "The y-coefficients are +2 and −2, which have different signs, so adding makes them cancel: 8x = 16."
+   },
+   {
+    "id": "M8",
+    "q": "Solve 4x + 3y = 18 and 2x + 3y = 12",
+    "options": [
+     "x = 5, y = −2/3",
+     "x = 3, y = 6",
+     "x = 3, y = 2",
+     "x = 1.5, y = 3"
+    ],
+    "answer": 2,
+    "explain": "Same signs, so subtract: 2x = 6, x = 3. Then 6 + 3y = 12, so y = 2. Always check the pair in both equations."
+   },
+   {
+    "id": "M9",
+    "q": "Two straight lines cross at the point (2, −1). What is the solution of their simultaneous equations?",
+    "options": [
+     "x = −1, y = 2",
+     "x = 2 only",
+     "x = 2, y = −1",
+     "There is no solution"
+    ],
+    "answer": 2,
+    "explain": "The crossing point lies on both lines, so its coordinates satisfy both equations: x = 2, y = −1."
+   },
+   {
+    "id": "M10",
+    "q": "Solve x² + 3x − 10 = 0",
+    "options": [
+     "x = −2 or x = 5",
+     "x = 2 or x = −5",
+     "x = 2 or x = 5",
+     "x = −2 or x = −5"
+    ],
+    "answer": 1,
+    "explain": "(x + 5)(x − 2) = 0, so x = −5 or x = 2. The signs flip when you set each bracket to zero."
+   },
+   {
+    "id": "M11",
+    "q": "Solve x² = 6x",
+    "options": [
+     "x = 0 or x = 6",
+     "x = 6",
+     "x = ±√6",
+     "x = 0 or x = −6"
+    ],
+    "answer": 0,
+    "explain": "x² − 6x = 0, so x(x − 6) = 0, giving x = 0 or x = 6. Dividing both sides by x loses the solution x = 0."
+   },
+   {
+    "id": "M12",
+    "q": "Solve x² − 49 = 0",
+    "options": [
+     "x = 7",
+     "x = 49",
+     "x = ±24.5",
+     "x = 7 or x = −7"
+    ],
+    "answer": 3,
+    "explain": "x² = 49, so x = ±7. It is a difference of two squares: (x − 7)(x + 7) = 0. Forgetting the negative root loses a mark."
+   },
+   {
+    "id": "M13",
+    "q": "Factorise 2x² + 7x + 3",
+    "options": [
+     "(2x + 3)(x + 1)",
+     "(x + 1)(x + 3)",
+     "(2x + 1)(x + 1)",
+     "(2x + 1)(x + 3)"
+    ],
+    "answer": 3,
+    "explain": "ac = 6. The numbers 6 and 1 multiply to 6 and add to 7: 2x² + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3). (2x + 3)(x + 1) expands to 2x² + 5x + 3."
+   },
+   {
+    "id": "M14",
+    "q": "Solve 3x² − 5x − 2 = 0",
+    "options": [
+     "x = −2 or x = 1/3",
+     "x = 2 or x = −3",
+     "x = 2 or x = −1/3",
+     "x = 6 or x = −1"
+    ],
+    "answer": 2,
+    "explain": "(3x + 1)(x − 2) = 0, so x = −1/3 or x = 2. Divide by the 3 in the bracket: 3x + 1 = 0 gives x = −1/3."
+   },
+   {
+    "id": "M15",
+    "q": "Which is the correct substitution into the quadratic formula for 2x² − 3x − 4 = 0?",
+    "options": [
+     "x = (−3 ± √(9 − 32)) ÷ 4",
+     "x = (3 ± √(9 + 32)) ÷ 4",
+     "x = (3 ± √(9 − 32)) ÷ 4",
+     "x = (3 ± √(9 + 32)) ÷ 2"
+    ],
+    "answer": 1,
+    "explain": "a = 2, b = −3, c = −4. −b = 3. b² − 4ac = 9 − 4(2)(−4) = 9 + 32. 2a = 4. Watch the signs of b and c."
+   },
+   {
+    "id": "M16",
+    "q": "Solve x² + 4x − 7 = 0, giving your answers to 3 significant figures.",
+    "options": [
+     "x = 1.32 or x = −5.32",
+     "x = −1.32 or x = 5.32",
+     "x = 2.32 or x = −6.32",
+     "x = 1.32 only"
+    ],
+    "answer": 0,
+    "explain": "x = (−4 ± √(16 + 28)) ÷ 2 = (−4 ± √44) ÷ 2 = −2 ± √11, which is 1.3166… or −5.3166…. A quadratic like this has two answers."
+   },
+   {
+    "id": "M17",
+    "q": "What is the value of b² − 4ac for 3x² + 2x + 5 = 0?",
+    "options": [
+     "−56",
+     "64",
+     "56",
+     "−26"
+    ],
+    "answer": 0,
+    "explain": "b² − 4ac = 2² − 4 × 3 × 5 = 4 − 60 = −56. It is negative, so the equation has no real solutions."
+   },
+   {
+    "id": "M18",
+    "q": "For a quadratic equation, b² − 4ac is negative. What does that tell you?",
+    "options": [
+     "Two different real solutions",
+     "Two equal solutions",
+     "One positive and one negative solution",
+     "No real solutions"
+    ],
+    "answer": 3,
+    "explain": "You cannot square-root a negative number, so the formula gives no real answers. The graph does not cross the x-axis."
+   },
+   {
+    "id": "M19",
+    "q": "Write x² + 10x + 7 in the form (x + p)² + q",
+    "options": [
+     "(x + 5)² + 32",
+     "(x + 10)² − 93",
+     "(x + 5)² − 18",
+     "(x − 5)² − 18"
+    ],
+    "answer": 2,
+    "explain": "Half of 10 is 5: (x + 5)² − 25 + 7 = (x + 5)² − 18. The 25 must be subtracted, not added."
+   },
+   {
+    "id": "M20",
+    "q": "What are the coordinates of the turning point of y = (x − 3)² + 4?",
+    "options": [
+     "(−3, 4)",
+     "(3, 4)",
+     "(3, −4)",
+     "(4, 3)"
+    ],
+    "answer": 1,
+    "explain": "The bracket is zero when x = 3, and then y = 4. The minimum point is (3, 4). The x-coordinate has the opposite sign to the number in the bracket."
+   },
+   {
+    "id": "M21",
+    "q": "Write 2x² + 8x + 1 in the form a(x + b)² + c",
+    "options": [
+     "2(x + 2)² − 3",
+     "2(x + 2)² − 7",
+     "2(x + 4)² − 31",
+     "(2x + 2)² − 3"
+    ],
+    "answer": 1,
+    "explain": "2(x² + 4x) + 1 = 2[(x + 2)² − 4] + 1 = 2(x + 2)² − 8 + 1 = 2(x + 2)² − 7. The −4 inside the bracket gets multiplied by 2."
+   },
+   {
+    "id": "M22",
+    "q": "Solve (x − 2)² = 5",
+    "options": [
+     "x = 2 ± √5",
+     "x = −2 ± √5",
+     "x = 2 + √5 only",
+     "x = 7 or x = −3"
+    ],
+    "answer": 0,
+    "explain": "Square-root both sides, remembering ±: x − 2 = ±√5, so x = 2 ± √5."
+   },
+   {
+    "id": "M23",
+    "q": "What is the minimum value of x² − 6x + 11?",
+    "options": [
+     "11",
+     "3",
+     "−2",
+     "2"
+    ],
+    "answer": 3,
+    "explain": "x² − 6x + 11 = (x − 3)² + 2. A square is never negative, so the smallest value is 2, when x = 3."
+   },
+   {
+    "id": "M24",
+    "q": "A rectangle is (x + 2) cm long and x cm wide. Its area is 35 cm². Which equation must x satisfy?",
+    "options": [
+     "x² + 2x + 35 = 0",
+     "2x + 2 = 35",
+     "x² + 2x − 35 = 0",
+     "x² + 2 = 35"
+    ],
+    "answer": 2,
+    "explain": "x(x + 2) = 35 gives x² + 2x = 35, so x² + 2x − 35 = 0. It factorises as (x + 7)(x − 5), so x = 5."
+   },
+   {
+    "id": "M25",
+    "q": "A quadratic from a context gives x = 6 or x = −9, where x is a length in cm. What should you write?",
+    "options": [
+     "Give both values",
+     "Give x = −9, the smaller one",
+     "Give x = 6 and reject x = −9, because a length cannot be negative",
+     "Give the mean, x = −1.5"
+    ],
+    "answer": 2,
+    "explain": "The algebra gives both roots, but a length must be positive. Reject −9 and say why, then use x = 6."
+   },
+   {
+    "id": "M26",
+    "q": "Substituting y = x + 2 into x² + y² = 20 gives which equation?",
+    "options": [
+     "2x² + 4 = 20",
+     "2x² + 4x − 16 = 0",
+     "2x² + 2x − 16 = 0",
+     "x² + 4x − 16 = 0"
+    ],
+    "answer": 1,
+    "explain": "x² + (x + 2)² = 20 gives x² + x² + 4x + 4 = 20, so 2x² + 4x − 16 = 0. (x + 2)² has a middle term, 4x."
+   },
+   {
+    "id": "M27",
+    "q": "Solve the simultaneous equations y = x + 2 and x² + y² = 20",
+    "options": [
+     "(2, 4) and (−4, −2)",
+     "(2, 4) and (−4, 2)",
+     "(4, 2) and (−2, −4)",
+     "(2, 4) only"
+    ],
+    "answer": 0,
+    "explain": "2x² + 4x − 16 = 0, so x² + 2x − 8 = 0, so (x + 4)(x − 2) = 0. x = 2 gives y = 4, and x = −4 gives y = −2. Find each y from the linear equation."
+   },
+   {
+    "id": "M28",
+    "q": "Where does the line y = 2x − 1 meet the curve y = x² − 4?",
+    "options": [
+     "(3, 5) only",
+     "(−3, 5) and (1, −3)",
+     "(3, 2) and (−1, −1)",
+     "(3, 5) and (−1, −3)"
+    ],
+    "answer": 3,
+    "explain": "x² − 4 = 2x − 1 gives x² − 2x − 3 = 0, so (x − 3)(x + 1) = 0. x = 3 gives y = 5, and x = −1 gives y = −3."
+   },
+   {
+    "id": "M29",
+    "q": "Solve x² < 25",
+    "options": [
+     "x < 5",
+     "x < ±5",
+     "x < −5 or x > 5",
+     "−5 < x < 5"
+    ],
+    "answer": 3,
+    "explain": "The critical values are ±5. x² − 25 < 0 is below the axis, which is between the roots: −5 < x < 5. x = −10 satisfies x < 5 but not x² < 25."
+   },
+   {
+    "id": "M30",
+    "q": "Solve x² − 5x + 4 > 0",
+    "options": [
+     "1 < x < 4",
+     "x > 4",
+     "x < 1 or x > 4",
+     "x < −4 or x > −1"
+    ],
+    "answer": 2,
+    "explain": "(x − 1)(x − 4) = 0 gives critical values 1 and 4. Greater than 0 means above the axis, which is the two tails: x < 1 or x > 4."
+   },
+   {
+    "id": "M31",
+    "q": "Solve (x − 2)(x + 6) ≤ 0",
+    "options": [
+     "x ≤ −6 or x ≥ 2",
+     "−6 ≤ x ≤ 2",
+     "−2 ≤ x ≤ 6",
+     "x ≤ 2"
+    ],
+    "answer": 1,
+    "explain": "The critical values are 2 and −6. A U-shaped graph is at or below the axis between them: −6 ≤ x ≤ 2."
+   },
+   {
+    "id": "M32",
+    "q": "Solve 2x² ≥ 50",
+    "options": [
+     "x ≤ −5 or x ≥ 5",
+     "x ≥ 5",
+     "−5 ≤ x ≤ 5",
+     "x ≥ 25"
+    ],
+    "answer": 0,
+    "explain": "x² ≥ 25. The critical values are ±5, and 'greater than or equal to' gives the tails: x ≤ −5 or x ≥ 5."
+   },
+   {
+    "id": "M33",
+    "q": "How many integers satisfy x² ≤ 10?",
+    "options": [
+     "7",
+     "3",
+     "6",
+     "4"
+    ],
+    "answer": 0,
+    "explain": "−√10 ≤ x ≤ √10, about −3.16 to 3.16. The integers are −3, −2, −1, 0, 1, 2 and 3: seven of them. Don't forget the negatives and 0."
+   },
+   {
+    "id": "M34",
+    "q": "Which point lies in the region y ≥ 1, x + y ≤ 5 and y ≤ 2x?",
+    "options": [
+     "(0, 3)",
+     "(4, 3)",
+     "(3, 0)",
+     "(2, 2)"
+    ],
+    "answer": 3,
+    "explain": "(2, 2): 2 ≥ 1, 2 + 2 = 4 ≤ 5 and 2 ≤ 4, so all three are true. (0, 3) fails y ≤ 2x, (4, 3) fails x + y ≤ 5, and (3, 0) fails y ≥ 1."
+   },
+   {
+    "id": "M35",
+    "q": "Which side of the line 3x + 2y = 12 is the region 3x + 2y < 12?",
+    "options": [
+     "Above the line",
+     "The side that does not contain the origin",
+     "The side that contains the origin",
+     "On the line only"
+    ],
+    "answer": 2,
+    "explain": "Test (0, 0): 0 < 12 is true, so the region is on the same side as the origin."
+   },
+   {
+    "id": "M36",
+    "q": "At which vertex do the boundary lines y = 2 and x + y = 8 meet?",
+    "options": [
+     "(2, 6)",
+     "(6, 2)",
+     "(8, 2)",
+     "(6, 8)"
+    ],
+    "answer": 1,
+    "explain": "Put y = 2 into x + y = 8: x = 6. The vertex is (6, 2), and it satisfies both equations."
+   },
+   {
+    "id": "M37",
+    "q": "Solve (3x − 1)/2 − (x + 1)/3 = 1",
+    "options": [
+     "1",
+     "11/7",
+     "6/7",
+     "7/11"
+    ],
+    "answer": 1,
+    "explain": "× 6: 3(3x − 1) − 2(x + 1) = 6, so 9x − 3 − 2x − 2 = 6, so 7x = 11 and x = 11/7. Writing −2x + 2 instead of −2x − 2 gives the wrong answer 1."
+   },
+   {
+    "id": "M38",
+    "q": "Solve −4x ≤ 20",
+    "options": [
+     "x ≥ −5",
+     "x ≤ −5",
+     "x ≥ 5",
+     "x ≤ 5"
+    ],
+    "answer": 0,
+    "explain": "Divide by −4 and reverse the sign: x ≥ −5. Check with x = 0: 0 ≤ 20 is true, and 0 is in x ≥ −5."
+   },
+   {
+    "id": "M39",
+    "q": "The angles of a triangle are x°, (2x + 10)° and (3x − 40)°. Find x.",
+    "options": [
+     "30",
+     "25",
+     "36.7",
+     "35"
+    ],
+    "answer": 3,
+    "explain": "x + 2x + 10 + 3x − 40 = 180, so 6x − 30 = 180, so 6x = 210 and x = 35."
+   },
+   {
+    "id": "M40",
+    "q": "Why does the line y = 3x − 10 not meet the circle x² + y² = 8? (Substituting gives 5x² − 30x + 46 = 0.)",
+    "options": [
+     "It does not factorise",
+     "a is positive",
+     "b² − 4ac = 900 − 920 = −20, which is negative",
+     "b² − 4ac = 20, which is positive"
+    ],
+    "answer": 2,
+    "explain": "(−30)² − 4 × 5 × 46 = 900 − 920 = −20 < 0, so there are no real solutions and no intersection. 'It does not factorise' is not a reason: many quadratics with real roots do not factorise."
+   }
+  ],
+  "06-sequences": [
+   {
+    "id": "M1",
+    "q": "What is the next term of 7, 11, 15, 19, …?",
+    "options": [
+     "22",
+     "23",
+     "24",
+     "27"
+    ],
+    "answer": 1,
+    "explain": "The difference is +4 each time, so 19 + 4 = 23."
+   },
+   {
+    "id": "M2",
+    "q": "What is the term-to-term rule for 3, 6, 12, 24, …?",
+    "options": [
+     "Multiply by 2",
+     "Add 3",
+     "Add 6",
+     "Multiply by 3"
+    ],
+    "answer": 0,
+    "explain": "The differences (3, 6, 12) are not constant, but each term is double the one before, so the rule is multiply by 2."
+   },
+   {
+    "id": "M3",
+    "q": "What is the nth term of 4, 9, 14, 19, …?",
+    "options": [
+     "n + 5",
+     "5n + 4",
+     "4n + 5",
+     "5n − 1"
+    ],
+    "answer": 3,
+    "explain": "The difference is 5, so 5n. 5n gives 5, 10, 15, … and each term is 1 less, so 5n − 1. Check: n = 1 gives 4."
+   },
+   {
+    "id": "M4",
+    "q": "What is the nth term of 2, 9, 16, 23, …? (SAM 2H)",
+    "options": [
+     "7n",
+     "7n + 2",
+     "7n − 5",
+     "n + 7"
+    ],
+    "answer": 2,
+    "explain": "The difference is 7. 7n gives 7, 14, 21, …, which is 5 too big, so 7n − 5. The scheme gave only M1 for 7n + k, and A1 needs the −5."
+   },
+   {
+    "id": "M5",
+    "q": "What is the nth term of 30, 26, 22, 18, …?",
+    "options": [
+     "4n + 26",
+     "30 − 4n",
+     "34 − 4n",
+     "26 − 4n"
+    ],
+    "answer": 2,
+    "explain": "The difference is −4, so −4n. −4n gives −4, −8, …, and 34 must be added to get 30, so 34 − 4n. 30 − 4n gives 26 as the first term."
+   },
+   {
+    "id": "M6",
+    "q": "The nth term of a sequence is 6n − 4. What is the 10th term?",
+    "options": [
+     "60",
+     "56",
+     "64",
+     "20"
+    ],
+    "answer": 1,
+    "explain": "6 × 10 − 4 = 56."
+   },
+   {
+    "id": "M7",
+    "q": "What are the first three terms of the sequence with nth term n² + 2?",
+    "options": [
+     "3, 6, 11",
+     "3, 4, 5",
+     "4, 6, 8",
+     "1, 4, 9"
+    ],
+    "answer": 0,
+    "explain": "n = 1: 1 + 2 = 3. n = 2: 4 + 2 = 6. n = 3: 9 + 2 = 11. The differences are 3, 5, … so it is not arithmetic."
+   },
+   {
+    "id": "M8",
+    "q": "Is 150 a term of the sequence with nth term 4n + 2?",
+    "options": [
+     "No, 150 is not a multiple of 4",
+     "Yes, it is the 38th term",
+     "No, because n = 37.5",
+     "Yes, it is the 37th term"
+    ],
+    "answer": 3,
+    "explain": "4n + 2 = 150 gives 4n = 148, so n = 37, a whole number. So 150 is the 37th term."
+   },
+   {
+    "id": "M9",
+    "q": "Is 100 a term of the sequence with nth term 3n − 1?",
+    "options": [
+     "Yes, it is the 33rd term",
+     "Yes, it is the 34th term",
+     "No, because 100 is even",
+     "No, because n = 33.67, which is not a whole number"
+    ],
+    "answer": 3,
+    "explain": "3n − 1 = 100 gives n = 101 ÷ 3 = 33.67 (2 d.p.), which is not an integer, so 100 is not a term. The reason must come from solving for n."
+   },
+   {
+    "id": "M10",
+    "q": "What is the first term of the sequence 5n + 3 that is greater than 100?",
+    "options": [
+     "98",
+     "100",
+     "103",
+     "108"
+    ],
+    "answer": 2,
+    "explain": "5n + 3 > 100 gives n > 19.4, so n = 20 and the term is 5 × 20 + 3 = 103. The 19th term, 98, is still below 100."
+   },
+   {
+    "id": "M11",
+    "q": "What is the 15th term of the arithmetic sequence 2, 5, 8, …?",
+    "options": [
+     "47",
+     "44",
+     "45",
+     "42"
+    ],
+    "answer": 1,
+    "explain": "a + (n − 1)d = 2 + 14 × 3 = 44. Using a + nd gives 47, one step too many."
+   },
+   {
+    "id": "M12",
+    "q": "An arithmetic sequence has first term 10 and common difference −3. What is its 8th term?",
+    "options": [
+     "−11",
+     "−14",
+     "34",
+     "−13"
+    ],
+    "answer": 0,
+    "explain": "10 + 7 × (−3) = 10 − 21 = −11. There are 7 steps from the 1st term to the 8th."
+   },
+   {
+    "id": "M13",
+    "q": "The 2nd term of an arithmetic sequence is 11 and the 6th term is 27. Find a and d.",
+    "options": [
+     "a = 7, d = 4",
+     "a = 11, d = 4",
+     "a = 7, d = 3.2",
+     "a = 3, d = 4"
+    ],
+    "answer": 0,
+    "explain": "a + d = 11 and a + 5d = 27. Subtract: 4d = 16, so d = 4, and then a = 7. From term 2 to term 6 is 4 steps, not 5."
+   },
+   {
+    "id": "M14",
+    "q": "The 4th term of an arithmetic series is 17 and the 10th term is 35. What is the common difference? (SAM 1H)",
+    "options": [
+     "18",
+     "6",
+     "2.5",
+     "3"
+    ],
+    "answer": 3,
+    "explain": "From the 4th term to the 10th is 6 steps, and the value rises by 35 − 17 = 18. So d = 18 ÷ 6 = 3."
+   },
+   {
+    "id": "M15",
+    "q": "Which of these is given on the 4MA1 Higher formula sheet?",
+    "options": [
+     "uₙ = a + (n − 1)d",
+     "nth term = dn + c",
+     "Sₙ = n/2 [2a + (n − 1)d]",
+     "Sₙ = n(a + l)"
+    ],
+    "answer": 2,
+    "explain": "The formula sheet gives the sum of an arithmetic series, Sₙ = n/2 [2a + (n − 1)d]. The nth term a + (n − 1)d must be memorised."
+   },
+   {
+    "id": "M16",
+    "q": "Find the sum of the first 20 terms of 3 + 7 + 11 + 15 + …",
+    "options": [
+     "79",
+     "820",
+     "1640",
+     "860"
+    ],
+    "answer": 1,
+    "explain": "S₂₀ = 20/2 [2 × 3 + 19 × 4] = 10 × 82 = 820. 79 is the 20th term, not the sum."
+   },
+   {
+    "id": "M17",
+    "q": "What is 1 + 2 + 3 + … + 100?",
+    "options": [
+     "10100",
+     "5050",
+     "5000",
+     "4950"
+    ],
+    "answer": 1,
+    "explain": "Sₙ = n/2 (a + l) = 100/2 × (1 + 100) = 50 × 101 = 5050."
+   },
+   {
+    "id": "M18",
+    "q": "How many terms are there in 5 + 8 + 11 + … + 62?",
+    "options": [
+     "20",
+     "19",
+     "21",
+     "57"
+    ],
+    "answer": 0,
+    "explain": "(62 − 5) ÷ 3 + 1 = 19 + 1 = 20. Dividing the gap by d counts the steps; add 1 to count the terms."
+   },
+   {
+    "id": "M19",
+    "q": "Find the sum 5 + 8 + 11 + … + 62",
+    "options": [
+     "1340",
+     "335",
+     "637",
+     "670"
+    ],
+    "answer": 3,
+    "explain": "There are 20 terms, so S = 20/2 × (5 + 62) = 10 × 67 = 670."
+   },
+   {
+    "id": "M20",
+    "q": "How many multiples of 4 are there from 100 to 200 inclusive?",
+    "options": [
+     "25",
+     "24",
+     "26",
+     "100"
+    ],
+    "answer": 2,
+    "explain": "100, 104, …, 200: (200 − 100) ÷ 4 + 1 = 25 + 1 = 26."
+   },
+   {
+    "id": "M21",
+    "q": "For the series 2 + 6 + 10 + …, what does Sₙ simplify to?",
+    "options": [
+     "4n²",
+     "2n² + 2n",
+     "2n²",
+     "n² + n"
+    ],
+    "answer": 2,
+    "explain": "Sₙ = n/2 [4 + 4(n − 1)] = n/2 × 4n = 2n². Check: S₂ = 2 + 6 = 8 = 2 × 2²."
+   },
+   {
+    "id": "M22",
+    "q": "How many terms of 2 + 6 + 10 + … are needed for a sum of 800?",
+    "options": [
+     "400",
+     "20",
+     "28.3",
+     "40"
+    ],
+    "answer": 1,
+    "explain": "Sₙ = 2n² = 800, so n² = 400 and n = 20. n must be a positive whole number."
+   },
+   {
+    "id": "M23",
+    "q": "Solving Sₙ = 390 gives n = 12 or n = −15.5. What is the answer?",
+    "options": [
+     "n = 12, because n must be a positive whole number",
+     "n = −15.5",
+     "Both values",
+     "Neither: there is no answer"
+    ],
+    "answer": 0,
+    "explain": "n counts terms, so it must be a positive integer. Reject −15.5 and give the reason."
+   },
+   {
+    "id": "M24",
+    "q": "Which of these is a series, rather than a sequence?",
+    "options": [
+     "4, 7, 10, 13",
+     "4n + 3",
+     "The rule add 3",
+     "4 + 7 + 10 + 13"
+    ],
+    "answer": 3,
+    "explain": "A series is the terms added together. 4, 7, 10, 13 is a sequence, a list."
+   },
+   {
+    "id": "M25",
+    "q": "Which of these is NOT an arithmetic sequence?",
+    "options": [
+     "5, 5, 5, 5",
+     "10, 7, 4, 1",
+     "0.5, 1, 1.5, 2",
+     "1, 4, 9, 16"
+    ],
+    "answer": 3,
+    "explain": "1, 4, 9, 16 has differences 3, 5, 7, which are not constant. The others have constant differences 0, −3 and 0.5."
+   },
+   {
+    "id": "M26",
+    "q": "What is the common difference of 7, 4.5, 2, …?",
+    "options": [
+     "2.5",
+     "−3",
+     "−2.5",
+     "4.5"
+    ],
+    "answer": 2,
+    "explain": "4.5 − 7 = −2.5. The sequence is decreasing, so d is negative."
+   },
+   {
+    "id": "M27",
+    "q": "Why is the coefficient of n in the nth term 3n + 2 equal to 3?",
+    "options": [
+     "Because the first term is 3",
+     "Because the sequence goes up by 3 each time",
+     "Because 3 is the third term",
+     "Because there are 3 terms given"
+    ],
+    "answer": 1,
+    "explain": "When n increases by 1, 3n increases by 3 and the +2 stays the same, so consecutive terms differ by 3."
+   },
+   {
+    "id": "M28",
+    "q": "The nth term of a sequence is 20 − 3n. Which is the first negative term?",
+    "options": [
+     "The 7th",
+     "The 6th",
+     "The 8th",
+     "The 20th"
+    ],
+    "answer": 0,
+    "explain": "20 − 3n < 0 gives n > 6.67, so n = 7 (20 − 21 = −1). The 6th term is 2, which is still positive."
+   },
+   {
+    "id": "M29",
+    "q": "The 5th term of an arithmetic series is 14 and the sum of the first 10 terms is 155. Find a and d.",
+    "options": [
+     "a = 2, d = 3",
+     "a = 14, d = 3",
+     "a = 3, d = 2",
+     "a = 2, d = 4"
+    ],
+    "answer": 0,
+    "explain": "a + 4d = 14 and 5(2a + 9d) = 155, so 2a + 9d = 31. Doubling the first gives 2a + 8d = 28. Subtract: d = 3, and a = 2."
+   },
+   {
+    "id": "M30",
+    "q": "An arithmetic series has 2a + 29d = 0. What is the sum of its first 30 terms?",
+    "options": [
+     "29",
+     "15",
+     "It cannot be found without a and d",
+     "0"
+    ],
+    "answer": 3,
+    "explain": "S₃₀ = 30/2 [2a + 29d] = 15 × 0 = 0. This was the key step in 2018 2H Q23: you never need a and d separately."
+   },
+   {
+    "id": "M31",
+    "q": "A theatre has 20 seats in row 1, and each row has 2 more seats than the row in front. How many seats are in row 15?",
+    "options": [
+     "50",
+     "30",
+     "48",
+     "22"
+    ],
+    "answer": 2,
+    "explain": "20 + 14 × 2 = 48. There are 14 steps from row 1 to row 15."
+   },
+   {
+    "id": "M32",
+    "q": "Sam saves $10 in week 1, and $5 more each week than the week before. How much has he saved in total after 12 weeks?",
+    "options": [
+     "$65",
+     "$450",
+     "$480",
+     "$900"
+    ],
+    "answer": 1,
+    "explain": "S₁₂ = 12/2 [20 + 11 × 5] = 6 × 75 = $450. $65 is what he saves in week 12 alone."
+   },
+   {
+    "id": "M33",
+    "q": "Patterns use 4, 7, 10, … matchsticks. How many matchsticks are in pattern 50?",
+    "options": [
+     "150",
+     "151",
+     "154",
+     "200"
+    ],
+    "answer": 1,
+    "explain": "The nth term is 3n + 1, so pattern 50 uses 3 × 50 + 1 = 151."
+   },
+   {
+    "id": "M34",
+    "q": "A sequence has term-to-term rule 'add 5', and its 3rd term is 17. What is its first term?",
+    "options": [
+     "7",
+     "12",
+     "2",
+     "22"
+    ],
+    "answer": 0,
+    "explain": "Work backwards two steps: 17 − 5 − 5 = 7."
+   },
+   {
+    "id": "M35",
+    "q": "An arithmetic sequence has 3rd term 8 and 7th term 20. What is its 20th term?",
+    "options": [
+     "60",
+     "56",
+     "62",
+     "59"
+    ],
+    "answer": 3,
+    "explain": "4d = 12, so d = 3, and a = 8 − 2 × 3 = 2. u₂₀ = 2 + 19 × 3 = 59."
+   },
+   {
+    "id": "M36",
+    "q": "What is the sum of the first 10 even numbers, 2 + 4 + … + 20?",
+    "options": [
+     "100",
+     "120",
+     "110",
+     "220"
+    ],
+    "answer": 2,
+    "explain": "10/2 × (2 + 20) = 5 × 22 = 110."
+   },
+   {
+    "id": "M37",
+    "q": "What is the sum of the first n odd numbers, 1 + 3 + 5 + …?",
+    "options": [
+     "2n",
+     "n² + 1",
+     "2n − 1",
+     "n²"
+    ],
+    "answer": 3,
+    "explain": "a = 1, d = 2: Sₙ = n/2 [2 + 2(n − 1)] = n/2 × 2n = n². 2n − 1 is the nth odd number itself, not the sum."
+   },
+   {
+    "id": "M38",
+    "q": "Row n of a number pattern contains (n + 1)². Which row contains 144?",
+    "options": [
+     "12",
+     "13",
+     "11",
+     "72"
+    ],
+    "answer": 2,
+    "explain": "(n + 1)² = 144 gives n + 1 = 12, so n = 11."
+   },
+   {
+    "id": "M39",
+    "q": "What is the 25th term of the sequence 1, 4, 9, 16, …?",
+    "options": [
+     "50",
+     "625",
+     "49",
+     "576"
+    ],
+    "answer": 1,
+    "explain": "These are the square numbers, nth term n², so the 25th term is 25² = 625."
+   },
+   {
+    "id": "M40",
+    "q": "The sum of the first n terms of a series is Sₙ = 3n² + 2n. What is the first term?",
+    "options": [
+     "5",
+     "3",
+     "2",
+     "8"
+    ],
+    "answer": 0,
+    "explain": "The sum of the first 1 term is the first term itself: S₁ = 3 + 2 = 5."
+   }
+  ],
+  "07-functions-and-graphs": [
+   {
+    "id": "M1",
+    "q": "f(x) = 2x² − 3. Find f(−2).",
+    "options": [
+     "−11",
+     "13",
+     "5",
+     "−7"
+    ],
+    "answer": 2,
+    "explain": "f(−2) = 2 × (−2)² − 3 = 2 × 4 − 3 = 5. Square first, with the negative in brackets."
+   },
+   {
+    "id": "M2",
+    "q": "f(x) = 3x + 1. Solve f(x) = 13.",
+    "options": [
+     "40",
+     "4",
+     "14/3",
+     "12"
+    ],
+    "answer": 1,
+    "explain": "3x + 1 = 13, so 3x = 12 and x = 4. 40 is f(13), not the solution of f(x) = 13."
+   },
+   {
+    "id": "M3",
+    "q": "What does fg(x) mean?",
+    "options": [
+     "Apply g first, then f",
+     "Apply f first, then g",
+     "Multiply f(x) by g(x)",
+     "Add f(x) and g(x)"
+    ],
+    "answer": 0,
+    "explain": "fg(x) = f(g(x)). The function next to the x acts first, so g is applied first and then f."
+   },
+   {
+    "id": "M4",
+    "q": "f(x) = x + 3 and g(x) = x². Find fg(2).",
+    "options": [
+     "25",
+     "20",
+     "9",
+     "7"
+    ],
+    "answer": 3,
+    "explain": "g(2) = 4, then f(4) = 7. 25 is gf(2), which does the functions in the wrong order."
+   },
+   {
+    "id": "M5",
+    "q": "f(x) = 2x − 1 and g(x) = x + 4. Find gf(x).",
+    "options": [
+     "2x + 7",
+     "2x + 8",
+     "(2x − 1)(x + 4)",
+     "2x + 3"
+    ],
+    "answer": 3,
+    "explain": "gf(x) = g(2x − 1) = (2x − 1) + 4 = 2x + 3. 2x + 7 is fg(x)."
+   },
+   {
+    "id": "M6",
+    "q": "f(x) = 5x − 2. Find f⁻¹(x).",
+    "options": [
+     "(x − 2)/5",
+     "1/(5x − 2)",
+     "(x + 2)/5",
+     "5x + 2"
+    ],
+    "answer": 2,
+    "explain": "y = 5x − 2, so y + 2 = 5x and x = (y + 2)/5. So f⁻¹(x) = (x + 2)/5. The inverse is not the reciprocal."
+   },
+   {
+    "id": "M7",
+    "q": "f(x) = (x + 4)/3. Find f⁻¹(x).",
+    "options": [
+     "3x + 4",
+     "3x − 4",
+     "(x − 4)/3",
+     "3/(x + 4)"
+    ],
+    "answer": 1,
+    "explain": "y = (x + 4)/3, so 3y = x + 4 and x = 3y − 4. So f⁻¹(x) = 3x − 4. Undo the operations in reverse order."
+   },
+   {
+    "id": "M8",
+    "q": "Which value of x must be excluded from any domain of f(x) = 4/(x + 3)?",
+    "options": [
+     "x = −3",
+     "x = 3",
+     "x = 0",
+     "x = 4"
+    ],
+    "answer": 0,
+    "explain": "The denominator is zero when x + 3 = 0, i.e. x = −3, and you cannot divide by zero."
+   },
+   {
+    "id": "M9",
+    "q": "g(x) = √(x − 2). Which values of x cannot be in any domain of g?",
+    "options": [
+     "x < 2",
+     "x ≤ 2",
+     "x > 2",
+     "x = 2 only"
+    ],
+    "answer": 0,
+    "explain": "You need x − 2 ≥ 0, so x ≥ 2. The values that fail are x < 2. x = 2 is fine, because √0 = 0."
+   },
+   {
+    "id": "M10",
+    "q": "f(x) = 2x/(x − 1). Find f(11).",
+    "options": [
+     "2",
+     "2.4",
+     "22",
+     "2.2"
+    ],
+    "answer": 3,
+    "explain": "f(11) = 22/10 = 2.2."
+   },
+   {
+    "id": "M11",
+    "q": "What is the range of f(x) = x² + 5?",
+    "options": [
+     "f(x) > 5",
+     "All real numbers",
+     "f(x) ≥ 5",
+     "f(x) ≥ 0"
+    ],
+    "answer": 2,
+    "explain": "x² is never negative and equals 0 when x = 0, so the smallest output is 5, and 5 itself is included: f(x) ≥ 5."
+   },
+   {
+    "id": "M12",
+    "q": "f(x) = (3x − 5)/4 and g(x) = √(19 − x). Find fg(3). (2018 1H)",
+    "options": [
+     "1.75 or −4.25",
+     "1.75 only",
+     "−4.25 only",
+     "4"
+    ],
+    "answer": 1,
+    "explain": "g(3) = √16 = 4, the positive root only. f(4) = 7/4 = 1.75. The scheme gave the A1 only for 1.75 'and no other solution'."
+   },
+   {
+    "id": "M13",
+    "q": "What is the gradient of the line through (1, 3) and (4, 12)?",
+    "options": [
+     "1/3",
+     "3",
+     "9",
+     "5"
+    ],
+    "answer": 1,
+    "explain": "Change in y ÷ change in x = (12 − 3) ÷ (4 − 1) = 9 ÷ 3 = 3. 1/3 comes from dividing the wrong way round."
+   },
+   {
+    "id": "M14",
+    "q": "Find the gradient and y-intercept of 2y = 6x − 8",
+    "options": [
+     "Gradient 3, y-intercept (0, −4)",
+     "Gradient 6, y-intercept (0, −8)",
+     "Gradient 3, y-intercept (0, −8)",
+     "Gradient 6, y-intercept (0, −4)"
+    ],
+    "answer": 0,
+    "explain": "Divide by 2 first: y = 3x − 4. The gradient is 3 and the line crosses the y-axis at (0, −4)."
+   },
+   {
+    "id": "M15",
+    "q": "Find the midpoint of (−2, 7) and (6, 1)",
+    "options": [
+     "(4, 8)",
+     "(4, 3)",
+     "(2, 3)",
+     "(2, 4)"
+    ],
+    "answer": 3,
+    "explain": "((−2 + 6)/2, (7 + 1)/2) = (2, 4). Take the mean of the x-coordinates and the mean of the y-coordinates."
+   },
+   {
+    "id": "M16",
+    "q": "Find the length of the line segment from (1, 2) to (7, 10)",
+    "options": [
+     "14",
+     "100",
+     "10",
+     "√28"
+    ],
+    "answer": 2,
+    "explain": "√(6² + 8²) = √(36 + 64) = √100 = 10. It is Pythagoras on the horizontal and vertical steps."
+   },
+   {
+    "id": "M17",
+    "q": "Find the equation of the line with gradient −2 that passes through (3, 5)",
+    "options": [
+     "y = −2x + 5",
+     "y = −2x − 1",
+     "y = −2x + 11",
+     "y = 2x − 1"
+    ],
+    "answer": 2,
+    "explain": "5 = −2(3) + c, so c = 11: y = −2x + 11. The point (3, 5) is not the y-intercept, so c is not 5."
+   },
+   {
+    "id": "M18",
+    "q": "A line has gradient 2/3. What is the gradient of a line perpendicular to it?",
+    "options": [
+     "−2/3",
+     "−3/2",
+     "3/2",
+     "2/3"
+    ],
+    "answer": 1,
+    "explain": "Perpendicular gradients multiply to −1: flip the fraction and change the sign, giving −3/2."
+   },
+   {
+    "id": "M19",
+    "q": "Find the equation of the line parallel to y = 4 − 2x that passes through (3, 7)",
+    "options": [
+     "y = −2x + 13",
+     "y = −2x + 4",
+     "y = ½x + 5.5",
+     "y = 4x − 5"
+    ],
+    "answer": 0,
+    "explain": "Parallel lines have the same gradient, −2. 7 = −2(3) + c, so c = 13: y = −2x + 13."
+   },
+   {
+    "id": "M20",
+    "q": "Which line is perpendicular to y = 3x + 5?",
+    "options": [
+     "y = 3x − 1",
+     "3y = x + 2",
+     "y = −3x + 5",
+     "6y + 2x = 1"
+    ],
+    "answer": 3,
+    "explain": "6y + 2x = 1 gives y = 1/6 − x/3, with gradient −1/3, and 3 × (−1/3) = −1. 3y = x + 2 has gradient 1/3, so it has the flip without the sign change."
+   },
+   {
+    "id": "M21",
+    "q": "Which is an equation of the line through (−3, 5) and (1, 2)? (SAM 1H)",
+    "options": [
+     "4x + 3y = 3",
+     "3x − 4y = −29",
+     "3x + 4y = 29",
+     "3x + 4y = 11"
+    ],
+    "answer": 3,
+    "explain": "The gradient is −3/4, and y = −¾x + 11/4, so 3x + 4y = 11. Check: 3(−3) + 4(5) = 11 and 3(1) + 4(2) = 11."
+   },
+   {
+    "id": "M22",
+    "q": "What does the graph of y = −x² + 4 look like?",
+    "options": [
+     "A U-shape with a minimum at (0, 4)",
+     "A ∩-shape with a maximum at (0, −4)",
+     "A ∩-shape with a maximum at (0, 4)",
+     "A straight line through (0, 4)"
+    ],
+    "answer": 2,
+    "explain": "A negative x² term makes a ∩-shape. When x = 0, y = 4, so the maximum is at (0, 4)."
+   },
+   {
+    "id": "M23",
+    "q": "What does the graph of y = 3/x look like?",
+    "options": [
+     "A U-shaped curve through the origin",
+     "Two separate branches, in the 1st and 3rd quadrants",
+     "A straight line through the origin",
+     "Two branches, in the 2nd and 4th quadrants"
+    ],
+    "answer": 1,
+    "explain": "A reciprocal graph never touches the axes. With a positive k, x and y have the same sign, so the branches are in the 1st and 3rd quadrants."
+   },
+   {
+    "id": "M24",
+    "q": "Where does y = x³ − 4x cross the x-axis?",
+    "options": [
+     "x = −2, 0 and 2",
+     "x = 0 and 4",
+     "x = 2 only",
+     "x = −4, 0 and 4"
+    ],
+    "answer": 0,
+    "explain": "x³ − 4x = x(x² − 4) = x(x − 2)(x + 2) = 0, so x = 0, 2 or −2. A cubic can cross the axis up to three times."
+   },
+   {
+    "id": "M25",
+    "q": "Solve sin x = 0.5 for 0° ≤ x ≤ 360°",
+    "options": [
+     "30° and 150°",
+     "30° and 210°",
+     "30° and 330°",
+     "30° only"
+    ],
+    "answer": 0,
+    "explain": "sin⁻¹(0.5) = 30°, and by symmetry the second solution is 180° − 30° = 150°."
+   },
+   {
+    "id": "M26",
+    "q": "Solve cos x = −0.5 for 0° ≤ x ≤ 360°",
+    "options": [
+     "60° and 300°",
+     "120° and 300°",
+     "150° and 210°",
+     "120° and 240°"
+    ],
+    "answer": 3,
+    "explain": "cos⁻¹(−0.5) = 120°, and cos is symmetrical about 180°, so the second solution is 360° − 120° = 240°."
+   },
+   {
+    "id": "M27",
+    "q": "Solve tan x = 1 for 0° ≤ x ≤ 360°",
+    "options": [
+     "45° and 135°",
+     "45° and 315°",
+     "45° and 225°",
+     "45° only"
+    ],
+    "answer": 2,
+    "explain": "tan repeats every 180°, so the solutions are 45° and 45° + 180° = 225°."
+   },
+   {
+    "id": "M28",
+    "q": "How often does the graph of y = tan x repeat?",
+    "options": [
+     "Every 360°",
+     "Every 180°",
+     "Every 90°",
+     "Every 720°"
+    ],
+    "answer": 1,
+    "explain": "sin and cos repeat every 360°, but tan repeats every 180°. It is undefined at 90°, 270°, and so on."
+   },
+   {
+    "id": "M29",
+    "q": "y = f(x) has a maximum at (3, 5). Where is the maximum of y = f(x + 3)?",
+    "options": [
+     "(6, 5)",
+     "(0, 5)",
+     "(3, 8)",
+     "(3, 2)"
+    ],
+    "answer": 1,
+    "explain": "f(x + 3) is a translation 3 to the LEFT: (3 − 3, 5) = (0, 5). A change inside the bracket works the opposite way."
+   },
+   {
+    "id": "M30",
+    "q": "y = f(x) has a maximum at (3, 5). Where is the maximum of y = f(3x)?",
+    "options": [
+     "(1, 5)",
+     "(9, 5)",
+     "(3, 15)",
+     "(3, 5/3)"
+    ],
+    "answer": 0,
+    "explain": "f(3x) is a stretch parallel to the x-axis with scale factor 1/3, so x is divided by 3: (1, 5)."
+   },
+   {
+    "id": "M31",
+    "q": "y = f(x) has a minimum at (−2, −1). Where is the minimum of y = ½f(x)? (2018 1H)",
+    "options": [
+     "(−1, −1)",
+     "(−2, −2)",
+     "(−4, −1)",
+     "(−2, −0.5)"
+    ],
+    "answer": 3,
+    "explain": "½f(x) is outside the bracket, so it halves y: (−2, −0.5). The x-coordinate is unchanged."
+   },
+   {
+    "id": "M32",
+    "q": "Describe the transformation that maps y = f(x) to y = f(x) − 4",
+    "options": [
+     "Translation by the vector (−4, 0)",
+     "Translation by the vector (4, 0)",
+     "Translation by the vector (0, −4)",
+     "Stretch parallel to the y-axis, scale factor −4"
+    ],
+    "answer": 2,
+    "explain": "Subtracting 4 outside the function lowers every y by 4: a translation by (0, −4). Name the transformation and give its vector."
+   },
+   {
+    "id": "M33",
+    "q": "What does y = −f(x) do to the graph of y = f(x)?",
+    "options": [
+     "Reflection in the y-axis",
+     "Reflection in the line y = x",
+     "Reflection in the x-axis",
+     "Translation by (0, −1)"
+    ],
+    "answer": 2,
+    "explain": "Every y changes sign, so the graph flips over the x-axis. y = f(−x) would be the reflection in the y-axis."
+   },
+   {
+    "id": "M34",
+    "q": "What is the maximum value of y = 2 sin(x − 90)° + 1?",
+    "options": [
+     "2",
+     "3",
+     "1",
+     "4"
+    ],
+    "answer": 1,
+    "explain": "sin is at most 1, so y is at most 2 × 1 + 1 = 3. The −90 only shifts the graph sideways."
+   },
+   {
+    "id": "M35",
+    "q": "The graph of y = x² is drawn. Which line should you draw to solve x² − x − 6 = 0?",
+    "options": [
+     "y = x + 6",
+     "y = x − 6",
+     "y = 6",
+     "y = −x + 6"
+    ],
+    "answer": 0,
+    "explain": "x² − x − 6 = 0 means x² = x + 6, so draw y = x + 6. The x-coordinates of the crossings (−2 and 3) are the solutions."
+   },
+   {
+    "id": "M36",
+    "q": "The graph of y = x³ − 2x² − 3x + 4 is drawn. Which line solves x³ − 2x² − x + 1 = 0? (2018 2H)",
+    "options": [
+     "y = 2x − 3",
+     "y = −2x − 3",
+     "y = x − 1",
+     "y = −2x + 3"
+    ],
+    "answer": 3,
+    "explain": "(x³ − 2x² − 3x + 4) − (x³ − 2x² − x + 1) = −2x + 3. Where the curve meets y = −2x + 3, the new equation is true."
+   },
+   {
+    "id": "M37",
+    "q": "When you solve an equation using two graphs, what are the solutions?",
+    "options": [
+     "The y-coordinates of the crossing points",
+     "The points where the curve crosses the y-axis",
+     "The gradient of the line",
+     "The x-coordinates of the crossing points"
+    ],
+    "answer": 3,
+    "explain": "At a crossing point both graphs have the same y for the same x, so the x-values make the two expressions equal."
+   },
+   {
+    "id": "M38",
+    "q": "A tangent to a curve at (2, 5) passes through (4, 13). What is the gradient of the curve at x = 2?",
+    "options": [
+     "2.5",
+     "9",
+     "4",
+     "0.25"
+    ],
+    "answer": 2,
+    "explain": "The gradient of the tangent is (13 − 5) ÷ (4 − 2) = 8 ÷ 2 = 4, and that is the gradient of the curve at that point."
+   },
+   {
+    "id": "M39",
+    "q": "A car accelerates uniformly from rest to 15 m/s in 5 s. What is its acceleration?",
+    "options": [
+     "75 m/s²",
+     "3 m/s²",
+     "0.33 m/s²",
+     "10 m/s²"
+    ],
+    "answer": 1,
+    "explain": "Acceleration is the gradient of the speed–time graph: 15 ÷ 5 = 3 m/s². 75 is the area under the line, not the gradient."
+   },
+   {
+    "id": "M40",
+    "q": "A cyclist travels at 12 m/s for 10 s, then decelerates uniformly to rest in 4 s. How far does she travel altogether?",
+    "options": [
+     "144 m",
+     "168 m",
+     "120 m",
+     "96 m"
+    ],
+    "answer": 0,
+    "explain": "Distance = area under the speed–time graph: 12 × 10 + ½ × 4 × 12 = 120 + 24 = 144 m. 168 m wrongly treats the slowing-down part as a rectangle."
+   }
+  ],
+  "08-differentiation": [
+   {
+    "id": "M1",
+    "q": "Differentiate y = x⁵",
+    "options": [
+     "x⁴",
+     "5x⁵",
+     "4x⁵",
+     "5x⁴"
+    ],
+    "answer": 3,
+    "explain": "Bring the power down and reduce it by 1: 5x⁴."
+   },
+   {
+    "id": "M2",
+    "q": "Differentiate y = 4x³",
+    "options": [
+     "12x³",
+     "4x²",
+     "12x²",
+     "7x²"
+    ],
+    "answer": 2,
+    "explain": "3 × 4x² = 12x². Multiply by the power and reduce the power by 1."
+   },
+   {
+    "id": "M3",
+    "q": "Find dy/dx for y = 6x² − 5x + 8",
+    "options": [
+     "12x − 5 + 8",
+     "12x − 5",
+     "12x + 3",
+     "6x − 5"
+    ],
+    "answer": 1,
+    "explain": "6x² → 12x, −5x → −5, and the constant 8 → 0. So dy/dx = 12x − 5."
+   },
+   {
+    "id": "M4",
+    "q": "Differentiate y = 7x",
+    "options": [
+     "7",
+     "0",
+     "7x",
+     "x"
+    ],
+    "answer": 0,
+    "explain": "7x = 7x¹, so 1 × 7x⁰ = 7. The line y = 7x has gradient 7 everywhere."
+   },
+   {
+    "id": "M5",
+    "q": "Differentiate y = 9",
+    "options": [
+     "0",
+     "9",
+     "9x",
+     "1"
+    ],
+    "answer": 0,
+    "explain": "y = 9 is a horizontal line, so its gradient is 0. A constant always differentiates to 0."
+   },
+   {
+    "id": "M6",
+    "q": "Find dy/dx for y = 3/x",
+    "options": [
+     "3x⁻²",
+     "−3x⁰",
+     "3",
+     "−3x⁻²"
+    ],
+    "answer": 3,
+    "explain": "Rewrite as 3x⁻¹. Then −1 × 3x⁻² = −3x⁻², or −3/x². The power goes from −1 down to −2."
+   },
+   {
+    "id": "M7",
+    "q": "Find dy/dx for y = 2/x²",
+    "options": [
+     "−4x⁻¹",
+     "4x⁻³",
+     "−4x⁻³",
+     "−2x⁻³"
+    ],
+    "answer": 2,
+    "explain": "2x⁻² → −2 × 2x⁻³ = −4x⁻³. The power −2 goes down to −3, not up to −1."
+   },
+   {
+    "id": "M8",
+    "q": "Find dy/dx for y = (x + 2)(x − 5)",
+    "options": [
+     "1",
+     "2x − 3",
+     "2x + 7",
+     "x² − 3x"
+    ],
+    "answer": 1,
+    "explain": "Expand first: x² − 3x − 10. Then dy/dx = 2x − 3. Differentiating each bracket and multiplying (1 × 1) is wrong."
+   },
+   {
+    "id": "M9",
+    "q": "Find dy/dx for y = (x³ + 6x)/x",
+    "options": [
+     "3x² + 6",
+     "2x",
+     "2x + 6",
+     "3x"
+    ],
+    "answer": 1,
+    "explain": "Simplify first: x³/x + 6x/x = x² + 6. Then dy/dx = 2x."
+   },
+   {
+    "id": "M10",
+    "q": "Find the gradient of y = x² − 3x at the point where x = 4",
+    "options": [
+     "5",
+     "4",
+     "8",
+     "13"
+    ],
+    "answer": 0,
+    "explain": "dy/dx = 2x − 3, and at x = 4 this is 8 − 3 = 5. 4 is the y-coordinate (16 − 12), not the gradient."
+   },
+   {
+    "id": "M11",
+    "q": "Find the gradient of y = x³ at the point where x = −2",
+    "options": [
+     "−12",
+     "−8",
+     "6",
+     "12"
+    ],
+    "answer": 3,
+    "explain": "dy/dx = 3x² = 3 × (−2)² = 12. The square makes it positive: y = x³ is always going uphill."
+   },
+   {
+    "id": "M12",
+    "q": "What condition gives the stationary points of a curve?",
+    "options": [
+     "y = 0",
+     "x = 0",
+     "dy/dx = 0",
+     "dy/dx = 1"
+    ],
+    "answer": 2,
+    "explain": "At a stationary point the curve is momentarily flat, so its gradient is zero."
+   },
+   {
+    "id": "M13",
+    "q": "Find the stationary point of y = x² − 8x + 3",
+    "options": [
+     "(4, 3)",
+     "(−4, 51)",
+     "(4, −13)",
+     "(8, 3)"
+    ],
+    "answer": 2,
+    "explain": "dy/dx = 2x − 8 = 0 gives x = 4. y = 16 − 32 + 3 = −13. Find y from the original equation."
+   },
+   {
+    "id": "M14",
+    "q": "Find the stationary point of y = 8x² + 2/x (SAM 1H)",
+    "options": [
+     "(0.5, 4)",
+     "(0.5, 6)",
+     "(2, 33)",
+     "(0.25, 8.5)"
+    ],
+    "answer": 1,
+    "explain": "dy/dx = 16x − 2x⁻² = 0, so 16x³ = 2, x³ = 1/8 and x = 0.5. y = 8(0.25) + 2/0.5 = 2 + 4 = 6."
+   },
+   {
+    "id": "M15",
+    "q": "y = 12x − x³ has stationary points at x = 2 and x = −2. Which one is the maximum?",
+    "options": [
+     "(2, 16)",
+     "(−2, −16)",
+     "(2, −16)",
+     "(−2, 16)"
+    ],
+    "answer": 0,
+    "explain": "The −x³ term makes it a negative cubic: it falls, rises, then falls. So the right-hand point is the maximum. y = 24 − 8 = 16."
+   },
+   {
+    "id": "M16",
+    "q": "A cubic with a positive x³ term has stationary points at x = −1 and x = 3. Where is the maximum?",
+    "options": [
+     "At x = 3",
+     "At both",
+     "You cannot tell without a graph",
+     "At x = −1"
+    ],
+    "answer": 3,
+    "explain": "A positive cubic rises, turns down, then turns back up, so the left-hand (smaller x) stationary point is the maximum."
+   },
+   {
+    "id": "M17",
+    "q": "Find the nature and position of the stationary point of y = 5 + 4x − x²",
+    "options": [
+     "A minimum at (2, 9)",
+     "A maximum at (−2, 1)",
+     "A minimum at (4, 5)",
+     "A maximum at (2, 9)"
+    ],
+    "answer": 3,
+    "explain": "dy/dx = 4 − 2x = 0 gives x = 2, and y = 5 + 8 − 4 = 9. The −x² term makes a ∩-shape, so it is a maximum."
+   },
+   {
+    "id": "M18",
+    "q": "For which values of x does y = x³ − 2x² − 15x + 5 have a negative gradient? (2018 2H)",
+    "options": [
+     "x < −5/3 or x > 3",
+     "x = −5/3 or x = 3",
+     "−5/3 < x < 3",
+     "−3 < x < 5/3"
+    ],
+    "answer": 2,
+    "explain": "3x² − 4x − 15 < 0, which factorises as (3x + 5)(x − 3) < 0. Between the roots: −5/3 < x < 3. The scheme required the inequality signs."
+   },
+   {
+    "id": "M19",
+    "q": "For which values of x is y = x² − 6x increasing?",
+    "options": [
+     "x < 3",
+     "x > 3",
+     "x > 6",
+     "0 < x < 6"
+    ],
+    "answer": 1,
+    "explain": "dy/dx = 2x − 6 > 0 gives x > 3. To the right of the minimum at x = 3, the curve goes uphill."
+   },
+   {
+    "id": "M20",
+    "q": "Find the point on y = x² + 2x where the gradient is 10",
+    "options": [
+     "(4, 24)",
+     "(4, 10)",
+     "(5, 35)",
+     "(6, 48)"
+    ],
+    "answer": 0,
+    "explain": "2x + 2 = 10 gives x = 4, and y = 16 + 8 = 24. The gradient is 10, but the y-coordinate is not."
+   },
+   {
+    "id": "M21",
+    "q": "At which values of x does y = x³ − 4x² + 5x + 4 have gradient 1?",
+    "options": [
+     "x = 2/3 and x = 2",
+     "x = 1 and x = 5/3",
+     "x = −2/3 and x = −2",
+     "x = 2 only"
+    ],
+    "answer": 0,
+    "explain": "3x² − 8x + 5 = 1 gives 3x² − 8x + 4 = 0, so (3x − 2)(x − 2) = 0, and x = 2/3 or x = 2."
+   },
+   {
+    "id": "M22",
+    "q": "A = 60x − 1.5x². Find the maximum value of A.",
+    "options": [
+     "20 m²",
+     "1200 m²",
+     "2400 m²",
+     "600 m²"
+    ],
+    "answer": 3,
+    "explain": "dA/dx = 60 − 3x = 0 gives x = 20. A = 1200 − 600 = 600. 20 is the value of x, not the maximum area."
+   },
+   {
+    "id": "M23",
+    "q": "V = 28x² − 2x³. Which value of x gives the maximum V?",
+    "options": [
+     "x = 14",
+     "x = 0",
+     "x = 28/3 ≈ 9.33",
+     "x = 9"
+    ],
+    "answer": 2,
+    "explain": "dV/dx = 56x − 6x² = 2x(28 − 3x) = 0, so x = 0 or x = 28/3. x = 0 gives zero volume, so the maximum is at x = 28/3."
+   },
+   {
+    "id": "M24",
+    "q": "You have found that dA/dx = 0 when x = 30. What should you do next to find the maximum area?",
+    "options": [
+     "Substitute x = 30 into dA/dx",
+     "Substitute x = 30 into the formula for A",
+     "Give x = 30 as the maximum area",
+     "Set A = 0 and solve"
+    ],
+    "answer": 1,
+    "explain": "x = 30 tells you where the maximum is. The maximum value is A at x = 30. Putting x = 30 into dA/dx just gives 0."
+   },
+   {
+    "id": "M25",
+    "q": "s = t³ − 5t² − 8t + 3. Find the velocity v.",
+    "options": [
+     "v = t² − 5t − 8",
+     "v = 3t² − 10t − 8",
+     "v = 3t² − 10t − 8 + 3",
+     "v = 3t³ − 10t² − 8t"
+    ],
+    "answer": 1,
+    "explain": "v = ds/dt: t³ → 3t², −5t² → −10t, −8t → −8, and the constant 3 → 0."
+   },
+   {
+    "id": "M26",
+    "q": "A particle is 'instantaneously at rest'. Which condition do you use?",
+    "options": [
+     "v = 0",
+     "s = 0",
+     "a = 0",
+     "t = 0"
+    ],
+    "answer": 0,
+    "explain": "At rest means not moving, so the velocity is zero. s = 0 means the particle is at O."
+   },
+   {
+    "id": "M27",
+    "q": "3t² − 10t − 8 = 0 gives t = 4 or t = −2/3, with t ≥ 0. When is the particle at rest? (SAM 2H)",
+    "options": [
+     "t = 4 or t = −2/3",
+     "t = −2/3",
+     "t = 0",
+     "t = 4 only"
+    ],
+    "answer": 3,
+    "explain": "Time cannot be negative, so reject −2/3. The mark scheme said 'A1 t = 4 only'."
+   },
+   {
+    "id": "M28",
+    "q": "v = 3t² − 10t − 8. Find the acceleration a.",
+    "options": [
+     "a = 3t − 10",
+     "a = 6t − 10 − 8",
+     "a = 6t − 10",
+     "a = 6t² − 10t"
+    ],
+    "answer": 2,
+    "explain": "a = dv/dt: 3t² → 6t, −10t → −10, and the constant −8 → 0."
+   },
+   {
+    "id": "M29",
+    "q": "s = 24t² − t³. Find the velocity.",
+    "options": [
+     "v = 24t − t²",
+     "v = 48t − 3t³",
+     "v = 48t − 3t²",
+     "v = 48 − 6t"
+    ],
+    "answer": 2,
+    "explain": "ds/dt = 48t − 3t². 48 − 6t is the acceleration, which comes from differentiating a second time."
+   },
+   {
+    "id": "M30",
+    "q": "Which condition gives the maximum velocity of a particle?",
+    "options": [
+     "v = 0",
+     "a = 0",
+     "s = 0",
+     "t = 0"
+    ],
+    "answer": 1,
+    "explain": "Velocity is greatest where its graph is at a peak, and there its gradient, the acceleration, is zero."
+   },
+   {
+    "id": "M31",
+    "q": "s = 24t² − t³, 0 ≤ t ≤ 20. Find the maximum velocity.",
+    "options": [
+     "192 m/s",
+     "1024 m/s",
+     "8 m/s",
+     "0 m/s"
+    ],
+    "answer": 0,
+    "explain": "a = 48 − 6t = 0 gives t = 8. v = 48(8) − 3(64) = 384 − 192 = 192 m/s. 1024 is the displacement at t = 8, and 8 is the time."
+   },
+   {
+    "id": "M32",
+    "q": "s = 2t³ − 21t² + 60t. What is the initial velocity?",
+    "options": [
+     "0 m/s",
+     "2 m/s",
+     "41 m/s",
+     "60 m/s"
+    ],
+    "answer": 3,
+    "explain": "v = 6t² − 42t + 60. 'Initially' means t = 0, so v = 60 m/s. The particle starts at O (s = 0) but is already moving."
+   },
+   {
+    "id": "M33",
+    "q": "v = 3t² − 12t + 9. When is the particle at rest?",
+    "options": [
+     "t = 0 only",
+     "t = 2",
+     "t = 1 and t = 2",
+     "t = 1 and t = 3"
+    ],
+    "answer": 3,
+    "explain": "3(t² − 4t + 3) = 3(t − 1)(t − 3) = 0, so t = 1 or t = 3. t = 2 is when the acceleration is zero."
+   },
+   {
+    "id": "M34",
+    "q": "a = 6t − 12. What is the acceleration when t = 5?",
+    "options": [
+     "30 m/s²",
+     "−12 m/s²",
+     "18 m/s²",
+     "60 m/s²"
+    ],
+    "answer": 2,
+    "explain": "6 × 5 − 12 = 18 m/s²."
+   },
+   {
+    "id": "M35",
+    "q": "A question says the particle 'returns to O'. Which condition do you use?",
+    "options": [
+     "v = 0",
+     "s = 0",
+     "a = 0",
+     "v = s"
+    ],
+    "answer": 1,
+    "explain": "s is the displacement from O, so being back at O means s = 0."
+   },
+   {
+    "id": "M36",
+    "q": "y = ax² + bx. Find dy/dx.",
+    "options": [
+     "2ax + b",
+     "2ax + bx",
+     "ax + b",
+     "2a + b"
+    ],
+    "answer": 0,
+    "explain": "ax² → 2ax and bx → b. The letters a and b are constants and are treated like numbers."
+   },
+   {
+    "id": "M37",
+    "q": "For an open box, V = 4x³ − 120x² + 900x and dV/dx = 0 gives x = 5 or x = 15. The card is 30 cm square. Which gives the maximum?",
+    "options": [
+     "x = 15, because it is larger",
+     "x = 5 or x = 15",
+     "x = 0",
+     "x = 5, because x = 15 leaves no base"
+    ],
+    "answer": 3,
+    "explain": "At x = 15 the base is 30 − 2 × 15 = 0 cm wide, so V = 0, which is a minimum. The maximum is at x = 5: V = 5 × 20² = 2000 cm³."
+   },
+   {
+    "id": "M38",
+    "q": "V is in cm³ and r is in cm. What are the units of dV/dr?",
+    "options": [
+     "cm³",
+     "cm",
+     "cm³ per cm (cm²)",
+     "cm per cm³"
+    ],
+    "answer": 2,
+    "explain": "dV/dr is the rate of change of V with r: cm³ per cm, which is cm²."
+   },
+   {
+    "id": "M39",
+    "q": "y = x². What is the gradient of the curve at x = 3?",
+    "options": [
+     "9",
+     "6",
+     "3",
+     "2"
+    ],
+    "answer": 1,
+    "explain": "dy/dx = 2x, so at x = 3 the gradient is 6. 9 is the y-value."
+   },
+   {
+    "id": "M40",
+    "q": "Differentiate y = 5x⁴ − 2x⁻¹",
+    "options": [
+     "20x³ + 2x⁻²",
+     "20x³ − 2x⁻²",
+     "20x³ + 2",
+     "20x³ − 2x⁻¹"
+    ],
+    "answer": 0,
+    "explain": "5x⁴ → 20x³. −2x⁻¹ → (−1)(−2)x⁻² = +2x⁻². Two negatives make a positive."
+   }
+  ],
+  "09-angles-polygons-circle-theorems": [
+   {
+    "id": "M1",
+    "q": "Two angles lie on a straight line. One of them is 127°. What is the other?",
+    "options": [
+     "53°",
+     "63°",
+     "233°",
+     "127°"
+    ],
+    "answer": 0,
+    "explain": "Angles on a straight line add up to 180°: 180 − 127 = 53°. 233° comes from using 360°, which is for angles at a point."
+   },
+   {
+    "id": "M2",
+    "q": "PQ is parallel to RS. A straight line crossing both makes an angle of 74° with PQ. What is the alternate angle at RS?",
+    "options": [
+     "106°",
+     "74°",
+     "16°",
+     "286°"
+    ],
+    "answer": 1,
+    "explain": "Alternate angles are equal, so it is 74°. 106° is the co-interior angle (180 − 74), which is a different pair."
+   },
+   {
+    "id": "M3",
+    "q": "What is true of co-interior (allied) angles between parallel lines?",
+    "options": [
+     "They are equal",
+     "They add up to 90°",
+     "They add up to 180°",
+     "They add up to 360°"
+    ],
+    "answer": 2,
+    "explain": "Co-interior angles (the C or U shape) add up to 180°. Alternate and corresponding angles are the pairs that are equal."
+   },
+   {
+    "id": "M4",
+    "q": "Which reason would an examiner accept for two angles in a Z shape between parallel lines?",
+    "options": [
+     "Z angles are equal",
+     "Corresponding angles are equal",
+     "Parallel angles are equal",
+     "Alternate angles are equal"
+    ],
+    "answer": 3,
+    "explain": "The accepted wording is \"alternate angles are equal\". The letter shapes are memory aids only, and corresponding angles are the F shape."
+   },
+   {
+    "id": "M5",
+    "q": "The two interior opposite angles of a triangle are 48° and 67°. What is the exterior angle at the third vertex?",
+    "options": [
+     "65°",
+     "245°",
+     "115°",
+     "19°"
+    ],
+    "answer": 2,
+    "explain": "The exterior angle of a triangle equals the sum of the two interior opposite angles: 48 + 67 = 115°. 65° is the interior angle at that vertex."
+   },
+   {
+    "id": "M6",
+    "q": "An isosceles triangle has an apex angle of 40°. What is each base angle?",
+    "options": [
+     "70°",
+     "40°",
+     "140°",
+     "50°"
+    ],
+    "answer": 0,
+    "explain": "The base angles are equal and the three angles add up to 180°: (180 − 40) ÷ 2 = 70°."
+   },
+   {
+    "id": "M7",
+    "q": "A quadrilateral has angles 95°, 110°, 70° and x°. What is x?",
+    "options": [
+     "95",
+     "265",
+     "5",
+     "85"
+    ],
+    "answer": 3,
+    "explain": "Angles in a quadrilateral add up to 360°: 360 − (95 + 110 + 70) = 360 − 275 = 85. 5 comes from using 180° as the total."
+   },
+   {
+    "id": "M8",
+    "q": "What is the sum of the interior angles of an octagon?",
+    "options": [
+     "1440°",
+     "1080°",
+     "1260°",
+     "360°"
+    ],
+    "answer": 1,
+    "explain": "(n − 2) × 180 = 6 × 180 = 1080°. 1440° is 8 × 180, forgetting the − 2, and 360° is the sum of the exterior angles."
+   },
+   {
+    "id": "M9",
+    "q": "What is each exterior angle of a regular 12-sided polygon?",
+    "options": [
+     "150°",
+     "30°",
+     "15°",
+     "1800°"
+    ],
+    "answer": 1,
+    "explain": "Exterior angles add up to 360°, so each is 360 ÷ 12 = 30°. 150° is the interior angle (180 − 30)."
+   },
+   {
+    "id": "M10",
+    "q": "What is each interior angle of a regular hexagon?",
+    "options": [
+     "60°",
+     "720°",
+     "108°",
+     "120°"
+    ],
+    "answer": 3,
+    "explain": "Exterior angle = 360 ÷ 6 = 60°, so interior = 180 − 60 = 120°. 720° is the total of all six, and 108° is a pentagon's angle."
+   },
+   {
+    "id": "M11",
+    "q": "Each exterior angle of a regular polygon is 24°. How many sides does it have?",
+    "options": [
+     "15",
+     "7.5",
+     "24",
+     "13"
+    ],
+    "answer": 0,
+    "explain": "n = 360 ÷ exterior angle = 360 ÷ 24 = 15."
+   },
+   {
+    "id": "M12",
+    "q": "Each interior angle of a regular polygon is 162°. How many sides does it have?",
+    "options": [
+     "18",
+     "10",
+     "20",
+     "2.2"
+    ],
+    "answer": 2,
+    "explain": "Go through the exterior angle: 180 − 162 = 18°, so n = 360 ÷ 18 = 20. Dividing 360 by the interior angle (2.2) is the classic error."
+   },
+   {
+    "id": "M13",
+    "q": "A hexagon has angles 100°, 130°, 125°, 140°, y° and y°. What is y?",
+    "options": [
+     "225",
+     "22.5",
+     "62.5",
+     "112.5"
+    ],
+    "answer": 3,
+    "explain": "Hexagon sum = (6 − 2) × 180 = 720°. 720 − 495 = 225, and there are two y's, so y = 112.5. 22.5 comes from using the pentagon total 540°."
+   },
+   {
+    "id": "M14",
+    "q": "The interior angle of a regular polygon with n sides is 140°. What is the interior angle of a regular polygon with 2n sides?",
+    "options": [
+     "70°",
+     "280°",
+     "160°",
+     "150°"
+    ],
+    "answer": 2,
+    "explain": "Exterior 40°, so n = 9 and 2n = 18. Exterior angle of the 18-gon = 360 ÷ 18 = 20°, so interior = 160°. Doubling the sides does not double or halve the angle."
+   },
+   {
+    "id": "M15",
+    "q": "The bearing of B from A is 070°. What is the bearing of A from B?",
+    "options": [
+     "110°",
+     "250°",
+     "290°",
+     "070°"
+    ],
+    "answer": 1,
+    "explain": "A back bearing differs by 180°: 070 + 180 = 250°. 110° is 180 − 70, which is not a bearing rule."
+   },
+   {
+    "id": "M16",
+    "q": "The bearing of Q from P is 305°. What is the bearing of P from Q?",
+    "options": [
+     "125°",
+     "485°",
+     "055°",
+     "235°"
+    ],
+    "answer": 0,
+    "explain": "305 + 180 goes past 360, so subtract instead: 305 − 180 = 125°. (485 − 360 = 125 too.)"
+   },
+   {
+    "id": "M17",
+    "q": "Which of these is written correctly as a three-figure bearing?",
+    "options": [
+     "045°",
+     "45°",
+     "N45°E",
+     "45° clockwise"
+    ],
+    "answer": 0,
+    "explain": "Bearings are measured clockwise from north and written with three figures, so 45° is written 045°."
+   },
+   {
+    "id": "M18",
+    "q": "What is the first step in constructing the bisector of angle ABC with ruler and compasses?",
+    "options": [
+     "Measure the angle with a protractor and halve it",
+     "With the compass point on B, draw an arc crossing both arms BA and BC",
+     "Draw arcs of different radii from A and from C",
+     "Join B to the midpoint of AC"
+    ],
+    "answer": 1,
+    "explain": "The SAM 1H scheme's M1 was for a circular arc, centre B, crossing both lines. A protractor is not a construction, and B to the midpoint of AC only bisects the angle if AB = BC."
+   },
+   {
+    "id": "M19",
+    "q": "To construct the perpendicular bisector of AB, the compasses must be opened to",
+    "options": [
+     "exactly half of AB",
+     "less than half of AB",
+     "more than half of AB",
+     "any width, changed between arcs"
+    ],
+    "answer": 2,
+    "explain": "The arcs from A and B must cross, so the radius must be more than half of AB, and the same radius is used from both ends."
+   },
+   {
+    "id": "M20",
+    "q": "What does \"congruent\" mean?",
+    "options": [
+     "The same shape, any size",
+     "The same area",
+     "The same perimeter",
+     "Exactly the same shape and size"
+    ],
+    "answer": 3,
+    "explain": "Congruent shapes are identical in shape and size. The same shape at a different size is similar."
+   },
+   {
+    "id": "M21",
+    "q": "Which of these does NOT prove that two triangles are congruent?",
+    "options": [
+     "SSS",
+     "RHS",
+     "AAA",
+     "SAS"
+    ],
+    "answer": 2,
+    "explain": "Three equal angles fix the shape but not the size, so AAA only proves the triangles are similar."
+   },
+   {
+    "id": "M22",
+    "q": "What is the angle between a tangent and the radius at the point of contact?",
+    "options": [
+     "90°",
+     "180°",
+     "45°",
+     "It equals the angle at the centre"
+    ],
+    "answer": 0,
+    "explain": "The angle between a tangent and a radius is 90°. Write it with both words, tangent and radius, for the reason mark."
+   },
+   {
+    "id": "M23",
+    "q": "PA and PB are tangents from P to a circle, centre O. Angle APB = 64°. What is angle AOB?",
+    "options": [
+     "64°",
+     "128°",
+     "296°",
+     "116°"
+    ],
+    "answer": 3,
+    "explain": "Angles OAP and OBP are 90° (tangent and radius). The quadrilateral's angles add up to 360°: 360 − 90 − 90 − 64 = 116°."
+   },
+   {
+    "id": "M24",
+    "q": "A circle has radius 10 cm. A chord has length 16 cm. How far is the chord from the centre?",
+    "options": [
+     "12.8 cm",
+     "6 cm",
+     "8 cm",
+     "2 cm"
+    ],
+    "answer": 1,
+    "explain": "The perpendicular from the centre bisects the chord, so use half of it: √(10² − 8²) = √36 = 6 cm. 12.8 comes from adding the squares."
+   },
+   {
+    "id": "M25",
+    "q": "An angle at the circumference is 37°. What is the angle at the centre standing on the same arc?",
+    "options": [
+     "18.5°",
+     "37°",
+     "143°",
+     "74°"
+    ],
+    "answer": 3,
+    "explain": "The angle at the centre is twice the angle at the circumference: 2 × 37 = 74°."
+   },
+   {
+    "id": "M26",
+    "q": "Reflex angle AOB at the centre is 250°. C is on the minor arc AB. What is angle ACB?",
+    "options": [
+     "55°",
+     "125°",
+     "250°",
+     "110°"
+    ],
+    "answer": 1,
+    "explain": "With C on the minor arc, angle ACB stands on the major arc, whose angle at the centre is the reflex 250°. Half of it is 125°."
+   },
+   {
+    "id": "M27",
+    "q": "AB is a diameter of a circle and C is on the circle. Angle CAB = 34°. What is angle CBA?",
+    "options": [
+     "56°",
+     "34°",
+     "146°",
+     "68°"
+    ],
+    "answer": 0,
+    "explain": "The angle in a semicircle is 90°, so angle ACB = 90° and angle CBA = 180 − 90 − 34 = 56°."
+   },
+   {
+    "id": "M28",
+    "q": "A, B, C and D are on a circle, with C and D on the same side of chord AB. Angle ACB = 48°. What is angle ADB?",
+    "options": [
+     "132°",
+     "96°",
+     "48°",
+     "24°"
+    ],
+    "answer": 2,
+    "explain": "Angles in the same segment are equal, so ADB = 48°. 132° would be right only if D were on the other side of AB (cyclic quadrilateral)."
+   },
+   {
+    "id": "M29",
+    "q": "One angle of a cyclic quadrilateral is 112°. What is the opposite angle?",
+    "options": [
+     "112°",
+     "248°",
+     "56°",
+     "68°"
+    ],
+    "answer": 3,
+    "explain": "Opposite angles of a cyclic quadrilateral add up to 180°: 180 − 112 = 68°. Equal opposite angles is a parallelogram property."
+   },
+   {
+    "id": "M30",
+    "q": "Which statement about a cyclic quadrilateral is correct?",
+    "options": [
+     "Opposite angles are equal",
+     "Adjacent angles add up to 180°",
+     "Opposite angles add up to 180°",
+     "All four angles add up to 180°"
+    ],
+    "answer": 2,
+    "explain": "Opposite angles of a cyclic quadrilateral add up to 180°. All four add up to 360°, as in any quadrilateral."
+   },
+   {
+    "id": "M31",
+    "q": "A tangent touches a circle at A. The angle between the tangent and the chord AB is 58°. C is on the circle in the alternate segment. What is angle ACB?",
+    "options": [
+     "32°",
+     "58°",
+     "122°",
+     "116°"
+    ],
+    "answer": 1,
+    "explain": "Alternate segment theorem: the angle between a tangent and a chord equals the angle in the alternate segment, 58°. 32° is 90 − 58."
+   },
+   {
+    "id": "M32",
+    "q": "P and Q are on a circle, centre O. QT is the tangent at Q and angle PQT is acute. Angle OPQ = 22°. What is angle PQT?",
+    "options": [
+     "68°",
+     "22°",
+     "44°",
+     "112°"
+    ],
+    "answer": 0,
+    "explain": "OP = OQ (radii), so angle OQP = 22°. Angle OQT = 90° (tangent and radius), so PQT = 90 − 22 = 68°."
+   },
+   {
+    "id": "M33",
+    "q": "Chords AB and CD cross at P inside a circle. AP = 4 cm, PB = 9 cm and CP = 6 cm. What is PD?",
+    "options": [
+     "6 cm",
+     "11 cm",
+     "2.67 cm",
+     "13.5 cm"
+    ],
+    "answer": 0,
+    "explain": "Intersecting chords: AP × PB = CP × PD, so 36 = 6 × PD and PD = 6 cm. 13.5 puts the pieces in the wrong places (6 × 9 ÷ 4)."
+   },
+   {
+    "id": "M34",
+    "q": "From a point P outside a circle, one line cuts the circle at A and B with PA = 4 cm and PB = 12 cm. Another cuts it at C and D with PC = 3 cm. What is PD?",
+    "options": [
+     "10.7 cm",
+     "9 cm",
+     "16 cm",
+     "5 cm"
+    ],
+    "answer": 2,
+    "explain": "PA × PB = PC × PD, with both distances measured from P: 4 × 12 = 3 × PD, so PD = 16 cm. 10.7 comes from using the chord AB = 8 instead of PB."
+   },
+   {
+    "id": "M35",
+    "q": "Which reason scores the mark for doubling an angle at the circumference?",
+    "options": [
+     "Angle at the centre theorem",
+     "The angle at the centre is twice the angle at the circumference",
+     "Angles in a circle add up to 360°",
+     "The angle at the circumference is twice the angle at the centre"
+    ],
+    "answer": 1,
+    "explain": "The 2018 1H scheme underlined the key words: angle, centre, twice, circumference. A bare theorem name is not enough, and the last option has it backwards."
+   },
+   {
+    "id": "M36",
+    "q": "A line from the centre O passes through F to D on the circle, with FD = 3 cm. A chord through F has AF × FB = 36. What is the radius?",
+    "options": [
+     "15 cm",
+     "12 cm",
+     "6 cm",
+     "7.5 cm"
+    ],
+    "answer": 3,
+    "explain": "The line through O is a diameter. 36 = 3 × FG, so FG = 12 and the diameter is 12 + 3 = 15 cm. The radius is 7.5 cm. Giving 15 is the error the 2018 scheme marked M0A0."
+   },
+   {
+    "id": "M37",
+    "q": "Why is the angle in a semicircle 90°?",
+    "options": [
+     "The triangle is isosceles",
+     "Opposite angles of a cyclic quadrilateral add up to 180°",
+     "The tangent meets the radius at 90°",
+     "The angle at the centre is 180°, and the angle at the circumference is half of it"
+    ],
+    "answer": 3,
+    "explain": "A diameter makes a straight angle of 180° at the centre. The angle at the circumference is half the angle at the centre: 90°."
+   },
+   {
+    "id": "M38",
+    "q": "Two congruent regular pentagons and a regular polygon A fit together exactly at a point. How many sides does A have?",
+    "options": [
+     "5",
+     "10",
+     "8",
+     "12"
+    ],
+    "answer": 1,
+    "explain": "Each pentagon angle is 108°. 360 − 216 = 144° is A's interior angle, so its exterior angle is 36° and it has 360 ÷ 36 = 10 sides."
+   },
+   {
+    "id": "M39",
+    "q": "The interior angles of a polygon add up to 2340°. How many sides does it have?",
+    "options": [
+     "13",
+     "11",
+     "15",
+     "17"
+    ],
+    "answer": 2,
+    "explain": "(n − 2) × 180 = 2340, so n − 2 = 13 and n = 15. 13 forgets to add the 2 back."
+   },
+   {
+    "id": "M40",
+    "q": "A reflex angle is an angle",
+    "options": [
+     "between 180° and 360°",
+     "between 90° and 180°",
+     "of more than 90°",
+     "of exactly 180°"
+    ],
+    "answer": 0,
+    "explain": "Acute: less than 90°. Obtuse: between 90° and 180°. Reflex: between 180° and 360°."
+   }
+  ],
+  "10-mensuration-and-similarity": [
+   {
+    "id": "M1",
+    "q": "How many cm² are there in 1 m²?",
+    "options": [
+     "10 000",
+     "100",
+     "1000",
+     "1 000 000"
+    ],
+    "answer": 0,
+    "explain": "1 m = 100 cm, so 1 m² = 100 × 100 = 10 000 cm². Area conversions square the length factor."
+   },
+   {
+    "id": "M2",
+    "q": "How many litres are there in 2.5 m³?",
+    "options": [
+     "25",
+     "2500",
+     "250",
+     "2 500 000"
+    ],
+    "answer": 1,
+    "explain": "1 m³ = 1000 litres, so 2.5 m³ = 2500 litres. 2 500 000 is the number of cm³, not litres."
+   },
+   {
+    "id": "M3",
+    "q": "Convert 450 000 cm² to m².",
+    "options": [
+     "4500 m²",
+     "0.45 m²",
+     "45 m²",
+     "4.5 m²"
+    ],
+    "answer": 2,
+    "explain": "Divide by 10 000: 450 000 ÷ 10 000 = 45 m². Dividing by 100 (the length factor) gives 4500."
+   },
+   {
+    "id": "M4",
+    "q": "A triangle has base 12 cm and perpendicular height 7 cm. What is its area?",
+    "options": [
+     "84 cm²",
+     "19 cm²",
+     "38 cm²",
+     "42 cm²"
+    ],
+    "answer": 3,
+    "explain": "½ × 12 × 7 = 42 cm². 84 forgets the ½."
+   },
+   {
+    "id": "M5",
+    "q": "A trapezium has parallel sides 6 cm and 10 cm, 4 cm apart. What is its area?",
+    "options": [
+     "64 cm²",
+     "32 cm²",
+     "20 cm²",
+     "240 cm²"
+    ],
+    "answer": 1,
+    "explain": "½(a + b)h = ½ × (6 + 10) × 4 = 32 cm². 64 forgets the ½."
+   },
+   {
+    "id": "M6",
+    "q": "What is the circumference of a circle with diameter 10 cm?",
+    "options": [
+     "31.4 cm",
+     "78.5 cm",
+     "62.8 cm",
+     "314 cm"
+    ],
+    "answer": 0,
+    "explain": "C = πd = π × 10 = 31.4 cm. 78.5 is the area (π × 5²), and 62.8 uses 2π with the diameter."
+   },
+   {
+    "id": "M7",
+    "q": "What is the area of a circle with radius 6 cm?",
+    "options": [
+     "37.7 cm²",
+     "18.8 cm²",
+     "452 cm²",
+     "113 cm²"
+    ],
+    "answer": 3,
+    "explain": "A = πr² = π × 36 = 113 cm². 37.7 is 2πr, the circumference, and 452 squares the diameter."
+   },
+   {
+    "id": "M8",
+    "q": "What is the perimeter of a semicircle with diameter 8 cm?",
+    "options": [
+     "12.6 cm",
+     "20.6 cm",
+     "25.1 cm",
+     "16.6 cm"
+    ],
+    "answer": 1,
+    "explain": "Half the circumference plus the diameter: ½ × π × 8 + 8 = 4π + 8 = 20.6 cm. 12.6 leaves out the straight edge."
+   },
+   {
+    "id": "M9",
+    "q": "A sector has radius 6 cm and angle 60°. What is its arc length?",
+    "options": [
+     "18.8 cm",
+     "12.6 cm",
+     "37.7 cm",
+     "6.28 cm"
+    ],
+    "answer": 3,
+    "explain": "Arc = (60/360) × 2π × 6 = 2π = 6.28 cm. 18.8 (6π) uses πr², which gives the sector's area."
+   },
+   {
+    "id": "M10",
+    "q": "A sector has radius 10 cm and angle 72°. What is its area?",
+    "options": [
+     "62.8 cm²",
+     "314 cm²",
+     "31.4 cm²",
+     "12.6 cm²"
+    ],
+    "answer": 0,
+    "explain": "(72/360) × π × 100 = 20π = 62.8 cm². 12.6 is the arc length, and 314 is the whole circle."
+   },
+   {
+    "id": "M11",
+    "q": "A sector has radius 5 cm and angle 90°. What is its perimeter?",
+    "options": [
+     "17.9 cm",
+     "7.85 cm",
+     "12.9 cm",
+     "19.6 cm"
+    ],
+    "answer": 0,
+    "explain": "Arc = ¼ × 2π × 5 = 7.85 cm. Perimeter = arc + two radii = 7.85 + 10 = 17.9 cm. 7.85 leaves out both radii."
+   },
+   {
+    "id": "M12",
+    "q": "A sector has angle 30° and area 12π cm². What is its radius?",
+    "options": [
+     "144 cm",
+     "6 cm",
+     "12 cm",
+     "3.46 cm"
+    ],
+    "answer": 2,
+    "explain": "(30/360) × πr² = 12π, so r² = 12 × 12 = 144 and r = 12 cm. 144 forgets the square root."
+   },
+   {
+    "id": "M13",
+    "q": "A prism has cross-sectional area 24 cm² and length 15 cm. What is its volume?",
+    "options": [
+     "360 cm³",
+     "180 cm³",
+     "720 cm³",
+     "39 cm³"
+    ],
+    "answer": 0,
+    "explain": "Volume = area of cross-section × length = 24 × 15 = 360 cm³. 180 wrongly halves, as if it were a triangle formula."
+   },
+   {
+    "id": "M14",
+    "q": "What is the volume of a cylinder with radius 3 cm and height 10 cm?",
+    "options": [
+     "94.2 cm³",
+     "283 cm³",
+     "188 cm³",
+     "848 cm³"
+    ],
+    "answer": 1,
+    "explain": "V = πr²h = π × 9 × 10 = 90π = 283 cm³. 188 is 2πrh, the curved surface area."
+   },
+   {
+    "id": "M15",
+    "q": "What is the curved surface area of a cylinder with radius 4 cm and height 5 cm?",
+    "options": [
+     "251 cm²",
+     "50.3 cm²",
+     "126 cm²",
+     "226 cm²"
+    ],
+    "answer": 2,
+    "explain": "Curved surface = 2πrh = 2π × 4 × 5 = 40π = 126 cm². 226 adds the two ends (the total surface area), which is not what was asked."
+   },
+   {
+    "id": "M16",
+    "q": "What is the volume of a cone with base radius 3 cm and vertical height 4 cm?",
+    "options": [
+     "37.7 cm³",
+     "113 cm³",
+     "47.1 cm³",
+     "12.6 cm³"
+    ],
+    "answer": 0,
+    "explain": "V = ⅓πr²h = ⅓ × π × 9 × 4 = 12π = 37.7 cm³. 113 forgets the ⅓, and 47.1 uses the slant height 5."
+   },
+   {
+    "id": "M17",
+    "q": "A cone has base radius 6 cm and vertical height 8 cm. What is its slant height?",
+    "options": [
+     "14 cm",
+     "5.29 cm",
+     "100 cm",
+     "10 cm"
+    ],
+    "answer": 3,
+    "explain": "l² = r² + h² = 36 + 64 = 100, so l = 10 cm. The slant height is the hypotenuse, so the squares are added."
+   },
+   {
+    "id": "M18",
+    "q": "A cone has base radius 5 cm and slant height 13 cm. What is its curved surface area?",
+    "options": [
+     "283 cm²",
+     "408 cm²",
+     "204 cm²",
+     "314 cm²"
+    ],
+    "answer": 2,
+    "explain": "πrl = π × 5 × 13 = 65π = 204 cm². 283 (90π) adds the base, which makes it the total surface area."
+   },
+   {
+    "id": "M19",
+    "q": "What is the volume of a sphere with radius 3 cm?",
+    "options": [
+     "339 cm³",
+     "37.7 cm³",
+     "28.3 cm³",
+     "113 cm³"
+    ],
+    "answer": 3,
+    "explain": "V = (4/3)πr³ = (4/3) × π × 27 = 36π = 113 cm³. 339 forgets the ÷ 3."
+   },
+   {
+    "id": "M20",
+    "q": "What is the surface area of a sphere with radius 5 cm?",
+    "options": [
+     "314 cm²",
+     "524 cm²",
+     "157 cm²",
+     "78.5 cm²"
+    ],
+    "answer": 0,
+    "explain": "4πr² = 4 × π × 25 = 100π = 314 cm². 524 is the volume, and 78.5 is only one circle, πr²."
+   },
+   {
+    "id": "M21",
+    "q": "What is the total surface area of a solid hemisphere of radius r?",
+    "options": [
+     "2πr²",
+     "3πr²",
+     "4πr²",
+     "(2/3)πr³"
+    ],
+    "answer": 1,
+    "explain": "Curved part: half of 4πr² = 2πr². Flat circular face: πr². Total 3πr². 2πr² is only right for a hollow bowl."
+   },
+   {
+    "id": "M22",
+    "q": "A pyramid has a square base of side 9 cm and a vertical height of 10 cm. What is its volume?",
+    "options": [
+     "810 cm³",
+     "270 cm³",
+     "30 cm³",
+     "405 cm³"
+    ],
+    "answer": 1,
+    "explain": "⅓ × base area × height = ⅓ × 81 × 10 = 270 cm³. 810 forgets the ⅓. The pyramid formula is not on the formula sheet."
+   },
+   {
+    "id": "M23",
+    "q": "A large cone has volume 240 cm³. A similar small cone with half its height is cut off the top. What is the volume of the frustum left?",
+    "options": [
+     "120 cm³",
+     "180 cm³",
+     "210 cm³",
+     "30 cm³"
+    ],
+    "answer": 2,
+    "explain": "Length factor ½, so the small cone is (½)³ = ⅛ of 240 = 30 cm³. Frustum = 240 − 30 = 210 cm³. 120 halves the volume as if it scaled like length."
+   },
+   {
+    "id": "M24",
+    "q": "A cylinder has radius 2 cm and height 5 cm. What is its volume, in terms of π?",
+    "options": [
+     "62.8 cm³",
+     "10π cm³",
+     "40π cm³",
+     "20π cm³"
+    ],
+    "answer": 3,
+    "explain": "πr²h = π × 4 × 5 = 20π cm³. 62.8 is the same value evaluated, which is not \"in terms of π\"."
+   },
+   {
+    "id": "M25",
+    "q": "Two triangles are similar. A side of 4 cm in the small triangle corresponds to 10 cm in the large one. Another side of the small triangle is 6 cm. What is the corresponding side in the large triangle?",
+    "options": [
+     "12 cm",
+     "15 cm",
+     "2.4 cm",
+     "9 cm"
+    ],
+    "answer": 1,
+    "explain": "Scale factor 10 ÷ 4 = 2.5, so 6 × 2.5 = 15 cm. 12 adds 6 (the difference 10 − 4) instead of multiplying."
+   },
+   {
+    "id": "M26",
+    "q": "In triangle ABC, DE is parallel to BC, with D on AB. AD = 3 cm, DB = 6 cm and DE = 4 cm. What is BC?",
+    "options": [
+     "8 cm",
+     "10 cm",
+     "7 cm",
+     "12 cm"
+    ],
+    "answer": 3,
+    "explain": "Triangles ADE and ABC are similar. AB = 3 + 6 = 9, so the scale factor is 9 ÷ 3 = 3 and BC = 12 cm. 8 uses DB instead of the whole side AB."
+   },
+   {
+    "id": "M27",
+    "q": "A shape is enlarged with length scale factor 3. By what factor is its area multiplied?",
+    "options": [
+     "9",
+     "3",
+     "6",
+     "27"
+    ],
+    "answer": 0,
+    "explain": "Area scale factor = k² = 3² = 9. 27 is the volume factor, k³."
+   },
+   {
+    "id": "M28",
+    "q": "Two similar shapes have corresponding lengths in the ratio 2 : 5. The smaller has area 12 cm². What is the area of the larger?",
+    "options": [
+     "30 cm²",
+     "75 cm²",
+     "187.5 cm²",
+     "60 cm²"
+    ],
+    "answer": 1,
+    "explain": "Area factor (5/2)² = 6.25, so 12 × 6.25 = 75 cm². 30 uses the length factor, and 187.5 the volume factor."
+   },
+   {
+    "id": "M29",
+    "q": "Two similar solids have volumes in the ratio 8 : 27. What is the ratio of their corresponding lengths?",
+    "options": [
+     "4 : 9",
+     "64 : 729",
+     "2 : 3",
+     "8 : 27"
+    ],
+    "answer": 2,
+    "explain": "Length ratio = cube root of the volume ratio: ∛8 : ∛27 = 2 : 3. 4 : 9 would be the area ratio."
+   },
+   {
+    "id": "M30",
+    "q": "Two similar solids have surface areas 45 cm² and 80 cm². What is the ratio of their corresponding lengths?",
+    "options": [
+     "9 : 16",
+     "27 : 64",
+     "3 : 4",
+     "81 : 256"
+    ],
+    "answer": 2,
+    "explain": "45 : 80 = 9 : 16 is the area ratio. Square root it: 3 : 4. Then cube it (27 : 64) if you need volumes."
+   },
+   {
+    "id": "M31",
+    "q": "Similar solids A and B have surface areas 36 cm² and 81 cm². A has volume 40 cm³. What is the volume of B?",
+    "options": [
+     "90 cm³",
+     "60 cm³",
+     "135 cm³",
+     "202.5 cm³"
+    ],
+    "answer": 2,
+    "explain": "Length factor √(81/36) = 3/2, volume factor (3/2)³ = 27/8, so 40 × 27/8 = 135 cm³. 90 multiplies by the area ratio 81/36."
+   },
+   {
+    "id": "M32",
+    "q": "A frustum is made by cutting a similar small cone off a large cone of height h. Volume of frustum ÷ volume of large cone = 7/8. What is the height of the frustum?",
+    "options": [
+     "h/2",
+     "7h/8",
+     "h/8",
+     "h/4"
+    ],
+    "answer": 0,
+    "explain": "Small cone = 1 − 7/8 = 1/8 of the large one. Length factor ∛(1/8) = ½, so the small cone has height h/2 and the frustum h − h/2 = h/2."
+   },
+   {
+    "id": "M33",
+    "q": "A car travels 180 km in 2 hours 15 minutes. What is its average speed?",
+    "options": [
+     "83.7 km/h",
+     "90 km/h",
+     "405 km/h",
+     "80 km/h"
+    ],
+    "answer": 3,
+    "explain": "15 minutes = 0.25 h, so the time is 2.25 h: 180 ÷ 2.25 = 80 km/h. 83.7 comes from writing 2 h 15 min as 2.15 h."
+   },
+   {
+    "id": "M34",
+    "q": "Convert 90 km/h to metres per second.",
+    "options": [
+     "324 m/s",
+     "25 m/s",
+     "1.5 m/s",
+     "90 000 m/s"
+    ],
+    "answer": 1,
+    "explain": "90 km/h = 90 000 m per 3600 s = 25 m/s. Quick rule: divide km/h by 3.6. 324 multiplies instead."
+   },
+   {
+    "id": "M35",
+    "q": "A metal block has mass 540 g and volume 200 cm³. What is its density?",
+    "options": [
+     "108 000 g/cm³",
+     "0.37 g/cm³",
+     "2.7 g/cm³",
+     "340 g/cm³"
+    ],
+    "answer": 2,
+    "explain": "Density = mass ÷ volume = 540 ÷ 200 = 2.7 g/cm³. The units, g per cm³, tell you which way to divide."
+   },
+   {
+    "id": "M36",
+    "q": "Steel has density 7.8 g/cm³. What is the mass of 50 cm³ of steel?",
+    "options": [
+     "6.41 g",
+     "0.156 g",
+     "57.8 g",
+     "390 g"
+    ],
+    "answer": 3,
+    "explain": "Mass = density × volume = 7.8 × 50 = 390 g."
+   },
+   {
+    "id": "M37",
+    "q": "pressure = force ÷ area. A force of 360 N acts on an area of 1.5 m². What is the pressure?",
+    "options": [
+     "540 N/m²",
+     "0.00417 N/m²",
+     "358.5 N/m²",
+     "240 N/m²"
+    ],
+    "answer": 3,
+    "explain": "360 ÷ 1.5 = 240 N/m². 540 multiplies instead of dividing."
+   },
+   {
+    "id": "M38",
+    "q": "How long does it take to travel 150 km at 60 km/h?",
+    "options": [
+     "2 hours 50 minutes",
+     "2 hours 30 minutes",
+     "2 hours 5 minutes",
+     "9000 hours"
+    ],
+    "answer": 1,
+    "explain": "Time = distance ÷ speed = 150 ÷ 60 = 2.5 hours = 2 hours 30 minutes. 0.5 of an hour is 30 minutes, not 50."
+   },
+   {
+    "id": "M39",
+    "q": "A shape is a right-angled triangle with shorter sides 6 cm and 8 cm, plus a semicircle drawn outwards on the hypotenuse. What is its total area?",
+    "options": [
+     "102.5 cm²",
+     "49.1 cm²",
+     "63.3 cm²",
+     "39.3 cm²"
+    ],
+    "answer": 2,
+    "explain": "Hypotenuse √(36 + 64) = 10, so the semicircle has radius 5: ½ × π × 25 = 39.27. Triangle ½ × 6 × 8 = 24. Total 63.3 cm². 102.5 uses a full circle."
+   },
+   {
+    "id": "M40",
+    "q": "How many cm³ are there in 1 m³, and why?",
+    "options": [
+     "1 000 000, because 100 × 100 × 100",
+     "100, because 1 m = 100 cm",
+     "10 000, because 100 × 100",
+     "1000, because 1 litre = 1000 cm³"
+    ],
+    "answer": 0,
+    "explain": "A 1 m cube is 100 cm by 100 cm by 100 cm, so its volume is 1 000 000 cm³. The length factor is applied once for each dimension."
+   }
+  ],
+  "11-pythagoras-and-trigonometry": [
+   {
+    "id": "M1",
+    "q": "A right-angled triangle has shorter sides 5 cm and 12 cm. How long is the hypotenuse?",
+    "options": [
+     "13 cm",
+     "17 cm",
+     "10.9 cm",
+     "169 cm"
+    ],
+    "answer": 0,
+    "explain": "c = √(5² + 12²) = √169 = 13 cm. 17 adds the sides without squaring, and 169 forgets the square root."
+   },
+   {
+    "id": "M2",
+    "q": "A right-angled triangle has hypotenuse 10 cm and one side 6 cm. How long is the third side?",
+    "options": [
+     "11.7 cm",
+     "8 cm",
+     "4 cm",
+     "64 cm"
+    ],
+    "answer": 1,
+    "explain": "For a shorter side, subtract: √(10² − 6²) = √64 = 8 cm. 11.7 adds the squares, which would make it longer than the hypotenuse."
+   },
+   {
+    "id": "M3",
+    "q": "The shorter sides of a right-angled triangle are 2.4 m and 7 m. How long is the hypotenuse?",
+    "options": [
+     "7.4 m",
+     "6.58 m",
+     "9.4 m",
+     "54.76 m"
+    ],
+    "answer": 0,
+    "explain": "√(2.4² + 7²) = √(5.76 + 49) = √54.76 = 7.4 m. 9.4 adds the lengths, and 6.58 subtracts the squares."
+   },
+   {
+    "id": "M4",
+    "q": "In a right-angled triangle, which side is the hypotenuse?",
+    "options": [
+     "The side next to the angle you are using",
+     "The side opposite the angle you are using",
+     "The shortest side",
+     "The side opposite the right angle"
+    ],
+    "answer": 3,
+    "explain": "The hypotenuse is opposite the right angle, and it is always the longest side. Opposite and adjacent depend on the angle you are using; the hypotenuse does not."
+   },
+   {
+    "id": "M5",
+    "q": "In a right-angled triangle you know the side adjacent to angle θ and want the hypotenuse. Which ratio do you use?",
+    "options": [
+     "sin θ",
+     "tan θ",
+     "cos θ",
+     "Pythagoras"
+    ],
+    "answer": 2,
+    "explain": "Adjacent and hypotenuse: CAH, so cos θ = A/H. Pythagoras needs two sides, not a side and an angle."
+   },
+   {
+    "id": "M6",
+    "q": "A right-angled triangle has hypotenuse 20 cm and an angle of 35°. How long is the side opposite the 35° angle?",
+    "options": [
+     "11.5 cm",
+     "16.4 cm",
+     "14.0 cm",
+     "34.9 cm"
+    ],
+    "answer": 0,
+    "explain": "sin 35 = O/20, so O = 20 × sin 35 = 11.5 cm. 16.4 uses cos, which gives the adjacent side."
+   },
+   {
+    "id": "M7",
+    "q": "cos 52° = 12/x. What is x?",
+    "options": [
+     "19.5",
+     "15.2",
+     "9.38",
+     "7.39"
+    ],
+    "answer": 0,
+    "explain": "The unknown is on the bottom, so x = 12 ÷ cos 52 = 19.5. 7.39 multiplies by cos 52 instead."
+   },
+   {
+    "id": "M8",
+    "q": "In a right-angled triangle, the side opposite θ is 7 cm and the side adjacent to θ is 4 cm. What is θ?",
+    "options": [
+     "29.7°",
+     "60.3°",
+     "1.05°",
+     "55.2°"
+    ],
+    "answer": 1,
+    "explain": "tan θ = 7/4, so θ = tan⁻¹(1.75) = 60.3°. 29.7° swaps opposite and adjacent, and 1.05 is what a calculator in radians gives."
+   },
+   {
+    "id": "M9",
+    "q": "An angle of elevation is measured from",
+    "options": [
+     "the vertical",
+     "north",
+     "the horizontal",
+     "the top of the object"
+    ],
+    "answer": 2,
+    "explain": "Elevation (up) and depression (down) are both measured from the horizontal."
+   },
+   {
+    "id": "M10",
+    "q": "A point on level ground is 50 m from the foot of a tower. The angle of elevation of the top is 28°. How tall is the tower?",
+    "options": [
+     "26.6 m",
+     "44.1 m",
+     "94.0 m",
+     "23.5 m"
+    ],
+    "answer": 0,
+    "explain": "tan 28 = h/50, so h = 50 × tan 28 = 26.6 m. The height is opposite the angle and the 50 m is adjacent: TOA."
+   },
+   {
+    "id": "M11",
+    "q": "From the top of a 40 m cliff, the angle of depression of a boat is 15°. How far is the boat from the foot of the cliff?",
+    "options": [
+     "10.7 m",
+     "155 m",
+     "149 m",
+     "41.4 m"
+    ],
+    "answer": 2,
+    "explain": "The angle of elevation from the boat is also 15° (alternate angles). tan 15 = 40/d, so d = 40 ÷ tan 15 = 149 m. 10.7 multiplies by tan 15."
+   },
+   {
+    "id": "M12",
+    "q": "B is 20 km east and 20 km north of A. What is the bearing of B from A?",
+    "options": [
+     "45°",
+     "135°",
+     "315°",
+     "045°"
+    ],
+    "answer": 3,
+    "explain": "tan θ = 20/20 = 1, so θ = 45° from north, clockwise. Bearings are written with three figures: 045°."
+   },
+   {
+    "id": "M13",
+    "q": "B is 12 km east and 5 km south of A. What is the bearing of B from A, to the nearest degree?",
+    "options": [
+     "067°",
+     "113°",
+     "023°",
+     "293°"
+    ],
+    "answer": 1,
+    "explain": "B is south of east. The angle below the east line is tan⁻¹(5/12) = 22.6°, so the bearing is 090 + 22.6 = 113°. 067° measures the angle the wrong way from east."
+   },
+   {
+    "id": "M14",
+    "q": "Which of these is equal to sin 150°?",
+    "options": [
+     "−sin 30°",
+     "cos 30°",
+     "sin 30°",
+     "−0.5"
+    ],
+    "answer": 2,
+    "explain": "sin(180° − x) = sin x, so sin 150° = sin 30° = 0.5. Sines of obtuse angles are positive."
+   },
+   {
+    "id": "M15",
+    "q": "What is cos 120°?",
+    "options": [
+     "−0.5",
+     "0.5",
+     "−0.866",
+     "0.866"
+    ],
+    "answer": 0,
+    "explain": "cos(180° − x) = −cos x, so cos 120° = −cos 60° = −0.5. Cosines of obtuse angles are negative."
+   },
+   {
+    "id": "M16",
+    "q": "Which angles between 0° and 180° have sin x = 0.6?",
+    "options": [
+     "36.9° only",
+     "36.9° and 143.1°",
+     "53.1° and 126.9°",
+     "36.9° and 323.1°"
+    ],
+    "answer": 1,
+    "explain": "sin⁻¹(0.6) = 36.9°, and sin(180 − 36.9) = sin 36.9, so 143.1° also works. This is why the sine rule can give two possible angles."
+   },
+   {
+    "id": "M17",
+    "q": "When can you use the sine rule?",
+    "options": [
+     "When you know two sides and the angle between them",
+     "When you know all three sides",
+     "Only in right-angled triangles",
+     "When you know a side and its opposite angle, plus one more side or angle"
+    ],
+    "answer": 3,
+    "explain": "The sine rule pairs each side with its opposite angle, so you need one complete pair. Two sides and the included angle, or three sides, need the cosine rule."
+   },
+   {
+    "id": "M18",
+    "q": "In triangle ABC, angle A = 35°, angle B = 80° and a = 10 cm. What is b?",
+    "options": [
+     "5.82 cm",
+     "17.2 cm",
+     "5.65 cm",
+     "22.9 cm"
+    ],
+    "answer": 1,
+    "explain": "b/sin 80 = 10/sin 35, so b = 10 × sin 80 ÷ sin 35 = 17.2 cm. 5.82 has the sines the wrong way up."
+   },
+   {
+    "id": "M19",
+    "q": "In triangle ABC, a = 9 cm, b = 7 cm and angle B = 40°. Angle A is acute. What is angle A?",
+    "options": [
+     "30.0°",
+     "124.3°",
+     "55.7°",
+     "0.826°"
+    ],
+    "answer": 2,
+    "explain": "sin A = 9 × sin 40 ÷ 7 = 0.826, so A = 55.7°. 124.3° is the obtuse alternative, ruled out because A is acute. 0.826 is the sine, not the angle."
+   },
+   {
+    "id": "M20",
+    "q": "In triangle ABC, b = 5 cm, c = 8 cm and angle A = 60°. What is a?",
+    "options": [
+     "9.43 cm",
+     "3 cm",
+     "49 cm",
+     "7 cm"
+    ],
+    "answer": 3,
+    "explain": "a² = 25 + 64 − 2 × 5 × 8 × cos 60 = 89 − 40 = 49, so a = 7 cm. 9.43 forgets the − 2bc cos A term, and 49 forgets the square root."
+   },
+   {
+    "id": "M21",
+    "q": "A triangle has sides 3 cm, 5 cm and 7 cm. What is its largest angle?",
+    "options": [
+     "60°",
+     "38.2°",
+     "120°",
+     "21.8°"
+    ],
+    "answer": 2,
+    "explain": "Largest angle is opposite 7: cos θ = (9 + 25 − 49) ÷ 30 = −0.5, so θ = 120°. The negative cosine means obtuse."
+   },
+   {
+    "id": "M22",
+    "q": "In cos A = (b² + c² − a²) ÷ 2bc, which side is a?",
+    "options": [
+     "The longest side",
+     "The side opposite angle A",
+     "A side next to angle A",
+     "The shortest side"
+    ],
+    "answer": 1,
+    "explain": "a is always the side opposite the angle you are finding, and it is the one subtracted. It is only the longest side if A is the largest angle."
+   },
+   {
+    "id": "M23",
+    "q": "A triangle has sides 8 cm and 11 cm with an angle of 30° between them. What is its area?",
+    "options": [
+     "44 cm²",
+     "38.1 cm²",
+     "88 cm²",
+     "22 cm²"
+    ],
+    "answer": 3,
+    "explain": "½ab sin C = ½ × 8 × 11 × sin 30 = 22 cm². 44 forgets the ½, and 38.1 uses cos."
+   },
+   {
+    "id": "M24",
+    "q": "A triangle has sides 10 cm and 12 cm and area 30 cm². The angle between those sides is acute. What is it?",
+    "options": [
+     "60°",
+     "14.5°",
+     "30°",
+     "150°"
+    ],
+    "answer": 2,
+    "explain": "½ × 10 × 12 × sin C = 30, so sin C = 0.5 and C = 30°. 150° has the same sine, but the question says acute."
+   },
+   {
+    "id": "M25",
+    "q": "You know two sides of a triangle and the angle between them. Which rule finds the third side?",
+    "options": [
+     "The cosine rule",
+     "The sine rule",
+     "SOHCAHTOA",
+     "½ab sin C"
+    ],
+    "answer": 0,
+    "explain": "Two sides and the included angle: cosine rule, a² = b² + c² − 2bc cos A. The sine rule needs a side with its opposite angle."
+   },
+   {
+    "id": "M26",
+    "q": "A cuboid measures 2 cm by 3 cm by 6 cm. How long is its space diagonal?",
+    "options": [
+     "11 cm",
+     "3.61 cm",
+     "49 cm",
+     "7 cm"
+    ],
+    "answer": 3,
+    "explain": "d = √(2² + 3² + 6²) = √49 = 7 cm. 3.61 is only the diagonal of the 2 by 3 face."
+   },
+   {
+    "id": "M27",
+    "q": "How long is the space diagonal of a cube with side 4 cm?",
+    "options": [
+     "6.93 cm",
+     "5.66 cm",
+     "12 cm",
+     "8 cm"
+    ],
+    "answer": 0,
+    "explain": "√(4² + 4² + 4²) = √48 = 6.93 cm. 5.66 (4√2) is the diagonal of one face."
+   },
+   {
+    "id": "M28",
+    "q": "The angle between a line and a plane is the angle between the line and",
+    "options": [
+     "the nearest edge of the plane",
+     "its projection (shadow) on the plane",
+     "the vertical",
+     "any line in the plane through the same point"
+    ],
+    "answer": 1,
+    "explain": "Drop a perpendicular from the top of the line to the plane. The line, its projection and the perpendicular make a right-angled triangle, and the angle is between the line and the projection."
+   },
+   {
+    "id": "M29",
+    "q": "A cuboid is 8 cm long, 6 cm wide and 5 cm high. What is the angle between a space diagonal and the base?",
+    "options": [
+     "63.4°",
+     "32.0°",
+     "26.6°",
+     "39.8°"
+    ],
+    "answer": 2,
+    "explain": "The projection is the base diagonal √(8² + 6²) = 10. tan θ = 5/10, so θ = 26.6°. 32.0° uses the 8 cm edge instead of the base diagonal."
+   },
+   {
+    "id": "M30",
+    "q": "A pyramid has a square base of side 10 cm and its apex 12 cm vertically above the centre. What is the angle between a sloping edge and the base?",
+    "options": [
+     "67.4°",
+     "50.2°",
+     "30.5°",
+     "59.5°"
+    ],
+    "answer": 3,
+    "explain": "From a corner to the centre is half the diagonal: ½√200 = 7.07. tan θ = 12/7.07, so θ = 59.5°. 67.4° uses 5, the distance to the middle of a side, which gives the angle of a face, not an edge."
+   },
+   {
+    "id": "M31",
+    "q": "A 6 m ladder makes an angle of 70° with horizontal ground. How far up the wall does it reach?",
+    "options": [
+     "2.05 m",
+     "16.5 m",
+     "5.64 m",
+     "6.39 m"
+    ],
+    "answer": 2,
+    "explain": "The height is opposite the 70° angle and the ladder is the hypotenuse: 6 × sin 70 = 5.64 m. 2.05 uses cos, which gives the distance from the wall."
+   },
+   {
+    "id": "M32",
+    "q": "Why should you keep full calculator values until the final answer?",
+    "options": [
+     "Rounding early can push the final answer outside the accepted range",
+     "Examiners take off a mark for every rounded value",
+     "Calculators cannot use rounded numbers",
+     "It makes no difference to the answer"
+    ],
+    "answer": 0,
+    "explain": "Schemes accept a narrow range, e.g. 20.4 – 20.5. An early rounding error carries forward and can grow, costing the A1."
+   },
+   {
+    "id": "M33",
+    "q": "A ship sails 5 km due north, then 12 km due east. What is the bearing of its finishing point from its start?",
+    "options": [
+     "023°",
+     "067°",
+     "247°",
+     "113°"
+    ],
+    "answer": 1,
+    "explain": "tan θ = 12/5 measured from north, so θ = 67.4° and the bearing is 067°. 023° is tan⁻¹(5/12), the angle from east."
+   },
+   {
+    "id": "M34",
+    "q": "The cosine rule gives cos C as a negative number. What does that tell you about angle C?",
+    "options": [
+     "It is acute",
+     "It is a right angle",
+     "The triangle is impossible",
+     "It is obtuse"
+    ],
+    "answer": 3,
+    "explain": "Cosines of angles between 90° and 180° are negative, so C is obtuse. cos⁻¹ handles it correctly."
+   },
+   {
+    "id": "M35",
+    "q": "A ship sails on a bearing of 040° to a buoy, then turns onto a bearing of 115°. What is the angle inside the triangle at the buoy?",
+    "options": [
+     "75°",
+     "105°",
+     "155°",
+     "255°"
+    ],
+    "answer": 1,
+    "explain": "At the buoy, the bearing back to the start is 040 + 180 = 220°. The angle between that and the new course is 220 − 115 = 105°. 75° is the turn, not the angle in the triangle."
+   },
+   {
+    "id": "M36",
+    "q": "In any triangle, the largest angle is opposite",
+    "options": [
+     "the shortest side",
+     "the hypotenuse only",
+     "the side between the other two angles",
+     "the longest side"
+    ],
+    "answer": 3,
+    "explain": "Larger angles face longer sides. So for the largest angle, put the longest side as a in the cosine rule."
+   },
+   {
+    "id": "M37",
+    "q": "A triangle has sides 7 cm and 9 cm with an angle of 120° between them. What is its area?",
+    "options": [
+     "54.6 cm²",
+     "−15.8 cm²",
+     "31.5 cm²",
+     "27.3 cm²"
+    ],
+    "answer": 3,
+    "explain": "½ × 7 × 9 × sin 120 = 27.3 cm². sin 120° = sin 60° is positive. −15.8 uses cos, and 54.6 forgets the ½."
+   },
+   {
+    "id": "M38",
+    "q": "An isosceles triangle has two sides of 10 cm and a base of 12 cm. What is its perpendicular height?",
+    "options": [
+     "15.6 cm",
+     "8 cm",
+     "11.7 cm",
+     "6 cm"
+    ],
+    "answer": 1,
+    "explain": "The height bisects the base, making a right-angled triangle with hypotenuse 10 and side 6: √(100 − 36) = 8 cm. 11.7 adds the squares."
+   },
+   {
+    "id": "M39",
+    "q": "In a right-angled triangle, tan θ equals",
+    "options": [
+     "adjacent ÷ opposite",
+     "opposite ÷ hypotenuse",
+     "opposite ÷ adjacent",
+     "hypotenuse ÷ adjacent"
+    ],
+    "answer": 2,
+    "explain": "TOA: tan θ = opposite ÷ adjacent. Opposite ÷ hypotenuse is sin θ."
+   },
+   {
+    "id": "M40",
+    "q": "A cone has base radius 4.5 cm and slant height 9 cm. What is the angle at the apex between two opposite slant edges?",
+    "options": [
+     "60°",
+     "30°",
+     "120°",
+     "26.6°"
+    ],
+    "answer": 0,
+    "explain": "Half the cone is a right-angled triangle with hypotenuse 9 and opposite side 4.5: sin θ = 0.5, θ = 30°. The full apex angle is 2 × 30 = 60°."
+   }
+  ],
+  "12-vectors-and-transformations": [
+   {
+    "id": "M1",
+    "q": "A is the point (2, 5) and B is the point (7, 1). Which is the column vector for vector AB, written (top, bottom)?",
+    "options": [
+     "(−5, 4)",
+     "(5, −4)",
+     "(9, 6)",
+     "(5, 4)"
+    ],
+    "answer": 1,
+    "explain": "Vector AB = B − A (end minus start) = (7 − 2, 1 − 5) = (5, −4). (−5, 4) is A − B, which is vector BA."
+   },
+   {
+    "id": "M2",
+    "q": "a is the column vector (3, −1) and b is the column vector (−2, 4). Work out a − b.",
+    "options": [
+     "(1, 3)",
+     "(1, −5)",
+     "(−5, 5)",
+     "(5, −5)"
+    ],
+    "answer": 3,
+    "explain": "Top: 3 − (−2) = 5. Bottom: −1 − 4 = −5. (1, 3) is a + b; (1, −5) comes from 3 − 2, forgetting that minus a negative is plus."
+   },
+   {
+    "id": "M3",
+    "q": "a is the column vector (4, −2). Which is 3a?",
+    "options": [
+     "(7, 1)",
+     "(12, −2)",
+     "(4, −6)",
+     "(12, −6)"
+    ],
+    "answer": 3,
+    "explain": "Multiply both components by 3: (12, −6). (7, 1) adds 3 instead of multiplying; the others only multiply one component."
+   },
+   {
+    "id": "M4",
+    "q": "Find the magnitude of the column vector (5, −12).",
+    "options": [
+     "7",
+     "17",
+     "√119",
+     "13"
+    ],
+    "answer": 3,
+    "explain": "√(5² + (−12)²) = √(25 + 144) = √169 = 13. The negative disappears when squared, so it is not √(144 − 25) = √119."
+   },
+   {
+    "id": "M5",
+    "q": "Find the magnitude of the column vector (6, 3), correct to 3 significant figures.",
+    "options": [
+     "9",
+     "5.20",
+     "3",
+     "6.71"
+    ],
+    "answer": 3,
+    "explain": "√(6² + 3²) = √45 = 6.708… = 6.71. 9 just adds the components; 5.20 is √(36 − 9)."
+   },
+   {
+    "id": "M6",
+    "q": "Vector OA = a and vector OB = b. Which is vector AB?",
+    "options": [
+     "b − a",
+     "a − b",
+     "a + b",
+     "−a − b"
+    ],
+    "answer": 0,
+    "explain": "A to B goes A → O → B: −a + b = b − a. It is end minus start, just like coordinates. a − b is vector BA."
+   },
+   {
+    "id": "M7",
+    "q": "Vector AB is the column vector (4, −3). Which is vector BA?",
+    "options": [
+     "(−4, 3)",
+     "(4, −3)",
+     "(−4, −3)",
+     "(3, −4)"
+    ],
+    "answer": 0,
+    "explain": "Reversing the direction changes the sign of every component: BA = −AB = (−4, 3)."
+   },
+   {
+    "id": "M8",
+    "q": "P lies on AB with AP : PB = 2 : 3. What fraction of vector AB is vector AP?",
+    "options": [
+     "2/3",
+     "3/5",
+     "3/2",
+     "2/5"
+    ],
+    "answer": 3,
+    "explain": "The ratio has 2 + 3 = 5 parts and AP is 2 of them, so AP = 2/5 of AB. 2/3 compares AP with PB, not with the whole line."
+   },
+   {
+    "id": "M9",
+    "q": "Vector OA = a and vector OB = b. M is the midpoint of AB. Which is vector OM?",
+    "options": [
+     "1/2 b − 1/2 a",
+     "a + b",
+     "1/2 a + 1/2 b",
+     "1/2 a − 1/2 b"
+    ],
+    "answer": 2,
+    "explain": "OM = OA + 1/2 AB = a + 1/2(b − a) = 1/2 a + 1/2 b. 1/2 b − 1/2 a is AM, not OM."
+   },
+   {
+    "id": "M10",
+    "q": "Which column vector is parallel to (2, −3)?",
+    "options": [
+     "(−6, 9)",
+     "(3, −2)",
+     "(4, 6)",
+     "(−2, −3)"
+    ],
+    "answer": 0,
+    "explain": "(−6, 9) = −3 × (2, −3), a scalar multiple, so parallel (pointing the opposite way). The others are not multiples: the ratio of the components changes."
+   },
+   {
+    "id": "M11",
+    "q": "What must you show to prove that A, B and C lie on a straight line?",
+    "options": [
+     "AB and BC have the same length",
+     "Vector AB = vector BC",
+     "Vector AB is a multiple of vector AC, and they share the point A",
+     "AB is perpendicular to AC"
+    ],
+    "answer": 2,
+    "explain": "A multiple proves the lines are parallel; sharing a point proves they are the same line. Equal lengths are not needed: B does not have to be a midpoint."
+   },
+   {
+    "id": "M12",
+    "q": "Vector OA = 3a, vector AB = 2b and vector BC = c. Which is vector CA?",
+    "options": [
+     "−c − 2b",
+     "c + 2b",
+     "3a + 2b + c",
+     "2b − c"
+    ],
+    "answer": 0,
+    "explain": "C to A goes C → B → A, both against the arrows: −c − 2b. c + 2b is vector AC; 3a + 2b + c is vector OC."
+   },
+   {
+    "id": "M13",
+    "q": "You find vector AE = 2a + 3b and vector BC = 4a + 6b. What can you conclude?",
+    "options": [
+     "A, E, B and C all lie on one straight line",
+     "AE is perpendicular to BC",
+     "AE is parallel to BC, because vector BC = 2 × vector AE",
+     "AE and BC are the same length"
+    ],
+    "answer": 2,
+    "explain": "4a + 6b = 2(2a + 3b), a scalar multiple, so the lines are parallel (and BC is twice as long). No shared point is given, so you cannot claim a straight line."
+   },
+   {
+    "id": "M14",
+    "q": "A is the point (1, 2) and vector AB is the column vector (3, 4). What are the coordinates of B?",
+    "options": [
+     "(2, 2)",
+     "(4, 6)",
+     "(3, 8)",
+     "(−2, −2)"
+    ],
+    "answer": 1,
+    "explain": "B = A + AB = (1 + 3, 2 + 4) = (4, 6). (−2, −2) subtracts the vector instead of adding it."
+   },
+   {
+    "id": "M15",
+    "q": "a is the column vector (1, 4) and b is the column vector (2, −1). Work out 2a − 3b.",
+    "options": [
+     "(−4, 5)",
+     "(−1, 5)",
+     "(−4, 11)",
+     "(8, 5)"
+    ],
+    "answer": 2,
+    "explain": "2a = (2, 8), 3b = (6, −3). Top 2 − 6 = −4; bottom 8 − (−3) = 11. (−4, 5) treats 8 − (−3) as 8 − 3; (8, 5) is 2a + 3b."
+   },
+   {
+    "id": "M16",
+    "q": "The column vector (k, 8) is parallel to the column vector (3, 4). Find k.",
+    "options": [
+     "5",
+     "6",
+     "8",
+     "3"
+    ],
+    "answer": 1,
+    "explain": "8 = 2 × 4, so the multiplier is 2 and k = 2 × 3 = 6. 5 comes from adding 4 to the bottom and assuming the same for the top."
+   },
+   {
+    "id": "M17",
+    "q": "The vector r is the column vector (6, k), where k > 0. The magnitude of r is 10. Find k.",
+    "options": [
+     "4",
+     "√136",
+     "8",
+     "16"
+    ],
+    "answer": 2,
+    "explain": "6² + k² = 10², so k² = 100 − 36 = 64 and k = 8 (positive). 4 is 10 − 6; √136 adds the squares instead of subtracting."
+   },
+   {
+    "id": "M18",
+    "q": "Vector OA = a and vector OB = b. P is on AB with AP : PB = 1 : 2. Which is vector OP?",
+    "options": [
+     "1/3 a + 2/3 b",
+     "a + 1/2 b",
+     "1/3 a + 1/3 b",
+     "2/3 a + 1/3 b"
+    ],
+    "answer": 3,
+    "explain": "AP = 1/3(b − a), so OP = a + 1/3(b − a) = 2/3 a + 1/3 b. P is nearer A, so a gets the bigger share. The coefficients of a point on AB always add to 1."
+   },
+   {
+    "id": "M19",
+    "q": "The vector a has magnitude 5. What is the magnitude of −3a?",
+    "options": [
+     "15",
+     "−15",
+     "5",
+     "8"
+    ],
+    "answer": 0,
+    "explain": "−3a points the opposite way and is 3 times as long: magnitude 15. A magnitude is a length, so it is never negative."
+   },
+   {
+    "id": "M20",
+    "q": "Which detail fully specifies a translation?",
+    "options": [
+     "A column vector",
+     "An angle and a centre",
+     "A mirror line",
+     "A centre and a scale factor"
+    ],
+    "answer": 0,
+    "explain": "A translation is fixed by one column vector. An angle and centre belong to a rotation, a mirror line to a reflection, a centre and scale factor to an enlargement."
+   },
+   {
+    "id": "M21",
+    "q": "The point (3, 1) is reflected in the line y = x. Where does it go?",
+    "options": [
+     "(−3, 1)",
+     "(3, −1)",
+     "(1, 3)",
+     "(−1, −3)"
+    ],
+    "answer": 2,
+    "explain": "Reflection in y = x swaps the coordinates: (3, 1) → (1, 3). (−1, −3) is the reflection in y = −x."
+   },
+   {
+    "id": "M22",
+    "q": "The point (4, 2) is reflected in the line x = 1. Where does it go?",
+    "options": [
+     "(4, 0)",
+     "(−2, 2)",
+     "(−4, 2)",
+     "(2, 2)"
+    ],
+    "answer": 1,
+    "explain": "(4, 2) is 3 units right of x = 1, so the image is 3 units left: x = 1 − 3 = −2, y unchanged. (−4, 2) is the reflection in the y-axis, x = 0."
+   },
+   {
+    "id": "M23",
+    "q": "The point (5, 2) is rotated 90° clockwise about (0, 0). Where does it go?",
+    "options": [
+     "(−2, 5)",
+     "(−5, −2)",
+     "(5, −2)",
+     "(2, −5)"
+    ],
+    "answer": 3,
+    "explain": "90° clockwise about the origin: (x, y) → (y, −x), so (5, 2) → (2, −5). (−2, 5) is the anticlockwise rotation."
+   },
+   {
+    "id": "M24",
+    "q": "The point (3, −4) is rotated 180° about (0, 0). Where does it go?",
+    "options": [
+     "(−3, 4)",
+     "(4, −3)",
+     "(3, 4)",
+     "(−3, −4)"
+    ],
+    "answer": 0,
+    "explain": "180° about the origin changes both signs: (x, y) → (−x, −y), so (−3, 4). (3, 4) is only a reflection in the x-axis."
+   },
+   {
+    "id": "M25",
+    "q": "The point (4, 1) is rotated 90° anticlockwise about (0, 0). Where does it go?",
+    "options": [
+     "(1, −4)",
+     "(−1, 4)",
+     "(−4, 1)",
+     "(4, −1)"
+    ],
+    "answer": 1,
+    "explain": "90° anticlockwise: (x, y) → (−y, x), so (4, 1) → (−1, 4). (1, −4) is the clockwise rotation."
+   },
+   {
+    "id": "M26",
+    "q": "The point (3, 5) is enlarged with scale factor 2, centre (1, 1). Where does it go?",
+    "options": [
+     "(6, 10)",
+     "(4, 6)",
+     "(5, 9)",
+     "(7, 11)"
+    ],
+    "answer": 2,
+    "explain": "From the centre to the point: (2, 4). Double it: (4, 8). Add to the centre: (1 + 4, 1 + 8) = (5, 9). (6, 10) uses the origin as the centre."
+   },
+   {
+    "id": "M27",
+    "q": "The point (9, 5) is enlarged with scale factor 1/3, centre (0, 2). Where does it go?",
+    "options": [
+     "(3, 5/3)",
+     "(3, 3)",
+     "(27, 11)",
+     "(9, 3)"
+    ],
+    "answer": 1,
+    "explain": "From the centre: (9, 3). × 1/3: (3, 1). Add to the centre: (0 + 3, 2 + 1) = (3, 3). (3, 5/3) ignores the centre; (27, 11) uses scale factor 3."
+   },
+   {
+    "id": "M28",
+    "q": "Which of these is a full description of a single transformation?",
+    "options": [
+     "Rotation 90° about (0, 0)",
+     "Rotation 90° clockwise",
+     "Enlargement, scale factor 2",
+     "Reflection in the line y = −x"
+    ],
+    "answer": 3,
+    "explain": "A reflection only needs its mirror line. The first rotation has no direction, the second has no centre, and the enlargement has no centre."
+   },
+   {
+    "id": "M29",
+    "q": "Which line has the equation x = 0?",
+    "options": [
+     "The x-axis",
+     "The line y = x",
+     "The y-axis",
+     "A horizontal line through the origin"
+    ],
+    "answer": 2,
+    "explain": "Every point on the y-axis has x-coordinate 0, so it is x = 0. The x-axis is y = 0."
+   },
+   {
+    "id": "M30",
+    "q": "Which transformation does NOT always produce an image congruent to the object?",
+    "options": [
+     "Enlargement",
+     "Translation",
+     "Rotation",
+     "Reflection"
+    ],
+    "answer": 0,
+    "explain": "Enlargement changes lengths (unless the scale factor is 1), so the image is similar, not congruent. The other three keep lengths and angles."
+   },
+   {
+    "id": "M31",
+    "q": "A triangle is enlarged with scale factor 3. One angle of the triangle is 50°. What is the corresponding angle in the image?",
+    "options": [
+     "50°",
+     "150°",
+     "16.7°",
+     "53°"
+    ],
+    "answer": 0,
+    "explain": "Enlargements preserve angles; only lengths are multiplied by the scale factor."
+   },
+   {
+    "id": "M32",
+    "q": "Which describes the same rotation as 90° anticlockwise about a point?",
+    "options": [
+     "−90°",
+     "90° clockwise",
+     "270° clockwise",
+     "180°"
+    ],
+    "answer": 2,
+    "explain": "Turning 270° clockwise ends in the same place as 90° anticlockwise. Anticlockwise is positive, so it is +90°, not −90°. The SAM scheme accepted +90° and 270° clockwise."
+   },
+   {
+    "id": "M33",
+    "q": "Shape P is mapped onto shape Q by an enlargement with scale factor 4, centre C. Which transformation maps Q onto P?",
+    "options": [
+     "Enlargement, scale factor −4, centre C",
+     "Enlargement, scale factor 1/4, centre C",
+     "Enlargement, scale factor 4, centre C",
+     "Enlargement, scale factor 1/4, centre (0, 0)"
+    ],
+    "answer": 1,
+    "explain": "Undo × 4 with × 1/4, about the same centre. Scale factor −4 would turn the shape upside down through C; 4 would make it bigger still."
+   },
+   {
+    "id": "M34",
+    "q": "A shape is reflected in the x-axis, then the image is reflected in the y-axis. Which single transformation has the same effect?",
+    "options": [
+     "Reflection in the line y = x",
+     "Rotation 90° clockwise about (0, 0)",
+     "Rotation 180° about (0, 0)",
+     "A translation"
+    ],
+    "answer": 2,
+    "explain": "(x, y) → (x, −y) → (−x, −y), which is the rule for a rotation of 180° about the origin."
+   },
+   {
+    "id": "M35",
+    "q": "A shape is translated by the column vector (−3, 5) and then by (7, −2). Which single translation has the same effect?",
+    "options": [
+     "(10, 7)",
+     "(4, 3)",
+     "(−10, 7)",
+     "(4, −3)"
+    ],
+    "answer": 1,
+    "explain": "Add the vectors: (−3 + 7, 5 + (−2)) = (4, 3). (10, 7) subtracts the first from the second and adds the bottoms wrongly."
+   },
+   {
+    "id": "M36",
+    "q": "A reflection maps the point (2, 5) onto the point (2, −1). What is the mirror line?",
+    "options": [
+     "x = 2",
+     "y = 3",
+     "y = −2",
+     "y = 2"
+    ],
+    "answer": 3,
+    "explain": "The mirror line is halfway between the point and its image: y = (5 + (−1)) ÷ 2 = 2. x = 2 is the vertical line through both points, not the mirror."
+   },
+   {
+    "id": "M37",
+    "q": "Triangle A has vertices (1, 1), (3, 1), (1, 4). Triangle B has vertices (−1, −1), (−3, −1), (−1, −4). Which single transformation maps A onto B?",
+    "options": [
+     "Reflection in the x-axis",
+     "Rotation 180° about (0, 0)",
+     "Reflection in the y-axis",
+     "Translation by (−2, −2)"
+    ],
+    "answer": 1,
+    "explain": "Every (x, y) has become (−x, −y): rotation 180° about the origin. A reflection in the x-axis would only change the y-coordinates."
+   },
+   {
+    "id": "M38",
+    "q": "The point (2, 3) is enlarged with scale factor 1/2, centre (4, −1). Where does it go?",
+    "options": [
+     "(3, 1)",
+     "(1, 1.5)",
+     "(5, 0.5)",
+     "(0, 7)"
+    ],
+    "answer": 0,
+    "explain": "From the centre: (2 − 4, 3 − (−1)) = (−2, 4). Halve it: (−1, 2). Add to the centre: (3, 1). (1, 1.5) ignores the centre; (0, 7) uses scale factor 2."
+   },
+   {
+    "id": "M39",
+    "q": "To prove ABE is a straight line you have shown vector AE = 16 × vector AB. What else must you state for the final mark?",
+    "options": [
+     "That AE and AB have the same length",
+     "That AE and AB share the point A",
+     "The magnitude of AE",
+     "That AE is perpendicular to AB"
+    ],
+    "answer": 1,
+    "explain": "A multiple shows the lines are parallel; parallel lines through a common point are the same line. Without the shared point they could be two separate parallel lines."
+   },
+   {
+    "id": "M40",
+    "q": "What must a full description of a rotation include?",
+    "options": [
+     "The centre only",
+     "The angle and direction only",
+     "The angle only",
+     "The centre, the angle and the direction"
+    ],
+    "answer": 3,
+    "explain": "Rotation: centre, angle and direction (clockwise or anticlockwise), each worth a mark. For 180° the direction does not matter."
+   }
+  ],
+  "13-statistics": [
+   {
+    "id": "M1",
+    "q": "Work out the mean of 4, 7, 9, 12, 8.",
+    "options": [
+     "9",
+     "40",
+     "7.5",
+     "8"
+    ],
+    "answer": 3,
+    "explain": "Total 40, and there are 5 numbers: 40 ÷ 5 = 8. 9 is the median; 40 is the total."
+   },
+   {
+    "id": "M2",
+    "q": "Find the median of 3, 9, 4, 12, 7, 5.",
+    "options": [
+     "4",
+     "6",
+     "7",
+     "5.5"
+    ],
+    "answer": 1,
+    "explain": "In order: 3, 4, 5, 7, 9, 12. The two middle values are 5 and 7, so the median is 6. 4 is the middle of the unordered list."
+   },
+   {
+    "id": "M3",
+    "q": "Work out the range of 15, 8, 23, 11, 19.",
+    "options": [
+     "8 to 23",
+     "15",
+     "23",
+     "11"
+    ],
+    "answer": 1,
+    "explain": "Range = largest − smallest = 23 − 8 = 15. It is a single number, not \"8 to 23\"."
+   },
+   {
+    "id": "M4",
+    "q": "20 students have a mean score of 60. 30 other students have a mean score of 70. What is the mean score of all 50 students?",
+    "options": [
+     "66",
+     "65",
+     "130",
+     "64"
+    ],
+    "answer": 0,
+    "explain": "Totals: 20 × 60 = 1200 and 30 × 70 = 2100. (1200 + 2100) ÷ 50 = 66. 65 averages the means, ignoring that the groups are different sizes."
+   },
+   {
+    "id": "M5",
+    "q": "Five numbers have a mean of 12. Four of them add up to 45. What is the fifth number?",
+    "options": [
+     "12",
+     "60",
+     "3",
+     "15"
+    ],
+    "answer": 3,
+    "explain": "Total = 5 × 12 = 60, so the fifth number is 60 − 45 = 15."
+   },
+   {
+    "id": "M6",
+    "q": "Values 1, 2, 3 have frequencies 4, 10, 6. Work out the mean.",
+    "options": [
+     "2.1",
+     "14",
+     "2",
+     "7"
+    ],
+    "answer": 0,
+    "explain": "Σxf = 4 + 20 + 18 = 42 and Σf = 20, so the mean is 42 ÷ 20 = 2.1. 14 divides by 3, the number of rows."
+   },
+   {
+    "id": "M7",
+    "q": "Values 1, 2, 3 have frequencies 4, 10, 6. What is the mode?",
+    "options": [
+     "10",
+     "3",
+     "6",
+     "2"
+    ],
+    "answer": 3,
+    "explain": "The mode is the value with the highest frequency: 2 (frequency 10). 10 is the frequency, not the value."
+   },
+   {
+    "id": "M8",
+    "q": "What is the midpoint of the class 10 < t ≤ 20?",
+    "options": [
+     "10",
+     "15",
+     "20",
+     "30"
+    ],
+    "answer": 1,
+    "explain": "(10 + 20) ÷ 2 = 15. Use the midpoint as the representative value when estimating a mean."
+   },
+   {
+    "id": "M9",
+    "q": "Why is a mean calculated from a grouped frequency table only an estimate?",
+    "options": [
+     "The exact values within each class are not known",
+     "The frequencies have been rounded",
+     "Midpoints are always too big",
+     "There are too many classes"
+    ],
+    "answer": 0,
+    "explain": "The midpoint stands in for every value in the class. The true values could sit anywhere in the class."
+   },
+   {
+    "id": "M10",
+    "q": "0 < x ≤ 10: frequency 3; 10 < x ≤ 20: frequency 5; 20 < x ≤ 30: frequency 2. Work out an estimate for the mean.",
+    "options": [
+     "14",
+     "15",
+     "46.7",
+     "10"
+    ],
+    "answer": 0,
+    "explain": "Midpoints 5, 15, 25: 15 + 75 + 50 = 140, and 140 ÷ 10 = 14. 46.7 divides by 3, the number of classes."
+   },
+   {
+    "id": "M11",
+    "q": "0 < x ≤ 5: frequency 4; 5 < x ≤ 10: frequency 9; 10 < x ≤ 20: frequency 7. What is the modal class?",
+    "options": [
+     "5 < x ≤ 10",
+     "9",
+     "7.5",
+     "10 < x ≤ 20"
+    ],
+    "answer": 0,
+    "explain": "The modal class is the class with the highest frequency, written as the class. 9 is its frequency; 7.5 is its midpoint."
+   },
+   {
+    "id": "M12",
+    "q": "15 values are in order. Which value is the lower quartile?",
+    "options": [
+     "The 4th",
+     "The 3.75th",
+     "The 8th",
+     "The 12th"
+    ],
+    "answer": 0,
+    "explain": "LQ position = (n + 1) ÷ 4 = 16 ÷ 4 = 4th. The 8th is the median and the 12th the upper quartile."
+   },
+   {
+    "id": "M13",
+    "q": "Find the interquartile range of 2, 4, 5, 7, 8, 10, 11, 13, 15, 16, 20.",
+    "options": [
+     "18",
+     "8",
+     "10",
+     "15"
+    ],
+    "answer": 2,
+    "explain": "11 values: LQ is the 3rd value, 5; UQ is the 9th value, 15. IQR = 15 − 5 = 10. 18 is the range."
+   },
+   {
+    "id": "M14",
+    "q": "Where are the points of a cumulative frequency graph plotted?",
+    "options": [
+     "At the class midpoints",
+     "At the upper class boundaries",
+     "At the lower class boundaries",
+     "At the class widths"
+    ],
+    "answer": 1,
+    "explain": "Each running total counts everything up to the end of its class, so it is plotted at the upper boundary."
+   },
+   {
+    "id": "M15",
+    "q": "Frequencies are 5, 8, 12, 5. What is the third cumulative frequency?",
+    "options": [
+     "12",
+     "20",
+     "25",
+     "30"
+    ],
+    "answer": 2,
+    "explain": "Running totals: 5, 13, 25, 30. The third is 25. 30 is the last one, the total."
+   },
+   {
+    "id": "M16",
+    "q": "A cumulative frequency graph shows 120 people. Where do you read across to estimate the median?",
+    "options": [
+     "30",
+     "90",
+     "120",
+     "60"
+    ],
+    "answer": 3,
+    "explain": "Median at n ÷ 2 = 60. 30 and 90 give the quartiles."
+   },
+   {
+    "id": "M17",
+    "q": "A cumulative frequency graph shows 80 values. At which cumulative frequencies do you read the lower and upper quartiles?",
+    "options": [
+     "40 and 80",
+     "20 and 60",
+     "25 and 75",
+     "10 and 30"
+    ],
+    "answer": 1,
+    "explain": "n ÷ 4 = 20 and 3n ÷ 4 = 60. The 2018 1H scheme used readings at cf 20 and cf 60."
+   },
+   {
+    "id": "M18",
+    "q": "On a cumulative frequency graph, cf 20 is at 38 minutes and cf 60 is at 52 minutes. What is the interquartile range?",
+    "options": [
+     "14 minutes",
+     "90 minutes",
+     "40 minutes",
+     "45 minutes"
+    ],
+    "answer": 0,
+    "explain": "IQR = UQ − LQ = 52 − 38 = 14 minutes. 40 is 60 − 20, the difference in cumulative frequencies, not in the values."
+   },
+   {
+    "id": "M19",
+    "q": "A cumulative frequency graph for 100 people shows 72 at 30 minutes. How many took more than 30 minutes?",
+    "options": [
+     "72",
+     "30",
+     "70",
+     "28"
+    ],
+    "answer": 3,
+    "explain": "72 took 30 minutes or less, so 100 − 72 = 28 took more. Giving the reading, 72, is the classic error."
+   },
+   {
+    "id": "M20",
+    "q": "How is frequency density calculated?",
+    "options": [
+     "Frequency × class width",
+     "Class width ÷ frequency",
+     "Frequency ÷ class width",
+     "Frequency ÷ total frequency"
+    ],
+    "answer": 2,
+    "explain": "Frequency density = frequency ÷ class width, so frequency = frequency density × width = area of the bar."
+   },
+   {
+    "id": "M21",
+    "q": "The class 20 < x ≤ 30 has frequency 45. What is its frequency density?",
+    "options": [
+     "450",
+     "4.5",
+     "0.22",
+     "45"
+    ],
+    "answer": 1,
+    "explain": "Width 10, so 45 ÷ 10 = 4.5. 450 multiplies; 0.22 divides the width by the frequency."
+   },
+   {
+    "id": "M22",
+    "q": "A histogram bar has width 15 and frequency density 2.4. What is its frequency?",
+    "options": [
+     "6.25",
+     "36",
+     "17.4",
+     "2.4"
+    ],
+    "answer": 1,
+    "explain": "Frequency = frequency density × width = 2.4 × 15 = 36."
+   },
+   {
+    "id": "M23",
+    "q": "In a histogram with unequal class widths, what shows the frequency?",
+    "options": [
+     "The height of the bar",
+     "The area of the bar",
+     "The width of the bar",
+     "The frequency density"
+    ],
+    "answer": 1,
+    "explain": "Area represents frequency. The height is the frequency density."
+   },
+   {
+    "id": "M24",
+    "q": "Class 0 < t ≤ 20 has frequency 30 and class 20 < t ≤ 25 has frequency 15. On a histogram, which bar is taller?",
+    "options": [
+     "The first bar, twice as tall",
+     "They are the same height",
+     "The second bar, twice as tall",
+     "The first bar, four times as tall"
+    ],
+    "answer": 2,
+    "explain": "Frequency densities: 30 ÷ 20 = 1.5 and 15 ÷ 5 = 3. The second bar is twice as tall even though its frequency is smaller."
+   },
+   {
+    "id": "M25",
+    "q": "A histogram bar for 10 < x ≤ 30 has frequency density 1.8. Estimate how many values are between 20 and 25.",
+    "options": [
+     "36",
+     "9",
+     "18",
+     "45"
+    ],
+    "answer": 1,
+    "explain": "Width of the part needed = 5, so 1.8 × 5 = 9. 36 is the whole bar (1.8 × 20)."
+   },
+   {
+    "id": "M26",
+    "q": "A histogram has no scale. A bar with an area of 20 small squares represents 8 people. How many people does a bar with an area of 45 small squares represent?",
+    "options": [
+     "45",
+     "112.5",
+     "20",
+     "18"
+    ],
+    "answer": 3,
+    "explain": "1 small square = 8 ÷ 20 = 0.4 people, so 45 × 0.4 = 18. 112.5 divides the wrong way (45 × 20 ÷ 8)."
+   },
+   {
+    "id": "M27",
+    "q": "A data set has one very large extreme value. Which average is least affected by it?",
+    "options": [
+     "The mean",
+     "The range",
+     "The median",
+     "The total"
+    ],
+    "answer": 2,
+    "explain": "The median depends only on the middle position, so one extreme value barely changes it. The mean includes every value. The range is not an average."
+   },
+   {
+    "id": "M28",
+    "q": "Why is the interquartile range often better than the range for measuring spread?",
+    "options": [
+     "It uses all the data",
+     "It is always bigger",
+     "It is not affected by extreme values",
+     "It is easier to calculate"
+    ],
+    "answer": 2,
+    "explain": "The IQR covers the middle 50% of the data, so outliers at either end do not change it."
+   },
+   {
+    "id": "M29",
+    "q": "Group A: median 40, IQR 6. Group B: median 35, IQR 12. Which statement is correct?",
+    "options": [
+     "A scored higher on average, and A's scores were more consistent",
+     "B scored higher on average",
+     "B's scores were more consistent",
+     "A and B were equally consistent"
+    ],
+    "answer": 0,
+    "explain": "A has the higher median (higher on average) and the lower IQR (more consistent). A full comparison gives both, with the measures named."
+   },
+   {
+    "id": "M30",
+    "q": "A pie chart shows 90 people. One sector has an angle of 60°. How many people does it represent?",
+    "options": [
+     "60",
+     "20",
+     "15",
+     "540"
+    ],
+    "answer": 2,
+    "explain": "60 ÷ 360 × 90 = 15. 540 is 60 × 9, a multiplication the wrong way round."
+   },
+   {
+    "id": "M31",
+    "q": "45 out of 180 students chose tennis. What angle does tennis get in a pie chart?",
+    "options": [
+     "90°",
+     "45°",
+     "25°",
+     "180°"
+    ],
+    "answer": 0,
+    "explain": "45 ÷ 180 × 360 = 90°, a quarter of the circle."
+   },
+   {
+    "id": "M32",
+    "q": "a, b, c, d are four integers in order of size. Their mean is 10 and a + b + c = 24. Find d.",
+    "options": [
+     "14",
+     "6",
+     "34",
+     "16"
+    ],
+    "answer": 3,
+    "explain": "Total = 4 × 10 = 40, so d = 40 − 24 = 16."
+   },
+   {
+    "id": "M33",
+    "q": "Values 0, 1, 2, 3 have frequencies 6, 9, 3, 2. Find the median.",
+    "options": [
+     "9",
+     "2",
+     "1",
+     "1.5"
+    ],
+    "answer": 2,
+    "explain": "n = 20, so the median is between the 10th and 11th values. Running totals 6, 15: both are in the \"1\" row, so the median is 1. 9 is a frequency."
+   },
+   {
+    "id": "M34",
+    "q": "When estimating the mean from a grouped table, what do you multiply each frequency by?",
+    "options": [
+     "The class width",
+     "The upper bound",
+     "The midpoint of the class",
+     "The frequency density"
+    ],
+    "answer": 2,
+    "explain": "Frequency × midpoint, then divide the total by the total frequency. The SAM scheme gave only M1 (not M2) for a consistent value that is not the midpoint."
+   },
+   {
+    "id": "M35",
+    "q": "What are the midpoint and the width of the class 40 < w ≤ 60?",
+    "options": [
+     "50 and 10",
+     "60 and 20",
+     "50 and 20",
+     "40 and 20"
+    ],
+    "answer": 2,
+    "explain": "Midpoint (40 + 60) ÷ 2 = 50; width 60 − 40 = 20."
+   },
+   {
+    "id": "M36",
+    "q": "A group of 10 has a mean of 8 and a group of 15 has a mean of 13. What is the mean of all 25?",
+    "options": [
+     "11",
+     "10.5",
+     "21",
+     "12"
+    ],
+    "answer": 0,
+    "explain": "Totals 80 and 195, so 275 ÷ 25 = 11. 10.5 averages the two means."
+   },
+   {
+    "id": "M37",
+    "q": "A cumulative frequency table shows 0 < x ≤ 10: 7 and 0 < x ≤ 20: 19. How many values are in 10 < x ≤ 20?",
+    "options": [
+     "19",
+     "26",
+     "7",
+     "12"
+    ],
+    "answer": 3,
+    "explain": "Subtract the running totals: 19 − 7 = 12."
+   },
+   {
+    "id": "M38",
+    "q": "The last value in a cumulative frequency table is always equal to what?",
+    "options": [
+     "The largest class",
+     "The median",
+     "The modal frequency",
+     "The total frequency"
+    ],
+    "answer": 3,
+    "explain": "The running total ends at the sum of all the frequencies. It is a useful check."
+   },
+   {
+    "id": "M39",
+    "q": "5 is added to every value in a data set. What happens to the mean and the interquartile range?",
+    "options": [
+     "Both increase by 5",
+     "Mean unchanged, IQR increases by 5",
+     "Both are unchanged",
+     "Mean increases by 5, IQR unchanged"
+    ],
+    "answer": 3,
+    "explain": "Every value, including both quartiles, moves up by 5, so the mean rises by 5 but UQ − LQ stays the same."
+   },
+   {
+    "id": "M40",
+    "q": "Σ(midpoint × frequency) = 1380 and the total frequency is 50, from 5 classes. What is the estimate of the mean?",
+    "options": [
+     "276",
+     "27.6",
+     "1380",
+     "25"
+    ],
+    "answer": 1,
+    "explain": "1380 ÷ 50 = 27.6. 276 comes from dividing by 5, the number of classes."
+   }
+  ],
+  "14-probability-and-sets": [
+   {
+    "id": "M1",
+    "q": "A = {1, 2, 3, 4} and B = {3, 4, 5}. What is A ∩ B?",
+    "options": [
+     "{1, 2, 3, 4, 5}",
+     "{3, 4}",
+     "{1, 2}",
+     "{5}"
+    ],
+    "answer": 1,
+    "explain": "∩ means in both: {3, 4}. {1, 2, 3, 4, 5} is the union."
+   },
+   {
+    "id": "M2",
+    "q": "A = {1, 2, 3, 4} and B = {3, 4, 5}. What is A ∪ B?",
+    "options": [
+     "{3, 4}",
+     "{1, 2, 3, 3, 4, 4, 5}",
+     "{1, 2, 3, 4, 5}",
+     "{1, 2, 5}"
+    ],
+    "answer": 2,
+    "explain": "∪ means in A or B or both, each element listed once: {1, 2, 3, 4, 5}."
+   },
+   {
+    "id": "M3",
+    "q": "ℰ = {1, 2, 3, 4, 5, 6, 7, 8} and A = {2, 4, 6, 8}. What is A′?",
+    "options": [
+     "{1, 3, 5, 7}",
+     "{2, 4, 6, 8}",
+     "Ø",
+     "{1, 2, 3, 4, 5, 6, 7, 8}"
+    ],
+    "answer": 0,
+    "explain": "A′ is everything in ℰ that is not in A: {1, 3, 5, 7}."
+   },
+   {
+    "id": "M4",
+    "q": "A = {a, e, i, o, u}. What is n(A)?",
+    "options": [
+     "{5}",
+     "{a, e, i, o, u}",
+     "5",
+     "26"
+    ],
+    "answer": 2,
+    "explain": "n(A) is the number of elements in A, which is a number: 5, not a set."
+   },
+   {
+    "id": "M5",
+    "q": "What does the symbol Ø mean?",
+    "options": [
+     "The empty set",
+     "The universal set",
+     "The number zero",
+     "The complement of a set"
+    ],
+    "answer": 0,
+    "explain": "Ø is the empty set: a set with no elements. The universal set is ℰ."
+   },
+   {
+    "id": "M6",
+    "q": "n(A) = 20, n(B) = 15 and n(A ∪ B) = 28. Find n(A ∩ B).",
+    "options": [
+     "35",
+     "13",
+     "7",
+     "8"
+    ],
+    "answer": 2,
+    "explain": "n(A ∩ B) = n(A) + n(B) − n(A ∪ B) = 20 + 15 − 28 = 7."
+   },
+   {
+    "id": "M7",
+    "q": "30 people were asked. 18 like X, 14 like Y and 5 like both. How many like neither?",
+    "options": [
+     "8",
+     "−2",
+     "5",
+     "3"
+    ],
+    "answer": 3,
+    "explain": "Like at least one: 18 + 14 − 5 = 27, so neither = 30 − 27 = 3. −2 forgets that the 5 are counted twice."
+   },
+   {
+    "id": "M8",
+    "q": "30 people were asked. 18 like X, 14 like Y and 5 like both. How many are in the region \"X only\"?",
+    "options": [
+     "18",
+     "13",
+     "5",
+     "23"
+    ],
+    "answer": 1,
+    "explain": "X only = 18 − 5 = 13. Writing 18 in the X-only region counts the 5 twice."
+   },
+   {
+    "id": "M9",
+    "q": "In a three-set Venn diagram, 4 are in all of A, B and C, and 10 are in A and B. How many go in the region for A and B but not C?",
+    "options": [
+     "10",
+     "14",
+     "4",
+     "6"
+    ],
+    "answer": 3,
+    "explain": "\"In A and B\" includes the centre, so the A∩B-only region is 10 − 4 = 6. Always fill the centre first."
+   },
+   {
+    "id": "M10",
+    "q": "P(A) = 0.35. What is P(A′)?",
+    "options": [
+     "0.35",
+     "−0.35",
+     "0.65",
+     "1.35"
+    ],
+    "answer": 2,
+    "explain": "P(not A) = 1 − 0.35 = 0.65. A probability can never be negative or more than 1."
+   },
+   {
+    "id": "M11",
+    "q": "The probabilities of the four outcomes of a spinner are 0.1, 0.25, x and 0.3. Find x.",
+    "options": [
+     "0.35",
+     "0.65",
+     "0.3",
+     "0.45"
+    ],
+    "answer": 0,
+    "explain": "The probabilities add up to 1: x = 1 − (0.1 + 0.25 + 0.3) = 0.35. 0.65 is the sum of the others."
+   },
+   {
+    "id": "M12",
+    "q": "P(win) = 0.15. The game is played 400 times. What is the expected number of wins?",
+    "options": [
+     "0.15",
+     "400",
+     "6",
+     "60"
+    ],
+    "answer": 3,
+    "explain": "Expected frequency = probability × number of trials = 0.15 × 400 = 60."
+   },
+   {
+    "id": "M13",
+    "q": "A coin lands heads 36 times in 120 throws. What is the relative frequency of heads?",
+    "options": [
+     "36",
+     "0.36",
+     "3.33",
+     "0.3"
+    ],
+    "answer": 3,
+    "explain": "Relative frequency = 36 ÷ 120 = 0.3. 3.33 is 120 ÷ 36, the wrong way up."
+   },
+   {
+    "id": "M14",
+    "q": "Two fair six-sided dice are rolled. What is the probability that the total is 10?",
+    "options": [
+     "1/12",
+     "1/6",
+     "3/12",
+     "1/11"
+    ],
+    "answer": 0,
+    "explain": "(4, 6), (5, 5), (6, 4) are 3 of the 36 equally likely outcomes: 3/36 = 1/12. 1/11 wrongly treats the 11 possible totals as equally likely."
+   },
+   {
+    "id": "M15",
+    "q": "Two fair coins are thrown. What is the probability of one head and one tail?",
+    "options": [
+     "1/4",
+     "1/3",
+     "3/4",
+     "1/2"
+    ],
+    "answer": 3,
+    "explain": "Outcomes HH, HT, TH, TT: HT and TH are two of the four, so 2/4 = 1/2. 1/3 forgets that HT and TH are different outcomes."
+   },
+   {
+    "id": "M16",
+    "q": "A and B are mutually exclusive. P(A) = 0.3 and P(B) = 0.45. Find P(A or B).",
+    "options": [
+     "0.135",
+     "0.75",
+     "0.15",
+     "0.25"
+    ],
+    "answer": 1,
+    "explain": "Mutually exclusive, so add: 0.3 + 0.45 = 0.75. 0.135 multiplies, which is for \"and\" with independent events."
+   },
+   {
+    "id": "M17",
+    "q": "A and B are independent. P(A) = 0.4 and P(B) = 0.5. Find P(A and B).",
+    "options": [
+     "0.9",
+     "0.2",
+     "0.1",
+     "0.45"
+    ],
+    "answer": 1,
+    "explain": "Independent, so multiply: 0.4 × 0.5 = 0.2. Adding gives 0.9, which would be \"or\" for mutually exclusive events."
+   },
+   {
+    "id": "M18",
+    "q": "A bag has 3 red and 7 blue counters. A counter is taken, replaced, and a second is taken. What is P(both red)?",
+    "options": [
+     "6/90",
+     "3/10",
+     "9/100",
+     "6/100"
+    ],
+    "answer": 2,
+    "explain": "With replacement the probability stays 3/10: 3/10 × 3/10 = 9/100. 6/90 is the without-replacement answer."
+   },
+   {
+    "id": "M19",
+    "q": "A bag has 3 red and 7 blue counters. Two are taken without replacement. What is P(both red)?",
+    "options": [
+     "9/100",
+     "3/10 × 3/9",
+     "2/9",
+     "1/15"
+    ],
+    "answer": 3,
+    "explain": "3/10 × 2/9 = 6/90 = 1/15. After one red is taken there are 2 reds out of 9 left."
+   },
+   {
+    "id": "M20",
+    "q": "A bag has 5 red and 4 blue sweets. A red sweet is taken and eaten. What is the probability that the next sweet is red?",
+    "options": [
+     "4/8",
+     "5/9",
+     "4/9",
+     "5/8"
+    ],
+    "answer": 0,
+    "explain": "8 sweets are left, 4 of them red: 4/8. Both the numerator and the denominator drop by 1."
+   },
+   {
+    "id": "M21",
+    "q": "A fair dice is rolled twice. What is the probability of at least one six?",
+    "options": [
+     "11/36",
+     "1/3",
+     "1/36",
+     "10/36"
+    ],
+    "answer": 0,
+    "explain": "1 − P(no sixes) = 1 − (5/6)² = 1 − 25/36 = 11/36. 1/3 adds 1/6 + 1/6, double-counting (6, 6); 10/36 is exactly one six."
+   },
+   {
+    "id": "M22",
+    "q": "P(rain) = 0.2 each day, independently. What is the probability of no rain on any of 3 days?",
+    "options": [
+     "0.008",
+     "0.4",
+     "0.512",
+     "0.6"
+    ],
+    "answer": 2,
+    "explain": "0.8 × 0.8 × 0.8 = 0.512. 0.008 is three days of rain; 0.4 is 1 − 3 × 0.2."
+   },
+   {
+    "id": "M23",
+    "q": "P(spinner A odd) = 3/4 and P(spinner B odd) = 2/5. What is P(one odd and one even)?",
+    "options": [
+     "9/20",
+     "3/10",
+     "11/20",
+     "1/2"
+    ],
+    "answer": 2,
+    "explain": "(A odd, B even) + (A even, B odd) = 3/4 × 3/5 + 1/4 × 2/5 = 9/20 + 2/20 = 11/20. 9/20 misses the second way."
+   },
+   {
+    "id": "M24",
+    "q": "100 students: 46 study Drama, and 23 of those also study Art. A Drama student is chosen at random. What is P(also studies Art)?",
+    "options": [
+     "23/100",
+     "46/100",
+     "23/54",
+     "23/46"
+    ],
+    "answer": 3,
+    "explain": "Given Drama, only the 46 Drama students count: 23/46. 23/100 uses the whole year as the denominator."
+   },
+   {
+    "id": "M25",
+    "q": "40 students walk to school, and 14 of them are boys. A student who walks is chosen at random. What is P(boy)?",
+    "options": [
+     "14/40",
+     "14/80",
+     "14/36",
+     "40/80"
+    ],
+    "answer": 0,
+    "explain": "\"A student who walks\" makes the walkers the whole sample space: 14/40."
+   },
+   {
+    "id": "M26",
+    "q": "On a tree diagram, the probabilities on the branches from one point always…",
+    "options": [
+     "multiply to 1",
+     "are all equal",
+     "add up to 1",
+     "add up to 2"
+    ],
+    "answer": 2,
+    "explain": "The branches from one point cover every possible outcome at that stage, so they add up to 1."
+   },
+   {
+    "id": "M27",
+    "q": "How do you find P(red then blue) from a tree diagram?",
+    "options": [
+     "Multiply along the branches",
+     "Add along the branches",
+     "Add all the end probabilities",
+     "Subtract from 1"
+    ],
+    "answer": 0,
+    "explain": "Multiply along a path for \"then\"/\"and\". Add different paths for \"or\"."
+   },
+   {
+    "id": "M28",
+    "q": "P(pass first test) = 0.6. If he fails, P(pass second test) = 0.7. What is P(fails the first, then passes the second)?",
+    "options": [
+     "0.42",
+     "0.7",
+     "0.28",
+     "0.1"
+    ],
+    "answer": 2,
+    "explain": "0.4 × 0.7 = 0.28. 0.42 uses 0.6, the pass probability, instead of 0.4 for the fail."
+   },
+   {
+    "id": "M29",
+    "q": "Which pair of events is mutually exclusive?",
+    "options": [
+     "Rolling an even number and rolling a 2, on one throw of a dice",
+     "Rolling a 2 and rolling a 5, on one throw of a dice",
+     "A head on one coin and a head on another coin",
+     "Rain and cold on the same day"
+    ],
+    "answer": 1,
+    "explain": "One throw cannot show 2 and 5 at once. A 2 is even, so the first pair can happen together; two coins are independent, not exclusive."
+   },
+   {
+    "id": "M30",
+    "q": "n(ℰ) = 40, n(A) = 15, n(B) = 20 and n(A ∩ B) = 5. Find n((A ∪ B)′).",
+    "options": [
+     "0",
+     "5",
+     "20",
+     "10"
+    ],
+    "answer": 3,
+    "explain": "n(A ∪ B) = 15 + 20 − 5 = 30, so outside both = 40 − 30 = 10."
+   },
+   {
+    "id": "M31",
+    "q": "Which region does (A ∪ B)′ describe on a two-set Venn diagram?",
+    "options": [
+     "Inside both circles",
+     "Outside both circles",
+     "Inside A only",
+     "Inside B only"
+    ],
+    "answer": 1,
+    "explain": "A ∪ B is everything inside the circles; its complement is everything outside both."
+   },
+   {
+    "id": "M32",
+    "q": "What does A ∩ B′ mean?",
+    "options": [
+     "In B but not in A",
+     "In A but not in B",
+     "In both A and B",
+     "In neither A nor B"
+    ],
+    "answer": 1,
+    "explain": "In A and in not-B: the part of A outside B."
+   },
+   {
+    "id": "M33",
+    "q": "The answer to a probability question is 10/12. A student writes \"10 : 12\". According to the 2018 mark scheme, what does it score?",
+    "options": [
+     "Full marks",
+     "M1 only: a probability must be a fraction, decimal or percentage",
+     "No marks at all",
+     "A1 only"
+    ],
+    "answer": 1,
+    "explain": "The scheme allows M1 for \"10 and 12 used with incorrect notation E.g. 10 : 12\", but not the accuracy mark."
+   },
+   {
+    "id": "M34",
+    "q": "Counters are numbered 1 to 9. Two are taken without replacement. What is P(both even)?",
+    "options": [
+     "1/6",
+     "16/81",
+     "4/9",
+     "12/81"
+    ],
+    "answer": 0,
+    "explain": "4 even numbers: 4/9 × 3/8 = 12/72 = 1/6. 16/81 is the with-replacement answer."
+   },
+   {
+    "id": "M35",
+    "q": "A Venn diagram has 7 in A only, 5 in A ∩ B, 9 in B only and 4 outside. An element is chosen at random. What is P(in A)?",
+    "options": [
+     "7/25",
+     "5/25",
+     "12/21",
+     "12/25"
+    ],
+    "answer": 3,
+    "explain": "n(A) = 7 + 5 = 12 out of 7 + 5 + 9 + 4 = 25. 7/25 counts only the A-only region."
+   },
+   {
+    "id": "M36",
+    "q": "A Venn diagram has 7 in A only, 5 in A ∩ B, 9 in B only and 4 outside. An element of A is chosen at random. What is P(it is also in B)?",
+    "options": [
+     "5/12",
+     "5/25",
+     "5/14",
+     "9/12"
+    ],
+    "answer": 0,
+    "explain": "Given A, the denominator is n(A) = 12, and 5 of those are in B: 5/12. 5/14 is P(A given B)."
+   },
+   {
+    "id": "M37",
+    "q": "What does A ⊂ B mean?",
+    "options": [
+     "A and B have no elements in common",
+     "A has more elements than B",
+     "A is the complement of B",
+     "Every element of A is also in B"
+    ],
+    "answer": 3,
+    "explain": "⊂ means \"is a subset of\": A sits entirely inside B."
+   },
+   {
+    "id": "M38",
+    "q": "A bag has 5 red and 3 yellow sweets. Two are taken without replacement. What is P(one of each colour)?",
+    "options": [
+     "15/56",
+     "15/28",
+     "15/64",
+     "8/15"
+    ],
+    "answer": 1,
+    "explain": "(R, Y) + (Y, R) = 5/8 × 3/7 + 3/8 × 5/7 = 30/56 = 15/28. 15/56 counts only one order."
+   },
+   {
+    "id": "M39",
+    "q": "A biased coin has P(head) = 0.6. It is thrown 3 times. What is P(three heads)?",
+    "options": [
+     "1.8",
+     "0.6",
+     "0.216",
+     "0.36"
+    ],
+    "answer": 2,
+    "explain": "0.6 × 0.6 × 0.6 = 0.216. 1.8 adds, giving a probability over 1."
+   },
+   {
+    "id": "M40",
+    "q": "Which set is {x : x is a prime number, x < 10}?",
+    "options": [
+     "{1, 2, 3, 5, 7}",
+     "{2, 3, 5, 7}",
+     "{3, 5, 7, 9}",
+     "{2, 3, 5, 7, 9}"
+    ],
+    "answer": 1,
+    "explain": "The primes below 10 are 2, 3, 5 and 7. 1 is not prime and 9 = 3 × 3."
+   }
+  ]
+ }
+}

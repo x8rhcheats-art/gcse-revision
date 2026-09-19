@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 3 · Accuracy and Bounds — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 3 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Accuracy and Bounds</h1>
+  <p class="standfirst">Every measurement is rounded, so every calculation with it has a range. The Higher bounds question is worth 2 to 4 marks and always tests the same thing: which end of each range makes the answer biggest or smallest. For subtraction and division it is the opposite end from what you expect. This module also covers rounding, significant figures, estimation and choosing a sensible accuracy, which cost marks on nearly every question in the paper.</p>
+  <div class="meta">
+    <span class="tag"><strong>~1% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>1.8, 1.11</strong></span>
+    <span class="tag">Appeared in <strong>every</strong> paper here (rounding); bounds in most</span>
+    <span class="tag">Est. <strong>2 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 2H Q15 <span class="marks">(2)</span></td><td>e and f given to 2 decimal places; work out the lower bound of e − f</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q17 <span class="marks">(3)</span></td><td>a, b and c each correct to 2 significant figures; the lower bound of y from a formula with a fraction and a subtraction, answer to 2 sf</td></tr>
+<tr><td>2014 Edexcel Jan 4H Q21 <span class="marks">(3)</span></td><td>1300 sheets (nearest 100) in a pile 160 mm high (nearest 10 mm): upper bound for the thickness of one sheet (old spec)</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q9(c) <span class="marks">(2)</span></td><td>A distance of 110 km correct to 2 sf: write down the lower and upper bounds (old spec)</td></tr>
+<tr><td>2016 Edexcel Jan 3H Q9(b) <span class="marks">(2)</span></td><td>A radius of 5.4 cm correct to 2 sf: write down the upper and lower bounds (old spec)</td></tr>
+<tr><td>2015 Edexcel Jan 3HR Q10(b) <span class="marks">(2)</span></td><td>A height of 30 cm correct to the nearest centimetre: lower and upper bounds (old spec)</td></tr>
+<tr><td>2013 Edexcel Jan 3H Q8 <span class="marks">(5)</span></td><td>A trigonometry calculation to 3 sf, then the bounds of an angle of 38° given to 2 sf (old spec)</td></tr>
+<tr><td>2012 Edexcel Jan 3H Q9 <span class="marks">(5)</span></td><td>A length of 5.8 cm correct to 2 sf: upper and lower bounds, as part of a longer question (old spec)</td></tr>
+<tr><td>2018 Edexcel May 1H Q7(a) <span class="marks">(3)</span></td><td>A value after depreciation "correct to the nearest HK$", so rounding to the accuracy asked</td></tr>
+<tr><td>2018 Edexcel May 2H Q11 <span class="marks">(3)</span></td><td>Density of a sphere "correct to 3 significant figures", the standard accuracy instruction</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2016 SAM 1H mark scheme, on the lower bound of y:</p>
+<p><span class="said">"NB. Answer must come from correct working"</span></p>
+<p>and from the 2018 May 2H scheme, on the lower bound of e − f: <span class="said">"A1 dep on correct method shown"</span>.</p>
+<p>A bounds answer written with no working scores nothing, even if the number is right, because the examiner cannot tell whether you chose the right bounds. Write the bounds you are using, then the calculation, e.g. <strong>8.305 − 0.655</strong>.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>A value "correct to" some accuracy could really be anywhere in a range half a unit either side. Bounds questions ask how far that range stretches after a calculation. Everything else here is about writing numbers to the right accuracy and not losing accuracy along the way.</p>
+
+<h3>Rounding to decimal places</h3>
+<p class="asked">Spec 1.8B · every paper</p>
+<p><strong>Look at the digit after the last one you are keeping: 5 or more rounds up, 4 or less leaves it.</strong></p>
+<ol>
+<li>Count the decimal places you need and draw a line after that digit.</li>
+<li>Look at the next digit only.</li>
+<li>Round, and <strong>keep trailing zeros</strong> that are part of the accuracy: 7.2968 to 2 dp is 7.30, not 7.3.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — round 7.2968 and 0.0060749 to 2 decimal places</h4>
+<p>7.29|68: the next digit is 6, so round up. 7.29 → 7.30 → <strong>7.30</strong></p>
+<p>0.00|60749: the next digit is 6, so round up → <strong>0.01</strong></p>
+</div>
+
+<h3>Significant figures</h3>
+<p class="asked">Spec 1.8B · every paper ("Give your answer correct to 3 significant figures")</p>
+<p><strong>Significant figures start at the first non-zero digit; zeros before it are placeholders and don't count.</strong></p>
+<ol>
+<li>Find the first non-zero digit and count from there.</li>
+<li>Round at the required figure as usual.</li>
+<li>For big numbers, fill with <strong>zeros</strong> to keep the size: 38 472 to 3 sf is 38 500, not 385.</li>
+<li>Zeros <em>between</em> non-zero digits count: 4.07 has 3 sf.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — 0.004076 to 2 sf, 38 472 to 3 sf</h4>
+<p>0.004076: the first significant digit is the 4. Keep 4, 0; the next digit is 7, so round up → <strong>0.0041</strong></p>
+<p>38 472: keep 3, 8, 4; the next digit is 7, so round up → <strong>38 500</strong></p>
+</div>
+<div class="trap">
+<p>✗ 38 472 to 3 sf = 385. The size of the number has changed.<br>
+✗ 0.004076 to 2 sf = 0.0. The leading zeros were counted as significant.<br>
+✓ Only the first non-zero digit starts the count, and zeros fill back to the right size.</p>
+</div>
+
+<h3>Estimation</h3>
+<p class="asked">Spec 1.8D</p>
+<p><strong>Estimate by rounding every number to 1 significant figure, then calculating in your head.</strong></p>
+<ol>
+<li>Round each number to 1 sf (unless the question says otherwise).</li>
+<li>Show the rounded numbers. That is the method mark.</li>
+<li>Work out the simpler calculation. Dividing by a small decimal makes the answer bigger.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — estimate (48.7 × 3.12) ÷ 0.487</h4>
+<p>(50 × 3) ÷ 0.5 <em>(M1 for at least two numbers correctly rounded)</em></p>
+<p>= 150 ÷ 0.5 = <strong>300</strong> <em>(A1)</em>. The exact value is 312, so the estimate is sensible.</p>
+</div>
+
+<h3>Upper and lower bounds of a measurement</h3>
+<p class="asked">Spec 1.8C · <strong>2016 Edexcel Jan 3H Q9(b)</strong> · <strong>2017 Edexcel Jan 4HR Q9(c)</strong></p>
+<p><strong>The bounds are half a unit of the rounding either side of the stated value.</strong></p>
+<div class="eq"><span class="name">Bounds of a rounded value</span>bounds = value ± ½ × (the unit it was rounded to)<span class="sym">"to 1 dp" → ± 0.05 · "to the nearest 10" → ± 5 · "to 2 sf" for 3400 → ± 50</span></div>
+<ol>
+<li>Identify the unit of rounding: nearest cm (1), 1 dp (0.1), 2 sf of 3400 (100).</li>
+<li>Halve it.</li>
+<li>Subtract for the lower bound and add for the upper bound.</li>
+<li>Error interval: LB ≤ x &lt; UB.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — bounds of 6.4 cm (1 dp), 3400 g (2 sf) and 70 kg (nearest 5 kg)</h4>
+<p>6.4 cm: unit 0.1, half 0.05 → <strong>6.35 ≤ l &lt; 6.45</strong></p>
+<p>3400 g to 2 sf: the second sf is the hundreds, so the unit is 100 and half is 50 → <strong>3350 and 3450</strong></p>
+<p>70 kg to the nearest 5: half of 5 is 2.5 → <strong>67.5 and 72.5</strong></p>
+</div>
+<div class="trap">
+<p>✗ Upper bound of 6.4 = 6.49 or 6.449… The upper bound is written as <strong>6.45</strong>, even though 6.45 itself would round up.<br>
+✗ 3400 to 2 sf: bounds 3399.5 and 3400.5. That treats it as the nearest whole number.<br>
+✓ Work out the unit from the accuracy stated, then halve it.</p>
+</div>
+
+<h3>Bounds for counted quantities</h3>
+<p class="asked">Spec 1.8C · <strong>2014 Edexcel Jan 4H Q21</strong></p>
+<p><strong>A number of items "to the nearest 100" has bounds 50 either side, and in bounds calculations you use those values just as you would for a measurement.</strong></p>
+<ol>
+<li>1300 sheets to the nearest 100 → 1250 ≤ n &lt; 1350.</li>
+<li>In a calculation, use 1250 and 1350 as the bounds (the mark schemes accept them).</li>
+<li>Decide which bound you need using the rules in the next sections.</li>
+</ol>
+
+<h3>Bounds in addition and multiplication</h3>
+<p class="asked">Spec 1.8A (Higher)</p>
+<p><strong>For adding and multiplying positive values, the biggest answer comes from the upper bounds and the smallest from the lower bounds.</strong></p>
+<ol>
+<li>Write both bounds of every value.</li>
+<li><strong>Max:</strong> UB + UB, UB × UB. <strong>Min:</strong> LB + LB, LB × LB.</li>
+<li>Round only at the end, and only if asked.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — a rectangle measures 8.3 cm by 5.6 cm, each to 1 dp</h4>
+<p>Bounds: 8.25 ≤ l &lt; 8.35 and 5.55 ≤ w &lt; 5.65 <em>(B1 for any correct bound)</em></p>
+<p>Upper bound of perimeter = 2(8.35 + 5.65) = <strong>28 cm</strong></p>
+<p>Upper bound of area = 8.35 × 5.65 = <strong>47.1775 cm²</strong> <em>(M1 A1)</em>; lower bound of area = 8.25 × 5.55 = 45.7875 cm²</p>
+</div>
+
+<h3>Bounds in subtraction</h3>
+<p class="asked">Spec 1.8A (Higher) · <strong>2018 Edexcel May 2H Q15</strong></p>
+<p><strong>To make a difference as big as possible, take the biggest first number and subtract the smallest second number, and the other way round for the minimum.</strong></p>
+<div class="eq"><span class="name">Bounds of a difference — memorise</span>UB(a − b) = UB(a) − LB(b) &nbsp;·&nbsp; LB(a − b) = LB(a) − UB(b)<span class="sym">the bounds cross over</span></div>
+<ol>
+<li>Write the four bounds.</li>
+<li>Upper bound of a − b: UB of a, <strong>minus the LB of b</strong>.</li>
+<li>Lower bound of a − b: LB of a, <strong>minus the UB of b</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — a = 12.4 and b = 5.7, both to 1 dp. Find the bounds of a − b.</h4>
+<p>a: 12.35 to 12.45; b: 5.65 to 5.75 <em>(B1)</em></p>
+<p>UB = 12.45 − 5.65 = <strong>6.8</strong> <em>(M1 for the correct combination, A1)</em></p>
+<p>LB = 12.35 − 5.75 = <strong>6.6</strong></p>
+</div>
+<div class="trap">
+<p>✗ UB(a − b) = 12.45 − 5.75 = 6.7. Upper minus upper is <strong>not</strong> the maximum, because you are taking away more than you need to.<br>
+✓ To maximise a − b, make a big and b small.</p>
+</div>
+
+<h3>Bounds in division</h3>
+<p class="asked">Spec 1.8A (Higher) · <strong>2014 Edexcel Jan 4H Q21</strong></p>
+<p><strong>A fraction is biggest when the top is biggest and the bottom is smallest.</strong></p>
+<div class="eq"><span class="name">Bounds of a quotient — memorise</span>UB(a ÷ b) = UB(a) ÷ LB(b) &nbsp;·&nbsp; LB(a ÷ b) = LB(a) ÷ UB(b)<span class="sym">speed = distance ÷ time · density = mass ÷ volume · thickness = height ÷ number</span></div>
+<ol>
+<li>Write the bounds of the numerator and the denominator.</li>
+<li>For the maximum, divide the <strong>upper</strong> bound of the top by the <strong>lower</strong> bound of the bottom.</li>
+<li>For the minimum, divide the lower bound of the top by the upper bound of the bottom.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — a runner covers 200 m (nearest 5 m) in 24.6 s (nearest 0.1 s). Find the upper bound of the average speed.</h4>
+<p>Distance 197.5 to 202.5; time 24.55 to 24.65 <em>(B1)</em></p>
+<p>UB speed = 202.5 ÷ 24.55 <em>(M1)</em> = 8.2484… = <strong>8.25 m/s</strong> (3 sf) <em>(A1)</em></p>
+<p>(LB speed = 197.5 ÷ 24.65 = 8.01 m/s)</p>
+</div>
+
+<h3>Bounds in a formula</h3>
+<p class="asked">Spec 1.8A (Higher) · <strong>2016 Edexcel SAM 1H Q17</strong></p>
+<p><strong>Work from the inside out: decide for each part whether it should be as big or as small as possible to push the whole answer the way you want.</strong></p>
+<ol>
+<li>Write the bounds of every letter.</li>
+<li>Decide what the final answer needs, e.g. <strong>maximum</strong>.</li>
+<li>For each numerator: make it big. For each denominator: make it small. Inside a subtraction, cross over as before.</li>
+<li>Substitute in one line, then evaluate. Show the line you substituted. The scheme marks that line.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — y = (a + b)/c with a = 5.3, b = 2.1, c = 1.8, all to 1 dp</h4>
+<p>UB of y: top biggest, bottom smallest → (5.35 + 2.15) ÷ 1.75 <em>(M1)</em> = <strong>4.29</strong> (3 sf) <em>(A1)</em></p>
+<p>LB of y: (5.25 + 2.05) ÷ 1.85 = <strong>3.95</strong> (3 sf)</p>
+</div>
+
+<h3>Bounds as a percentage or ratio</h3>
+<p class="asked">Spec 1.8A (Higher), spec example</p>
+<p><strong>"The smallest possible X as a percentage of the largest possible X" means work out both bounds, then LB ÷ UB × 100.</strong></p>
+<ol>
+<li>Find the lower bound of the quantity.</li>
+<li>Find the upper bound of the quantity.</li>
+<li>LB ÷ UB × 100, rounded as asked.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — a rectangle is 20 cm by 11 cm, each to the nearest cm. Smallest area as a percentage of largest area, to 3 sf.</h4>
+<p>Smallest area = 19.5 × 10.5 = 204.75 <em>(M1)</em></p>
+<p>Largest area = 20.5 × 11.5 = 235.75 <em>(M1)</em></p>
+<p>204.75 ÷ 235.75 × 100 <em>(M1)</em> = 86.85… = <strong>86.9%</strong> <em>(A1)</em></p>
+</div>
+
+<h3>Choosing a suitable degree of accuracy</h3>
+<p class="asked">Spec 1.8A (Higher)</p>
+<p><strong>A value is known to a given accuracy only if its upper and lower bounds both round to the same number at that accuracy.</strong></p>
+<ol>
+<li>Work out the upper and lower bounds of the answer.</li>
+<li>Round both to 1 sf, 2 sf, 3 sf… and stop at the last level where they <strong>agree</strong>.</li>
+<li>Give that value and say why: "both bounds round to … to 2 sf".</li>
+</ol>
+<div class="panel">
+<h4>Worked example — P = 23.7 × 8.46, with 23.7 to 1 dp and 8.46 to 2 dp. Give P to a suitable degree of accuracy.</h4>
+<p>UB = 23.75 × 8.465 = 201.04…; LB = 23.65 × 8.455 = 199.96… <em>(M1 for both)</em></p>
+<p>To 3 sf: 201 and 200, which disagree. To 2 sf: 200 and 200, which agree.</p>
+<p><strong>P = 200 (2 sf)</strong>, because both bounds round to 200 to 2 sf <em>(A1)</em></p>
+</div>
+
+<h3>Accuracy in the final answer</h3>
+<p class="asked">Spec 1.11A · every paper</p>
+<p><strong>Keep full calculator values all the way through and round once, at the end, to the accuracy the question asks for.</strong></p>
+<ol>
+<li>No instruction? Give an exact answer, or 3 sf for a non-exact decimal (angles to 1 dp).</li>
+<li>Money: 2 dp, e.g. $28 688.08, or "to the nearest HK$" if asked.</li>
+<li>Context: people and objects are whole numbers. "How many boxes are needed" rounds <strong>up</strong>; "how many fit" rounds <strong>down</strong>.</li>
+<li>Write the unrounded value first (e.g. 54.361…), then the rounded answer. If the rounding goes wrong, the method mark is still there.</li>
+</ol>
+<div class="panel">
+<h4>Worked example — volume of a sphere of radius 2.35 cm</h4>
+<p>V = 4/3 × π × 2.35<sup>3</sup> = 54.3615… = <strong>54.4 cm³</strong> (3 sf)</p>
+<p>Rounding r to 2.4 first gives 57.9. That is wrong by more than 3, and the A1 is lost.</p>
+</div>
+<div class="trap">
+<p>✗ Rounding a middle value, then carrying on with the rounded number.<br>
+✓ Use the calculator's ANS or memory, and round <strong>once</strong>.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The bounds rules</h4>
+<p><strong>Bounds of a value:</strong> ± half the unit of rounding. Error interval LB ≤ x &lt; UB</p>
+<p><strong>a + b, a × b:</strong> max = UB with UB · min = LB with LB</p>
+<p><strong>a − b:</strong> max = UB(a) − LB(b) · min = LB(a) − UB(b)</p>
+<p><strong>a ÷ b:</strong> max = UB(a) ÷ LB(b) · min = LB(a) ÷ UB(b)</p>
+<p><strong>Suitable accuracy:</strong> the level at which UB and LB round to the same value</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Significant figure</td><td>A digit counted from the <strong>first non-zero digit</strong></td></tr>
+<tr><td>Decimal place</td><td>A digit position <strong>after the decimal point</strong></td></tr>
+<tr><td>Upper bound</td><td>The <strong>largest value</strong> a rounded number could have had (the boundary; the value itself would round up)</td></tr>
+<tr><td>Lower bound</td><td>The <strong>smallest value</strong> that would round to the given number</td></tr>
+<tr><td>Error interval</td><td>The range of possible values, written <strong>LB ≤ x &lt; UB</strong></td></tr>
+<tr><td>Estimate</td><td>An approximate answer found by <strong>rounding each number (usually to 1 sf)</strong> first</td></tr>
+<tr><td>Degree of accuracy</td><td>How precisely a value is given, e.g. to 3 sf, 2 dp or the nearest 10</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">UB(a − b) = UB(a) − UB(b)</td><td class="yes">UB(a) − <strong>LB</strong>(b)</td></tr>
+<tr><td class="no">maximum of a ÷ b uses both upper bounds</td><td class="yes">UB(a) ÷ <strong>LB</strong>(b)</td></tr>
+<tr><td class="no">upper bound of 6.4 is 6.49</td><td class="yes">upper bound is <strong>6.45</strong></td></tr>
+<tr><td class="no">38 472 = 385 (3 sf)</td><td class="yes">38 472 = 38 <strong>500</strong> (3 sf)</td></tr>
+<tr><td class="no">7.2968 = 7.3 (2 dp)</td><td class="yes">7.30, keeping the <strong>trailing zero</strong></td></tr>
+<tr><td class="no">a bounds answer with no working</td><td class="yes">the bounds <strong>used</strong>, then the calculation, then the answer</td></tr>
+<tr><td class="no">rounding halfway through</td><td class="yes">full value kept, rounded <strong>once at the end</strong></td></tr>
+<tr><td class="no">4.2 boxes needed → 4</td><td class="yes"><strong>5</strong> boxes: round up when you need enough</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>A length is 6.4 cm to 1 dp. Why is the upper bound written as 6.45 when 6.45 itself would round to 6.5?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The true length can be anything up to, but not including, 6.45: 6.449, 6.4499, 6.44999… There is no "largest number below 6.45", so we use the boundary 6.45 and write 6.35 ≤ l &lt; 6.45.</p>
+<p>In calculations, using 6.45 gives the limit the answer can approach, which is what the question wants.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why does the upper bound of a − b use the <em>lower</em> bound of b?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Subtracting b takes something away. To keep as much as possible, take away as <strong>little</strong> as possible, which means the smallest b.</p>
+<p>So the biggest a minus the smallest b gives the biggest difference. With a = 12.4 and b = 5.7 (1 dp): 12.45 − 5.65 = 6.8, but 12.45 − 5.75 is only 6.7.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why does the maximum speed use the <em>minimum</em> time?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Speed = distance ÷ time. Dividing by a smaller number gives a bigger answer: covering the same distance in less time means going faster.</p>
+<p>So for the maximum speed use the maximum distance and the minimum time: UB ÷ LB.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>3400 is given "correct to 2 significant figures". Why are its bounds 3350 and 3450, not 3399.5 and 3400.5?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>To 2 sf, the second significant figure is the 4, which is in the <strong>hundreds</strong> column. So the number was rounded to the nearest 100.</p>
+<p>Half of 100 is 50, so the bounds are 3400 ± 50. 3399.5 and 3400.5 would only be right if it had been rounded to the nearest whole number.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>P = 23.7 × 8.46 has bounds 199.96 and 201.04. Why can P only be given as 200 to 2 sf, and not as 201?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>To 3 sf the bounds round to 200 and 201, so we cannot tell which is correct. The true value might be either.</p>
+<p>To 2 sf both round to 200. That is the most accurate value we can be <strong>certain</strong> of, so 200 (2 sf) is the suitable degree of accuracy.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>Why does rounding the radius to 2.4 before finding the volume of a sphere of radius 2.35 cm give a much worse answer?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The volume depends on r<sup>3</sup>, so a small error in r is magnified. 2.4 is about 2% too big, and cubing makes that about 6%.</p>
+<p>4/3π(2.35)<sup>3</sup> = 54.4 but 4/3π(2.4)<sup>3</sup> = 57.9. Rounding early loses the A1, even with a perfect method.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>For y = 3a/(b − c), explain which bound of b and which bound of c give the largest possible y.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>For y to be big, the numerator 3a must be big (UB of a) and the denominator b − c must be <strong>small</strong>.</p>
+<p>b − c is smallest when b is small and c is large: <strong>LB of b</strong> minus <strong>UB of c</strong>. So UB(y) = 3 × UB(a) ÷ (LB(b) − UB(c)). The subtraction inside the denominator flips the rule twice.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Why do you round up to find the number of 12-egg boxes needed for 100 eggs, but round down to find how many 12-egg boxes you can fill?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>100 ÷ 12 = 8.33… 8 boxes hold only 96 eggs, so to hold every egg you need <strong>9</strong> boxes. Round up.</p>
+<p>But you can only <strong>fill</strong> 8 boxes completely. The ninth would have just 4 eggs. Round down. The context decides, not the "5 or more" rule.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>(a) Round 0.0060749 correct to 3 significant figures. <span class="marks">(1)</span><br>
+(b) Round 0.0060749 correct to 2 decimal places. <span class="marks">(1)</span><br>
+(c) Round 4870.5 correct to 2 significant figures. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>0.00607</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for <strong>0.01</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for <strong>4900</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>Work out an estimate for (6.12 × 39.7) ÷ 0.198. You must show your working. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for at least two of the numbers rounded to 1 sf: (6 × 40) ÷ 0.2 <span class="mp">1</span></p>
+<p>A1 for <strong>1200</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>The length of a pencil is 7.4 cm, correct to 1 decimal place. Write down the error interval for the length, l cm. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 7.35 or 7.45 seen <span class="mp">1</span></p>
+<p>B1 for <strong>7.35 ≤ l &lt; 7.45</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>The mass of a parcel is 2400 g, correct to 2 significant figures.</p>
+<p>(a) Write down the lower bound of the mass. <span class="marks">(1)</span><br>
+(b) Write down the upper bound of the mass. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>2350 g</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for <strong>2450 g</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>The dimensions of a rectangle are 15 cm and 9 cm, each correct to the nearest cm. Calculate the smallest possible area as a percentage of the largest possible area. Give your answer correct to 3 significant figures. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for any correct bound: 14.5, 15.5, 8.5 or 9.5 <span class="mp">1</span></p>
+<p>M1 for 14.5 × 8.5 (= 123.25) <span class="mp">1</span></p>
+<p>M1 for 123.25 ÷ (15.5 × 9.5) × 100 (15.5 × 9.5 = 147.25) <span class="mp">1</span></p>
+<p>A1 for <strong>83.7%</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>e = 6.47 correct to 2 decimal places. f = 2.83 correct to 2 decimal places. Work out the upper bound for the value of e − f. Show your working clearly. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 6.475 − 2.825 (either bound correct, used or seen) <span class="mp">1</span></p>
+<p>A1 for <strong>3.65</strong>, dependent on the correct method shown <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>A cyclist travels 250 m, correct to the nearest 10 m, in 32.4 seconds, correct to the nearest 0.1 second. Work out the upper bound for the average speed. Give your answer in m/s correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 255 or 32.35 seen <span class="mp">1</span></p>
+<p>M1 for 255 ÷ 32.35 <span class="mp">1</span></p>
+<p>A1 for <strong>7.88 m/s</strong> (7.8825…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>A pile contains 1500 sheets of card, correct to the nearest 100 sheets. The height of the pile is 180 mm, correct to the nearest 10 mm. Each sheet has the same thickness. Calculate the lower bound for the thickness of one sheet. Give your answer in mm correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 175 or 1550 seen <span class="mp">1</span></p>
+<p>M1 for 175 ÷ 1550 <span class="mp">1</span></p>
+<p>A1 for <strong>0.113 mm</strong> (0.11290…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>y = 3a/(b − c). a = 42, b = 31 and c = 17, each correct to 2 significant figures. Work out the lower bound for the value of y. Give your answer correct to 2 significant figures. Show your working clearly. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for any correct bound: 41.5, 42.5, 30.5, 31.5, 16.5 or 17.5 <span class="mp">1</span></p>
+<p>M1 for 3 × 41.5 ÷ (31.5 − 16.5) = 124.5 ÷ 15 <span class="mp">1</span></p>
+<p>A1 for <strong>8.3</strong>, from correct working <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>The side of a cube is 6.2 cm, correct to 1 decimal place. Work out the upper bound for the volume of the cube. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 6.25<sup>3</sup> <span class="mp">1</span></p>
+<p>A1 for <strong>244.140625 cm³</strong> (accept 244.1 or 244) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>The area of a circle is 50 cm², correct to the nearest cm². Work out the lower bound for the radius of the circle. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 49.5 seen <span class="mp">1</span></p>
+<p>M1 for πr<sup>2</sup> = 49.5, r = √(49.5 ÷ π) <span class="mp">1</span></p>
+<p>A1 for <strong>3.97 cm</strong> (3.9694…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>x = 57.3 correct to 1 decimal place. y = 4.26 correct to 2 decimal places. z = x/y. Work out the value of z to a suitable degree of accuracy. You must show all your working and give a reason for your answer. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for any correct bound: 57.25, 57.35, 4.255 or 4.265 <span class="mp">1</span></p>
+<p>M1 for UB = 57.35 ÷ 4.255 <span class="mp">1</span></p>
+<p>M1 for LB = 57.25 ÷ 4.265 <span class="mp">1</span></p>
+<p>A1 for 13.478… and 13.423… <span class="mp">1</span></p>
+<p>A1 for <strong>z = 13</strong>, because both bounds round to 13 to 2 sf (but not to the same value to 3 sf) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>In a right-angled triangle, the hypotenuse is 12 cm, correct to the nearest cm, and one angle is 40°, correct to the nearest degree. Work out the upper bound for the length of the side opposite the 40° angle. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 12.5 and 40.5 seen <span class="mp">1</span></p>
+<p>M1 for 12.5 × sin 40.5° <span class="mp">1</span></p>
+<p>A1 for <strong>8.12 cm</strong> (8.1181…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A car travels 150 km, correct to 2 significant figures, at an average speed of 60 km/h, correct to the nearest 5 km/h. Work out the lower bound for the time taken. Give your answer in minutes. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 145 and 62.5 seen <span class="mp">1</span></p>
+<p>M1 for 145 ÷ 62.5 (= 2.32 hours) <span class="mp">1</span></p>
+<p>A1 for <strong>139.2 minutes</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A metal block has a mass of 440 g, correct to the nearest 10 g, and a volume of 52 cm³, correct to the nearest cm³. Work out the upper bound for the density of the metal. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 445 or 51.5 seen <span class="mp">1</span></p>
+<p>M1 for 445 ÷ 51.5 <span class="mp">1</span></p>
+<p>A1 for <strong>8.64 g/cm³</strong> (8.6407…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 3 · Accuracy and Bounds · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

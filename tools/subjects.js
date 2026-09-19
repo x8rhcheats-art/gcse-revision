@@ -114,10 +114,9 @@ module.exports = {
     mocksDir: 'site/mocks/maths',
     out: 'site/content/maths',
     mocks: [],
-    // filled in as the module and paper agents land their files
-    mcqBanks: [],
-    pastPapers: [],
-    pastPaperSchemes: [],
+    mcqBanks: ['tools/maths/mcq-bank-1.json', 'tools/maths/mcq-bank-2.json', 'tools/maths/mcq-bank-3.json', 'tools/maths/mcq-bank-4.json'],
+    pastPapers: ['tools/maths/past-papers.json'],
+    pastPaperSchemes: ['tools/maths/past-papers-schemes.json'],
     plannedModules: 14,
   },
 };

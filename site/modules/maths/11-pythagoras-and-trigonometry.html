@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 11 · Pythagoras and Trigonometry — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 11 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Pythagoras and Trigonometry</h1>
+  <p class="standfirst">Finding lengths and angles in triangles: right-angled ones with Pythagoras and SOHCAHTOA, any triangle with the sine rule, the cosine rule and ½ab sin C, and triangles hidden inside 3D solids. Every dated 4MA1 paper here has at least one of these, worth 3 to 6 marks. The skill that matters is picking the right rule, and not rounding until the end.</p>
+  <div class="meta">
+    <span class="tag"><strong>~7% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>4.8 A–F</strong>, <strong>4.4D</strong></span>
+    <span class="tag">Appeared in <strong>4 of the 4</strong> dated 4MA1 papers here</span>
+    <span class="tag">Est. <strong>3–4 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q6 <span class="marks">(4)</span></td><td>Right angle in a semicircle: Pythagoras on MP = 3.5 cm and PN = 9.7 cm for the diameter, then the circumference</td></tr>
+<tr><td>2018 Edexcel May 1H Q9 <span class="marks">(5)</span></td><td>Five copies of a right-angled triangle (72°, side 12.8 cm) arranged in a star. Trig for the two missing sides, then the perimeter to 3 s.f.</td></tr>
+<tr><td>2018 Edexcel May 2H Q8 <span class="marks">(3)</span></td><td>Right-angled triangle with angle 52° and adjacent side 12.6 cm. Find the hypotenuse x</td></tr>
+<tr><td>2018 Edexcel May 2H Q18 <span class="marks">(3)</span></td><td>A triangle has sides 8 cm, 10 cm and 14 cm. Work out the largest angle to 1 d.p. (cosine rule)</td></tr>
+<tr><td>2018 Edexcel May 2H Q19 <span class="marks">(3)</span></td><td>Triangular prism: the angle between the line BE and the plane ABCD, to 1 d.p.</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q7 <span class="marks">(3)</span></td><td>Right-angled triangle, hypotenuse 17.6 cm, angle 35°. Calculate the adjacent side PR</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q19 <span class="marks">(4)</span></td><td>Cone with radius 4.5 cm and curved surface area 130 cm<sup>2</sup>: slant height, then the angle AVB at the apex</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q21 <span class="marks">(6)</span></td><td>Triangle LMN with obtuse angle LMN, two sides and a non-included angle. Sine rule for an angle, then the area with ½ab sin C</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q9 <span class="marks">(7)</span></td><td>Old spec. B is 110 km from A and 60 km east of it. Angle x with trig, the bearing of B from A, then bounds</td></tr>
+<tr><td>2015 Edexcel Jan 3HR Q11 <span class="marks">(4)</span></td><td>Old spec. B is 35 km east and 80 km north of A. Work out the bearing of A from B</td></tr>
+<tr><td>2013 Edexcel Jan 4H Q25 <span class="marks">(6)</span></td><td>Old spec. Flagpole with angles of elevation 69° and 59° from the same point, and a 16.5 m section. Calculate its height</td></tr>
+<tr><td>2013 Edexcel Jan 3H Q21 <span class="marks">(4)</span></td><td>Old spec. Pyramid on a 16 cm by 10 cm rectangle, vertex 15 cm above the centre. Angle between TP and the base</td></tr>
+<tr><td>2016 Edexcel Jan 4HR Q21 <span class="marks">(4)</span></td><td>Old spec. Square-based pyramid, base 15 cm, sloping edges 12 cm. Calculate angle DEB</td></tr>
+<tr><td>2016 Edexcel Jan 3H Q20 <span class="marks">(4)</span></td><td>Old spec. Area of a triangle with sides 57 m and 36 m and a non-included angle of 48°</td></tr>
+<tr><td>2017 Edexcel Jan 3HR Q21 <span class="marks">(5)</span></td><td>Old spec. Area of a triangle (½ab sin C) joined to a sector</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2018 May 2H mark scheme, Q18, the largest angle of a triangle with sides 8, 10 and 14. The second method mark was for:</p>
+<p><span class="said">"ie cos<sup>−1</sup> of the correct angle or a fully correct method to find the largest angle"</span></p>
+<p>The largest angle is <strong>opposite the longest side</strong>, so 14<sup>2</sup> goes on its own. Finding one of the other two angles only scored the first M1.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>Every question here is a triangle with some sides and angles known. If it has a right angle, use Pythagoras (three sides) or SOHCAHTOA (sides and an angle). If it does not, use the sine rule or the cosine rule. In 3D, find a flat right-angled triangle inside the solid and do the same. Keep every value in your calculator until the final answer.</p>
+
+<h3>Pythagoras' theorem</h3>
+<p class="asked">Spec 4.8A · <strong>2018 Edexcel May 1H Q6</strong> · <strong>2016 Edexcel SAM 1H Q10</strong></p>
+<p><strong>In a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.</strong></p>
+<div class="eq"><span class="name">Pythagoras' theorem — memorise</span>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup><span class="sym">c = the hypotenuse, the longest side, opposite the right angle · not on the formula sheet</span></div>
+<ol>
+<li>Find the hypotenuse: the side opposite the right angle.</li>
+<li><strong>Finding the hypotenuse:</strong> square both sides, <strong>add</strong>, square root.</li>
+<li><strong>Finding a shorter side:</strong> square both, <strong>subtract</strong> the smaller from the hypotenuse, square root.</li>
+<li>Check: the hypotenuse must be the longest side.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples</h4>
+<p>Shorter sides 6.2 cm and 8.5 cm: c = √(6.2<sup>2</sup> + 8.5<sup>2</sup>) = √110.69 = <strong>10.5 cm</strong> (3 s.f.) &nbsp; <strong>(M1 squares added, M1 square root, A1)</strong></p>
+<p>Hypotenuse 14 cm, one side 9.6 cm: a = √(14<sup>2</sup> − 9.6<sup>2</sup>) = √103.84 = <strong>10.2 cm</strong> (3 s.f.)</p>
+</div>
+<p>Pythagoras hides in other shapes: the diagonal of a rectangle, the height of an isosceles triangle (split it in half), the distance between two points, the diameter opposite a right angle in a semicircle.</p>
+<div class="trap">
+<p>✗ Adding the squares when you want a shorter side: the answer comes out longer than the hypotenuse.<br>
+✗ √(6.2 + 8.5). Square first, add, then root.</p>
+</div>
+
+<h3>SOHCAHTOA: sides and angles in right-angled triangles</h3>
+<p class="asked">Spec 4.8B–C · <strong>2018 Edexcel May 2H Q8</strong> · <strong>2016 Edexcel SAM 1H Q7</strong> · <strong>2018 Edexcel May 1H Q9</strong></p>
+<p><strong>In a right-angled triangle, each trig ratio is one side divided by another, and it depends only on the angle.</strong></p>
+<div class="eq"><span class="name">Trigonometric ratios — memorise</span>sin θ = O/H &nbsp;·&nbsp; cos θ = A/H &nbsp;·&nbsp; tan θ = O/A<span class="sym">O = opposite the angle · A = adjacent (next to the angle, not the hypotenuse) · H = hypotenuse · "SOH CAH TOA"</span></div>
+<ol>
+<li>Label the sides O, A and H <strong>from the angle</strong> you are using.</li>
+<li>Tick the two sides involved: the one you know and the one you want (or both, for an angle).</li>
+<li>Pick the ratio with those two letters.</li>
+<li>Write the equation, e.g. cos 52 = 12.6/x, then rearrange.</li>
+<li><strong>Angle:</strong> use the inverse: θ = sin<sup>−1</sup>(O/H), and so on.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples</h4>
+<p><strong>Opposite from the hypotenuse:</strong> H = 18 cm, angle 40°. O = 18 × sin 40 = <strong>11.6 cm</strong> &nbsp; <strong>(M1 for sin 40 = O/18, M1 for 18 × sin 40, A1)</strong></p>
+<p><strong>Hypotenuse from the adjacent:</strong> A = 7.5 cm, angle 28°. cos 28 = 7.5/H, so H = 7.5 ÷ cos 28 = <strong>8.49 cm</strong>.</p>
+<p><strong>Angle:</strong> O = 5 cm, A = 8 cm. tan θ = 5/8, so θ = tan<sup>−1</sup>(0.625) = <strong>32.0°</strong>.</p>
+</div>
+<div class="trap">
+<p>2018 2H Q8 (x = 12.6 ÷ cos 52) accepted <span class="said">"20.4 – 20.5"</span>, so full accuracy mattered.</p>
+<p>✗ x = 12.6 × cos 52. When the unknown is on the bottom, <strong>divide</strong>.<br>
+✗ Calculator in radians. Check that sin 30 = 0.5 before the exam starts.<br>
+✗ Rounding the first side to 4.2 in 2018 1H Q9, then using it for the second side. Keep 4.1589… in the calculator.</p>
+</div>
+
+<h3>Angles of elevation and depression</h3>
+<p class="asked">Spec 4.8B (Higher) · <strong>2013 Edexcel Jan 4H Q25</strong> (old spec)</p>
+<p><strong>Angles of elevation and depression are both measured from the horizontal: up for elevation, down for depression.</strong></p>
+<ol>
+<li>Draw the horizontal line from the observer's eye.</li>
+<li>Elevation is the angle up from it to the object. Depression is the angle down from it.</li>
+<li>The angle of depression from A to B equals the angle of elevation from B to A (alternate angles, since horizontals are parallel).</li>
+<li>Complete the right-angled triangle with the vertical and use SOHCAHTOA.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: from the top of a 30 m cliff, the angle of depression of a boat is 24°. How far is the boat from the foot of the cliff?</h4>
+<p>The angle of elevation of the cliff top from the boat is also 24°. The cliff is opposite that angle and the distance is adjacent.</p>
+<p>tan 24 = 30/d, so d = 30 ÷ tan 24 = <strong>67.4 m</strong> (3 s.f.)</p>
+</div>
+<p>Jan 13 4H Q25 had two angles from the same point: set up tan for each (both with the same horizontal distance), and use the difference of the two heights. Drill D6 is one.</p>
+<div class="trap">
+<p>✗ Measuring the angle of depression from the vertical cliff face. It is always from the <strong>horizontal</strong>.</p>
+</div>
+
+<h3>Bearings with trigonometry</h3>
+<p class="asked">Spec 4.4D, 4.8C · <strong>2017 Edexcel Jan 4HR Q9</strong> · <strong>2015 Edexcel Jan 3HR Q11</strong> (old spec)</p>
+<p><strong>A bearing problem is a triangle problem with a north line drawn at each point: find the angle in the triangle, then convert it to a bearing.</strong></p>
+<ol>
+<li>Draw a north line at every point named in the question.</li>
+<li>Put the distances on the diagram. East–west and north–south distances make a right angle.</li>
+<li>Find the angle inside the triangle with trig.</li>
+<li>Convert: the bearing is measured clockwise from north <strong>at the "from" point</strong>. Use 180° and 360° and alternate angles between parallel north lines.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: B is 30 km east and 50 km north of A. Work out the bearing of B from A, and of A from B.</h4>
+<p>At A, the angle between north and AB: tan θ = 30/50, so θ = tan<sup>−1</sup>(0.6) = 30.96…° &nbsp; <strong>(M1, A1)</strong></p>
+<p>Bearing of B from A = <strong>031°</strong> (nearest degree) &nbsp; <strong>(A1)</strong></p>
+<p>Bearing of A from B = 031 + 180 = <strong>211°</strong> (to the nearest degree, 30.96 + 180 = 210.96)</p>
+</div>
+<div class="trap">
+<p>✗ Working out the angle from the east line and calling it the bearing. tan<sup>−1</sup>(50/30) = 59° is measured from east, not north.<br>
+✓ Always check which angle you found against the north line on your sketch.</p>
+</div>
+
+<h3>Sine, cosine and tangent of obtuse angles</h3>
+<p class="asked">Spec 4.8A (Higher) · <strong>2016 Edexcel SAM 2H Q21</strong></p>
+<p><strong>For an obtuse angle, sin is positive and equals sin of its supplement, cos is negative, and tan is negative.</strong></p>
+<div class="eq"><span class="name">Supplementary angles — memorise</span>sin(180° − x) = sin x &nbsp;·&nbsp; cos(180° − x) = −cos x<span class="sym">sin 150° = sin 30° = 0.5 · cos 120° = −cos 60° = −0.5</span></div>
+<p>This matters in two places:</p>
+<ol>
+<li><strong>Cosine rule for an angle:</strong> a negative cosine means the angle is obtuse, and cos<sup>−1</sup> gives it correctly. Nothing extra to do.</li>
+<li><strong>Sine rule for an angle:</strong> sin<sup>−1</sup> only ever gives an acute angle. If the angle could be obtuse, the other answer is 180° minus the calculator's.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: in triangle ABC, a = 11 cm, b = 8 cm, angle B = 40°. Find angle A.</h4>
+<p>sin A / 11 = sin 40 / 8, so sin A = 11 × sin 40 ÷ 8 = 0.8838…</p>
+<p>A = sin<sup>−1</sup>(0.8838…) = <strong>62.1°</strong> or 180 − 62.1 = <strong>117.9°</strong>. Both give a valid triangle, since 40 + 117.9 &lt; 180.</p>
+<p>The question will tell you which: "angle A is obtuse", or a diagram. In SAM 2H Q21 the question said angle LMN is obtuse, so the angle found by the sine rule (at L) had to be acute.</p>
+</div>
+
+<h3>The sine rule</h3>
+<p class="asked">Spec 4.8C (Higher) · <strong>2016 Edexcel SAM 2H Q21</strong></p>
+<p><strong>In any triangle, each side divided by the sine of its opposite angle gives the same number.</strong></p>
+<div class="eq"><span class="name">The sine rule — on the formula sheet</span>a/sin A = b/sin B = c/sin C<span class="sym">side a is opposite angle A · for an angle, flip it: sin A/a = sin B/b</span></div>
+<ol>
+<li>Use it when you have a <strong>side and its opposite angle</strong>, plus one more side or angle.</li>
+<li>Label: each side takes the letter of the angle opposite it.</li>
+<li><strong>Side:</strong> a/sin A = b/sin B, so b = a × sin B ÷ sin A.</li>
+<li><strong>Angle:</strong> sin B = b × sin A ÷ a, then sin<sup>−1</sup>. Think about the obtuse alternative.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: angle A = 42°, angle B = 71°, a = 8 cm. Find b.</h4>
+<p>b/sin 71 = 8/sin 42 &nbsp; <strong>(M1)</strong></p>
+<p>b = 8 × sin 71 ÷ sin 42 = <strong>11.3 cm</strong> (3 s.f.) &nbsp; <strong>(A1)</strong></p>
+</div>
+
+<h3>The cosine rule</h3>
+<p class="asked">Spec 4.8C (Higher) · <strong>2018 Edexcel May 2H Q18</strong> · <strong>2016 Edexcel Jan 4HR Q21</strong> (old spec)</p>
+<p><strong>The cosine rule is Pythagoras with a correction term for angles that are not 90°.</strong></p>
+<div class="eq"><span class="name">The cosine rule — on the formula sheet</span>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> − 2bc cos A<span class="sym">A is the angle BETWEEN sides b and c, opposite side a · if A = 90°, cos A = 0 and it is Pythagoras</span></div>
+<div class="eq"><span class="name">Cosine rule for an angle — memorise</span>cos A = (b<sup>2</sup> + c<sup>2</sup> − a<sup>2</sup>) ÷ 2bc<span class="sym">a is the side OPPOSITE the angle you want · it is the one subtracted</span></div>
+<ol>
+<li><strong>Side:</strong> use it when you know two sides and the angle <strong>between</strong> them.</li>
+<li><strong>Angle:</strong> use it when you know all three sides.</li>
+<li>Type the whole of b<sup>2</sup> + c<sup>2</sup> − 2bc cos A in one go, then square root.</li>
+</ol>
+<div class="panel">
+<h4>Worked example 1: b = 7 cm, c = 10 cm, angle A = 52°. Find a.</h4>
+<p>a<sup>2</sup> = 7<sup>2</sup> + 10<sup>2</sup> − 2 × 7 × 10 × cos 52 = 62.81… &nbsp; <strong>(M1)</strong></p>
+<p>a = 7.93 cm (3 s.f.) &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example 2: a triangle has sides 5 cm, 7 cm and 9 cm. Find its largest angle.</h4>
+<p>The largest angle is opposite the longest side, 9 cm.</p>
+<p>cos θ = (5<sup>2</sup> + 7<sup>2</sup> − 9<sup>2</sup>) ÷ (2 × 5 × 7) = −7/70 = −0.1 &nbsp; <strong>(M1)</strong></p>
+<p>θ = cos<sup>−1</sup>(−0.1) &nbsp; <strong>(M1)</strong> = <strong>95.7°</strong> &nbsp; <strong>(A1)</strong>. The negative cosine is why it is obtuse.</p>
+</div>
+<div class="trap">
+<p>✗ Working 49 + 100 − 140 = 9, then × cos 52. The calculator must do 2bc cos A before subtracting: type it all in one line.<br>
+✗ Putting the longest side in the b<sup>2</sup> + c<sup>2</sup> part when you want the largest angle. It is the one you subtract.</p>
+</div>
+
+<h3>Area of a triangle: ½ab sin C</h3>
+<p class="asked">Spec 4.8E (Higher) · <strong>2016 Edexcel SAM 2H Q21</strong> · <strong>2016 Edexcel Jan 3H Q20</strong> (old spec)</p>
+<p><strong>The area of any triangle is half the product of two sides times the sine of the angle between them.</strong></p>
+<div class="eq"><span class="name">Area of a triangle — on the formula sheet</span>Area = ½ab sin C<span class="sym">C is the angle BETWEEN sides a and b · ½ × base × height with height = b sin C</span></div>
+<div class="panel">
+<h4>Worked example: two sides 9 cm and 13 cm with an angle of 58° between them</h4>
+<p>Area = ½ × 9 × 13 × sin 58 = <strong>49.6 cm<sup>2</sup></strong> (3 s.f.)</p>
+</div>
+<p>If the angle you have is not between the two sides (as in SAM 2H Q21 and Jan 16 3H Q20), use the sine rule to find another angle, then 180° minus the two angles gives the included one. That is a 6-mark question: M1 sine rule, M1 sin<sup>−1</sup>, A1 the angle, M1 the included angle, M1 ½ab sin C, A1.</p>
+
+<h3>Choosing the rule</h3>
+<p class="asked">Spec 4.8C</p>
+<p><strong>The information you have, not the question, decides the rule.</strong></p>
+<table>
+<tr><th>You know</th><th>You want</th><th>Use</th></tr>
+<tr><td>Right angle, two sides</td><td>Third side</td><td>Pythagoras</td></tr>
+<tr><td>Right angle, a side and an angle</td><td>Another side</td><td>SOHCAHTOA</td></tr>
+<tr><td>Right angle, two sides</td><td>An angle</td><td>SOHCAHTOA, inverse</td></tr>
+<tr><td>A side, its opposite angle, and one more</td><td>Side or angle</td><td>Sine rule</td></tr>
+<tr><td>Two sides and the angle between them</td><td>The third side</td><td>Cosine rule</td></tr>
+<tr><td>Three sides</td><td>An angle</td><td>Cosine rule, rearranged</td></tr>
+<tr><td>Two sides and the angle between them</td><td>Area</td><td>½ab sin C</td></tr>
+</table>
+<p>If none of these fit, find another angle first (angles in a triangle add up to 180°), then look again.</p>
+
+<h3>Pythagoras in three dimensions</h3>
+<p class="asked">Spec 4.8D (Higher) · <strong>2018 Edexcel May 2H Q19</strong> · <strong>2013 Edexcel Jan 3H Q21</strong> (old spec)</p>
+<p><strong>A length in 3D is found by using Pythagoras twice, once across a flat face and once up to the point.</strong></p>
+<div class="eq"><span class="name">Diagonal of a cuboid — memorise</span>d = √(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>)<span class="sym">a, b, c = length, width, height · the space diagonal from one corner to the opposite corner</span></div>
+<ol>
+<li>Find a right-angled triangle that contains the length you want. Sketch it flat.</li>
+<li>One of its sides is usually a diagonal across the base. Find that first with Pythagoras.</li>
+<li>Use Pythagoras again in the upright triangle.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: cuboid 4 cm by 3 cm by 12 cm. Find the space diagonal.</h4>
+<p>Base diagonal = √(4<sup>2</sup> + 3<sup>2</sup>) = 5 cm. Space diagonal = √(5<sup>2</sup> + 12<sup>2</sup>) = <strong>13 cm</strong>.</p>
+<p>In one step: √(16 + 9 + 144) = √169 = 13.</p>
+</div>
+
+<h3>The angle between a line and a plane</h3>
+<p class="asked">Spec 4.8F (Higher) · <strong>2018 Edexcel May 2H Q19</strong> · <strong>2016 Edexcel SAM 1H Q19</strong> · <strong>2013 Edexcel Jan 3H Q21</strong> (old spec)</p>
+<p><strong>The angle between a line and a plane is the angle between the line and its shadow on the plane, directly underneath it.</strong></p>
+<ol>
+<li>From the top end of the line, drop a perpendicular to the plane. Where it lands is the foot.</li>
+<li>Join the foot to the point where the line meets the plane. That is the shadow (the projection).</li>
+<li>The line, its shadow and the perpendicular make a right-angled triangle, with the right angle at the foot.</li>
+<li>Find two of its sides (usually with Pythagoras), then use SOHCAHTOA for the angle at the point where the line meets the plane.</li>
+</ol>
+<div class="panel">
+<h4>Worked example (2018 2H Q19, numbers changed): triangular prism with AF = 6 cm vertical, AB = 15 cm, BC = 8 cm. E is vertically above D. Angle FAB = angle ADC = angle BCD = 90°. Find the angle between BE and the plane ABCD.</h4>
+<p>E is above D, so the shadow of BE on the base is BD, and DE = AF = 6 cm.</p>
+<p>BD<sup>2</sup> = 15<sup>2</sup> + 8<sup>2</sup> = 289, so BD = 17 cm &nbsp; <strong>(M1 for a complete method for BD or BE)</strong></p>
+<p>tan θ = DE/BD = 6/17 &nbsp; <strong>(M1)</strong></p>
+<p>θ = <strong>19.4°</strong> (1 d.p.) &nbsp; <strong>(A1)</strong></p>
+</div>
+<p>SAM 1H Q19 is the same idea on a cone: the slant height from the curved surface area (πrl = 130), then sin(AVO) = 4.5 ÷ l, and angle AVB is double AVO. The spec says the angle between two planes is not required.</p>
+<div class="trap">
+<p>✗ Using the angle at the wrong end: the angle is at the point where the line <strong>meets</strong> the plane, not at the top.<br>
+✗ Using a side edge (BC or AB) as the shadow. The shadow goes to the point directly below the top of the line.</p>
+</div>
+
+<h3>Problems with more than one triangle</h3>
+<p class="asked">Spec 4.8C, 4.4D · <strong>2016 Edexcel SAM 2H Q21</strong> · <strong>2017 Edexcel Jan 4HR Q9</strong> (old spec)</p>
+<p><strong>In a long problem, each triangle gives you one new length or angle that unlocks the next triangle.</strong></p>
+<ol>
+<li>Draw the diagram. For journeys, draw north lines at every turning point.</li>
+<li>Find the angle inside the triangle at each turn, using bearings and 180°.</li>
+<li>Pick the rule for that triangle (see the table above). Keep full calculator values.</li>
+<li>Convert back to a bearing at the end if asked.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: a ship sails 8 km from S on a bearing of 040° to T, then 11 km on a bearing of 115° to F. Find the distance SF and the bearing of F from S.</h4>
+<p>At T, the bearing back to S is 040 + 180 = 220°. The angle STF = 220 − 115 = <strong>105°</strong>.</p>
+<p>SF<sup>2</sup> = 8<sup>2</sup> + 11<sup>2</sup> − 2 × 8 × 11 × cos 105 = 230.55… &nbsp; <strong>(M1)</strong></p>
+<p>SF = <strong>15.2 km</strong> (3 s.f.) &nbsp; <strong>(A1)</strong></p>
+<p>Sine rule: sin(TSF) = 11 × sin 105 ÷ 15.18… so angle TSF = 44.4° &nbsp; <strong>(M1)</strong></p>
+<p>Bearing of F from S = 040 + 44.4 = <strong>084°</strong> (nearest degree) &nbsp; <strong>(A1)</strong></p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The rules and when to use them</h4>
+<p><strong>Pythagoras</strong> (memorise): a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>, c the hypotenuse. Add for the hypotenuse, subtract for a shorter side.</p>
+<p><strong>SOHCAHTOA</strong> (memorise): sin = O/H · cos = A/H · tan = O/A. Unknown on the bottom: divide.</p>
+<p><strong>Sine rule</strong> (formula sheet): a/sin A = b/sin B = c/sin C. Needs a side with its opposite angle.</p>
+<p><strong>Cosine rule</strong> (formula sheet): a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> − 2bc cos A. Angle version cos A = (b<sup>2</sup> + c<sup>2</sup> − a<sup>2</sup>)/2bc is not on the sheet.</p>
+<p><strong>Area</strong> (formula sheet): ½ab sin C, C between a and b.</p>
+<p><strong>Obtuse:</strong> sin(180 − x) = sin x · a negative cos means an obtuse angle.</p>
+<p><strong>3D:</strong> d = √(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>) · line and plane: the angle between the line and its shadow.</p>
+<p><strong>Bearings:</strong> north lines at every point · clockwise from north · three figures · back bearing ± 180.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Hypotenuse</td><td>The <strong>longest side</strong> of a right-angled triangle, <strong>opposite the right angle</strong></td></tr>
+<tr><td>Opposite side</td><td>The side <strong>across from</strong> the angle being used</td></tr>
+<tr><td>Adjacent side</td><td>The side <strong>next to</strong> the angle being used that is <strong>not the hypotenuse</strong></td></tr>
+<tr><td>Angle of elevation</td><td>The angle <strong>up from the horizontal</strong> to an object</td></tr>
+<tr><td>Angle of depression</td><td>The angle <strong>down from the horizontal</strong> to an object</td></tr>
+<tr><td>Included angle</td><td>The angle <strong>between</strong> two given sides</td></tr>
+<tr><td>Projection of a line on a plane</td><td>The line's <strong>shadow</strong>: from where it meets the plane to the foot of the <strong>perpendicular</strong> from its other end</td></tr>
+<tr><td>Angle between a line and a plane</td><td>The angle between the line and its <strong>projection</strong> on the plane</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">x = 12.6 × cos 52</td><td class="yes">cos 52 = 12.6/x, so <strong>x = 12.6 ÷ cos 52</strong></td></tr>
+<tr><td class="no">a rounded side reused in the next step</td><td class="yes">keep the <strong>full value</strong> (4.1589…) and round only at the end</td></tr>
+<tr><td class="no">sin<sup>−1</sup> gives the only answer</td><td class="yes">sin<sup>−1</sup> gives x or <strong>180 − x</strong>; check which the triangle needs</td></tr>
+<tr><td class="no">cos A = (a<sup>2</sup> + b<sup>2</sup> − c<sup>2</sup>)/2ab for angle A</td><td class="yes">the side <strong>opposite</strong> A is the one subtracted: (b<sup>2</sup> + c<sup>2</sup> − a<sup>2</sup>)/2bc</td></tr>
+<tr><td class="no">area = ½ × 57 × 36 × sin 48, when 48° is not between those sides</td><td class="yes">find the <strong>included angle</strong> first, then ½ab sin C</td></tr>
+<tr><td class="no">bearing 58°</td><td class="yes">bearing <strong>058°</strong></td></tr>
+<tr><td class="no">angle = 0.38 (calculator left in radians)</td><td class="yes">calculator in <strong>degrees</strong> mode: check sin 30 = 0.5</td></tr>
+<tr><td class="no">angle between BE and the base at E</td><td class="yes">the angle at <strong>B</strong>, where the line meets the plane</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why does sin 40° have the same value in every right-angled triangle with a 40° angle, however big the triangle?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>All right-angled triangles with a 40° angle have the same three angles (90°, 40°, 50°), so they are <strong>similar</strong>. Every side is multiplied by the same scale factor.</p>
+<p>A ratio of two sides, like opposite ÷ hypotenuse, has the scale factor on the top and the bottom, so it cancels. The ratio depends only on the angle. That is what makes trigonometry possible.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Show that the cosine rule turns into Pythagoras' theorem when the angle is 90°. What does that tell you about the sign of the correction term?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> − 2bc cos A. When A = 90°, cos 90° = 0, so a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup>: Pythagoras.</p>
+<p>When A is acute, cos A is positive, so a<sup>2</sup> is <strong>less</strong> than b<sup>2</sup> + c<sup>2</sup>: the opposite side is shorter than for a right angle. When A is obtuse, cos A is negative, so the term is added and the side is longer. Both match what you would expect from opening or closing the angle.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why does the sine rule sometimes give two possible angles, while the cosine rule never does?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>sin x = sin(180° − x), so an acute angle and its obtuse partner have the <strong>same sine</strong>. Knowing sin B does not tell you which. The calculator's sin<sup>−1</sup> always gives the acute one.</p>
+<p>Cosines of acute angles are positive and of obtuse angles negative, so every value of cos between −1 and 1 belongs to exactly one angle between 0° and 180°. cos<sup>−1</sup> picks the right one.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Where does Area = ½ab sin C come from?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Take side a as the base. Drop a perpendicular from the opposite vertex to the base. It makes a right-angled triangle with hypotenuse b and angle C, so the height is <strong>b sin C</strong> (SOHCAHTOA: opposite = hypotenuse × sin).</p>
+<p>Area = ½ × base × height = ½ × a × b sin C. That is also why C must be the angle between a and b.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>A student rounds the first side in a two-step trig problem to 3 s.f. and gets a final answer that is 0.1 out. Why, and how is it avoided?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The rounding error in the first value is carried into the second calculation and can grow, especially after multiplying by a large number or dividing by a small sine. The final answer lands outside the mark scheme's range, and the A1 is lost.</p>
+<p>Store the unrounded value in the calculator's memory (or use the ANS key), write the rounded value in your working with "…" after it, and round only the final answer.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>In the angle between a line and a plane, why must you use the line's shadow, and not any other line in the plane?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A line meets a plane at one point, and makes different angles with the different lines through that point in the plane. The angle "between the line and the plane" means the <strong>smallest</strong> of these angles.</p>
+<p>The smallest is with the line directly under it: its projection. That is the only choice that makes a right-angled triangle with the perpendicular, so SOHCAHTOA applies.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>Why is the bearing of A from B always 180° different from the bearing of B from A?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The north lines at A and B are <strong>parallel</strong>. The line AB crosses them both. The direction from B back to A points exactly the opposite way to the direction from A to B.</p>
+<p>Turning to face the opposite way is a turn of 180°, so the back bearing is the bearing ± 180°. Use + if the first bearing is under 180°, − if it is over.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>For the largest angle of a triangle with sides 8, 10 and 14, why is it enough to find one angle, and which one?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>In any triangle, the largest angle is <strong>opposite the longest side</strong>. So the angle opposite 14 is the only one needed.</p>
+<p>cos θ = (8<sup>2</sup> + 10<sup>2</sup> − 14<sup>2</sup>)/(2 × 8 × 10) = −32/160 = −0.2, giving θ = 101.5°. The negative cosine confirms it is obtuse, and a triangle can have only one obtuse angle.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>A right-angled triangle has shorter sides 7.4 cm and 11.2 cm. Work out the length of the hypotenuse. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 7.4<sup>2</sup> + 11.2<sup>2</sup> (= 180.2) <span class="mp">1</span></p>
+<p>M1 for √180.2 <span class="mp">1</span></p>
+<p>A1 for <strong>13.4 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>A ladder 15.3 m long leans against a vertical wall. The foot of the ladder is 8.7 m from the wall on horizontal ground. How far up the wall does the ladder reach? Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 15.3<sup>2</sup> − 8.7<sup>2</sup> (= 158.4) <span class="mp">1</span></p>
+<p>M1 for √158.4 <span class="mp">1</span></p>
+<p>A1 for <strong>12.6 m</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>In triangle PQR, angle PRQ = 90°, angle QPR = 47° and PR = 9.8 cm. Work out the length of PQ. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for cos 47 = 9.8/PQ <span class="mp">1</span></p>
+<p>M1 for PQ = 9.8 ÷ cos 47 <span class="mp">1</span></p>
+<p>A1 for <strong>14.4 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>In a right-angled triangle, the side opposite angle θ is 6.5 cm and the hypotenuse is 11 cm. Work out the size of angle θ. Give your answer correct to 1 decimal place. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for sin θ = 6.5/11 <span class="mp">1</span></p>
+<p>M1 for sin<sup>−1</sup>(6.5/11) <span class="mp">1</span></p>
+<p>A1 for <strong>36.2°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>A point A is on horizontal ground, 45 m from the foot of a vertical tower. The angle of elevation of the top of the tower from A is 32°. Work out the height of the tower. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for tan 32 = h/45 <span class="mp">1</span></p>
+<p>M1 for 45 × tan 32 <span class="mp">1</span></p>
+<p>A1 for <strong>28.1 m</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>A vertical mast AB stands on horizontal ground, with B at its foot. D is a point on the mast, and AD = 12 m. C is a point on the ground. The angle of elevation of A from C is 64°, and the angle of elevation of D from C is 52°. Calculate the height AB. Give your answer correct to 3 significant figures. <span class="marks">(6)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for AB = BC tan 64 or DB = BC tan 52 <span class="mp">1</span></p>
+<p>M1 for BC tan 64 − BC tan 52 = 12 <span class="mp">1</span></p>
+<p>M1 for BC = 12 ÷ (tan 64 − tan 52) <span class="mp">1</span></p>
+<p>A1 for BC = 15.577… <span class="mp">1</span></p>
+<p>M1 for AB = 15.577… × tan 64 <span class="mp">1</span></p>
+<p>A1 for <strong>31.9 m</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>Town B is 72 km east and 45 km north of town A.</p>
+<p>(a) Work out the distance AB. Give your answer correct to 3 significant figures. <span class="marks">(2)</span><br>
+(b) Work out the bearing of B from A. Give your answer correct to the nearest degree. <span class="marks">(3)</span><br>
+(c) Write down the bearing of A from B. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for √(72<sup>2</sup> + 45<sup>2</sup>) <span class="mp">1</span>; A1 for <strong>84.9 km</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for tan θ = 72/45, θ the angle from north at A <span class="mp">1</span>; M1 for tan<sup>−1</sup>(1.6) = 57.99… <span class="mp">1</span>; A1 for <strong>058°</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for <strong>238°</strong> (ft their (b) + 180) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>In triangle ABC, AB = 9 cm, AC = 12 cm and angle BAC = 38°. Work out the length of BC. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for BC<sup>2</sup> = 9<sup>2</sup> + 12<sup>2</sup> − 2 × 9 × 12 × cos 38 <span class="mp">1</span></p>
+<p>M1 for BC<sup>2</sup> = 54.79… and square root <span class="mp">1</span></p>
+<p>A1 for <strong>7.40 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>A triangle has sides of length 7 cm, 9 cm and 13 cm. Work out the size of the largest angle of the triangle. Give your answer correct to 1 decimal place. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for cos θ = (7<sup>2</sup> + 9<sup>2</sup> − 13<sup>2</sup>) ÷ (2 × 7 × 9) <span class="mp">1</span></p>
+<p>M1 for cos<sup>−1</sup>(−39/126) <span class="mp">1</span></p>
+<p>A1 for <strong>108.0°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>In triangle ABC, angle A = 48°, angle B = 67° and BC = 12 cm. Work out the length of AC. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for AC/sin 67 = 12/sin 48 <span class="mp">1</span></p>
+<p>M1 for AC = 12 × sin 67 ÷ sin 48 <span class="mp">1</span></p>
+<p>A1 for <strong>14.9 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>In triangle LMN, angle LMN is obtuse. LM = 14.6 cm, MN = 9.2 cm and angle MNL = 52°. Work out the area of triangle LMN. Give your answer correct to 3 significant figures. <span class="marks">(6)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for sin MLN/9.2 = sin 52/14.6 <span class="mp">1</span></p>
+<p>M1 for MLN = sin<sup>−1</sup>(9.2 × sin 52 ÷ 14.6) <span class="mp">1</span></p>
+<p>A1 for MLN = 29.77… <span class="mp">1</span></p>
+<p>M1 for LMN = 180 − 52 − 29.77… = 98.22… <span class="mp">1</span></p>
+<p>M1 for ½ × 9.2 × 14.6 × sin 98.22… <span class="mp">1</span></p>
+<p>A1 for <strong>66.5 cm<sup>2</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Triangle PQR has PQ = 9 cm and PR = 12 cm. Its area is 40 cm<sup>2</sup>, and angle QPR is acute. Work out the size of angle QPR. Give your answer correct to 1 decimal place. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for ½ × 9 × 12 × sin QPR = 40 <span class="mp">1</span></p>
+<p>M1 for sin<sup>−1</sup>(80/108) <span class="mp">1</span></p>
+<p>A1 for <strong>47.8°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>A cuboid measures 8 cm by 6 cm by 5 cm, with the 8 cm by 6 cm face horizontal at the bottom.</p>
+<p>(a) Work out the length of a diagonal from a bottom corner to the opposite top corner. Give your answer correct to 3 significant figures. <span class="marks">(2)</span><br>
+(b) Work out the angle between this diagonal and the base. Give your answer correct to 1 decimal place. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for √(8<sup>2</sup> + 6<sup>2</sup> + 5<sup>2</sup>) = √125 <span class="mp">1</span>; A1 for <strong>11.2 cm</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for the base diagonal √(8<sup>2</sup> + 6<sup>2</sup>) = 10 as the projection <span class="mp">1</span>; M1 for tan θ = 5/10, or sin θ = 5/√125 <span class="mp">1</span>; A1 for <strong>26.6°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A pyramid has a horizontal rectangular base PQRS with PQ = 18 cm and QR = 12 cm. M is the midpoint of PR. The vertex T is vertically above M, and MT = 14 cm. Calculate the size of the angle between TP and the base PQRS. Give your answer correct to 1 decimal place. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for PR = √(18<sup>2</sup> + 12<sup>2</sup>) = √468 <span class="mp">1</span></p>
+<p>M1 for PM = ½ × √468 = 10.81… <span class="mp">1</span></p>
+<p>M1 for tan TPM = 14 ÷ 10.81… <span class="mp">1</span></p>
+<p>A1 for <strong>52.3°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A ship sails 14 km from port S on a bearing of 050° to a buoy T. It then sails 9 km on a bearing of 130° to a lighthouse F.</p>
+<p>(a) Show that angle STF = 100°. <span class="marks">(1)</span><br>
+(b) Work out the distance SF. Give your answer correct to 3 significant figures. <span class="marks">(3)</span><br>
+(c) Work out the bearing of F from S. Give your answer correct to the nearest degree. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for the bearing of S from T is 050 + 180 = 230°, and 230 − 130 = 100° <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for SF<sup>2</sup> = 14<sup>2</sup> + 9<sup>2</sup> − 2 × 14 × 9 × cos 100 <span class="mp">1</span>; M1 for SF<sup>2</sup> = 320.76… and square root <span class="mp">1</span>; A1 for <strong>17.9 km</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for sin TSF = 9 × sin 100 ÷ 17.90…, so angle TSF = 29.66… <span class="mp">1</span>; A1 for 050 + 29.66… = <strong>080°</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 11 · Pythagoras and Trigonometry · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

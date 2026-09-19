@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 10 · Mensuration and Similarity — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 10 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Mensuration and Similarity</h1>
+  <p class="standfirst">Area, volume, surface area, similar shapes and compound measures. Every dated 4MA1 paper here has at least two of these, often as a first step in a longer question: a volume becomes a mass, an area ratio becomes a length ratio. The formula sheet gives you the cone, sphere, cylinder and prism, so the marks go on choosing the right one and on units.</p>
+  <div class="meta">
+    <span class="tag"><strong>~7% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>4.4, 4.9 – 4.11</strong></span>
+    <span class="tag">Appeared in <strong>4 of the 4</strong> dated 4MA1 papers here</span>
+    <span class="tag">Est. <strong>3 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q6 <span class="marks">(4)</span></td><td>MON is a diameter, angle MPN = 90°, MP = 3.5 cm, PN = 9.7 cm. Pythagoras for the diameter, then the circumference to 3 s.f.</td></tr>
+<tr><td>2018 Edexcel May 1H Q16 <span class="marks">(4)</span></td><td>A frustum made by removing a small cone from a similar large cone. Volume of frustum ÷ volume of large cone = 98/125. Find the height of the frustum in terms of h</td></tr>
+<tr><td>2018 Edexcel May 2H Q6 <span class="marks">(4)</span></td><td>Curved surface area of a cylinder (radius 0.56 m, height 1.6 m), then the radius of a similar cylinder of height 0.6 m</td></tr>
+<tr><td>2018 Edexcel May 2H Q11 <span class="marks">(3)</span></td><td>A metal sphere of radius 1.5 cm has mass 109.6 g. Work out its density to 3 s.f.</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q1 <span class="marks">(3)</span></td><td>Average speed of a plane that flew 7800 km in 9 hours 45 minutes</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q10 <span class="marks">(5)</span></td><td>Area of a shape made from a right-angled triangle and a semicircle on BC, with BC found by Pythagoras</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q3 <span class="marks">(4)</span></td><td>Prism with a trapezium cross-section made from wood of density 0.7 g/cm<sup>3</sup>. Work out its mass</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q18 <span class="marks">(3)</span></td><td>Similar solids with surface areas 384 cm<sup>2</sup> and 864 cm<sup>2</sup>. Given the volume of B, find the volume of A</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q14 <span class="marks">(7)</span></td><td>Old spec. Two similar pentagons sharing a corner: two missing lengths, then the area of the shaded region between them</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q19 <span class="marks">(5)</span></td><td>Old spec. Cone with base radius 5 cm and total surface area 90π cm<sup>2</sup>. Volume as a multiple of π</td></tr>
+<tr><td>2016 Edexcel Jan 4H Q24 <span class="marks">(5)</span></td><td>Old spec. Sector with angle 50° and area 20π cm<sup>2</sup>. Perimeter of the sector to 3 s.f.</td></tr>
+<tr><td>2016 Edexcel Jan 3H Q19 <span class="marks">(3)</span></td><td>Old spec. A sphere and a cone of equal volume, cone radius 3 times the sphere's. Radius of the sphere in terms of h</td></tr>
+<tr><td>2015 Edexcel Jan 3HR Q18 <span class="marks">(3)</span></td><td>Old spec. Volume of a hemisphere of diameter 18.6 cm</td></tr>
+<tr><td>2017 Edexcel Jan 3HR Q21 <span class="marks">(5)</span></td><td>Old spec. Area of a shape made from a triangle and a sector of angle 38°</td></tr>
+<tr><td>2012 Edexcel Jan 3H Q12 <span class="marks">(7)</span></td><td>Old spec. Two similar quadrilaterals: two missing lengths, then the area of the shaded region</td></tr>
+<tr><td>2017 Edexcel Jan 3HR Q4 <span class="marks">(3)</span></td><td>Old spec. Average speed of a plane that flew 8740 km in 13 hours 15 minutes</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2018 May 2H mark scheme, Q6(a), the curved surface area of a cylinder. The M1 was for 2 × π × 0.56 × 1.6, with the note:</p>
+<p><span class="said">"Award even if part of a calculation including 1 or 2 circles"</span></p>
+<p>So adding the ends kept the method mark, but the A1 needed 5.63, the <strong>curved</strong> surface only. Read which surface the question asks for: curved, total, or open-topped.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>Mensuration means measuring: lengths, areas and volumes. Area is length × length, so it is measured in square units. Volume is length × length × length, in cubic units. Similarity builds on exactly that idea: if every length is multiplied by k, areas are multiplied by k<sup>2</sup> and volumes by k<sup>3</sup>. Compound measures (speed, density, pressure) are one quantity divided by another.</p>
+
+<h3>Units of length, area and volume</h3>
+<p class="asked">Spec 4.9A, 4.10F</p>
+<p><strong>An area conversion squares the length conversion, and a volume conversion cubes it.</strong></p>
+<p>1 m = 100 cm, so 1 m<sup>2</sup> = 100 × 100 = 10 000 cm<sup>2</sup> and 1 m<sup>3</sup> = 100 × 100 × 100 = 1 000 000 cm<sup>3</sup>.</p>
+<table>
+<tr><th>Conversion</th><th>Length</th><th>Area</th><th>Volume</th></tr>
+<tr><td>m to cm</td><td>× 100</td><td>× 10 000</td><td>× 1 000 000</td></tr>
+<tr><td>cm to mm</td><td>× 10</td><td>× 100</td><td>× 1000</td></tr>
+<tr><td>km to m</td><td>× 1000</td><td>× 1 000 000</td><td>not used</td></tr>
+</table>
+<div class="eq"><span class="name">Capacity — memorise</span>1 litre = 1000 cm<sup>3</sup> &nbsp;·&nbsp; 1 m<sup>3</sup> = 1000 litres<span class="sym">1 ml = 1 cm<sup>3</sup></span></div>
+<div class="panel">
+<h4>Worked examples</h4>
+<p>3.5 m<sup>2</sup> = 3.5 × 10 000 = <strong>35 000 cm<sup>2</sup></strong></p>
+<p>2 400 000 cm<sup>3</sup> = 2 400 000 ÷ 1 000 000 = <strong>2.4 m<sup>3</sup></strong> = 2.4 × 1000 = <strong>2400 litres</strong></p>
+</div>
+<div class="trap">
+<p>✗ 3.5 m<sup>2</sup> = 350 cm<sup>2</sup>, using the length factor for an area.<br>
+✓ Convert the <em>lengths</em> first if you are unsure: a 1 m by 1 m square is 100 cm by 100 cm, which is 10 000 cm<sup>2</sup>.</p>
+</div>
+
+<h3>Areas of flat shapes</h3>
+<p class="asked">Spec 4.9B–D · <strong>2016 Edexcel SAM 1H Q10</strong></p>
+<p><strong>Every area formula comes from the rectangle: base × perpendicular height.</strong></p>
+<div class="eq"><span class="name">Triangle and parallelogram — memorise</span>triangle = ½ × base × height &nbsp;·&nbsp; parallelogram = base × height<span class="sym">the height is perpendicular to the base, never the slanted side</span></div>
+<div class="eq"><span class="name">Area of a trapezium — on the formula sheet</span>A = ½(a + b)h<span class="sym">a and b are the parallel sides · h is the perpendicular distance between them</span></div>
+<ol>
+<li><strong>Compound shape:</strong> split it into rectangles, triangles, trapezia and parts of circles, or take a small shape away from a large one.</li>
+<li>Find any missing length first, often with Pythagoras.</li>
+<li>Add or subtract the areas. Keep full calculator values until the end.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: trapezium with parallel sides 7 cm and 11 cm, 5 cm apart</h4>
+<p>A = ½ × (7 + 11) × 5 = <strong>45 cm<sup>2</sup></strong></p>
+</div>
+<p>SAM 1H Q10 is the classic compound shape: find BC by Pythagoras, then add the right-angled triangle (½ × base × height) and the semicircle on BC. The scheme gave M1 for each of the three parts, dependent on the first. Drill D4 is the same question with new numbers.</p>
+
+<h3>Circles and semicircles</h3>
+<p class="asked">Spec 4.9E · <strong>2018 Edexcel May 1H Q6</strong></p>
+<p><strong>The circumference is π × diameter and the area is π × radius squared.</strong></p>
+<div class="eq"><span class="name">Circle — memorise</span>C = πd = 2πr &nbsp;·&nbsp; A = πr<sup>2</sup><span class="sym">not on the formula sheet · halve the diameter before squaring</span></div>
+<p>A <strong>semicircle's perimeter</strong> is half the circumference <em>plus the diameter</em>, because the straight edge is part of the boundary.</p>
+<div class="panel">
+<h4>Worked example (2018 1H Q6, numbers changed): MON is a diameter of a circle, P is on the circle, MP = 4.5 cm, PN = 8.8 cm and angle MPN = 90°. Work out the circumference.</h4>
+<p>MN<sup>2</sup> = 4.5<sup>2</sup> + 8.8<sup>2</sup> = 97.69 &nbsp; <strong>(M1)</strong></p>
+<p>MN = √97.69 = 9.8838… &nbsp; <strong>(M1)</strong></p>
+<p>Circumference = π × 9.8838… &nbsp; <strong>(M1, dependent)</strong></p>
+<p>= 31.050… = <strong>31.1 cm</strong> (3 s.f.) &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example: perimeter of a semicircle of diameter 12 cm</h4>
+<p>½ × π × 12 + 12 = 6π + 12 = <strong>30.8 cm</strong> (3 s.f.)</p>
+</div>
+
+<h3>Arcs and sectors</h3>
+<p class="asked">Spec 4.9A (Higher) · <strong>2016 Edexcel Jan 4H Q24</strong> · <strong>2017 Edexcel Jan 3HR Q21</strong> (old spec)</p>
+<p><strong>A sector with angle θ is the fraction θ/360 of the whole circle, so its arc and area are that fraction of the circumference and the area.</strong></p>
+<div class="eq"><span class="name">Arc length — memorise</span>arc = (θ/360) × 2πr<span class="sym">θ in degrees · radians are not in the spec · not on the formula sheet</span></div>
+<div class="eq"><span class="name">Sector area — memorise</span>sector area = (θ/360) × πr<sup>2</sup><span class="sym">perimeter of a sector = arc + 2r</span></div>
+<ol>
+<li>Write down θ/360 as a fraction.</li>
+<li>Arc: fraction × 2πr. Area: fraction × πr<sup>2</sup>.</li>
+<li><strong>Perimeter:</strong> add the two radii to the arc.</li>
+<li><strong>Working backwards</strong> from an area: set the formula equal to the area and solve for r<sup>2</sup>, then r.</li>
+</ol>
+<div class="panel">
+<h4>Worked example 1: sector with radius 9 cm and angle 80°</h4>
+<p>Arc = (80/360) × 2π × 9 = 4π = 12.57 cm</p>
+<p>Area = (80/360) × π × 81 = 18π = <strong>56.5 cm<sup>2</sup></strong></p>
+<p>Perimeter = 4π + 9 + 9 = <strong>30.6 cm</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example 2: a sector has angle 72° and area 45π cm<sup>2</sup>. Work out its perimeter.</h4>
+<p>(72/360) × πr<sup>2</sup> = 45π, so r<sup>2</sup> = 45 × 360 ÷ 72 = 225 &nbsp; <strong>(M1)</strong></p>
+<p>r = 15 &nbsp; <strong>(A1)</strong></p>
+<p>Arc = (72/360) × 2π × 15 = 6π &nbsp; <strong>(M1)</strong></p>
+<p>Perimeter = 6π + 15 + 15 &nbsp; <strong>(M1)</strong> = 48.849… = <strong>48.8 cm</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ Giving the arc length when the question asks for the perimeter. The two radii are part of the boundary.<br>
+✗ Using 2πr for the area, or πr<sup>2</sup> for the arc. Area has r<sup>2</sup> because it is measured in square units.</p>
+</div>
+
+<h3>Prisms and cylinders</h3>
+<p class="asked">Spec 4.10C–E · <strong>2016 Edexcel SAM 2H Q3</strong> · <strong>2018 Edexcel May 2H Q6(a)</strong></p>
+<p><strong>A prism has the same cross-section all the way through, so its volume is the area of that cross-section times its length.</strong></p>
+<div class="eq"><span class="name">Volume of a prism — on the formula sheet</span>V = area of cross-section × length<span class="sym">cuboid, triangular prism, trapezium prism, cylinder</span></div>
+<div class="eq"><span class="name">Cylinder — on the formula sheet</span>V = πr<sup>2</sup>h &nbsp;·&nbsp; curved surface area = 2πrh<span class="sym">total surface area = 2πrh + 2πr<sup>2</sup>, adding the two circular ends</span></div>
+<ol>
+<li>Find the shape that is the same all the way through: the cross-section.</li>
+<li>Work out its area.</li>
+<li>Multiply by the length (the distance between the two end faces).</li>
+<li><strong>Surface area:</strong> add the area of every face. For a cylinder, the curved surface unrolls into a rectangle 2πr long and h high.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: cylinder of radius 4 cm and height 10 cm</h4>
+<p>V = π × 4<sup>2</sup> × 10 = 160π = <strong>503 cm<sup>3</sup></strong> (3 s.f.)</p>
+<p>Curved surface = 2π × 4 × 10 = 80π · two ends = 2 × π × 16 = 32π</p>
+<p>Total surface area = 112π = <strong>352 cm<sup>2</sup></strong> (3 s.f.)</p>
+</div>
+
+<h3>Pyramids and cones</h3>
+<p class="asked">Spec 4.10A (Higher), 4.10E · <strong>2017 Edexcel Jan 4HR Q19</strong> (old spec) · <strong>2016 Edexcel SAM 1H Q19</strong></p>
+<p><strong>A pyramid or cone holds exactly one third of the prism with the same base and height.</strong></p>
+<div class="eq"><span class="name">Volume of a pyramid — memorise</span>V = ⅓ × base area × perpendicular height<span class="sym">NOT on the formula sheet · the height is from the apex straight down to the base</span></div>
+<div class="eq"><span class="name">Cone — on the formula sheet</span>V = ⅓πr<sup>2</sup>h &nbsp;·&nbsp; curved surface area = πrl<span class="sym">l = slant height · h = vertical height · l<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup></span></div>
+<ol>
+<li>Sketch the right-angled triangle inside the cone: radius r, height h, slant height l.</li>
+<li>Use Pythagoras to get whichever of r, h and l is missing.</li>
+<li>Volume uses the <strong>vertical height h</strong>. Curved surface uses the <strong>slant height l</strong>.</li>
+<li>Total surface area of a solid cone = πrl + πr<sup>2</sup> (curved surface plus the base).</li>
+</ol>
+<div class="panel">
+<h4>Worked example: cone with base radius 5 cm and height 12 cm</h4>
+<p>l = √(5<sup>2</sup> + 12<sup>2</sup>) = √169 = 13 cm</p>
+<p>V = ⅓ × π × 25 × 12 = <strong>100π</strong> = 314 cm<sup>3</sup></p>
+<p>Curved surface = π × 5 × 13 = 65π · total = 65π + 25π = <strong>90π cm<sup>2</sup></strong></p>
+<p>A square-based pyramid with base 6 cm and height 10 cm: V = ⅓ × 36 × 10 = <strong>120 cm<sup>3</sup></strong>.</p>
+</div>
+<div class="trap">
+<p>✗ Using the slant height in ⅓πr<sup>2</sup>h. The volume needs the vertical height.<br>
+✗ Forgetting the ⅓ for a pyramid: that gives the volume of a prism.<br>
+✗ Total surface area = πrl only. That is the curved part. A solid cone has a circular base too.</p>
+</div>
+
+<h3>Spheres and hemispheres</h3>
+<p class="asked">Spec 4.10A (Higher) · <strong>2018 Edexcel May 2H Q11</strong> · <strong>2015 Edexcel Jan 3HR Q18</strong> (old spec)</p>
+<p><strong>A sphere's volume depends on r<sup>3</sup> and its surface area on r<sup>2</sup>; a hemisphere is half of each, plus a flat circle if it is solid.</strong></p>
+<div class="eq"><span class="name">Sphere — on the formula sheet</span>V = (4/3)πr<sup>3</sup> &nbsp;·&nbsp; surface area = 4πr<sup>2</sup><span class="sym">hemisphere: V = (2/3)πr<sup>3</sup> · curved surface 2πr<sup>2</sup> · solid hemisphere total 3πr<sup>2</sup></span></div>
+<div class="panel">
+<h4>Worked examples</h4>
+<p>Sphere, radius 6 cm: V = (4/3) × π × 216 = 288π = <strong>905 cm<sup>3</sup></strong> · SA = 4π × 36 = 144π = <strong>452 cm<sup>2</sup></strong></p>
+<p>Solid hemisphere, radius 5 cm: V = (2/3) × π × 125 = <strong>262 cm<sup>3</sup></strong> · total SA = 2π × 25 + π × 25 = 75π = <strong>236 cm<sup>2</sup></strong></p>
+</div>
+<div class="trap">
+<p>✗ Putting the diameter into the formula. 2015 3HR Q18 gave a diameter of 18.6 cm: r = 9.3.<br>
+✗ Hemisphere surface = 2πr<sup>2</sup> for a solid hemisphere. Add the flat circle: 3πr<sup>2</sup>.</p>
+</div>
+
+<h3>Frustums and composite solids</h3>
+<p class="asked">Spec 4.10 · <strong>2018 Edexcel May 1H Q16</strong></p>
+<p><strong>A frustum is a large cone with a similar small cone cut off the top, so its volume is the large cone minus the small cone.</strong></p>
+<ol>
+<li>Find the small cone's dimensions from the similar triangles (or the scale factor).</li>
+<li>Volume of frustum = volume of large cone − volume of small cone.</li>
+<li><strong>Composite solids</strong> (a cone on a hemisphere, a cylinder with a hemisphere on top): add the volumes. For surface area, only count faces on the outside.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: a cone of radius 6 cm and height 16 cm has the top 8 cm cut off</h4>
+<p>The small cone is similar with scale factor 8/16 = ½, so its radius is 3 cm.</p>
+<p>V = ⅓π(6<sup>2</sup> × 16) − ⅓π(3<sup>2</sup> × 8) = ⅓π(576 − 72) = 168π = <strong>528 cm<sup>3</sup></strong> (3 s.f.)</p>
+<p>Check with the volume scale factor: the small cone is (½)<sup>3</sup> = ⅛ of the large one, so the frustum is ⅞ of 192π = 168π.</p>
+</div>
+
+<h3>Exact answers and algebraic volumes</h3>
+<p class="asked">Spec 4.10 · <strong>2017 Edexcel Jan 4HR Q19</strong> · <strong>2016 Edexcel Jan 3H Q19</strong> (old spec)</p>
+<p><strong>"Give your answer as a multiple of π" or "in terms of π" means leave π as a symbol and do not use the π button.</strong></p>
+<ol>
+<li>Write every formula with π in it.</li>
+<li>If both sides of an equation contain π, divide it out.</li>
+<li>Solve for the unknown, then write the answer as a number × π.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: a cylinder has height equal to twice its radius and volume 54π cm<sup>3</sup>. Find the radius.</h4>
+<p>πr<sup>2</sup>(2r) = 54π, so 2r<sup>3</sup> = 54 and r<sup>3</sup> = 27</p>
+<p><strong>r = 3 cm</strong></p>
+</div>
+<p>Jan 16 3H Q19 is the algebraic version: a sphere and a cone of equal volume. Write both volumes, cancel π and the common powers of r, and rearrange for r. Drill D8 is one.</p>
+
+<h3>Similar shapes: lengths</h3>
+<p class="asked">Spec 4.11A (Foundation) · <strong>2018 Edexcel May 2H Q6(b)</strong> · <strong>2017 Edexcel Jan 4HR Q14</strong> (old spec)</p>
+<p><strong>Similar shapes have equal angles and every length multiplied by the same scale factor k.</strong></p>
+<div class="eq"><span class="name">Length scale factor — memorise</span>k = new length ÷ corresponding old length<span class="sym">use one pair of matching sides to find k, then multiply or divide every other length by it</span></div>
+<ol>
+<li>Match the corresponding sides. Redraw the two shapes the same way round if they are nested or flipped.</li>
+<li>Find k from a pair of lengths you know in both shapes.</li>
+<li>Big from small: × k. Small from big: ÷ k.</li>
+<li>For nested triangles (a line parallel to one side), use the <strong>whole</strong> side of the big triangle, not the extra piece.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: in triangle ABC, D is on AB and E is on AC with DE parallel to BC. AD = 4 cm, AB = 10 cm, DE = 6 cm. Find BC.</h4>
+<p>Triangles ADE and ABC are similar (corresponding angles are equal). k = 10 ÷ 4 = 2.5</p>
+<p>BC = 6 × 2.5 = <strong>15 cm</strong></p>
+</div>
+<div class="trap">
+<p>✗ Using DB = 6 as the big side. The big triangle's side is AB, the whole length.<br>
+✗ Adding instead of multiplying: "AB is 6 more than AD, so BC is 6 more than DE". Similar means multiply.</p>
+</div>
+
+<h3>Similar shapes: area and volume</h3>
+<p class="asked">Spec 4.11A–C (Higher) · <strong>2016 Edexcel SAM 2H Q18</strong> · <strong>2018 Edexcel May 1H Q16</strong></p>
+<p><strong>If lengths are multiplied by k, areas are multiplied by k<sup>2</sup> and volumes by k<sup>3</sup>.</strong></p>
+<div class="eq"><span class="name">Area and volume scale factors — memorise</span>length × k &nbsp;·&nbsp; area × k<sup>2</sup> &nbsp;·&nbsp; volume × k<sup>3</sup><span class="sym">surface area and cross-section are areas · mass and capacity scale like volume</span></div>
+<ol>
+<li>Find the scale factor you are <strong>given</strong> (length, area or volume).</li>
+<li>Turn it into the <strong>length</strong> scale factor: square root an area ratio, cube root a volume ratio.</li>
+<li>Turn the length factor into the one you <strong>need</strong>: square it for area, cube it for volume.</li>
+</ol>
+<div class="panel">
+<h4>Worked example 1: two similar bottles are 10 cm and 15 cm tall. The small one holds 400 cm<sup>3</sup>.</h4>
+<p>k = 15 ÷ 10 = 1.5 · volume factor = 1.5<sup>3</sup> = 3.375</p>
+<p>Large bottle = 400 × 3.375 = <strong>1350 cm<sup>3</sup></strong></p>
+</div>
+<div class="panel">
+<h4>Worked example 2: solids A and B are similar with surface areas 50 cm<sup>2</sup> and 72 cm<sup>2</sup>. A has volume 250 cm<sup>3</sup>. Find the volume of B.</h4>
+<p>Area factor = 72/50 = 36/25, so length factor k = √(36/25) = 6/5 &nbsp; <strong>(M1)</strong></p>
+<p>Volume of B = 250 × (6/5)<sup>3</sup> = 250 × 216/125 &nbsp; <strong>(M1)</strong> = <strong>432 cm<sup>3</sup></strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example 3 (2018 1H Q16, numbers changed): volume of frustum ÷ volume of large cone = 26/27. The large cone has height h. Find the height of the frustum.</h4>
+<p>Small cone ÷ large cone = 1 − 26/27 = 1/27 &nbsp; <strong>(M1)</strong></p>
+<p>Length scale factor = ∛(1/27) = 1/3 &nbsp; <strong>(M1)</strong></p>
+<p>Height of frustum = h − ⅓h &nbsp; <strong>(M1)</strong> = <strong>⅔h</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ Multiplying the volume by the area ratio 72/50. Areas and volumes scale differently: go through the length factor.<br>
+✗ Taking the cube root of 98/125 in the 2018 question. That ratio compared the <em>frustum</em> with the large cone. The frustum is not similar to anything: first find the small cone, 1 − 98/125 = 27/125.</p>
+</div>
+
+<h3>Compound measures: speed, density and pressure</h3>
+<p class="asked">Spec 4.4F–G · <strong>2016 Edexcel SAM 1H Q1</strong> · <strong>2018 Edexcel May 2H Q11</strong> · <strong>2016 Edexcel SAM 2H Q3</strong></p>
+<p><strong>A compound measure is one quantity per unit of another, so it is always a division, and its units say which.</strong></p>
+<div class="eq"><span class="name">Speed — memorise</span>speed = distance ÷ time<span class="sym">km/h: kilometres per hour · time in hours as a decimal: 45 minutes = 0.75 h</span></div>
+<div class="eq"><span class="name">Density — memorise</span>density = mass ÷ volume<span class="sym">g/cm<sup>3</sup> · mass = density × volume</span></div>
+<div class="eq"><span class="name">Pressure</span>pressure = force ÷ area<span class="sym">N/m<sup>2</sup> · the spec says the pressure formula will be given</span></div>
+<ol>
+<li>Write the formula in words first.</li>
+<li>Convert the units so they match the answer's units: minutes to hours, cm<sup>3</sup> or m<sup>3</sup>, and so on.</li>
+<li>Substitute and calculate. Rearrange if you need mass, time or force.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples</h4>
+<p><strong>Speed:</strong> 420 km in 5 hours 36 minutes. 36 minutes = 36/60 = 0.6 h. Speed = 420 ÷ 5.6 = <strong>75 km/h</strong>.</p>
+<p><strong>Converting:</strong> 72 km/h = 72 000 m ÷ 3600 s = <strong>20 m/s</strong>.</p>
+<p><strong>Density:</strong> gold has density 19.3 g/cm<sup>3</sup>. A 12 cm<sup>3</sup> bar has mass 19.3 × 12 = <strong>231.6 g</strong>.</p>
+<p><strong>Pressure:</strong> a force of 800 N on 0.5 m<sup>2</sup> gives 800 ÷ 0.5 = <strong>1600 N/m<sup>2</sup></strong>.</p>
+</div>
+<div class="trap">
+<p>SAM 1H Q1 (7800 km in 9 h 45 min) gave M1 for <span class="said">"7800 ÷ 9.45"</span>, but only as a lesser method mark: the answer 800 needed 9.75 hours.</p>
+<p>✗ 9 hours 45 minutes = 9.45 hours.<br>
+✓ 45 minutes = 45/60 = 0.75 hours, so 9.75 hours.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>What you must memorise (not on the formula sheet)</h4>
+<p><strong>Circle:</strong> C = πd · A = πr<sup>2</sup> · <strong>arc</strong> = (θ/360) × 2πr · <strong>sector</strong> = (θ/360) × πr<sup>2</sup> · sector perimeter = arc + 2r.</p>
+<p><strong>Triangle</strong> ½bh · <strong>parallelogram</strong> bh · <strong>pyramid</strong> ⅓ × base × height.</p>
+<p><strong>Similarity:</strong> length × k, area × k<sup>2</sup>, volume × k<sup>3</sup>. Always go through k.</p>
+<p><strong>Units:</strong> 1 m<sup>2</sup> = 10 000 cm<sup>2</sup> · 1 m<sup>3</sup> = 1 000 000 cm<sup>3</sup> · 1 litre = 1000 cm<sup>3</sup>.</p>
+<p><strong>Compound:</strong> speed = distance ÷ time · density = mass ÷ volume · pressure = force ÷ area.</p>
+<p><strong>On the formula sheet:</strong> trapezium ½(a + b)h · prism · cylinder πr<sup>2</sup>h and 2πrh · cone ⅓πr<sup>2</sup>h and πrl · sphere (4/3)πr<sup>3</sup> and 4πr<sup>2</sup>.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Prism</td><td>A solid with the <strong>same cross-section</strong> all the way through</td></tr>
+<tr><td>Cross-section</td><td>The shape of the <strong>cut</strong> across a solid, at right angles to its length</td></tr>
+<tr><td>Slant height</td><td>The distance from the apex of a cone to the <strong>edge of the base</strong>, along the surface</td></tr>
+<tr><td>Frustum</td><td>The part of a cone left when the <strong>top is cut off parallel to the base</strong></td></tr>
+<tr><td>Arc</td><td>Part of the <strong>circumference</strong> of a circle</td></tr>
+<tr><td>Sector</td><td>The region between <strong>two radii and an arc</strong></td></tr>
+<tr><td>Similar</td><td>The <strong>same shape</strong>: equal angles, with all lengths in the <strong>same ratio</strong></td></tr>
+<tr><td>Scale factor</td><td>The number every <strong>length</strong> is multiplied by to get the similar shape</td></tr>
+<tr><td>Density</td><td><strong>Mass per unit volume</strong>: mass ÷ volume</td></tr>
+<tr><td>Face, edge, vertex</td><td>A flat <strong>surface</strong> of a solid · a line where two faces <strong>meet</strong> · a <strong>corner</strong></td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">9 h 45 min = 9.45 h</td><td class="yes">45 min = 45/60 h, so <strong>9.75 h</strong></td></tr>
+<tr><td class="no">3 m<sup>2</sup> = 300 cm<sup>2</sup></td><td class="yes">3 m<sup>2</sup> = <strong>30 000 cm<sup>2</sup></strong></td></tr>
+<tr><td class="no">perimeter of sector = arc</td><td class="yes">perimeter = arc <strong>+ 2r</strong></td></tr>
+<tr><td class="no">volume of cone = ⅓πr<sup>2</sup>l</td><td class="yes">volume uses the <strong>vertical height</strong> h; the slant height l is for the curved surface</td></tr>
+<tr><td class="no">volume B = volume A × area ratio</td><td class="yes">area ratio → √ → k → <strong>k<sup>3</sup></strong> → volume</td></tr>
+<tr><td class="no">a rounded r used in the next step</td><td class="yes">keep the <strong>full calculator value</strong>; round only the final answer</td></tr>
+<tr><td class="no">answer 452 when asked "in terms of π"</td><td class="yes"><strong>144π</strong></td></tr>
+<tr><td class="no">31.1 (no units)</td><td class="yes">31.1 <strong>cm</strong> · areas in cm<sup>2</sup> · volumes in cm<sup>3</sup></td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>A shape is enlarged by scale factor 3. Why does its area become 9 times as big, not 3 times?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Area is a length times a length. Both lengths are multiplied by 3, so the area is multiplied by 3 × 3 = <strong>9</strong>.</p>
+<p>You can see it with squares: a 1 cm square enlarged by 3 becomes a 3 cm square, which holds nine of the original squares. Volume has three lengths, so it goes up by 3<sup>3</sup> = 27.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why is 1 m<sup>3</sup> equal to 1 000 000 cm<sup>3</sup> and not 100 cm<sup>3</sup>?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A 1 m cube is 100 cm long, 100 cm wide and 100 cm high. Its volume in cm<sup>3</sup> is 100 × 100 × 100 = <strong>1 000 000</strong>.</p>
+<p>The conversion factor is applied once for each dimension: once for length, twice for area, three times for volume. It is the same idea as the scale factors in U1.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why does the arc length formula have 2πr, while the sector area formula has πr<sup>2</sup>?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The arc is a <strong>fraction of the circumference</strong>, which is a length: 2πr. The sector is a <strong>fraction of the whole circle's area</strong>: πr<sup>2</sup>.</p>
+<p>In both, the fraction is θ/360, because a sector of angle θ is θ/360 of a full turn. A quick check: r<sup>2</sup> only appears in things measured in square units.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>What goes wrong if you use the slant height in the cone volume formula, and why?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The volume is ⅓ × base area × <strong>perpendicular height</strong>, the distance straight up from the base to the apex. The slant height is longer (it is the hypotenuse of the triangle r, h, l), so the answer comes out too big.</p>
+<p>The curved surface formula πrl uses l because the surface unrolls into a sector whose radius is the slant height.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>In the 2018 frustum question, why can you not take the cube root of 98/125 to get a scale factor?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Scale factors only exist between <strong>similar</strong> shapes. The frustum is not similar to the large cone: it has a flat top, the cone has a point.</p>
+<p>The similar pair is the small cone and the large cone. The small cone is 1 − 98/125 = <strong>27/125</strong> of the large one, so k = ∛(27/125) = 3/5. The small cone's height is (3/5)h, and the frustum's is h − (3/5)h = (2/5)h.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>A solid hemisphere has total surface area 3πr<sup>2</sup>. Explain where the 3 comes from.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The curved part is half of a sphere's surface: ½ × 4πr<sup>2</sup> = <strong>2πr<sup>2</sup></strong>.</p>
+<p>The flat face is a circle of radius r: <strong>πr<sup>2</sup></strong>. Together: 2πr<sup>2</sup> + πr<sup>2</sup> = 3πr<sup>2</sup>. A hollow bowl has only the 2πr<sup>2</sup>.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>A car travels 60 km at 30 km/h, then 60 km at 60 km/h. Why is its average speed not 45 km/h?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Average speed = <strong>total distance ÷ total time</strong>. The first 60 km takes 2 hours and the second takes 1 hour, so it is 120 km in 3 hours: <strong>40 km/h</strong>.</p>
+<p>The car spends longer at the slower speed, so the slow speed counts for more. Averaging the two speeds ignores that.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Two similar jugs have heights in the ratio 2 : 3. A student says the larger jug holds 1.5 times as much. What is the correct factor, and why?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The length scale factor is 3/2 = 1.5. Capacity is a volume, so it scales by k<sup>3</sup> = 1.5<sup>3</sup> = <strong>3.375</strong>.</p>
+<p>The jug is 1.5 times as tall, 1.5 times as wide and 1.5 times as deep, and all three multiply.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>A train travels 6300 km in 8 hours 24 minutes. Work out its average speed in kilometres per hour. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 24 minutes = 0.4 hours, so 8.4 hours <span class="mp">1</span></p>
+<p>M1 for 6300 ÷ 8.4 <span class="mp">1</span></p>
+<p>A1 for <strong>750 km/h</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>A solid prism is 20 cm long. Its cross-section is a trapezium with parallel sides 8 cm and 12 cm, 5 cm apart. The prism is made from wood with density 0.8 g/cm<sup>3</sup>. Work out the mass of the prism. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for ½ × (8 + 12) × 5 = 50 cm<sup>2</sup> <span class="mp">1</span></p>
+<p>M1 (dependent) for 50 × 20 = 1000 cm<sup>3</sup> <span class="mp">1</span></p>
+<p>M1 for 1000 × 0.8 <span class="mp">1</span></p>
+<p>A1 for <strong>800 g</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>A sector of a circle has angle 40° and area 16π cm<sup>2</sup>. Work out the perimeter of the sector. Give your answer correct to 3 significant figures. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (40/360) × πr<sup>2</sup> = 16π <span class="mp">1</span></p>
+<p>A1 for r<sup>2</sup> = 144, r = 12 <span class="mp">1</span></p>
+<p>M1 for arc = (40/360) × 2 × π × 12 (= 8.377…) <span class="mp">1</span></p>
+<p>M1 for arc + 12 + 12 <span class="mp">1</span></p>
+<p>A1 for <strong>32.4 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>A shape is made from triangle ABC and a semicircle with diameter BC. Triangle ABC is right-angled at B. AB = 8.4 cm and AC = 10.5 cm. Calculate the area of the shape. Give your answer correct to 3 significant figures. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for √(10.5<sup>2</sup> − 8.4<sup>2</sup>) <span class="mp">1</span></p>
+<p>A1 for BC = 6.3 <span class="mp">1</span></p>
+<p>M1 (dependent) for ½ × 8.4 × 6.3 = 26.46 <span class="mp">1</span></p>
+<p>M1 (dependent) for ½ × π × 3.15<sup>2</sup> = 15.586… <span class="mp">1</span></p>
+<p>A1 for <strong>42.0 cm<sup>2</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>Cylinder A has radius 0.45 m and height 1.2 m.</p>
+<p>(a) Work out the curved surface area of cylinder A. Give your answer in m<sup>2</sup> correct to 3 significant figures. <span class="marks">(2)</span></p>
+<p>Cylinder B is mathematically similar to cylinder A. The height of cylinder B is 0.8 m.</p>
+<p>(b) Work out the radius of cylinder B. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 2 × π × 0.45 × 1.2 <span class="mp">1</span>; A1 for <strong>3.39 m<sup>2</sup></strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for scale factor 0.8/1.2 (= 2/3), or r/0.45 = 0.8/1.2 <span class="mp">1</span>; A1 for <strong>0.3 m</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>A solid hemisphere has diameter 14.2 cm. Work out its volume. Give your answer correct to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for r = 7.1 <span class="mp">1</span></p>
+<p>M1 for ½ × (4/3) × π × 7.1<sup>3</sup> <span class="mp">1</span></p>
+<p>A1 for 749.6… = <strong>750 cm<sup>3</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>A solid cone has base radius 8 cm. The total surface area of the cone is 144π cm<sup>2</sup>. Work out the volume of the cone. Give your answer as a multiple of π. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for π × 8 × l + π × 8<sup>2</sup> = 144π <span class="mp">1</span></p>
+<p>A1 for l = 10 <span class="mp">1</span></p>
+<p>M1 for h = √(10<sup>2</sup> − 8<sup>2</sup>) = 6 <span class="mp">1</span></p>
+<p>M1 for ⅓ × π × 8<sup>2</sup> × 6 <span class="mp">1</span></p>
+<p>A1 for <strong>128π cm<sup>3</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>A sphere has radius r cm. A cone has height h cm, and the radius of its base is 4 times the radius of the sphere. The volume of the sphere equals the volume of the cone. Find an expression for r in terms of h, in its simplest form. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (4/3)πr<sup>3</sup> and ⅓π(4r)<sup>2</sup>h <span class="mp">1</span></p>
+<p>M1 for (4/3)πr<sup>3</sup> = (16/3)πr<sup>2</sup>h, so 4r = 16h <span class="mp">1</span></p>
+<p>A1 for <strong>r = 4h</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>Solid A and solid B are mathematically similar. Solid A has surface area 250 cm<sup>2</sup> and solid B has surface area 640 cm<sup>2</sup>. Solid B has volume 2048 cm<sup>3</sup>. Calculate the volume of solid A. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for the length scale factor √(250/640) = 5/8 (or 8/5) <span class="mp">1</span></p>
+<p>M1 for (5/8)<sup>3</sup> × 2048 <span class="mp">1</span></p>
+<p>A1 for <strong>500 cm<sup>3</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>A frustum is made by removing a small cone from a large cone. The cones are mathematically similar. The large cone has height h cm. Given that volume of frustum ÷ volume of large cone = 19/27, find an expression, in terms of h, for the height of the frustum. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 1 − 19/27 = 8/27 <span class="mp">1</span></p>
+<p>M1 for the length scale factor ∛(8/27) = 2/3 <span class="mp">1</span></p>
+<p>M1 for h − (2/3)h <span class="mp">1</span></p>
+<p>A1 for <strong>(1/3)h</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>In triangle ABC, D is on AB and E is on AC, with DE parallel to BC. AD = 6 cm, DB = 4 cm, DE = 9 cm and AE = 7.2 cm.</p>
+<p>(a) Work out the length of BC. <span class="marks">(2)</span><br>
+(b) Work out the length of EC. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for scale factor 10/6 (AB = 6 + 4 = 10) <span class="mp">1</span>; A1 for <strong>15 cm</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for AC = 7.2 × 10/6 = 12 <span class="mp">1</span>; A1 for EC = 12 − 7.2 = <strong>4.8 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Two mathematically similar vases have heights 12 cm and 18 cm.</p>
+<p>(a) The surface area of the smaller vase is 320 cm<sup>2</sup>. Work out the surface area of the larger vase. <span class="marks">(2)</span><br>
+(b) The volume of the larger vase is 1350 cm<sup>3</sup>. Work out the volume of the smaller vase. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 320 × 1.5<sup>2</sup> <span class="mp">1</span>; A1 for <strong>720 cm<sup>2</sup></strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 1350 ÷ 1.5<sup>3</sup> <span class="mp">1</span>; A1 for <strong>400 cm<sup>3</sup></strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>A cylindrical tank has radius 40 cm. It contains 150 litres of water. Work out the depth of the water. Give your answer correct to 3 significant figures. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for 150 litres = 150 000 cm<sup>3</sup> <span class="mp">1</span></p>
+<p>M1 for π × 40<sup>2</sup> × h = 150 000 <span class="mp">1</span></p>
+<p>M1 for h = 150 000 ÷ (1600π) <span class="mp">1</span></p>
+<p>A1 for <strong>29.8 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A pyramid has a square base of side 10 cm. Its apex is vertically above the centre of the base. The volume of the pyramid is 400 cm<sup>3</sup>.</p>
+<p>(a) Work out the height of the pyramid. <span class="marks">(2)</span><br>
+(b) Work out the distance from the apex to the midpoint of one edge of the base. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for ⅓ × 10<sup>2</sup> × h = 400 <span class="mp">1</span>; A1 for <strong>12 cm</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for √(12<sup>2</sup> + 5<sup>2</sup>) = <strong>13 cm</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>pressure = force ÷ area. A box exerts a force of 540 newtons on a floor. The base of the box is a rectangle 1.2 m by 0.75 m.</p>
+<p>(a) Work out the pressure on the floor, in newtons/m<sup>2</sup>. <span class="marks">(2)</span><br>
+(b) The box is turned so the area in contact with the floor is halved. What happens to the pressure? <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 540 ÷ (1.2 × 0.75) <span class="mp">1</span>; A1 for <strong>600 N/m<sup>2</sup></strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for the pressure <strong>doubles</strong> (to 1200 N/m<sup>2</sup>) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 10 · Mensuration and Similarity · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>

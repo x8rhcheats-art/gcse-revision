@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 12 · Vectors and Transformations — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 12 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Vectors and Transformations</h1>
+  <p class="standfirst">Two topics that share one idea: movement described precisely. Column vectors and the "show by a vector method" proof sit near the end of Paper 1H, worth five marks each time. Transformations come earlier and are nearly free, as long as you say every detail and describe <em>one</em> transformation, not two.</p>
+  <div class="meta">
+    <span class="tag"><strong>~4% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>5.1 A–G, 5.2 A–M</strong></span>
+    <span class="tag">Appeared in <strong>3 of the 4</strong> dated 4MA1 papers here</span>
+    <span class="tag">Est. <strong>3 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q17 <span class="marks">(5)</span></td><td>Parallelogram ABCD with <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> as column vectors and B given: find the coordinates of C, then use a vector method to prove that ABE is a straight line</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q22 <span class="marks">(5)</span></td><td>Trapezium ABCD, with AB and DC given as multiples of <strong>a</strong>. E divides DB in the ratio 1 : 2. Show by a vector method that BC is parallel to AE</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q6 <span class="marks">(4)</span></td><td>Translate a triangle by a column vector, then describe fully the single transformation (a rotation) that maps A onto B</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q9 <span class="marks">(6)</span></td><td>Old spec. Describe fully an enlargement with scale factor 3, translate by a column vector, then describe the enlargement back, with a fractional scale factor</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q21 <span class="marks">(5)</span></td><td>Old spec. Vectors in a shape, then show by a vector method that BC is parallel to AE</td></tr>
+<tr><td>2016 Edexcel Jan 3HR Q19 <span class="marks">(6)</span></td><td>Old spec. Mark 3<strong>a</strong> + 4<strong>b</strong> on a grid, find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">QR<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, then show <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MN<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <em>k</em><strong>a</strong> using points that divide lines in given fractions</td></tr>
+<tr><td>2016 Edexcel Jan 3HR Q3 <span class="marks">(6)</span></td><td>Old spec. Describe fully the transformation mapping P onto Q; enlarge P with scale factor 3, centre O</td></tr>
+<tr><td>2012 Edexcel Jan 4H Q12 <span class="marks">(6)</span></td><td>Old spec. Describe two single transformations and translate a triangle by a column vector</td></tr>
+<tr><td>2012 Edexcel Jan 4H Q22 <span class="marks">(5)</span></td><td>Old spec. Use a vector method to prove that DEF is a straight line</td></tr>
+</table>
+
+<div class="trap">
+<p>From the SAM 2H mark scheme, Q6(b), on "describe fully the single transformation":</p>
+<p><span class="said">"NB. If more than one transformation then no marks can be awarded"</span></p>
+<p>Write <strong>one</strong> transformation with every detail. "Rotation then translation" scores zero, even if both halves are right.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>A vector is a movement: how far, and which way. Once you can add movements, you can find any route through a diagram, and proofs about parallel lines and straight lines become algebra. Transformations are the second half: four ways to move a shape, each with a fixed list of details the examiner is waiting for.</p>
+<p>Notation in this module: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> is the vector from A to B (in the exam it is written with an arrow over it, as here). A bold lower-case letter such as <strong>a</strong> is a vector (handwritten with a wavy line underneath). <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>−2</span></span> is a column vector: 3 right, 2 down.</p>
+
+<h3>What a vector is and how it is written</h3>
+<p class="asked">Spec 5.1A, 5.1B · <strong>2018 Edexcel May 1H Q17</strong></p>
+<p><strong>A vector has both a size (magnitude) and a direction; a column vector gives the movement across on top and the movement up underneath.</strong></p>
+<ol>
+<li>Top number: <strong>x-movement</strong>. Positive is right, negative is left.</li>
+<li>Bottom number: <strong>y-movement</strong>. Positive is up, negative is down.</li>
+<li>To get the vector from A to B, subtract coordinates: <strong><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = B − A</strong> (end minus start).</li>
+<li>Going the opposite way flips every sign: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: A(2, −1) and B(7, 3)</h4>
+<p><strong>1.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = end − start = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>7−2</span><span>3−(−1)</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>5</span><span>4</span></span> <span class="mp">1</span></p>
+<p><strong>2.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−5</span><span>−4</span></span></p>
+<p>A number without direction, such as a length or a scale factor, is a <strong>scalar</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = A − B, giving <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−5</span><span>−4</span></span>: start minus end reverses the direction.<br>
+✗ Writing a column vector as coordinates, (5, 4), or with a fraction line between the numbers.<br>
+✓ <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = B − A = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>5</span><span>4</span></span>, written as a column with no line.</p>
+</div>
+
+<h3>Adding, subtracting and multiplying by a number</h3>
+<p class="asked">Spec 5.1C, 5.1D</p>
+<p><strong>Column vectors are added, subtracted and multiplied by a scalar one row at a time.</strong></p>
+<ol>
+<li>Multiply first: every number in the vector is multiplied by the scalar.</li>
+<li>Then add or subtract the tops, and separately the bottoms.</li>
+<li>Take extra care with "minus a negative".</li>
+</ol>
+<div class="panel">
+<h4>Worked example: <strong>a</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>−2</span></span>, <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−1</span><span>4</span></span>. Find 2<strong>a</strong> − 3<strong>b</strong></h4>
+<p><strong>1.</strong> 2<strong>a</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>6</span><span>−4</span></span> and 3<strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−3</span><span>12</span></span> <span class="mp">M1</span></p>
+<p><strong>2.</strong> Tops: 6 − (−3) = 9. Bottoms: −4 − 12 = −16.</p>
+<p><strong>3.</strong> 2<strong>a</strong> − 3<strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>9</span><span>−16</span></span> <span class="mp">A1</span></p>
+</div>
+<p>A scalar multiple points the same way (or exactly the opposite way, if negative). That single fact is behind every parallel-line proof later on.</p>
+<div class="trap">
+<p>✗ 6 − (−3) = 3.<br>
+✓ 6 − (−3) = 6 + 3 = 9. Write the subtraction with brackets before you simplify it.</p>
+</div>
+
+<h3>Magnitude (modulus) of a vector</h3>
+<p class="asked">Spec 5.1E</p>
+<p><strong>The magnitude of a vector is its length, found by Pythagoras on its two components.</strong></p>
+<div class="eq"><span class="name">Magnitude of a column vector</span>|<span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>x</span><span>y</span></span>| = √(x<sup>2</sup> + y<sup>2</sup>)<span class="sym">x and y are the components · the answer is a length, so it is never negative</span></div>
+<ol>
+<li>Simplify the vector into a single column first.</li>
+<li>Square each component. A negative squared is positive.</li>
+<li>Add, square root, and round only at the end.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: <strong>a</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>1</span></span>, <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−2</span><span>5</span></span>. Find |2<strong>a</strong> − <strong>b</strong>|</h4>
+<p><strong>1.</strong> 2<strong>a</strong> − <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>6−(−2)</span><span>2−5</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>8</span><span>−3</span></span> <span class="mp">M1</span></p>
+<p><strong>2.</strong> √(8<sup>2</sup> + (−3)<sup>2</sup>) = √(64 + 9) = √73 <span class="mp">M1</span></p>
+<p><strong>3.</strong> = 8.544… = <strong>8.54</strong> (3 s.f.) <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>✗ |<strong>a</strong>| + |<strong>b</strong>| for |<strong>a</strong> + <strong>b</strong>|. Two separate lengths do not add unless the vectors point the same way.<br>
+✗ √(8<sup>2</sup> − 3<sup>2</sup>): the minus sign disappears when you square.<br>
+✓ Combine the vectors first, then use √(x<sup>2</sup> + y<sup>2</sup>).</p>
+</div>
+
+<h3>Using vectors to find coordinates</h3>
+<p class="asked">Spec 5.1B, 5.1F · <strong>2018 Edexcel May 1H Q17(a)</strong></p>
+<p><strong>A position plus a vector gives a new position: start point + movement = end point.</strong></p>
+<ol>
+<li>Write down what you know as a chain of points, e.g. B, then A, then C.</li>
+<li>To go backwards along a vector, subtract it. To go forwards, add it.</li>
+<li>In a parallelogram ABCD, opposite sides are equal vectors: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>5</span></span>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>9</span><span>8</span></span>, B is (4, 6). Find C.</h4>
+<p><strong>1.</strong> A = B − <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = (4 − 3, 6 − 5) = (1, 1) <span class="mp">M1</span></p>
+<p><strong>2.</strong> C = A + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = (1 + 9, 1 + 8) <span class="mp">M1</span></p>
+<p><strong>3.</strong> C = <strong>(10, 9)</strong> <span class="mp">A1</span></p>
+<p>Or in one step: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−3+9</span><span>−5+8</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>6</span><span>3</span></span>, and (4 + 6, 6 + 3) = (10, 9).</p>
+</div>
+
+<h3>Routes through a diagram (resultant vectors)</h3>
+<p class="asked">Spec 5.1F · <strong>2016 Edexcel SAM 1H Q22</strong></p>
+<p><strong>To find a vector between two points, travel there along any route made of vectors you already know.</strong></p>
+<ol>
+<li>Write the route as a sum of letters: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>. The inner letters must chain (A to A, B to B).</li>
+<li>Replace each piece with its vector. Going <strong>against</strong> an arrow, use the negative.</li>
+<li>Collect the <strong>a</strong> terms and the <strong>b</strong> terms and simplify.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<strong>a</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2<strong>b</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>c</strong></h4>
+<p><strong>1.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<strong>a</strong> + 2<strong>b</strong> + <strong>c</strong></p>
+<p><strong>2.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">CA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">CB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −<strong>c</strong> − 2<strong>b</strong></p>
+<p>The most-used route of all: if <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>, then <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AO<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>−a + b</strong> = <strong>b − a</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> − <strong>b</strong> when <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>.<br>
+✓ <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong>. "End minus start" works for position vectors too.</p>
+</div>
+
+<h3>Points that divide a line in a ratio</h3>
+<p class="asked">Spec 5.1F, 5.1G · <strong>2016 Edexcel SAM 1H Q22</strong> · <strong>2016 Edexcel Jan 3HR Q19</strong></p>
+<p><strong>If P divides AB in the ratio m : n, then <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> is m/(m + n) of <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</strong></p>
+<ol>
+<li>Add the ratio parts to get the denominator: AP : PB = 2 : 3 means AP is 2/5 of AB, not 2/3.</li>
+<li>Find the whole vector <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> first, as a route.</li>
+<li><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = (fraction) × <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, then <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</li>
+<li>The midpoint is the ratio 1 : 1, so its fraction is 1/2.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>, P on AB with AP : PB = 1 : 3. Find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</h4>
+<p><strong>1.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong> <span class="mp">B1</span></p>
+<p><strong>2.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 1/4(<strong>b</strong> − <strong>a</strong>), because 1 + 3 = 4 parts <span class="mp">M1</span></p>
+<p><strong>3.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> + 1/4(<strong>b</strong> − <strong>a</strong>) = <strong>3/4 a + 1/4 b</strong> <span class="mp">A1</span></p>
+<p>Check: the coefficients add up to 1 (3/4 + 1/4). For a point on the line AB they always do.</p>
+</div>
+<div class="trap">
+<p>✗ AP : PB = 1 : 3, so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 1/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.<br>
+✓ 1 : 3 is 4 parts in total, so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 1/4 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">PB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3/4 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</p>
+</div>
+
+<h3>Proving two lines are parallel</h3>
+<p class="asked">Spec 5.1G · <strong>2016 Edexcel SAM 1H Q22</strong> · <strong>2014 Edexcel Jan 3H Q21</strong></p>
+<p><strong>Two vectors are parallel if one is a scalar multiple of the other, so the proof is: find both vectors, then show one equals a number times the other.</strong></p>
+<ol>
+<li>Find the first vector by a route, in terms of <strong>a</strong> and <strong>b</strong>. Simplify fully.</li>
+<li>Find the second vector the same way.</li>
+<li>Factorise each so the same bracket appears, e.g. 2(<strong>b</strong> + 2<strong>a</strong>) and 3(<strong>b</strong> + 2<strong>a</strong>).</li>
+<li>Write the conclusion: "<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, so AE is parallel to BC."</li>
+</ol>
+<div class="panel">
+<h4>Worked example: trapezium ABCD, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 6<strong>a</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2<strong>b</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 9<strong>a</strong>. E is on DB with DE : EB = 1 : 2. Show that AE is parallel to BC.</h4>
+<p><strong>1.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> (a route) <span class="mp">M1</span></p>
+<p><strong>2.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −2<strong>b</strong> + 6<strong>a</strong>, so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 1/3(6<strong>a</strong> − 2<strong>b</strong>) = 2<strong>a</strong> − 2/3<strong>b</strong> <span class="mp">M1</span></p>
+<p><strong>3.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2<strong>b</strong> + 2<strong>a</strong> − 2/3<strong>b</strong> = 2<strong>a</strong> + 4/3<strong>b</strong> <span class="mp">A1</span></p>
+<p><strong>4.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −6<strong>a</strong> + 2<strong>b</strong> + 9<strong>a</strong> = 3<strong>a</strong> + 2<strong>b</strong> <span class="mp">M1</span></p>
+<p><strong>5.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/3(3<strong>a</strong> + 2<strong>b</strong>) = 2/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, so <strong>AE is parallel to BC</strong> <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>From the same mark scheme: <span class="said">"NB Correct expressions for BC and AE must be given"</span>.</p>
+<p>✗ Finding both vectors and stopping. The last A1 needs the link and the word <strong>parallel</strong>.<br>
+✓ "<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, a multiple, so AE is parallel to BC."</p>
+</div>
+
+<h3>Proving three points lie on a straight line</h3>
+<p class="asked">Spec 5.1G · <strong>2018 Edexcel May 1H Q17(b)</strong> · <strong>2012 Edexcel Jan 4H Q22</strong></p>
+<p><strong>Three points are on a straight line (collinear) if two of the vectors between them are parallel <em>and</em> share a point.</strong></p>
+<ol>
+<li>Pick a point common to both vectors, e.g. <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> both start at A.</li>
+<li>Find both vectors, as columns or in terms of <strong>a</strong> and <strong>b</strong>.</li>
+<li>Show one is a multiple of the other.</li>
+<li>Conclude: "parallel <strong>and</strong> they share the point A, so A, B and E are on a straight line".</li>
+</ol>
+<div class="panel">
+<h4>Worked example: A is (1, 1), <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>5</span></span>, E is (31, 51). Prove that ABE is a straight line.</h4>
+<p><strong>1.</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>31−1</span><span>51−1</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>30</span><span>50</span></span> <span class="mp">M1</span></p>
+<p><strong>2.</strong> <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>30</span><span>50</span></span> = 10<span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>5</span></span>, so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 10<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>. The lines are parallel and both pass through A, so <strong>ABE is a straight line</strong> <span class="mp">A1</span></p>
+<p>The 2018 scheme also accepted comparing ratios: 50 ÷ 30 = 5 ÷ 3, so the gradients match.</p>
+</div>
+<div class="trap">
+<p>✗ "<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 10<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> so they are parallel." Parallel lines can be side by side.<br>
+✓ "…parallel, <strong>and share the point A</strong>, so A, B and E are collinear."</p>
+</div>
+
+<h3>The four transformations and what each one needs</h3>
+<p class="asked">Spec 5.2I, 5.2K, 5.2M · <strong>2016 Edexcel SAM 2H Q6</strong></p>
+<p><strong>"Describe fully" means the name of the transformation plus every detail that fixes it. Each detail is a separate B1.</strong></p>
+<table>
+<tr><th>Transformation</th><th>Details to state</th><th>Shape after</th></tr>
+<tr><td><strong>Translation</strong></td><td>the column vector</td><td>congruent, same way round</td></tr>
+<tr><td><strong>Reflection</strong></td><td>the equation of the mirror line</td><td>congruent, flipped</td></tr>
+<tr><td><strong>Rotation</strong></td><td>centre, angle, direction (clockwise or anticlockwise)</td><td>congruent, turned</td></tr>
+<tr><td><strong>Enlargement</strong></td><td>centre and scale factor</td><td>similar: same angles, lengths × scale factor</td></tr>
+</table>
+<p>Translations, reflections and rotations keep lengths and angles, so the image is <strong>congruent</strong>. Enlargements keep the angles but change the lengths.</p>
+<div class="trap">
+<p>✗ "It moved 4 right and 3 up." / "It turned 90°." / "It got bigger."<br>
+✓ "Translation by <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>4</span><span>3</span></span>." / "Rotation 90° clockwise about (0, 0)." / "Enlargement, scale factor 2, centre (1, 3)."</p>
+</div>
+
+<h3>Translations and reflections</h3>
+<p class="asked">Spec 5.2D–5.2H · <strong>2016 Edexcel SAM 2H Q6(a)</strong></p>
+<p><strong>A translation slides every point by the same column vector; a reflection puts every image point the same perpendicular distance from the mirror line on the other side.</strong></p>
+<ol>
+<li><strong>Translate:</strong> move every vertex by the vector, e.g. <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>5</span><span>2</span></span> is 5 right and 2 up. Then join up.</li>
+<li><strong>Reflect:</strong> for each vertex, measure straight across (at 90°) to the mirror line, and go the same distance out the other side.</li>
+<li><strong>Find a mirror line:</strong> it runs halfway between each point and its image. Give its <strong>equation</strong>.</li>
+</ol>
+<table>
+<tr><th>Mirror line</th><th>What it looks like</th><th>Point (3, 1) goes to</th></tr>
+<tr><td><em>x</em> = 2</td><td>vertical, through 2 on the x-axis</td><td>(1, 1)</td></tr>
+<tr><td><em>y</em> = −1</td><td>horizontal, through −1 on the y-axis</td><td>(3, −3)</td></tr>
+<tr><td><em>y</em> = <em>x</em></td><td>diagonal, up to the right</td><td>(1, 3): swap the coordinates</td></tr>
+<tr><td><em>y</em> = −<em>x</em></td><td>diagonal, down to the right</td><td>(−1, −3): swap and change both signs</td></tr>
+</table>
+<div class="trap">
+<p>✗ "Reflection in the y-axis line" or "reflection in x = 0 … I mean y = 0". The x-axis is <em>y</em> = 0 and the y-axis is <em>x</em> = 0.<br>
+✓ Write the equation: "Reflection in the line <em>x</em> = 0 (the y-axis)."</p>
+</div>
+
+<h3>Rotations</h3>
+<p class="asked">Spec 5.2A–5.2C · <strong>2016 Edexcel SAM 2H Q6(b)</strong></p>
+<p><strong>A rotation turns a shape about a fixed centre through an angle; anticlockwise counts as positive and clockwise as negative.</strong></p>
+<ol>
+<li>Find the angle by comparing one side before and after (a vertical side that becomes horizontal has turned 90°).</li>
+<li>Find the direction: clockwise or anticlockwise. For 180° the direction does not matter.</li>
+<li>Find the centre with tracing paper, or where the perpendicular bisectors of point-to-image lines meet.</li>
+<li>Write all three: "Rotation, 90° anticlockwise, centre (−3, 0)."</li>
+</ol>
+<table>
+<tr><th>About (0, 0)</th><th>(<em>x</em>, <em>y</em>) goes to</th><th>(4, 1) goes to</th></tr>
+<tr><td>90° anticlockwise</td><td>(−<em>y</em>, <em>x</em>)</td><td>(−1, 4)</td></tr>
+<tr><td>90° clockwise</td><td>(<em>y</em>, −<em>x</em>)</td><td>(1, −4)</td></tr>
+<tr><td>180°</td><td>(−<em>x</em>, −<em>y</em>)</td><td>(−4, −1)</td></tr>
+</table>
+<div class="panel">
+<h4>Worked example: rotate (4, 1) through 90° anticlockwise about (1, 2)</h4>
+<p><strong>1.</strong> Position relative to the centre: (4 − 1, 1 − 2) = (3, −1).</p>
+<p><strong>2.</strong> Rotate that 90° anticlockwise: (3, −1) goes to (1, 3).</p>
+<p><strong>3.</strong> Add the centre back on: (1 + 1, 3 + 2) = <strong>(2, 5)</strong>.</p>
+<p>In the exam, use the tracing paper you are allowed: trace the shape, pin the centre with your pencil, turn 90°.</p>
+</div>
+<div class="trap">
+<p>The SAM scheme accepted <span class="said">"+90°, 270° clockwise, −270°"</span> for 90° anticlockwise. What it will not accept is an angle with no direction.</p>
+<p>✗ "Rotation 90° about (−3, 0)."<br>
+✓ "Rotation 90° <strong>anticlockwise</strong> about (−3, 0)."</p>
+</div>
+
+<h3>Enlargements, including fractional scale factors</h3>
+<p class="asked">Spec 5.2J–5.2L · <strong>2014 Edexcel Jan 3H Q9</strong> · <strong>2016 Edexcel Jan 3HR Q3</strong></p>
+<p><strong>An enlargement multiplies every distance from the centre by the scale factor; a scale factor between 0 and 1 makes the shape smaller but it is still called an enlargement.</strong></p>
+<div class="eq"><span class="name">Scale factor</span>scale factor = image length ÷ object length<span class="sym">greater than 1 → bigger · between 0 and 1 → smaller · angles never change</span></div>
+<ol>
+<li>For each vertex, find the vector from the centre to it.</li>
+<li>Multiply that vector by the scale factor.</li>
+<li>Add the result to the centre to get the image vertex.</li>
+<li><strong>To find the centre</strong> of a given enlargement: draw straight lines through each vertex and its image. They meet at the centre.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: enlarge (6, 4) with scale factor 1/2, centre (−2, 0)</h4>
+<p><strong>1.</strong> From the centre to the point: (6 − (−2), 4 − 0) = (8, 4).</p>
+<p><strong>2.</strong> × 1/2: (4, 2).</p>
+<p><strong>3.</strong> Image = (−2 + 4, 0 + 2) = <strong>(2, 2)</strong>.</p>
+<p>Scale factor 3, centre (1, 1), point (2, 3): from the centre (1, 2), × 3 gives (3, 6), image (4, 7).</p>
+</div>
+<p>Going back the other way undoes the scale factor: if P to Q is scale factor 3, then Q to P is scale factor 1/3 with the <strong>same centre</strong>.</p>
+<p>Negative scale factors are not on 4MA1. The spec says enlargements are "positive scale factor only (including fractions)", so you will not be asked for one.</p>
+<div class="trap">
+<p>✗ "Enlargement scale factor 1/3" with no centre: one mark of three.<br>
+✗ Calling scale factor 1/3 a "reduction" or "shrink". The mark scheme word is <strong>enlargement</strong>.<br>
+✓ "Enlargement, scale factor 1/3, centre (4, 3)."</p>
+</div>
+
+<h3>Combining transformations into one</h3>
+<p class="asked">Spec 5.2M · <strong>2014 Edexcel Jan 3H Q9(c)</strong></p>
+<p><strong>When a question gives two transformations one after the other, find the single transformation by tracking a few vertices from the start to the end.</strong></p>
+<ol>
+<li>Pick two or three vertices and apply the first transformation, then the second.</li>
+<li>Compare the start and end shapes: same size or not? Same way round or flipped? Turned?</li>
+<li>Name the single transformation and give all its details.</li>
+</ol>
+<p>Useful results: reflect in the x-axis then the y-axis = <strong>rotation 180° about (0, 0)</strong>. Two translations = one translation by the <strong>sum</strong> of the vectors.</p>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The facts behind most of the marks</h4>
+<p><strong><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = B − A</strong> (end minus start). <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>. If <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>, then <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong>.</p>
+<p><strong>Magnitude:</strong> |<span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>x</span><span>y</span></span>| = √(x<sup>2</sup> + y<sup>2</sup>).</p>
+<p><strong>Ratio m : n along AB:</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = m/(m + n) × <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>.</p>
+<p><strong>Parallel:</strong> one vector = a number × the other. <strong>Straight line:</strong> parallel <em>and</em> a shared point.</p>
+<p><strong>Describe fully:</strong> translation + vector · reflection + mirror line equation · rotation + centre + angle + direction · enlargement + centre + scale factor.</p>
+<p><strong>About (0, 0):</strong> 90° anticlockwise (x, y) → (−y, x) · 90° clockwise (x, y) → (y, −x) · 180° (x, y) → (−x, −y) · in y = x, swap.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Vector</td><td>A quantity with both <strong>magnitude</strong> and <strong>direction</strong></td></tr>
+<tr><td>Scalar</td><td>A quantity with <strong>magnitude only</strong>, such as a number or a length</td></tr>
+<tr><td>Magnitude (modulus)</td><td>The <strong>length</strong> of a vector, √(x<sup>2</sup> + y<sup>2</sup>)</td></tr>
+<tr><td>Resultant</td><td>The single vector with the <strong>same effect</strong> as two or more vectors added together</td></tr>
+<tr><td>Parallel vectors</td><td>One is a <strong>scalar multiple</strong> of the other</td></tr>
+<tr><td>Collinear</td><td>Lying on the <strong>same straight line</strong></td></tr>
+<tr><td>Congruent</td><td><strong>Exactly the same</strong> shape and size (may be reflected or turned)</td></tr>
+<tr><td>Similar</td><td>Same shape, with all lengths multiplied by the <strong>same scale factor</strong>; angles equal</td></tr>
+<tr><td>Centre of enlargement</td><td>The fixed point that all distances are <strong>measured from and multiplied from</strong></td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">rotation, then translation</td><td class="yes"><strong>one</strong> transformation: two scores zero</td></tr>
+<tr><td class="no">rotation 90° about (0, 0)</td><td class="yes">rotation 90° <strong>clockwise</strong> about (0, 0)</td></tr>
+<tr><td class="no">reflection in the y-axis line y = 0</td><td class="yes">reflection in the line <strong><em>x</em> = 0</strong></td></tr>
+<tr><td class="no">translation 3 right 2 down</td><td class="yes">translation by the column vector <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>−2</span></span></td></tr>
+<tr><td class="no">shrink / reduction by 1/2</td><td class="yes"><strong>enlargement</strong>, scale factor 1/2, centre (…)</td></tr>
+<tr><td class="no"><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> − <strong>b</strong></td><td class="yes"><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong> (end minus start)</td></tr>
+<tr><td class="no">AP : PB = 2 : 3 so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span></td><td class="yes"><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>2/5</strong> <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span></td></tr>
+<tr><td class="no">so they are in a straight line (with only a multiple shown)</td><td class="yes">parallel <strong>and share a common point</strong>, so collinear</td></tr>
+<tr><td class="no">(5, 4) for a vector</td><td class="yes">a column, <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>5</span><span>4</span></span>; (5, 4) is a point</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why is <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong>, and not <strong>a</strong> − <strong>b</strong>, when <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>To get from A to B you can go A → O → B. A to O is backwards along <strong>a</strong>, so it is −<strong>a</strong>. O to B is <strong>b</strong>. The total is −<strong>a</strong> + <strong>b</strong> = <strong>b</strong> − <strong>a</strong>.</p>
+<p>It is the same "end minus start" rule as for coordinates. <strong>a</strong> − <strong>b</strong> is <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, the same length but pointing the other way.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>You have shown <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">PQ<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">PR<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>. Why does that prove P, Q and R are on a straight line, but <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">PQ<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">ST<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> would not prove P, Q, S and T are?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A multiple only proves the two lines point the <strong>same direction</strong>: they are parallel.</p>
+<p>PQ and PR both pass through P, and two parallel lines through the same point must be the same line. So P, Q and R are collinear. PQ and ST share no point, so they could be two separate parallel lines, like the opposite sides of a parallelogram.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>P is on AB with AP : PB = 2 : 3. Why is <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/5 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, not 2/3 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The ratio splits the whole line into 2 + 3 = <strong>5 equal parts</strong>. AP is 2 of those 5 parts, so it is 2/5 of AB.</p>
+<p>2/3 compares AP with PB, not with the whole line. Check: 2/5 + 3/5 = 1, the whole of AB. With 2/3 and 3/3 you would get more than the whole line.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Why does reflecting in the line <em>y</em> = <em>x</em> just swap the coordinates?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The line <em>y</em> = <em>x</em> is at 45°, so it treats the two axes symmetrically. Reflecting in it swaps the x-axis and the y-axis over.</p>
+<p>A point 3 across and 1 up becomes 1 across and 3 up: (3, 1) → (1, 3). Points on the line, like (2, 2), stay where they are, which is what you would expect of a mirror line.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>A shape is enlarged with scale factor 1/2. Why is this still called an enlargement, and what happens to its angles and its lengths?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>"Enlargement" is the name of the transformation type: every distance from the centre is multiplied by the same number. The number can be less than 1.</p>
+<p>Lengths are all halved. Angles are <strong>unchanged</strong>, so the image is similar to the object. The position also moves, towards the centre, because each distance from the centre is halved too.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>Why does "rotation 90° clockwise about (0, 0), then translation by <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>2</span><span>0</span></span>" score no marks, even if it does map A onto B?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The question asks for the <strong>single</strong> transformation. The mark scheme says that if more than one transformation is given, no marks can be awarded.</p>
+<p>A rotation followed by a translation is always equal to one rotation about a different centre. Find that centre (tracing paper, or perpendicular bisectors) and describe just the one rotation.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p><strong>a</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>0</span></span> and <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>0</span><span>4</span></span>. Why is |<strong>a</strong> + <strong>b</strong>| = 5 and not 7?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>a</strong> + <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>4</span></span>, and its length is √(3<sup>2</sup> + 4<sup>2</sup>) = 5.</p>
+<p>Walking 3 east then 4 north covers 7, but you end up only 5 from where you started, in a straight line. Magnitudes only add when the vectors point the same way.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Why do the perpendicular bisectors of the lines joining each point to its image meet at the centre of rotation?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A rotation keeps each point the <strong>same distance</strong> from the centre. So the centre is equidistant from a point and its image.</p>
+<p>All points equidistant from two points lie on their perpendicular bisector. The centre must be on every one of these bisectors, so it is where they cross. In the exam, tracing paper and trial and error is usually quicker.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p><strong>a</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>4</span><span>−3</span></span> and <strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−2</span><span>5</span></span>.</p>
+<p>(a) Write 3<strong>a</strong> as a column vector. <span class="marks">(1)</span><br>
+(b) Work out <strong>a</strong> − 2<strong>b</strong> as a column vector. <span class="marks">(2)</span><br>
+(c) Find |<strong>a</strong>|. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>12</span><span>−9</span></span> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 2<strong>b</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−4</span><span>10</span></span> or one correct component <span class="mp">1</span>; A1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>8</span><span>−13</span></span> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for √(4<sup>2</sup> + (−3)<sup>2</sup>) <span class="mp">1</span>; A1 for 5 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>Find the magnitude of the vector <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>7</span><span>−4</span></span>. Give your answer correct to 3 significant figures. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for √(7<sup>2</sup> + (−4)<sup>2</sup>) = √65 <span class="mp">1</span>; A1 for 8.06 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>A is the point (3, −2). <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>5</span><span>7</span></span>. C is the point (−1, 6).</p>
+<p>(a) Find the coordinates of B. <span class="marks">(1)</span><br>
+(b) Find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> as a column vector. <span class="marks">(1)</span><br>
+(c) Show that <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> is parallel to the vector <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−1</span><span>2</span></span>. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for (8, 5) <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−4</span><span>8</span></span> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−4</span><span>8</span></span> = 4<span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−1</span><span>2</span></span>, a multiple, so parallel <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>ABCD is a parallelogram. <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>8</span></span> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>11</span><span>10</span></span>. The point B has coordinates (4, 9).</p>
+<p>(a) Work out the coordinates of the point C. <span class="marks">(3)</span><br>
+The point E has coordinates (49, 129).<br>
+(b) Use a vector method to prove that ABE is a straight line. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for A = (4 − 3, 9 − 8) = (1, 1), or <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−3+11</span><span>−8+10</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>8</span><span>2</span></span> <span class="mp">1</span>; M1 for (1 + 11, 1 + 10) or (4 + 8, 9 + 2) <span class="mp">1</span>; A1 for (12, 11) <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>45</span><span>120</span></span> or <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>48</span><span>128</span></span> <span class="mp">1</span>; A1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 15<span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>3</span><span>8</span></span> = 15<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> (or <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 16<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>), so parallel with the common point B (or A), so ABE is a straight line <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>OAB is a triangle. <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>. M is the midpoint of AB.</p>
+<p>Find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OM<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> in terms of <strong>a</strong> and <strong>b</strong>. Give your answer in its simplest form. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong>, or <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OM<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> + 1/2(<strong>b</strong> − <strong>a</strong>) <span class="mp">1</span>; A1 for 1/2<strong>a</strong> + 1/2<strong>b</strong> (or 1/2(<strong>a</strong> + <strong>b</strong>)) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p><span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>. P is the point on AB such that AP : PB = 3 : 1.</p>
+<p>Find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> in terms of <strong>a</strong> and <strong>b</strong>. Give your answer in its simplest form. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong> − <strong>a</strong> <span class="mp">1</span>; M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3/4(<strong>b</strong> − <strong>a</strong>) and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> + 3/4(<strong>b</strong> − <strong>a</strong>) <span class="mp">1</span>; A1 for 1/4<strong>a</strong> + 3/4<strong>b</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>ABCD is a trapezium with AB parallel to DC. <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 6<strong>a</strong>, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<strong>b</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 10<strong>a</strong>. E is the point on DB such that DE : EB = 2 : 3.</p>
+<p>Show by a vector method that AE is parallel to BC. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a route, <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> <span class="mp">1</span></p>
+<p>M1 for correct use of the ratio: <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 6<strong>a</strong> − 3<strong>b</strong>, so <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/5(6<strong>a</strong> − 3<strong>b</strong>) <span class="mp">1</span></p>
+<p>A1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 12/5<strong>a</strong> + 9/5<strong>b</strong> <span class="mp">1</span></p>
+<p>M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AD<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> + <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">DC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −6<strong>a</strong> + 3<strong>b</strong> + 10<strong>a</strong> = 4<strong>a</strong> + 3<strong>b</strong> <span class="mp">1</span></p>
+<p>A1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AE<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3/5(4<strong>a</strong> + 3<strong>b</strong>) = 3/5 <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">BC<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, a multiple, so AE is parallel to BC <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>OAB is a triangle. <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OA<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>a</strong> and <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OB<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = <strong>b</strong>. M is the midpoint of OA. N is the point on AB such that AN : NB = 2 : 1. P is the point such that <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">OP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2<strong>b</strong>.</p>
+<p>(a) Find <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MN<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> in terms of <strong>a</strong> and <strong>b</strong>. Simplify your answer. <span class="marks">(3)</span><br>
+(b) Prove that M, N and P lie on a straight line. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">AN<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 2/3(<strong>b</strong> − <strong>a</strong>) <span class="mp">1</span>; M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MN<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 1/2<strong>a</strong> + 2/3(<strong>b</strong> − <strong>a</strong>) <span class="mp">1</span>; A1 for −1/6<strong>a</strong> + 2/3<strong>b</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = −1/2<strong>a</strong> + 2<strong>b</strong> <span class="mp">1</span>; A1 for <span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MP<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span> = 3<span class="vec" style="position:relative;display:inline-block;padding-top:.2em">MN<span style="position:absolute;left:0;right:0;top:-.05em;text-align:center;font-size:.75em;line-height:1">→</span></span>, so MN and MP are parallel and share the point M, so M, N and P are on a straight line <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>Triangle A has vertices (1, 1), (3, 1) and (1, 2). Triangle B has vertices (−1, 1), (−3, 1) and (−1, 2).</p>
+<p>Describe fully the single transformation that maps triangle A onto triangle B. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for reflection <span class="mp">1</span>; B1 for in the line <em>x</em> = 0 (the y-axis) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>Triangle P has vertices (1, 2), (1, 5) and (3, 2). Triangle Q has vertices (2, −1), (5, −1) and (2, −3).</p>
+<p>Describe fully the single transformation that maps triangle P onto triangle Q. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for rotation <span class="mp">1</span>; B1 for 90° clockwise (or −90°, or 270° anticlockwise) <span class="mp">1</span>; B1 for centre (0, 0) <span class="mp">1</span></p>
+<p>Check with (x, y) → (y, −x): (1, 2) → (2, −1), (1, 5) → (5, −1), (3, 2) → (2, −3).</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>Triangle P has vertices (2, 2), (3, 2) and (3, 4). Triangle Q has vertices (4, 4), (7, 4) and (7, 10).</p>
+<p>(a) Describe fully the single transformation that maps triangle P onto triangle Q. <span class="marks">(3)</span><br>
+(b) Describe fully the single transformation that maps triangle Q onto triangle P. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for enlargement <span class="mp">1</span>; B1 for scale factor 3 <span class="mp">1</span>; B1 for centre (1, 1) <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for enlargement <span class="mp">1</span>; B1 for scale factor 1/3 <span class="mp">1</span>; B1 for centre (1, 1) <span class="mp">1</span></p>
+<p>Lines through (2, 2)→(4, 4) and (3, 4)→(7, 10) both pass through (1, 1). Side 2 → 3 on P becomes 4 → 7 on Q: length 1 becomes 3.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>A triangle has vertices (5, 3), (9, 3) and (9, 11). It is enlarged with scale factor 1/2, centre (1, −1).</p>
+<p>Find the coordinates of the vertices of the image. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for a correct method for one vertex, e.g. (1, −1) + 1/2(4, 4) = (3, 1), or a triangle of the correct size in the wrong place <span class="mp">1</span>; A1 for (3, 1), (5, 1) and (5, 5) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>Triangle T is reflected in the x-axis to give triangle U. Triangle U is reflected in the y-axis to give triangle V.</p>
+<p>Describe fully the single transformation that maps triangle T onto triangle V. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for rotation <span class="mp">1</span>; B1 for 180° <span class="mp">1</span>; B1 for centre (0, 0) <span class="mp">1</span></p>
+<p>(x, y) → (x, −y) → (−x, −y), which is the rule for 180° about the origin. No direction is needed for 180°.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>Shape A is translated by the vector <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−3</span><span>5</span></span> to give shape B. Shape B is translated by the vector <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>7</span><span>−2</span></span> to give shape C.</p>
+<p>(a) Describe fully the single transformation that maps shape A onto shape C. <span class="marks">(2)</span><br>
+(b) Write down the vector of the translation that maps shape C onto shape A. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for translation <span class="mp">1</span>; B1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>4</span><span>3</span></span> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−4</span><span>−3</span></span> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>(a) The vector <strong>p</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>2</span><span><em>t</em></span></span> is parallel to the vector <strong>q</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span>−6</span><span>9</span></span>. Find the value of <em>t</em>. <span class="marks">(2)</span><br>
+(b) The vector <strong>r</strong> = <span class="cv" style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;padding:0 .4em;margin:0 .15em;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-radius:.7em"><span><em>k</em></span><span>6</span></span> has magnitude 10, and <em>k</em> is negative. Find the value of <em>k</em>. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for <strong>q</strong> = −3<strong>p</strong>, or 2 ÷ (−6) = <em>t</em> ÷ 9 <span class="mp">1</span>; A1 for <em>t</em> = −3 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for <em>k</em><sup>2</sup> + 6<sup>2</sup> = 10<sup>2</sup> <span class="mp">1</span>; M1 for <em>k</em><sup>2</sup> = 64 <span class="mp">1</span>; A1 for <em>k</em> = −8 (+8 rejected because <em>k</em> is negative) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 12 · Vectors and Transformations · Edexcel IGCSE Mathematics A 4MA1 (Higher)</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 14 · Probability and Sets — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 14 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Probability and Sets</h1>
+  <p class="standfirst">Set notation and Venn diagrams, then probability from the basics up to tree diagrams without replacement and "given that" questions. A Venn diagram question and a two-stage probability question appear on almost every paper. The marks go to people who fill Venn diagrams from the middle out, change the second-branch fractions when nothing is replaced, and write probabilities as fractions, never as ratios.</p>
+  <div class="meta">
+    <span class="tag"><strong>~8% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>1.5, 6.3</strong> (Foundation and Higher)</span>
+    <span class="tag">Appeared in <strong>all 4</strong> dated 4MA1 papers here</span>
+    <span class="tag">Est. <strong>3 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q4 <span class="marks">(5)</span></td><td>Three-set Venn diagram of numbers: list A and B ∪ C; is A ∩ C = Ø correct?; probability that a number picked at random is in C′</td></tr>
+<tr><td>2018 Edexcel May 1H Q19 <span class="marks">(4)</span></td><td>Two fair spinners; win if one is odd and the other even; probability of winning both of two games</td></tr>
+<tr><td>2018 Edexcel May 2H Q13 <span class="marks">(5)</span></td><td>10 cards, two taken without replacement: complete the tree diagram, then P(at least one blue card and no green card)</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q15 <span class="marks">(5)</span></td><td>100 students and three subjects: draw a three-set Venn diagram from overlap counts; P(Drama but not Music); given Drama, P(also Art)</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q20 <span class="marks">(5)</span></td><td>Counters numbered 1 to 9, two taken: P(both even); P(sum is odd)</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q3(c) <span class="marks">(2)</span></td><td>Probability that a worker picked at random travels more than 20 km, from a frequency table</td></tr>
+<tr><td>2016 Edexcel Jan 3HR Q17 <span class="marks">(4)</span></td><td>Old spec. Complete a three-set Venn diagram; list B′ ∩ C and (A ∪ C)′ ∩ B; find n(A′ ∩ B′)</td></tr>
+<tr><td>2016 Edexcel Jan 3HR Q18 <span class="marks">(7)</span></td><td>Old spec. 100 numbered tiles: two picks with replacement, then two picks without replacement</td></tr>
+<tr><td>2014 Edexcel Jan 4H Q14 <span class="marks">(7)</span></td><td>Old spec. Driving test tree: the probability of passing changes after a first failure</td></tr>
+<tr><td>2012 Edexcel Jan 4H Q16 <span class="marks">(7)</span></td><td>Old spec. Dominoes: a single pick, then two taken without replacement</td></tr>
+<tr><td>2012 Edexcel Jan 4H Q19 <span class="marks">(4)</span></td><td>Old spec. Complete a Venn diagram showing the numbers of elements, using n( ) notation</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q12 <span class="marks">(7)</span></td><td>Old spec. Tree diagram for winning two races with different probabilities</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2018 1H mark scheme, Q4(c), where the answer was 10/12: the method mark allows</p>
+<p><span class="said">"10 and 12 used with incorrect notation E.g. 10 : 12"</span></p>
+<p>and that is all it gets: M1, no A1. A probability is a fraction, decimal or percentage. "10 : 12" or "10 out of 12" loses the accuracy mark.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>Sets are just collections, and a Venn diagram shows how they overlap. Probability then asks: out of everything that could happen, what fraction is the thing you want? Venn diagrams, sample spaces, two-way tables and tree diagrams are four ways of counting that fraction without missing anything.</p>
+
+<h3>Set notation</h3>
+<p class="asked">Spec 1.5A–D (Foundation), 1.5A, 1.5C (Higher) · <strong>2018 Edexcel May 1H Q4</strong></p>
+<p><strong>A set is a collection of elements, and set notation is a short way to say which elements are in which sets.</strong></p>
+<table>
+<tr><th>Symbol</th><th>Meaning</th><th>Example with A = {2, 4, 6}, B = {4, 5}</th></tr>
+<tr><td>ℰ</td><td>the universal set: everything in the question</td><td>ℰ = {1, 2, 3, 4, 5, 6}</td></tr>
+<tr><td>∈, ∉</td><td>is an element of, is not an element of</td><td>4 ∈ A, 5 ∉ A</td></tr>
+<tr><td>A ∩ B</td><td>intersection: in A <strong>and</strong> in B</td><td>{4}</td></tr>
+<tr><td>A ∪ B</td><td>union: in A <strong>or</strong> B or both</td><td>{2, 4, 5, 6}</td></tr>
+<tr><td>A′</td><td>complement: <strong>not</strong> in A</td><td>{1, 3, 5}</td></tr>
+<tr><td>Ø</td><td>the empty set: no elements</td><td>A ∩ {1, 3} = Ø</td></tr>
+<tr><td>n(A)</td><td>the number of elements in A</td><td>n(A) = 3</td></tr>
+<tr><td>C ⊂ A</td><td>C is a subset of A: everything in C is also in A</td><td>{2, 6} ⊂ A</td></tr>
+<tr><td>{<em>x</em> : …}</td><td>the set of all <em>x</em> such that …</td><td>{<em>x</em> : <em>x</em> is even, 1 ≤ <em>x</em> ≤ 6} = A</td></tr>
+</table>
+<ol>
+<li>Read ∩ as "and", ∪ as "or", and a dash (′) as "not".</li>
+<li>For a bracket like (A ∪ C)′, work out the inside first, then take everything <em>outside</em> it.</li>
+<li>List each element once only, in curly brackets.</li>
+</ol>
+<div class="trap">
+<p>✗ Writing n(A) = {2, 4, 6}. n(A) is a <strong>number</strong>: 3.<br>
+✗ Writing 4 twice in A ∪ B.<br>
+✓ A ∪ B = {2, 4, 5, 6}; n(A ∪ B) = 4.</p>
+</div>
+
+<h3>Two-set Venn diagrams from numbers</h3>
+<p class="asked">Spec 1.5E (Foundation), 1.5B–D (Higher) · <strong>2012 Edexcel Jan 4H Q19</strong></p>
+<p><strong>Always fill a Venn diagram from the middle outwards, because the totals you are given include the overlap.</strong></p>
+<ol>
+<li>Put the overlap (A ∩ B) in first. If it is not given, find it: n(A ∩ B) = n(A) + n(B) − n(A ∪ B).</li>
+<li>"A only" = n(A) − overlap. Same for B.</li>
+<li>Outside both = total − everything inside the circles. It can be 0: write the 0.</li>
+<li>Check: all the regions add up to n(ℰ).</li>
+</ol>
+<div class="eq"><span class="name">Addition rule for sets</span>n(A ∪ B) = n(A) + n(B) − n(A ∩ B)<span class="sym">the overlap is counted twice when you add n(A) and n(B), so take it off once</span></div>
+<div class="panel">
+<h4>Worked example: 40 people. 22 drink tea, 18 drink coffee, 6 drink neither.</h4>
+<p><strong>1.</strong> In at least one circle: 40 − 6 = 34 <span class="mp">M1</span></p>
+<p><strong>2.</strong> Both: 22 + 18 − 34 = 6 <span class="mp">M1</span></p>
+<p><strong>3.</strong> Tea only 22 − 6 = 16, coffee only 18 − 6 = 12, outside 6. Check: 16 + 6 + 12 + 6 = 40 <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>✗ Writing 22 in the "tea" part of the circle and 18 in the "coffee" part. The 6 who drink both are then counted twice.<br>
+✓ Overlap first, then "only" regions, then outside.</p>
+</div>
+
+<h3>Three-set Venn diagrams</h3>
+<p class="asked">Spec 1.5B (Higher) · <strong>2016 Edexcel SAM 2H Q15</strong> · <strong>2016 Edexcel Jan 3HR Q17</strong></p>
+<p><strong>With three sets, start at the very centre (all three), then the three "exactly two" regions, then the three "only one" regions, then outside.</strong></p>
+<ol>
+<li>Centre: in A and B and C.</li>
+<li>Each pair overlap given (e.g. "8 are in A and B") <strong>includes the centre</strong>, so subtract the centre: A ∩ B only = 8 − centre.</li>
+<li>Each "only" region = the set total − its two pair regions − the centre.</li>
+<li>Outside = total − the sum of all seven regions.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 50 students. 3 in all three clubs; 8 in A and B; 7 in A and C; 6 in B and C; 25 in A; 20 in B; 18 in C.</h4>
+<p><strong>1.</strong> Centre 3. Pair regions: A∩B only 8 − 3 = 5, A∩C only 7 − 3 = 4, B∩C only 6 − 3 = 3 <span class="mp">B1</span></p>
+<p><strong>2.</strong> A only 25 − 5 − 4 − 3 = 13; B only 20 − 5 − 3 − 3 = 9; C only 18 − 4 − 3 − 3 = 8 <span class="mp">B1</span></p>
+<p><strong>3.</strong> Inside total 3 + 5 + 4 + 3 + 13 + 9 + 8 = 45, so outside 50 − 45 = 5 <span class="mp">B1</span></p>
+<p>The SAM scheme gave B1 for three overlapping circles with the centre correct, B2 for that and two more correct numbers, and B3 for the whole diagram.</p>
+</div>
+<div class="trap">
+<p>✗ Putting 8 straight into the A∩B region when "8 are in A and B" and 3 are in all three.<br>
+✓ "In A and B" means the whole lens, centre included: the region outside C gets 8 − 3 = 5.</p>
+</div>
+
+<h3>Probability basics</h3>
+<p class="asked">Spec 6.3A–C, 6.3H (Foundation) · <strong>2016 Edexcel SAM 1H Q3(c)</strong></p>
+<p><strong>When outcomes are equally likely, probability = number of ways the event can happen ÷ total number of possible outcomes, and all the probabilities of the separate outcomes add up to 1.</strong></p>
+<ol>
+<li>Probabilities go from 0 (impossible) to 1 (certain). Anything outside that range is wrong.</li>
+<li>P(not A) = 1 − P(A).</li>
+<li>If a table of probabilities has a missing value, the missing value = 1 − the rest.</li>
+<li>Write the answer as a fraction, decimal or percentage.</li>
+</ol>
+<div class="eq"><span class="name">Complement</span>P(A′) = 1 − P(A)<span class="sym">A′ means "A does not happen"</span></div>
+<div class="panel">
+<h4>Worked example: red 0.2, blue 0.35, green <em>x</em>, yellow 2<em>x</em>. Find P(yellow).</h4>
+<p><strong>1.</strong> 0.2 + 0.35 + <em>x</em> + 2<em>x</em> = 1, so 3<em>x</em> = 0.45 <span class="mp">M1</span></p>
+<p><strong>2.</strong> <em>x</em> = 0.15, so P(yellow) = 2 × 0.15 = <strong>0.3</strong> <span class="mp">A1</span></p>
+</div>
+
+<h3>Sample spaces: listing outcomes systematically</h3>
+<p class="asked">Spec 6.3E–F (Foundation) · <strong>2018 Edexcel May 1H Q19</strong></p>
+<p><strong>For two events together, a sample space grid lists every combined outcome once, so you can count exactly.</strong></p>
+<ol>
+<li>Put one event's outcomes across the top and the other's down the side.</li>
+<li>Fill in every cell (e.g. the total of two dice). Two fair dice give 6 × 6 = 36 equally likely cells.</li>
+<li>Count the cells you want and divide by the total number of cells.</li>
+</ol>
+<p>Two fair dice: 6 of the 36 cells total 7, so P(total of 7) = 6/36 = 1/6. For a list, be systematic: (H, H), (H, T), (T, H), (T, T). (H, T) and (T, H) are different outcomes.</p>
+
+<h3>Relative frequency and expected frequency</h3>
+<p class="asked">Spec 6.3G, 6.3J (Foundation)</p>
+<p><strong>Relative frequency estimates a probability from an experiment; expected frequency uses a probability to predict how often something will happen.</strong></p>
+<div class="eq"><span class="name">Relative frequency</span>relative frequency = number of times it happened ÷ number of trials<span class="sym">more trials give a more reliable estimate</span></div>
+<div class="eq"><span class="name">Expected frequency</span>expected number = probability × number of trials<span class="sym">an estimate, so it need not be a whole number in working</span></div>
+<p>A biased coin landed heads 132 times in 200 throws: relative frequency 132 ÷ 200 = 0.66. If P(blue) = 0.35 and the spinner is spun 200 times, expect 0.35 × 200 = 70 blues.</p>
+
+<h3>"OR" means add (mutually exclusive), "AND" means multiply (independent)</h3>
+<p class="asked">Spec 6.3I (Foundation), 6.3B (Higher) · <strong>2018 Edexcel May 1H Q19</strong></p>
+<p><strong>Add probabilities for outcomes that cannot happen together; multiply probabilities for independent events happening one after another.</strong></p>
+<ol>
+<li><strong>Mutually exclusive</strong> (cannot both happen): P(A or B) = P(A) + P(B).</li>
+<li><strong>Independent</strong> (one does not affect the other): P(A and B) = P(A) × P(B).</li>
+<li>For "one odd and one even", list the ways: (odd, even) <strong>or</strong> (even, odd). Multiply along each way, then add the ways.</li>
+</ol>
+<div class="eq"><span class="name">Addition rule</span>P(A or B) = P(A) + P(B)<span class="sym">only when A and B are mutually exclusive</span></div>
+<div class="eq"><span class="name">Multiplication rule</span>P(A and B) = P(A) × P(B)<span class="sym">only when A and B are independent</span></div>
+<div class="panel">
+<h4>Worked example (2018 1H Q19): spinner A lands on 2, 3, 5 or 7; spinner B on 2, 3, 4, 5 or 6. Win if one is odd and the other even. P(win twice)?</h4>
+<p><strong>1.</strong> P(A odd) = 3/4, P(A even) = 1/4. P(B odd) = 2/5, P(B even) = 3/5 <span class="mp">M1</span></p>
+<p><strong>2.</strong> P(win) = 1/4 × 2/5 + 3/4 × 3/5 = 2/20 + 9/20 = 11/20 <span class="mp">M1</span></p>
+<p><strong>3.</strong> Win both games: 11/20 × 11/20 <span class="mp">M1</span></p>
+<p><strong>4.</strong> = <strong>121/400</strong> <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>✗ Only counting (A odd, B even) and forgetting (A even, B odd).<br>
+✗ Adding for "both games": 11/20 + 11/20 is more than a half and gets bigger with more games.<br>
+✓ Each way multiplied, the ways added, then × again for the second game.</p>
+</div>
+
+<h3>Tree diagrams with replacement</h3>
+<p class="asked">Spec 6.3A–B (Higher) · <strong>2017 Edexcel Jan 4HR Q12</strong></p>
+<p><strong>A tree diagram shows each stage as a set of branches; multiply along a path to get that combined outcome, and add the paths you want.</strong></p>
+<ol>
+<li>Each set of branches from one point adds up to 1.</li>
+<li>With replacement (or independent events), the second-stage branches are the same as the first.</li>
+<li>Multiply <strong>along</strong> each path. Add <strong>down</strong> the paths that fit the question.</li>
+<li>All the path probabilities together add up to 1: a useful check.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: P(on time) = 0.7 each day, independently. Find P(on time exactly one of two days).</h4>
+<p><strong>1.</strong> Paths: (on time, late) = 0.7 × 0.3 = 0.21 and (late, on time) = 0.3 × 0.7 = 0.21 <span class="mp">M1</span></p>
+<p><strong>2.</strong> Add: 0.21 + 0.21 = <strong>0.42</strong> <span class="mp">A1</span></p>
+<p>Check: both on time 0.49, both late 0.09; 0.49 + 0.42 + 0.09 = 1.</p>
+</div>
+
+<h3>Without replacement: the second branch changes</h3>
+<p class="asked">Spec 6.3C (Higher) · <strong>2018 Edexcel May 2H Q13</strong> · <strong>2016 Edexcel SAM 2H Q20</strong></p>
+<p><strong>If the first item is not put back, there is one fewer item in total, and one fewer of whatever was taken, so every second-stage fraction changes.</strong></p>
+<ol>
+<li>First branches: the counts over the total, e.g. 5/10, 4/10, 1/10.</li>
+<li>Second branches: denominator goes down by 1 (10 → 9). The colour already taken goes down by 1 on that branch only.</li>
+<li>If the only one of something has gone, its second branch is 0 (or leave it out).</li>
+<li>Multiply along, add the paths you want.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 3 red and 5 blue counters. Two taken without replacement. P(same colour)?</h4>
+<p><strong>1.</strong> P(red, red) = 3/8 × 2/7 = 6/56 <span class="mp">M1</span></p>
+<p><strong>2.</strong> P(blue, blue) = 5/8 × 4/7 = 20/56 <span class="mp">M1</span></p>
+<p><strong>3.</strong> P(same) = 6/56 + 20/56 = 26/56 = <strong>13/28</strong> <span class="mp">A1</span></p>
+<p>With replacement it would be (3/8)<sup>2</sup> + (5/8)<sup>2</sup> = 34/64. Different answer, so read which one the question says.</p>
+</div>
+<div class="trap">
+<p>2018 2H scheme for the tree: <span class="said">"0 can be 0/9 or the branch crossed out or left blank"</span>.</p>
+<p>✗ Second branches still over 10, as if the card was put back.<br>
+✓ Over 9, with the colour just taken reduced by 1.</p>
+</div>
+
+<h3>"At least one": use 1 − P(none)</h3>
+<p class="asked">Spec 6.3D (Higher) · <strong>2018 Edexcel May 2H Q13(b)</strong></p>
+<p><strong>"At least one" covers many paths but its opposite, "none at all", is a single path, so P(at least one) = 1 − P(none).</strong></p>
+<ol>
+<li>Find P(none): multiply the "not" probability along the one path.</li>
+<li>Subtract from 1.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: a fair dice is rolled 3 times. P(at least one six)?</h4>
+<p><strong>1.</strong> P(no sixes) = (5/6)<sup>3</sup> = 125/216 <span class="mp">M1</span></p>
+<p><strong>2.</strong> P(at least one six) = 1 − 125/216 = <strong>91/216</strong> <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>✗ 1/6 + 1/6 + 1/6 = 1/2. That adds events that are not mutually exclusive, and with 6 rolls it would give 1, which is clearly wrong.<br>
+✓ 1 − (5/6)<sup>3</sup>.</p>
+</div>
+
+<h3>Conditional probability: "given that…"</h3>
+<p class="asked">Spec 6.3C (Higher) · <strong>2016 Edexcel SAM 2H Q15(c)</strong></p>
+<p><strong>"Given that" shrinks the sample space: the denominator becomes the number in the given group only.</strong></p>
+<ol>
+<li>Find the group you are told about. Its total is the new denominator.</li>
+<li>Count the ones inside that group that also do the other thing. That is the numerator.</li>
+<li>From a Venn diagram: P(A given B) = n(A ∩ B) ÷ n(B).</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 30 students study Drama; 12 of them also study Art. A student who studies Drama is picked. P(Art)?</h4>
+<p><strong>1.</strong> Denominator: only the 30 Drama students count <span class="mp">M1</span></p>
+<p><strong>2.</strong> P(Art given Drama) = 12/30 = <strong>2/5</strong> <span class="mp">A1</span></p>
+<p>The unconditional P(Art and Drama) would use the whole year as the denominator. The words "given that" or "a student who…" tell you to shrink it.</p>
+</div>
+<div class="trap">
+<p>✗ 12/100: the whole year group as the denominator.<br>
+✓ 12/30: only the students you were told about.</p>
+</div>
+
+<h3>Dependent events on a tree</h3>
+<p class="asked">Spec 6.3C–D (Higher) · <strong>2014 Edexcel Jan 4H Q14</strong></p>
+<p><strong>When the second probability depends on what happened first, the second-stage branches are different on each part of the tree.</strong></p>
+<ol>
+<li>Read the question carefully: "if he fails, the probability that he passes next time is 0.8" is a branch <em>after a fail</em> only.</li>
+<li>A path can stop early (after a pass there is no second test).</li>
+<li>Multiply along; add the paths that fit.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: P(pass first time) = 0.65. After a fail, P(pass next time) = 0.75.</h4>
+<p><strong>1.</strong> P(pass at the second attempt) = P(fail, then pass) = 0.35 × 0.75 = 0.2625 <span class="mp">M1</span></p>
+<p><strong>2.</strong> P(pass within two attempts) = 0.65 + 0.2625 = <strong>0.9125</strong> <span class="mp">A1</span></p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The facts behind most of the marks</h4>
+<p><strong>∩ = and, ∪ = or, ′ = not.</strong> n(A) is a number. Fill Venn diagrams from the <strong>middle out</strong>.</p>
+<p><strong>n(A ∪ B) = n(A) + n(B) − n(A ∩ B).</strong> P(A′) = 1 − P(A). Probabilities in a table add to 1.</p>
+<p><strong>Expected frequency</strong> = probability × number of trials.</p>
+<p><strong>OR, mutually exclusive: add. AND, independent: multiply.</strong> Two ways (odd, even) and (even, odd)? Work out both and add.</p>
+<p><strong>Without replacement:</strong> second denominators drop by 1, and the item taken drops by 1.</p>
+<p><strong>At least one</strong> = 1 − P(none). <strong>Given that:</strong> denominator = the given group only.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Universal set, ℰ</td><td>The set containing <strong>all</strong> the elements being considered</td></tr>
+<tr><td>Intersection, A ∩ B</td><td>The elements in <strong>both</strong> A and B</td></tr>
+<tr><td>Union, A ∪ B</td><td>The elements in A <strong>or</strong> B <strong>or both</strong></td></tr>
+<tr><td>Complement, A′</td><td>The elements of ℰ that are <strong>not in A</strong></td></tr>
+<tr><td>Mutually exclusive</td><td>Events that <strong>cannot happen at the same time</strong></td></tr>
+<tr><td>Independent</td><td>The outcome of one event <strong>does not affect</strong> the probability of the other</td></tr>
+<tr><td>Sample space</td><td>The list of <strong>all possible outcomes</strong></td></tr>
+<tr><td>Relative frequency</td><td>Number of <strong>successes ÷ number of trials</strong></td></tr>
+<tr><td>Conditional probability</td><td>The probability of an event <strong>given that</strong> another has happened</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">10 : 12 or "10 out of 12"</td><td class="yes"><strong>10/12</strong> (or 5/6, 0.833, 83.3%)</td></tr>
+<tr><td class="no">n(A) = {2, 4, 6}</td><td class="yes">n(A) = <strong>3</strong></td></tr>
+<tr><td class="no">A ∪ B = {2, 4, 4, 5, 6}</td><td class="yes">list each element <strong>once</strong>: {2, 4, 5, 6}</td></tr>
+<tr><td class="no">Venn diagram with the given totals in the "only" regions</td><td class="yes">subtract the overlap: <strong>A only = n(A) − n(A ∩ B)</strong></td></tr>
+<tr><td class="no">second draw 4/10 when nothing is replaced</td><td class="yes">second draw <strong>4/9</strong> or <strong>3/9</strong></td></tr>
+<tr><td class="no">P(one odd, one even) = P(odd) × P(even) only</td><td class="yes">(odd, even) <strong>+</strong> (even, odd)</td></tr>
+<tr><td class="no">P(at least one six in 3 rolls) = 3 × 1/6</td><td class="yes">1 − (5/6)<sup>3</sup></td></tr>
+<tr><td class="no">given Drama: 12/100</td><td class="yes">given Drama: 12/<strong>30</strong></td></tr>
+<tr><td class="no">0.3 × 0.3 rounded to 0.1 before adding</td><td class="yes">keep exact values (0.09) until the end</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why must you fill in the centre of a Venn diagram first?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Every total you are given, such as "25 are in A" or "8 are in A and B", <strong>includes</strong> the people in the centre. You can only work out the other regions by subtracting what is already inside them.</p>
+<p>Starting at the outside means guessing how much of each total belongs to the overlaps. Starting at the centre means each region is a simple subtraction.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why does n(A ∪ B) = n(A) + n(B) − n(A ∩ B)?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Adding n(A) and n(B) counts everything in A and everything in B. The elements in both are counted <strong>twice</strong>, once in each total.</p>
+<p>Subtracting n(A ∩ B) once removes the double count, leaving each element of A ∪ B counted exactly once.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why do you multiply along the branches of a tree diagram?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The second probability is a fraction <strong>of</strong> the first. If a red is picked 3/8 of the time, and then a second red 2/7 of those times, both happen 2/7 of 3/8 of the time.</p>
+<p>"Of" means multiply: 3/8 × 2/7. Each extra stage takes a fraction of what is left, so a path probability can only get smaller.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Two cards are taken from 5 red and 4 blue without replacement. Why is the second branch after "red" 4/8 for red and 4/8 for blue?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>After a red is taken there are 8 cards left: 4 red and still 4 blue. So P(red) = 4/8 and P(blue) = 4/8 on that branch.</p>
+<p>After a blue is taken, the 8 left are 5 red and 3 blue, so that branch has 5/8 and 3/8. Each branch reflects what is <strong>actually left</strong> after that first pick, which is why the two halves of the tree differ.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why is P(at least one six in 3 rolls) not 3 × 1/6 = 1/2?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Adding only works for <strong>mutually exclusive</strong> events. "Six on roll 1" and "six on roll 2" can both happen, so adding counts those outcomes more than once.</p>
+<p>The test: with 7 rolls, 7 × 1/6 is more than 1, which is impossible. The only case with no six is (not six, not six, not six), so the answer is 1 − (5/6)<sup>3</sup> = 91/216 ≈ 0.42.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>What is the difference between "mutually exclusive" and "independent"?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>Mutually exclusive:</strong> the events cannot both happen, e.g. a single dice showing 2 and showing 5. Then P(A or B) = P(A) + P(B).</p>
+<p><strong>Independent:</strong> one happening does not change the chance of the other, e.g. two different coins. Then P(A and B) = P(A) × P(B). Mutually exclusive events with non-zero probabilities are never independent: if one happens, the other becomes impossible.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>A Venn diagram shows 100 students, 46 of whom study Drama, 23 of those also study Art. Why is P(Art given Drama) = 23/46 and not 23/100?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>"Given that the student studies Drama" means you already know the student is one of the 46. The other 54 students are no longer possible.</p>
+<p>Out of those 46, 23 study Art: 23/46. 23/100 answers a different question: the probability that a student picked from the whole year does both.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>A spinner lands on red 42 times in 200 spins. Why is 42/200 only an estimate of P(red), and how could it be made more reliable?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>It is a <strong>relative frequency</strong> from one experiment. Random variation means another 200 spins would give a slightly different count.</p>
+<p>More spins make the relative frequency settle closer to the true probability, so the estimate becomes more reliable. It can then be used for expected frequency: 42/200 × 1000 = 210 reds expected in 1000 spins.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>ℰ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}. A = {multiples of 3}. B = {factors of 12}.</p>
+<p>(a) List the members of A ∩ B. <span class="marks">(1)</span><br>
+(b) List the members of A ∪ B. <span class="marks">(1)</span><br>
+(c) Find n(A′ ∩ B′). <span class="marks">(1)</span><br>
+A number is chosen at random from ℰ.<br>
+(d) Find the probability that the number is in A′ ∩ B. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for {3, 6, 12} <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for {1, 2, 3, 4, 6, 9, 12} <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for 5 (the numbers 5, 7, 8, 10, 11) <span class="mp">1</span></p>
+<p><strong>(d)</strong> M1 for identifying 1, 2, 4, or <em>a</em>/12 with <em>a</em> &lt; 12 <span class="mp">1</span>; A1 for 3/12 (= 1/4) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>There are 60 students in a year group. 35 study French, 28 study Spanish and 9 study neither.</p>
+<p>(a) Draw a Venn diagram to show this information. <span class="marks">(3)</span><br>
+(b) A student is chosen at random. Find the probability that the student studies exactly one of these languages. <span class="marks">(1)</span><br>
+(c) Given that the student studies Spanish, find the probability that the student also studies French. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 9 outside the circles <span class="mp">1</span>; M1 for 35 + 28 − (60 − 9), giving 12 in the overlap <span class="mp">1</span>; A1 for French only 23 and Spanish only 16 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 39/60 (ft from diagram) <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for 12/28 (= 3/7) (ft from diagram) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>90 people were asked whether they own a cat (C), a dog (D) or a fish (F).</p>
+<p>4 own all three. 15 own a cat and a dog. 10 own a cat and a fish. 8 own a dog and a fish. 42 own a cat. 48 own a dog. 25 own a fish.</p>
+<p>(a) Draw a Venn diagram to show this information. <span class="marks">(3)</span><br>
+One of the 90 people is chosen at random.<br>
+(b) Find the probability that this person owns a dog but not a fish. <span class="marks">(1)</span><br>
+(c) Given that the person owns a fish, find the probability that they also own a cat. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B3 for the correct diagram: centre 4; C∩D only 11, C∩F only 6, D∩F only 4; C only 21, D only 29, F only 11; outside 4. (B2 for three overlapping circles with 4 in the centre and at least two other correct numbers; B1 for three overlapping circles with 4 in the centre.) <span class="mp">1</span> <span class="mp">1</span> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 40/90 (= 11 + 29) (ft from diagram) <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for 10/25 (= 6 + 4 out of 25) (ft from diagram) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>A spinner can land on red, blue, green or yellow. P(red) = 0.2 and P(blue) = 0.35. The probability of yellow is twice the probability of green.</p>
+<p>(a) Work out the probability that the spinner lands on yellow. <span class="marks">(2)</span><br>
+(b) The spinner is spun 200 times. Work out an estimate for the number of times it lands on blue. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for (1 − 0.2 − 0.35) ÷ 3 (= 0.15) <span class="mp">1</span>; A1 for 0.3 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 0.35 × 200 <span class="mp">1</span>; A1 for 70 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>Spinner A can land on 1, 2, 4, 6 or 9. Spinner B can land on 2, 3, 5, 7, 8 or 9. Both are fair. Mia spins both. She wins if one spinner lands on an odd number and the other on an even number.</p>
+<p>Mia plays the game twice. Work out the probability that she wins both times. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for any one correct product, e.g. 2/5 × 1/3 (A odd, B even) or 3/5 × 2/3 (A even, B odd) <span class="mp">1</span></p>
+<p>M1 for a complete method for one game: 2/15 + 6/15 = 8/15 <span class="mp">1</span></p>
+<p>M1 for 8/15 × 8/15 <span class="mp">1</span></p>
+<p>A1 for 64/225 (0.284…) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Ella goes to school by bus, on foot or by car. P(bus) = 0.35 and P(on foot) = 0.4.</p>
+<p>(a) Find the probability that she goes by bus or on foot. <span class="marks">(1)</span><br>
+(b) Work out an estimate for the number of days out of 60 that she goes by car. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 0.75 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for (1 − 0.75) × 60 <span class="mp">1</span>; A1 for 15 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>A bag contains 4 red beads and 6 blue beads. Leo takes a bead at random, notes its colour and <strong>puts it back</strong>. He then takes a second bead at random.</p>
+<p>(a) Complete a probability tree diagram for the two beads. <span class="marks">(2)</span><br>
+(b) Work out the probability that both beads are the same colour. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for first branches 4/10 red, 6/10 blue <span class="mp">1</span>; B1 for 4/10 and 6/10 on both pairs of second branches <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 4/10 × 4/10 or 6/10 × 6/10 <span class="mp">1</span>; M1 for 16/100 + 36/100 <span class="mp">1</span>; A1 for 52/100 (= 0.52 = 13/25) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>Nadia has 12 cards: 6 red, 4 blue and 2 green. She takes a card at random and does not replace it. She then takes a second card at random.</p>
+<p>(a) Write down the probabilities on the second-card branches after a first red card. <span class="marks">(2)</span><br>
+(b) Work out the probability that she takes at least one blue card and no green card. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B2 for red 5/11, blue 4/11, green 2/11 (B1 for two correct) <span class="mp">1</span> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for one correct product, e.g. 6/12 × 4/11 <span class="mp">1</span>; M1 for 6/12 × 4/11 + 4/12 × 6/11 + 4/12 × 3/11 <span class="mp">1</span>; A1 for 60/132 (= 5/11) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>Ten counters are numbered 1 to 10. Two counters are taken at random without replacement.</p>
+<p>(a) Work out the probability that both numbers are odd. <span class="marks">(2)</span><br>
+(b) Work out the probability that the sum of the two numbers is even. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 5/10 × 4/9 <span class="mp">1</span>; A1 for 20/90 (= 2/9) <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for recognising both odd or both even, e.g. 5/10 × 4/9 for both even <span class="mp">1</span>; M1 for 20/90 + 20/90 <span class="mp">1</span>; A1 for 40/90 (= 4/9) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>The probability that it rains on any day is 0.3, independently of other days.</p>
+<p>Work out the probability that it rains on at least one of the next 3 days. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 0.7 × 0.7 × 0.7 (= 0.343) <span class="mp">1</span>; M1 for 1 − "0.343" <span class="mp">1</span>; A1 for 0.657 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>The probability that Omar passes his driving test at the first attempt is 0.65. If he fails, the probability that he passes at the second attempt is 0.75.</p>
+<p>(a) Work out the probability that he passes at the second attempt. <span class="marks">(2)</span><br>
+(b) Work out the probability that he passes in no more than two attempts. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 0.35 × 0.75 <span class="mp">1</span>; A1 for 0.2625 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 0.65 + "0.2625", or 1 − 0.35 × 0.25 <span class="mp">1</span>; A1 for 0.9125 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>80 students were asked how they travel to school.</p>
+<table>
+<tr><th></th><th>Walk</th><th>Bus</th><th>Total</th></tr>
+<tr><td>Boys</td><td>14</td><td>22</td><td>36</td></tr>
+<tr><td>Girls</td><td>26</td><td>18</td><td>44</td></tr>
+<tr><td>Total</td><td>40</td><td>40</td><td>80</td></tr>
+</table>
+<p>(a) A student is chosen at random. Find the probability that the student is a girl who takes the bus. <span class="marks">(1)</span><br>
+(b) A student who walks is chosen at random. Find the probability that this student is a boy. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 18/80 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for a denominator of 40 <span class="mp">1</span>; A1 for 14/40 (= 7/20) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>n(ℰ) = 50, n(A) = 28, n(B) = 30 and n((A ∪ B)′) = 4. Let n(A ∩ B) = <em>x</em>.</p>
+<p>(a) Find the value of <em>x</em>. <span class="marks">(3)</span><br>
+(b) An element is chosen at random from ℰ. Find the probability that it is in A ∩ B′. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for regions 28 − <em>x</em>, <em>x</em>, 30 − <em>x</em>, 4 <span class="mp">1</span>; M1 for (28 − <em>x</em>) + <em>x</em> + (30 − <em>x</em>) + 4 = 50 <span class="mp">1</span>; A1 for <em>x</em> = 12 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 16/50 (ft 28 − <em>x</em>) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A bag contains 5 red sweets and 3 yellow sweets. Kai takes three sweets at random, one after another, without replacement.</p>
+<p>Work out the probability that exactly two of the sweets are red. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for one correct product, e.g. 5/8 × 4/7 × 3/6 (= 60/336) <span class="mp">1</span></p>
+<p>M1 for the three orders (RRY, RYR, YRR) added, or 3 × 60/336 <span class="mp">1</span></p>
+<p>A1 for 180/336 (= 15/28) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A Venn diagram shows the sets A and B. There are 7 elements in A only, 5 in A ∩ B, 9 in B only and 4 outside both sets.</p>
+<p>(a) Find n(A′). <span class="marks">(1)</span><br>
+(b) Find n(A ∪ B′). <span class="marks">(1)</span><br>
+(c) An element in A is chosen at random. Find the probability that it is also in B. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 13 (9 + 4) <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 16 (7 + 5 + 4) <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for a denominator of n(A) = 12 <span class="mp">1</span>; A1 for 5/12 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 14 · Probability and Sets · Edexcel IGCSE Mathematics A 4MA1 (Higher)</footer>
+</div>
+</body>
+</html>

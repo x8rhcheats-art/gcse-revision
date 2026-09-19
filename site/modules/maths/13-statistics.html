@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 13 · Statistics — IGCSE Mathematics 4MA1</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 13 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Statistics</h1>
+  <p class="standfirst">Some of the most reliable marks on the course. Every dated 4MA1 paper here opens or nearly opens with an estimated mean from a grouped table, and a cumulative frequency graph or a histogram is never far behind. The methods are fixed routines. The marks go to people who use midpoints, divide by the right total, and read the graph at the right height.</p>
+  <div class="meta">
+    <span class="tag"><strong>~9% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Papers <strong>1H and 2H</strong></span>
+    <span class="tag">Spec <strong>6.1, 6.2</strong> (Foundation and Higher)</span>
+    <span class="tag">Appeared in <strong>all 4</strong> dated 4MA1 papers here</span>
+    <span class="tag">Est. <strong>3 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q1 <span class="marks">(5)</span></td><td>Grouped table of 40 parcel weights: write down the modal class, then work out an estimate for the mean</td></tr>
+<tr><td>2018 Edexcel May 1H Q10 <span class="marks">(5)</span></td><td>Cumulative frequency graph of 80 film lengths: estimate the interquartile range, then test the claim "more than 35% of these films are over 120 minutes long"</td></tr>
+<tr><td>2018 Edexcel May 2H Q7 <span class="marks">(7)</span></td><td>Two classes: find the mean of class B from the combined mean, then the range of both classes together from lowest scores and ranges</td></tr>
+<tr><td>2018 Edexcel May 2H Q20 <span class="marks">(3)</span></td><td>Histogram with no frequency density scale: 6 babies are in the two end classes; work out how many are between 2.5 kg and 4 kg</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q3(a)–(b) <span class="marks">(5)</span></td><td>Grouped table of 60 distances: modal class and an estimate for the mean</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q12 <span class="marks">(4)</span></td><td>Interquartile range of 11 basketball scores, then decide which of two players is more consistent</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q14 <span class="marks">(3)</span></td><td>Histogram with no scale: 26 plants are under 20 cm; work out the total number of plants</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q7 <span class="marks">(4)</span></td><td>Four integers in order: find the largest from the mean and a sum, then the median from the range</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q12 <span class="marks">(5)</span></td><td>Complete a cumulative frequency table, draw the graph, estimate the median</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q8 <span class="marks">(9)</span></td><td>Old spec. Cumulative frequency graph of 80 tea bag weights, including an estimate of the interquartile range</td></tr>
+<tr><td>2014 Edexcel Jan 4H Q16 <span class="marks">(3)</span></td><td>Old spec. Histogram of the times customers spent in a shop</td></tr>
+<tr><td>2016 Edexcel Jan 4HR Q18 <span class="marks">(4)</span></td><td>Old spec. Use the histogram to complete the table, then use the table to complete the histogram</td></tr>
+<tr><td>2015 Edexcel Jan 3HR Q12 <span class="marks">(3)</span></td><td>Old spec. Interquartile range of the girls' marks, compared with the boys' range and interquartile range</td></tr>
+</table>
+
+<div class="trap">
+<p>From the SAM 1H mark scheme, Q12(b), on "which player is more consistent?":</p>
+<p><span class="said">"Carmelo - he has a lower IQR oe (IQR must be part of the statement)"</span></p>
+<p>A name alone scores nothing. Name the measure of spread and compare it: "lower interquartile range, so more consistent."</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>Statistics on 4MA1 is about three things: a typical value (an average), how spread out the data are, and pictures that show both. The Higher tier adds cumulative frequency graphs, quartiles and histograms with unequal class widths. Box plots are not on the 4MA1 specification, so you will not be asked to draw one.</p>
+
+<h3>Mean, median, mode and range from a list</h3>
+<p class="asked">Spec 6.2A–B (Foundation) · <strong>2016 Edexcel SAM 2H Q7</strong></p>
+<p><strong>The mean shares the total out equally, the median is the middle value once the data are in order, the mode is the most common value, and the range is largest minus smallest.</strong></p>
+<ol>
+<li><strong>Order</strong> the data first. Count how many values there are, <em>n</em>.</li>
+<li><strong>Median:</strong> the value in position (<em>n</em> + 1)/2. If that is a half, take the mean of the two middle values.</li>
+<li><strong>Mean:</strong> add them all, divide by <em>n</em>.</li>
+<li><strong>Range:</strong> largest − smallest. It is a single number, not "3 to 12".</li>
+</ol>
+<div class="eq"><span class="name">Mean</span>mean = total of the values ÷ number of values<span class="sym">so total = mean × number of values, which is the key to every reverse-mean question</span></div>
+<div class="panel">
+<h4>Worked example: 4, 9, 2, 7, 7, 5, 10, 3, 8, 6, 11</h4>
+<p><strong>1.</strong> In order: 2, 3, 4, 5, 6, 7, 7, 8, 9, 10, 11. There are 11 values.</p>
+<p><strong>2.</strong> Median: position (11 + 1)/2 = 6th, so the median is <strong>7</strong>.</p>
+<p><strong>3.</strong> Mode <strong>7</strong>. Range 11 − 2 = <strong>9</strong>. Mean 72 ÷ 11 = <strong>6.55</strong> (3 s.f.).</p>
+</div>
+
+<h3>Working backwards from a mean, and combining groups</h3>
+<p class="asked">Spec 6.2B (Foundation) · <strong>2018 Edexcel May 2H Q7</strong> · <strong>2016 Edexcel SAM 2H Q7</strong></p>
+<p><strong>Means cannot be added or averaged directly, but totals can: convert every mean to a total first.</strong></p>
+<ol>
+<li>Total for each group = mean × number in the group.</li>
+<li>Add or subtract totals, and numbers of people, as the question needs.</li>
+<li>Divide the new total by the new number of people.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 24 students have a mean of 68; 16 other students have a mean of 73. Find the mean of all 40.</h4>
+<p><strong>1.</strong> Totals: 24 × 68 = 1632 and 16 × 73 = 1168 <span class="mp">M1</span></p>
+<p><strong>2.</strong> Combined total 1632 + 1168 = 2800 <span class="mp">M1</span></p>
+<p><strong>3.</strong> Mean = 2800 ÷ 40 = <strong>70</strong> <span class="mp">A1</span></p>
+<p>Backwards: a class of 30 has mean 71.5. The 18 boys have mean 69. Girls' total = 30 × 71.5 − 18 × 69 = 2145 − 1242 = 903, so the 12 girls' mean is 903 ÷ 12 = <strong>75.25</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ (68 + 73) ÷ 2 = 70.5. That only works when the groups are the same size.<br>
+✓ Weight each mean by its group size: total ÷ total number.</p>
+</div>
+
+<h3>Frequency tables for ungrouped data</h3>
+<p class="asked">Spec 6.2A–B (Foundation) · <strong>2014 Edexcel Jan 4H Q4</strong></p>
+<p><strong>In a frequency table each value appears "frequency" times, so the total of the data is the sum of value × frequency.</strong></p>
+<ol>
+<li>Add a column for <em>x</em> × <em>f</em>.</li>
+<li>Mean = (total of the <em>x</em> × <em>f</em> column) ÷ (total of the <em>f</em> column).</li>
+<li>Median: find the position (<em>n</em> + 1)/2, then run down a cumulative total of <em>f</em> until you pass it.</li>
+<li>Mode: the value with the highest <strong>frequency</strong>, not the highest frequency itself.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: number of pets <em>x</em> = 1, 2, 3, 4, 5 with frequencies 3, 7, 9, 4, 2</h4>
+<p><strong>1.</strong> <em>x</em> × <em>f</em>: 3, 14, 27, 16, 10. Total = 70 <span class="mp">M1</span></p>
+<p><strong>2.</strong> Total frequency = 25, so mean = 70 ÷ 25 = <strong>2.8</strong> <span class="mp">A1</span></p>
+<p><strong>3.</strong> Median position (25 + 1)/2 = 13th. Running totals 3, 10, 19: the 13th value is in the "3" row, so the median is <strong>3</strong>. The mode is <strong>3</strong> (frequency 9).</p>
+</div>
+<div class="trap">
+<p>✗ Mean = 70 ÷ 5, dividing by the number of rows.<br>
+✗ "Mode = 9", giving the frequency.<br>
+✓ Divide by the total frequency, 25. The mode is the value, 3.</p>
+</div>
+
+<h3>Grouped data: modal class and the estimated mean</h3>
+<p class="asked">Spec 6.2C–D (Foundation) · <strong>2018 Edexcel May 1H Q1</strong> · <strong>2016 Edexcel SAM 1H Q3</strong> · <strong>2016 Edexcel Jan 4HR Q7</strong></p>
+<p><strong>With grouped data you do not know the exact values, so you use each class midpoint as a stand-in, which is why the mean is only an estimate.</strong></p>
+<ol>
+<li>Find the <strong>midpoint</strong> of each class: (lower bound + upper bound) ÷ 2.</li>
+<li>Multiply each midpoint by its frequency.</li>
+<li>Add those products, and divide by the total frequency.</li>
+<li>Modal class: the class with the highest frequency. Write it as the class, e.g. 20 &lt; <em>m</em> ≤ 30.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: masses 0–10 (5), 10–20 (12), 20–30 (18), 30–50 (10), 50–80 (5)</h4>
+<p><strong>1.</strong> Midpoints 5, 15, 25, 40, 65. Products 25, 180, 450, 400, 325 <span class="mp">M1</span> <span class="mp">M1</span></p>
+<p><strong>2.</strong> Total 1380; total frequency 50 <span class="mp">M1</span></p>
+<p><strong>3.</strong> Estimated mean = 1380 ÷ 50 = <strong>27.6</strong> <span class="mp">A1</span></p>
+<p>This is how the 4-mark estimated mean is scored: M2 for frequency × midpoint (M1 if you use a consistent value in each class that is not the midpoint), M1 for dividing by the total frequency, A1.</p>
+</div>
+<div class="trap">
+<p>From the SAM 1H scheme: <span class="said">"M1 for frequency × consistent value within interval"</span>. Using the class ends instead of midpoints loses a method mark straight away.</p>
+<p>✗ Dividing by 5, the number of classes, or by the sum of the midpoints.<br>
+✓ Σ(midpoint × frequency) ÷ Σ frequency.</p>
+</div>
+
+<h3>Quartiles and interquartile range from a list</h3>
+<p class="asked">Spec 6.2B–C (Higher) · <strong>2016 Edexcel SAM 1H Q12</strong> · <strong>2015 Edexcel Jan 3HR Q12</strong></p>
+<p><strong>The quartiles cut ordered data into four equal parts, and the interquartile range (upper quartile − lower quartile) is the spread of the middle half.</strong></p>
+<ol>
+<li>Put the data in order.</li>
+<li>Lower quartile: position (<em>n</em> + 1)/4. Median: (<em>n</em> + 1)/2. Upper quartile: 3(<em>n</em> + 1)/4.</li>
+<li>IQR = UQ − LQ.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the 11 values 2, 3, 4, 5, 6, 7, 7, 8, 9, 10, 11</h4>
+<p><strong>1.</strong> In order already; (11 + 1)/4 = 3, so the LQ is the 3rd value, <strong>4</strong> <span class="mp">M1</span></p>
+<p><strong>2.</strong> UQ is the 3 × 3 = 9th value, <strong>9</strong> <span class="mp">M1</span></p>
+<p><strong>3.</strong> IQR = 9 − 4 = <strong>5</strong> <span class="mp">A1</span></p>
+</div>
+<p>The IQR ignores the top and bottom quarters, so a single very large or very small value (an outlier) does not affect it. The range uses exactly those extreme values.</p>
+
+<h3>Cumulative frequency tables and graphs</h3>
+<p class="asked">Spec 6.1B–C (Higher) · <strong>2016 Edexcel SAM 2H Q12</strong> · <strong>2014 Edexcel Jan 3H Q8</strong></p>
+<p><strong>Cumulative frequency is a running total, and each running total is plotted at the upper end of its class.</strong></p>
+<ol>
+<li>Running totals: add each frequency on to the one before. The last one must equal the total.</li>
+<li>Plot each total at the <strong>upper class boundary</strong>: 0 &lt; <em>m</em> ≤ 10 is plotted at 10, not 5.</li>
+<li>Join the points with a smooth curve or straight line segments. You may start at (lowest boundary, 0).</li>
+</ol>
+<div class="panel">
+<h4>Worked example: frequencies 8, 17, 25, 40, 22, 8 for 0–10, 10–20, …, 50–60</h4>
+<p><strong>1.</strong> Cumulative frequencies: 8, 25, 50, 90, 112, 120 <span class="mp">B1</span></p>
+<p><strong>2.</strong> Points: (10, 8), (20, 25), (30, 50), (40, 90), (50, 112), (60, 120) <span class="mp">M1</span></p>
+<p><strong>3.</strong> Join with a curve or line segments <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>SAM 2H scheme: <span class="said">"NB A bar chart, unless it has a curve going consistently through a point in each bar, scores no points."</span></p>
+<p>✗ Plotting at the midpoints (5, 15, 25…).<br>
+✓ Plotting at the upper bounds (10, 20, 30…).</p>
+</div>
+
+<h3>Reading a cumulative frequency graph</h3>
+<p class="asked">Spec 6.2A, 6.2D (Higher) · <strong>2018 Edexcel May 1H Q10</strong></p>
+<p><strong>Go across from a cumulative frequency to find a value, or up from a value to find how many are below it.</strong></p>
+<ol>
+<li><strong>Median:</strong> go across from <em>n</em>/2 on the cumulative frequency axis to the curve, then down.</li>
+<li><strong>Quartiles:</strong> go across from <em>n</em>/4 (LQ) and 3<em>n</em>/4 (UQ). IQR = UQ − LQ.</li>
+<li><strong>"How many more than <em>x</em>?":</strong> go up from <em>x</em>, read the cumulative frequency, and <strong>subtract it from the total</strong>.</li>
+<li>Show the reading lines on the graph: they carry the method mark.</li>
+</ol>
+<div class="panel">
+<h4>Worked example (based on 2018 1H Q10): 80 films</h4>
+<p><strong>1.</strong> IQR: read across at 80 ÷ 4 = 20 and 3 × 80 ÷ 4 = 60. The 2018 readings were 103 and 123 minutes <span class="mp">M1</span></p>
+<p><strong>2.</strong> IQR = 123 − 103 = <strong>20</strong> minutes (the scheme accepted 19 to 21) <span class="mp">A1</span></p>
+<p><strong>3.</strong> "More than 35% are over 120 minutes." Up from 120: cf = 55. Over 120 = 80 − 55 = 25 <span class="mp">M1</span></p>
+<p><strong>4.</strong> 25 ÷ 80 × 100 = 31.25% <span class="mp">M1</span></p>
+<p><strong>5.</strong> 31.25% is less than 35%, so <strong>no, she is not correct</strong> <span class="mp">A1</span></p>
+</div>
+<div class="trap">
+<p>✗ Reading 55 and saying "55 films are over 120 minutes". The graph gives how many are <em>up to</em> 120.<br>
+✓ Subtract from the total: 80 − 55 = 25 are over 120.</p>
+</div>
+
+<h3>Histograms: frequency density</h3>
+<p class="asked">Spec 6.1A (Higher) · <strong>2016 Edexcel Jan 4HR Q18</strong></p>
+<p><strong>In a histogram the <em>area</em> of each bar shows the frequency, so the height is frequency density, not frequency.</strong></p>
+<div class="eq"><span class="name">Frequency density</span>frequency density = frequency ÷ class width<span class="sym">so frequency = frequency density × class width = area of the bar</span></div>
+<ol>
+<li>Work out each class width from the table (upper bound − lower bound).</li>
+<li>Frequency density = frequency ÷ width, for every class.</li>
+<li>Draw bars with no gaps, width = class width, height = frequency density. Label the vertical axis "Frequency density".</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 0–10 (10), 10–30 (24), 30–40 (30), 40–80 (18)</h4>
+<p><strong>1.</strong> Widths 10, 20, 10, 40 <span class="mp">M1</span></p>
+<p><strong>2.</strong> Frequency densities 10 ÷ 10 = 1, 24 ÷ 20 = 1.2, 30 ÷ 10 = 3, 18 ÷ 40 = 0.45 <span class="mp">A1</span></p>
+<p>The tallest bar (30–40) is not just the biggest frequency: it is the most <em>densely packed</em> class.</p>
+</div>
+<div class="trap">
+<p>✗ Bar heights equal to the frequencies. With unequal widths that makes wide classes look far too big.<br>
+✓ Height = frequency ÷ class width.</p>
+</div>
+
+<h3>Reading a histogram when there is no scale</h3>
+<p class="asked">Spec 6.1A (Higher) · <strong>2016 Edexcel SAM 1H Q14</strong> · <strong>2018 Edexcel May 2H Q20</strong></p>
+<p><strong>If the axis has no numbers, use the one frequency you are given to find what one unit of area is worth.</strong></p>
+<ol>
+<li>Count the area of the bar(s) you know the frequency of, in small squares or as width × height.</li>
+<li>Work out how many people one unit of area stands for.</li>
+<li>Find the area of the bars you need and convert with the same rate.</li>
+</ol>
+<div class="panel">
+<h4>Worked example (based on SAM 1H Q14): 26 plants are under 20 cm</h4>
+<p><strong>1.</strong> The 0–20 bar gives frequency density 26 ÷ 20 = 1.3, which fixes the scale for the others <span class="mp">M1</span></p>
+<p><strong>2.</strong> The other bars then give 3.6 × 10, 3.3 × 10 and 1 × 30, so the total = 26 + 36 + 33 + 30 <span class="mp">M1</span></p>
+<p><strong>3.</strong> = <strong>125</strong> plants <span class="mp">A1</span></p>
+<p>The 2018 version gave the frequency of the <em>two end</em> bars together (6 babies) and asked for the middle ones. Same idea: area of end bars ↔ 6, then scale up.</p>
+</div>
+
+<h3>Estimating from part of a bar</h3>
+<p class="asked">Spec 6.1A (Higher) · <strong>2012 Edexcel Jan 3H</strong> (old spec)</p>
+<p><strong>To estimate how many are in part of a class, take the same fraction of that bar's area, assuming the values are spread evenly across the class.</strong></p>
+<ol>
+<li>Find the frequency density of each bar involved.</li>
+<li>Multiply by the width of the part you need, not the whole class.</li>
+<li>Add the pieces. Say it is an <strong>estimate</strong>.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: the 20–40 bar has frequency 24. Estimate how many are between 25 and 35.</h4>
+<p><strong>1.</strong> Frequency density = 24 ÷ 20 = 1.2 <span class="mp">M1</span></p>
+<p><strong>2.</strong> 25 to 35 is a width of 10, so 1.2 × 10 = <strong>12</strong> (an estimate) <span class="mp">A1</span></p>
+</div>
+
+<h3>Comparing two distributions</h3>
+<p class="asked">Spec 6.2B (Higher) · <strong>2016 Edexcel SAM 1H Q12(b)</strong> · <strong>2015 Edexcel Jan 3HR Q12</strong></p>
+<p><strong>A full comparison makes two points: one about an average and one about the spread, each in the context of the question.</strong></p>
+<ol>
+<li><strong>Average:</strong> compare medians (or means). "Group A's median is higher, so on average A took longer."</li>
+<li><strong>Spread:</strong> compare IQRs (or ranges). "Group A's IQR is smaller, so A's times were more consistent."</li>
+<li>Quote the numbers you are comparing.</li>
+</ol>
+<div class="trap">
+<p>✗ "A is higher and more spread." Higher what? More spread how?<br>
+✓ "A has a higher median (34 compared with 29), so on average A scored more. A has a lower IQR (8 compared with 15), so A's scores were more consistent."</p>
+</div>
+
+<h3>Pie charts and two-way tables</h3>
+<p class="asked">Spec 6.1A–C (Foundation)</p>
+<p><strong>A pie chart shares 360° in proportion to the frequencies; a two-way table splits the same people two ways at once.</strong></p>
+<ol>
+<li><strong>Angle</strong> = frequency ÷ total × 360°.</li>
+<li><strong>Frequency from an angle</strong> = angle ÷ 360 × total.</li>
+<li><strong>Two-way table:</strong> every row and every column must add up to its total. Fill in the cells you can, then use the totals to find the rest.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 72 students, 110° for football</h4>
+<p><strong>1.</strong> 110 ÷ 360 × 72 = <strong>22</strong> students <span class="mp">M1</span> <span class="mp">A1</span></p>
+<p><strong>2.</strong> 18 students would need 18 ÷ 72 × 360 = <strong>90°</strong>.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The facts behind most of the marks</h4>
+<p><strong>Total = mean × number.</strong> Combine groups with totals, never by averaging the means.</p>
+<p><strong>Frequency table mean:</strong> Σ<em>xf</em> ÷ Σ<em>f</em>. <strong>Grouped:</strong> use midpoints, and call it an estimate.</p>
+<p><strong>Median</strong> at (<em>n</em> + 1)/2 for a list. <strong>LQ</strong> at (<em>n</em> + 1)/4, <strong>UQ</strong> at 3(<em>n</em> + 1)/4. <strong>IQR = UQ − LQ.</strong></p>
+<p><strong>Cumulative frequency graph:</strong> plot at upper bounds; read at <em>n</em>/4, <em>n</em>/2, 3<em>n</em>/4; "more than" means subtract from the total.</p>
+<p><strong>Histogram:</strong> frequency density = frequency ÷ class width; frequency = area.</p>
+<p><strong>Compare:</strong> an average <em>and</em> a spread, with numbers, in context.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Mean</td><td>The <strong>total</strong> of the values <strong>divided by the number</strong> of values</td></tr>
+<tr><td>Median</td><td>The <strong>middle</strong> value when the data are <strong>in order</strong></td></tr>
+<tr><td>Mode / modal class</td><td>The value / class with the <strong>highest frequency</strong></td></tr>
+<tr><td>Range</td><td><strong>Largest value − smallest value</strong> (a single number)</td></tr>
+<tr><td>Interquartile range</td><td><strong>Upper quartile − lower quartile</strong>; the spread of the middle 50%</td></tr>
+<tr><td>Cumulative frequency</td><td>The <strong>running total</strong> of the frequencies</td></tr>
+<tr><td>Frequency density</td><td><strong>Frequency ÷ class width</strong></td></tr>
+<tr><td>Class width</td><td><strong>Upper bound − lower bound</strong> of the class</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">mean = 1380 ÷ 5 (number of classes)</td><td class="yes">mean = 1380 ÷ <strong>50</strong> (total frequency)</td></tr>
+<tr><td class="no">using class ends, 10 × 12 + 20 × 18 …</td><td class="yes">using <strong>midpoints</strong>, 15 × 12 + 25 × 18 …</td></tr>
+<tr><td class="no">range = 3 to 12</td><td class="yes">range = 12 − 3 = <strong>9</strong></td></tr>
+<tr><td class="no">mode = 9 (the biggest frequency)</td><td class="yes">mode = the <strong>value</strong> with frequency 9</td></tr>
+<tr><td class="no">cumulative frequency plotted at 5, 15, 25</td><td class="yes">plotted at the <strong>upper bounds</strong> 10, 20, 30</td></tr>
+<tr><td class="no">bar height = frequency</td><td class="yes">bar height = <strong>frequency density</strong></td></tr>
+<tr><td class="no">55 films are over 120 minutes (the reading)</td><td class="yes">80 − 55 = <strong>25</strong> are over 120 minutes</td></tr>
+<tr><td class="no">Carmelo is more consistent.</td><td class="yes">Carmelo, because he has the <strong>lower IQR</strong></td></tr>
+<tr><td class="no">the mean is 23.875 exactly</td><td class="yes">an <strong>estimate</strong> of the mean is 23.9</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>Why is the mean from a grouped frequency table only an estimate?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The table only says how many values are in each class, not what they are. Using the midpoint assumes the values in each class average out to the middle of it.</p>
+<p>If most values in a class were near the top, the true mean would be higher than the estimate. The raw data would give the exact mean.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Class A (20 students) has a mean of 60. Class B (30 students) has a mean of 70. Why is the overall mean not 65?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>65 treats the two classes as equally important, but B has more students. The totals are 1200 and 2100, so the overall mean is 3300 ÷ 50 = <strong>66</strong>.</p>
+<p>The combined mean is pulled towards the bigger group. It only equals the midpoint of the two means when the groups are the same size.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why are cumulative frequencies plotted at the upper class boundary and not the midpoint?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A cumulative frequency of 25 for 10 &lt; <em>m</em> ≤ 20 means 25 values are <strong>20 or less</strong>. You only know that all of them are in by the end of the class, at 20.</p>
+<p>At the midpoint, 15, some of the class's values would not have been reached yet, so plotting 25 there would overstate how many are below 15.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>One player's scores include a single very high score. Why is the IQR a better measure of consistency than the range here?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The range uses only the largest and smallest values, so one unusual score makes it large even if every other score is close together.</p>
+<p>The IQR uses the middle 50% of the data, so it ignores the extremes. It reflects how the player usually performs.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>A histogram has classes 0–10 and 10–40. Both have a frequency of 30. Why are the bars different heights?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The <strong>area</strong> shows the frequency. The 10–40 bar is three times as wide, so it only needs a third of the height to have the same area.</p>
+<p>Frequency densities: 30 ÷ 10 = 3 and 30 ÷ 30 = 1. If the heights were equal, the wider class would look as if it had three times as many values.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>A cumulative frequency graph for 60 people shows a reading of 42 at 30 minutes. What does 42 mean, and how many took more than 30 minutes?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>42 people took <strong>30 minutes or less</strong>. The graph always counts from the bottom up.</p>
+<p>So 60 − 42 = <strong>18</strong> people took more than 30 minutes. The most common error is to give 42 as the answer.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>For 11 values, why is the lower quartile the 3rd value, while for 80 values on a cumulative frequency graph you read across at 20, not 20.25?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>With a short list you need an exact position: (11 + 1)/4 = 3, so the 3rd value.</p>
+<p>A cumulative frequency graph is a smooth estimate for grouped data, so the quarter-of-the-way point is simply 80 ÷ 4 = 20. The 2018 scheme used readings at cf 20 and cf 60. With large <em>n</em> the difference is too small to see on the graph anyway.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>Why does a comparison need both an average and a measure of spread?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>They answer different questions. The average says which group is typically higher. The spread says which group is more consistent.</p>
+<p>Two groups can have the same median but very different spreads, like a steady player and an unreliable one with the same typical score. Exam comparisons usually give a mark for each, and each needs context: "on average the girls scored higher", not just "the median is higher".</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>Here are ten numbers: 7, 3, 9, 4, 7, 12, 5, 8, 7, 10</p>
+<p>(a) Work out the mean. <span class="marks">(2)</span><br>
+(b) Find the median. <span class="marks">(2)</span><br>
+(c) Work out the range. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 72 ÷ 10 <span class="mp">1</span>; A1 for 7.2 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for ordering: 3, 4, 5, 7, 7, 7, 8, 9, 10, 12 <span class="mp">1</span>; A1 for (7 + 7) ÷ 2 = 7 <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for 12 − 3 = 9 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>There are 25 students in class P and 30 students in class Q. The mean score of all 55 students is 66.4. The mean score for class P is 64.</p>
+<p>Work out the mean score for class Q. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 55 × 66.4 (= 3652) <span class="mp">1</span>; M1 for 25 × 64 (= 1600) <span class="mp">1</span>; M1 for (3652 − 1600) ÷ 30 <span class="mp">1</span>; A1 for 68.4 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p><em>a</em>, <em>b</em>, <em>c</em> and <em>d</em> are four integers in order of size, starting with the smallest. Their mean is 12. The sum of <em>a</em>, <em>b</em> and <em>c</em> is 33.</p>
+<p>(a) Find the value of <em>d</em>. <span class="marks">(2)</span><br>
+Given also that the range of the four integers is 9,<br>
+(b) work out the median. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 4 × 12 − 33 <span class="mp">1</span>; A1 for <em>d</em> = 15 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for <em>a</em> = 15 − 9 = 6, so <em>b</em> + <em>c</em> = 33 − 6 = 27 <span class="mp">1</span>; A1 for median = 27 ÷ 2 = 13.5 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>The table shows the number of goals scored in 25 matches.</p>
+<table>
+<tr><th>Goals</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+<tr><td>Frequency</td><td>5</td><td>8</td><td>6</td><td>4</td><td>2</td></tr>
+</table>
+<p>(a) Write down the mode. <span class="marks">(1)</span><br>
+(b) Find the median. <span class="marks">(1)</span><br>
+(c) Work out the mean number of goals. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 1 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 1 (the 13th value; running totals 5, 13) <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for products 0, 8, 12, 12, 8 <span class="mp">1</span>; M1 for 40 ÷ 25 <span class="mp">1</span>; A1 for 1.6 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>The table shows the times, <em>t</em> minutes, that 40 people waited.</p>
+<table>
+<tr><th>Time (<em>t</em> minutes)</th><th>Frequency</th></tr>
+<tr><td>0 &lt; <em>t</em> ≤ 10</td><td>4</td></tr>
+<tr><td>10 &lt; <em>t</em> ≤ 20</td><td>11</td></tr>
+<tr><td>20 &lt; <em>t</em> ≤ 30</td><td>15</td></tr>
+<tr><td>30 &lt; <em>t</em> ≤ 40</td><td>7</td></tr>
+<tr><td>40 &lt; <em>t</em> ≤ 60</td><td>3</td></tr>
+</table>
+<p>(a) Write down the modal class. <span class="marks">(1)</span><br>
+(b) Work out an estimate for the mean time. <span class="marks">(4)</span><br>
+(c) Find the class that contains the median. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 20 &lt; <em>t</em> ≤ 30 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M2 for 5 × 4 + 15 × 11 + 25 × 15 + 35 × 7 + 50 × 3 (= 955), or M1 for frequency × a consistent value within each class <span class="mp">1</span> <span class="mp">1</span>; M1 for "955" ÷ 40 <span class="mp">1</span>; A1 for 23.9 (23.875) <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for 20 &lt; <em>t</em> ≤ 30 (the 20th and 21st values; running totals 4, 15, 30) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Here are the points Ava scored in her last 11 games.</p>
+<p>31 &nbsp; 25 &nbsp; 40 &nbsp; 28 &nbsp; 35 &nbsp; 22 &nbsp; 38 &nbsp; 30 &nbsp; 27 &nbsp; 33 &nbsp; 36</p>
+<p>(a) Find the interquartile range of these points. <span class="marks">(3)</span><br>
+Ben's median is 29 points and his interquartile range is 14 points.<br>
+(b) Which of Ava or Ben is the more consistent scorer? Give a reason for your answer. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for arranging in order (22 25 27 28 30 31 33 35 36 38 40) or identifying one of 27, 31, 36 <span class="mp">1</span>; M1 for identifying 27 (LQ) and 36 (UQ) <span class="mp">1</span>; A1 for 9 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for Ava, because her IQR is lower (9 compared with 14) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>The heights, <em>h</em> cm, of 60 plants are 140 &lt; <em>h</em> ≤ 150: 6 · 150 &lt; <em>h</em> ≤ 160: 14 · 160 &lt; <em>h</em> ≤ 170: 22 · 170 &lt; <em>h</em> ≤ 180: 13 · 180 &lt; <em>h</em> ≤ 190: 5</p>
+<p>(a) Work out the cumulative frequencies. <span class="marks">(1)</span><br>
+(b) Write down the coordinates of the point you would plot for the class 160 &lt; <em>h</em> ≤ 170. <span class="marks">(1)</span><br>
+(c) The points are joined with straight line segments. Use this graph to estimate the median height. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for 6, 20, 42, 55, 60 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for (170, 42) <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for reading at cf 30 (or 30.5): between (160, 20) and (170, 42) <span class="mp">1</span>; A1 for 160 + 10/22 × 10 = 164.5 cm (accept 164 to 165) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>A cumulative frequency graph shows the times taken by 80 runners. Reading from the graph: a cumulative frequency of 20 is at 41 minutes, 40 is at 48 minutes and 60 is at 57 minutes. The graph also shows that 62 runners took 60 minutes or less.</p>
+<p>(a) Find an estimate for the interquartile range. <span class="marks">(2)</span><br>
+Sam says, "More than 25% of the runners took over 60 minutes."<br>
+(b) Is Sam correct? Show how you decide. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for using readings at cf 20 and cf 60 <span class="mp">1</span>; A1 for 57 − 41 = 16 minutes <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 80 − 62 = 18 <span class="mp">1</span>; M1 for 18 ÷ 80 × 100 = 22.5%, or 0.25 × 80 = 20 <span class="mp">1</span>; A1 for "No", with 22.5% (or 18 &lt; 20) <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>The table shows the times, <em>t</em> seconds, of 55 people.</p>
+<table>
+<tr><th>Time (<em>t</em> s)</th><th>Frequency</th></tr>
+<tr><td>0 &lt; <em>t</em> ≤ 10</td><td>8</td></tr>
+<tr><td>10 &lt; <em>t</em> ≤ 15</td><td>12</td></tr>
+<tr><td>15 &lt; <em>t</em> ≤ 20</td><td>15</td></tr>
+<tr><td>20 &lt; <em>t</em> ≤ 30</td><td>14</td></tr>
+<tr><td>30 &lt; <em>t</em> ≤ 50</td><td>6</td></tr>
+</table>
+<p>(a) Work out the frequency densities you would use to draw a histogram. <span class="marks">(2)</span><br>
+(b) Estimate the number of people with times between 25 and 40 seconds. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for frequency ÷ class width for at least two classes <span class="mp">1</span>; A1 for 0.8, 2.4, 3, 1.4, 0.3 <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 5 × 1.4 + 10 × 0.3 (or 14 ÷ 2 + 6 ÷ 2) <span class="mp">1</span>; A1 for 10 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>A histogram shows the heights of some plants. The frequency density axis has no scale. The bars are:</p>
+<table>
+<tr><th>Height (<em>h</em> cm)</th><th>Bar height (small squares)</th></tr>
+<tr><td>0 &lt; <em>h</em> ≤ 20</td><td>6</td></tr>
+<tr><td>20 &lt; <em>h</em> ≤ 30</td><td>14</td></tr>
+<tr><td>30 &lt; <em>h</em> ≤ 40</td><td>12</td></tr>
+<tr><td>40 &lt; <em>h</em> ≤ 60</td><td>5</td></tr>
+</table>
+<p>24 plants have a height of 20 cm or less. Work out the total number of plants. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for 24 ÷ 20 = 1.2 as the frequency density of the first bar, so 1 small square = 0.2 <span class="mp">1</span></p>
+<p>M1 for 24 + 2.8 × 10 + 2.4 × 10 + 1 × 20 (= 24 + 28 + 24 + 20) <span class="mp">1</span></p>
+<p>A1 for 96 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>A histogram shows the birth weights, <em>w</em> kg, of some babies. The bars are:</p>
+<table>
+<tr><th>Weight (<em>w</em> kg)</th><th>Bar height (small squares)</th></tr>
+<tr><td>2 &lt; <em>w</em> ≤ 2.5</td><td>4</td></tr>
+<tr><td>2.5 &lt; <em>w</em> ≤ 3</td><td>10</td></tr>
+<tr><td>3 &lt; <em>w</em> ≤ 3.5</td><td>20</td></tr>
+<tr><td>3.5 &lt; <em>w</em> ≤ 4</td><td>14</td></tr>
+<tr><td>4 &lt; <em>w</em> ≤ 5</td><td>2</td></tr>
+</table>
+<p>8 of the babies weighed less than 2.5 kg or more than 4 kg. Work out the number of babies who weighed between 2.5 kg and 4 kg. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for using area ∝ frequency: end bars 0.5 × 4 + 1 × 2 = 4 units for 8 babies, so 1 unit = 2 babies <span class="mp">1</span></p>
+<p>M1 for (0.5 × 10 + 0.5 × 20 + 0.5 × 14) × 2 <span class="mp">1</span></p>
+<p>A1 for 44 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>Group A has a median of 34 and an interquartile range of 8. Group B has a median of 29 and an interquartile range of 15. The data are test scores.</p>
+<p>Make two comparisons between the scores of the two groups. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>B1 for Group A has a higher median, so on average A scored higher <span class="mp">1</span>; B1 for Group A has a lower IQR, so A's scores were more consistent <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>A pie chart shows the favourite sports of 72 students.</p>
+<p>(a) The angle for football is 110°. How many students chose football? <span class="marks">(2)</span><br>
+(b) 18 students chose tennis. Work out the angle for tennis. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 110 ÷ 360 × 72 <span class="mp">1</span>; A1 for 22 <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 18 ÷ 72 × 360 = 90° <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>The table shows the scores of some players.</p>
+<table>
+<tr><th>Score</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+<tr><td>Frequency</td><td>4</td><td><em>k</em></td><td>6</td><td>2</td></tr>
+</table>
+<p>The mean score is 2.4. Work out the value of <em>k</em>. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for Σ<em>xf</em> = 4 + 2<em>k</em> + 18 + 8 = 30 + 2<em>k</em> <span class="mp">1</span>; M1 for Σ<em>f</em> = 12 + <em>k</em> <span class="mp">1</span>; M1 for 30 + 2<em>k</em> = 2.4(12 + <em>k</em>) <span class="mp">1</span>; A1 for <em>k</em> = 3 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>A histogram shows the ages, <em>a</em> years, of some people. The frequency densities of the first three bars are 0 &lt; <em>a</em> ≤ 20: 0.9, 20 &lt; <em>a</em> ≤ 30: 2.6, 30 &lt; <em>a</em> ≤ 45: 1.6. The table shows 45 &lt; <em>a</em> ≤ 60: frequency 21, and 60 &lt; <em>a</em> ≤ 90: frequency 9.</p>
+<p>(a) Use the histogram to find the frequencies of the first three classes. <span class="marks">(2)</span><br>
+(b) Work out the heights of the bars needed for the last two classes. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B2 for 18, 26 and 24 (B1 for two correct) <span class="mp">1</span> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 21 ÷ 15 = 1.4 <span class="mp">1</span>; B1 for 9 ÷ 30 = 0.3 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 13 · Statistics · Edexcel IGCSE Mathematics A 4MA1 (Higher)</footer>
+</div>
+</body>
+</html>

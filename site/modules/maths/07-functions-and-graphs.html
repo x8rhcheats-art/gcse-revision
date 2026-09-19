@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 7 · Functions and Graphs — IGCSE Mathematics A 4MA1 (Higher)</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <p class="eyebrow">Module 7 of 14 · Edexcel IGCSE Mathematics A 4MA1 (Higher)</p>
+  <h1>Functions and Graphs</h1>
+  <p class="standfirst">The widest algebra topic on the course, and one of the best-paying. There is a function question (f(3), fg, f<sup>−1</sup>, the excluded value) on almost every Higher paper, plus a straight-line or perpendicular-line question, a graph to read or draw, and a transformation. Most of it is a handful of routines, done carefully.</p>
+  <div class="meta">
+    <span class="tag"><strong>~14% of marks</strong> across the 7 current-spec papers</span>
+    <span class="tag">Spec <strong>3.2, 3.3</strong> (Foundation and Higher)</span>
+    <span class="tag">Appeared in <strong>4 of 4</strong> current-spec papers</span>
+    <span class="tag">Est. <strong>5 sessions</strong></span>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="../../index.html">← All modules</a>
+  <a href="#intel">What comes up</a>
+  <a href="#teach">How it works</a>
+  <a href="#sheet">Cheat sheet</a>
+  <a href="#understand">Understanding it</a>
+  <a href="#drill">Exam drill</a>
+</nav>
+
+<section id="intel">
+<h2><span class="num">01</span>What actually comes up</h2>
+<table>
+<tr><th>Paper</th><th>What was asked</th></tr>
+<tr><td>2018 Edexcel May 1H Q14 <span class="marks">(7)</span></td><td>f(x) = (3x − 5)/4: f(−7), f<sup>−1</sup>(x), fg(3) with g(x) = √(19 − x), and the values that cannot be in any domain of g</td></tr>
+<tr><td>2018 Edexcel May 1H Q18 <span class="marks">(5)</span></td><td>Minimum (−2, −1) moved by f(x − 5) and ½f(x); read a, b and c off the graph of y = a sin(x − b)° + c</td></tr>
+<tr><td>2018 Edexcel May 1H Q20 <span class="marks">(5)</span></td><td>Isosceles triangle with base on 3y = 2x + 12: the line of symmetry is the perpendicular through (4, 37)</td></tr>
+<tr><td>2018 Edexcel May 2H Q14 <span class="marks">(8)</span></td><td>Table and graph of y = x<sup>3</sup> − 2x<sup>2</sup> − 3x + 4; draw a straight line to solve x<sup>3</sup> − 2x<sup>2</sup> − x + 1 = 0</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q13 <span class="marks">(6)</span></td><td>Line through (−3, 5) and (1, 2) as ax + by = c; show y = 3x + 5 and 6y + 2x = 1 are perpendicular</td></tr>
+<tr><td>2016 Edexcel SAM 1H Q20 <span class="marks">(4)</span></td><td>Maximum (3, 5) under f(x + 3), 2f(x) and f(3x); describe the transformation to f(x) − 4</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q17 <span class="marks">(4)</span></td><td>f(x) = 3/(x − 2): f(1), the value excluded from any domain, fg(2) with g(x) = x + 4</td></tr>
+<tr><td>2016 Edexcel SAM 2H Q19 <span class="marks">(3)</span></td><td>Match y = sin x, y = 2 − 3x, a quadratic and a cubic to their sketches</td></tr>
+<tr><td>2016 Edexcel Jan 3H Q15 <span class="marks">(9)</span></td><td>A cubic graph: f(0), values of k for which f(x) = k has one solution, the gradient by a tangent at x = −2.5; g(x) = 1/(2 + x) excluded value and fg(−3) (old spec)</td></tr>
+<tr><td>2016 Edexcel Jan 3HR Q16 <span class="marks">(6)</span></td><td>f(x) = 2x/(x − 1): f(11), excluded value, f<sup>−1</sup>(x), the value that cannot be in the range (old spec)</td></tr>
+<tr><td>2016 Edexcel Jan 4H Q12 <span class="marks">(3)</span></td><td>Equation of the line parallel to y = 4 − 2x through (3, 7) (old spec)</td></tr>
+<tr><td>2014 Edexcel Jan 3H Q20 <span class="marks">(9)</span></td><td>f(x) = 2x + 5, g(x) = x<sup>2</sup> − 25: f<sup>−1</sup>, gf(x), then solve gf(x) = 0 (old spec)</td></tr>
+<tr><td>2013 Edexcel Jan 3H Q10 <span class="marks">(5)</span></td><td>Gradient of a line through two points, its equation, and the parallel line through (−2, 0) (old spec)</td></tr>
+<tr><td>2017 Edexcel Jan 4HR Q18 <span class="marks">(5)</span></td><td>Use a cubic graph to solve one equation, then draw a line to solve a second (old spec)</td></tr>
+</table>
+
+<div class="trap">
+<p>From the 2018 1H mark scheme, on fg(3) where g(x) = √(19 − x):</p>
+<p><span class="said">"A1 for 1.75oe (and no other solution)"</span></p>
+<p>g(3) = √16 = <strong>4</strong>, not ±4. The √ sign means the <strong>positive</strong> root, so f(−4) = −4.25 is a second, wrong answer, and writing both costs the mark. The same scheme gave Q20 (the perpendicular line) its last A1 only "for a simplified equation with integer coefficients": 3x + 2y = 86.</p>
+</div>
+</section>
+
+<section id="teach">
+<h2><span class="num">02</span>How it actually works</h2>
+<p>A function is a machine: put x in, get f(x) out. Its graph plots every input against its output. Most of this module is reading that idea both ways. Algebra about f turns into a picture, and a picture turns into algebra: a crossing point is a solution, a gradient is a rate, and a shifted curve is a changed formula.</p>
+
+<h3>Function notation</h3>
+<p class="asked">Spec 3.2A, 3.2B · <strong>2018 Edexcel May 1H Q14(a)</strong> · <strong>2016 Edexcel SAM 2H Q17(a)</strong></p>
+<p><strong>f(x) = … is a rule. f(a) means "put a in place of every x".</strong> f : x ↦ 3x<sup>2</sup> − 2 is the same function written another way.</p>
+<ol>
+<li>For <strong>f(number)</strong>: substitute, with brackets round negatives, and evaluate.</li>
+<li>For <strong>"solve f(x) = k"</strong>: set the expression equal to k and solve the equation.</li>
+<li>For <strong>f(expression)</strong>, such as f(2x) or f(x + 1): replace every x with the whole expression, in brackets.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: f(x) = 3x<sup>2</sup> − 2</h4>
+<p>f(−2) = 3(−2)<sup>2</sup> − 2 = 12 − 2 = <strong>10</strong></p>
+<p>Solve f(x) = 25: 3x<sup>2</sup> − 2 = 25, so x<sup>2</sup> = 9, so <strong>x = 3 or x = −3</strong></p>
+<p>f(x + 1) = 3(x + 1)<sup>2</sup> − 2 = 3x<sup>2</sup> + 6x + 1</p>
+</div>
+<div class="trap">
+<p>✗ f(−2) = 3 × −2<sup>2</sup> − 2 = −14. On a calculator, −2<sup>2</sup> is −4. Use <strong>(−2)<sup>2</sup></strong>.<br>
+✗ f(x + 1) = 3x<sup>2</sup> − 2 + 1. That is f(x) + 1, a different thing.</p>
+</div>
+
+<h3>Domain, range and excluded values</h3>
+<p class="asked">Spec 3.2C · <strong>2018 Edexcel May 1H Q14(d)</strong> · <strong>2016 Edexcel SAM 2H Q17(b)</strong> · <strong>2016 Edexcel Jan 3HR Q16</strong> (old spec)</p>
+<p><strong>The domain is the set of inputs allowed. The range is the set of outputs produced. An input must be excluded if it would make you divide by zero or take the square root of a negative number.</strong></p>
+<ol>
+<li><strong>Fraction:</strong> set the <strong>denominator = 0</strong> and solve. That x is excluded.</li>
+<li><strong>Square root:</strong> the expression under the root must be <strong>≥ 0</strong>. Solve the inequality. The values that break it are excluded.</li>
+<li><strong>Range:</strong> think about which outputs are possible. x<sup>2</sup> is never negative, and a fraction like 2x/(x − 1) never equals its "long-run" value.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples</h4>
+<p>f(x) = 3/(x − 2): x − 2 = 0, so <strong>x = 2</strong> is excluded (SAM 2H Q17(b)).</p>
+<p>g(x) = √(19 − x): need 19 − x ≥ 0, so x ≤ 19. The values that cannot be in any domain are <strong>x &gt; 19</strong> (2018 1H Q14(d)).</p>
+<p>f(x) = x<sup>2</sup> + 3: every output is at least 3, so the range is <strong>f(x) ≥ 3</strong>.</p>
+<p>f(x) = 2x/(x − 1): x = 1 is excluded. Its inverse is x/(x − 2), which has 2 excluded, so <strong>2 cannot be in the range</strong> of f (2016 Jan 3HR Q16(d)).</p>
+</div>
+<div class="trap">
+<p>✗ "x = 19 is excluded" for √(19 − x). √0 = 0 is fine. It is x <strong>greater than</strong> 19 that fails.<br>
+✗ "x = −2 is excluded" for 3/(x − 2). Solve x − 2 = 0: x = <strong>+2</strong>.</p>
+</div>
+
+<h3>Composite functions: fg(x)</h3>
+<p class="asked">Spec 3.2D · <strong>2018 Edexcel May 1H Q14(c)</strong> · <strong>2016 Edexcel SAM 2H Q17(c)</strong> · <strong>2014 Edexcel Jan 3H Q20</strong> (old spec)</p>
+<p><strong>fg(x) means f(g(x)): do g first, then put the answer into f.</strong> The function nearest the x acts first.</p>
+<ol>
+<li>For <strong>fg(number)</strong>: work out g(number), then put that value into f.</li>
+<li>For <strong>fg(x)</strong>: write f( … ) with the whole of g(x) inside, in brackets, wherever f has an x.</li>
+<li>Simplify: expand and collect.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: f(x) = 2x + 1 and g(x) = x<sup>2</sup></h4>
+<p>fg(3) = f(9) = 19. &nbsp; gf(3) = g(7) = 49. The order matters.</p>
+<p>fg(x) = f(x<sup>2</sup>) = <strong>2x<sup>2</sup> + 1</strong>. &nbsp; gf(x) = g(2x + 1) = <strong>(2x + 1)<sup>2</sup></strong> = 4x<sup>2</sup> + 4x + 1</p>
+</div>
+<div class="panel">
+<h4>2018 1H Q14(c): f(x) = (3x − 5)/4 and g(x) = √(19 − x). Find fg(3).</h4>
+<p>g(3) = √16 = 4 &nbsp; <strong>(M1)</strong>. f(4) = (12 − 5)/4 = <strong>1.75</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ fg(3) worked out as g(f(3)). Read fg from the <strong>right</strong>: g is next to the x, so it goes first.<br>
+✗ fg(x) = f(x) × g(x). fg is a function of a function, not a product.</p>
+</div>
+
+<h3>Inverse functions: f<sup>−1</sup>(x)</h3>
+<p class="asked">Spec 3.2D · <strong>2018 Edexcel May 1H Q14(b)</strong> · <strong>2016 Edexcel Jan 3HR Q16(c)</strong> (old spec)</p>
+<p><strong>The inverse function undoes f: if f turns 3 into 1, f<sup>−1</sup> turns 1 back into 3. To find it, write y = f(x) and rearrange to make x the subject.</strong></p>
+<ol>
+<li>Write <strong>y = f(x)</strong>.</li>
+<li><strong>Rearrange to make x the subject.</strong></li>
+<li><strong>Swap the letters</strong>: replace y with x and write f<sup>−1</sup>(x) = ….</li>
+<li><strong>Check</strong>: put a number through f, then through f<sup>−1</sup>. You should get your number back.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: f(x) = (3x − 5)/4 (2018 1H Q14(b))</h4>
+<p>y = (3x − 5)/4 → 4y = 3x − 5 → 4y + 5 = 3x → x = (4y + 5)/3 &nbsp; <strong>(M1: correct first two steps)</strong></p>
+<p><strong>f<sup>−1</sup>(x) = (4x + 5)/3</strong> &nbsp; <strong>(A1)</strong></p>
+<p>Check: f(5) = 2.5 and f<sup>−1</sup>(2.5) = (10 + 5)/3 = 5 ✓</p>
+</div>
+<div class="panel">
+<h4>Worked example: f(x) = 2x/(x − 1), where x appears twice</h4>
+<p>y(x − 1) = 2x → xy − y = 2x → xy − 2x = y → x(y − 2) = y → x = y/(y − 2)</p>
+<p><strong>f<sup>−1</sup>(x) = x/(x − 2)</strong>. Collect the x-terms on one side and factorise x out.</p>
+</div>
+<div class="trap">
+<p>✗ f<sup>−1</sup>(x) = 4/(3x − 5), the reciprocal. f<sup>−1</sup> is the <strong>inverse</strong>, not 1 ÷ f.<br>
+✗ Reversing the operations but not their order. For "× 3, then − 5, then ÷ 4", the inverse is "× 4, then + 5, then ÷ 3".</p>
+</div>
+
+<h3>Straight lines: gradient, y = mx + c, midpoint and length</h3>
+<p class="asked">Spec 3.3 (Foundation E, G, H; Higher F) · <strong>2016 Edexcel SAM 1H Q13(a)</strong> · <strong>2013 Edexcel Jan 3H Q10</strong> (old spec)</p>
+<p><strong>In y = mx + c, m is the gradient (the rise for each 1 across) and c is where the line crosses the y-axis. Two points fix a line.</strong></p>
+<div class="eq"><span class="name">Gradient between two points — memorise</span>m = (y<sub>2</sub> − y<sub>1</sub>) ÷ (x<sub>2</sub> − x<sub>1</sub>)<span class="sym">change in y ÷ change in x · keep the points in the same order top and bottom</span></div>
+<div class="eq"><span class="name">Midpoint of a line segment — memorise</span>M = ((x<sub>1</sub> + x<sub>2</sub>)/2, (y<sub>1</sub> + y<sub>2</sub>)/2)<span class="sym">the mean of the x-coordinates and the mean of the y-coordinates</span></div>
+<div class="eq"><span class="name">Length of a line segment — memorise</span>d = √((x<sub>2</sub> − x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> − y<sub>1</sub>)<sup>2</sup>)<span class="sym">Pythagoras on the horizontal and vertical steps</span></div>
+<ol>
+<li><strong>Gradient</strong> from the two points.</li>
+<li><strong>Find c</strong>: substitute one point into y = mx + c and solve. Or use y − y<sub>1</sub> = m(x − x<sub>1</sub>).</li>
+<li><strong>Rearrange</strong> to the form asked, e.g. ax + by = c with integers. Multiply through to clear fractions.</li>
+<li>To <strong>read m and c</strong> off an equation like 4x + 3y = 12, first rearrange to y = −(4/3)x + 4.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: SAM 1H Q13(a), the line through (−3, 5) and (1, 2), as ax + by = c</h4>
+<p>m = (2 − 5) ÷ (1 − (−3)) = −3/4 &nbsp; <strong>(M1)</strong></p>
+<p>2 = −¾(1) + c, so c = 11/4 &nbsp; <strong>(M1)</strong>. y = −¾x + 11/4 &nbsp; <strong>(M1)</strong></p>
+<p>× 4: 4y = −3x + 11, so <strong>3x + 4y = 11</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="panel">
+<h4>Worked example: A(2, −1) and B(8, 7)</h4>
+<p>Midpoint: ((2 + 8)/2, (−1 + 7)/2) = <strong>(5, 3)</strong>. Gradient: 8/6 = <strong>4/3</strong>. Length: √(6<sup>2</sup> + 8<sup>2</sup>) = √100 = <strong>10</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ Gradient = change in x ÷ change in y. It is <strong>up over across</strong>: change in y on top.<br>
+✗ For 2y = 6x + 5, "the gradient is 6". Divide by 2 first: y = 3x + 2.5, so m = 3.</p>
+</div>
+
+<h3>Parallel and perpendicular lines</h3>
+<p class="asked">Spec 3.3G (Higher) · <strong>2018 Edexcel May 1H Q20</strong> · <strong>2016 Edexcel SAM 1H Q13(b)</strong> · <strong>2016 Edexcel Jan 4H Q12</strong> (old spec)</p>
+<p><strong>Parallel lines have equal gradients. Perpendicular gradients multiply to −1: flip the fraction and change the sign.</strong></p>
+<div class="eq"><span class="name">Perpendicular gradients — memorise</span>m<sub>1</sub> × m<sub>2</sub> = −1<span class="sym">m<sub>2</sub> = −1/m<sub>1</sub> · e.g. 2/3 → −3/2 · parallel lines: m<sub>1</sub> = m<sub>2</sub></span></div>
+<ol>
+<li>Get the given line into <strong>y = mx + c</strong> form and read off m.</li>
+<li>Parallel: <strong>same m</strong>. Perpendicular: <strong>−1/m</strong>.</li>
+<li>Substitute the given point to find c.</li>
+<li>To <strong>show</strong> two lines are perpendicular, find both gradients and show that their product is −1.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 2018 1H Q20, the line through (4, 37) perpendicular to 3y = 2x + 12</h4>
+<p>y = (2/3)x + 4, so the gradient is 2/3 &nbsp; <strong>(M1)</strong>. Perpendicular gradient: <strong>−3/2</strong> &nbsp; <strong>(M1)</strong></p>
+<p>37 = −3/2 × 4 + c, so c = 43 &nbsp; <strong>(M1)</strong>. y = −(3/2)x + 43 &nbsp; <strong>(A1)</strong></p>
+<p>× 2: <strong>3x + 2y = 86</strong> &nbsp; <strong>(A1: integer coefficients, as asked)</strong></p>
+</div>
+<div class="panel">
+<h4>SAM 1H Q13(b): show that y = 3x + 5 and 6y + 2x = 1 are perpendicular</h4>
+<p>6y = 1 − 2x, so y = 1/6 − (1/3)x, and the gradient is −1/3. &nbsp; 3 × (−1/3) = −1, so the lines are perpendicular. ✓</p>
+</div>
+<div class="trap">
+<p>✗ Perpendicular to gradient 2/3 is −2/3, or 3/2. You need <strong>both</strong> steps: flip <strong>and</strong> change the sign, giving −3/2.<br>
+✗ Using the gradient of 3y = 2x + 12 as 2. Divide by 3 first.</p>
+</div>
+
+<h3>Recognising the shapes of graphs</h3>
+<p class="asked">Spec 3.3A (Higher), 3.3I (Foundation) · <strong>2016 Edexcel SAM 2H Q19</strong></p>
+<p><strong>Each family of equation has a characteristic shape, and the sign of the leading term tells you which way round it goes.</strong></p>
+<table>
+<tr><th>Equation</th><th>Shape</th><th>Tell-tale features</th></tr>
+<tr><td>y = mx + c</td><td>Straight line</td><td>m &gt; 0 goes up to the right; m &lt; 0 goes down</td></tr>
+<tr><td>y = ax<sup>2</sup> + bx + c</td><td>Parabola</td><td>a &gt; 0: U-shape (minimum); a &lt; 0: ∩-shape (maximum); crosses the y-axis at c</td></tr>
+<tr><td>y = ax<sup>3</sup> + …</td><td>Cubic: an S-shape</td><td>a &gt; 0: rises from bottom-left to top-right; up to two turning points</td></tr>
+<tr><td>y = k/x</td><td>Reciprocal: two separate branches</td><td>Never touches either axis; k &gt; 0 in the 1st and 3rd quadrants</td></tr>
+<tr><td>y = sin x, y = cos x</td><td>Wave between −1 and 1</td><td>Repeats every 360°; sin starts at 0, cos starts at 1</td></tr>
+<tr><td>y = tan x</td><td>Repeating branches</td><td>Repeats every 180°; undefined at 90°, 270°, …</td></tr>
+</table>
+<p>To match an equation to a sketch, check three things: the <strong>shape family</strong>, the <strong>direction</strong> (sign of the leading term) and the <strong>y-intercept</strong> (put x = 0). In SAM 2H Q19, y = x<sup>2</sup> + x − 6 was the U-shape crossing the y-axis at −6. (Exponential graphs such as y = 2<sup>x</sup> are not in the 4MA1 list.)</p>
+
+<h3>Plotting a curve from a table of values</h3>
+<p class="asked">Spec 3.3A (Higher) · <strong>2018 Edexcel May 2H Q14(a), (b)</strong></p>
+<p><strong>Complete the table by substituting each x, plot every point accurately, then join them with a smooth curve, not with straight segments.</strong></p>
+<ol>
+<li>Substitute each x into the equation, <strong>with brackets for negatives</strong>. Use the given values as a check on your method.</li>
+<li>Plot each point to within half a small square.</li>
+<li>Join the points with a <strong>smooth curve</strong> through all of them. Turning points are rounded, not pointed.</li>
+<li>For y = k/x, do not join across x = 0. The two branches are separate.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 2018 2H Q14(a), y = x<sup>3</sup> − 2x<sup>2</sup> − 3x + 4</h4>
+<p>x = −2: (−8) − 2(4) − 3(−2) + 4 = −8 − 8 + 6 + 4 = <strong>−6</strong></p>
+<p>x = −1: −1 − 2 + 3 + 4 = <strong>4</strong> · x = 1: 1 − 2 − 3 + 4 = <strong>0</strong> · x = 2: 8 − 8 − 6 + 4 = <strong>−2</strong> · x = 3: 27 − 18 − 9 + 4 = <strong>4</strong></p>
+<p>The scheme gave B2 for all five, or B1 for 2, 3 or 4 correct.</p>
+</div>
+<div class="trap">
+<p>✗ −2x<sup>2</sup> at x = −2 worked out as +8. The square is done first: −2 × 4 = <strong>−8</strong>.<br>
+✗ Joining the points with a ruler. The curve is marked on being smooth and passing through the points.</p>
+</div>
+
+<h3>Solving equations with graphs</h3>
+<p class="asked">Spec 3.3E (Higher) · <strong>2018 Edexcel May 2H Q14(c)</strong> · <strong>2017 Edexcel Jan 4HR Q18</strong> (old spec)</p>
+<p><strong>Where two graphs cross, their y-values are equal, so the x-coordinates of the crossing points solve "one equation = the other".</strong></p>
+<ol>
+<li>Write the drawn graph's equation = the equation you must solve, and <strong>subtract</strong> to see what is left over.</li>
+<li>That leftover is the <strong>straight line</strong> to draw: drawn curve = new equation + leftover.</li>
+<li>Draw the line and read off the <strong>x-coordinates</strong> of every intersection.</li>
+<li>For "f(x) = k": draw the horizontal line <strong>y = k</strong> and count or read the crossings.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 2018 2H Q14(c). The graph of y = x<sup>3</sup> − 2x<sup>2</sup> − 3x + 4 is drawn. Solve x<sup>3</sup> − 2x<sup>2</sup> − x + 1 = 0.</h4>
+<p>x<sup>3</sup> − 2x<sup>2</sup> − 3x + 4 = (x<sup>3</sup> − 2x<sup>2</sup> − x + 1) − 2x + 3</p>
+<p>So when x<sup>3</sup> − 2x<sup>2</sup> − x + 1 = 0, the curve's y equals −2x + 3. Draw <strong>y = −2x + 3</strong> &nbsp; <strong>(M1)</strong></p>
+<p>It crosses the curve at x ≈ <strong>−0.8, 0.6 and 2.2</strong> &nbsp; <strong>(A1 A1: the scheme accepted −0.9 to −0.7, 0.4 to 0.7 and 2.1 to 2.4)</strong></p>
+</div>
+<div class="trap">
+<p>✗ Reading the y-coordinates of the crossings. The solutions are the <strong>x</strong>-values.<br>
+✗ Drawing y = 0 because the equation "equals 0". That solves the equation of the <em>drawn</em> curve, not the new one.</p>
+</div>
+
+<h3>Trigonometric graphs</h3>
+<p class="asked">Spec 3.3A (Higher) · <strong>2018 Edexcel May 1H Q18(b)</strong> · <strong>2016 Edexcel SAM 2H Q19</strong></p>
+<p><strong>sin and cos are waves of height 1 that repeat every 360°. tan repeats every 180° and has no maximum. Symmetry gives the second solution your calculator will not show you.</strong></p>
+<table>
+<tr><th>x</th><th>0°</th><th>90°</th><th>180°</th><th>270°</th><th>360°</th></tr>
+<tr><td>sin x</td><td>0</td><td>1</td><td>0</td><td>−1</td><td>0</td></tr>
+<tr><td>cos x</td><td>1</td><td>0</td><td>−1</td><td>0</td><td>1</td></tr>
+<tr><td>tan x</td><td>0</td><td>undefined</td><td>0</td><td>undefined</td><td>0</td></tr>
+</table>
+<ol>
+<li>Use the calculator (sin<sup>−1</sup>, cos<sup>−1</sup>, tan<sup>−1</sup>) for the first solution.</li>
+<li><strong>sin</strong>: the second solution is <strong>180° − first</strong>. <strong>cos</strong>: <strong>360° − first</strong>. <strong>tan</strong>: <strong>first + 180°</strong>.</li>
+<li>Add or subtract 360° to find any more in the range asked.</li>
+</ol>
+<div class="panel">
+<h4>Worked examples, for 0° ≤ x ≤ 360°</h4>
+<p>sin x = 0.5: 30° and 180° − 30° = <strong>30°, 150°</strong></p>
+<p>cos x = −0.5: 120° and 360° − 120° = <strong>120°, 240°</strong></p>
+<p>tan x = 1: 45° and 45° + 180° = <strong>45°, 225°</strong></p>
+</div>
+<div class="panel">
+<h4>2018 1H Q18(b): read a, b, c from y = a sin(x − b)° + c</h4>
+<p>The graph ran from a minimum of −1 to a maximum of 3. The centre line is y = 1, so <strong>c = 1</strong>. The height from the centre is 2, so <strong>a = 2</strong>.</p>
+<p>A normal sine wave rises through its centre line at 0°. This one does so at 90°, so it has been shifted 90° right: <strong>b = 90</strong>.</p>
+</div>
+
+<h3>Transformations of graphs</h3>
+<p class="asked">Spec 3.3B, 3.3C (Higher) · <strong>2018 Edexcel May 1H Q18(a)</strong> · <strong>2016 Edexcel SAM 1H Q20</strong></p>
+<p><strong>A change outside the brackets acts on y and does what you expect. A change inside the brackets acts on x and does the opposite.</strong></p>
+<table>
+<tr><th>New graph</th><th>Transformation</th><th>Point (p, q) moves to</th></tr>
+<tr><td>y = f(x) + a</td><td>Translation by (0, a): up a</td><td>(p, q + a)</td></tr>
+<tr><td>y = f(x + a)</td><td>Translation by (−a, 0): <strong>left</strong> a</td><td>(p − a, q)</td></tr>
+<tr><td>y = af(x)</td><td>Stretch parallel to the y-axis, scale factor a</td><td>(p, aq)</td></tr>
+<tr><td>y = f(ax)</td><td>Stretch parallel to the x-axis, scale factor <strong>1/a</strong></td><td>(p/a, q)</td></tr>
+</table>
+<p>With a = −1: y = −f(x) reflects in the <strong>x-axis</strong>, and y = f(−x) reflects in the <strong>y-axis</strong>.</p>
+<ol>
+<li>Decide whether the change is <strong>outside</strong> (y-direction) or <strong>inside</strong> (x-direction, opposite way).</li>
+<li>Move the given point: change only the coordinate that is affected.</li>
+<li>When <strong>describing</strong>, use the full wording: "translation by the vector (0, −4)", or "stretch parallel to the y-axis, scale factor 2".</li>
+</ol>
+<div class="panel">
+<h4>Worked example: SAM 1H Q20, maximum at (3, 5)</h4>
+<p>f(x + 3): inside, so left 3 → <strong>(0, 5)</strong>. &nbsp; 2f(x): outside, so y doubles → <strong>(3, 10)</strong>.</p>
+<p>f(3x): inside, so x is divided by 3 → <strong>(1, 5)</strong>. &nbsp; f(x) − 4: <strong>translation by (0, −4)</strong>.</p>
+</div>
+<div class="panel">
+<h4>2018 1H Q18(a): minimum at (−2, −1)</h4>
+<p>f(x − 5): right 5 → <strong>(3, −1)</strong>. &nbsp; ½f(x): y halves → <strong>(−2, −0.5)</strong>.</p>
+</div>
+<div class="trap">
+<p>✗ f(x + 3) moves the graph 3 to the <strong>right</strong>. It moves it left: the old x = 3 now happens when x + 3 = 3, i.e. at x = 0.<br>
+✗ "It moves down 4" for f(x) − 4. Describe it as a <strong>translation</strong> with a vector.</p>
+</div>
+
+<h3>Gradients of curves: drawing a tangent</h3>
+<p class="asked">Spec 3.3D (Higher) · <strong>2016 Edexcel Jan 3H Q15(c)</strong> (old spec)</p>
+<p><strong>A curve's gradient changes from point to point. The gradient at a point is the gradient of the tangent there: a straight line that just touches the curve without crossing it.</strong></p>
+<ol>
+<li>Lay a ruler against the curve at the point so that it <strong>touches</strong> but does not cut across, with equal gaps either side.</li>
+<li>Draw the tangent <strong>long</strong>: a longer line gives a more accurate gradient.</li>
+<li>Pick two points <strong>far apart</strong> on the tangent and use rise ÷ run.</li>
+<li>Check the sign: the curve going <strong>down</strong> to the right means a <strong>negative</strong> gradient.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: y = x<sup>2</sup> at x = 2</h4>
+<p>The tangent at (2, 4) passes through (1, 0) and (3, 8). Gradient = (8 − 0) ÷ (3 − 1) = <strong>4</strong>.</p>
+<p>A drawn answer is an estimate, so the scheme accepts a range. Module 8 shows how differentiation gives the exact value.</p>
+</div>
+<div class="trap">
+<p>✗ Using the chord between two points on the curve instead of a tangent. That gives the average gradient between the points, not the gradient at one of them.</p>
+</div>
+
+<h3>Distance–time and speed–time graphs</h3>
+<p class="asked">Spec 3.3A (Foundation: "to include speed/time and distance/time graphs")</p>
+<p><strong>On a distance–time graph the gradient is the speed. On a speed–time graph the gradient is the acceleration and the area underneath is the distance travelled.</strong></p>
+<table>
+<tr><th>Graph</th><th>Gradient means</th><th>Area under it means</th><th>Flat line means</th></tr>
+<tr><td>Distance–time</td><td>Speed</td><td>(nothing useful)</td><td>Stationary</td></tr>
+<tr><td>Speed–time</td><td>Acceleration (negative = deceleration)</td><td><strong>Distance travelled</strong></td><td>Constant speed</td></tr>
+</table>
+<ol>
+<li><strong>Gradient</strong> = change in vertical ÷ change in horizontal, with units: m/s from a distance–time graph, m/s² from a speed–time graph.</li>
+<li><strong>Area</strong> under a speed–time graph: split it into triangles, rectangles and trapezia and add them.</li>
+<li><strong>Average speed</strong> = total distance ÷ total time, including any time spent stopped.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 0 to 20 m/s in 10 s, 20 m/s for 30 s, then to rest in 5 s</h4>
+<p>Acceleration = 20 ÷ 10 = <strong>2 m/s²</strong>. Deceleration = 20 ÷ 5 = <strong>4 m/s²</strong>.</p>
+<p>Distance = ½ × 10 × 20 + 30 × 20 + ½ × 5 × 20 = 100 + 600 + 50 = <strong>750 m</strong></p>
+<p>Average speed = 750 ÷ 45 = <strong>16.7 m/s</strong> (3 s.f.)</p>
+</div>
+<div class="trap">
+<p>✗ Reading distance off the vertical axis of a speed–time graph. The vertical axis is <strong>speed</strong>. Distance is the <strong>area</strong>.<br>
+✗ Average speed = (0 + 20 + 0) ÷ 3. Use total distance ÷ total time.</p>
+</div>
+</section>
+
+<section id="sheet">
+<h2><span class="num">03</span>Cheat sheet</h2>
+
+<div class="panel">
+<h4>The routines</h4>
+<p><strong>fg(x):</strong> g first, then f. <strong>f<sup>−1</sup>:</strong> y = f(x), make x the subject, swap the letters, check.</p>
+<p><strong>Excluded values:</strong> denominator = 0; expression under √ &lt; 0.</p>
+<p><strong>Lines:</strong> m = Δy ÷ Δx; y = mx + c; midpoint is the mean of the coordinates; length = √(Δx<sup>2</sup> + Δy<sup>2</sup>).</p>
+<p><strong>Parallel:</strong> same m. <strong>Perpendicular:</strong> m<sub>1</sub>m<sub>2</sub> = −1 (flip and change the sign).</p>
+<p><strong>Graphical solutions:</strong> x-values of the crossings; the line to draw = drawn curve − new equation.</p>
+<p><strong>Trig:</strong> sin → 180 − x; cos → 360 − x; tan → x + 180.</p>
+<p><strong>Transformations:</strong> outside acts on y, as expected. Inside acts on x, the opposite way (f(x + a) goes left; f(ax) multiplies x by 1/a).</p>
+<p><strong>Speed–time:</strong> gradient = acceleration, area = distance.</p>
+</div>
+
+<h3>Definitions marked to the word</h3>
+<table>
+<tr><th>Term</th><th>Accepted wording</th></tr>
+<tr><td>Function</td><td>A rule that maps each input to <strong>exactly one</strong> output</td></tr>
+<tr><td>Domain</td><td>The set of <strong>input</strong> values (x) the function may take</td></tr>
+<tr><td>Range</td><td>The set of <strong>output</strong> values the function produces</td></tr>
+<tr><td>Composite function fg</td><td>Apply <strong>g first</strong>, then f: fg(x) = f(g(x))</td></tr>
+<tr><td>Inverse function f<sup>−1</sup></td><td>The function that <strong>reverses</strong> f, so f<sup>−1</sup>(f(x)) = x</td></tr>
+<tr><td>Gradient</td><td>The <strong>change in y ÷ change in x</strong>: the steepness</td></tr>
+<tr><td>y-intercept</td><td>Where the graph crosses the <strong>y-axis</strong>, found by putting x = 0</td></tr>
+<tr><td>Tangent</td><td>A straight line that <strong>touches</strong> a curve at one point without crossing it there</td></tr>
+</table>
+
+<h3>Wording that costs marks</h3>
+<table>
+<tr><th>Don't write</th><th>Write</th></tr>
+<tr><td class="no">fg(3) = 1.75 or −4.25</td><td class="yes">√16 = 4 only, so fg(3) = <strong>1.75</strong></td></tr>
+<tr><td class="no">f<sup>−1</sup>(x) = 1/f(x)</td><td class="yes">rearrange y = f(x) to make x the subject, then swap the letters</td></tr>
+<tr><td class="no">y = −1.5x + 43 when asked for px + qy = r</td><td class="yes"><strong>3x + 2y = 86</strong>, integers, in the form asked</td></tr>
+<tr><td class="no">perpendicular gradient of 2/3 is 3/2</td><td class="yes">−<strong>3/2</strong>: flip <em>and</em> change the sign</td></tr>
+<tr><td class="no">y = f(x + 3) is a shift of 3 to the right</td><td class="yes">translation by the vector <strong>(−3, 0)</strong>: 3 to the left</td></tr>
+<tr><td class="no">it moves down 4</td><td class="yes"><strong>translation</strong> by the vector (0, −4)</td></tr>
+<tr><td class="no">sin x = 0.5, x = 30</td><td class="yes">x = 30° <strong>or 150°</strong>, every solution in the range</td></tr>
+<tr><td class="no">the solutions are y = 2.1 and y = −1.3 (read from a graph)</td><td class="yes">the solutions are the <strong>x</strong>-coordinates of the intersections</td></tr>
+</table>
+</section>
+
+<section id="understand">
+<h2><span class="num">04</span>Understanding it</h2>
+
+<div class="q"><div class="qid">U1</div><div class="qbody">
+<p>f(x) = x + 5 and g(x) = 2x. Show that fg(x) ≠ gf(x), and explain why the order matters.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>fg(x) = f(2x) = 2x + 5. &nbsp; gf(x) = g(x + 5) = 2x + 10.</p>
+<p>"Double then add 5" is a different process from "add 5 then double". In gf, the 5 gets doubled too. The function written next to the x acts first, just as in f(g(x)).</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U2</div><div class="qbody">
+<p>Why do you swap x and y at the end when finding an inverse, and how is the graph of f<sup>−1</sup> related to the graph of f?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The inverse takes f's <strong>outputs</strong> as its inputs. Making x the subject gives x in terms of y, the output. We then rename the input "x" so it can be written as a normal function, f<sup>−1</sup>(x).</p>
+<p>Swapping x and y on a graph is a <strong>reflection in the line y = x</strong>. If (2, 7) is on y = f(x), then (7, 2) is on y = f<sup>−1</sup>(x).</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U3</div><div class="qbody">
+<p>Why must x = 2 be excluded from the domain of f(x) = 3/(x − 2), but no value is excluded for f(x) = 3/(x<sup>2</sup> + 1)?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>At x = 2 the first denominator is 0, and dividing by zero has no answer, so f(2) does not exist.</p>
+<p>x<sup>2</sup> + 1 is always at least 1, because x<sup>2</sup> is never negative. The second denominator can never be 0, so every real x is allowed.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U4</div><div class="qbody">
+<p>Why do the gradients of perpendicular lines multiply to −1? Use a line of gradient 2.</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>A line of gradient 2 goes 1 across and 2 up. Rotating that step by 90° turns "1 across, 2 up" into "2 across, 1 <strong>down</strong>", a gradient of −1/2.</p>
+<p>The rotation swaps rise and run (flip the fraction) and reverses one direction (change the sign). 2 × (−1/2) = −1. The same happens for any gradient m, giving −1/m.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U5</div><div class="qbody">
+<p>Why does y = f(x − 5) move the graph 5 to the <em>right</em>, even though there is a minus sign?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>Whatever f did at x = 0, the new graph does when x − 5 = 0, i.e. at x = 5. Every feature now happens 5 later along the x-axis, so the graph has moved <strong>right</strong>.</p>
+<p>That is why the 2018 minimum at (−2, −1) moved to (3, −1) for f(x − 5). Changes inside the bracket act on x in the opposite way to how they look.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U6</div><div class="qbody">
+<p>The graph of y = x<sup>2</sup> is drawn. Why does drawing y = x + 6 on the same axes solve x<sup>2</sup> − x − 6 = 0?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>At a crossing point both graphs have the same y, so x<sup>2</sup> = x + 6, which rearranges to x<sup>2</sup> − x − 6 = 0.</p>
+<p>So the x-coordinates of the crossings are exactly the solutions: x = −2 and x = 3, which you can check by factorising (x − 3)(x + 2). The y-coordinates, 4 and 9, are not the answer.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U7</div><div class="qbody">
+<p>Why does the area under a speed–time graph give the distance travelled?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>At constant speed, distance = speed × time. On a speed–time graph that is a <strong>rectangle</strong>: height (speed) × width (time).</p>
+<p>When the speed changes steadily, the shape becomes a triangle or trapezium, and its area is the average speed × time. Either way, the area measures distance, in m if the axes are in m/s and s.</p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">U8</div><div class="qbody">
+<p>A calculator gives sin<sup>−1</sup>(0.5) = 30°. Why is 150° also a solution of sin x = 0.5, and how would you find all the solutions from 0° to 720°?</p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>The sine graph is <strong>symmetrical about 90°</strong>, so the height at 30° is repeated at 180° − 30° = 150°. The calculator only returns one value.</p>
+<p>The wave repeats every 360°, so add 360° to each: 30°, 150°, 390°, 510°.</p>
+</div></details>
+</div></div>
+</section>
+
+<section id="drill">
+<h2><span class="num">05</span>Exam drill</h2>
+
+<div class="q"><div class="qid">D1</div><div class="qbody">
+<p>The function f is such that f(x) = (2x + 7)/3</p>
+<p>(a) Find f(4) <span class="marks">(1)</span></p>
+<p>(b) Express the inverse function f<sup>−1</sup> in the form f<sup>−1</sup>(x) = … <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for (8 + 7)/3 = <strong>5</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 3y = 2x + 7 or 3y − 7 = 2x <span class="mp">1</span>; A1 for <strong>f<sup>−1</sup>(x) = (3x − 7)/2</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D2</div><div class="qbody">
+<p>f(x) = 5/(x + 4)</p>
+<p>(a) State which value of x must be excluded from any domain of f <span class="marks">(1)</span></p>
+<p>(b) Solve f(x) = 2 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>x = −4</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for 5 = 2(x + 4) <span class="mp">1</span>; A1 for <strong>x = −1.5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D3</div><div class="qbody">
+<p>f(x) = 3x − 1 and g(x) = x<sup>2</sup> + 2</p>
+<p>(a) Find fg(2) <span class="marks">(2)</span></p>
+<p>(b) Find gf(x). Give your answer as simply as possible. <span class="marks">(2)</span></p>
+<p>(c) Solve fg(x) = gf(x), giving your answers to 3 significant figures. <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for g(2) = 6 <span class="mp">1</span>; A1 for f(6) = <strong>17</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for (3x − 1)<sup>2</sup> + 2 <span class="mp">1</span>; A1 for <strong>9x<sup>2</sup> − 6x + 3</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> M1 for fg(x) = 3(x<sup>2</sup> + 2) − 1 = 3x<sup>2</sup> + 5 <span class="mp">1</span></p>
+<p>M1 for 3x<sup>2</sup> + 5 = 9x<sup>2</sup> − 6x + 3, giving 3x<sup>2</sup> − 3x − 1 = 0, with a correct method to solve it <span class="mp">1</span></p>
+<p>A1 for x = (3 ± √21)/6: <strong>x = 1.26 or x = −0.264</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D4</div><div class="qbody">
+<p>g(x) = √(x − 5)</p>
+<p>(a) Which values of x cannot be included in any domain of g? <span class="marks">(1)</span></p>
+<p>(b) Find g<sup>−1</sup>(x) <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>x &lt; 5</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for y<sup>2</sup> = x − 5 <span class="mp">1</span>; A1 for <strong>g<sup>−1</sup>(x) = x<sup>2</sup> + 5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D5</div><div class="qbody">
+<p>A is the point (−2, 5) and B is the point (6, −1).</p>
+<p>(a) Find the coordinates of the midpoint of AB. <span class="marks">(2)</span></p>
+<p>(b) Find the length of AB. <span class="marks">(2)</span></p>
+<p>(c) Find the gradient of AB. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for ((−2 + 6)/2, (5 + (−1))/2) <span class="mp">1</span>; A1 for <strong>(2, 2)</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for √(8<sup>2</sup> + 6<sup>2</sup>) <span class="mp">1</span>; A1 for <strong>10</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for −6/8 = <strong>−3/4</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D6</div><div class="qbody">
+<p>Find an equation of the straight line that passes through (−1, 2) and (3, 14). <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for the gradient: (14 − 2) ÷ (3 − (−1)) = 3 <span class="mp">1</span></p>
+<p>M1 for substituting a point: 2 = 3(−1) + c, so c = 5 <span class="mp">1</span></p>
+<p>A1 for <strong>y = 3x + 5</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D7</div><div class="qbody">
+<p>The line L has equation 2y = 5 − 4x. Find an equation of the line that is perpendicular to L and passes through (6, 1). Give your answer in the form ax + by = c, where a, b and c are integers. <span class="marks">(4)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for the gradient of L: y = 2.5 − 2x, so −2 <span class="mp">1</span></p>
+<p>M1 for the perpendicular gradient ½ <span class="mp">1</span></p>
+<p>M1 for y − 1 = ½(x − 6), or 1 = ½ × 6 + c, giving c = −2 <span class="mp">1</span></p>
+<p>A1 for <strong>x − 2y = 4</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D8</div><div class="qbody">
+<p>Line L<sub>1</sub> has equation y = 4x − 3. Line L<sub>2</sub> has equation 8y + 2x = 5. Show that L<sub>1</sub> is perpendicular to L<sub>2</sub>. <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for rearranging L<sub>2</sub>: y = 5/8 − x/4, so the gradient is −1/4 <span class="mp">1</span></p>
+<p>A1 for 4 × (−1/4) = −1, so the lines are perpendicular <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D9</div><div class="qbody">
+<p>(a) Complete the table of values for y = x<sup>3</sup> − 3x + 1 <span class="marks">(2)</span></p>
+<table>
+<tr><th>x</th><th>−2</th><th>−1</th><th>0</th><th>1</th><th>2</th></tr>
+<tr><td>y</td><td></td><td></td><td>1</td><td></td><td></td></tr>
+</table>
+<p>(b) The graph of y = x<sup>3</sup> − 3x + 1 is drawn. Find the equation of the straight line you would draw on the same grid to solve x<sup>3</sup> − 4x − 1 = 0 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B2 for −1, 3, −1, 3 (B1 for at least two correct) <span class="mp">1</span><span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for x<sup>3</sup> − 3x + 1 − (x<sup>3</sup> − 4x − 1) <span class="mp">1</span>; A1 for <strong>y = x + 2</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D10</div><div class="qbody">
+<p>The curve y = f(x) has a minimum point at (4, −3). Write down the coordinates of the minimum point of the curve with equation</p>
+<p>(a) y = f(x) + 5 <span class="marks">(1)</span></p>
+<p>(b) y = f(x + 2) <span class="marks">(1)</span></p>
+<p>(c) y = 3f(x) <span class="marks">(1)</span></p>
+<p>(d) y = f(2x) <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> B1 for <strong>(4, 2)</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for <strong>(2, −3)</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 for <strong>(4, −9)</strong> <span class="mp">1</span></p>
+<p><strong>(d)</strong> B1 for <strong>(2, −3)</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D11</div><div class="qbody">
+<p>For 0 ≤ x ≤ 360, the graph of y = p cos x° + q passes through (0, 5) and has a minimum value of −1.</p>
+<p>(a) Find the value of p and the value of q. <span class="marks">(3)</span></p>
+<p>(b) Solve cos x° = −0.5 for 0 ≤ x ≤ 360 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for p + q = 5 <span class="mp">1</span>; M1 for q − p = −1 <span class="mp">1</span>; A1 for <strong>p = 3, q = 2</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> B1 for 120 <span class="mp">1</span>; B1 for 240 <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D12</div><div class="qbody">
+<p>The graph of y = x<sup>2</sup> − 4x is translated by the vector (3, −2). Find the equation of the new graph in the form y = x<sup>2</sup> + bx + c <span class="marks">(3)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for replacing x with (x − 3): (x − 3)<sup>2</sup> − 4(x − 3) <span class="mp">1</span></p>
+<p>M1 for subtracting 2 from the whole expression <span class="mp">1</span></p>
+<p>A1 for x<sup>2</sup> − 6x + 9 − 4x + 12 − 2 = <strong>x<sup>2</sup> − 10x + 19</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D13</div><div class="qbody">
+<p>A tangent is drawn to a curve at the point (2, 5). The tangent passes through the point (0, −3). Work out an estimate for the gradient of the curve at the point where x = 2 <span class="marks">(2)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for (5 − (−3)) ÷ (2 − 0) <span class="mp">1</span>; A1 for <strong>4</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D14</div><div class="qbody">
+<p>A cyclist accelerates uniformly from rest to 12 m/s in 8 seconds. She travels at 12 m/s for 20 seconds, then decelerates uniformly to rest in 6 seconds.</p>
+<p>(a) Work out her acceleration during the first 8 seconds. <span class="marks">(2)</span></p>
+<p>(b) Work out the total distance she travels. <span class="marks">(3)</span></p>
+<p>(c) Work out her average speed for the whole journey. <span class="marks">(1)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p><strong>(a)</strong> M1 for 12 ÷ 8 <span class="mp">1</span>; A1 for <strong>1.5 m/s²</strong> <span class="mp">1</span></p>
+<p><strong>(b)</strong> M1 for one correct area, e.g. ½ × 8 × 12 = 48 <span class="mp">1</span>; M1 for the sum of all three areas: 48 + 240 + 36 <span class="mp">1</span>; A1 for <strong>324 m</strong> <span class="mp">1</span></p>
+<p><strong>(c)</strong> B1 ft for 324 ÷ 34 = <strong>9.53 m/s</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+
+<div class="q"><div class="qid">D15</div><div class="qbody">
+<p>ABC is an isosceles triangle with AB = AC. A is the point (3, 11). B and C lie on the line with equation 2y = x + 4. Find an equation of the line of symmetry of triangle ABC. Give your answer in the form px + qy = r, where p, q and r are integers. <span class="marks">(5)</span></p>
+<details class="ans"><summary>Show answer</summary><div class="inner">
+<p>M1 for the gradient of BC: y = ½x + 2, so ½ <span class="mp">1</span></p>
+<p>M1 for the perpendicular gradient −2 (the line of symmetry passes through A and is perpendicular to BC) <span class="mp">1</span></p>
+<p>M1 for 11 = −2 × 3 + c, so c = 17 <span class="mp">1</span></p>
+<p>A1 for y = −2x + 17 <span class="mp">1</span></p>
+<p>A1 for <strong>2x + y = 17</strong> <span class="mp">1</span></p>
+</div></details>
+</div></div>
+</section>
+
+<footer>Module 7 · Functions and Graphs · Edexcel IGCSE Mathematics A 4MA1 (Higher) · Papers 1H and 2H</footer>
+</div>
+</body>
+</html>
