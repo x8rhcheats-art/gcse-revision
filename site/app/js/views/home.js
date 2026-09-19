@@ -69,15 +69,21 @@ export function renderHome() {
       el('br'),
       el('span', { class: 'd' }, m.standfirst)),
     el('span', { class: 'r' }, m.examWeight != null ? `~${Math.round(m.examWeight * 100)}% of marks` : ''));
-  // A subject with year groups lists each year under its own heading, heaviest
-  // first within the year; otherwise it is one list ordered by weight.
+  // A subject with year groups gives each year its own section, heaviest first
+  // within the year, so Year 11 topics never mix into the Year 10 list;
+  // otherwise it is one list ordered by weight.
   const groups = subj.moduleGroups || [];
+  const groupSections = [];
   if (groups.length) {
     for (const g of groups) {
       const inGroup = modulesByWeight().filter(m => m.number >= g.from && m.number <= g.to);
       if (!inGroup.length) continue;
-      mods.append(el('h3', {}, g.title));
-      for (const m of inGroup) mods.append(moduleRow(m));
+      const sec = el('section', { class: 'module-group' },
+        el('h2', {}, el('span', { class: 'num' }, `${inGroup.length} module${inGroup.length === 1 ? '' : 's'}`),
+          `${g.title} topics`));
+      if (g.note) sec.append(el('p', { class: 'plain-note' }, g.note));
+      for (const m of inGroup) sec.append(moduleRow(m));
+      groupSections.push(sec);
     }
   } else {
     for (const m of modulesByWeight()) mods.append(moduleRow(m));
@@ -90,7 +96,7 @@ export function renderHome() {
         el('span', { class: 'd' }, 'All eight modules and both mocks on one page — for reading straight through or printing')),
       el('span', { class: 'r' }, 'opens in a new tab')));
   }
-  root.append(mods);
+  root.append(mods, ...groupSections);
 
   // papers — only what this subject actually has
   const official = ((subj.officialPapers || {}).papers || []);

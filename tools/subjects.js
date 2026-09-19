@@ -44,10 +44,10 @@ module.exports = {
     // physics-only extras surfaced in the app
     completePack: 'complete-pack.html',
     plannedModules: 14,
-    // 01-09 are the resit topics; 10-14 are the rest of the 4PH1 spec
+    // 01-09 are the Year 10 / resit topics; 10-14 are the rest of the 4PH1 spec
     moduleGroups: [
-      { title: 'Resit topics', from: 1, to: 9 },
-      { title: 'Year 11 — rest of the spec', from: 10, to: 14 },
+      { title: 'Year 10', from: 1, to: 9, note: 'The topics on the Year 10 exam and the September resit.' },
+      { title: 'Year 11', from: 10, to: 14, note: 'The rest of the 4PH1 specification — new for Year 11, not on the Year 10 exam.' },
     ],
   },
 
@@ -73,8 +73,8 @@ module.exports = {
     mcqBanks: ['tools/chemistry/mcq-bank-1.json', 'tools/chemistry/mcq-bank-2.json', 'tools/chemistry/mcq-bank-3.json', 'tools/chemistry/mcq-bank-4.json', 'tools/chemistry/mcq-bank-5.json', 'tools/chemistry/mcq-bank-6.json'],
     plannedModules: 17,
     moduleGroups: [
-      { title: 'Year 10', from: 1, to: 10 },
-      { title: 'Year 11', from: 11, to: 17 },
+      { title: 'Year 10', from: 1, to: 10, note: 'The topics on the Year 10 end-of-year exam.' },
+      { title: 'Year 11', from: 11, to: 17, note: 'The rest of the 4CH1 specification — new for Year 11, not on the Year 10 exam.' },
     ],
   },
 
@@ -103,5 +103,21 @@ module.exports = {
       { title: 'Year 10', from: 1, to: 12 },
       { title: 'Year 11', from: 13, to: 18 },
     ],
+  },
+  maths: {
+    id: 'maths',
+    title: 'Maths',
+    code: '4MA1',
+    board: 'Edexcel IGCSE Mathematics A 4MA1 (Higher)',
+    standfirst: 'GCSE summer 2027 — Higher tier, two calculator papers',
+    modulesDir: 'site/modules/maths',
+    mocksDir: 'site/mocks/maths',
+    out: 'site/content/maths',
+    mocks: [],
+    // filled in as the module and paper agents land their files
+    mcqBanks: [],
+    pastPapers: [],
+    pastPaperSchemes: [],
+    plannedModules: 14,
   },
 };

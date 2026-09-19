@@ -456,11 +456,13 @@ button.act.current { background: var(--ink); color: var(--paper); border-color: 
 /* ---- per-subject accent: one attribute recolours the whole app ---- */
 body[data-subject="chemistry"] { --accent: #0B6E4F; }
 body[data-subject="biology"]   { --accent: #8A5A1E; }
+body[data-subject="maths"]     { --accent: #7A2E6E; }
 
 /* landing cards carry their own subject's accent regardless of context */
 .subject-card[data-subj="physics"]   { --card-accent: #1F3FA8; }
 .subject-card[data-subj="chemistry"] { --card-accent: #0B6E4F; }
 .subject-card[data-subj="biology"]   { --card-accent: #8A5A1E; }
+.subject-card[data-subj="maths"]     { --card-accent: #7A2E6E; }
 .subject-card { border-top-color: var(--card-accent, var(--ink)); }
 .subject-card .sc-board { color: var(--card-accent, var(--accent)); }
 .subject-card .sc-go { color: var(--card-accent, var(--accent)); }
