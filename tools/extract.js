@@ -239,6 +239,8 @@ function extractQuestion($, qEl, moduleId, kind) {
   const promptHtml = $body.html().trim();
 
   const q = { itemId: id, qid, promptHtml, hint, answerHtml };
+  // <div class="q stretch"> marks a grade 8/9, end-of-paper question
+  if ($q.hasClass('stretch')) q.tier = 'stretch';
 
   if (kind === 'drill') {
     // total marks: sum of (n) in .marks spans within the prompt

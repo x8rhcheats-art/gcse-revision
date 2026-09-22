@@ -19,6 +19,8 @@ export function questionBlock(q, opts = {}) {
   const writing = opts.writing !== false && Array.isArray(q.markScheme) && q.markScheme.length > 0;
 
   const body = el('div', { class: 'qbody' }, el('div', { html: q.promptHtml }));
+  // the hardest questions carry a badge, so a stretch session is easy to spot
+  if (q.tier === 'stretch') body.prepend(el('p', { class: 'tier-badge' }, 'Grade 8/9 · end of paper'));
   if (q.hint) body.append(el('p', { class: 'hint' }, el('b', {}, 'Think about'), ' ', q.hint));
 
   if (writing) {

@@ -561,3 +561,17 @@ td.every-year { color: var(--trap); font-weight: 600; }
 .pi-q details.ans { margin: 0; border: none; background: transparent; }
 .pi-q details.ans summary { padding: 4px 0; }
 .pi-q details.ans .inner { padding: 6px 0 8px; font-size: 14.5px; }
+
+/* ---- grade 8/9 stretch questions ---- */
+.tier-badge {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 2px 8px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: .72rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.q.stretch { border-left: 3px solid var(--accent); padding-left: 12px; }
