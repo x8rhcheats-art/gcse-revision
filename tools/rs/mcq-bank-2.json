@@ -1,0 +1,729 @@
+{
+ "comment": "RS 4RS1 Christianity — Paper 1 Beliefs and Values, Sections 3 and 4. 30 MCQs per module on key terms, scripture quotations and who said what. Sourced only from scratchpad/new-oct: the section booklets, the lesson decks, Revision Booklets 3 and 4, and the Beliefs and Values 4 Model Answers.",
+ "modules": {
+  "03-peace-and-conflict": [
+   {
+    "id": "M1",
+    "q": "Which three conditions must all be met for a conflict to count as a holy war?",
+    "options": [
+     "A just cause, a legitimate authority and a strong chance of success",
+     "A religious goal, authorisation by a religious leader, and a spiritual reward for those who fight",
+     "A religious goal, a declaration of war, and the blessing of an army by a priest",
+     "Proportionate methods, fair treatment of prisoners, and no use of weapons of mass destruction"
+    ],
+    "answer": 1,
+    "explain": "The three characteristics are: it must be fought to achieve a religious goal, be authorised by a religious leader, and promise a spiritual reward to those who fight. The first option lists Just War conditions and the fourth lists jus in bello."
+   },
+   {
+    "id": "M2",
+    "q": "Who were the two early authors of Christianity's Just War theory?",
+    "options": [
+     "Augustine and Aquinas",
+     "Calvin and Luther",
+     "Origen and Erasmus",
+     "Aquinas and Francisco de Vitoria"
+    ],
+    "answer": 0,
+    "explain": "Augustine (354–430) laid the roots and Aquinas (1225–1274) developed and expanded his thought. Francisco de Vitoria came later and added jus post bellum."
+   },
+   {
+    "id": "M3",
+    "q": "Which part of Just War theory did Francisco de Vitoria add?",
+    "options": [
+     "Jus ad bellum — when it is right to go to war",
+     "Jus in bello — how the war is to be conducted",
+     "Jus post bellum — what should happen once the war has ended",
+     "The condition that there must be a strong probability of success"
+    ],
+    "answer": 2,
+    "explain": "De Vitoria (c.1483–1546) added the principle that the defeated nation must be properly organised so its citizens can resume their daily lives in safety as quickly as possible."
+   },
+   {
+    "id": "M4",
+    "q": "Complete the quotation used to show that God's ideal world is disarmed: 'Nation will not take up sword against nation, nor will they…'",
+    "options": [
+     "…train for war any more' — Micah 4:3",
+     "…seek vengeance any more' — Amos 5:24",
+     "…shed innocent blood any more' — Genesis 9:6",
+     "…remember their enemies any more' — Isaiah 9:6"
+    ],
+    "answer": 0,
+    "explain": "Micah 4:3 foretells a time when God's rule is established. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
+   },
+   {
+    "id": "M5",
+    "q": "Which prophet calls the awaited Messiah the 'Prince of Peace'?",
+    "options": [
+     "Amos",
+     "Joel",
+     "Micah",
+     "Isaiah"
+    ],
+    "answer": 3,
+    "explain": "Isaiah 9:6–7: 'he will be called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace.'"
+   },
+   {
+    "id": "M6",
+    "q": "'Proclaim this among the nations: Prepare for war!' comes from which book?",
+    "options": [
+     "Joel",
+     "Revelation",
+     "Leviticus",
+     "1 Samuel"
+    ],
+    "answer": 0,
+    "explain": "Joel 3:9–10, where the prophet commands the people to be ready to fight on God's behalf: 'Beat your ploughshares into swords and your pruning hooks into spears.'"
+   },
+   {
+    "id": "M7",
+    "q": "Which group produced the 1661 Declaration to Charles II stating 'We utterly deny all outward wars and strife and fighting with outward weapons'?",
+    "options": [
+     "The Salvation Army",
+     "The Religious Society of Friends, the Quakers",
+     "The Corrymeela Community",
+     "The Methodists"
+    ],
+    "answer": 1,
+    "explain": "The Quakers take an absolutist stance on war, using the 'weapons of the Spirit' — truth, love and peace — instead of violence."
+   },
+   {
+    "id": "M8",
+    "q": "What is the difference between an absolute pacifist and a conditional pacifist?",
+    "options": [
+     "An absolute pacifist opposes nuclear weapons only; a conditional pacifist opposes all weapons",
+     "An absolute pacifist refuses to pay taxes; a conditional pacifist refuses only to fight",
+     "An absolute pacifist thinks fighting is always wrong, even in self-defence; a conditional pacifist opposes war unless it really is the last option available",
+     "An absolute pacifist acts from religious conviction; a conditional pacifist acts from conscience"
+    ],
+    "answer": 2,
+    "explain": "Absolute pacifists hold that human lives are so valuable that nothing can justify putting them at risk. Conditional pacifists accept that extreme cases, such as Hitler, may leave no alternative."
+   },
+   {
+    "id": "M9",
+    "q": "Who said 'Non-violence is the greatest force at the disposal of mankind. It is mightier than the mightiest weapon of destruction devised by the ingenuity of man'?",
+    "options": [
+     "Martin Luther King",
+     "Emil Arnaud",
+     "Leo Tolstoy",
+     "Mahatma Gandhi"
+    ],
+    "answer": 3,
+    "explain": "Gandhi (1869–1948). The quotation is the standard evidence for passive resistance being a form of strength rather than weakness."
+   },
+   {
+    "id": "M10",
+    "q": "Who coined the word 'pacifism'?",
+    "options": [
+     "Seneca the Younger",
+     "Emil Arnaud, a French peace campaigner",
+     "Erasmus, in In Praise of Folly",
+     "Leo Tolstoy"
+    ],
+    "answer": 1,
+    "explain": "Arnaud (1864–1921) coined it, and it was adopted at the tenth Universal Peace Congress in Glasgow in 1901. The word itself comes from the Latin pax, peace, and ficus, making."
+   },
+   {
+    "id": "M11",
+    "q": "Which three categories of weapon make up 'weapons of mass destruction'?",
+    "options": [
+     "Nuclear, chemical and biological",
+     "Nuclear, incendiary and landmine",
+     "Atomic, hydrogen and neutron",
+     "Choking, blister and nerve agents"
+    ],
+    "answer": 0,
+    "explain": "All three can inflict death and destruction on a huge scale. Atomic, hydrogen and neutron bombs are all kinds of nuclear weapon; choking, blister and nerve agents are kinds of chemical weapon."
+   },
+   {
+    "id": "M12",
+    "q": "Approximately how many people were killed by the atomic bomb dropped on Hiroshima on 6 August 1945?",
+    "options": [
+     "15,700",
+     "40,000",
+     "84,000",
+     "900,000"
+    ],
+    "answer": 2,
+    "explain": "Around 84,000 were killed at Hiroshima, with many more afflicted by radiation sickness; the Nagasaki bomb three days later killed about 40,000. 15,700 is the estimated number of nuclear warheads held by nine nations in 2015."
+   },
+   {
+    "id": "M13",
+    "q": "Who said 'In nuclear war there would be no victors, only victims'?",
+    "options": [
+     "Pope Benedict XVI",
+     "Pope John Paul II",
+     "Stephen Cottrell, Archbishop of York",
+     "Harry S. Truman"
+    ],
+    "answer": 0,
+    "explain": "Pope Benedict XVI. Cottrell's 2020 statement is the related one that the church has consistently regarded any use or possession of nuclear weapons as outside a just use of arms."
+   },
+   {
+    "id": "M14",
+    "q": "Which Roman Catholic document demanded 'that the arms race should cease' and that nuclear weapons should be banned?",
+    "options": [
+     "Fratelli Tutti",
+     "Evangelium Vitae",
+     "Mulieris Dignitatem",
+     "Pacem in Terris"
+    ],
+    "answer": 3,
+    "explain": "Pacem in Terris. Evangelium Vitae (1995) and Fratelli Tutti (2020) concern the death penalty, and Mulieris Dignitatem (1988) concerns the vocations of women."
+   },
+   {
+    "id": "M15",
+    "q": "Which organisation defines terrorism as any act aiming to cause death or serious harm to civilians in order to intimidate a population or compel a government?",
+    "options": [
+     "The United Nations",
+     "Amnesty International",
+     "The World Council of Churches",
+     "The Church of England's General Synod"
+    ],
+    "answer": 0,
+    "explain": "The UN definition. Terrorists aim to gain publicity, cause fear and intimidate authorities into yielding to their demands."
+   },
+   {
+    "id": "M16",
+    "q": "Which American Christian terrorist organisation, formed in 1982, campaigns against abortion?",
+    "options": [
+     "The Provisional IRA",
+     "The Army of God",
+     "The Royal Ulster Constabulary",
+     "The Prison Fellowship"
+    ],
+    "answer": 1,
+    "explain": "The Army of God has committed kidnap, attempted murder and murder, and has been associated with abortion clinic bombings and arsons."
+   },
+   {
+    "id": "M17",
+    "q": "Who planted the bomb in The Grand Hotel, Brighton, in 1984?",
+    "options": [
+     "Patrick Magee, a member of the IRA",
+     "Les Isaac, later of Street Pastors",
+     "Camilo Torres, a liberation theologian",
+     "Ray Davey, founder of Corrymeela"
+    ],
+    "answer": 0,
+    "explain": "Magee planted it about a month beforehand, timed for the last night of the Conservative Conference with the aim of assassinating Margaret Thatcher. She survived; five people were killed and at least 31 injured."
+   },
+   {
+    "id": "M18",
+    "q": "Who founded Corrymeela, and when?",
+    "options": [
+     "Desmond Tutu, in 1996",
+     "Brother Roger, in 1940",
+     "Ray Davey, in 1965",
+     "Les Isaac, in 2003"
+    ],
+    "answer": 2,
+    "explain": "Davey founded it in 1965 at Ballycastle in county Antrim, thinking the buildings could provide a meeting place for people of any religious persuasion so all could join the peace process."
+   },
+   {
+    "id": "M19",
+    "q": "What did Ray Davey mean by telling departing visitors that 'Corrymeela begins when you leave'?",
+    "options": [
+     "That the community's work is funded by donations given on departure",
+     "That the real work is building on the experience back in their own community",
+     "That visitors should return for a second, longer stay",
+     "That the centre only opens once the week's residential has ended"
+    ],
+    "answer": 1,
+    "explain": "It is hoped that those who visit Corrymeela will build on their experiences within their own communities — the change has to happen at home, not at Ballycastle."
+   },
+   {
+    "id": "M20",
+    "q": "In what year was the United Nations created, and with what central aim?",
+    "options": [
+     "1919, to enforce the Treaty of Versailles",
+     "1948, to produce the Universal Declaration of Human Rights",
+     "1945, to maintain international peace and security",
+     "1961, to free prisoners of conscience"
+    ],
+    "answer": 2,
+    "explain": "The UN was created in 1945 after the Second World War. It works to prevent conflict, help parties make peace, deploy peacekeepers, and create conditions for peace to hold."
+   },
+   {
+    "id": "M21",
+    "q": "In Matthew 18:21–22, how many times does Jesus say Peter should forgive his brother?",
+    "options": [
+     "Seven times",
+     "Seventy times",
+     "Not seven times, but seventy-seven times",
+     "As many times as he has himself been forgiven"
+    ],
+    "answer": 2,
+    "explain": "'I tell you, not seven times, but seventy-seven times.' Christians use it to argue that forgiveness has no limit."
+   },
+   {
+    "id": "M22",
+    "q": "Which two British women are the standard contrasting examples on Christian forgiveness?",
+    "options": [
+     "Gee Walker, who forgave her son's murderers, and Rev Julie Nicholson, who refused to forgive her daughter's killers",
+     "Rev Julie Nicholson, who forgave her daughter's killers, and Gee Walker, who refused to forgive her son's murderers",
+     "Joanna Jepson and Emmeline Pankhurst",
+     "Eleanor Roosevelt and Mother Teresa"
+    ],
+    "answer": 0,
+    "explain": "Walker felt forgiveness was Jesus' command and will. Nicholson refused because the guilty party had not repented, so she saw no point — Jesus taught that forgiveness follows repentance, metanoia."
+   },
+   {
+    "id": "M23",
+    "q": "Which three characteristics must all be present for behaviour to count as bullying?",
+    "options": [
+     "It is physical, public, and committed by a group",
+     "It is intentional and aims to cause harm or distress; the two parties have different degrees of power; it happens repeatedly over a period of time",
+     "It is secret, electronic, and aimed at a stranger",
+     "It causes distress, breaks the law, and is reported to a teacher"
+    ],
+    "answer": 1,
+    "explain": "All three are needed, which is why a single argument between equals is not bullying."
+   },
+   {
+    "id": "M24",
+    "q": "What is the main problem for a Christian answering a question on bullying from scripture?",
+    "options": [
+     "The Bible forbids discussing bullying",
+     "The Bible contains no direct teachings about bullying, so Christians argue from general teachings such as imago Dei and agape",
+     "Bullying is treated in the Bible as a mortal sin, which Protestants reject",
+     "The only relevant texts are in the Old Testament, which Christians do not use"
+    ],
+    "answer": 1,
+    "explain": "Saying so openly earns credit. Christians then argue from Genesis 1:27 and stewardship, Mark 12:31 and the Good Samaritan, the Beatitudes, Ephesians 4:29 and Psalm 139:23–24."
+   },
+   {
+    "id": "M25",
+    "q": "What does the Greek word for sin, hamartia, mean?",
+    "options": [
+     "To miss the mark",
+     "To turn around completely",
+     "Undeserved love",
+     "Whole, inhabited world"
+    ],
+    "answer": 0,
+    "explain": "Hamartia means to 'miss the mark': God expected obedience so that humanity could be in a relationship with him, and by becoming self-centred humanity failed to fulfil God's goals. 'Turn around completely' is metanoia."
+   },
+   {
+    "id": "M26",
+    "q": "Which three types of sin does the Roman Catholic Church teach?",
+    "options": [
+     "Sins of commission, sins of omission, and blasphemy against the Holy Spirit",
+     "Original sin, mortal sin and venial sin",
+     "Crimes against persons, crimes against property and hate crimes",
+     "Original sin, actual sin and unforgivable sin"
+    ],
+    "answer": 1,
+    "explain": "Protestants instead teach two: sins of commission (doing what one was commanded not to do) and sins of omission (failing to do what one should)."
+   },
+   {
+    "id": "M27",
+    "q": "Which statement correctly contrasts a sin and a crime?",
+    "options": [
+     "Both are identified by government, but only sin is punished after death",
+     "A crime is identified by a government and punished in this life; a sin is determined by God and punished after death",
+     "A sin is identified by the Church and a crime by the police, and both are punished in this life",
+     "All sins are crimes, but not all crimes are sins"
+    ],
+    "answer": 1,
+    "explain": "The three differences are source, effect and consequences. Christians would say all crimes are sins, but not every sin is regarded as a crime — which is the reverse of the fourth option."
+   },
+   {
+    "id": "M28",
+    "q": "Which organisation was pioneered in London in 2003 by Les Isaac, working with local police and councils to make the streets safer?",
+    "options": [
+     "Prison Fellowship",
+     "Corrymeela",
+     "Street Pastors",
+     "Liberation Theology"
+    ],
+    "answer": 2,
+    "explain": "Street Pastors trains volunteers to offer reassurance, safety and support through caring, listening and helping. It is ecumenical, with many different churches involved."
+   },
+   {
+    "id": "M29",
+    "q": "Which aim of punishment is described as 'a fair and just payback for the crime', embodying the 'eye for an eye' idea?",
+    "options": [
+     "Deterrence",
+     "Reparation",
+     "Reform",
+     "Retribution"
+    ],
+    "answer": 3,
+    "explain": "Retribution. Reparation is paying society back; deterrence is putting others off; reform is changing the offender so they are less likely to reoffend."
+   },
+   {
+    "id": "M30",
+    "q": "In which year was capital punishment completely abolished in the United Kingdom?",
+    "options": [
+     "1964",
+     "1965",
+     "1973",
+     "1998"
+    ],
+    "answer": 3,
+    "explain": "The last executions were in 1964; capital punishment for murder was abolished in Great Britain in 1965 and in Northern Ireland in 1973; it remained for crimes such as treason until complete abolition in 1998."
+   }
+  ],
+  "04-rights-equality-and-social-justice": [
+   {
+    "id": "M1",
+    "q": "Which three characteristics define human rights?",
+    "options": [
+     "They are legal, enforceable and national",
+     "They are universal, inalienable, and indivisible and interdependent",
+     "They are God-given, eternal and unconditional",
+     "They are earned, transferable and revocable"
+    ],
+    "answer": 1,
+    "explain": "Universal — everyone has them. Inalienable — they belong to people regardless of nationality, language, religion or ethnic origin. Indivisible and interdependent — the different rights are all needed for people to flourish."
+   },
+   {
+    "id": "M2",
+    "q": "How many articles does the Universal Declaration of Human Rights contain, and in what year was it produced?",
+    "options": [
+     "30 articles, in 1948",
+     "39 articles, in 1953",
+     "25 articles, in 1945",
+     "58 articles, in 1998"
+    ],
+    "answer": 0,
+    "explain": "The United Nations produced it in 1948, after the world had seen the Nazi concentration camps, the treatment of Japanese prisoners of war, and Hiroshima and Nagasaki. 58 is the number of countries that assembled to affirm it."
+   },
+   {
+    "id": "M3",
+    "q": "Which article of the Universal Declaration of Human Rights allows the suspension of human rights in order to protect people?",
+    "options": [
+     "Article 3",
+     "Article 18",
+     "Article 19",
+     "Article 29.2"
+    ],
+    "answer": 3,
+    "explain": "Article 29.2 permits limitations determined by law for the purpose of securing respect for the rights of others and meeting the just requirements of morality, public order and the general welfare."
+   },
+   {
+    "id": "M4",
+    "q": "Who dismissed natural human rights as 'nonsense on stilts'?",
+    "options": [
+     "John Locke",
+     "Jeremy Bentham",
+     "Thomas Hobbes",
+     "Friedrich Nietzsche"
+    ],
+    "answer": 1,
+    "explain": "Bentham (1748–1832), the father of Utilitarianism, also said 'a natural right is a son that never had a father'. He held that rights are created by the state and endorsed by law."
+   },
+   {
+    "id": "M5",
+    "q": "According to John Locke, what are the main natural rights of human beings?",
+    "options": [
+     "Life, liberty and property",
+     "Food, shelter and education",
+     "Liberty, equality and fraternity",
+     "Freedom of religion, opinion and assembly"
+    ],
+    "answer": 0,
+    "explain": "Locke (1632–1704) argued these rights naturally existed among human beings before they entered civil society, so they self-evidently apply to them."
+   },
+   {
+    "id": "M6",
+    "q": "Which two Enlightenment thinkers appealed to a 'social contract' to uphold human rights?",
+    "options": [
+     "Locke and Bentham",
+     "Hobbes and Rousseau",
+     "Nietzsche and Bentham",
+     "Rousseau and Locke"
+    ],
+    "answer": 1,
+    "explain": "Hobbes (1588–1679) and Rousseau (1712–1778) argued the individual should surrender basic freedoms in exchange for society protecting their rights, since a world of unlimited rights would mean chaos."
+   },
+   {
+    "id": "M7",
+    "q": "Which verse of St Paul is most often used to show that Christian teaching supports freedom from discrimination?",
+    "options": [
+     "Exodus 20:13",
+     "Isaiah 1:17",
+     "Galatians 3:28",
+     "Matthew 7:12"
+    ],
+    "answer": 2,
+    "explain": "'There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus.' It covers race, class and sex at once."
+   },
+   {
+    "id": "M8",
+    "q": "Who said 'Whoever tortures a human being, whoever abuses a human being, whoever outrages a human being, abuses God'?",
+    "options": [
+     "Oscar Romero",
+     "Desmond Tutu",
+     "Jürgen Moltmann",
+     "Martin Luther King"
+    ],
+    "answer": 0,
+    "explain": "Romero, the Roman Catholic archbishop of El Salvador, who was shot dead in front of the altar while celebrating Mass in 1980 after criticising the government and speaking for the rights of the poor."
+   },
+   {
+    "id": "M9",
+    "q": "Who said 'I am not interested in picking up crumbs of compassion thrown from the table of someone who considers himself my master. I want the full menu of rights'?",
+    "options": [
+     "Eleanor Roosevelt",
+     "Jean Vanier",
+     "Emma Watson",
+     "Desmond Tutu"
+    ],
+    "answer": 3,
+    "explain": "Tutu (1931–2021), the first Black Anglican Archbishop of Cape Town and Johannesburg, who won the 1984 Nobel Peace Prize and chaired the Truth and Reconciliation Commission."
+   },
+   {
+    "id": "M10",
+    "q": "Who founded Amnesty International, and what prompted him?",
+    "options": [
+     "Peter Benenson, after learning of two Portuguese students imprisoned for seven years for toasting freedom in a Lisbon bar",
+     "Eleanor Roosevelt, after chairing the UN Human Rights Commission",
+     "Toby Ord, after calculating the impact of effective donations",
+     "Jean Vanier, after visiting an institution for disabled people"
+    ],
+    "answer": 0,
+    "explain": "Benenson set it up in 1961, believing that if enough people protested together governments could not get away with such intimidation. Amnesty won the Nobel Peace Prize in 1977."
+   },
+   {
+    "id": "M11",
+    "q": "What role did Eleanor Roosevelt hold when the Universal Declaration of Human Rights was drafted?",
+    "options": [
+     "United States Secretary of State",
+     "Chair of the United Nations Human Rights Commission",
+     "Director of Amnesty International",
+     "Chair of the Truth and Reconciliation Commission"
+    ],
+    "answer": 1,
+    "explain": "She was appointed a UN delegate in 1946 and as Chair of the Human Rights Commission was instrumental in formulating the Declaration, calling it 'the international Magna Carta for all men everywhere'."
+   },
+   {
+    "id": "M12",
+    "q": "Which philosopher's contrast between 'slave morality' and 'master morality' is used to argue that human rights stifle human progress?",
+    "options": [
+     "Jeremy Bentham",
+     "Jean-Jacques Rousseau",
+     "Friedrich Nietzsche",
+     "John Hick"
+    ],
+    "answer": 2,
+    "explain": "Nietzsche (1844–1900) argued traditional morality benefits the weak but harms the strong, contrasting 'slave morality', which champions compassion and altruism, with 'master morality', which values power, success, ambition and ruthlessness."
+   },
+   {
+    "id": "M13",
+    "q": "What is gender bias?",
+    "options": [
+     "Any difference in pay between two employees",
+     "Preconceived ideas or stereotypes about how the genders should behave and think, which place limitations on their capabilities",
+     "The legal requirement to treat men and women identically in all circumstances",
+     "The belief in the social, economic and political equality of the sexes"
+    ],
+    "answer": 1,
+    "explain": "The fourth option defines feminism, not gender bias. Gender bias often leads to discrimination, which can be negative or, more controversially, positive."
+   },
+   {
+    "id": "M14",
+    "q": "Who published A Vindication of the Rights of Women in 1792?",
+    "options": [
+     "Harriet Taylor Mill",
+     "Emmeline Pankhurst",
+     "Mary Wollstonecraft",
+     "Emma Watson"
+    ],
+    "answer": 2,
+    "explain": "Wollstonecraft (1759–1797), influenced by the French Revolution, argued that if all men were entitled to liberty, equality and fraternity then so were women, and that educated women would be as capable of decision-making as men."
+   },
+   {
+    "id": "M15",
+    "q": "Which of these correctly matches a kind of feminism to its aim?",
+    "options": [
+     "Radical feminism aims to celebrate and promote the nurturing qualities of women",
+     "Cultural feminism aims to give women equal access to positions men have traditionally dominated",
+     "Liberal feminism aims to reshape society and replace its inherently patriarchal institutions",
+     "Liberal feminism aims at concrete, pragmatic change in institutions and governments to integrate women into the power structure"
+    ],
+    "answer": 3,
+    "explain": "Radical feminism aims to reshape society and restructure its patriarchal institutions; cultural feminism rejects the idea that men and women are intrinsically the same and celebrates women's nurturing qualities."
+   },
+   {
+    "id": "M16",
+    "q": "From which year has the Church of England ordained women as priests?",
+    "options": [
+     "1920",
+     "1975",
+     "1994",
+     "2015"
+    ],
+    "answer": 2,
+    "explain": "The Church of England has ordained women as priests since 1994 and as bishops since 2015. The Baptists began ordaining women in the 1920s; the Salvation Army and United Reformed Church always accepted women on equal terms."
+   },
+   {
+    "id": "M17",
+    "q": "Which statement is quoted from the Catechism of the Catholic Church on the sexes?",
+    "options": [
+     "'Each of the two sexes is an image of the power and tenderness of God, with equal dignity though in a different way'",
+     "'I permit no woman to teach or to have authority over a man; she is to keep silent'",
+     "'It is not good that the man should be alone; I will make him a helper as his partner'",
+     "'The husband is the head of the wife just as Christ is the head of the church'"
+    ],
+    "answer": 0,
+    "explain": "The other three are scripture: 1 Timothy 2:11–15, Genesis 2:18 and Ephesians 5:23. The Catechism's formula is 'equal dignity', 'different way'."
+   },
+   {
+    "id": "M18",
+    "q": "In Mulieris Dignitatem (1988), what did Pope John Paul II describe as the two great vocations of women?",
+    "options": [
+     "Prayer and service",
+     "Motherhood and virginity",
+     "Teaching and pastoral care",
+     "Marriage and the religious life"
+    ],
+    "answer": 1,
+    "explain": "He regarded the Virgin Mary as the supreme example of both — motherhood as sharing God's creative purpose, virginity as dedicating oneself to God. Many women have found the document patronising and narrow-minded."
+   },
+   {
+    "id": "M19",
+    "q": "In John 9, how does Jesus answer the question of whether a man born blind, or his parents, had sinned?",
+    "options": [
+     "'Your sins are forgiven; pick up your mat and walk'",
+     "'If any one of you is without sin, let him be the first to throw a stone'",
+     "'Neither this man nor his parents sinned; he was born blind so that God's works might be revealed in him'",
+     "'Cursed be anyone who misleads a blind person on the road'"
+    ],
+    "answer": 2,
+    "explain": "This is the direct refutation of the view that disability is a punishment for sin. The fourth option is Deuteronomy 27:18 and the second is John 8:1–11."
+   },
+   {
+    "id": "M20",
+    "q": "Who founded L'Arche, and in what year?",
+    "options": [
+     "Jean Vanier, in 1964",
+     "Leonard Cheshire, in 1952",
+     "Alf Morris, in 1970",
+     "Brother Roger, in 1940"
+    ],
+    "answer": 0,
+    "explain": "Vanier (1928–2019) invited Raphaël Simi and Philippe Seux, two men with intellectual disabilities, to share his life in a house at Trosly-Breuil in France. 'L'Arche' means the Ark, after Noah's — the biblical symbol of deliverance."
+   },
+   {
+    "id": "M21",
+    "q": "In a L'Arche community, what are disabled people and those who live with them called?",
+    "options": [
+     "Clients and staff",
+     "Residents and carers",
+     "Core members and assistants",
+     "Pilgrims and hosts"
+    ],
+    "answer": 2,
+    "explain": "There are no clients or staff and no shift work. Assistants live in the houses as they would with any family, and everyone is equally responsible for the life of the community."
+   },
+   {
+    "id": "M22",
+    "q": "'From one man he made all the nations, that they should inhabit the whole earth' comes from which book, and is used to argue what?",
+    "options": [
+     "Acts 17:26 — that all ethnic groups share one origin, so racial hierarchy denies creation",
+     "Galatians 2:6 — that God does not show favouritism",
+     "Leviticus 19:33–34 — that the foreigner must be treated as native-born",
+     "Deuteronomy 7:1–3 — that Israel should not intermarry with other nations"
+    ],
+    "answer": 0,
+    "explain": "Acts 17:26 endorses the doctrine of creation. The other three are all real references, but say different things — and Deuteronomy 7:1–3 is the text used on the opposite side."
+   },
+   {
+    "id": "M23",
+    "q": "Which text did the Dutch Reformed Church use to justify treating Black people as inferior under apartheid?",
+    "options": [
+     "Leviticus 19:33–34",
+     "Genesis 9:18–27, Noah's curse of his grandson Canaan",
+     "Acts 17:26",
+     "John 7:24"
+    ],
+    "answer": 1,
+    "explain": "Apartheid legislation was introduced in 1948 by Prime Minister Daniel François Malan, a Dutch Reformed minister. In the early 1980s the World Alliance of Reformed Churches declared apartheid a heresy and expelled the Church, which has since expressed repentance."
+   },
+   {
+    "id": "M24",
+    "q": "Whose 1968 'Rivers of Blood' speech warned that diversity would leave English people feeling 'strangers in their own country'?",
+    "options": [
+     "Stephen Cottrell",
+     "Rowan Atkinson",
+     "Enoch Powell",
+     "Ed Hussain"
+    ],
+    "answer": 2,
+    "explain": "Powell, a Conservative politician, said 'like the Roman, I seem to see the River Tiber foaming with much blood'. It is the standard evidence for the 'problems' side of a multi-ethnic society question."
+   },
+   {
+    "id": "M25",
+    "q": "How long did the Montgomery bus boycott led by Martin Luther King last, and what triggered it?",
+    "options": [
+     "382 days, after the arrest of Rosa Parks for refusing to give up her seat",
+     "250 days, after the Civil Rights Bill was blocked in Congress",
+     "100 days, after segregation was introduced in Alabama schools",
+     "54 days, after King was first harassed by the police"
+    ],
+    "answer": 0,
+    "explain": "Without Black passengers' fares the bus companies lost more than half their income. The boycott marked the beginning of the American Civil Rights Movement, which King went on to lead."
+   },
+   {
+    "id": "M26",
+    "q": "Which position holds that the Christian God saves but will be kind to good members of other religions, who may be 'anonymous Christians'?",
+    "options": [
+     "Exclusivism",
+     "Pluralism",
+     "Inclusivism",
+     "Proselytisation"
+    ],
+    "answer": 2,
+    "explain": "Inclusivism, developed by the Roman Catholic theologian Karl Rahner (1904–1984), who coined 'anonymous Christians'. John 14:2 — 'My Father's house has many rooms' — is its text."
+   },
+   {
+    "id": "M27",
+    "q": "Which theologian used the analogy of the elephant and the blind men to defend pluralism?",
+    "options": [
+     "Karl Rahner",
+     "Jürgen Moltmann",
+     "Thomas Aquinas",
+     "John Hick"
+    ],
+    "answer": 3,
+    "explain": "Hick (1922–2012), who also identified the three-way division between exclusivism, inclusivism and pluralism. One blind man felt a leg and reported 'a great living pillar', another the trunk and reported 'a great snake' — all true, but each only one aspect of the whole."
+   },
+   {
+    "id": "M28",
+    "q": "Where did the modern ecumenical movement begin?",
+    "options": [
+     "At the World Missionary Conference in Edinburgh in 1910",
+     "At the founding of the World Council of Churches in 1948",
+     "At Taizé in 1940",
+     "With the Lima Document in 1982"
+    ],
+    "answer": 0,
+    "explain": "Edinburgh 1910. The movement was designed to help Christians work together in spreading the Gospel, on the view that denominational bickering would inhibit the work and undermine the message of agape."
+   },
+   {
+    "id": "M29",
+    "q": "What did the 1980 Brandt Report identify?",
+    "options": [
+     "That absolute poverty is a severe deprivation of basic human needs",
+     "That the developed world contains 25% of the world's population but around 80% of its wealth",
+     "That the UK should spend 0.7% of gross national income on foreign aid",
+     "That 92% of mothers diagnosed with a Down's syndrome pregnancy choose to terminate"
+    ],
+    "answer": 1,
+    "explain": "The Report advocated long-term action on the causes of poverty, requiring changes in both the developing and developed worlds. The UN defined absolute poverty in 1995."
+   },
+   {
+    "id": "M30",
+    "q": "Christian Aid's main aim is best described as which of the following?",
+    "options": [
+     "Emergency relief after natural disasters, which is its only activity",
+     "Converting those it helps to Christianity before providing aid",
+     "A long-term approach to poverty — teaching skills and providing education so people become self-reliant — alongside emergency relief and campaigning",
+     "Lobbying the UK government to increase the foreign aid budget to 0.7%"
+    ],
+    "answer": 2,
+    "explain": "Founded in 1947, it is the official aid agency of over 40 denominations in the UK and Ireland, works in over 70 countries with more than 500 partners, does not force religion on anyone, and campaigns for fair wages and the dropping of developing-world debt, as in Jubilee 2000."
+   }
+  ]
+ }
+}

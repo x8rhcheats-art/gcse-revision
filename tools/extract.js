@@ -129,7 +129,11 @@ function extractEquations($, container, moduleId) {
     if (!slug) { name = formula; slug = slugify(formula); }
     const id = itemId(moduleId, 'eq', slug);
     $el.attr('data-item-id', id);
-    eqs.push({ itemId: id, name, formula, mustMemorise, onFormulaSheet, symbolKey: eqGlossary.keyFor(formula) });
+    // A subject with an equation glossary gets its key from there; one without
+    // (RS quote cards, maths) falls back to whatever the .sym span says, so the
+    // "Used to argue" line still reaches the flashcard back.
+    const ownSym = $el.find('.sym').first().text().trim();
+    eqs.push({ itemId: id, name, formula, mustMemorise, onFormulaSheet, symbolKey: eqGlossary.keyFor(formula) || ownSym || null });
   });
   return eqs;
 }
@@ -214,6 +218,21 @@ function extractSheet($, section, moduleId, type = 'sheet') {
       equations, definitions, traps,
     };
   });
+}
+
+/** Everything in a question section before the first .q — intro prose and any
+ *  panel that sets up how to answer. */
+function introHtml($, $section) {
+  if (!$section.length) return null;
+  const parts = [];
+  for (const el of $section.children().toArray()) {
+    const tag = el.tagName && el.tagName.toLowerCase();
+    if (tag === 'h2') continue;
+    if ($(el).hasClass('q')) break;
+    parts.push($.html(el).trim());
+  }
+  const html = parts.join('\n').trim();
+  return html || null;
 }
 
 /** Parse a .q block into a question object. kind: 'understanding' | 'drill' */
@@ -314,15 +333,31 @@ function extractModule(file) {
   $('section#understand .q').each((_, q) => {
     sections.understanding.questions.push(extractQuestion($, q, moduleId, 'understanding'));
   });
-  const $uIntro = $('section#understand > p').first();
-  sections.understanding.intro = $uIntro.length ? $uIntro.html().trim() : null;
+  sections.understanding.intro = introHtml($, $('section#understand'));
 
+  // A drill may be split by a mid-section heading (RS module 02 divides the
+  // taught questions from the untaught ones); that markup rides on the question
+  // that follows it rather than being dropped.
   sections.drill = { questions: [] };
-  $('section#drill .q').each((_, q) => {
-    sections.drill.questions.push(extractQuestion($, q, moduleId, 'drill'));
-  });
-  const $dIntro = $('section#drill > p').first();
-  sections.drill.intro = $dIntro.length ? $dIntro.html().trim() : null;
+  {
+    let pending = [];
+    for (const el of $('section#drill').children().toArray()) {
+      const tag = el.tagName && el.tagName.toLowerCase();
+      if ($(el).hasClass('q')) {
+        const q = extractQuestion($, el, moduleId, 'drill');
+        if (sections.drill.questions.length && pending.length) q.beforeHtml = pending.join('\n');
+        pending = [];
+        sections.drill.questions.push(q);
+        continue;
+      }
+      if (tag === 'h2') continue;
+      if (sections.drill.questions.length) pending.push($.html(el).trim());
+    }
+  }
+  // Everything before the first question is the intro: a paragraph, and in RS
+  // also the "how to answer each part" panel. Taking only the first <p> used to
+  // drop those panels on the floor.
+  sections.drill.intro = introHtml($, $('section#drill'));
 
   // Typed items are pulled from the teaching section as well as the cheat sheet,
   // so count both — a module that keeps its equations inline in the teaching

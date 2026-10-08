@@ -1,6 +1,6 @@
 // views/home.js — quiet landing view. Counts of work, never percentages.
 
-import { content, modulesByWeight, activeSubject, inGroup } from '../content.js';
+import { content, modulesByWeight, activeSubject, inGroup, eqCardNoun } from '../content.js';
 import { el, view, shortDate } from '../ui.js';
 import { getState, latestMockAttempt, latestDiagnostic, toggleChecklist, exportJson, importJson } from '../store.js';
 import { redCount, dueCards, daysToExam } from '../model.js';
@@ -32,7 +32,7 @@ export function renderHome() {
       el('span', { class: 't' }, 'Flashcards'),
       el('span', { class: 'r' }, due ? `${due} to review today` : 'all reviewed for today')),
     el('a', { class: 'rowlink', href: '#/eq-drill' },
-      el('span', { class: 't' }, 'Equation drill'),
+      el('span', { class: 't' }, eqCardNoun(true) === 'quotes' ? 'Quote drill' : 'Equation drill'),
       el('span', { class: 'r' }, '30 seconds a card')),
     el('a', { class: 'rowlink', href: '#/mix-drill' },
       el('span', { class: 't' }, 'Mixed practice'),
@@ -80,7 +80,7 @@ export function renderHome() {
       if (!members.length) continue;
       const sec = el('section', { class: 'module-group' },
         el('h2', {}, el('span', { class: 'num' }, `${members.length} module${members.length === 1 ? '' : 's'}`),
-          `${g.title} topics`));
+          g.title));
       if (g.note) sec.append(el('p', { class: 'plain-note' }, g.note));
       for (const m of members) sec.append(moduleRow(m));
       groupSections.push(sec);

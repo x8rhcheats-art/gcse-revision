@@ -146,7 +146,7 @@
          "formula": "Ar = Σ(isotope mass × % abundance) ÷ 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "Σ means \"add up for every isotope\" · isotope mass = the mass number · % abundance = how common that isotope is"
         }
        ],
        "definitions": [],
@@ -215,7 +215,7 @@
          "formula": "Ar = Σ(isotope mass × % abundance) ÷ 100",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "weighted mean · answer sits between the isotope masses, nearer the abundant one · 3 sf unless told otherwise"
         }
        ],
        "definitions": [
@@ -3000,7 +3000,7 @@
          "formula": "n = mass ÷ Mr",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "n = amount (mol) · mass in g · Mr = relative formula mass (sum of Ar from the periodic table)"
         },
         {
          "itemId": "05-chemical-calculations/eq/mass-from-moles",
@@ -3008,7 +3008,7 @@
          "formula": "mass = n × Mr",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the same triangle rearranged — grams out when moles and Mr go in"
         },
         {
          "itemId": "05-chemical-calculations/eq/gas-volume-at-rtp",
@@ -3016,7 +3016,7 @@
          "formula": "volume = n × 24 dm³ = n × 24,000 cm³",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "any gas, room temperature and pressure · match the unit on the answer line before calculating"
         },
         {
          "itemId": "05-chemical-calculations/eq/concentration-of-a-solution",
@@ -3024,7 +3024,7 @@
          "formula": "concentration = n ÷ volume",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "concentration in mol/dm³ · n in mol · volume in dm³ (cm³ ÷ 1000)"
         },
         {
          "itemId": "05-chemical-calculations/eq/number-of-particles",
@@ -3032,7 +3032,7 @@
          "formula": "particles = n × 6.0 × 10²³",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "Avogadro's number · big answers stay in standard form"
         },
         {
          "itemId": "05-chemical-calculations/eq/percentage-yield",
@@ -3040,7 +3040,7 @@
          "formula": "% yield = (actual mass ÷ theoretical mass) × 100",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "theoretical mass from the moles route · both values are masses, never moles"
         },
         {
          "itemId": "05-chemical-calculations/eq/ar-from-isotopic-abundances",
@@ -3048,7 +3048,7 @@
          "formula": "Ar = Σ(isotope mass × abundance) ÷ 100",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "a weighted mean · give 3 sf unless told otherwise"
         },
         {
          "itemId": "05-chemical-calculations/eq/percentage-of-an-element-by-mass",
@@ -3056,7 +3056,7 @@
          "formula": "% element = (atoms × Ar ÷ Mr) × 100",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "count every atom of the element in the formula, including those multiplied by brackets"
         }
        ],
        "definitions": [],
@@ -3593,7 +3593,7 @@
          "formula": "solubility = (mass of solute ÷ mass of water) × 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "solubility in g per 100 g of water · both masses in g · 1 cm³ of water has a mass of 1 g"
         }
        ],
        "definitions": [],
@@ -3634,7 +3634,7 @@
          "formula": "mass of crystals = solubility at hot temperature − solubility at cold temperature",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "both read from the same curve · gives the mass per 100 g of water · scale if the water is not 100 g"
         }
        ],
        "definitions": [],
@@ -4218,7 +4218,7 @@
          "formula": "mean rate = amount of product formed (or reactant used) ÷ time taken",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "gas in cm³, mass in g · time in s or min · unit = cm³/s, cm³/min, g/s"
         }
        ],
        "definitions": [],
@@ -4940,7 +4940,7 @@
          "formula": "Oxidation Is Loss · Reduction Is Gain",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "of electrons — the cathode always does reduction, the anode always does oxidation"
         }
        ],
        "definitions": [],
@@ -5021,7 +5021,7 @@
          "formula": "moles = volume in cm³ ÷ 24 000",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "or volume in dm³ ÷ 24 · then mass = moles × Mr"
         }
        ],
        "definitions": [],
@@ -5736,7 +5736,7 @@
          "formula": "K · Na · Li · Ca · Mg · Al · (C) · Zn · Fe · (H) · Cu · Ag · Au",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold · carbon and hydrogen are non-metal markers"
         }
        ],
        "definitions": [],
@@ -5753,7 +5753,7 @@
          "formula": "metal + water → metal hydroxide + hydrogen",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "e.g. 2Na + 2H₂O → 2NaOH + H₂"
         },
         {
          "itemId": "09-metal-extraction/eq/metal-dilute-acid",
@@ -5761,7 +5761,7 @@
          "formula": "metal + acid → salt + hydrogen",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "e.g. Mg + 2HCl → MgCl₂ + H₂ · Fe + H₂SO₄ → FeSO₄ + H₂"
         }
        ],
        "definitions": [],
@@ -5786,7 +5786,7 @@
          "formula": "iron + copper(II) sulfate → iron(II) sulfate + copper",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)"
         }
        ],
        "definitions": [],
@@ -5803,7 +5803,7 @@
          "formula": "2Al + Fe₂O₃ → Al₂O₃ + 2Fe",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "very exothermic — the iron is produced molten · balancing numbers are marked"
         }
        ],
        "definitions": [],
@@ -5820,7 +5820,7 @@
          "formula": "iron + oxygen + water → hydrated iron(III) oxide",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O · a brown solid · the iron is oxidised"
         }
        ],
        "definitions": [],
@@ -5853,7 +5853,7 @@
          "formula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "carbon (coke) removes oxygen from iron(III) oxide · the blast-furnace details are not needed"
         },
         {
          "itemId": "09-metal-extraction/eq/copper-carbon-extraction",
@@ -5861,7 +5861,7 @@
          "formula": "2CuO + C → 2Cu + CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "formulae one mark, balancing the second (2023 Q9b)"
         },
         {
          "itemId": "09-metal-extraction/eq/aluminium-electrolysis-of-molten-aluminium-oxide",
@@ -5869,7 +5869,7 @@
          "formula": "2Al₂O₃ → 4Al + 3O₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "at the cathode: Al³⁺ + 3e⁻ → Al — the electrons do the job carbon cannot"
         }
        ],
        "definitions": [],
@@ -6656,7 +6656,7 @@
          "formula": "CₙH₂ₙ₊₂",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "n = number of carbon atoms · double it and add two to get the hydrogens"
         }
        ],
        "definitions": [],
@@ -6681,7 +6681,7 @@
          "formula": "hydrocarbon + oxygen → carbon dioxide + water",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "needs plenty of air · the carbon goes to CO₂, the hydrogen goes to H₂O"
         }
        ],
        "definitions": [],
@@ -6706,7 +6706,7 @@
          "formula": "2CH₄ + 3O₂ → 2CO + 4H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "balance the same way: C, then H, then O"
         }
        ],
        "definitions": [],
@@ -6731,7 +6731,7 @@
          "formula": "C₁₀H₂₂ → C₈H₁₈ + C₂H₄",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "decane → octane (alkane) + ethene (alkene) · catalyst silica or alumina, 600–700 °C"
         }
        ],
        "definitions": [],
@@ -6748,7 +6748,7 @@
          "formula": "CH₄ + Br₂ → CH₃Br + HBr",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "needs ultraviolet light · bromomethane + hydrogen bromide"
         },
         {
          "itemId": "10-crude-oil-and-alkanes/eq/any-alkane-the-pattern",
@@ -6756,7 +6756,7 @@
          "formula": "CₙH₂ₙ₊₂ + Br₂ → CₙH₂ₙ₊₁Br + HBr",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "e.g. C₂H₆ → C₂H₅Br (bromoethane) · C₄H₁₀ → C₄H₉Br (2023 Jan Edexcel 1C)"
         }
        ],
        "definitions": [],
@@ -6890,7 +6890,7 @@
          "formula": "CH₄ + 2O₂ → CO₂ + 2H₂O",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "plenty of air"
         },
         {
          "itemId": "10-crude-oil-and-alkanes/eq/ethane-complete",
@@ -6898,7 +6898,7 @@
          "formula": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "odd number of O atoms, so double everything"
         },
         {
          "itemId": "10-crude-oil-and-alkanes/eq/methane-incomplete",
@@ -6906,7 +6906,7 @@
          "formula": "2CH₄ + 3O₂ → 2CO + 4H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "limited air · CO is poisonous"
         },
         {
          "itemId": "10-crude-oil-and-alkanes/eq/substitution",
@@ -6914,7 +6914,7 @@
          "formula": "CH₄ + Br₂ → CH₃Br + HBr",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "ultraviolet light"
         },
         {
          "itemId": "10-crude-oil-and-alkanes/eq/cracking",
@@ -6922,7 +6922,7 @@
          "formula": "C₁₀H₂₂ → C₈H₁₈ + C₂H₄",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "silica or alumina · 600–700 °C"
         }
        ],
        "definitions": [],
@@ -7539,7 +7539,7 @@
          "formula": "2M(s) + 2H₂O(l) → 2MOH(aq) + H₂(g)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "M = Li, Na or K · metal + water → metal hydroxide + hydrogen"
         },
         {
          "itemId": "11-groups-1-7-and-0/eq/sodium-water",
@@ -7547,7 +7547,7 @@
          "formula": "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the equation printed in 2022 Jan Edexcel 2C Q4"
         }
        ],
        "definitions": [],
@@ -7564,7 +7564,7 @@
          "formula": "4Na(s) + O₂(g) → 2Na₂O(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "same pattern for Li → Li₂O and K → K₂O · Group 1 oxides are basic"
         }
        ],
        "definitions": [],
@@ -7589,7 +7589,7 @@
          "formula": "2Rb(s) + 2H₂O(l) → 2RbOH(aq) + H₂(g)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "same pattern as every other Group 1 metal"
         }
        ],
        "definitions": [],
@@ -7606,7 +7606,7 @@
          "formula": "volume = moles × 24 dm³ (or × 24 000 cm³)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "1 mol of any gas at room temperature and pressure"
         }
        ],
        "definitions": [],
@@ -7647,7 +7647,7 @@
          "formula": "Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "colourless KBr solution turns orange"
         },
         {
          "itemId": "11-groups-1-7-and-0/eq/chlorine-displaces-iodine",
@@ -7655,7 +7655,7 @@
          "formula": "Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "turns brown"
         },
         {
          "itemId": "11-groups-1-7-and-0/eq/bromine-displaces-iodine",
@@ -7663,7 +7663,7 @@
          "formula": "Br₂(aq) + 2KI(aq) → 2KBr(aq) + I₂(aq)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "orange turns brown"
         }
        ],
        "definitions": [],
@@ -7680,7 +7680,7 @@
          "formula": "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "charges balance: −2 on each side"
         },
         {
          "itemId": "11-groups-1-7-and-0/eq/bromine-and-iodide-ionic-equation",
@@ -7696,7 +7696,7 @@
          "formula": "Cl₂ + 2e⁻ → 2Cl⁻",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "chlorine gains electrons — reduced"
         },
         {
          "itemId": "11-groups-1-7-and-0/eq/oxidation-half-equation",
@@ -7704,7 +7704,7 @@
          "formula": "2Br⁻ → Br₂ + 2e⁻",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "bromide ions lose electrons — oxidised"
         }
        ],
        "definitions": [],
@@ -8371,7 +8371,7 @@
          "formula": "% oxygen = (initial length − final length) ÷ initial length × 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the tube has the same width all the way, so length stands in for volume"
         }
        ],
        "definitions": [],
@@ -8388,7 +8388,7 @@
          "formula": "% oxygen = (syringe start − syringe end) ÷ (apparatus volume + syringe start) × 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the bottom line is ALL the air at the start, not just the flask"
         },
         {
          "itemId": "12-gases-in-the-atmosphere/eq/iron-reacting-with-oxygen",
@@ -8396,7 +8396,7 @@
          "formula": "4Fe + 3O₂ → 2Fe₂O₃",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "rust is hydrated iron(III) oxide · water is needed too"
         }
        ],
        "definitions": [],
@@ -8413,7 +8413,7 @@
          "formula": "2Cu + O₂ → 2CuO",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "pink-brown copper → black copper(II) oxide · oxidation"
         }
        ],
        "definitions": [],
@@ -8430,7 +8430,7 @@
          "formula": "4P + 5O₂ → P₄O₁₀",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "phosphorus(V) oxide · an acidic oxide, because phosphorus is a non-metal"
         }
        ],
        "definitions": [],
@@ -8455,7 +8455,7 @@
          "formula": "2Mg(s) + O₂(g) → 2MgO(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2025 school: equation 1 mark, state symbols (s)(g)(s) 1 mark"
         },
         {
          "itemId": "12-gases-in-the-atmosphere/eq/hydrogen-burning",
@@ -8463,7 +8463,7 @@
          "formula": "2H₂(g) + O₂(g) → 2H₂O(l)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the only product is water"
         },
         {
          "itemId": "12-gases-in-the-atmosphere/eq/sulfur-burning",
@@ -8471,7 +8471,7 @@
          "formula": "S(s) + O₂(g) → SO₂(g)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "sulfur dioxide · link: SO₂ from burning fuels causes acid rain (module 10)"
         }
        ],
        "definitions": [],
@@ -8504,7 +8504,7 @@
          "formula": "metal carbonate → metal oxide + carbon dioxide",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "MCO₃ → MO + CO₂ for a metal that forms M²⁺ ions"
         },
         {
          "itemId": "12-gases-in-the-atmosphere/eq/copper-ii-carbonate-decomposing",
@@ -8512,7 +8512,7 @@
          "formula": "CuCO₃ → CuO + CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "green solid → black solid · 2023 Edexcel 2C Q2(b)(iii), 1 mark"
         }
        ],
        "definitions": [],
@@ -9143,7 +9143,7 @@
          "formula": "K · Na · Li · Ca · Mg · Al · (C) · Zn · Fe · (H) · Cu · Ag · Au",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "most reactive on the left · carbon and hydrogen are markers, not metals"
         }
        ],
        "definitions": [],
@@ -9160,7 +9160,7 @@
          "formula": "2Na + 2H₂O → 2NaOH + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "metal + water → metal hydroxide + hydrogen"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/calcium-with-water",
@@ -9168,7 +9168,7 @@
          "formula": "Ca + 2H₂O → Ca(OH)₂ + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "steady fizzing · the solution is alkaline"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/magnesium-with-steam",
@@ -9176,7 +9176,7 @@
          "formula": "Mg + H₂O → MgO + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "with steam the product is the oxide, not the hydroxide"
         }
        ],
        "definitions": [],
@@ -9193,7 +9193,7 @@
          "formula": "metal + acid → salt + hydrogen",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "hydrochloric acid → chlorides · sulfuric acid → sulfates"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/magnesium-hydrochloric-acid",
@@ -9201,7 +9201,7 @@
          "formula": "Mg + 2HCl → MgCl₂ + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "magnesium chloride + hydrogen"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/zinc-sulfuric-acid",
@@ -9209,7 +9209,7 @@
          "formula": "Zn + H₂SO₄ → ZnSO₄ + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "zinc sulfate + hydrogen"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/iron-sulfuric-acid",
@@ -9217,7 +9217,7 @@
          "formula": "Fe + H₂SO₄ → FeSO₄ + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "iron forms iron(II) salts with dilute acids — 2023 Edexcel 1C Q2(b)(i)"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/aluminium-hydrochloric-acid",
@@ -9225,7 +9225,7 @@
          "formula": "2Al + 6HCl → 2AlCl₃ + 3H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "word equation: aluminium + hydrochloric acid → aluminium chloride + hydrogen"
         }
        ],
        "definitions": [],
@@ -9266,7 +9266,7 @@
          "formula": "Fe + CuSO₄ → FeSO₄ + Cu",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "blue fades to pale green · pink-brown copper forms"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/displacement-as-an-ionic-equation",
@@ -9274,7 +9274,7 @@
          "formula": "Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the sulfate ion is a spectator and is left out"
         }
        ],
        "definitions": [],
@@ -9291,7 +9291,7 @@
          "formula": "3Mg(s) + 2Al³⁺(aq) → 3Mg²⁺(aq) + 2Al(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "each Mg loses 2e⁻ · each Al³⁺ gains 3e⁻"
         }
        ],
        "definitions": [],
@@ -9308,7 +9308,7 @@
          "formula": "2Al + Fe₂O₃ → 2Fe + Al₂O₃",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "started with a burning magnesium fuse · the iron comes out molten"
         }
        ],
        "definitions": [],
@@ -9325,7 +9325,7 @@
          "formula": "iron + oxygen + water → hydrated iron(III) oxide",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "simplified formula Fe₂O₃ · a brown / orange-brown solid"
         },
         {
          "itemId": "13-reactivity-rusting-and-alloys/eq/rusting-symbol-equation",
@@ -9333,7 +9333,7 @@
          "formula": "4Fe + 3O₂ + 2xH₂O → 2Fe₂O₃·xH₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "x varies — that is why rust has no single formula"
         }
        ],
        "definitions": [],
@@ -9366,7 +9366,7 @@
          "formula": "Zn → Zn²⁺ + 2e⁻",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "zinc loses electrons in place of the iron (Fe → Fe³⁺ + 3e⁻ does not happen)"
         }
        ],
        "definitions": [],
@@ -9391,7 +9391,7 @@
          "formula": "alloy = a mixture of a metal and one or more other elements",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "usually other metals or carbon · steel = iron + carbon · brass = copper + zinc"
         }
        ],
        "definitions": [],
@@ -10125,7 +10125,7 @@
          "formula": "Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the CaCO₃ is the white precipitate you see"
         }
        ],
        "definitions": [],
@@ -10166,7 +10166,7 @@
          "formula": "NH₄⁺(aq) + OH⁻(aq) → NH₃(g) + H₂O(l)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the hydroxide ion takes an H⁺ off the ammonium ion"
         },
         {
          "itemId": "14-chemical-tests/eq/ammonium-chloride-with-sodium-hydroxide",
@@ -10174,7 +10174,7 @@
          "formula": "NH₄Cl + NaOH → NaCl + NH₃ + H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "any ammonium salt behaves the same way"
         }
        ],
        "definitions": [],
@@ -10191,7 +10191,7 @@
          "formula": "Cu²⁺(aq) + 2OH⁻(aq) → Cu(OH)₂(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2 OH⁻ to balance the 2+ charge"
         },
         {
          "itemId": "14-chemical-tests/eq/iron-ii-hydroxide-precipitate",
@@ -10199,7 +10199,7 @@
          "formula": "Fe²⁺(aq) + 2OH⁻(aq) → Fe(OH)₂(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "green solid"
         },
         {
          "itemId": "14-chemical-tests/eq/iron-iii-hydroxide-precipitate",
@@ -10207,7 +10207,7 @@
          "formula": "Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "3 OH⁻ for the 3+ ion · orange-brown solid"
         }
        ],
        "definitions": [],
@@ -10224,7 +10224,7 @@
          "formula": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "same shape for Br⁻ → AgBr and I⁻ → AgI"
         }
        ],
        "definitions": [],
@@ -10241,7 +10241,7 @@
          "formula": "Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "barium sulfate is insoluble — white solid"
         }
        ],
        "definitions": [],
@@ -10258,7 +10258,7 @@
          "formula": "CO₃²⁻ + 2H⁺ → CO₂ + H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the fizzing is the CO₂ escaping"
         },
         {
          "itemId": "14-chemical-tests/eq/sodium-carbonate-with-hydrochloric-acid",
@@ -10266,7 +10266,7 @@
          "formula": "Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2HCl because CO₃²⁻ needs two H⁺"
         }
        ],
        "definitions": [],
@@ -10283,7 +10283,7 @@
          "formula": "CuSO₄(s) + 5H₂O(l) ⇌ CuSO₄·5H₂O(s)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "white → blue · heating drives it back to white"
         }
        ],
        "definitions": [],
@@ -10916,7 +10916,7 @@
          "formula": "Q = m × c × ΔT",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "Q in J · m = mass of the WATER or SOLUTION heated, in g (1 cm³ ≈ 1 g) · c = 4.2 J/g/°C · ΔT = temperature change in °C"
         },
         {
          "itemId": "15-energetics-and-equilibria/eq/molar-enthalpy-change",
@@ -10924,7 +10924,7 @@
          "formula": "ΔH = −Q ÷ n",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "Q in kJ (divide J by 1000) · n = moles of the reactant that was used up · negative if the temperature rose"
         },
         {
          "itemId": "15-energetics-and-equilibria/eq/rearranged-for-the-temperature-rise",
@@ -10932,7 +10932,7 @@
          "formula": "ΔT = Q ÷ (m × c)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2023 Jan Edexcel 1C Q10(b)(i): 2880 ÷ (50 × 4.2) = 13.7 °C, then add the starting 21.0 °C → 34.7 °C"
         }
        ],
        "definitions": [],
@@ -10981,7 +10981,7 @@
          "formula": "ΔH = (energy of bonds broken) − (energy of bonds made)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "all in kJ/mol · a negative answer = exothermic · include the sign"
         }
        ],
        "definitions": [],
@@ -10998,7 +10998,7 @@
          "formula": "CuSO₄·5H₂O(s) ⇌ CuSO₄(s) + 5H₂O(l)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "blue hydrated → white anhydrous on heating · add water: white → blue, and it gets hot"
         },
         {
          "itemId": "15-energetics-and-equilibria/eq/heating-ammonium-chloride",
@@ -11006,7 +11006,7 @@
          "formula": "NH₄Cl(s) ⇌ NH₃(g) + HCl(g)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "white solid at the hot end breaks down · white solid re-forms in the cooler part of the tube"
         }
        ],
        "definitions": [],
@@ -11672,7 +11672,7 @@
          "formula": "CₙH₂ₙ",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "n = number of carbon atoms (n ≥ 2) · twice as many H as C · alkanes are CₙH₂ₙ₊₂ (module 10)"
         }
        ],
        "definitions": [],
@@ -11721,7 +11721,7 @@
          "formula": "C₂H₄ + Br₂ → C₂H₄Br₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br · product: 1,2-dibromoethane · room temperature, no UV needed"
         },
         {
          "itemId": "16-alkenes-and-addition-polymers/eq/propene-bromine",
@@ -11729,7 +11729,7 @@
          "formula": "C₃H₆ + Br₂ → C₃H₆Br₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "CH₂=CHCH₃ + Br₂ → CH₂BrCHBrCH₃ · product: 1,2-dibromopropane"
         }
        ],
        "definitions": [],
@@ -11754,7 +11754,7 @@
          "formula": "C₂H₆ + Br₂ → C₂H₅Br + HBr",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "substitution · UV light · compare C₂H₄ + Br₂ → C₂H₄Br₂ (addition)"
         }
        ],
        "definitions": [],
@@ -11779,7 +11779,7 @@
          "formula": "n CH₂=CH₂ → –[CH₂–CH₂]ₙ–",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "n ethene monomers → poly(ethene) · the repeat unit has the same atoms as one monomer"
         }
        ],
        "definitions": [],
@@ -11804,7 +11804,7 @@
          "formula": "number of monomers = Mᵣ of polymer ÷ Mᵣ of monomer",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "the repeat unit has the same atoms as the monomer, so its Mᵣ is the same"
         }
        ],
        "definitions": [],
@@ -12517,7 +12517,7 @@
          "formula": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "count the O in the alcohol too: 1 + 6 = 7 on the left, 4 + 3 = 7 on the right"
         },
         {
          "itemId": "17-alcohols-acids-esters-and-polyesters/eq/complete-combustion-of-pentanol",
@@ -12525,7 +12525,7 @@
          "formula": "C₅H₁₁OH + 7½O₂ → 5CO₂ + 6H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2023 Edexcel 1C Q8(d) — formulae one mark, balancing the second; multiples allowed"
         }
        ],
        "definitions": [],
@@ -12542,7 +12542,7 @@
          "formula": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "oxygen from the air; microbes do it · this is why wine left open goes sour"
         }
        ],
        "definitions": [],
@@ -12559,7 +12559,7 @@
          "formula": "C₂H₄ + H₂O → C₂H₅OH",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "steam · phosphoric acid catalyst · about 300 °C · 60–70 atm"
         }
        ],
        "definitions": [],
@@ -12576,7 +12576,7 @@
          "formula": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "enzymes in yeast · about 30 °C · absence of air · atmospheric pressure"
         }
        ],
        "definitions": [],
@@ -12609,7 +12609,7 @@
          "formula": "2CH₃COOH + Mg → Mg(CH₃COO)₂ + H₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "salt = magnesium ethanoate · fizzing · hydrogen gives a squeaky pop"
         },
         {
          "itemId": "17-alcohols-acids-esters-and-polyesters/eq/ethanoic-acid-and-sodium-carbonate",
@@ -12617,7 +12617,7 @@
          "formula": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "salt = sodium ethanoate · fizzing · CO₂ turns limewater milky"
         },
         {
          "itemId": "17-alcohols-acids-esters-and-polyesters/eq/methanoic-acid-and-sodium-carbonate",
@@ -12625,7 +12625,7 @@
          "formula": "2HCOOH + Na₂CO₃ → 2HCOONa + H₂O + CO₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2022 Edexcel 2C Q5(b) · salt = sodium methanoate"
         }
        ],
        "definitions": [],
@@ -12642,7 +12642,7 @@
          "formula": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "ethanoic acid + ethanol ⇌ ethyl ethanoate + water · catalyst: concentrated sulfuric acid"
         }
        ],
        "definitions": [],
@@ -12659,7 +12659,7 @@
          "formula": "CH₃OH + HCOOH → HCOOCH₃ + H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2024 Edexcel 2C Q5(c) · methyl methanoate"
         }
        ],
        "definitions": [],
@@ -12684,7 +12684,7 @@
          "formula": "n HOOC–COOH + n HO–CH₂CH₂–OH → –[OC–COO–CH₂CH₂–O]ₙ– + 2n H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "ethanedioic acid + ethanediol → polyester + water · two ester links, so two waters, per repeat unit"
         }
        ],
        "definitions": [],

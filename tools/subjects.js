@@ -127,4 +127,23 @@ module.exports = {
         modules: ['03-accuracy-and-bounds', '08-differentiation', '09-angles-polygons-circle-theorems', '12-vectors-and-transformations', '13-statistics', '14-probability-and-sets'] },
     ],
   },
+  rs: {
+    id: 'rs',
+    title: 'RS',
+    code: '4RS1',
+    board: 'Edexcel IGCSE Religious Studies 4RS1 (Christianity)',
+    standfirst: 'GCSE summer 2027 — Paper 1 Beliefs and Values (60%), Paper 2 The Religious Community (40%)',
+    modulesDir: 'site/modules/rs',
+    mocksDir: 'site/mocks/rs',
+    out: 'site/content/rs',
+    mocks: [],
+    mcqBanks: ['tools/rs/mcq-bank-1.json', 'tools/rs/mcq-bank-2.json', 'tools/rs/mcq-bank-3.json', 'tools/rs/mcq-bank-4.json'],
+    pastPapers: [],
+    pastPaperSchemes: [],
+    plannedModules: 7,
+    moduleGroups: [
+      { title: 'Paper 1 — Beliefs and Values', from: 1, to: 4, note: '1 hour 45 minutes · 100 marks · 60% of the grade. Four questions, each 3 + 4 + 6 + 12 marks.' },
+      { title: 'Paper 2 — The Religious Community', from: 5, to: 7, note: '1 hour 30 minutes · 60 marks · 40% of the grade. Three sections, each 4 + 6 + 10 marks.' },
+    ],
+  },
 };

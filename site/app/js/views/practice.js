@@ -1,7 +1,7 @@
 // views/practice.js — flashcards, equation drill, mixed-topic drill.
 // Queue order comes from the confidence model: red first, always.
 
-import { content, index, moduleTitle, paramToMods } from '../content.js';
+import { content, index, moduleTitle, paramToMods , eqCardNoun } from '../content.js';
 import { el, view, navigate, modeSwitch, attachKeys } from '../ui.js';
 import { rateCard, getPref, setPref } from '../store.js';
 import { dueCards, cardQueue, nextDue, effectiveTag, questionNeedWeight, weightedSample } from '../model.js';
@@ -140,9 +140,11 @@ export function renderEqDrill(query = {}) {
   // both be nonsense — say the plain thing instead.
   const hasFormulaSheet = memoriseCount > 0;
 
-  const root = view('Equation drill', hasFormulaSheet
+  const noun = eqCardNoun(true);
+  const title = noun === 'quotes' ? 'Quote drill' : 'Equation drill';
+  const root = view(title, hasFormulaSheet
     ? `Thirty seconds a card. ${memoriseCount} of these ${all.length} equations are NOT on the exam formula sheet — those are the ones that have to be in your head, and they come first.`
-    : `Thirty seconds a card. All ${all.length} of these have to be in your head — there is no formula sheet for this subject.`);
+    : `Thirty seconds a card. All ${all.length} of these ${noun} have to be in your head.`);
   if (hasFormulaSheet) {
     root.append(el('p', {},
       el('a', { class: `act${memoriseOnly ? '' : ' secondary'}`, href: '#/eq-drill?only=memorise' },
@@ -177,7 +179,7 @@ export function renderEqDrill(query = {}) {
     if (timer) { clearInterval(timer); timer = null; }
     stage.replaceChildren();
     if (i >= cards.length) {
-      stage.append(el('p', {}, `End of the deck — ${reviewed} of ${cards.length} equations rated.`));
+      stage.append(el('p', {}, `End of the deck — ${reviewed} of ${cards.length} ${eqCardNoun(true)} rated.`));
       return;
     }
     const card = cards[i];

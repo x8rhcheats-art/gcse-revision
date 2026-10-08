@@ -406,7 +406,7 @@
        "answerHtml": "<p><strong>Distance–time, horizontal:</strong> the distance is not changing, so the object is <strong>stationary</strong>.</p>\n<p><strong>Velocity–time, horizontal:</strong> the velocity is not changing, so the object is moving at a <strong>constant velocity</strong> — which is the opposite of stopped, unless the line happens to sit on zero.</p>\n<p><strong>How to avoid the mix-up:</strong> read the vertical axis label before reading the shape. Every time. The graphs look identical and only the axis tells you which you have.</p>\n<p>The same discipline sorts out the other two facts: on a distance–time graph the <strong>gradient is the speed</strong>, and on a velocity–time graph the <strong>gradient is the acceleration and the area is the distance</strong>. Area under a distance–time graph means nothing at all.</p>"
       }
      ],
-     "intro": "These aren't exam questions. They're the questions worth thinking about slowly, because they attack the misconceptions that make exam questions go wrong. Try each one properly before opening the answer."
+     "intro": "<p>These aren't exam questions. They're the questions worth thinking about slowly, because they attack the misconceptions that make exam questions go wrong. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -1057,7 +1057,7 @@
        "mpTotal": 7
       }
      ],
-     "intro": "Now in exam register. Time yourself at roughly one minute per mark. State formulas when asked, show substitutions, give units."
+     "intro": "<p>Now in exam register. Time yourself at roughly one minute per mark. State formulas when asked, show substitutions, give units.</p>"
     }
    }
   },
@@ -7411,7 +7411,7 @@
        "answerHtml": "<p><strong>The kettle:</strong> if the live wire comes loose and touches the metal case, the case becomes live. Anyone touching it would get a shock.</p>\n<p>The <strong>earth wire</strong> connects the case to earth through a very low resistance. So a <strong>large current</strong> flows straight to earth. That large current is more than the <strong>fuse</strong> rating, so the fuse melts and breaks the circuit. The earth wire and fuse work as a team: the earth wire makes the big current happen, and the fuse then cuts it off.</p>\n<p><strong>The hairdryer</strong> is <strong>double insulated</strong>. Its case is plastic, an insulator, so a loose live wire cannot make the case live. There is nothing for an earth wire to protect. It still has a fuse, to stop the cable overheating if too much current flows.</p>"
       }
      ],
-     "intro": "These are the \"why\" questions behind the exam answers. Try each one properly before opening the answer."
+     "intro": "<p>These are the \"why\" questions behind the exam answers. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -7969,7 +7969,7 @@
        "mpTotal": 9
       }
      ],
-     "intro": "Exam register now. Roughly one minute per mark. State formulas when asked, show substitutions, give units."
+     "intro": "<p>Exam register now. Roughly one minute per mark. State formulas when asked, show substitutions, give units.</p>"
     }
    }
   },
@@ -8303,7 +8303,7 @@
        "answerHtml": "<p>It was <strong>shared</strong> with the slower bird. After the catch, both birds move together at 9.4 m/s.</p>\n<p>Bird X lost some momentum; bird Y gained exactly the same amount. The <strong>total</strong> stayed at 5.48 kg m/s.</p>\n<p>The same total momentum is now carried by a <strong>bigger mass</strong> (0.58 kg instead of 0.41 kg), so the velocity must be smaller: 5.48 ÷ 0.58 = 9.4 m/s.</p>\n<p><strong>Quick check for any \"join together\" question:</strong> the final velocity must lie <em>between</em> the two starting velocities. If it doesn't, you have made a mistake.</p>"
       }
      ],
-     "intro": "These aren't exam questions. They're the questions worth thinking about slowly, because they attack the misconceptions that make exam questions go wrong. Try each one properly before opening the answer."
+     "intro": "<p>These aren't exam questions. They're the questions worth thinking about slowly, because they attack the misconceptions that make exam questions go wrong. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -8733,7 +8733,7 @@
        "mpTotal": 8
       }
      ],
-     "intro": "Now in exam register. Time yourself at roughly one minute per mark. State formulas when asked, show substitutions, give units, and give a direction or a sign for every velocity and momentum."
+     "intro": "<p>Now in exam register. Time yourself at roughly one minute per mark. State formulas when asked, show substitutions, give units, and give a direction or a sign for every velocity and momentum.</p>"
     }
    }
   },
@@ -9102,7 +9102,7 @@
        "answerHtml": "<p>Round a gentle curve, the light still meets the side of the fibre at a large angle to the normal, <strong>greater than the critical angle</strong>. So it is still totally internally reflected, and it follows the fibre round.</p>\n<p>At a very sharp bend, the side of the fibre turns towards the light. The light then meets the side more nearly along the normal, so its <strong>angle of incidence gets smaller</strong>. If it falls <strong>below the critical angle</strong>, the light refracts out through the side and escapes, and the signal is weakened.</p>\n<p><strong>The point:</strong> total internal reflection is not a property of the fibre alone. It depends on the angle every time the light meets the boundary.</p>"
       }
      ],
-     "intro": "These are the \"why\" questions. Try each one properly before opening the answer."
+     "intro": "<p>These are the \"why\" questions. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -9592,7 +9592,7 @@
        "mpTotal": 8
       }
      ],
-     "intro": "Now in exam register. Roughly one minute per mark. State formulas when asked, show substitutions, and measure every angle from the normal."
+     "intro": "<p>Now in exam register. Roughly one minute per mark. State formulas when asked, show substitutions, and measure every angle from the normal.</p>"
     }
    }
   },
@@ -9976,7 +9976,7 @@
        "answerHtml": "<p>λ₀ is the wavelength the light <strong>had when it was emitted</strong>. The equation compares the change with that starting value. The observed wavelength already contains the change, so dividing by it gives the wrong fraction. In 2023 that cost all but 1 mark.</p>\n<p>The left side is a <strong>ratio</strong> of two wavelengths. If both are in nm, the nm cancel, and you get a plain number. The same goes for v ÷ c: if c is in km/s, v comes out in km/s.</p>\n<p>Example: a hydrogen line with λ₀ = 656 nm is observed at 663 nm. Δλ = 7 nm, so v = (7 ÷ 656) × 3.0 × 10⁸ ≈ 3.2 × 10⁶ m/s, moving away.</p>"
       }
      ],
-     "intro": "These are \"why\" questions. Try each one properly before opening the answer."
+     "intro": "<p>These are \"why\" questions. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -10422,7 +10422,7 @@
        "mpTotal": 5
       }
      ],
-     "intro": "Exam register. About one minute per mark. Show substitutions, give units."
+     "intro": "<p>Exam register. About one minute per mark. Show substitutions, give units.</p>"
     }
    }
   },
@@ -10778,7 +10778,7 @@
        "answerHtml": "<p>Space is (almost) a <strong>vacuum</strong>: there are no particles in it.</p>\n<p><strong>Conduction</strong> needs particles to vibrate and pass energy on. <strong>Convection</strong> needs a fluid that can move. With no particles, neither can happen.</p>\n<p><strong>Radiation</strong> is carried by <strong>infrared (electromagnetic) waves</strong>, which need no medium at all. So it is the only way across.</p>\n<p>2022's satellite question gave a mark for exactly this: convection and conduction play no part outside the spacecraft, because there are no particles there.</p>"
       }
      ],
-     "intro": "These are not exam questions. They are the \"why\" questions that make the exam questions easy. Try each one properly before opening the answer."
+     "intro": "<p>These are not exam questions. They are the \"why\" questions that make the exam questions easy. Try each one properly before opening the answer.</p>"
     },
     "drill": {
      "questions": [
@@ -11256,7 +11256,7 @@
        "mpTotal": 6
       }
      ],
-     "intro": "Now in exam register. Roughly one minute per mark. Name the mechanism every time, and say which way the energy goes."
+     "intro": "<p>Now in exam register. Roughly one minute per mark. Name the mechanism every time, and say which way the energy goes.</p>"
     }
    }
   }

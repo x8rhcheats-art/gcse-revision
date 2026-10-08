@@ -695,7 +695,7 @@
          "formula": "carbon dioxide + water → glucose + oxygen",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "light and chlorophyll go above the arrow, not on the left"
         },
         {
          "itemId": "02-photosynthesis/eq/photosynthesis-balanced-symbol-equation",
@@ -703,7 +703,7 @@
          "formula": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "correct formulae one mark, balancing numbers the second"
         }
        ],
        "definitions": [],
@@ -752,7 +752,7 @@
          "formula": "light intensity ∝ 1 ÷ distance²",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "double the distance → a quarter of the light · treble it → a ninth"
         }
        ],
        "definitions": [],
@@ -1335,7 +1335,7 @@
          "formula": "glucose + oxygen → carbon dioxide + water",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "energy released and used to make ATP · in the mitochondria"
         },
         {
          "itemId": "03-respiration/eq/aerobic-respiration-balanced-symbol-equation",
@@ -1343,7 +1343,7 @@
          "formula": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "correct formulae one mark, balancing numbers the second"
         }
        ],
        "definitions": [],
@@ -1360,7 +1360,7 @@
          "formula": "glucose → lactic acid",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "one product · no carbon dioxide, no water"
         }
        ],
        "definitions": [],
@@ -1377,7 +1377,7 @@
          "formula": "glucose → ethanol + carbon dioxide",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "in yeast this is called fermentation"
         }
        ],
        "definitions": [],
@@ -2057,7 +2057,7 @@
          "formula": "ventilation rate = breathing rate × volume per breath",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "dm³ per minute · 1 dm³ = 1000 cm³"
         }
        ],
        "definitions": [],
@@ -2669,7 +2669,7 @@
          "formula": "haemoglobin + oxygen ⇌ oxyhaemoglobin",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "forms in the lungs where oxygen is high · splits in respiring tissues where oxygen is low"
         }
        ],
        "definitions": [],
@@ -2686,7 +2686,7 @@
          "formula": "magnification = image size ÷ actual size",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "put both sizes in the same unit first · 1 mm = 1000 µm"
         }
        ],
        "definitions": [],
@@ -3259,7 +3259,7 @@
          "formula": "stimulus → receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → effector → response",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "effector = muscle or gland · impulses cross a synapse between each neurone"
         },
         {
          "itemId": "06-nervous-system-and-the-eye/eq/time-for-an-impulse",
@@ -3267,7 +3267,7 @@
          "formula": "time = distance ÷ speed",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "metres ÷ metres per second = seconds · the 2023 paper's answer was about 0.0092 s"
         }
        ],
        "definitions": [],
@@ -3857,7 +3857,7 @@
          "formula": "ratio = faster speed ÷ slower speed, written as n : 1",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "420 cm/min = 4.2 m/min = 0.07 m/s · 55 ÷ 0.07 = 786 : 1"
         }
        ],
        "definitions": [],
@@ -4530,7 +4530,7 @@
          "formula": "concentration factor = concentration in urine ÷ concentration in filtrate",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "same units top and bottom · the answer has no units · 1700 ÷ 440 = 3.9 times"
         }
        ],
        "definitions": [],
@@ -5147,7 +5147,7 @@
          "formula": "population = mean number per quadrat × (total area ÷ area of one quadrat)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "mean of several quadrats first · place them randomly · the answer is an estimate"
         }
        ],
        "definitions": [],
@@ -5220,7 +5220,7 @@
          "formula": "efficiency (%) = (energy or biomass at the higher level ÷ energy or biomass at the lower level) × 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2.40 ÷ 10.60 × 100 = 22.6% · 1.4 ÷ 87 × 100 = 1.6%"
         }
        ],
        "definitions": [],
@@ -6352,7 +6352,7 @@
          "formula": "carbon dioxide + water → glucose + oxygen",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "light energy absorbed by chlorophyll · the carbon ends up in glucose, then starch, cellulose and proteins"
         }
        ],
        "definitions": [],
@@ -6369,7 +6369,7 @@
          "formula": "glucose + oxygen → carbon dioxide + water",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "plants, animals, bacteria and fungi · day and night"
         }
        ],
        "definitions": [],
@@ -6982,7 +6982,7 @@
          "formula": "percentage = (value for one source ÷ total of all sources) × 100",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2024: energy 110 of a total 453 million tonnes → 24%"
         },
         {
          "itemId": "12-human-impacts-on-the-environment/eq/rate-of-change",
@@ -6990,7 +6990,7 @@
          "formula": "rate = change in value ÷ time taken",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "2023 Jan: rainforest fell by 1200 over 25 years → 48 per year · give the units"
         }
        ],
        "definitions": [],
@@ -7539,7 +7539,7 @@
          "formula": "gamete (23) + gamete (23) → zygote (46)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "haploid + haploid → diploid · this is why gametes must have half the number"
         }
        ],
        "definitions": [],
@@ -8746,7 +8746,7 @@
          "formula": "A – T    C – G",
          "mustMemorise": true,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "in RNA, U takes the place of T, so A pairs with U"
         }
        ],
        "definitions": [],
@@ -9427,7 +9427,7 @@
          "formula": "P(A and B) = P(A) × P(B)",
          "mustMemorise": false,
          "onFormulaSheet": false,
-         "symbolKey": null
+         "symbolKey": "e.g. P(male and unaffected) = P(male) × P(unaffected)"
         }
        ],
        "definitions": [],

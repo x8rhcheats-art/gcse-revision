@@ -5,7 +5,7 @@
 // the active subject, then the hash is quietly rewritten to the canonical
 // prefixed form so any link copied from the address bar names its subject.
 
-import { loadContent, loadRegistry, registry, activeSubject, content, inGroup } from './content.js';
+import { loadContent, loadRegistry, registry, activeSubject, content, inGroup, eqCardNoun } from './content.js';
 import { initStore, touchOpened } from './store.js';
 import { redCount, dueCards } from './model.js';
 import { el } from './ui.js';
@@ -30,7 +30,7 @@ import { renderPredict } from './views/predict.js';
 import { renderOfficial } from './views/official.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v43';
+const APP_VERSION = 'v44';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -169,7 +169,7 @@ function buildNav(activePath) {
     link('#/red', ['Red topics', reds ? el('span', { class: 'count' }, ` ${reds}`) : '']),
     link('#/review', ['Get these right', wrong ? el('span', { class: 'count' }, ` ${wrong}`) : '']),
     link('#/cards', ['Flashcards', due ? el('span', { class: 'count' }, ` ${due}`) : '']),
-    link('#/eq-drill', ['Equation drill']),
+    link('#/eq-drill', [eqCardNoun(true) === 'quotes' ? 'Quote drill' : 'Equation drill']),
     link('#/mix-drill', ['Mixed practice']),
     link('#/practice', ['Build a session']),
     // a subject whose multiple-choice bank has not been written yet would send

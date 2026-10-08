@@ -73,7 +73,7 @@ for (const mod of modulesJson.modules) {
     const sec = mod.sections[kind];
     if (sec.intro) parts.push(textOf(sec.intro));
     for (const q of sec.questions) {
-      parts.push(q.qid, textOf(q.promptHtml), q.hint ? norm(q.hint) : '', textOf(q.answerHtml));
+      parts.push(q.qid, textOf(q.beforeHtml || ''), textOf(q.promptHtml), q.hint ? norm(q.hint) : '', textOf(q.answerHtml));
     }
   }
   const blob = parts.join(' ▪ ');

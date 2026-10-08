@@ -83,14 +83,18 @@ export function renderModule(params, query) {
 
   // understanding
   const und = el('section', { id: 'understand-a' }, sectionHeading(mod, 'understand', num()));
-  if (mod.sections.understanding.intro) und.append(el('p', { html: mod.sections.understanding.intro }));
+  if (mod.sections.understanding.intro) und.append(el('div', { class: 'sec-intro', html: mod.sections.understanding.intro }));
   for (const q of mod.sections.understanding.questions) und.append(questionBlock(q, { writing: false }));
   root.append(und);
 
   // drill
   const drill = el('section', { id: 'drill-a' }, sectionHeading(mod, 'drill', num()));
-  if (mod.sections.drill.intro) drill.append(el('p', { html: mod.sections.drill.intro }));
-  for (const q of mod.sections.drill.questions) drill.append(questionBlock(q));
+  if (mod.sections.drill.intro) drill.append(el('div', { class: 'sec-intro', html: mod.sections.drill.intro }));
+  for (const q of mod.sections.drill.questions) {
+    // a heading that splits the drill into runs (e.g. taught vs untaught topics)
+    if (q.beforeHtml) drill.append(el('div', { class: 'sec-intro', html: q.beforeHtml }));
+    drill.append(questionBlock(q));
+  }
   root.append(drill);
 
   root.append(el('footer', {}, `Module ${mod.number} of ${activeSubject().plannedModules || content.modules.length} · ${mod.title} · ${activeSubject().board}`));

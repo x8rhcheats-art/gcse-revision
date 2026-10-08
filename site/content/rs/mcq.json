@@ -1,0 +1,2874 @@
+{
+ "modules": {
+  "01-universe-creation-and-humanity": [
+   {
+    "id": "M1",
+    "q": "Omnipotent means…",
+    "options": [
+     "all-powerful",
+     "all-knowing",
+     "all-loving",
+     "present everywhere"
+    ],
+    "answer": 0,
+    "explain": "Omnipotent = all-powerful. Omniscient is all-knowing, omnibenevolent is all-loving, omnipresent is present everywhere."
+   },
+   {
+    "id": "M2",
+    "q": "Omniscient means…",
+    "options": [
+     "unchanging",
+     "outside time",
+     "all-seeing and all-knowing",
+     "beyond creation"
+    ],
+    "answer": 2,
+    "explain": "Omniscient = all-seeing and all-knowing, including the future — which is what creates the problem of foreknowledge for freewill."
+   },
+   {
+    "id": "M3",
+    "q": "Imago Dei means that human beings are…",
+    "options": [
+     "created from dust",
+     "made in the image of God",
+     "stewards of creation",
+     "born in a state of sin"
+    ],
+    "answer": 1,
+    "explain": "Imago Dei comes from Genesis 1:27 — made in God's image. It is the usual basis for human uniqueness and intrinsic worth."
+   },
+   {
+    "id": "M4",
+    "q": "Which verse states that God created mankind in his own image?",
+    "options": [
+     "Genesis 1:1",
+     "Genesis 1:28",
+     "Genesis 2:7",
+     "Genesis 1:27"
+    ],
+    "answer": 3,
+    "explain": "Genesis 1:27. Genesis 1:1 is 'In the beginning', 1:28 is 'be fruitful and multiply' and dominion, and 2:7 is Adam from the dust."
+   },
+   {
+    "id": "M5",
+    "q": "Stewardship is the belief that human beings…",
+    "options": [
+     "have a duty to protect and safeguard God's creation",
+     "may use creation however they wish",
+     "are no different in kind from animals",
+     "will be judged only on their faith"
+    ],
+    "answer": 0,
+    "explain": "Stewardship is the 'caretaker' reading of Genesis 1:28 — a duty to protect the planet for future generations, as opposed to hierarchical dominion."
+   },
+   {
+    "id": "M6",
+    "q": "Who argued for predestination, dividing humanity into the elect and the reprobate?",
+    "options": [
+     "Augustine",
+     "Aquinas",
+     "John Calvin",
+     "Alvin Plantinga"
+    ],
+    "answer": 2,
+    "explain": "Calvin. The elect were chosen for salvation before birth and receive the Holy Spirit; the reprobate were chosen for damnation."
+   },
+   {
+    "id": "M7",
+    "q": "Whose theodicy claims that evil is a privation — an absence or corruption of good — rather than something God made?",
+    "options": [
+     "Irenaeus",
+     "Augustine",
+     "William Paley",
+     "Rudolf Otto"
+    ],
+    "answer": 1,
+    "explain": "The Augustinian (soul-deciding) theodicy. Evil originates in the freewill of angels and humans who turn from God, and natural evil follows the corruption of nature after the Fall."
+   },
+   {
+    "id": "M8",
+    "q": "Which theodicy is called 'soul-making'?",
+    "options": [
+     "Augustinian",
+     "Calvinist",
+     "Thomist",
+     "Irenaean"
+    ],
+    "answer": 3,
+    "explain": "Irenaeus argued God made the world immature rather than perfect, so that evil and suffering develop qualities such as charity and compassion."
+   },
+   {
+    "id": "M9",
+    "q": "Who compared the universe to a watch to argue that it has a designer?",
+    "options": [
+     "William Paley",
+     "Thomas Aquinas",
+     "St Anselm",
+     "Charles Darwin"
+    ],
+    "answer": 0,
+    "explain": "Paley's teleological (design) argument: a watch's design and purpose imply a watchmaker, so the far more complex universe implies a cosmic designer."
+   },
+   {
+    "id": "M10",
+    "q": "The first cause or cosmological argument is classically associated with…",
+    "options": [
+     "St Anselm",
+     "Thomas Aquinas",
+     "William James",
+     "Martin Buber"
+    ],
+    "answer": 1,
+    "explain": "Aquinas. Everything has a prior cause; an infinite regress is impossible; so there must be an uncaused first cause, which can only be God."
+   },
+   {
+    "id": "M11",
+    "q": "Which argument for God's existence is a priori, beginning from the idea of God as the greatest conceivable being?",
+    "options": [
+     "the cosmological argument",
+     "the teleological argument",
+     "the ontological argument",
+     "the argument from religious experience"
+    ],
+    "answer": 2,
+    "explain": "The ontological argument, first devised by St Anselm. A priori means it works from logic alone, not from empirical evidence."
+   },
+   {
+    "id": "M12",
+    "q": "Who used the word 'numinous' for the sense of awe at being in the presence of a greater being?",
+    "options": [
+     "William James",
+     "Martin Buber",
+     "Sigmund Freud",
+     "Rudolf Otto"
+    ],
+    "answer": 3,
+    "explain": "Rudolf Otto. James treated religious experience as the foundation of religious belief; Buber said personal encounters are necessary to know God."
+   },
+   {
+    "id": "M13",
+    "q": "Who argued that treating animals as less valuable than humans is 'speciesist'?",
+    "options": [
+     "Peter Singer",
+     "Albert Schweitzer",
+     "Thomas Hobbes",
+     "Ludwig Feuerbach"
+    ],
+    "answer": 0,
+    "explain": "Peter Singer. He argues animals have moral worth because they can make choices and feel pain."
+   },
+   {
+    "id": "M14",
+    "q": "Which Christian thinker argued for a 'reverence for all life'?",
+    "options": [
+     "John Polkinghorne",
+     "Albert Schweitzer",
+     "Karen Armstrong",
+     "St Augustine"
+    ],
+    "answer": 1,
+    "explain": "Schweitzer stressed the commonality between humanity and other creatures and argued for reverence for all life."
+   },
+   {
+    "id": "M15",
+    "q": "Who said 'existence precedes essence', denying that humans have a fixed nature?",
+    "options": [
+     "Sigmund Freud",
+     "Charles Darwin",
+     "Jean-Paul Sartre",
+     "John Stuart Mill"
+    ],
+    "answer": 2,
+    "explain": "Sartre. With no God there is no script or plan, so we are entirely free to choose who we are — and so condemned to be free."
+   },
+   {
+    "id": "M16",
+    "q": "Freud divided the human mind into…",
+    "options": [
+     "body, spirit and soul",
+     "being and becoming",
+     "the elect and the reprobate",
+     "the ego, the id and the superego"
+    ],
+    "answer": 3,
+    "explain": "The ego is conscious awareness, the id our basic desires, the superego the influences of childhood — hence a constant internal conflict."
+   },
+   {
+    "id": "M17",
+    "q": "Concupiscence, in Augustine's account of human nature, is…",
+    "options": [
+     "the pull towards satisfying our passions after the Fall",
+     "the belief that God chose the saved before birth",
+     "the absence of good in creation",
+     "mistaking an apparent good for a real good"
+    ],
+    "answer": 0,
+    "explain": "Augustine saw the soul as the rider and the body as the horse; after the Fall the body is rebellious. Mistaking apparent goods for real goods is Aquinas's account."
+   },
+   {
+    "id": "M18",
+    "q": "'The love of money is the root of all evil' comes from…",
+    "options": [
+     "Matthew 22",
+     "1 Timothy 6",
+     "Psalm 119",
+     "1 Peter"
+    ],
+    "answer": 1,
+    "explain": "1 Timothy 6. Matthew 22 is the greatest commandment, Psalm 119 is obedience to God's word, and 1 Peter has the devil prowling like a lion."
+   },
+   {
+    "id": "M19",
+    "q": "Which of these is an example of natural evil?",
+    "options": [
+     "murder",
+     "bullying",
+     "an earthquake",
+     "theft"
+    ],
+    "answer": 2,
+    "explain": "Natural evil is suffering caused by natural events — disease, natural disasters, death. The other three are moral evil, caused by moral agents."
+   },
+   {
+    "id": "M20",
+    "q": "A theodicy is…",
+    "options": [
+     "an argument that God does not exist",
+     "a religious experience of conversion",
+     "the belief that God predestines the saved",
+     "a theory that tries to explain the existence of evil in God's good creation"
+    ],
+    "answer": 3,
+    "explain": "Theodicy literally sets out to justify God in the face of evil. The two named on this course are the Augustinian and the Irenaean."
+   },
+   {
+    "id": "M21",
+    "q": "The 'inconsistent triad' used against belief in God sets evil against which two attributes?",
+    "options": [
+     "omnipotence and omnibenevolence",
+     "immutability and eternity",
+     "transcendence and immanence",
+     "monotheism and the Trinity"
+    ],
+    "answer": 0,
+    "explain": "Posed by Hume and J. L. Mackie: an omniscient God knows evil exists, an omnipotent God could stop it, an omnibenevolent God would want to — yet evil exists."
+   },
+   {
+    "id": "M22",
+    "q": "In the Trinity, the Son is described as…",
+    "options": [
+     "the creator",
+     "the saviour",
+     "the sanctifier",
+     "the judge"
+    ],
+    "answer": 1,
+    "explain": "The Father is the creator, the Son the saviour, the Spirit the sanctifier. God is one substance in three persons."
+   },
+   {
+    "id": "M23",
+    "q": "Which creed sets out the Christian belief in God as Trinity, 'of one being with the Father'?",
+    "options": [
+     "the Ten Commandments",
+     "the Catechism",
+     "the Nicene Creed",
+     "the Declaration on Nature"
+    ],
+    "answer": 2,
+    "explain": "The Nicene Creed. The Catechism is the Roman Catholic teaching document — useful for the definition of the soul."
+   },
+   {
+    "id": "M24",
+    "q": "'Be fruitful and multiply' and have 'dominion' over nature comes from…",
+    "options": [
+     "Genesis 2:18",
+     "Genesis 3",
+     "John 3:16",
+     "Genesis 1:28"
+    ],
+    "answer": 3,
+    "explain": "Genesis 1:28 — the verse used for both dominance over creation and, read as stewardship, responsibility for it."
+   },
+   {
+    "id": "M25",
+    "q": "Physicalism is the view that…",
+    "options": [
+     "the real world is nothing more than the physical world",
+     "the soul is immortal and survives the body",
+     "God is present everywhere in creation",
+     "evil is an absence of good"
+    ],
+    "answer": 0,
+    "explain": "Physicalists hold that thought, personality and emotion are inextricably linked to our physicality, that there is no scientific evidence of a soul, and that there is no afterlife."
+   },
+   {
+    "id": "M26",
+    "q": "Agnosticism is the view that…",
+    "options": [
+     "God definitely does not exist",
+     "we cannot know whether God exists",
+     "there are many gods",
+     "God exists but is unknowable in nature"
+    ],
+    "answer": 1,
+    "explain": "Agnostics find the evidence and the philosophical arguments evenly balanced. Atheism is the positive belief that God does not exist."
+   },
+   {
+    "id": "M27",
+    "q": "The Apparent Age theory is used by some Christians to argue that…",
+    "options": [
+     "Genesis is purely metaphorical",
+     "evolution was directed by God",
+     "creation was made looking older than it is",
+     "the universe expands and contracts in cycles"
+    ],
+    "answer": 2,
+    "explain": "For example, that trees were created already having rings. It is a creationist response to evidence that the earth is very old."
+   },
+   {
+    "id": "M28",
+    "q": "The Big Bang theory was originally proposed by…",
+    "options": [
+     "Edwin Hubble",
+     "Charles Darwin",
+     "Richard Dawkins",
+     "Georges Lemaître, a Catholic priest"
+    ],
+    "answer": 3,
+    "explain": "Which is why the Catholic Church accepts it as compatible with Genesis. Hubble's observations of redshift supplied supporting evidence."
+   },
+   {
+    "id": "M29",
+    "q": "Which of these is evidence used to support the Big Bang?",
+    "options": [
+     "redshift in light from other galaxies",
+     "the fossil record",
+     "the Galapagos finches",
+     "near-death experiences"
+    ],
+    "answer": 0,
+    "explain": "Redshift, background cosmic radiation and the gravitational waves detected in 2014. Fossils and the finches are evidence for evolution."
+   },
+   {
+    "id": "M30",
+    "q": "The main weakness of Plantinga's Freewill Defence is that it does not explain…",
+    "options": [
+     "moral evil",
+     "natural evil",
+     "the Fall",
+     "the incarnation"
+    ],
+    "answer": 1,
+    "explain": "Freewill accounts for evil caused by human choice, but not for earthquakes or disease — which is the gap the Augustinian theodicy tries to fill."
+   }
+  ],
+  "02-life-and-death": [
+   {
+    "id": "M1",
+    "q": "Physicalism holds that…",
+    "options": [
+     "each person is only a living, physical body, so death ends their existence",
+     "the soul is immortal and survives the body",
+     "the dead are resurrected at the End Time",
+     "existence repeats in a cycle of rebirth"
+    ],
+    "answer": 0,
+    "explain": "For physicalists, thought and feeling are functions of the brain, there is no scientific evidence of a soul, and so there is no afterlife."
+   },
+   {
+    "id": "M2",
+    "q": "Dualism is the view that a person is composed of…",
+    "options": [
+     "mind and brain only",
+     "body and soul",
+     "three persons in one substance",
+     "skandhas that separate at death"
+    ],
+    "answer": 1,
+    "explain": "The body deteriorates and dies; the soul is the permanent part. Christians are generally dualists, which is why they can believe the soul continues with God."
+   },
+   {
+    "id": "M3",
+    "q": "Who distinguished the realm of becoming from the realm of being, placing the soul in the latter?",
+    "options": [
+     "Aristotle",
+     "Aquinas",
+     "Plato",
+     "Epicurus"
+    ],
+    "answer": 2,
+    "explain": "Plato. The body changes and belongs to becoming; the soul is simple and unchanging, so it belongs to being and survives the body."
+   },
+   {
+    "id": "M4",
+    "q": "Eschatology is the study of…",
+    "options": [
+     "the nature of the soul",
+     "arguments for God's existence",
+     "religious experience",
+     "Christian teachings about the End Time"
+    ],
+    "answer": 3,
+    "explain": "It is based on the apocalyptic teachings of the book of Revelation."
+   },
+   {
+    "id": "M5",
+    "q": "The Eschaton is…",
+    "options": [
+     "the End Time, when the dead are raised and judged",
+     "the place of final purification before heaven",
+     "the moment of conversion",
+     "the cycle of birth and rebirth"
+    ],
+    "answer": 0,
+    "explain": "At the beginning of the Eschaton the dead are resurrected and judged alongside the living by Jesus."
+   },
+   {
+    "id": "M6",
+    "q": "Christians who reject the idea of an immortal soul as unbiblical instead teach that…",
+    "options": [
+     "nothing survives death at all",
+     "God resurrects the dead, body and soul, just before judgement",
+     "the soul is reborn into another body",
+     "only consequences survive death"
+    ],
+    "answer": 1,
+    "explain": "They argue that life after death depends on God's love and power, not on a soul's own nature. 1 Corinthians 15 describes being raised as spiritual bodies."
+   },
+   {
+    "id": "M7",
+    "q": "Belief in purgatory is held by…",
+    "options": [
+     "all Christians",
+     "Protestants only",
+     "Roman Catholics",
+     "Humanists"
+    ],
+    "answer": 2,
+    "explain": "It was developed in the medieval period to explain how a person who had sinned could still be saved. Protestants reject it."
+   },
+   {
+    "id": "M8",
+    "q": "Why do Protestants reject purgatory?",
+    "options": [
+     "it makes hell unnecessary",
+     "it denies the resurrection of Jesus",
+     "it was invented by Dante",
+     "there is no mention of it in the Bible"
+    ],
+    "answer": 3,
+    "explain": "And because salvation comes through faith in Christ alone, not through the works of humanity — so purification by degrees implies Christ's sacrifice was insufficient."
+   },
+   {
+    "id": "M9",
+    "q": "The Roman Catholic Church describes purgatory as the…",
+    "options": [
+     "final purification of the elect",
+     "lake of fire",
+     "kingdom of God",
+     "realm of being"
+    ],
+    "answer": 0,
+    "explain": "Most people are not pure enough to enter heaven immediately, so relatives are encouraged to pray for the dead to speed the cleansing."
+   },
+   {
+    "id": "M10",
+    "q": "Which parable does Jesus use to set out the basis of judgement?",
+    "options": [
+     "the Good Samaritan",
+     "the Sheep and the Goats",
+     "the Rich Young Man",
+     "the Rich Man and Lazarus"
+    ],
+    "answer": 1,
+    "explain": "Those who fed the hungry, clothed the poor, helped the sick and visited prisoners are counted righteous: 'what you do for the least of these, you do for me'."
+   },
+   {
+    "id": "M11",
+    "q": "The parable of the Sheep and the Goats is found at…",
+    "options": [
+     "Luke 9:23",
+     "John 3:16",
+     "Matthew 25:31–40",
+     "Luke 16:19–31"
+    ],
+    "answer": 2,
+    "explain": "Luke 16:19–31 is the rich man and Lazarus; Luke 9:23 is taking up your cross daily; John 3:16 is eternal life through belief in the Son."
+   },
+   {
+    "id": "M12",
+    "q": "'Whoever believes in him should not perish but have eternal life' comes from…",
+    "options": [
+     "Matthew 27:52",
+     "Ecclesiastes 12:7",
+     "1 Corinthians 15",
+     "John 3:16"
+    ],
+    "answer": 3,
+    "explain": "John 3:16 — the key text for salvation through faith, and for God's love as the reason for the incarnation."
+   },
+   {
+    "id": "M13",
+    "q": "'Faith without works is dead' comes from…",
+    "options": [
+     "James",
+     "Revelation",
+     "Romans",
+     "1 Peter"
+    ],
+    "answer": 0,
+    "explain": "It is the standard reply to those who emphasise faith alone: genuine faith shows itself in action."
+   },
+   {
+    "id": "M14",
+    "q": "How does the book of Revelation describe the fate of wrongdoers?",
+    "options": [
+     "purified by fire for a time",
+     "thrown into the lake of fire",
+     "annihilated",
+     "separated from God but at peace"
+    ],
+    "answer": 1,
+    "explain": "Revelation's imagery supports a literal reading of hell as eternal torment. Annihilation and separation from God are alternative Christian interpretations."
+   },
+   {
+    "id": "M15",
+    "q": "How many circles of hell are there in Dante's Inferno?",
+    "options": [
+     "three",
+     "seven",
+     "nine",
+     "twelve"
+    ],
+    "answer": 2,
+    "explain": "Nine, with Limbo first. Over the gate is written 'abandon hope all you who enter here'."
+   },
+   {
+    "id": "M16",
+    "q": "Universalism is the belief that…",
+    "options": [
+     "every religion worships the same God",
+     "heaven is this world transformed",
+     "God predestines who will be saved",
+     "hell is a place of correction and everyone will eventually be saved"
+    ],
+    "answer": 3,
+    "explain": "Universalists find eternal punishment incompatible with a just and loving God, so they treat hell as corrective rather than final."
+   },
+   {
+    "id": "M17",
+    "q": "The Christian view of human existence is described as…",
+    "options": [
+     "linear",
+     "cyclical",
+     "psycho-somatic",
+     "nihilistic"
+    ],
+    "answer": 0,
+    "explain": "Birth, life, death, then resurrection and one judgement, then heaven or hell. Cyclical views belong to Eastern religions."
+   },
+   {
+    "id": "M18",
+    "q": "A cyclical view of human existence holds that…",
+    "options": [
+     "the universe expands and contracts forever",
+     "deeds determine whether a person is reborn into a higher or lower form of life",
+     "the soul sleeps until the End Time",
+     "history repeats every thousand years"
+    ],
+    "answer": 1,
+    "explain": "Rebirth continues until one escapes the cycle — moksha in Hinduism, nirvana in Buddhism."
+   },
+   {
+    "id": "M19",
+    "q": "In Hinduism, the atman is…",
+    "options": [
+     "the law of cause and effect",
+     "release from the cycle of rebirth",
+     "the soul — the permanent aspect of the individual",
+     "the World Soul"
+    ],
+    "answer": 2,
+    "explain": "At death the atman is released from the body ready to be reincarnated. Brahman is the World Soul with which it aims to unite."
+   },
+   {
+    "id": "M20",
+    "q": "Karma is…",
+    "options": [
+     "the moment of enlightenment",
+     "the cycle of birth and rebirth",
+     "union with Brahman",
+     "the principle that a person's actions determine the form of their rebirth"
+    ],
+    "answer": 3,
+    "explain": "Samsara is the cycle itself and moksha is release from it; nirvana is the Buddhist goal."
+   },
+   {
+    "id": "M21",
+    "q": "Moksha is…",
+    "options": [
+     "freedom from samsara, so the atman can unite with Brahman",
+     "the Buddhist teaching that there is no soul",
+     "the separation of the skandhas at death",
+     "a thousand-year reign of Christ"
+    ],
+    "answer": 0,
+    "explain": "It is the ultimate aim of a Hindu: escape from the cycle of life and rebirth."
+   },
+   {
+    "id": "M22",
+    "q": "In Buddhism, anatta means…",
+    "options": [
+     "change",
+     "no soul",
+     "suffering",
+     "enlightenment"
+    ],
+    "answer": 1,
+    "explain": "The three universal symptoms are anicca (change), anatta (no soul) and dukkha (suffering or dissatisfaction)."
+   },
+   {
+    "id": "M23",
+    "q": "According to Buddhist teaching, what happens at death if enlightenment has not been reached?",
+    "options": [
+     "the atman is reincarnated",
+     "the soul is judged",
+     "the skandhas separate and merge with others to form new beings",
+     "the person ceases to exist entirely"
+    ],
+    "answer": 2,
+    "explain": "Since there is no soul, only our consequences survive death. The skandhas are form, sensation, perception, thought and consciousness."
+   },
+   {
+    "id": "M24",
+    "q": "Millennialism teaches that…",
+    "options": [
+     "the millennium began with the incarnation",
+     "things will get worse before Satan is defeated",
+     "the millennium started with Jesus's resurrection",
+     "Christ will rule the earth for 1,000 years of peace and justice before the dead are raised"
+    ],
+    "answer": 3,
+    "explain": "The other three options describe amillennialism, premillennialism and postmillennialism."
+   },
+   {
+    "id": "M25",
+    "q": "Amillennialism teaches that the millennium…",
+    "options": [
+     "began with the incarnation and ends with Jesus's return to judge the living and the dead",
+     "will last exactly a thousand years after the Tribulation",
+     "has not yet begun",
+     "is a symbol of heaven"
+    ],
+    "answer": 0,
+    "explain": "Premillennialism places the Tribulation first; postmillennialism dates the millennium from the resurrection and expects gradual improvement."
+   },
+   {
+    "id": "M26",
+    "q": "Who argued that the purpose of human life is to flourish — living well and doing well?",
+    "options": [
+     "Epicurus",
+     "Aristotle",
+     "Jeremy Bentham",
+     "Friedrich Nietzsche"
+    ],
+    "answer": 1,
+    "explain": "Aristotle. 'Flourishing' is a better translation than 'happiness': it allows the full expression of the human intellect."
+   },
+   {
+    "id": "M27",
+    "q": "Nihilism — the view that all values are baseless and life is meaningless — is associated with…",
+    "options": [
+     "Jean-Paul Sartre",
+     "Karl Marx",
+     "Friedrich Nietzsche",
+     "Thomas Aquinas"
+    ],
+    "answer": 2,
+    "explain": "Nietzsche declared that God is dead, so all 'meaning' and 'purpose' are false and reason is impotent."
+   },
+   {
+    "id": "M28",
+    "q": "Sartre's view of the meaning of life is that…",
+    "options": [
+     "pleasure is the highest good",
+     "the supreme good is relationship with God",
+     "meaning comes from the greatest good for the greatest number",
+     "with no God there is no plan, so we must create meaning for ourselves"
+    ],
+    "answer": 3,
+    "explain": "Radical freedom: there is no external, fixed meaning, so we have to choose and invent morality, meaning and purpose."
+   },
+   {
+    "id": "M29",
+    "q": "Who criticised religion as an 'opiate' that distracts people from social progress with the false promise of a higher meaning?",
+    "options": [
+     "Karl Marx",
+     "Sigmund Freud",
+     "Epicurus",
+     "Julian Baggini"
+    ],
+    "answer": 0,
+    "explain": "Marx. The same point is used to argue that belief in an afterlife lets the ruling classes control communities."
+   },
+   {
+    "id": "M30",
+    "q": "'Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me' comes from…",
+    "options": [
+     "Matthew 25",
+     "Luke 9:23",
+     "John 3:16",
+     "Ecclesiastes 12:7"
+    ],
+    "answer": 1,
+    "explain": "Luke 9:23 — the text used for self-denial as part of the Christian purpose of life."
+   },
+   {
+    "id": "M31",
+    "q": "The sanctity of life is the belief that…",
+    "options": [
+     "every life should be as happy as possible",
+     "only Christian lives are valuable",
+     "life is a sacred gift from God, so it is not ours to end",
+     "life is valuable because people are useful to society"
+    ],
+    "answer": 2,
+    "explain": "Two halves: life is intrinsically valuable because it is God's gift, and it is not for humans to decide when it ends. The 'happiness' option is the quality-of-life view instead."
+   },
+   {
+    "id": "M32",
+    "q": "Which verse gives Christians the doctrine of imago Dei?",
+    "options": [
+     "Genesis 1:27",
+     "Genesis 2:24",
+     "Exodus 20:13",
+     "Psalm 139:13"
+    ],
+    "answer": 0,
+    "explain": "Genesis 1:27 — 'So God created mankind in his own image'. Genesis 2:24 is 'one flesh' (marriage), Exodus 20:13 is 'you shall not murder', Psalm 139:13 is being knitted together in the womb."
+   },
+   {
+    "id": "M33",
+    "q": "'Before I formed you in the womb I knew you' comes from…",
+    "options": [
+     "Psalm 139",
+     "Job 1:21",
+     "1 Corinthians 6",
+     "Jeremiah 1:5"
+    ],
+    "answer": 3,
+    "explain": "Jeremiah 1:5 — the key anti-abortion text, used to argue that God knows and plans for a person before birth."
+   },
+   {
+    "id": "M34",
+    "q": "Abortion in the UK is governed by…",
+    "options": [
+     "the Suicide Act 1961",
+     "the Abortion Act 1967",
+     "the Human Rights Act 1998",
+     "the Marriage (Same Sex Couples) Act 2013"
+    ],
+    "answer": 1,
+    "explain": "The Abortion Act 1967. Two doctors must agree 'in good faith' that one of the legal grounds is met; the Suicide Act 1961 is the euthanasia and assisted-suicide law."
+   },
+   {
+    "id": "M35",
+    "q": "In most cases, the upper time limit for a legal abortion in the UK is…",
+    "options": [
+     "12 weeks",
+     "20 weeks",
+     "24 weeks",
+     "28 weeks"
+    ],
+    "answer": 2,
+    "explain": "24 weeks, set by amendment in 1990. There is no time limit where there is a risk to the woman's life, a risk of grave permanent injury to her health, or a substantial risk of serious disability."
+   },
+   {
+    "id": "M36",
+    "q": "Under UK law, assisting someone to end their own life is…",
+    "options": [
+     "a criminal offence carrying up to 14 years in prison",
+     "legal if two doctors agree",
+     "legal only in a hospice",
+     "legal if the person is terminally ill"
+    ],
+    "answer": 0,
+    "explain": "The Suicide Act 1961 decriminalised suicide and attempted suicide, but assisting a suicide remains an offence punishable by up to 14 years. Actively ending another person's life is murder or manslaughter, so euthanasia is illegal."
+   },
+   {
+    "id": "M37",
+    "q": "Ending a person's life without their consent because they cannot express a wish — for example someone in a persistent vegetative state — is called…",
+    "options": [
+     "voluntary euthanasia",
+     "involuntary euthanasia",
+     "assisted suicide",
+     "non-voluntary euthanasia"
+    ],
+    "answer": 3,
+    "explain": "Non-voluntary: the person cannot say. Voluntary is at their own request; involuntary is against their wishes; assisted suicide means the person ends their own life with help."
+   },
+   {
+    "id": "M38",
+    "q": "Agape means…",
+    "options": [
+     "physical attraction",
+     "selfless, self-giving love",
+     "friendship between equals",
+     "love of God for the saved only"
+    ],
+    "answer": 1,
+    "explain": "Agape is the selfless, self-giving love described in 1 Corinthians 13. Liberal Christians make it the one absolute, which is the basis of situation ethics and of the 'most loving option' argument."
+   },
+   {
+    "id": "M39",
+    "q": "'Love is patient, love is kind' comes from…",
+    "options": [
+     "Mark 12",
+     "Ephesians 5",
+     "Romans 1",
+     "1 Corinthians 13"
+    ],
+    "answer": 3,
+    "explain": "1 Corinthians 13:4, in the chapter that ends 'the greatest of these is love' (13:13). Mark 12:31 is 'love your neighbour as yourself'."
+   },
+   {
+    "id": "M40",
+    "q": "Which text do conservative Christians most often cite against same-sex sexual relationships?",
+    "options": [
+     "Genesis 1:27",
+     "Galatians 3:28",
+     "Leviticus 18:22",
+     "Mark 12:31"
+    ],
+    "answer": 2,
+    "explain": "Leviticus 18:22, with Romans 1:26-27 and the appeal to male and female in Mark 10:6-9. Genesis 1:27 and Galatians 3:28 are used on the affirming side."
+   },
+   {
+    "id": "M41",
+    "q": "The Roman Catholic Catechism describes homosexual acts as…",
+    "options": [
+     "a matter for individual conscience",
+     "acceptable within a committed partnership",
+     "no different from heterosexual acts",
+     "intrinsically disordered"
+    ],
+    "answer": 3,
+    "explain": "'Intrinsically disordered' (Catechism 2357). The same teaching insists that people with a homosexual inclination 'must be accepted with respect, compassion, and sensitivity' (2358) and are called to chastity (2359) — so the act, not the person, is condemned."
+   },
+   {
+    "id": "M42",
+    "q": "'They become one flesh', used to argue that marriage creates a single new unit, is from…",
+    "options": [
+     "Genesis 2:24",
+     "Genesis 1:28",
+     "Ephesians 5:25",
+     "Hebrews 13:4"
+    ],
+    "answer": 0,
+    "explain": "Genesis 2:24, which Jesus quotes in Mark 10:6-9. Genesis 1:28 is 'be fruitful and increase in number'; Ephesians 5:25 tells husbands to love their wives as Christ loved the church."
+   },
+   {
+    "id": "M43",
+    "q": "Which denomination has celebrated same-sex marriages on the same basis as any other since its 2009 decision?",
+    "options": [
+     "the Roman Catholic Church",
+     "the Quakers",
+     "the Church of England",
+     "the Orthodox Church"
+    ],
+    "answer": 1,
+    "explain": "The Quakers (Britain Yearly Meeting). The Methodist Church in Britain followed in 2021; the Church of England keeps its doctrine of marriage but authorised prayers of blessing for same-sex couples in 2023."
+   },
+   {
+    "id": "M44",
+    "q": "An annulment is…",
+    "options": [
+     "a declaration that no valid marriage ever existed",
+     "a divorce granted by a priest",
+     "a blessing after a civil wedding",
+     "a second marriage in church"
+    ],
+    "answer": 0,
+    "explain": "The Roman Catholic alternative to divorce: because a valid sacramental marriage cannot be dissolved, the Church may instead declare that no valid marriage existed — for example because of deceit, coercion or incapacity at the time of the vows."
+   },
+   {
+    "id": "M45",
+    "q": "In Matthew 19:9 Jesus allows divorce on the single ground of…",
+    "options": [
+     "desertion by an unbeliever",
+     "sexual immorality",
+     "irreconcilable differences",
+     "the couple's religious differences"
+    ],
+    "answer": 1,
+    "explain": "Matthew 19:9 — 'except for sexual immorality'. Desertion by an unbeliever is Paul's exception (1 Corinthians 7:15); Mark 10:9 allows no exception at all. Those three strands explain why the churches differ."
+   },
+   {
+    "id": "M46",
+    "q": "Catholic teaching calls the family the 'domestic church' because…",
+    "options": [
+     "families should hold services at home instead of attending church",
+     "the parish is run by families",
+     "it is where faith is first taught and handed on",
+     "only married couples may receive communion"
+    ],
+    "answer": 2,
+    "explain": "The family is where children are brought to baptism, taught to pray and raised 'in the training and instruction of the Lord' (Ephesians 6:4) — so it functions as a church in miniature, which is why churches invest in supporting it."
+   },
+   {
+    "id": "M47",
+    "q": "Roman Catholic teaching permits natural family planning but forbids the condom and the pill because…",
+    "options": [
+     "natural methods are more reliable",
+     "the couple abstain rather than alter the act itself, so no marital act is deliberately closed to life",
+     "the Bible explicitly forbids artificial devices",
+     "natural methods are cheaper and so available to the poor"
+    ],
+    "answer": 1,
+    "explain": "The Natural Law objection is to interfering with the act, not to the intention. Natural family planning restricts sex to infertile days without altering the act, so Catholic teaching accepts it. Critics reply that the intention is identical either way."
+   },
+   {
+    "id": "M48",
+    "q": "Humanae Vitae (1968) teaches that…",
+    "options": [
+     "contraception is a matter for the couple's own conscience",
+     "IVF may be used by married couples",
+     "celibacy is required of every Christian",
+     "every marital act must remain open to the transmission of life"
+    ],
+    "answer": 3,
+    "explain": "Paul VI's Humanae Vitae is the Catholic teaching against artificial contraception. The 'matter of conscience' option is the Anglican position, which goes back to the Lambeth Conference of 1930."
+   },
+   {
+    "id": "M49",
+    "q": "AID differs from AIH in that…",
+    "options": [
+     "AID uses a donor's sperm while AIH uses the husband's",
+     "AID is carried out in a clinic and AIH at home",
+     "AID uses the husband's sperm while AIH uses a donor's",
+     "AID always involves a surrogate mother"
+    ],
+    "answer": 0,
+    "explain": "Artificial Insemination by Donor brings a third party's genetic material into the marriage — which Catholic teaching has called a kind of mechanical adultery. Artificial Insemination by Husband keeps both gametes within the marriage, which is why many Protestants accept it and reject AID."
+   },
+   {
+    "id": "M50",
+    "q": "Which document sets out the Roman Catholic rejection of IVF?",
+    "options": [
+     "Humanae Vitae (1968)",
+     "Amoris Laetitia (2016)",
+     "Donum Vitae (1987)",
+     "Evangelium Vitae (1995)"
+    ],
+    "answer": 2,
+    "explain": "Donum Vitae. Humanae Vitae is on contraception, Amoris Laetitia is on marriage and the pastoral care of the remarried, and Evangelium Vitae is the 'culture of death' encyclical on abortion and euthanasia."
+   },
+   {
+    "id": "M51",
+    "q": "Celibacy is…",
+    "options": [
+     "abstaining from sex until you are married",
+     "the settled choice to abstain from sexual activity, usually also from marriage",
+     "the right ordering of sexual behaviour for whatever state of life you are in",
+     "a vow taken by all Christians at confirmation"
+    ],
+    "answer": 1,
+    "explain": "The other two tempting options describe chastity, not celibacy — for an unmarried Christian chastity means abstinence, and for a married one it means faithfulness. Mixing the two words up costs a definition mark."
+   },
+   {
+    "id": "M52",
+    "q": "Which Christian ministers are required to be celibate?",
+    "options": [
+     "Roman Catholic priests of the Latin Church, together with monks and nuns",
+     "all Christian clergy",
+     "Anglican and Methodist clergy",
+     "Orthodox parish priests"
+    ],
+    "answer": 0,
+    "explain": "Anglican and Methodist clergy may marry; the Orthodox churches ordain married men as parish priests but choose their bishops from among the celibate. Paul's argument for celibacy is that the unmarried person 'is concerned about the Lord's affairs' (1 Corinthians 7:32–33)."
+   },
+   {
+    "id": "M53",
+    "q": "Matthew 19:12 — 'others have renounced marriage because of the kingdom of heaven' — is used to argue that…",
+    "options": [
+     "marriage is a sacrament",
+     "divorce is permitted on the ground of adultery",
+     "a life without marriage or children is a genuine Christian calling",
+     "contraception is wrong"
+    ],
+    "answer": 2,
+    "explain": "It is the key text both for celibacy and for accepting voluntary childlessness: Jesus treats renouncing marriage as a real vocation, while adding 'the one who can accept this should accept it' — so it is a gift given to some, not a rule for all."
+   },
+   {
+    "id": "M54",
+    "q": "The difference between adoption and fostering is that…",
+    "options": [
+     "fostering is permanent and adoption is temporary",
+     "only married couples may foster",
+     "adoption is arranged by churches and fostering by local councils",
+     "adoption transfers parental responsibility permanently, while fostering is temporary care"
+    ],
+    "answer": 3,
+    "explain": "In fostering, legal responsibility stays with the birth parents or the local authority and the child may return home. Christians support both, citing James 1:27 — looking after orphans is 'pure and faultless' religion — and Ephesians 1:5, where adoption is Paul's image for salvation itself."
+   },
+   {
+    "id": "M55",
+    "q": "Therapeutic cloning is…",
+    "options": [
+     "cloning cells, not a person, to grow tissue for treating illness",
+     "producing a new human being genetically identical to the donor",
+     "screening IVF embryos for genetic disease",
+     "freezing spare embryos for later use"
+    ],
+    "answer": 0,
+    "explain": "Many Protestant churches accept therapeutic cloning because it heals, while rejecting reproductive cloning — which is in any case banned in humans in the UK by the Human Reproductive Cloning Act 2001. Catholic teaching rejects human cloning as immoral and unnecessary."
+   },
+   {
+    "id": "M56",
+    "q": "Which verse is most often used against a couple deliberately choosing to have no children?",
+    "options": [
+     "Genesis 2:18",
+     "Genesis 1:28",
+     "Matthew 19:12",
+     "1 Corinthians 7:9"
+    ],
+    "answer": 1,
+    "explain": "Genesis 1:28 — 'be fruitful and increase in number' — read as a command given in creation, backed by Psalm 127:3 calling children 'a heritage from the LORD'. Genesis 2:18, Matthew 19:12 and 1 Corinthians 7:9 are all used on the other side of the argument."
+   },
+   {
+    "id": "M57",
+    "q": "Passive euthanasia is…",
+    "options": [
+     "a lethal injection given at the patient's own request",
+     "providing someone with the means to end their own life",
+     "death that follows from withdrawing or withholding life-sustaining treatment",
+     "ending a life against the person's expressed wishes"
+    ],
+    "answer": 2,
+    "explain": "The others are active euthanasia, assisted suicide and involuntary euthanasia. The distinction matters because Catholic teaching permits discontinuing burdensome or futile treatment while forbidding any act or omission intended to cause death."
+   },
+   {
+    "id": "M58",
+    "q": "Marriage is regarded as a sacrament by…",
+    "options": [
+     "all Christian churches",
+     "the Roman Catholic and Orthodox churches",
+     "the Church of England and the Methodist Church",
+     "the Quakers alone"
+    ],
+    "answer": 1,
+    "explain": "A sacrament is an outward sign of inward grace. Catholics and Orthodox treat marriage as one, which is why a valid consummated marriage cannot be dissolved and annulment is offered instead of divorce; most Protestants call marriage a covenant made before God but not a sacrament."
+   }
+  ],
+  "03-peace-and-conflict": [
+   {
+    "id": "M1",
+    "q": "Which three conditions must all be met for a conflict to count as a holy war?",
+    "options": [
+     "A just cause, a legitimate authority and a strong chance of success",
+     "A religious goal, authorisation by a religious leader, and a spiritual reward for those who fight",
+     "A religious goal, a declaration of war, and the blessing of an army by a priest",
+     "Proportionate methods, fair treatment of prisoners, and no use of weapons of mass destruction"
+    ],
+    "answer": 1,
+    "explain": "The three characteristics are: it must be fought to achieve a religious goal, be authorised by a religious leader, and promise a spiritual reward to those who fight. The first option lists Just War conditions and the fourth lists jus in bello."
+   },
+   {
+    "id": "M2",
+    "q": "Who were the two early authors of Christianity's Just War theory?",
+    "options": [
+     "Augustine and Aquinas",
+     "Calvin and Luther",
+     "Origen and Erasmus",
+     "Aquinas and Francisco de Vitoria"
+    ],
+    "answer": 0,
+    "explain": "Augustine (354–430) laid the roots and Aquinas (1225–1274) developed and expanded his thought. Francisco de Vitoria came later and added jus post bellum."
+   },
+   {
+    "id": "M3",
+    "q": "Which part of Just War theory did Francisco de Vitoria add?",
+    "options": [
+     "Jus ad bellum — when it is right to go to war",
+     "Jus in bello — how the war is to be conducted",
+     "Jus post bellum — what should happen once the war has ended",
+     "The condition that there must be a strong probability of success"
+    ],
+    "answer": 2,
+    "explain": "De Vitoria (c.1483–1546) added the principle that the defeated nation must be properly organised so its citizens can resume their daily lives in safety as quickly as possible."
+   },
+   {
+    "id": "M4",
+    "q": "Complete the quotation used to show that God's ideal world is disarmed: 'Nation will not take up sword against nation, nor will they…'",
+    "options": [
+     "…train for war any more' — Micah 4:3",
+     "…seek vengeance any more' — Amos 5:24",
+     "…shed innocent blood any more' — Genesis 9:6",
+     "…remember their enemies any more' — Isaiah 9:6"
+    ],
+    "answer": 0,
+    "explain": "Micah 4:3 foretells a time when God's rule is established. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
+   },
+   {
+    "id": "M5",
+    "q": "Which prophet calls the awaited Messiah the 'Prince of Peace'?",
+    "options": [
+     "Amos",
+     "Joel",
+     "Micah",
+     "Isaiah"
+    ],
+    "answer": 3,
+    "explain": "Isaiah 9:6–7: 'he will be called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace.'"
+   },
+   {
+    "id": "M6",
+    "q": "'Proclaim this among the nations: Prepare for war!' comes from which book?",
+    "options": [
+     "Joel",
+     "Revelation",
+     "Leviticus",
+     "1 Samuel"
+    ],
+    "answer": 0,
+    "explain": "Joel 3:9–10, where the prophet commands the people to be ready to fight on God's behalf: 'Beat your ploughshares into swords and your pruning hooks into spears.'"
+   },
+   {
+    "id": "M7",
+    "q": "Which group produced the 1661 Declaration to Charles II stating 'We utterly deny all outward wars and strife and fighting with outward weapons'?",
+    "options": [
+     "The Salvation Army",
+     "The Religious Society of Friends, the Quakers",
+     "The Corrymeela Community",
+     "The Methodists"
+    ],
+    "answer": 1,
+    "explain": "The Quakers take an absolutist stance on war, using the 'weapons of the Spirit' — truth, love and peace — instead of violence."
+   },
+   {
+    "id": "M8",
+    "q": "What is the difference between an absolute pacifist and a conditional pacifist?",
+    "options": [
+     "An absolute pacifist opposes nuclear weapons only; a conditional pacifist opposes all weapons",
+     "An absolute pacifist refuses to pay taxes; a conditional pacifist refuses only to fight",
+     "An absolute pacifist thinks fighting is always wrong, even in self-defence; a conditional pacifist opposes war unless it really is the last option available",
+     "An absolute pacifist acts from religious conviction; a conditional pacifist acts from conscience"
+    ],
+    "answer": 2,
+    "explain": "Absolute pacifists hold that human lives are so valuable that nothing can justify putting them at risk. Conditional pacifists accept that extreme cases, such as Hitler, may leave no alternative."
+   },
+   {
+    "id": "M9",
+    "q": "Who said 'Non-violence is the greatest force at the disposal of mankind. It is mightier than the mightiest weapon of destruction devised by the ingenuity of man'?",
+    "options": [
+     "Martin Luther King",
+     "Emil Arnaud",
+     "Leo Tolstoy",
+     "Mahatma Gandhi"
+    ],
+    "answer": 3,
+    "explain": "Gandhi (1869–1948). The quotation is the standard evidence for passive resistance being a form of strength rather than weakness."
+   },
+   {
+    "id": "M10",
+    "q": "Who coined the word 'pacifism'?",
+    "options": [
+     "Seneca the Younger",
+     "Emil Arnaud, a French peace campaigner",
+     "Erasmus, in In Praise of Folly",
+     "Leo Tolstoy"
+    ],
+    "answer": 1,
+    "explain": "Arnaud (1864–1921) coined it, and it was adopted at the tenth Universal Peace Congress in Glasgow in 1901. The word itself comes from the Latin pax, peace, and ficus, making."
+   },
+   {
+    "id": "M11",
+    "q": "Which three categories of weapon make up 'weapons of mass destruction'?",
+    "options": [
+     "Nuclear, chemical and biological",
+     "Nuclear, incendiary and landmine",
+     "Atomic, hydrogen and neutron",
+     "Choking, blister and nerve agents"
+    ],
+    "answer": 0,
+    "explain": "All three can inflict death and destruction on a huge scale. Atomic, hydrogen and neutron bombs are all kinds of nuclear weapon; choking, blister and nerve agents are kinds of chemical weapon."
+   },
+   {
+    "id": "M12",
+    "q": "Approximately how many people were killed by the atomic bomb dropped on Hiroshima on 6 August 1945?",
+    "options": [
+     "15,700",
+     "40,000",
+     "84,000",
+     "900,000"
+    ],
+    "answer": 2,
+    "explain": "Around 84,000 were killed at Hiroshima, with many more afflicted by radiation sickness; the Nagasaki bomb three days later killed about 40,000. 15,700 is the estimated number of nuclear warheads held by nine nations in 2015."
+   },
+   {
+    "id": "M13",
+    "q": "Who said 'In nuclear war there would be no victors, only victims'?",
+    "options": [
+     "Pope Benedict XVI",
+     "Pope John Paul II",
+     "Stephen Cottrell, Archbishop of York",
+     "Harry S. Truman"
+    ],
+    "answer": 0,
+    "explain": "Pope Benedict XVI. Cottrell's 2020 statement is the related one that the church has consistently regarded any use or possession of nuclear weapons as outside a just use of arms."
+   },
+   {
+    "id": "M14",
+    "q": "Which Roman Catholic document demanded 'that the arms race should cease' and that nuclear weapons should be banned?",
+    "options": [
+     "Fratelli Tutti",
+     "Evangelium Vitae",
+     "Mulieris Dignitatem",
+     "Pacem in Terris"
+    ],
+    "answer": 3,
+    "explain": "Pacem in Terris. Evangelium Vitae (1995) and Fratelli Tutti (2020) concern the death penalty, and Mulieris Dignitatem (1988) concerns the vocations of women."
+   },
+   {
+    "id": "M15",
+    "q": "Which organisation defines terrorism as any act aiming to cause death or serious harm to civilians in order to intimidate a population or compel a government?",
+    "options": [
+     "The United Nations",
+     "Amnesty International",
+     "The World Council of Churches",
+     "The Church of England's General Synod"
+    ],
+    "answer": 0,
+    "explain": "The UN definition. Terrorists aim to gain publicity, cause fear and intimidate authorities into yielding to their demands."
+   },
+   {
+    "id": "M16",
+    "q": "Which American Christian terrorist organisation, formed in 1982, campaigns against abortion?",
+    "options": [
+     "The Provisional IRA",
+     "The Army of God",
+     "The Royal Ulster Constabulary",
+     "The Prison Fellowship"
+    ],
+    "answer": 1,
+    "explain": "The Army of God has committed kidnap, attempted murder and murder, and has been associated with abortion clinic bombings and arsons."
+   },
+   {
+    "id": "M17",
+    "q": "Who planted the bomb in The Grand Hotel, Brighton, in 1984?",
+    "options": [
+     "Patrick Magee, a member of the IRA",
+     "Les Isaac, later of Street Pastors",
+     "Camilo Torres, a liberation theologian",
+     "Ray Davey, founder of Corrymeela"
+    ],
+    "answer": 0,
+    "explain": "Magee planted it about a month beforehand, timed for the last night of the Conservative Conference with the aim of assassinating Margaret Thatcher. She survived; five people were killed and at least 31 injured."
+   },
+   {
+    "id": "M18",
+    "q": "Who founded Corrymeela, and when?",
+    "options": [
+     "Desmond Tutu, in 1996",
+     "Brother Roger, in 1940",
+     "Ray Davey, in 1965",
+     "Les Isaac, in 2003"
+    ],
+    "answer": 2,
+    "explain": "Davey founded it in 1965 at Ballycastle in county Antrim, thinking the buildings could provide a meeting place for people of any religious persuasion so all could join the peace process."
+   },
+   {
+    "id": "M19",
+    "q": "What did Ray Davey mean by telling departing visitors that 'Corrymeela begins when you leave'?",
+    "options": [
+     "That the community's work is funded by donations given on departure",
+     "That the real work is building on the experience back in their own community",
+     "That visitors should return for a second, longer stay",
+     "That the centre only opens once the week's residential has ended"
+    ],
+    "answer": 1,
+    "explain": "It is hoped that those who visit Corrymeela will build on their experiences within their own communities — the change has to happen at home, not at Ballycastle."
+   },
+   {
+    "id": "M20",
+    "q": "In what year was the United Nations created, and with what central aim?",
+    "options": [
+     "1919, to enforce the Treaty of Versailles",
+     "1948, to produce the Universal Declaration of Human Rights",
+     "1945, to maintain international peace and security",
+     "1961, to free prisoners of conscience"
+    ],
+    "answer": 2,
+    "explain": "The UN was created in 1945 after the Second World War. It works to prevent conflict, help parties make peace, deploy peacekeepers, and create conditions for peace to hold."
+   },
+   {
+    "id": "M21",
+    "q": "In Matthew 18:21–22, how many times does Jesus say Peter should forgive his brother?",
+    "options": [
+     "Seven times",
+     "Seventy times",
+     "Not seven times, but seventy-seven times",
+     "As many times as he has himself been forgiven"
+    ],
+    "answer": 2,
+    "explain": "'I tell you, not seven times, but seventy-seven times.' Christians use it to argue that forgiveness has no limit."
+   },
+   {
+    "id": "M22",
+    "q": "Which two British women are the standard contrasting examples on Christian forgiveness?",
+    "options": [
+     "Gee Walker, who forgave her son's murderers, and Rev Julie Nicholson, who refused to forgive her daughter's killers",
+     "Rev Julie Nicholson, who forgave her daughter's killers, and Gee Walker, who refused to forgive her son's murderers",
+     "Joanna Jepson and Emmeline Pankhurst",
+     "Eleanor Roosevelt and Mother Teresa"
+    ],
+    "answer": 0,
+    "explain": "Walker felt forgiveness was Jesus' command and will. Nicholson refused because the guilty party had not repented, so she saw no point — Jesus taught that forgiveness follows repentance, metanoia."
+   },
+   {
+    "id": "M23",
+    "q": "Which three characteristics must all be present for behaviour to count as bullying?",
+    "options": [
+     "It is physical, public, and committed by a group",
+     "It is intentional and aims to cause harm or distress; the two parties have different degrees of power; it happens repeatedly over a period of time",
+     "It is secret, electronic, and aimed at a stranger",
+     "It causes distress, breaks the law, and is reported to a teacher"
+    ],
+    "answer": 1,
+    "explain": "All three are needed, which is why a single argument between equals is not bullying."
+   },
+   {
+    "id": "M24",
+    "q": "What is the main problem for a Christian answering a question on bullying from scripture?",
+    "options": [
+     "The Bible forbids discussing bullying",
+     "The Bible contains no direct teachings about bullying, so Christians argue from general teachings such as imago Dei and agape",
+     "Bullying is treated in the Bible as a mortal sin, which Protestants reject",
+     "The only relevant texts are in the Old Testament, which Christians do not use"
+    ],
+    "answer": 1,
+    "explain": "Saying so openly earns credit. Christians then argue from Genesis 1:27 and stewardship, Mark 12:31 and the Good Samaritan, the Beatitudes, Ephesians 4:29 and Psalm 139:23–24."
+   },
+   {
+    "id": "M25",
+    "q": "What does the Greek word for sin, hamartia, mean?",
+    "options": [
+     "To miss the mark",
+     "To turn around completely",
+     "Undeserved love",
+     "Whole, inhabited world"
+    ],
+    "answer": 0,
+    "explain": "Hamartia means to 'miss the mark': God expected obedience so that humanity could be in a relationship with him, and by becoming self-centred humanity failed to fulfil God's goals. 'Turn around completely' is metanoia."
+   },
+   {
+    "id": "M26",
+    "q": "Which three types of sin does the Roman Catholic Church teach?",
+    "options": [
+     "Sins of commission, sins of omission, and blasphemy against the Holy Spirit",
+     "Original sin, mortal sin and venial sin",
+     "Crimes against persons, crimes against property and hate crimes",
+     "Original sin, actual sin and unforgivable sin"
+    ],
+    "answer": 1,
+    "explain": "Protestants instead teach two: sins of commission (doing what one was commanded not to do) and sins of omission (failing to do what one should)."
+   },
+   {
+    "id": "M27",
+    "q": "Which statement correctly contrasts a sin and a crime?",
+    "options": [
+     "Both are identified by government, but only sin is punished after death",
+     "A crime is identified by a government and punished in this life; a sin is determined by God and punished after death",
+     "A sin is identified by the Church and a crime by the police, and both are punished in this life",
+     "All sins are crimes, but not all crimes are sins"
+    ],
+    "answer": 1,
+    "explain": "The three differences are source, effect and consequences. Christians would say all crimes are sins, but not every sin is regarded as a crime — which is the reverse of the fourth option."
+   },
+   {
+    "id": "M28",
+    "q": "Which organisation was pioneered in London in 2003 by Les Isaac, working with local police and councils to make the streets safer?",
+    "options": [
+     "Prison Fellowship",
+     "Corrymeela",
+     "Street Pastors",
+     "Liberation Theology"
+    ],
+    "answer": 2,
+    "explain": "Street Pastors trains volunteers to offer reassurance, safety and support through caring, listening and helping. It is ecumenical, with many different churches involved."
+   },
+   {
+    "id": "M29",
+    "q": "Which aim of punishment is described as 'a fair and just payback for the crime', embodying the 'eye for an eye' idea?",
+    "options": [
+     "Deterrence",
+     "Reparation",
+     "Reform",
+     "Retribution"
+    ],
+    "answer": 3,
+    "explain": "Retribution. Reparation is paying society back; deterrence is putting others off; reform is changing the offender so they are less likely to reoffend."
+   },
+   {
+    "id": "M30",
+    "q": "In which year was capital punishment completely abolished in the United Kingdom?",
+    "options": [
+     "1964",
+     "1965",
+     "1973",
+     "1998"
+    ],
+    "answer": 3,
+    "explain": "The last executions were in 1964; capital punishment for murder was abolished in Great Britain in 1965 and in Northern Ireland in 1973; it remained for crimes such as treason until complete abolition in 1998."
+   }
+  ],
+  "04-rights-equality-and-social-justice": [
+   {
+    "id": "M1",
+    "q": "Which three characteristics define human rights?",
+    "options": [
+     "They are legal, enforceable and national",
+     "They are universal, inalienable, and indivisible and interdependent",
+     "They are God-given, eternal and unconditional",
+     "They are earned, transferable and revocable"
+    ],
+    "answer": 1,
+    "explain": "Universal — everyone has them. Inalienable — they belong to people regardless of nationality, language, religion or ethnic origin. Indivisible and interdependent — the different rights are all needed for people to flourish."
+   },
+   {
+    "id": "M2",
+    "q": "How many articles does the Universal Declaration of Human Rights contain, and in what year was it produced?",
+    "options": [
+     "30 articles, in 1948",
+     "39 articles, in 1953",
+     "25 articles, in 1945",
+     "58 articles, in 1998"
+    ],
+    "answer": 0,
+    "explain": "The United Nations produced it in 1948, after the world had seen the Nazi concentration camps, the treatment of Japanese prisoners of war, and Hiroshima and Nagasaki. 58 is the number of countries that assembled to affirm it."
+   },
+   {
+    "id": "M3",
+    "q": "Which article of the Universal Declaration of Human Rights allows the suspension of human rights in order to protect people?",
+    "options": [
+     "Article 3",
+     "Article 18",
+     "Article 19",
+     "Article 29.2"
+    ],
+    "answer": 3,
+    "explain": "Article 29.2 permits limitations determined by law for the purpose of securing respect for the rights of others and meeting the just requirements of morality, public order and the general welfare."
+   },
+   {
+    "id": "M4",
+    "q": "Who dismissed natural human rights as 'nonsense on stilts'?",
+    "options": [
+     "John Locke",
+     "Jeremy Bentham",
+     "Thomas Hobbes",
+     "Friedrich Nietzsche"
+    ],
+    "answer": 1,
+    "explain": "Bentham (1748–1832), the father of Utilitarianism, also said 'a natural right is a son that never had a father'. He held that rights are created by the state and endorsed by law."
+   },
+   {
+    "id": "M5",
+    "q": "According to John Locke, what are the main natural rights of human beings?",
+    "options": [
+     "Life, liberty and property",
+     "Food, shelter and education",
+     "Liberty, equality and fraternity",
+     "Freedom of religion, opinion and assembly"
+    ],
+    "answer": 0,
+    "explain": "Locke (1632–1704) argued these rights naturally existed among human beings before they entered civil society, so they self-evidently apply to them."
+   },
+   {
+    "id": "M6",
+    "q": "Which two Enlightenment thinkers appealed to a 'social contract' to uphold human rights?",
+    "options": [
+     "Locke and Bentham",
+     "Hobbes and Rousseau",
+     "Nietzsche and Bentham",
+     "Rousseau and Locke"
+    ],
+    "answer": 1,
+    "explain": "Hobbes (1588–1679) and Rousseau (1712–1778) argued the individual should surrender basic freedoms in exchange for society protecting their rights, since a world of unlimited rights would mean chaos."
+   },
+   {
+    "id": "M7",
+    "q": "Which verse of St Paul is most often used to show that Christian teaching supports freedom from discrimination?",
+    "options": [
+     "Exodus 20:13",
+     "Isaiah 1:17",
+     "Galatians 3:28",
+     "Matthew 7:12"
+    ],
+    "answer": 2,
+    "explain": "'There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus.' It covers race, class and sex at once."
+   },
+   {
+    "id": "M8",
+    "q": "Who said 'Whoever tortures a human being, whoever abuses a human being, whoever outrages a human being, abuses God'?",
+    "options": [
+     "Oscar Romero",
+     "Desmond Tutu",
+     "Jürgen Moltmann",
+     "Martin Luther King"
+    ],
+    "answer": 0,
+    "explain": "Romero, the Roman Catholic archbishop of El Salvador, who was shot dead in front of the altar while celebrating Mass in 1980 after criticising the government and speaking for the rights of the poor."
+   },
+   {
+    "id": "M9",
+    "q": "Who said 'I am not interested in picking up crumbs of compassion thrown from the table of someone who considers himself my master. I want the full menu of rights'?",
+    "options": [
+     "Eleanor Roosevelt",
+     "Jean Vanier",
+     "Emma Watson",
+     "Desmond Tutu"
+    ],
+    "answer": 3,
+    "explain": "Tutu (1931–2021), the first Black Anglican Archbishop of Cape Town and Johannesburg, who won the 1984 Nobel Peace Prize and chaired the Truth and Reconciliation Commission."
+   },
+   {
+    "id": "M10",
+    "q": "Who founded Amnesty International, and what prompted him?",
+    "options": [
+     "Peter Benenson, after learning of two Portuguese students imprisoned for seven years for toasting freedom in a Lisbon bar",
+     "Eleanor Roosevelt, after chairing the UN Human Rights Commission",
+     "Toby Ord, after calculating the impact of effective donations",
+     "Jean Vanier, after visiting an institution for disabled people"
+    ],
+    "answer": 0,
+    "explain": "Benenson set it up in 1961, believing that if enough people protested together governments could not get away with such intimidation. Amnesty won the Nobel Peace Prize in 1977."
+   },
+   {
+    "id": "M11",
+    "q": "What role did Eleanor Roosevelt hold when the Universal Declaration of Human Rights was drafted?",
+    "options": [
+     "United States Secretary of State",
+     "Chair of the United Nations Human Rights Commission",
+     "Director of Amnesty International",
+     "Chair of the Truth and Reconciliation Commission"
+    ],
+    "answer": 1,
+    "explain": "She was appointed a UN delegate in 1946 and as Chair of the Human Rights Commission was instrumental in formulating the Declaration, calling it 'the international Magna Carta for all men everywhere'."
+   },
+   {
+    "id": "M12",
+    "q": "Which philosopher's contrast between 'slave morality' and 'master morality' is used to argue that human rights stifle human progress?",
+    "options": [
+     "Jeremy Bentham",
+     "Jean-Jacques Rousseau",
+     "Friedrich Nietzsche",
+     "John Hick"
+    ],
+    "answer": 2,
+    "explain": "Nietzsche (1844–1900) argued traditional morality benefits the weak but harms the strong, contrasting 'slave morality', which champions compassion and altruism, with 'master morality', which values power, success, ambition and ruthlessness."
+   },
+   {
+    "id": "M13",
+    "q": "What is gender bias?",
+    "options": [
+     "Any difference in pay between two employees",
+     "Preconceived ideas or stereotypes about how the genders should behave and think, which place limitations on their capabilities",
+     "The legal requirement to treat men and women identically in all circumstances",
+     "The belief in the social, economic and political equality of the sexes"
+    ],
+    "answer": 1,
+    "explain": "The fourth option defines feminism, not gender bias. Gender bias often leads to discrimination, which can be negative or, more controversially, positive."
+   },
+   {
+    "id": "M14",
+    "q": "Who published A Vindication of the Rights of Women in 1792?",
+    "options": [
+     "Harriet Taylor Mill",
+     "Emmeline Pankhurst",
+     "Mary Wollstonecraft",
+     "Emma Watson"
+    ],
+    "answer": 2,
+    "explain": "Wollstonecraft (1759–1797), influenced by the French Revolution, argued that if all men were entitled to liberty, equality and fraternity then so were women, and that educated women would be as capable of decision-making as men."
+   },
+   {
+    "id": "M15",
+    "q": "Which of these correctly matches a kind of feminism to its aim?",
+    "options": [
+     "Radical feminism aims to celebrate and promote the nurturing qualities of women",
+     "Cultural feminism aims to give women equal access to positions men have traditionally dominated",
+     "Liberal feminism aims to reshape society and replace its inherently patriarchal institutions",
+     "Liberal feminism aims at concrete, pragmatic change in institutions and governments to integrate women into the power structure"
+    ],
+    "answer": 3,
+    "explain": "Radical feminism aims to reshape society and restructure its patriarchal institutions; cultural feminism rejects the idea that men and women are intrinsically the same and celebrates women's nurturing qualities."
+   },
+   {
+    "id": "M16",
+    "q": "From which year has the Church of England ordained women as priests?",
+    "options": [
+     "1920",
+     "1975",
+     "1994",
+     "2015"
+    ],
+    "answer": 2,
+    "explain": "The Church of England has ordained women as priests since 1994 and as bishops since 2015. The Baptists began ordaining women in the 1920s; the Salvation Army and United Reformed Church always accepted women on equal terms."
+   },
+   {
+    "id": "M17",
+    "q": "Which statement is quoted from the Catechism of the Catholic Church on the sexes?",
+    "options": [
+     "'Each of the two sexes is an image of the power and tenderness of God, with equal dignity though in a different way'",
+     "'I permit no woman to teach or to have authority over a man; she is to keep silent'",
+     "'It is not good that the man should be alone; I will make him a helper as his partner'",
+     "'The husband is the head of the wife just as Christ is the head of the church'"
+    ],
+    "answer": 0,
+    "explain": "The other three are scripture: 1 Timothy 2:11–15, Genesis 2:18 and Ephesians 5:23. The Catechism's formula is 'equal dignity', 'different way'."
+   },
+   {
+    "id": "M18",
+    "q": "In Mulieris Dignitatem (1988), what did Pope John Paul II describe as the two great vocations of women?",
+    "options": [
+     "Prayer and service",
+     "Motherhood and virginity",
+     "Teaching and pastoral care",
+     "Marriage and the religious life"
+    ],
+    "answer": 1,
+    "explain": "He regarded the Virgin Mary as the supreme example of both — motherhood as sharing God's creative purpose, virginity as dedicating oneself to God. Many women have found the document patronising and narrow-minded."
+   },
+   {
+    "id": "M19",
+    "q": "In John 9, how does Jesus answer the question of whether a man born blind, or his parents, had sinned?",
+    "options": [
+     "'Your sins are forgiven; pick up your mat and walk'",
+     "'If any one of you is without sin, let him be the first to throw a stone'",
+     "'Neither this man nor his parents sinned; he was born blind so that God's works might be revealed in him'",
+     "'Cursed be anyone who misleads a blind person on the road'"
+    ],
+    "answer": 2,
+    "explain": "This is the direct refutation of the view that disability is a punishment for sin. The fourth option is Deuteronomy 27:18 and the second is John 8:1–11."
+   },
+   {
+    "id": "M20",
+    "q": "Who founded L'Arche, and in what year?",
+    "options": [
+     "Jean Vanier, in 1964",
+     "Leonard Cheshire, in 1952",
+     "Alf Morris, in 1970",
+     "Brother Roger, in 1940"
+    ],
+    "answer": 0,
+    "explain": "Vanier (1928–2019) invited Raphaël Simi and Philippe Seux, two men with intellectual disabilities, to share his life in a house at Trosly-Breuil in France. 'L'Arche' means the Ark, after Noah's — the biblical symbol of deliverance."
+   },
+   {
+    "id": "M21",
+    "q": "In a L'Arche community, what are disabled people and those who live with them called?",
+    "options": [
+     "Clients and staff",
+     "Residents and carers",
+     "Core members and assistants",
+     "Pilgrims and hosts"
+    ],
+    "answer": 2,
+    "explain": "There are no clients or staff and no shift work. Assistants live in the houses as they would with any family, and everyone is equally responsible for the life of the community."
+   },
+   {
+    "id": "M22",
+    "q": "'From one man he made all the nations, that they should inhabit the whole earth' comes from which book, and is used to argue what?",
+    "options": [
+     "Acts 17:26 — that all ethnic groups share one origin, so racial hierarchy denies creation",
+     "Galatians 2:6 — that God does not show favouritism",
+     "Leviticus 19:33–34 — that the foreigner must be treated as native-born",
+     "Deuteronomy 7:1–3 — that Israel should not intermarry with other nations"
+    ],
+    "answer": 0,
+    "explain": "Acts 17:26 endorses the doctrine of creation. The other three are all real references, but say different things — and Deuteronomy 7:1–3 is the text used on the opposite side."
+   },
+   {
+    "id": "M23",
+    "q": "Which text did the Dutch Reformed Church use to justify treating Black people as inferior under apartheid?",
+    "options": [
+     "Leviticus 19:33–34",
+     "Genesis 9:18–27, Noah's curse of his grandson Canaan",
+     "Acts 17:26",
+     "John 7:24"
+    ],
+    "answer": 1,
+    "explain": "Apartheid legislation was introduced in 1948 by Prime Minister Daniel François Malan, a Dutch Reformed minister. In the early 1980s the World Alliance of Reformed Churches declared apartheid a heresy and expelled the Church, which has since expressed repentance."
+   },
+   {
+    "id": "M24",
+    "q": "Whose 1968 'Rivers of Blood' speech warned that diversity would leave English people feeling 'strangers in their own country'?",
+    "options": [
+     "Stephen Cottrell",
+     "Rowan Atkinson",
+     "Enoch Powell",
+     "Ed Hussain"
+    ],
+    "answer": 2,
+    "explain": "Powell, a Conservative politician, said 'like the Roman, I seem to see the River Tiber foaming with much blood'. It is the standard evidence for the 'problems' side of a multi-ethnic society question."
+   },
+   {
+    "id": "M25",
+    "q": "How long did the Montgomery bus boycott led by Martin Luther King last, and what triggered it?",
+    "options": [
+     "382 days, after the arrest of Rosa Parks for refusing to give up her seat",
+     "250 days, after the Civil Rights Bill was blocked in Congress",
+     "100 days, after segregation was introduced in Alabama schools",
+     "54 days, after King was first harassed by the police"
+    ],
+    "answer": 0,
+    "explain": "Without Black passengers' fares the bus companies lost more than half their income. The boycott marked the beginning of the American Civil Rights Movement, which King went on to lead."
+   },
+   {
+    "id": "M26",
+    "q": "Which position holds that the Christian God saves but will be kind to good members of other religions, who may be 'anonymous Christians'?",
+    "options": [
+     "Exclusivism",
+     "Pluralism",
+     "Inclusivism",
+     "Proselytisation"
+    ],
+    "answer": 2,
+    "explain": "Inclusivism, developed by the Roman Catholic theologian Karl Rahner (1904–1984), who coined 'anonymous Christians'. John 14:2 — 'My Father's house has many rooms' — is its text."
+   },
+   {
+    "id": "M27",
+    "q": "Which theologian used the analogy of the elephant and the blind men to defend pluralism?",
+    "options": [
+     "Karl Rahner",
+     "Jürgen Moltmann",
+     "Thomas Aquinas",
+     "John Hick"
+    ],
+    "answer": 3,
+    "explain": "Hick (1922–2012), who also identified the three-way division between exclusivism, inclusivism and pluralism. One blind man felt a leg and reported 'a great living pillar', another the trunk and reported 'a great snake' — all true, but each only one aspect of the whole."
+   },
+   {
+    "id": "M28",
+    "q": "Where did the modern ecumenical movement begin?",
+    "options": [
+     "At the World Missionary Conference in Edinburgh in 1910",
+     "At the founding of the World Council of Churches in 1948",
+     "At Taizé in 1940",
+     "With the Lima Document in 1982"
+    ],
+    "answer": 0,
+    "explain": "Edinburgh 1910. The movement was designed to help Christians work together in spreading the Gospel, on the view that denominational bickering would inhibit the work and undermine the message of agape."
+   },
+   {
+    "id": "M29",
+    "q": "What did the 1980 Brandt Report identify?",
+    "options": [
+     "That absolute poverty is a severe deprivation of basic human needs",
+     "That the developed world contains 25% of the world's population but around 80% of its wealth",
+     "That the UK should spend 0.7% of gross national income on foreign aid",
+     "That 92% of mothers diagnosed with a Down's syndrome pregnancy choose to terminate"
+    ],
+    "answer": 1,
+    "explain": "The Report advocated long-term action on the causes of poverty, requiring changes in both the developing and developed worlds. The UN defined absolute poverty in 1995."
+   },
+   {
+    "id": "M30",
+    "q": "Christian Aid's main aim is best described as which of the following?",
+    "options": [
+     "Emergency relief after natural disasters, which is its only activity",
+     "Converting those it helps to Christianity before providing aid",
+     "A long-term approach to poverty — teaching skills and providing education so people become self-reliant — alongside emergency relief and campaigning",
+     "Lobbying the UK government to increase the foreign aid budget to 0.7%"
+    ],
+    "answer": 2,
+    "explain": "Founded in 1947, it is the official aid agency of over 40 denominations in the UK and Ireland, works in over 70 countries with more than 500 partners, does not force religion on anyone, and campaigns for fair wages and the dropping of developing-world debt, as in Jubilee 2000."
+   }
+  ],
+  "05-origins-and-their-impact": [
+   {
+    "id": "M1",
+    "q": "How many books does the Bible contain?",
+    "options": [
+     "27",
+     "39",
+     "73",
+     "66"
+    ],
+    "answer": 3,
+    "explain": "66 — the Old Testament (the Jewish scriptures) and the New Testament (the Christian scriptures)."
+   },
+   {
+    "id": "M2",
+    "q": "Which book of the New Testament is a history of the early church, written by St Luke?",
+    "options": [
+     "Acts",
+     "Revelation",
+     "Hebrews",
+     "Galatians"
+    ],
+    "answer": 0,
+    "explain": "Acts. The other New Testament types are the four Gospels, the letters (mostly Paul's) and the apocalypse, Revelation."
+   },
+   {
+    "id": "M3",
+    "q": "\"All scripture is inspired by God and profitable for teaching, for reproof, for correction, and for training in righteousness\" comes from…",
+    "options": [
+     "Romans 2:15-16",
+     "John 14:6",
+     "Mark 8:34",
+     "2 Timothy 3:16-17"
+    ],
+    "answer": 3,
+    "explain": "2 Timothy 3:16-17. It is the standard proof text for the Bible's authority — fundamentalists stress \"inspired by God\", others stress \"profitable for teaching\"."
+   },
+   {
+    "id": "M4",
+    "q": "Which view holds that the Bible is the verbally inspired word of God, literally true and without error?",
+    "options": [
+     "Liberal",
+     "Fundamentalist",
+     "Conservative",
+     "Ecumenical"
+    ],
+    "answer": 1,
+    "explain": "The fundamentalist view, generally held by evangelical Protestants. It grew up in nineteenth-century America to defend Christianity against science and modernism."
+   },
+   {
+    "id": "M5",
+    "q": "On the conservative view of the Bible, Genesis 1 explains…",
+    "options": [
+     "why the world was created, but not necessarily how",
+     "nothing — it is pure myth",
+     "exactly how the world was created, in six days",
+     "a Babylonian creation story borrowed by the Jews"
+    ],
+    "answer": 0,
+    "explain": "Conservatives — probably most Christians — hold the Bible to be inspired rather than dictated, so Genesis 1 gives the purpose of creation rather than a scientific account."
+   },
+   {
+    "id": "M6",
+    "q": "On the liberal view of the Bible, Genesis 1 is…",
+    "options": [
+     "largely symbolic",
+     "historically accurate but badly translated",
+     "the direct dictation of the Holy Spirit",
+     "a forgery added in the Middle Ages"
+    ],
+    "answer": 0,
+    "explain": "Liberals hold that Genesis 1 is largely symbolic and that scientific explanations of origins are preferable; the Bible contains God's word but was written with the mindset of its time."
+   },
+   {
+    "id": "M7",
+    "q": "The three sources of authority held in creative tension by the Church of England are…",
+    "options": [
+     "Pope, Councils and Creeds",
+     "Bible, Pope and conscience",
+     "Scripture, Tradition and Reason",
+     "Scripture, Natural Law and the Magisterium"
+    ],
+    "answer": 2,
+    "explain": "Scripture, Tradition and Reason. The Church of England rejects the authority of the Pope and the primacy of Natural Law over Scripture."
+   },
+   {
+    "id": "M8",
+    "q": "Who is the Supreme Governor of the Church of England?",
+    "options": [
+     "The Archbishop of York",
+     "The monarch",
+     "The Archbishop of Canterbury",
+     "The General Synod"
+    ],
+    "answer": 1,
+    "explain": "The monarch. The Archbishop of Canterbury is the most senior bishop, Primate of All England; the Archbishop of York is second."
+   },
+   {
+    "id": "M9",
+    "q": "Who said \"Reason increases and enlarges human understanding of divine revelation\"?",
+    "options": [
+     "Thomas Aquinas",
+     "Charles Gore",
+     "Martin Luther",
+     "Michael Ramsey"
+    ],
+    "answer": 3,
+    "explain": "Michael Ramsey, a former Archbishop of Canterbury. It is the standard citation for Reason as an Anglican source of authority."
+   },
+   {
+    "id": "M10",
+    "q": "Who said \"He who acts against his conscience sins\"?",
+    "options": [
+     "Thomas Aquinas",
+     "Joseph Butler",
+     "Sigmund Freud",
+     "Dietrich Bonhoeffer"
+    ],
+    "answer": 0,
+    "explain": "Aquinas. He treated the conscience as a rational person's natural ability to tell right from wrong, and Catholic teaching holds that a conscience must always be obeyed."
+   },
+   {
+    "id": "M11",
+    "q": "Which New Testament writer speaks of \"what the law requires\" being \"written on their hearts\"?",
+    "options": [
+     "St Luke",
+     "St John",
+     "St Peter",
+     "St Paul"
+    ],
+    "answer": 3,
+    "explain": "St Paul, in Romans 2:15-16. It is the strongest biblical support for treating the conscience as the inner voice of God."
+   },
+   {
+    "id": "M12",
+    "q": "Who argued that the conscience is a controlling influence over a person's passions, balancing self-love with benevolence towards others?",
+    "options": [
+     "Joseph Butler",
+     "Sigmund Freud",
+     "Charles Gore",
+     "St Justin Martyr"
+    ],
+    "answer": 0,
+    "explain": "Joseph Butler. He divided a person into passions, appetites and affections on one side, and benevolence, self-love and conscience on the other."
+   },
+   {
+    "id": "M13",
+    "q": "In Freud's model of the mind, which part is formed in infancy out of the morals learnt from one's parents?",
+    "options": [
+     "The super-ego",
+     "The ego",
+     "The id",
+     "The conscience collective"
+    ],
+    "answer": 0,
+    "explain": "The super-ego — the restraining, censoring part. Freud's account makes the conscience a product of socialisation rather than of God, and it can be so severe that it produces guilt and acute self-criticism."
+   },
+   {
+    "id": "M14",
+    "q": "Who called the conscience \"the voice of man pretending to be the voice of God\"?",
+    "options": [
+     "Sigmund Freud",
+     "Dietrich Bonhoeffer",
+     "Martin Luther",
+     "Joseph Butler"
+    ],
+    "answer": 1,
+    "explain": "Bonhoeffer. He held that original sin broke the connection between God and humanity, so treating the conscience as God's voice is idolatry; the example of Christ is the better moral guide."
+   },
+   {
+    "id": "M15",
+    "q": "Apostolic succession links a Roman Catholic bishop back to…",
+    "options": [
+     "St Paul",
+     "Constantine",
+     "St Peter",
+     "Pope Julius I"
+    ],
+    "answer": 2,
+    "explain": "St Peter. The laying on of hands at ordination is believed to carry the line unbroken, and the Pope, as Bishop of Rome, has inherited St Peter's authority."
+   },
+   {
+    "id": "M16",
+    "q": "Who argued for a \"priesthood of all believers\"?",
+    "options": [
+     "Martin Luther",
+     "John Wesley",
+     "Thomas Aquinas",
+     "Brother Roger"
+    ],
+    "answer": 0,
+    "explain": "Martin Luther — that the clergy have no unique powers and all Christians can be channels of God's word. It is why Protestants give the laity a far larger role."
+   },
+   {
+    "id": "M17",
+    "q": "What is ordination?",
+    "options": [
+     "The election of a bishop by a diocese",
+     "A promise of celibacy made by a priest",
+     "The ceremony by which a church appoints its ministers",
+     "The consecration of bread and wine"
+    ],
+    "answer": 2,
+    "explain": "The ceremony appointing a church's ministers, in which the Holy Spirit is believed to pass to the ordinand by the laying on of hands. It is a sacrament for Roman Catholics; Protestant groups do not regard the ceremony as important."
+   },
+   {
+    "id": "M18",
+    "q": "In which village was Jesus raised?",
+    "options": [
+     "Bethlehem",
+     "Capernaum",
+     "Jerusalem",
+     "Nazareth"
+    ],
+    "answer": 3,
+    "explain": "Nazareth, in Galilee. He was born in Bethlehem in Judea; almost nothing of his childhood is recorded between the birth and the baptism."
+   },
+   {
+    "id": "M19",
+    "q": "Which Roman historian records that Christians were named after \"Christus\", who suffered the extreme penalty under Pontius Pilate?",
+    "options": [
+     "Josephus",
+     "Tacitus",
+     "Pliny",
+     "Suetonius"
+    ],
+    "answer": 1,
+    "explain": "Tacitus. Josephus, the Jewish historian, is the other non-Christian source: \"about this time there lived Jesus, a wise man\"."
+   },
+   {
+    "id": "M20",
+    "q": "At Jesus' baptism, the Spirit of God descended in the form of…",
+    "options": [
+     "a flame",
+     "a cloud",
+     "a dove",
+     "a wind"
+    ],
+    "answer": 2,
+    "explain": "A dove. Three things happened: the heavens opened, the Spirit descended as a dove, and a voice from heaven spoke."
+   },
+   {
+    "id": "M21",
+    "q": "\"You are my beloved son with whom I am well pleased\" was spoken at…",
+    "options": [
+     "the Last Supper",
+     "the transfiguration",
+     "the crucifixion",
+     "Jesus' baptism"
+    ],
+    "answer": 3,
+    "explain": "Jesus' baptism in the Jordan by John the Baptist. It gives Jesus the Father's blessing and is used to argue the baptism is his commissioning and proof that he is the Son of God."
+   },
+   {
+    "id": "M22",
+    "q": "How long did Jesus spend fasting in the wilderness before the temptations?",
+    "options": [
+     "Three days and nights",
+     "Seven days and nights",
+     "A year",
+     "Forty days and nights"
+    ],
+    "answer": 3,
+    "explain": "Forty days and nights — which is why Lent lasts forty days and why Christians reflect on the temptations during it."
+   },
+   {
+    "id": "M23",
+    "q": "Which of these was NOT one of the three temptations of Jesus?",
+    "options": [
+     "To turn water into wine",
+     "To turn stones into bread",
+     "To throw himself from the highest point of the temple",
+     "To worship the devil in return for all the kingdoms of the world"
+    ],
+    "answer": 0,
+    "explain": "Turning water into wine is the miracle at Cana, not a temptation. The three temptations were material need, spectacle, and power."
+   },
+   {
+    "id": "M24",
+    "q": "Jesus healed the leper by touching him. Why does that detail matter?",
+    "options": [
+     "It proved the disease was not contagious",
+     "Lepers were unclean outcasts under the Law, so it showed Jesus' authority was greater than the Law",
+     "It showed Jesus needed physical contact to heal",
+     "It fulfilled a prophecy of Zechariah"
+    ],
+    "answer": 1,
+    "explain": "Under Jewish law lepers were unclean and lived on the margins. The Law could only label a person clean; Jesus makes them clean — so he is greater than the Law."
+   },
+   {
+    "id": "M25",
+    "q": "In the exorcism of Legion, Jesus sent the demons into…",
+    "options": [
+     "the sea",
+     "a herd of pigs",
+     "a fig tree",
+     "the wilderness"
+    ],
+    "answer": 1,
+    "explain": "A herd of pigs, which stampeded down the bank into the sea and drowned. It happened in the gentile country of the Gerasenes, showing Jesus' mission is for Jew and gentile alike."
+   },
+   {
+    "id": "M26",
+    "q": "\"My house shall be called a house of prayer for all nations and you have made it a den of sinners\" was said when Jesus…",
+    "options": [
+     "entered Jerusalem on a donkey",
+     "was tried before the Sanhedrin",
+     "cleansed the Temple",
+     "washed his disciples' feet"
+    ],
+    "answer": 2,
+    "explain": "At the cleansing of the Temple, when he overturned the money-changers' tables. It is the immediate reason the high priests plotted to kill him."
+   },
+   {
+    "id": "M27",
+    "q": "At the Last Supper Jesus took the wine and said…",
+    "options": [
+     "\"Do not be afraid\"",
+     "\"It is finished\"",
+     "\"this is my blood of the covenant which is poured out for many\"",
+     "\"Take this cup from me\""
+    ],
+    "answer": 2,
+    "explain": "It presents his death as a sacrifice and as a new covenant, and it is the foundation of Holy Communion."
+   },
+   {
+    "id": "M28",
+    "q": "Jesus' words on the cross, \"My God, my God, why have you forsaken me?\", are used by Christians to show…",
+    "options": [
+     "that Jesus had lost his faith",
+     "the genuine humanity of Jesus in his suffering",
+     "that God had abandoned the world",
+     "that the crucifixion was a mistake"
+    ],
+    "answer": 1,
+    "explain": "They show a fully human Jesus in real anguish. The same scene adds the darkened sky, the temple veil split in two, and the centurion's verdict."
+   },
+   {
+    "id": "M29",
+    "q": "Who said \"Truly this man was the Son of God\" at the crucifixion?",
+    "options": [
+     "Pontius Pilate",
+     "Mary Magdalene",
+     "A Roman centurion",
+     "Judas"
+    ],
+    "answer": 2,
+    "explain": "A Roman centurion — a gentile. Christians use it to argue that Jesus came for gentiles as well as Jews."
+   },
+   {
+    "id": "M30",
+    "q": "\"It is costly because it costs a man his life, and it is grace because it gives a man the only true life\" describes…",
+    "options": [
+     "the Eucharist",
+     "infant baptism",
+     "the resurrection",
+     "costly grace"
+    ],
+    "answer": 3,
+    "explain": "Bonhoeffer on costly grace, in The Cost of Discipleship (1937). He contrasted it with cheap grace — thinking you are saved without having to do anything."
+   }
+  ],
+  "06-celebration-and-pilgrimage": [
+   {
+    "id": "M1",
+    "q": "The word \"Advent\" comes from a word meaning…",
+    "options": [
+     "coming or arrival",
+     "waiting",
+     "light",
+     "fasting"
+    ],
+    "answer": 0,
+    "explain": "From the Latin adventum. The season looks forward both to Christmas and to Jesus' promised return as judge and king."
+   },
+   {
+    "id": "M2",
+    "q": "When does Advent begin?",
+    "options": [
+     "On 1 December",
+     "On the fourth Sunday before Christmas",
+     "On the first Sunday of December",
+     "Twelve days before Christmas"
+    ],
+    "answer": 1,
+    "explain": "The fourth Sunday before Christmas; it ends on Christmas Eve."
+   },
+   {
+    "id": "M3",
+    "q": "How many candles are there on an Advent crown?",
+    "options": [
+     "One",
+     "Three",
+     "Four",
+     "Seven"
+    ],
+    "answer": 2,
+    "explain": "Four — one lit on each Sunday of Advent, so the light grows as the wait shortens, pointing to Jesus as the light of the world."
+   },
+   {
+    "id": "M4",
+    "q": "At a Christingle service, what does the orange represent?",
+    "options": [
+     "The Church",
+     "The gifts of the magi",
+     "Jesus",
+     "The world"
+    ],
+    "answer": 3,
+    "explain": "The orange is the world and the lit candle is Jesus, the light of the world, sent to save it from sin."
+   },
+   {
+    "id": "M5",
+    "q": "At a Christingle service, what does the red ribbon represent?",
+    "options": [
+     "The blood of the martyrs",
+     "The love of God",
+     "Jesus' suffering",
+     "The Holy Spirit"
+    ],
+    "answer": 2,
+    "explain": "The red ribbon signifies his suffering; the fruit or sweets on the cocktail sticks are the fruits of the natural world provided by God."
+   },
+   {
+    "id": "M6",
+    "q": "On what date do Orthodox Christians celebrate Christmas?",
+    "options": [
+     "25 December",
+     "6 January",
+     "7 January",
+     "2 February"
+    ],
+    "answer": 2,
+    "explain": "7 January, because they use the Julian calendar — twelve days after the Western date."
+   },
+   {
+    "id": "M7",
+    "q": "Who decided on 25 December as the date of Christmas?",
+    "options": [
+     "Pope Julius I",
+     "Constantine the Great",
+     "St Luke",
+     "Pope Gregory I"
+    ],
+    "answer": 0,
+    "explain": "Pope Julius I, in the fourth century, as an attempt to Christianise the Pagan celebrations already held then. By 529 AD it was a civil holiday."
+   },
+   {
+    "id": "M8",
+    "q": "Which Roman festival already fell on 25 December?",
+    "options": [
+     "Saturnalia",
+     "Lupercalia",
+     "Vestalia",
+     "Floralia"
+    ],
+    "answer": 0,
+    "explain": "Saturnalia. The Gospels give no date for Jesus' birth."
+   },
+   {
+    "id": "M9",
+    "q": "Christmas celebrates the incarnation, which means…",
+    "options": [
+     "Jesus' victory over death",
+     "the coming of the Holy Spirit",
+     "God becoming human",
+     "the creation of the world"
+    ],
+    "answer": 2,
+    "explain": "God becoming human in Jesus. Its importance is two-fold: as a man Jesus showed how people should behave, and as God he revealed God's own nature."
+   },
+   {
+    "id": "M10",
+    "q": "Twelve days after Christmas, at Epiphany, what changes at the church crib?",
+    "options": [
+     "The crib is taken away",
+     "The shepherds are removed and the wise men put in their place",
+     "The infant Jesus is placed in the manger",
+     "Candles replace the animals"
+    ],
+    "answer": 1,
+    "explain": "The infant is placed in the manger on Christmas Eve; at Epiphany the wise men replace the shepherds."
+   },
+   {
+    "id": "M11",
+    "q": "Who banned the celebration of Christmas in the 1640s for encouraging \"liberty to carnal and sensual delights\"?",
+    "options": [
+     "Henry VIII",
+     "Martin Luther",
+     "John Calvin",
+     "Oliver Cromwell"
+    ],
+    "answer": 3,
+    "explain": "Oliver Cromwell — even Christmas puddings were banned. It is useful evidence that complaints about Christmas losing its religious meaning are not new."
+   },
+   {
+    "id": "M12",
+    "q": "The name \"Shrove Tuesday\" comes from a word meaning…",
+    "options": [
+     "pancake",
+     "farewell",
+     "fasting",
+     "forgiven"
+    ],
+    "answer": 3,
+    "explain": "From \"shriven\", meaning forgiven: Christians attended church that day to confess their sins before Lent began, and ate up the forbidden foods."
+   },
+   {
+    "id": "M13",
+    "q": "The ashes used on Ash Wednesday come from…",
+    "options": [
+     "incense burnt at the Easter Vigil",
+     "last year's palm crosses",
+     "the paschal candle",
+     "olive branches from Gethsemane"
+    ],
+    "answer": 1,
+    "explain": "Last year's Palm Sunday crosses are collected and burnt. The ash marks a cross on the forehead as a sign of humility and of a focus on spiritual rather than worldly concerns."
+   },
+   {
+    "id": "M14",
+    "q": "How long is Lent?",
+    "options": [
+     "Seven days",
+     "Twelve days",
+     "Thirty days",
+     "Forty days"
+    ],
+    "answer": 3,
+    "explain": "Forty days of fasting and penitence, recalling Jesus' forty days in the wilderness. Catholics typically give up a luxury; Orthodox Christians refrain from meat and dairy."
+   },
+   {
+    "id": "M15",
+    "q": "\"Hosanna to the Son of David! Blessed is he who comes in the name of the Lord! Hosanna in the highest!\" is remembered on…",
+    "options": [
+     "Palm Sunday",
+     "Maundy Thursday",
+     "Good Friday",
+     "Easter Day"
+    ],
+    "answer": 0,
+    "explain": "Palm Sunday (Matthew 21:9), Jesus' triumphal entry into Jerusalem. Worshippers are given blessed palm crosses."
+   },
+   {
+    "id": "M16",
+    "q": "Which day of Holy Week remembers Jesus washing his disciples' feet and instituting the Eucharist?",
+    "options": [
+     "Palm Sunday",
+     "Maundy Thursday",
+     "Good Friday",
+     "Easter Saturday"
+    ],
+    "answer": 1,
+    "explain": "Maundy Thursday. The priest may wash the feet of twelve of the congregation; traditionally the Pope washes twelve people's feet and the British monarch gives out Maundy Money."
+   },
+   {
+    "id": "M17",
+    "q": "Why are altars and churches stripped of decorations on Good Friday?",
+    "options": [
+     "To make room for the Easter garden",
+     "Because decoration is forbidden during Lent",
+     "To remind Christians of Jesus' abandonment and remove distractions from worship",
+     "Because the church is cleaned before Easter"
+    ],
+    "answer": 2,
+    "explain": "It recalls Jesus' abandonment and leaves nothing to distract from reflection on his death. Some Christians attend a three-hour service from noon to 3pm, or a procession of witness carrying a cross."
+   },
+   {
+    "id": "M18",
+    "q": "The Greek letters alpha and omega on the paschal candle show that Christ is…",
+    "options": [
+     "the light of the world",
+     "the king of the Jews",
+     "the lamb of God",
+     "the beginning and the end"
+    ],
+    "answer": 3,
+    "explain": "The beginning and the end. The candle also bears a cross for the crucifixion and five pieces of incense for the five wounds of Christ."
+   },
+   {
+    "id": "M19",
+    "q": "The five pieces of incense set into the paschal candle represent…",
+    "options": [
+     "the five books of Moses",
+     "the five loaves of the feeding of the five thousand",
+     "the five wounds of Christ",
+     "the five days of Holy Week"
+    ],
+    "answer": 2,
+    "explain": "The five wounds of Christ. The candle is lit from a fire outside the church at the Easter Vigil and carried in as the priest announces three times that Christ is risen."
+   },
+   {
+    "id": "M20",
+    "q": "In a church's Easter garden, what happens on Easter Sunday?",
+    "options": [
+     "Flowers are planted around the tomb",
+     "The stone is rolled back to show the grave is empty",
+     "A paschal candle is set inside the tomb",
+     "A flat stone is placed across the entrance"
+    ],
+    "answer": 1,
+    "explain": "The stone is placed across the entrance on Easter Saturday to recall the burial, and rolled back on Easter Sunday to show the resurrection."
+   },
+   {
+    "id": "M21",
+    "q": "Which passage argues that if Christ has not been raised, \"our proclamation has been in vain and your faith has been in vain\"?",
+    "options": [
+     "John 11:25",
+     "Matthew 18:20",
+     "Luke 2:41-43",
+     "1 Corinthians 15"
+    ],
+    "answer": 3,
+    "explain": "1 Corinthians 15, St Paul. It is the strongest argument that Easter is the most important Christian festival."
+   },
+   {
+    "id": "M22",
+    "q": "A pilgrimage is best defined as…",
+    "options": [
+     "a sacred journey undertaken for spiritual reasons",
+     "a journey every Christian is obliged to make once",
+     "a visit to the burial place of a saint",
+     "a holiday taken during a religious festival"
+    ],
+    "answer": 0,
+    "explain": "A sacred journey in which God is encountered through the places, people and situations met. It is not an obligation in Christianity, and the physical journey mirrors an inner one."
+   },
+   {
+    "id": "M23",
+    "q": "Who wrote \"All pilgrimages should be stopped. There is no good in them: no commandment enjoins them, no obedience attaches to them\"?",
+    "options": [
+     "Dietrich Bonhoeffer",
+     "Martin Luther",
+     "Thomas Aquinas",
+     "Brother Roger"
+    ],
+    "answer": 1,
+    "explain": "Martin Luther, in The Christian Nobility (1520). The Protestant Reformers feared that venerating relics broke the second commandment against idols."
+   },
+   {
+    "id": "M24",
+    "q": "Pilgrims enter the Church of the Nativity in Bethlehem through a very low door known as…",
+    "options": [
+     "the Gate of Grace",
+     "the Manger door",
+     "the pilgrim's gate",
+     "the door of humility"
+    ],
+    "answer": 3,
+    "explain": "The door of humility. It was originally built to stop thieves plundering the church, but it makes every pilgrim bow to the Christ child."
+   },
+   {
+    "id": "M25",
+    "q": "What marks the spot in Bethlehem where Jesus is believed to have been born?",
+    "options": [
+     "A gold cross",
+     "An olive tree",
+     "A fourteen-pointed star",
+     "A stone bearing a footprint"
+    ],
+    "answer": 2,
+    "explain": "A fourteen-pointed star in the Grotto of the Nativity. Nearby is the Chapel of the Manger, where Mary is believed to have laid him."
+   },
+   {
+    "id": "M26",
+    "q": "Tradition holds that the Milk Grotto near Bethlehem is where…",
+    "options": [
+     "the shepherds were visited by the angel",
+     "Mary was told she would bear a son",
+     "the Holy Family sheltered during the Slaughter of the Innocents",
+     "the magi rested on their journey"
+    ],
+    "answer": 2,
+    "explain": "The Holy Family sheltered there before the flight into Egypt, and a drop of Mary's milk is said to have turned the ground white. Both Christians and Muslims believe scrapings from the stones aid fertility."
+   },
+   {
+    "id": "M27",
+    "q": "The church at Shepherds' Fields near Bethlehem is designed to look like…",
+    "options": [
+     "a shepherd's tent",
+     "a manger",
+     "a star",
+     "a sheepfold"
+    ],
+    "answer": 0,
+    "explain": "A shepherd's tent. The site is where the angel told the shepherds to go to Bethlehem, and the church is dedicated to that angel."
+   },
+   {
+    "id": "M28",
+    "q": "The Via Dolorosa in Jerusalem is…",
+    "options": [
+     "the hill on which Jesus was crucified",
+     "the route Jesus is believed to have carried his cross",
+     "the garden where Jesus was arrested",
+     "the room of the Last Supper"
+    ],
+    "answer": 1,
+    "explain": "The route from the outskirts of Jerusalem to the Church of the Holy Sepulchre. A procession each Friday says prayers at the Stations of the Cross, and many pilgrims walk it on Good Friday."
+   },
+   {
+    "id": "M29",
+    "q": "Who had the visions of the Virgin Mary at Lourdes in 1858?",
+    "options": [
+     "Brother Roger",
+     "St Justin Martyr",
+     "Helena",
+     "Bernadette Soubirous"
+    ],
+    "answer": 3,
+    "explain": "Bernadette Soubirous, a fourteen-year-old girl. She was told to drink at the spring beneath Mary's feet and to build a chapel there, and the link with healing was established when a sick baby given the water recovered."
+   },
+   {
+    "id": "M30",
+    "q": "Taizé was founded in 1940 by Brother Roger as a community dedicated to…",
+    "options": [
+     "reconciliation",
+     "healing the sick",
+     "the veneration of relics",
+     "missionary work in Asia"
+    ],
+    "answer": 0,
+    "explain": "Reconciliation. About a hundred Roman Catholic and Protestant monks belong to the ecumenical order, and tens of thousands of young people visit each year for the chant-based worship, Bible study and shared life."
+   }
+  ],
+  "07-worship-and-practice": [
+   {
+    "id": "M1",
+    "q": "A cruciform church is one that is…",
+    "options": [
+     "built facing east",
+     "cross-shaped",
+     "built around a central pulpit",
+     "domed"
+    ],
+    "answer": 1,
+    "explain": "Cross-shaped. It is the traditional Anglican ground plan; a Baptist church is often just a square building."
+   },
+   {
+    "id": "M2",
+    "q": "The nave of a church is…",
+    "options": [
+     "the part around the altar",
+     "the tower holding the bells",
+     "the part where the congregation sits",
+     "the entrance porch"
+    ],
+    "answer": 2,
+    "explain": "The nave holds the congregation; the chancel is the part around the altar. A Baptist chapel is usually one undivided room."
+   },
+   {
+    "id": "M3",
+    "q": "What is the focal point of an Anglican church?",
+    "options": [
+     "The pulpit",
+     "The font",
+     "The lectern",
+     "The high altar"
+    ],
+    "answer": 3,
+    "explain": "The high altar, where the Eucharist is celebrated, decorated with cloth and candles — because Anglican worship centres on the Eucharist."
+   },
+   {
+    "id": "M4",
+    "q": "What is centre stage in a Baptist church?",
+    "options": [
+     "The pulpit",
+     "The altar",
+     "The font",
+     "The baptism pool"
+    ],
+    "answer": 0,
+    "explain": "The pulpit, because Baptist worship centres on the preaching of the word. The Communion table is a simple wooden table that is not even central."
+   },
+   {
+    "id": "M5",
+    "q": "An Anglican lectern is often shaped like an eagle, symbolising…",
+    "options": [
+     "the Holy Spirit",
+     "the four Gospels",
+     "the resurrection",
+     "the spreading of the word"
+    ],
+    "answer": 3,
+    "explain": "The spreading of the word. The lectern is where the Bible is read; the pulpit is where the sermon is preached."
+   },
+   {
+    "id": "M6",
+    "q": "An Anglican church has a font and a Baptist church a pool. Why?",
+    "options": [
+     "Anglican churches are older",
+     "Baptist churches have no running water",
+     "Anglicans baptise infants; Baptists immerse adults totally",
+     "Baptists baptise outdoors whenever possible"
+    ],
+    "answer": 2,
+    "explain": "The furniture follows the theology. Baptists hold that only an adult can make their own choice, and that Jesus himself was baptised as an adult."
+   },
+   {
+    "id": "M7",
+    "q": "\"For where two or three gather in my name, there am I with them\" comes from…",
+    "options": [
+     "John 11:25",
+     "Matthew 18:20",
+     "Mark 8:34",
+     "1 Corinthians 15"
+    ],
+    "answer": 1,
+    "explain": "Matthew 18:20. It is the standard argument that Christians should worship together rather than alone."
+   },
+   {
+    "id": "M8",
+    "q": "Why do Christians gather for worship on Sunday?",
+    "options": [
+     "It is the day of Jesus' resurrection",
+     "It was the Jewish Sabbath",
+     "It is the day the Holy Spirit came",
+     "It was decreed by Constantine"
+    ],
+    "answer": 0,
+    "explain": "Sunday is the day of the resurrection, so the timing of worship is itself a statement of belief."
+   },
+   {
+    "id": "M9",
+    "q": "A liturgy is…",
+    "options": [
+     "a set order of service that is followed each time",
+     "a sung psalm",
+     "a sermon based on the week's reading",
+     "the robes worn by a priest"
+    ],
+    "answer": 0,
+    "explain": "Catholic and Anglican worship is formal and liturgical; Baptist worship is informal and often follows no liturgy at all."
+   },
+   {
+    "id": "M10",
+    "q": "Transubstantiation is the belief that…",
+    "options": [
+     "Christ is spiritually present in the bread and wine",
+     "the bread and wine really become Jesus' body and blood",
+     "the Eucharist is only a memorial of the Last Supper",
+     "the bread and wine must be consumed by the priest alone"
+    ],
+    "answer": 1,
+    "explain": "Held by Roman Catholics and Catholic Anglicans. Consubstantiation is the belief that Christ is spiritually present; the memorial view holds that nothing special happens."
+   },
+   {
+    "id": "M11",
+    "q": "Which belief holds that the Eucharist is just a memorial or re-creation of the Last Supper, with nothing special happening to the bread and wine?",
+    "options": [
+     "Transubstantiation",
+     "Consubstantiation",
+     "The memorial view",
+     "Apostolic succession"
+    ],
+    "answer": 2,
+    "explain": "The memorial view, held by most Protestants. It fits their belief that Jesus' death was a \"once for all\" sacrifice that cannot be repeated."
+   },
+   {
+    "id": "M12",
+    "q": "Which two groups reject the Eucharist altogether?",
+    "options": [
+     "Baptists and Methodists",
+     "Anglicans and Lutherans",
+     "Orthodox Christians and Catholics",
+     "Quakers and the Salvation Army"
+    ],
+    "answer": 3,
+    "explain": "Quakers and the Salvation Army. Their practice is the strongest argument against \"all Christians should celebrate the Eucharist\"."
+   },
+   {
+    "id": "M13",
+    "q": "Which command of Jesus does the Eucharist fulfil?",
+    "options": [
+     "\"Do this in remembrance of me\"",
+     "\"Love your neighbour as yourself\"",
+     "\"Go and baptise all nations\"",
+     "\"Take up your cross and follow me\""
+    ],
+    "answer": 0,
+    "explain": "It makes the Eucharist an act of obedience rather than a preference, and it is the strongest argument that all Christians should celebrate it."
+   },
+   {
+    "id": "M14",
+    "q": "\"Though we are many we are one body for we all partake of the one bread\" is used to show that the Eucharist…",
+    "options": [
+     "must be celebrated by a priest",
+     "should be celebrated weekly",
+     "replaces the sacrifice of the cross",
+     "unites Christians and creates fellowship"
+    ],
+    "answer": 3,
+    "explain": "It is the sacrament of unity, which is why it cannot be a sign of fellowship if performed in isolation. It is also a sign of the new covenant."
+   },
+   {
+    "id": "M15",
+    "q": "Which type of prayer involves asking God for something, for oneself or for others?",
+    "options": [
+     "Adoration",
+     "Confession",
+     "Thanksgiving",
+     "Supplication"
+    ],
+    "answer": 3,
+    "explain": "Supplication. The other three — adoration (praise), confession (repentance) and thanksgiving — make no request at all."
+   },
+   {
+    "id": "M16",
+    "q": "Which type of prayer is simply praising God?",
+    "options": [
+     "Adoration",
+     "Supplication",
+     "Confession",
+     "Intercession"
+    ],
+    "answer": 0,
+    "explain": "Adoration. Confession is saying sorry and repenting, and is a key part of all religious services."
+   },
+   {
+    "id": "M17",
+    "q": "Prayer has been described as \"spiritual breathing\" because it…",
+    "options": [
+     "must be done aloud",
+     "clears the mind before worship",
+     "is something done constantly rather than occasionally",
+     "accompanies the Jesus Prayer"
+    ],
+    "answer": 2,
+    "explain": "It builds a relationship with God, communicates with him, gives hope and strength, and is how a Christian comes to understand God's will."
+   },
+   {
+    "id": "M18",
+    "q": "Who argued that a God who answers prayers while ignoring the Holocaust is not worth believing in?",
+    "options": [
+     "Sigmund Freud",
+     "Karl Marx",
+     "Maurice Wiles",
+     "Michael Ramsey"
+    ],
+    "answer": 2,
+    "explain": "Maurice Wiles. It attacks God's character rather than his existence, which makes it stronger than ordinary complaints about unanswered prayer."
+   },
+   {
+    "id": "M19",
+    "q": "On a rosary, what is said on each of the five sets of ten small beads?",
+    "options": [
+     "The Lord's Prayer",
+     "A Hail Mary",
+     "The Jesus Prayer",
+     "A psalm"
+    ],
+    "answer": 1,
+    "explain": "A Hail Mary on each small bead; the four larger beads represent mysteries of the Passion and require the Lord's Prayer. It is a Catholic devotion and a form of meditation."
+   },
+   {
+    "id": "M20",
+    "q": "Meditating on an icon has been called \"contemplation in colour\". Which Christians chiefly do it?",
+    "options": [
+     "Baptists",
+     "Quakers",
+     "Anglicans",
+     "Orthodox Christians"
+    ],
+    "answer": 3,
+    "explain": "Orthodox Christians meditate on an image of Jesus or a saint as an encounter with God."
+   },
+   {
+    "id": "M21",
+    "q": "\"Oh Lord Jesus Son of God, have mercy on me, a sinner\" is…",
+    "options": [
+     "the Jesus Prayer",
+     "the words of the committal",
+     "the Hail Mary",
+     "the Anglican baptism vow"
+    ],
+    "answer": 0,
+    "explain": "The Jesus Prayer, recited over and over, sometimes while walking or prostrating. It is a discipline focused on humility and detachment from the world."
+   },
+   {
+    "id": "M22",
+    "q": "Chrism is…",
+    "options": [
+     "the blessed water of the font",
+     "the candle given after baptism",
+     "the white robe worn at believers' baptism",
+     "the special oil a priest anoints a baptised child with"
+    ],
+    "answer": 3,
+    "explain": "The oil used to anoint the child. A candle is also often given, symbolising Jesus as light of the world and the move from darkness into light."
+   },
+   {
+    "id": "M23",
+    "q": "At an Anglican infant baptism, who makes the vows?",
+    "options": [
+     "The priest",
+     "The congregation",
+     "The godparents, on the child's behalf",
+     "The child's older siblings"
+    ],
+    "answer": 2,
+    "explain": "The godparents reject the devil and all rebellion against God, renounce the deceit and corruption of evil, repent of sin and turn to Christ as Saviour — because the infant cannot promise for itself."
+   },
+   {
+    "id": "M24",
+    "q": "At a believers' baptism, what does the candidate usually do before being baptised?",
+    "options": [
+     "Fast for forty days",
+     "Receive the sign of the cross on the forehead",
+     "Make a testimony explaining their faith",
+     "Be anointed with chrism"
+    ],
+    "answer": 2,
+    "explain": "A testimony explaining their faith and their reasons for coming forward. They wear white, symbolising purity and the dress of an initiate."
+   },
+   {
+    "id": "M25",
+    "q": "At a believers' baptism the candidate is…",
+    "options": [
+     "sprinkled with blessed water at the font",
+     "totally immersed in water",
+     "anointed with oil only",
+     "given a palm cross"
+    ],
+    "answer": 1,
+    "explain": "Total immersion, usually in a pool and sometimes a river, in the name of the Father, Son and Holy Spirit. The immersion represents death, and the adult is thought to be born again."
+   },
+   {
+    "id": "M26",
+    "q": "\"In baptism, God calls us out of darkness into his marvellous light. To follow Christ means dying to sin and rising to new life with him\" comes from…",
+    "options": [
+     "the funeral committal",
+     "the marriage service",
+     "the Anglican baptism service",
+     "the Eucharistic prayer"
+    ],
+    "answer": 2,
+    "explain": "The Anglican baptism service. It shows baptism is a death and resurrection in miniature, not a naming ceremony."
+   },
+   {
+    "id": "M27",
+    "q": "Which of these is a reason Christians give for the importance of baptism?",
+    "options": [
+     "It guarantees a church wedding later",
+     "It washes away original sin",
+     "It admits a person to the priesthood",
+     "It replaces the need for confession"
+    ],
+    "answer": 1,
+    "explain": "Baptism is a sacrament and an initiation ritual, believed to wash away original sin, and it follows Jesus' own example of being baptised by John in the Jordan."
+   },
+   {
+    "id": "M28",
+    "q": "In the marriage service the priest joins the couple's hands and proclaims…",
+    "options": [
+     "\"Those whom God has called, let them answer\"",
+     "\"Be fruitful and multiply\"",
+     "\"Love one another as I have loved you\"",
+     "\"What God has joined together let no one separate\""
+    ],
+    "answer": 3,
+    "explain": "Christians hold that God himself joins the couple and then helps sustain their relationship. Marriage is also held to be sanctioned by God — Jesus attended the wedding at Cana."
+   },
+   {
+    "id": "M29",
+    "q": "\"I am the resurrection and the life. He who believes in me will live, even though he dies\" is read as the coffin is brought into church. Where does it come from?",
+    "options": [
+     "Psalm 23",
+     "John 11:25",
+     "1 Corinthians 15",
+     "Matthew 18:20"
+    ],
+    "answer": 1,
+    "explain": "John 11:25, at the Gathering. The service opens by denying that death is the end."
+   },
+   {
+    "id": "M30",
+    "q": "At the committal, the body is committed to the ground \"earth to earth, ashes to ashes, dust to dust\" — in what?",
+    "options": [
+     "the sure and certain hope of the resurrection to eternal life",
+     "the peace of God which passes all understanding",
+     "the hope of forgiveness of sins",
+     "the name of the Father, Son and Holy Spirit"
+    ],
+    "answer": 0,
+    "explain": "The wording is the clearest evidence of what a funeral reveals about Christian beliefs about death: salvation for believers, God's mercy and strength, and the hope of resurrection."
+   }
+  ]
+ }
+}

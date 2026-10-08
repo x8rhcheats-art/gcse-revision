@@ -18,6 +18,13 @@ export function inGroup(g, m) {
   return g.modules ? g.modules.includes(m.id) : m.number >= g.from && m.number <= g.to;
 }
 
+/** What this subject calls its div.eq cards: physics and the others drill
+ *  equations, RS drills scripture. Used for the drill's title and copy. */
+export function eqCardNoun(plural = false) {
+  const rs = activeSubject().id === 'rs';
+  return rs ? (plural ? 'quotes' : 'quote') : (plural ? 'equations' : 'equation');
+}
+
 export const content = {
   modules: [],
   mocks: [],
@@ -57,6 +64,8 @@ const stripTags = html => {
 // Every card carries an explicit task so the front is never just a bare noun.
 const CARD_PROMPTS = {
   equation: 'State the equation',
+  // RS reuses the equation card for scripture: same mechanics, different task
+  quote: 'Recall the quote — and what it is used to argue',
   definition: 'Define it — exact wording',
   vocabulary: 'This wording costs marks. What do you write instead?',
 };
@@ -173,7 +182,7 @@ function buildIndexes() {
         const note = eq.symbolKey;
         index.cards.push({
           cardId: eq.itemId, moduleId: mod.id, type: 'equation',
-          prompt: CARD_PROMPTS.equation,
+          prompt: activeSubject().id === 'rs' ? CARD_PROMPTS.quote : CARD_PROMPTS.equation,
           front: fix.front || eqCardFront(eq.name),
           // structured too, so consumers never have to unpick the HTML
           formula: fix.back || eq.formula,

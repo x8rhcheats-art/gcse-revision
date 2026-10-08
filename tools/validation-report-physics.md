@@ -1,6 +1,6 @@
 # Extraction validation report — Physics
 
-Generated 2026-09-22T10:42:20.030Z from 14 modules, 2 mocks, 1 diagnostic.
+Generated 2026-10-08T19:25:22.542Z from 14 modules, 2 mocks, 1 diagnostic.
 
 ## Counts
 - 01-forces-and-motion: 12 teach subsections, 5 sheet subsections, 6 eq, 11 def, 6 trap, 12 understanding, 22 drill
