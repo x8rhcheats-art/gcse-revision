@@ -458,6 +458,7 @@ body[data-subject="chemistry"] { --accent: #0B6E4F; }
 body[data-subject="biology"]   { --accent: #8A5A1E; }
 body[data-subject="maths"]     { --accent: #7A2E6E; }
 body[data-subject="rs"]        { --accent: #8C2F39; }
+body[data-subject="geography"] { --accent: #2F6B4F; }
 
 /* landing cards carry their own subject's accent regardless of context */
 .subject-card[data-subj="physics"]   { --card-accent: #1F3FA8; }
@@ -465,6 +466,7 @@ body[data-subject="rs"]        { --accent: #8C2F39; }
 .subject-card[data-subj="biology"]   { --card-accent: #8A5A1E; }
 .subject-card[data-subj="maths"]     { --card-accent: #7A2E6E; }
 .subject-card[data-subj="rs"]        { --card-accent: #8C2F39; }
+.subject-card[data-subj="geography"] { --card-accent: #2F6B4F; }
 .subject-card { border-top-color: var(--card-accent, var(--ink)); }
 .subject-card .sc-board { color: var(--card-accent, var(--accent)); }
 .subject-card .sc-go { color: var(--card-accent, var(--accent)); }
@@ -577,3 +579,23 @@ td.every-year { color: var(--trap); font-weight: 600; }
   text-transform: uppercase;
 }
 .q.stretch { border-left: 3px solid var(--accent); padding-left: 12px; }
+
+/* ---- RS: key points first, the long version folded away ---- */
+.keypoints { margin: 6px 0 10px; padding-left: 20px; }
+.keypoints > li { margin: 4px 0; }
+details.more { margin: 6px 0 14px; }
+details.more > summary {
+  cursor: pointer;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+details.more > summary::marker { color: var(--accent); }
+details.more[open] > summary { margin-bottom: 8px; }
+details.more > .inner { border-left: 2px solid var(--rule); padding-left: 14px; }
+
+/* "Key points only": the teaching section stripped to its bullets */
+.key-only #teach-a .subsection > div > *:not(.keypoints):not(h4),
+.key-only #teach-a .subsection > div > details.more { display: none; }
+.key-only #teach-a .subsection > div > .panel { display: none; }

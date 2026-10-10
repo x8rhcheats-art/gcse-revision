@@ -35,6 +35,14 @@ export function renderModule(params, query) {
 
   // jump nav + red filter
   const filterBtn = el('button', { class: 'act secondary', onclick: () => toggleRed() }, 'Show red only');
+  // Modules written as key points (RS) can be stripped back to just those —
+  // the quickest possible read-through before a test.
+  let keyOnly = false;
+  const keyBtn = el('button', { class: 'act secondary', onclick: () => {
+    keyOnly = !keyOnly;
+    root.classList.toggle('key-only', keyOnly);
+    keyBtn.textContent = keyOnly ? 'Show everything' : 'Key points only';
+  } }, 'Key points only');
   const teach = mod.sections.teach;
   // Two sections are optional: "what comes up" needs past papers to read, and
   // the teaching section is written module by module. Number the sections in
@@ -52,7 +60,9 @@ export function renderModule(params, query) {
     el('a', { href: '#sheet-a' }, 'Cheat sheet'),
     el('a', { href: '#understand-a' }, 'Understanding it'),
     el('a', { href: '#drill-a' }, 'Exam drill'),
-    filterBtn);
+    filterBtn,
+    // only offered where the module actually has key-point lists
+    /class="keypoints"/.test((teach ? teach.subsections : []).map(s => s.html).join('')) ? keyBtn : null);
   root.append(jump);
 
   // subsections of prose, each its own taggable unit

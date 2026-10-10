@@ -1,6 +1,6 @@
 # Extraction validation report — Chemistry
 
-Generated 2026-10-08T19:25:23.461Z from 17 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-10T19:26:44.972Z from 17 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-atomic-structure: 11 teach subsections, 4 sheet subsections, 2 eq, 9 def, 7 trap, 8 understanding, 15 drill
@@ -8,7 +8,7 @@ Generated 2026-10-08T19:25:23.461Z from 17 modules, 0 mocks, 0 diagnostic.
 - 03-formulae-and-equations: 13 teach subsections, 5 sheet subsections, 0 eq, 5 def, 8 trap, 8 understanding, 15 drill
 - 04-acids-alkalis-and-salts: 14 teach subsections, 6 sheet subsections, 0 eq, 9 def, 10 trap, 8 understanding, 15 drill
 - 05-chemical-calculations: 14 teach subsections, 6 sheet subsections, 8 eq, 8 def, 8 trap, 8 understanding, 15 drill
-- 06-solubility: 12 teach subsections, 4 sheet subsections, 2 eq, 6 def, 9 trap, 8 understanding, 15 drill
+- 06-solubility: 22 teach subsections, 4 sheet subsections, 3 eq, 6 def, 9 trap, 8 understanding, 15 drill
 - 07-rates-of-reaction: 14 teach subsections, 5 sheet subsections, 1 eq, 7 def, 10 trap, 8 understanding, 15 drill
 - 08-electrolysis-and-redox: 14 teach subsections, 6 sheet subsections, 2 eq, 9 def, 13 trap, 8 understanding, 15 drill
 - 09-metal-extraction: 14 teach subsections, 5 sheet subsections, 9 eq, 14 def, 12 trap, 8 understanding, 15 drill
@@ -25,7 +25,7 @@ Generated 2026-10-08T19:25:23.461Z from 17 modules, 0 mocks, 0 diagnostic.
 - spec tick-sheet: 93 points across 10 topics
 - exam reference: 31 technique rules, 4 diagram checklists, 7 given formulae
 - predictions: 21 items across 4 bands
-- taggable itemIds: 1380
+- taggable itemIds: 1391
 
 ## Formula symbol keys
 coverage: no equation glossary for this subject

@@ -147,6 +147,33 @@
 ✗ Using 2πr for the area, or πr<sup>2</sup> for the arc. Area has r<sup>2</sup> because it is measured in square units.</p>
 </div>
 
+<h3>Segments, and areas built from the centre</h3>
+<p class="asked">Spec 4.9A (Higher) · <strong>2024 Edexcel June 1H Q20</strong> · <strong>2023 Edexcel June 1H Q22</strong></p>
+<p><strong>A chord cuts a sector into a triangle and a segment, so anything bounded by a chord is a sector minus a triangle.</strong> The same cut handles a regular polygon: join every vertex to the centre and you get n identical isosceles triangles.</p>
+<div class="eq"><span class="name">Segment area — memorise</span>segment = (θ/360) × πr<sup>2</sup> − ½r<sup>2</sup> sin θ<span class="sym">the triangle has two sides r with θ between them, so ½ab sin C becomes ½r<sup>2</sup> sin θ</span></div>
+<div class="eq"><span class="name">Segment perimeter</span>perimeter = arc + chord<span class="sym">chord from the cosine rule: chord<sup>2</sup> = 2r<sup>2</sup> − 2r<sup>2</sup> cos θ · no radii</span></div>
+<div class="eq"><span class="name">Regular n-gon, centre to vertex r</span>area = n × ½r<sup>2</sup> sin(360/n)<span class="sym">central angle = 360/n · not on the formula sheet</span></div>
+<ol>
+<li><strong>Segment:</strong> sector minus triangle. Its boundary is the arc and the chord, so the radii are <em>not</em> part of the perimeter.</li>
+<li><strong>Working backwards</strong> from a given segment area: every term carries r<sup>2</sup>, so factorise r<sup>2</sup> out, divide by the bracket, then square-root.</li>
+<li><strong>Regular polygon:</strong> split it from the centre into n isosceles triangles with apex angle 360/n and two sides r.</li>
+<li>To get r from the side length s, drop the perpendicular from the centre to a side: ½s = r sin(180/n), and that perpendicular — the radius of the inscribed circle — is r cos(180/n).</li>
+<li><strong>"Shaded area = unshaded area"</strong> means the shaded part is <em>half</em> the total. Set it equal to half, not to the whole.</li>
+</ol>
+<div class="panel">
+<h4>Worked example: 2024 June 1H Q20 — sector angle 60°, shaded segment area 38 cm<sup>2</sup>. Work out the perimeter of the segment.</h4>
+<p>Segment = (60/360) × πr<sup>2</sup> − ½r<sup>2</sup> sin 60° = r<sup>2</sup>(0.523598… − 0.433012…) = 0.090586…r<sup>2</sup> &nbsp; <strong>(M1)</strong></p>
+<p>0.090586…r<sup>2</sup> = 38, so r<sup>2</sup> = 419.49… and r = 20.481… &nbsp; <strong>(A1)</strong></p>
+<p>Arc = (60/360) × 2π × 20.481… = 21.448… &nbsp; <strong>(M1)</strong></p>
+<p>At θ = 60° the triangle is equilateral, so the chord = r = 20.481… &nbsp; <strong>(M1)</strong></p>
+<p>Perimeter = 21.448… + 20.481… = 41.93… = <strong>41.9 cm</strong> &nbsp; <strong>(A1)</strong></p>
+</div>
+<div class="trap">
+<p>✗ Adding the two radii to the perimeter of a <em>segment</em>. That gives the perimeter of the sector.<br>
+✗ Using ½ × base × height for the triangle when all you know is two radii and the angle between them. Use ½r<sup>2</sup> sin θ.<br>
+✗ Rounding r before finding the arc and chord. Keep the full value in the calculator — these questions ask for 1 d.p. or 3 s.f. at the end.</p>
+</div>
+
 <h3>Prisms and cylinders</h3>
 <p class="asked">Spec 4.10C–E · <strong>2016 Edexcel SAM 2H Q3</strong> · <strong>2018 Edexcel May 2H Q6(a)</strong></p>
 <p><strong>A prism has the same cross-section all the way through, so its volume is the area of that cross-section times its length.</strong></p>

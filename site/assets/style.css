@@ -131,3 +131,10 @@ footer{border-top:1px solid var(--ink);padding-top:18px;font-family:var(--mono);
 /* grade 8/9 stretch questions in the static module pages */
 .q.stretch { border-left: 3px solid #7A2E6E; padding-left: 12px; }
 .q.stretch .qid::after { content: " ★"; }
+
+/* RS: key points first, the long version folded away */
+.keypoints { margin: 6px 0 10px; padding-left: 20px; }
+.keypoints > li { margin: 4px 0; }
+details.more { margin: 6px 0 14px; }
+details.more > summary { cursor: pointer; font-size: .82rem; letter-spacing: .04em; text-transform: uppercase; color: #8C2F39; }
+details.more > .inner { border-left: 2px solid #ddd; padding-left: 14px; }

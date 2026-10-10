@@ -30,7 +30,7 @@ import { renderPredict } from './views/predict.js';
 import { renderOfficial } from './views/official.js';
 
 // bump on every change set; shown in the sidebar so a stale tab is obvious
-const APP_VERSION = 'v44';
+const APP_VERSION = 'v45';
 
 // remembers which subject to open next time; deliberately its own key, not
 // part of any subject's progress store
@@ -203,8 +203,8 @@ function buildNav(activePath) {
       link(`#/mock/${p.id}`, [p.title]),
     ]),
     // the board's own papers, for Year 11 — links out, only where some exist
-    ...(((subj.officialPapers || {}).papers || []).length
-      ? [el('div', { class: 'navgroup' }, 'Year 11 — real exams'), link('#/official', ['Real Edexcel papers'])] : []),
+    ...(((subj.boardPapers || {}).papers || []).length || ((subj.officialPapers || {}).papers || []).length
+      ? [el('div', { class: 'navgroup' }, 'Board papers'), link('#/official', ['Past papers'])] : []),
     el('div', { class: 'navgroup' }, 'Reference'),
     link('#/reference', ['Exam reference']),
     link('#/spec', ['Specification']),

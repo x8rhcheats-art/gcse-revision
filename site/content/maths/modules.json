@@ -8458,6 +8458,39 @@
        "traps": []
       },
       {
+       "itemId": "10-mensuration-and-similarity/teach/segments-and-areas-built-from-the-centre",
+       "heading": "Segments, and areas built from the centre",
+       "html": "<p class=\"asked\">Spec 4.9A (Higher) · <strong>2024 Edexcel June 1H Q20</strong> · <strong>2023 Edexcel June 1H Q22</strong></p><p><strong>A chord cuts a sector into a triangle and a segment, so anything bounded by a chord is a sector minus a triangle.</strong> The same cut handles a regular polygon: join every vertex to the centre and you get n identical isosceles triangles.</p><div class=\"eq\" data-item-id=\"10-mensuration-and-similarity/eq/segment-area\"><span class=\"name\">Segment area — memorise</span>segment = (θ/360) × πr<sup>2</sup> − ½r<sup>2</sup> sin θ<span class=\"sym\">the triangle has two sides r with θ between them, so ½ab sin C becomes ½r<sup>2</sup> sin θ</span></div><div class=\"eq\" data-item-id=\"10-mensuration-and-similarity/eq/segment-perimeter\"><span class=\"name\">Segment perimeter</span>perimeter = arc + chord<span class=\"sym\">chord from the cosine rule: chord<sup>2</sup> = 2r<sup>2</sup> − 2r<sup>2</sup> cos θ · no radii</span></div><div class=\"eq\" data-item-id=\"10-mensuration-and-similarity/eq/regular-n-gon-centre-to-vertex-r\"><span class=\"name\">Regular n-gon, centre to vertex r</span>area = n × ½r<sup>2</sup> sin(360/n)<span class=\"sym\">central angle = 360/n · not on the formula sheet</span></div><ol>\n<li><strong>Segment:</strong> sector minus triangle. Its boundary is the arc and the chord, so the radii are <em>not</em> part of the perimeter.</li>\n<li><strong>Working backwards</strong> from a given segment area: every term carries r<sup>2</sup>, so factorise r<sup>2</sup> out, divide by the bracket, then square-root.</li>\n<li><strong>Regular polygon:</strong> split it from the centre into n isosceles triangles with apex angle 360/n and two sides r.</li>\n<li>To get r from the side length s, drop the perpendicular from the centre to a side: ½s = r sin(180/n), and that perpendicular — the radius of the inscribed circle — is r cos(180/n).</li>\n<li><strong>\"Shaded area = unshaded area\"</strong> means the shaded part is <em>half</em> the total. Set it equal to half, not to the whole.</li>\n</ol><div class=\"panel\">\n<h4>Worked example: 2024 June 1H Q20 — sector angle 60°, shaded segment area 38 cm<sup>2</sup>. Work out the perimeter of the segment.</h4>\n<p>Segment = (60/360) × πr<sup>2</sup> − ½r<sup>2</sup> sin 60° = r<sup>2</sup>(0.523598… − 0.433012…) = 0.090586…r<sup>2</sup> &nbsp; <strong>(M1)</strong></p>\n<p>0.090586…r<sup>2</sup> = 38, so r<sup>2</sup> = 419.49… and r = 20.481… &nbsp; <strong>(A1)</strong></p>\n<p>Arc = (60/360) × 2π × 20.481… = 21.448… &nbsp; <strong>(M1)</strong></p>\n<p>At θ = 60° the triangle is equilateral, so the chord = r = 20.481… &nbsp; <strong>(M1)</strong></p>\n<p>Perimeter = 21.448… + 20.481… = 41.93… = <strong>41.9 cm</strong> &nbsp; <strong>(A1)</strong></p>\n</div><div class=\"trap\">\n<p>✗ Adding the two radii to the perimeter of a <em>segment</em>. That gives the perimeter of the sector.<br>\n✗ Using ½ × base × height for the triangle when all you know is two radii and the angle between them. Use ½r<sup>2</sup> sin θ.<br>\n✗ Rounding r before finding the arc and chord. Keep the full value in the calculator — these questions ask for 1 d.p. or 3 s.f. at the end.</p>\n</div>",
+       "equations": [
+        {
+         "itemId": "10-mensuration-and-similarity/eq/segment-area",
+         "name": "Segment area",
+         "formula": "segment = (θ/360) × πr2 − ½r2 sin θ",
+         "mustMemorise": true,
+         "onFormulaSheet": false,
+         "symbolKey": "the triangle has two sides r with θ between them, so ½ab sin C becomes ½r2 sin θ"
+        },
+        {
+         "itemId": "10-mensuration-and-similarity/eq/segment-perimeter",
+         "name": "Segment perimeter",
+         "formula": "perimeter = arc + chord",
+         "mustMemorise": false,
+         "onFormulaSheet": false,
+         "symbolKey": "chord from the cosine rule: chord2 = 2r2 − 2r2 cos θ · no radii"
+        },
+        {
+         "itemId": "10-mensuration-and-similarity/eq/regular-n-gon-centre-to-vertex-r",
+         "name": "Regular n-gon, centre to vertex r",
+         "formula": "area = n × ½r2 sin(360/n)",
+         "mustMemorise": false,
+         "onFormulaSheet": false,
+         "symbolKey": "central angle = 360/n · not on the formula sheet"
+        }
+       ],
+       "definitions": [],
+       "traps": []
+      },
+      {
        "itemId": "10-mensuration-and-similarity/teach/prisms-and-cylinders",
        "heading": "Prisms and cylinders",
        "html": "<p class=\"asked\">Spec 4.10C–E · <strong>2016 Edexcel SAM 2H Q3</strong> · <strong>2018 Edexcel May 2H Q6(a)</strong></p><p><strong>A prism has the same cross-section all the way through, so its volume is the area of that cross-section times its length.</strong></p><div class=\"eq\" data-item-id=\"10-mensuration-and-similarity/eq/volume-of-a-prism-on-the-formula-sheet\"><span class=\"name\">Volume of a prism — on the formula sheet</span>V = area of cross-section × length<span class=\"sym\">cuboid, triangular prism, trapezium prism, cylinder</span></div><div class=\"eq\" data-item-id=\"10-mensuration-and-similarity/eq/cylinder-on-the-formula-sheet\"><span class=\"name\">Cylinder — on the formula sheet</span>V = πr<sup>2</sup>h &nbsp;·&nbsp; curved surface area = 2πrh<span class=\"sym\">total surface area = 2πrh + 2πr<sup>2</sup>, adding the two circular ends</span></div><ol>\n<li>Find the shape that is the same all the way through: the cross-section.</li>\n<li>Work out its area.</li>\n<li>Multiply by the length (the distance between the two end faces).</li>\n<li><strong>Surface area:</strong> add the area of every face. For a cylinder, the curved surface unrolls into a rectangle 2πr long and h high.</li>\n</ol><div class=\"panel\">\n<h4>Worked example: cylinder of radius 4 cm and height 10 cm</h4>\n<p>V = π × 4<sup>2</sup> × 10 = 160π = <strong>503 cm<sup>3</sup></strong> (3 s.f.)</p>\n<p>Curved surface = 2π × 4 × 10 = 80π · two ends = 2 × π × 16 = 32π</p>\n<p>Total surface area = 112π = <strong>352 cm<sup>2</sup></strong> (3 s.f.)</p>\n</div>",

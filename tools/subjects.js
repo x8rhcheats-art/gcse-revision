@@ -21,6 +21,7 @@ module.exports = {
     modulesDir: 'site/modules/physics',
     mocksDir: 'site/mocks/physics',
     out: 'site/content/physics',
+    boardPapers: 'tools/physics/board-papers.json',
     mocks: [
       ['mock-1.html', 'mock-1-markscheme.html', 'mock-1'],
       ['mock-2.html', 'mock-2-markscheme.html', 'mock-2'],
@@ -63,6 +64,7 @@ module.exports = {
     modulesDir: 'site/modules/chemistry',
     mocksDir: 'site/mocks/chemistry',
     out: 'site/content/chemistry',
+    boardPapers: 'tools/chemistry/board-papers.json',
     mocks: [],
     specPoints: 'tools/chemistry/spec-points.json',
     examReference: 'tools/chemistry/exam-reference.json',
@@ -87,6 +89,7 @@ module.exports = {
     modulesDir: 'site/modules/biology',
     mocksDir: 'site/mocks/biology',
     out: 'site/content/biology',
+    boardPapers: 'tools/biology/board-papers.json',
     mocks: [],
     // The checklist for the Year 10 end-of-year exam defines modules 01-10;
     // modules 11-18 are the Year 11 half of the course, which that exam does
@@ -113,6 +116,7 @@ module.exports = {
     modulesDir: 'site/modules/maths',
     mocksDir: 'site/mocks/maths',
     out: 'site/content/maths',
+    boardPapers: 'tools/maths/board-papers.json',
     mocks: [],
     mcqBanks: ['tools/maths/mcq-bank-1.json', 'tools/maths/mcq-bank-2.json', 'tools/maths/mcq-bank-3.json', 'tools/maths/mcq-bank-4.json'],
     pastPapers: ['tools/maths/past-papers.json'],
@@ -136,6 +140,7 @@ module.exports = {
     modulesDir: 'site/modules/rs',
     mocksDir: 'site/mocks/rs',
     out: 'site/content/rs',
+    boardPapers: 'tools/rs/board-papers.json',
     mocks: [],
     mcqBanks: ['tools/rs/mcq-bank-1.json', 'tools/rs/mcq-bank-2.json', 'tools/rs/mcq-bank-3.json', 'tools/rs/mcq-bank-4.json'],
     pastPapers: [],
@@ -145,5 +150,22 @@ module.exports = {
       { title: 'Paper 1 — Beliefs and Values', from: 1, to: 4, note: '1 hour 45 minutes · 100 marks · 60% of the grade. Four questions, each 3 + 4 + 6 + 12 marks.' },
       { title: 'Paper 2 — The Religious Community', from: 5, to: 7, note: '1 hour 30 minutes · 60 marks · 40% of the grade. Three sections, each 4 + 6 + 10 marks.' },
     ],
+  },
+  // Added 2026-10-10: John's AQA Geography papers. No teaching material yet —
+  // the app holds the papers so they are in one place with everything else.
+  geography: {
+    id: 'geography',
+    title: 'Geography',
+    code: '8035',
+    board: 'AQA GCSE Geography 8035',
+    standfirst: 'GCSE summer 2027 — papers only so far, no notes yet',
+    modulesDir: 'site/modules/geography',
+    mocksDir: 'site/mocks/geography',
+    out: 'site/content/geography',
+    mocks: [],
+    mcqBanks: [],
+    pastPapers: [],
+    pastPaperSchemes: [],
+    boardPapers: 'tools/geography/board-papers.json',
   },
 };

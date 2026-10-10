@@ -1,6 +1,6 @@
 # Extraction validation report — Physics
 
-Generated 2026-10-08T19:25:22.542Z from 14 modules, 2 mocks, 1 diagnostic.
+Generated 2026-10-10T19:26:44.613Z from 14 modules, 2 mocks, 1 diagnostic.
 
 ## Counts
 - 01-forces-and-motion: 12 teach subsections, 5 sheet subsections, 6 eq, 11 def, 6 trap, 12 understanding, 22 drill
@@ -16,7 +16,7 @@ Generated 2026-10-08T19:25:22.542Z from 14 modules, 2 mocks, 1 diagnostic.
 - 11-momentum: 13 teach subsections, 4 sheet subsections, 2 eq, 7 def, 8 trap, 8 understanding, 15 drill
 - 12-light-and-refraction: 14 teach subsections, 4 sheet subsections, 2 eq, 10 def, 8 trap, 8 understanding, 15 drill
 - 13-stars-and-the-universe: 14 teach subsections, 4 sheet subsections, 1 eq, 10 def, 9 trap, 8 understanding, 15 drill
-- 14-thermal-energy-transfer: 14 teach subsections, 3 sheet subsections, 0 eq, 9 def, 9 trap, 8 understanding, 15 drill
+- 14-thermal-energy-transfer: 15 teach subsections, 3 sheet subsections, 0 eq, 9 def, 9 trap, 8 understanding, 15 drill
 - mock-1: 10 questions, 100 marks
 - mock-2: 9 questions, 90 marks
 - diagnostic: 8 sections, 63 marks
@@ -26,7 +26,7 @@ Generated 2026-10-08T19:25:22.542Z from 14 modules, 2 mocks, 1 diagnostic.
 - spec tick-sheet: 136 points across 6 topics
 - exam reference: 29 technique rules, 4 diagram checklists, 9 given formulae
 - predictions: 16 items across 4 bands
-- taggable itemIds: 1024
+- taggable itemIds: 1025
 
 ## Formula symbol keys
 coverage: every formula has a symbol key

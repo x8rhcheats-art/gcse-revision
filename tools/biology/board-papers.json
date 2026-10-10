@@ -1,0 +1,367 @@
+{
+ "comment": "Official past papers downloaded from the board, stored locally in site/papers/biology/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+ "source": "Downloaded by John",
+ "added": "2026-10-10",
+ "papers": [
+  {
+   "id": "4bi1-2025-06-1b",
+   "title": "Edexcel June 2025 · Paper 1B",
+   "year": 2025,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2025-06-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2025-06-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2025-06-1br",
+   "title": "Edexcel June 2025 · Paper 1BR",
+   "year": 2025,
+   "series": "June",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2025-06-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2025-06-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2025-06-2b",
+   "title": "Edexcel June 2025 · Paper 2B",
+   "year": 2025,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2025-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2025-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2025-06-2br",
+   "title": "Edexcel June 2025 · Paper 2BR",
+   "year": 2025,
+   "series": "June",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2025-06-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2025-06-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-11-1b",
+   "title": "Edexcel November 2024 · Paper 1B",
+   "year": 2024,
+   "series": "November",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2024-11-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-11-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-11-2b",
+   "title": "Edexcel November 2024 · Paper 2B",
+   "year": 2024,
+   "series": "November",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2024-11-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-11-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-06-1b",
+   "title": "Edexcel June 2024 · Paper 1B",
+   "year": 2024,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2024-06-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-06-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-06-1br",
+   "title": "Edexcel June 2024 · Paper 1BR",
+   "year": 2024,
+   "series": "June",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2024-06-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-06-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-06-2b",
+   "title": "Edexcel June 2024 · Paper 2B",
+   "year": 2024,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2024-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2024-06-2br",
+   "title": "Edexcel June 2024 · Paper 2BR",
+   "year": 2024,
+   "series": "June",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2024-06-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2024-06-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-11-1b",
+   "title": "Edexcel November 2023 · Paper 1B",
+   "year": 2023,
+   "series": "November",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2023-11-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-11-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-11-2b",
+   "title": "Edexcel November 2023 · Paper 2B",
+   "year": 2023,
+   "series": "November",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2023-11-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-11-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-06-2b",
+   "title": "Edexcel June 2023 · Paper 2B",
+   "year": 2023,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2023-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-06-2br",
+   "title": "Edexcel June 2023 · Paper 2BR",
+   "year": 2023,
+   "series": "June",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2023-06-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-06-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-05-1b",
+   "title": "Edexcel June 2023 · Paper 1B",
+   "year": 2023,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2023-05-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-05-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-05-1br",
+   "title": "Edexcel June 2023 · Paper 1BR",
+   "year": 2023,
+   "series": "June",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2023-05-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-05-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-01-1b",
+   "title": "Edexcel January 2023 · Paper 1B",
+   "year": 2023,
+   "series": "January",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2023-01-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-01-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-01-1br",
+   "title": "Edexcel January 2023 · Paper 1BR",
+   "year": 2023,
+   "series": "January",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2023-01-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-01-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-01-2b",
+   "title": "Edexcel January 2023 · Paper 2B",
+   "year": 2023,
+   "series": "January",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2023-01-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-01-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2023-01-2br",
+   "title": "Edexcel January 2023 · Paper 2BR",
+   "year": 2023,
+   "series": "January",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2023-01-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2023-01-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-06-1b",
+   "title": "Edexcel June 2022 · Paper 1B",
+   "year": 2022,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2022-06-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-06-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-06-1br",
+   "title": "Edexcel June 2022 · Paper 1BR",
+   "year": 2022,
+   "series": "June",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2022-06-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-06-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-06-2b",
+   "title": "Edexcel June 2022 · Paper 2B",
+   "year": 2022,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2022-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-06-2br",
+   "title": "Edexcel June 2022 · Paper 2BR",
+   "year": 2022,
+   "series": "June",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2022-06-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-06-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-01-1b",
+   "title": "Edexcel January 2022 · Paper 1B",
+   "year": 2022,
+   "series": "January",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2022-01-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-01-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-01-1br",
+   "title": "Edexcel January 2022 · Paper 1BR",
+   "year": 2022,
+   "series": "January",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2022-01-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-01-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-01-2b",
+   "title": "Edexcel January 2022 · Paper 2B",
+   "year": 2022,
+   "series": "January",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2022-01-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-01-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2022-01-2br",
+   "title": "Edexcel January 2022 · Paper 2BR",
+   "year": 2022,
+   "series": "January",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2022-01-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2022-01-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-11-1b",
+   "title": "Edexcel November 2021 · Paper 1B",
+   "year": 2021,
+   "series": "November",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2021-11-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-11-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-11-2b",
+   "title": "Edexcel November 2021 · Paper 2B",
+   "year": 2021,
+   "series": "November",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2021-11-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-11-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-06-1b",
+   "title": "Edexcel June 2021 · Paper 1B",
+   "year": 2021,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2021-06-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-06-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-06-2b",
+   "title": "Edexcel June 2021 · Paper 2B",
+   "year": 2021,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2021-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-01-1b",
+   "title": "Edexcel January 2021 · Paper 1B",
+   "year": 2021,
+   "series": "January",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2021-01-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-01-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-01-1br",
+   "title": "Edexcel January 2021 · Paper 1BR",
+   "year": 2021,
+   "series": "January",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2021-01-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-01-1br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-01-2b",
+   "title": "Edexcel January 2021 · Paper 2B",
+   "year": 2021,
+   "series": "January",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2021-01-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-01-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2021-01-2br",
+   "title": "Edexcel January 2021 · Paper 2BR",
+   "year": 2021,
+   "series": "January",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2021-01-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2021-01-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2020-06-2b",
+   "title": "Edexcel June 2020 · Paper 2B",
+   "year": 2020,
+   "series": "June",
+   "paper": "2B",
+   "paperFile": "papers/biology/4bi1-2020-06-2b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2020-06-2b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2020-06-2br",
+   "title": "Edexcel June 2020 · Paper 2BR",
+   "year": 2020,
+   "series": "June",
+   "paper": "2BR",
+   "paperFile": "papers/biology/4bi1-2020-06-2br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2020-06-2br-ms.pdf"
+  },
+  {
+   "id": "4bi1-2020-05-1b",
+   "title": "Edexcel June 2020 · Paper 1B",
+   "year": 2020,
+   "series": "June",
+   "paper": "1B",
+   "paperFile": "papers/biology/4bi1-2020-05-1b-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2020-05-1b-ms.pdf"
+  },
+  {
+   "id": "4bi1-2020-05-1br",
+   "title": "Edexcel June 2020 · Paper 1BR",
+   "year": 2020,
+   "series": "June",
+   "paper": "1BR",
+   "paperFile": "papers/biology/4bi1-2020-05-1br-qp.pdf",
+   "markSchemeFile": "papers/biology/4bi1-2020-05-1br-ms.pdf"
+  }
+ ]
+}

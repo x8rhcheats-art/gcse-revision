@@ -142,6 +142,63 @@
        "equations": [],
        "definitions": [],
        "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/the-biological-molecules",
+       "heading": "The biological molecules",
+       "html": "<p class=\"asked\">Spec 2.7, 2.8</p><p><strong>Carbohydrates, proteins and lipids are all large molecules built from smaller units, and digestion is taking them apart again.</strong></p><table>\n<tbody><tr><th>Molecule</th><th>Elements</th><th>Built from</th><th>Examples</th></tr>\n<tr><td><strong>Carbohydrate</strong></td><td>Carbon, hydrogen, oxygen</td><td><strong>Simple sugars</strong> such as glucose</td><td>Starch, glycogen, cellulose, maltose, sucrose</td></tr>\n<tr><td><strong>Protein</strong></td><td>Carbon, hydrogen, oxygen and <strong>nitrogen</strong> (and sulfur)</td><td><strong>Amino acids</strong></td><td>Enzymes, haemoglobin, antibodies</td></tr>\n<tr><td><strong>Lipid</strong></td><td>Carbon, hydrogen, oxygen</td><td>Three <strong>fatty acids</strong> joined to one <strong>glycerol</strong></td><td>Fats (solid), oils (liquid)</td></tr>\n</tbody></table><p>Nitrogen is the element that separates protein from the other two. That is why plants need <strong>nitrate</strong> to make amino acids, and why urea — the waste left from breaking amino acids down — contains nitrogen.</p><p>Starch, glycogen and cellulose are all built from glucose units joined up differently: <strong>starch</strong> stores glucose in plants, <strong>glycogen</strong> stores it in animals and fungi, and <strong>cellulose</strong> builds plant cell walls.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/the-four-food-tests",
+       "heading": "The four food tests",
+       "html": "<p class=\"asked\">Spec 2.9 · <strong>2025 Edexcel 1B Q2</strong> · <strong>2024 Edexcel 2B Q6(a)(ii)</strong> · <strong>2022 Edexcel 2B Q5(c)</strong></p><p><strong>Each test has a reagent, a condition and a colour change, and the marks are usually for all three.</strong></p><table>\n<tbody><tr><th>Food</th><th>Reagent</th><th>Method</th><th>Positive result</th></tr>\n<tr><td><strong>Starch</strong></td><td>Iodine solution</td><td>Add a few drops</td><td>Orange-brown → <strong>blue-black</strong></td></tr>\n<tr><td><strong>Glucose</strong></td><td><strong>Benedict's</strong> solution</td><td>Add, then <strong>heat</strong> in a water bath at 60–70 °C</td><td>Blue → green → yellow → <strong>brick red</strong></td></tr>\n<tr><td><strong>Protein</strong></td><td><strong>Biuret</strong> solution</td><td>Add; no heating needed</td><td>Blue → <strong>purple</strong></td></tr>\n<tr><td><strong>Lipid</strong></td><td><strong>Ethanol</strong>, then water</td><td>Shake the sample with ethanol, then pour into water</td><td>Clear → <strong>milky white emulsion</strong></td></tr>\n</tbody></table><p>Benedict's is the only one that needs heating, and it is the only one that is semi-quantitative: the final colour tells you <strong>how much</strong> sugar there was, which is what the 2025 flavoured-water question turned on. A solid food has to be <strong>ground up and mixed with water</strong> first, so the molecules are in solution.</p><div class=\"panel\">\n<h4>The energy-content practical</h4>\n<p>Burn a known <strong>mass</strong> of food under a tube holding a known <strong>volume of water</strong>, and measure the temperature rise.</p>\n<div class=\"eq\" data-item-id=\"01-enzymes/eq/energy-transferred-to-the-water\"><span class=\"name\">Energy transferred to the water</span>energy (J) = mass of water (g) × 4.2 × temperature rise (°C)</div>\n<p>Divide by the mass of food for the energy per gram. The result always <strong>underestimates</strong>, because heat is lost to the air and the tube, and not all of the food burns.</p>\n</div>",
+       "equations": [
+        {
+         "itemId": "01-enzymes/eq/energy-transferred-to-the-water",
+         "name": "Energy transferred to the water",
+         "formula": "energy (J) = mass of water (g) × 4.2 × temperature rise (°C)",
+         "mustMemorise": false,
+         "onFormulaSheet": false,
+         "symbolKey": null
+        }
+       ],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/a-balanced-diet",
+       "heading": "A balanced diet",
+       "html": "<p class=\"asked\">Spec 2.24, 2.25, 2.26 · <strong>2022 Edexcel 1B Q7(b)</strong> · <strong>2024 Edexcel 2B Q6(a)(iii)</strong></p><p><strong>A balanced diet contains all seven components — carbohydrate, protein, lipid, vitamins, minerals, water and dietary fibre — in the right proportions for that person.</strong></p><table>\n<tbody><tr><th>Component</th><th>Function</th><th>Shortage causes</th></tr>\n<tr><td><strong>Carbohydrate</strong></td><td>The main source of <strong>energy</strong></td><td>Tiredness, weight loss</td></tr>\n<tr><td><strong>Protein</strong></td><td><strong>Growth and repair</strong> of cells and tissues</td><td>Poor growth</td></tr>\n<tr><td><strong>Lipid</strong></td><td>An energy store, <strong>insulation</strong>, and making cell membranes</td><td>Poor insulation</td></tr>\n<tr><td><strong>Vitamin A</strong></td><td>Making the pigment needed for <strong>vision in dim light</strong></td><td>Night blindness</td></tr>\n<tr><td><strong>Vitamin C</strong></td><td>Keeping <strong>connective tissue</strong>, skin and gums healthy</td><td><strong>Scurvy</strong></td></tr>\n<tr><td><strong>Vitamin D</strong></td><td>Helps the gut <strong>absorb calcium</strong></td><td><strong>Rickets</strong> — soft, bent bones</td></tr>\n<tr><td><strong>Calcium</strong></td><td>Strong <strong>bones and teeth</strong></td><td>Weak bones and teeth</td></tr>\n<tr><td><strong>Iron</strong></td><td>Making <strong>haemoglobin</strong></td><td><strong>Anaemia</strong></td></tr>\n<tr><td><strong>Water</strong></td><td>The solvent reactions happen in, and transport in blood</td><td>Dehydration</td></tr>\n<tr><td><strong>Dietary fibre</strong></td><td>Gives the gut muscles something to grip, so food keeps moving</td><td>Constipation</td></tr>\n</tbody></table><p>Water and fibre supply <strong>no energy</strong>, and they are the two that get forgotten when a question asks for \"a component not shown in the table\".</p><p>How much energy a person needs <strong>varies</strong>. It rises with <strong>activity level</strong>; it rises through childhood to adulthood and then falls with <strong>age</strong>; and it rises in <strong>pregnancy</strong>, to grow the fetus and carry the extra mass.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/the-alimentary-canal-in-order",
+       "heading": "The alimentary canal, in order",
+       "html": "<p class=\"asked\">Spec 2.27, 2.28 · <strong>2025 Edexcel 1BR Q4</strong> · <strong>2024 Edexcel 1BR Q4</strong> · <strong>2022 Edexcel 1BR Q6(a)</strong></p><p><strong>Mouth → oesophagus → stomach → small intestine → large intestine → anus, with the pancreas, liver and gall bladder attached alongside.</strong></p><table>\n<tbody><tr><th>Part</th><th>What happens there</th></tr>\n<tr><td><strong>Mouth</strong></td><td>Teeth break food up — <strong>more surface area</strong> for enzymes. Salivary glands add <strong>amylase</strong> and lubricate the food</td></tr>\n<tr><td><strong>Oesophagus</strong></td><td>Carries food to the stomach by <strong>peristalsis</strong></td></tr>\n<tr><td><strong>Stomach</strong></td><td>Churns food; <strong>hydrochloric acid</strong> kills bacteria and gives <strong>pepsin</strong> its pH 2 optimum</td></tr>\n<tr><td><strong>Small intestine</strong> — <strong>duodenum</strong></td><td>Receives <strong>bile</strong> from the gall bladder and enzymes from the <strong>pancreas</strong>; most digestion finishes here</td></tr>\n<tr><td><strong>Small intestine</strong> — <strong>ileum</strong></td><td><strong>Absorption</strong> of the small soluble products, through the villi</td></tr>\n<tr><td><strong>Large intestine</strong> — <strong>colon</strong></td><td><strong>Water is absorbed</strong> back into the blood</td></tr>\n<tr><td><strong>Large intestine</strong> — <strong>rectum</strong></td><td>Stores faeces until they leave through the <strong>anus</strong></td></tr>\n<tr><td><strong>Pancreas</strong></td><td>Makes <strong>amylase, protease and lipase</strong> and releases them into the duodenum</td></tr>\n<tr><td><strong>Liver</strong></td><td>Makes <strong>bile</strong>; the gall bladder stores it</td></tr>\n</tbody></table><p><strong>Peristalsis</strong> is waves of muscle contraction in the gut wall: circular muscle contracts behind the food and relaxes in front, squeezing it along in one direction. Fibre makes it work by giving the muscle something to push against.</p><div class=\"panel\">\n<h4>The five words, in order</h4>\n<p><strong>Ingestion</strong> — taking food into the body through the mouth.</p>\n<p><strong>Digestion</strong> — breaking large insoluble molecules into small soluble ones.</p>\n<p><strong>Absorption</strong> — the small soluble molecules passing through the gut wall into the blood.</p>\n<p><strong>Assimilation</strong> — the cells taking them in and <strong>using</strong> them.</p>\n<p><strong>Egestion</strong> — removing the <strong>undigested</strong> food as faeces. This is not excretion: faeces were never part of the body's metabolism.</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/bile-the-two-jobs",
+       "heading": "Bile — the two jobs",
+       "html": "<p class=\"asked\">Spec 2.30</p><p><strong>Bile is made in the liver, stored in the gall bladder and released into the duodenum. It contains no enzymes.</strong></p><ol>\n<li>It is <strong>alkaline</strong>, so it <strong>neutralises the hydrochloric acid</strong> from the stomach, raising the pH to about 8 — the optimum for the pancreatic enzymes.</li>\n<li>It <strong>emulsifies lipids</strong>: it breaks large fat droplets into many small ones. That does not digest them, but it gives a much <strong>larger surface area</strong> for <strong>lipase</strong> to work on, so digestion is faster.</li>\n</ol><div class=\"trap\">\n<p>✗ \"Bile digests fat.\" — Bile has no enzymes. <strong>Lipase</strong> digests fat; bile only makes the job faster.<br>\n✓ \"Bile <strong>emulsifies</strong> the fat into smaller droplets, giving a <strong>larger surface area</strong> for lipase, so lipids are digested faster.\"</p>\n</div><p>This is why blocking the duct from the pancreas or gall bladder shows up in a question as poor digestion of fat and protein, and so poor absorption and poor growth.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "01-enzymes/teach/the-villus-built-for-absorption",
+       "heading": "The villus — built for absorption",
+       "html": "<p class=\"asked\">Spec 2.31</p><p><strong>The ileum is lined with millions of finger-like villi, each adapted to absorb the products of digestion quickly.</strong></p><ul>\n<li><strong>Many villi, each covered in microvilli</strong> — a very <strong>large surface area</strong>.</li>\n<li><strong>A wall one cell thick</strong> — a <strong>short diffusion distance</strong> into the blood.</li>\n<li><strong>A dense network of capillaries</strong> — carries the absorbed molecules away, keeping the <strong>concentration gradient steep</strong>.</li>\n<li>A <strong>lacteal</strong> in the centre takes away the products of fat digestion.</li>\n</ul><p>Glucose and amino acids cross into the blood by <strong>diffusion</strong>, and by <strong>active transport</strong> when the gut concentration is already lower than the blood's. The three bullets — surface area, thin wall, good blood supply — are the same three that explain alveoli and the placenta, so the answer transfers.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
       }
      ]
     },
@@ -811,6 +868,56 @@
        "heading": "Mineral ions",
        "html": "<p class=\"asked\">Spec 2.22 · <strong>2024 Edexcel 1B Q9</strong> · <strong>2024 Y11 mock Q4(e)</strong></p><p><strong>Plants make most of what they need from glucose, but two ions from the soil are essential.</strong></p><table>\n<tbody><tr><th>Ion</th><th>Needed for</th><th>Without it</th></tr>\n<tr><td><strong>Magnesium</strong></td><td>Making <strong>chlorophyll</strong></td><td>Yellow leaves</td></tr>\n<tr><td><strong>Nitrate</strong></td><td>Making <strong>amino acids</strong>, and so proteins</td><td>Stunted growth, yellow older leaves</td></tr>\n</tbody></table><p>The practical grows identical seedlings in solutions each missing one ion, with a complete solution as the <strong>control</strong>. Measure growth by <strong>mass</strong> or height, and note leaf colour.</p>",
        "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "02-photosynthesis/teach/diffusion-osmosis-and-active-transport",
+       "heading": "Diffusion, osmosis and active transport",
+       "html": "<p class=\"asked\">Spec 2.15, 2.17</p><p><strong>Substances cross a cell membrane in three ways, and each question wants the right name with the right detail.</strong></p><table>\n<tbody><tr><th>Process</th><th>What moves</th><th>Which way</th><th>Energy?</th></tr>\n<tr><td><strong>Diffusion</strong></td><td>Any small molecule or ion — oxygen, carbon dioxide, glucose</td><td><strong>Down</strong> the concentration gradient, high to low</td><td>No — passive</td></tr>\n<tr><td><strong>Osmosis</strong></td><td><strong>Water only</strong>, through a <strong>partially permeable</strong> membrane</td><td>From the <strong>more dilute</strong> to the <strong>more concentrated</strong> solution</td><td>No — passive</td></tr>\n<tr><td><strong>Active transport</strong></td><td>Ions and molecules the cell needs — nitrate, glucose</td><td><strong>Against</strong> the gradient, low to high</td><td><strong>Yes</strong> — from respiration</td></tr>\n</tbody></table><p>Osmosis is really the diffusion of water, which is why the two get blurred. The marks for the difference are: osmosis moves <strong>water</strong>, and it needs a <strong>partially permeable membrane</strong>.</p><p>Four things make any of them faster:</p><ul>\n<li>A <strong>steeper concentration gradient</strong> — a bigger difference to move down.</li>\n<li>A <strong>higher temperature</strong> — particles have more kinetic energy and move faster.</li>\n<li>A <strong>larger surface area</strong> — more membrane to cross.</li>\n<li>A <strong>shorter distance</strong> — a thinner barrier to cross.</li>\n</ul><p>That is why <strong>surface area to volume ratio</strong> matters. A small organism has a large ratio, so diffusion across its surface supplies everything it needs. As an organism gets bigger, volume grows faster than surface area, the ratio <strong>falls</strong>, and diffusion can no longer keep up — so large organisms need lungs, a gut lined with villi and a blood system to do the job instead.</p><div class=\"trap\">\n<p>✗ \"Water moves from high to low concentration.\" — Concentration of <strong>what</strong>? The sentence is ambiguous and scores nothing.<br>\n✓ \"Osmosis is the movement of <strong>water</strong> from a <strong>dilute</strong> solution to a <strong>concentrated</strong> solution, through a <strong>partially permeable membrane</strong>.\"</p>\n</div>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "02-photosynthesis/teach/osmosis-in-cells-and-the-potato-practical",
+       "heading": "Osmosis in cells, and the potato practical",
+       "html": "<p class=\"asked\">Spec 2.16 · <strong>2022 Edexcel 1B Q6</strong> · <strong>2023 Edexcel 1B Q3(c)</strong> · <strong>2023 Edexcel Jan 1B Q6</strong></p><p><strong>A plant cell in water swells but is held together by its cell wall; an animal cell has no wall, so it bursts.</strong></p><table>\n<tbody><tr><th>Cell</th><th>In water or a dilute solution</th><th>In a concentrated solution</th></tr>\n<tr><td><strong>Plant cell</strong></td><td>Water enters the vacuole, the cell swells and becomes <strong>turgid</strong>; the <strong>cell wall</strong> stops it bursting</td><td>Water leaves, the cell goes limp (<strong>flaccid</strong>), then the membrane pulls away from the wall — <strong>plasmolysed</strong></td></tr>\n<tr><td><strong>Animal cell</strong>, e.g. a red blood cell</td><td>Water enters and the cell <strong>bursts</strong> — there is no cell wall to resist the pressure</td><td>Water leaves and the cell <strong>shrinks and crinkles</strong></td></tr>\n</tbody></table><p>It is the cell wall, not the membrane, that does the resisting — the membrane is partially permeable in both cases. This also answers why cells being stored are put into a salt and sugar solution of the <strong>same concentration</strong> as their contents rather than into pure water: in pure water they would take in water by osmosis and burst.</p><div class=\"panel\">\n<h4>The potato-cylinder practical</h4>\n<p>Cut cylinders of potato of the <strong>same length</strong>, blot them dry and weigh each one. Put one in each of a range of <strong>sucrose concentrations</strong>, with distilled water as the control, for a fixed time. Blot dry and reweigh.</p>\n<div class=\"eq\" data-item-id=\"02-photosynthesis/eq/percentage-change-in-mass\"><span class=\"name\">Percentage change in mass</span>change (%) = ((final mass − initial mass) ÷ initial mass) × 100</div>\n<p>Dilute solutions give a <strong>gain</strong> in mass, concentrated solutions a <strong>loss</strong>, and the concentration where the change is <strong>zero</strong> is the one that matches the cell contents. Percentage change is used rather than grams because the cylinders never start at exactly the same mass.</p>\n</div>",
+       "equations": [
+        {
+         "itemId": "02-photosynthesis/eq/percentage-change-in-mass",
+         "name": "Percentage change in mass",
+         "formula": "change (%) = ((final mass − initial mass) ÷ initial mass) × 100",
+         "mustMemorise": false,
+         "onFormulaSheet": false,
+         "symbolKey": null
+        }
+       ],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "02-photosynthesis/teach/xylem-and-phloem",
+       "heading": "Xylem and phloem",
+       "html": "<p class=\"asked\">Spec 2.53, 2.54 · <strong>2025 Edexcel 1B Q4(a)(i)</strong> · <strong>2025 Edexcel 2B Q5(a)</strong></p><p><strong>Xylem carries water and mineral ions up from the roots; phloem carries sucrose and amino acids to wherever the plant needs them.</strong></p><table>\n<tbody><tr><th></th><th>Xylem</th><th>Phloem</th></tr>\n<tr><td>Carries</td><td><strong>Water</strong> and <strong>mineral ions</strong></td><td><strong>Sucrose</strong> and <strong>amino acids</strong></td></tr>\n<tr><td>Direction</td><td><strong>Upwards only</strong> — roots to leaves</td><td><strong>Either way</strong> — leaves to roots, fruits or growing tips. This is <strong>translocation</strong></td></tr>\n<tr><td>Cells</td><td>Dead and hollow, stacked into tubes, walls strengthened with lignin</td><td>Living cells with pores between them</td></tr>\n</tbody></table><p>The two run together in <strong>vascular bundles</strong>: in the <strong>root</strong> they sit in the centre, in the <strong>stem</strong> in a ring near the outside, and in the <strong>leaf</strong> they form the veins, with the <strong>xylem on the upper side</strong> of the vein and the phloem below it.</p><p>Water enters through <strong>root hair cells</strong>, which are long and narrow to give a <strong>large surface area</strong> for osmosis, and are packed with mitochondria to supply the energy for taking up mineral ions by <strong>active transport</strong> against the gradient. It is also why aphids feeding on phloem cut a farmer's yield: they take the sugars the plant needed for growth.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "02-photosynthesis/teach/transpiration-the-factors-and-the-potometer",
+       "heading": "Transpiration — the factors and the potometer",
+       "html": "<p class=\"asked\">Spec 2.55B–2.58B · <strong>2025 Edexcel 2B Q5(b)</strong> · <strong>2024 Edexcel 2B Q2</strong> · <strong>2023 Edexcel 2B Q2</strong></p><p><strong>Water evaporates from the leaf and diffuses out through the stomata, and the loss pulls more water up the xylem behind it.</strong></p><table>\n<tbody><tr><th>Change</th><th>Rate</th><th>Why</th></tr>\n<tr><td>Higher <strong>temperature</strong></td><td>Faster</td><td>Water evaporates faster inside the leaf and the vapour diffuses out faster</td></tr>\n<tr><td>Lower <strong>humidity</strong></td><td>Faster</td><td>Drier air gives a <strong>steeper water-vapour gradient</strong> out of the stomata</td></tr>\n<tr><td>More <strong>wind</strong></td><td>Faster</td><td>Moving air blows away the humid layer at the leaf surface, keeping the gradient steep</td></tr>\n<tr><td>Brighter <strong>light</strong></td><td>Faster</td><td>The stomata <strong>open wider</strong> for photosynthesis, so more water vapour escapes</td></tr>\n</tbody></table><p>Light is the indirect one: light does not evaporate the water, it opens the stomata. In the dark the stomata close and transpiration almost stops. A desert plant has <strong>fewer, smaller stomata</strong> and a thick waxy cuticle, so its rate stays low whatever you do to the conditions.</p><div class=\"panel\">\n<h4>The potometer</h4>\n<p>A cut leafy shoot is sealed into a water-filled tube with an <strong>air bubble</strong> in a capillary tube. The distance the bubble moves in a measured time gives the <strong>water uptake</strong>, which is taken as the rate of transpiration.</p>\n<div class=\"eq\" data-item-id=\"02-photosynthesis/eq/volume-of-water-taken-up\"><span class=\"name\">Volume of water taken up</span>volume = π × r² × l<span class=\"sym\">r = radius of the capillary tube · l = distance the bubble moved</span></div>\n<p>Change <strong>one</strong> factor at a time — a fan for wind, a lamp for light, a bag over the shoot for humidity — and keep the rest constant. Water uptake is slightly greater than water lost, because some water is used in photosynthesis and to keep the cells turgid.</p>\n</div>",
+       "equations": [
+        {
+         "itemId": "02-photosynthesis/eq/volume-of-water-taken-up",
+         "name": "Volume of water taken up",
+         "formula": "volume = π × r² × l",
+         "mustMemorise": false,
+         "onFormulaSheet": false,
+         "symbolKey": "r = radius of the capillary tube · l = distance the bubble moved"
+        }
+       ],
        "definitions": [],
        "traps": []
       }
@@ -2704,6 +2811,14 @@
        "itemId": "05-heart-circulation-and-blood/teach/platelets-and-clotting",
        "heading": "Platelets and clotting",
        "html": "<p class=\"asked\">Spec 2.64B · <strong>2022 Jan Edexcel 2B Q1(e)</strong></p><p><strong>Platelets start the clotting process, which stops blood loss and keeps microorganisms out.</strong></p><ol>\n<li>At a wound, <strong>platelets</strong> trigger a series of reactions.</li>\n<li>Soluble <strong>fibrinogen</strong> is turned into insoluble <strong>fibrin</strong>.</li>\n<li>Fibrin forms a <strong>mesh</strong> that traps red blood cells, making a <strong>clot</strong>.</li>\n<li>The clot dries into a scab.</li>\n</ol><p>Two reasons it matters, and the spec names both: it <strong>prevents blood loss</strong>, and it <strong>stops microorganisms entering</strong>. Artificial blood with <strong>no platelets</strong> could not clot — the point one real paper tested.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "05-heart-circulation-and-blood/teach/pathogens-and-the-diseases-to-name",
+       "heading": "Pathogens and the diseases to name",
+       "html": "<p class=\"asked\">Spec 1.3 · <strong>2023 Edexcel 1B Q1(a)(ii)</strong></p><p><strong>A pathogen is a microorganism that causes disease, and it can come from any of four groups — viruses, bacteria, protoctists or fungi.</strong></p><table>\n<tbody><tr><th>Group</th><th>Pathogen</th><th>Disease</th></tr>\n<tr><td><strong>Virus</strong></td><td>Influenza virus</td><td>Flu</td></tr>\n<tr><td><strong>Virus</strong></td><td><strong>HIV</strong></td><td>AIDS — it infects <strong>lymphocytes</strong>, so the immune response above breaks down</td></tr>\n<tr><td><strong>Virus</strong></td><td>Tobacco mosaic virus</td><td>Mosaic discolouring of the leaves of plants</td></tr>\n<tr><td><strong>Bacterium</strong></td><td><em>Pneumococcus</em></td><td>Pneumonia</td></tr>\n<tr><td><strong>Protoctist</strong></td><td><em>Plasmodium</em></td><td><strong>Malaria</strong>, spread by mosquitoes</td></tr>\n<tr><td><strong>Fungus</strong></td><td><em>Candida</em></td><td>Thrush</td></tr>\n</tbody></table><p>Not every microorganism is a pathogen — <em>Lactobacillus</em> makes yoghurt and <em>Chlorella</em> photosynthesises. A question that asks which organism causes a <strong>bacterial</strong> disease is testing the group as well as the disease, so the answer has to be a named bacterium and not simply any microorganism.</p>",
        "equations": [],
        "definitions": [],
        "traps": []
@@ -5233,6 +5348,30 @@
        "equations": [],
        "definitions": [],
        "traps": []
+      },
+      {
+       "itemId": "09-ecology-and-the-environment/teach/the-characteristics-all-living-organisms-share",
+       "heading": "The characteristics all living organisms share",
+       "html": "<p class=\"asked\">Spec 1.1 · <strong>2023 Edexcel 1B Q1(a)(i)</strong></p><p><strong>Living organisms all carry out the same eight processes, and a question asking for characteristics they share wants any two of them, named.</strong></p><ul>\n<li><strong>Nutrition</strong> — taking in nutrients as a source of energy and raw materials.</li>\n<li><strong>Respiration</strong> — releasing energy from those nutrients inside cells.</li>\n<li><strong>Excretion</strong> — removing the waste products of metabolism.</li>\n<li><strong>Growth and development</strong> — a permanent increase in size, and becoming more complex.</li>\n<li><strong>Movement</strong> — a change in position or place.</li>\n<li><strong>Reproduction</strong> — making more of the same kind of organism.</li>\n<li><strong>Sensitivity</strong> — detecting and responding to changes in the surroundings.</li>\n<li><strong>Control of internal conditions</strong> — holding the inside of the body steady, which is homeostasis.</li>\n</ul><p>They are also all made of <strong>cells</strong>, and they all contain <strong>DNA</strong>. \"They are alive\" and \"they need water\" score nothing.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "09-ecology-and-the-environment/teach/the-five-groups-of-living-organisms",
+       "heading": "The five groups of living organisms",
+       "html": "<p class=\"asked\">Spec 1.2 · <strong>2025 Edexcel 1B Q1(a)</strong> · <strong>2022 Edexcel 1B Q2(a)</strong> · <strong>2022 Edexcel 2B Q3(a)</strong></p><p><strong>Each group is pinned down by three things: what its cell walls are made of, how it feeds, and how it stores carbohydrate.</strong></p><table>\n<tbody><tr><th>Group</th><th>Cells</th><th>Feeding</th><th>Stores carbohydrate as</th><th>Examples</th></tr>\n<tr><td><strong>Plants</strong></td><td>Cell wall of <strong>cellulose</strong>; chloroplasts; nucleus</td><td><strong>Photosynthesis</strong></td><td><strong>Starch</strong>, and sucrose</td><td>Maize, pea plant</td></tr>\n<tr><td><strong>Animals</strong></td><td><strong>No</strong> cell wall; no chloroplasts; nucleus</td><td>Eat other organisms; they move, and have <strong>nervous coordination</strong></td><td><strong>Glycogen</strong></td><td>Humans (a mammal), housefly (an insect)</td></tr>\n<tr><td><strong>Fungi</strong></td><td>Cell wall of <strong>chitin</strong>; often a body called a <strong>mycelium</strong> built from threads called <strong>hyphae</strong>, with many nuclei</td><td><strong>Saprotrophic</strong> — secrete enzymes onto food outside the body, then absorb the products</td><td><strong>Glycogen</strong></td><td><em>Mucor</em> (has a mycelium), yeast (single-celled)</td></tr>\n<tr><td><strong>Protoctists</strong></td><td>Single cells with a nucleus; some have chloroplasts</td><td>Some photosynthesise, some feed like animals</td><td>Varies</td><td><em>Chlorella</em> (plant-like), <em>Amoeba</em> (animal-like), <em>Plasmodium</em></td></tr>\n<tr><td><strong>Bacteria</strong></td><td>Cell wall (<strong>not</strong> cellulose), cytoplasm and a membrane, but <strong>no nucleus</strong> — the DNA is loose in the cytoplasm, with plasmids</td><td>Most feed on other organisms, living or dead; a few photosynthesise</td><td>—</td><td><em>Lactobacillus</em> (rod-shaped, used for yoghurt), <em>Pneumococcus</em> (spherical)</td></tr>\n</tbody></table><p>The multiple-choice questions nearly always turn on one of these: <strong>only plants have cellulose cell walls</strong>, <strong>only bacteria have no nucleus</strong>, and <strong>fungi and animals both store glycogen</strong>. Fungi and bacteria share a cell wall and cytoplasm but not a nucleus — which is exactly how \"sewage fungus\" was shown not to be a fungus.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "09-ecology-and-the-environment/teach/viruses-not-living",
+       "heading": "Viruses — not living",
+       "html": "<p class=\"asked\">Spec 1.2 · <strong>2023 Edexcel 1B Q1(b)</strong></p><p><strong>A virus is a protein coat around a strand of DNA or RNA. It has no cytoplasm, no nucleus and no membrane of its own.</strong></p><p>Viruses belong to none of the five groups and are not counted as living, because on their own they cannot respire, grow, excrete or reproduce. They are <strong>parasitic</strong>: they can only reproduce <strong>inside a host cell</strong>, which they then destroy.</p><p>Three are worth naming. The <strong>influenza virus</strong> causes flu. <strong>HIV</strong> infects lymphocytes and leads to AIDS. The <strong>tobacco mosaic virus</strong> infects plants and discolours the leaves in a mosaic pattern — less chlorophyll, so less photosynthesis and stunted growth.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
       }
      ]
     },
@@ -7621,6 +7760,30 @@
        "itemId": "13-cell-division-and-human-reproduction/teach/the-placenta-and-amniotic-fluid",
        "heading": "The placenta and amniotic fluid",
        "html": "<p class=\"asked\">Spec 3.11, 3.12 · <strong>2024 Edexcel 2B Q4(b)</strong></p><p><strong>The placenta lets food and oxygen diffuse from mother to fetus and waste diffuse back, without the two bloods mixing; the amniotic fluid cushions the fetus.</strong></p><ul>\n<li><strong>Into the fetus:</strong> <strong>glucose, amino acids, oxygen</strong>, also minerals, vitamins and antibodies.</li>\n<li><strong>Out of the fetus:</strong> <strong>carbon dioxide</strong> and <strong>urea</strong>.</li>\n<li><strong>Adapted by:</strong> a <strong>large surface area</strong> (villi), a <strong>thin</strong> barrier, and a good blood supply on both sides to keep the concentration gradients steep.</li>\n<li>The <strong>umbilical cord</strong> joins the fetus to the placenta.</li>\n<li>The <strong>amniotic fluid</strong>, inside the amnion, protects the fetus from <strong>bumps and physical damage</strong>.</li>\n</ul><p>Harmful substances cross too — <strong>carbon monoxide</strong> and nicotine from smoking, alcohol, some viruses. That is why the 2024 data showed smokers' babies gaining less mass (module 12).</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/levels-of-organisation",
+       "heading": "Levels of organisation",
+       "html": "<p class=\"asked\">Spec 2.1 · <strong>2025 Edexcel 1B Q1(c)</strong></p><p><strong>Organelle → cell → tissue → organ → organ system → organism, with each level built from the one before it.</strong></p><table>\n<tbody><tr><th>Level</th><th>What it is</th><th>Example</th></tr>\n<tr><td><strong>Organelle</strong></td><td>A <strong>structure inside a cell</strong> with a <strong>specific function</strong></td><td>Nucleus, mitochondrion, chloroplast, ribosome</td></tr>\n<tr><td><strong>Cell</strong></td><td>The basic unit a living organism is built from</td><td>A palisade cell, a red blood cell</td></tr>\n<tr><td><strong>Tissue</strong></td><td>A group of <strong>similar cells</strong> working together on the same function</td><td>Muscle tissue, xylem</td></tr>\n<tr><td><strong>Organ</strong></td><td>A group of <strong>different tissues</strong> working together</td><td>Heart, leaf, kidney</td></tr>\n<tr><td><strong>Organ system</strong></td><td>A group of organs working together</td><td>Circulatory system, digestive system</td></tr>\n</tbody></table><p>The definition of an <strong>organelle</strong> is the one-mark answer that most often gets lost: a <strong>structure inside a cell</strong> that carries out a <strong>particular job</strong>. \"A part of a cell\" is not enough, and a whole cell is not an organelle.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/specialised-cells-and-differentiation",
+       "heading": "Specialised cells and differentiation",
+       "html": "<p class=\"asked\">Spec 2.5B</p><p><strong>Cells become specialised by differentiation — gaining the structures that suit them to one job.</strong></p><ul>\n<li><strong>Sperm cell</strong> — a tail to swim with, many <strong>mitochondria</strong> to supply the energy for swimming, and enzymes in the head to digest into the egg.</li>\n<li><strong>Red blood cell</strong> — <strong>no nucleus</strong>, so it is packed with haemoglobin, and a biconcave shape for surface area.</li>\n<li><strong>Nerve cell</strong> — very long, to carry an impulse a long way in one cell.</li>\n<li><strong>Root hair cell</strong> — a long thin projection for surface area, and mitochondria for active transport of mineral ions.</li>\n<li><strong>Palisade cell</strong> — packed with chloroplasts and placed at the top of the leaf, where the light is.</li>\n</ul><p>Every answer takes the same shape: name the <strong>structure</strong>, then say what it <strong>lets the cell do</strong>. A structure on its own scores nothing.</p>",
+       "equations": [],
+       "definitions": [],
+       "traps": []
+      },
+      {
+       "itemId": "13-cell-division-and-human-reproduction/teach/stem-cells",
+       "heading": "Stem cells",
+       "html": "<p class=\"asked\">Spec 2.6B · <strong>2023 Edexcel Nov 2B Q6(a)</strong> · <strong>2024 Edexcel Nov 2B Q3(a)</strong></p><p><strong>A stem cell is an unspecialised cell that can divide by mitosis and then differentiate into other types of cell.</strong></p><ul>\n<li><strong>Embryonic</strong> stem cells can become <strong>any</strong> type of cell.</li>\n<li><strong>Adult</strong> stem cells can become only a <strong>limited range</strong> — the ones in bone marrow give the different kinds of blood cell, and nothing else.</li>\n<li><strong>Plants</strong> keep stem cells in their growing tips all their lives, which is why cuttings and micropropagation work.</li>\n</ul><p>In medicine they are used to replace cells a patient cannot make, as in a bone marrow transplant for a blood disorder. Using the patient's <strong>own</strong> stem cells avoids <strong>rejection</strong> by the immune system, which is the advantage questions ask for. Embryonic stem cells can do more, but obtaining them destroys an embryo — so questions ask for the two sides weighed up, not for one to be picked.</p>",
        "equations": [],
        "definitions": [],
        "traps": []

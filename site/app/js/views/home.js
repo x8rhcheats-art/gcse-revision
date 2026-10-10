@@ -100,7 +100,8 @@ export function renderHome() {
 
   // papers — only what this subject actually has
   const official = ((subj.officialPapers || {}).papers || []);
-  const hasPapers = content.diagnostic || content.mocks.length || content.pastPapers.length || official.length;
+  const board = ((subj.boardPapers || {}).papers || []);
+  const hasPapers = content.diagnostic || content.mocks.length || content.pastPapers.length || official.length || board.length;
   const papers = el('section', {}, el('h2', {}, el('span', { class: 'num' }, 'Papers'),
     content.diagnostic ? 'Diagnostic and mocks' : 'Mocks and past papers'));
   if (content.diagnostic) {
@@ -135,8 +136,19 @@ export function renderHome() {
         ? `sat ${shortDate(att.at)} · ${att.totalScore}/${att.totalMarks}`
         : `${paper.totalMarks} marks`)));
   }
-  // the board's real papers — what Year 11 is building towards
-  if (official.length) {
+  // the board's own papers, downloaded in full — question paper and mark scheme
+  if (board.length) {
+    const years = board.map(p => p.year);
+    papers.append(el('h3', {}, 'Past papers from the exam board'));
+    papers.append(el('a', { class: 'rowlink', href: '#/official' },
+      el('span', {},
+        el('span', { class: 't' }, 'Board past papers'),
+        el('br'),
+        el('span', { class: 'd' }, `Every paper ${Math.min(...years)}–${Math.max(...years)}, with its mark scheme — open, print or sit timed`)),
+      el('span', { class: 'r' }, `${board.length} papers`)));
+  }
+  // older link-only list, where a subject still has one and no local copies
+  if (official.length && !board.length) {
     papers.append(el('h3', {}, 'Year 11 — real Edexcel exams'));
     const years = official.filter(p => p.month).map(p => p.year);
     papers.append(el('a', { class: 'rowlink', href: '#/official' },

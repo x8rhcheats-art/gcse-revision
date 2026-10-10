@@ -192,6 +192,373 @@
      }
     ]
    },
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/physics/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "4ph1-2025-06-1p",
+      "title": "Edexcel June 2025 · Paper 1P",
+      "year": 2025,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2025-06-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2025-06-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2025-06-1pr",
+      "title": "Edexcel June 2025 · Paper 1PR",
+      "year": 2025,
+      "series": "June",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2025-06-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2025-06-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2025-06-2p",
+      "title": "Edexcel June 2025 · Paper 2P",
+      "year": 2025,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2025-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2025-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2025-06-2pr",
+      "title": "Edexcel June 2025 · Paper 2PR",
+      "year": 2025,
+      "series": "June",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2025-06-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2025-06-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-11-1p",
+      "title": "Edexcel November 2024 · Paper 1P",
+      "year": 2024,
+      "series": "November",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2024-11-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-11-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-11-2p",
+      "title": "Edexcel November 2024 · Paper 2P",
+      "year": 2024,
+      "series": "November",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2024-11-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-11-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-06-1p",
+      "title": "Edexcel June 2024 · Paper 1P",
+      "year": 2024,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2024-06-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-06-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-06-1pr",
+      "title": "Edexcel June 2024 · Paper 1PR",
+      "year": 2024,
+      "series": "June",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2024-06-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-06-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-06-2p",
+      "title": "Edexcel June 2024 · Paper 2P",
+      "year": 2024,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2024-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2024-06-2pr",
+      "title": "Edexcel June 2024 · Paper 2PR",
+      "year": 2024,
+      "series": "June",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2024-06-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2024-06-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-11-1p",
+      "title": "Edexcel November 2023 · Paper 1P",
+      "year": 2023,
+      "series": "November",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2023-11-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-11-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-11-2p",
+      "title": "Edexcel November 2023 · Paper 2P",
+      "year": 2023,
+      "series": "November",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2023-11-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-11-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-06-2p",
+      "title": "Edexcel June 2023 · Paper 2P",
+      "year": 2023,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2023-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-06-2pr",
+      "title": "Edexcel June 2023 · Paper 2PR",
+      "year": 2023,
+      "series": "June",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2023-06-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-06-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-05-1p",
+      "title": "Edexcel June 2023 · Paper 1P",
+      "year": 2023,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2023-05-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-05-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-05-1pr",
+      "title": "Edexcel June 2023 · Paper 1PR",
+      "year": 2023,
+      "series": "June",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2023-05-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-05-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-01-1p",
+      "title": "Edexcel January 2023 · Paper 1P",
+      "year": 2023,
+      "series": "January",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2023-01-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-01-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-01-1pr",
+      "title": "Edexcel January 2023 · Paper 1PR",
+      "year": 2023,
+      "series": "January",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2023-01-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-01-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-01-2p",
+      "title": "Edexcel January 2023 · Paper 2P",
+      "year": 2023,
+      "series": "January",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2023-01-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-01-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2023-01-2pr",
+      "title": "Edexcel January 2023 · Paper 2PR",
+      "year": 2023,
+      "series": "January",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2023-01-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2023-01-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-06-1p",
+      "title": "Edexcel June 2022 · Paper 1P",
+      "year": 2022,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2022-06-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-06-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-06-1pr",
+      "title": "Edexcel June 2022 · Paper 1PR",
+      "year": 2022,
+      "series": "June",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2022-06-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-06-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-06-2p",
+      "title": "Edexcel June 2022 · Paper 2P",
+      "year": 2022,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2022-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-06-2pr",
+      "title": "Edexcel June 2022 · Paper 2PR",
+      "year": 2022,
+      "series": "June",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2022-06-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-06-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-01-1p",
+      "title": "Edexcel January 2022 · Paper 1P",
+      "year": 2022,
+      "series": "January",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2022-01-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-01-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-01-1pr",
+      "title": "Edexcel January 2022 · Paper 1PR",
+      "year": 2022,
+      "series": "January",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2022-01-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-01-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-01-2p",
+      "title": "Edexcel January 2022 · Paper 2P",
+      "year": 2022,
+      "series": "January",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2022-01-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-01-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2022-01-2pr",
+      "title": "Edexcel January 2022 · Paper 2PR",
+      "year": 2022,
+      "series": "January",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2022-01-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2022-01-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-06-1p",
+      "title": "Edexcel June 2021 · Paper 1P",
+      "year": 2021,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2021-06-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-06-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-06-2p",
+      "title": "Edexcel June 2021 · Paper 2P",
+      "year": 2021,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2021-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-01-1p",
+      "title": "Edexcel January 2021 · Paper 1P",
+      "year": 2021,
+      "series": "January",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2021-01-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-01-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-01-1pr",
+      "title": "Edexcel January 2021 · Paper 1PR",
+      "year": 2021,
+      "series": "January",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2021-01-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-01-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-01-2p",
+      "title": "Edexcel January 2021 · Paper 2P",
+      "year": 2021,
+      "series": "January",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2021-01-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-01-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2021-01-2pr",
+      "title": "Edexcel January 2021 · Paper 2PR",
+      "year": 2021,
+      "series": "January",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2021-01-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2021-01-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-06-2p",
+      "title": "Edexcel June 2020 · Paper 2P",
+      "year": 2020,
+      "series": "June",
+      "paper": "2P",
+      "paperFile": "papers/physics/4ph1-2020-06-2p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-06-2p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-06-2pr",
+      "title": "Edexcel June 2020 · Paper 2PR",
+      "year": 2020,
+      "series": "June",
+      "paper": "2PR",
+      "paperFile": "papers/physics/4ph1-2020-06-2pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-06-2pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-05-1p",
+      "title": "Edexcel June 2020 · Paper 1P",
+      "year": 2020,
+      "series": "June",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2020-05-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-05-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-05-1pr",
+      "title": "Edexcel June 2020 · Paper 1PR",
+      "year": 2020,
+      "series": "June",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2020-05-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-05-1pr-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-01-1p",
+      "title": "Edexcel January 2020 · Paper 1P",
+      "year": 2020,
+      "series": "January",
+      "paper": "1P",
+      "paperFile": "papers/physics/4ph1-2020-01-1p-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-01-1p-ms.pdf"
+     },
+     {
+      "id": "4ph1-2020-01-1pr",
+      "title": "Edexcel January 2020 · Paper 1PR",
+      "year": 2020,
+      "series": "January",
+      "paper": "1PR",
+      "paperFile": "papers/physics/4ph1-2020-01-1pr-qp.pdf",
+      "markSchemeFile": "papers/physics/4ph1-2020-01-1pr-ms.pdf"
+     }
+    ]
+   },
    "moduleCount": 14,
    "mcqCount": 532,
    "paperCount": 20
@@ -385,6 +752,373 @@
        "qp": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/QP/Specimen%202017%20QP.pdf",
        "ms": "https://pmt.physicsandmathstutor.com/download/Chemistry/GCSE/Past-Papers/Edexcel-IGCSE/New-Spec-Paper-2/MS/Specimen%202017%20MS.pdf"
       }
+     }
+    ]
+   },
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/chemistry/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "4ch1-2025-06-1c",
+      "title": "Edexcel June 2025 · Paper 1C",
+      "year": 2025,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2025-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2025-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2025-06-1cr",
+      "title": "Edexcel June 2025 · Paper 1CR",
+      "year": 2025,
+      "series": "June",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2025-06-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2025-06-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2025-06-2c",
+      "title": "Edexcel June 2025 · Paper 2C",
+      "year": 2025,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2025-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2025-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2025-06-2cr",
+      "title": "Edexcel June 2025 · Paper 2CR",
+      "year": 2025,
+      "series": "June",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2025-06-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2025-06-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-11-1c",
+      "title": "Edexcel November 2024 · Paper 1C",
+      "year": 2024,
+      "series": "November",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2024-11-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-11-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-11-2c",
+      "title": "Edexcel November 2024 · Paper 2C",
+      "year": 2024,
+      "series": "November",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2024-11-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-11-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-06-1c",
+      "title": "Edexcel June 2024 · Paper 1C",
+      "year": 2024,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2024-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-06-1cr",
+      "title": "Edexcel June 2024 · Paper 1CR",
+      "year": 2024,
+      "series": "June",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2024-06-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-06-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-06-2c",
+      "title": "Edexcel June 2024 · Paper 2C",
+      "year": 2024,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2024-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2024-06-2cr",
+      "title": "Edexcel June 2024 · Paper 2CR",
+      "year": 2024,
+      "series": "June",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2024-06-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2024-06-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-11-1c",
+      "title": "Edexcel November 2023 · Paper 1C",
+      "year": 2023,
+      "series": "November",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2023-11-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-11-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-11-2c",
+      "title": "Edexcel November 2023 · Paper 2C",
+      "year": 2023,
+      "series": "November",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2023-11-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-11-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-06-1c",
+      "title": "Edexcel June 2023 · Paper 1C",
+      "year": 2023,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2023-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-06-1cr",
+      "title": "Edexcel June 2023 · Paper 1CR",
+      "year": 2023,
+      "series": "June",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2023-06-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-06-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-06-2c",
+      "title": "Edexcel June 2023 · Paper 2C",
+      "year": 2023,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2023-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-06-2cr",
+      "title": "Edexcel June 2023 · Paper 2CR",
+      "year": 2023,
+      "series": "June",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2023-06-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-06-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-01-1c",
+      "title": "Edexcel January 2023 · Paper 1C",
+      "year": 2023,
+      "series": "January",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2023-01-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-01-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-01-1cr",
+      "title": "Edexcel January 2023 · Paper 1CR",
+      "year": 2023,
+      "series": "January",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2023-01-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-01-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-01-2c",
+      "title": "Edexcel January 2023 · Paper 2C",
+      "year": 2023,
+      "series": "January",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2023-01-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-01-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2023-01-2cr",
+      "title": "Edexcel January 2023 · Paper 2CR",
+      "year": 2023,
+      "series": "January",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2023-01-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2023-01-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-06-1c",
+      "title": "Edexcel June 2022 · Paper 1C",
+      "year": 2022,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2022-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-06-1cr",
+      "title": "Edexcel June 2022 · Paper 1CR",
+      "year": 2022,
+      "series": "June",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2022-06-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-06-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-06-2c",
+      "title": "Edexcel June 2022 · Paper 2C",
+      "year": 2022,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2022-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-06-2cr",
+      "title": "Edexcel June 2022 · Paper 2CR",
+      "year": 2022,
+      "series": "June",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2022-06-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-06-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-01-1c",
+      "title": "Edexcel January 2022 · Paper 1C",
+      "year": 2022,
+      "series": "January",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2022-01-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-01-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-01-1cr",
+      "title": "Edexcel January 2022 · Paper 1CR",
+      "year": 2022,
+      "series": "January",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2022-01-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-01-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-01-2c",
+      "title": "Edexcel January 2022 · Paper 2C",
+      "year": 2022,
+      "series": "January",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2022-01-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-01-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2022-01-2cr",
+      "title": "Edexcel January 2022 · Paper 2CR",
+      "year": 2022,
+      "series": "January",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2022-01-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2022-01-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-06-1c",
+      "title": "Edexcel June 2021 · Paper 1C",
+      "year": 2021,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2021-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-06-2c",
+      "title": "Edexcel June 2021 · Paper 2C",
+      "year": 2021,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2021-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-01-1c",
+      "title": "Edexcel January 2021 · Paper 1C",
+      "year": 2021,
+      "series": "January",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2021-01-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-01-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-01-1cr",
+      "title": "Edexcel January 2021 · Paper 1CR",
+      "year": 2021,
+      "series": "January",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2021-01-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-01-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-01-2c",
+      "title": "Edexcel January 2021 · Paper 2C",
+      "year": 2021,
+      "series": "January",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2021-01-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-01-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2021-01-2cr",
+      "title": "Edexcel January 2021 · Paper 2CR",
+      "year": 2021,
+      "series": "January",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2021-01-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2021-01-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-06-1c",
+      "title": "Edexcel June 2020 · Paper 1C",
+      "year": 2020,
+      "series": "June",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2020-06-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-06-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-06-1cr",
+      "title": "Edexcel June 2020 · Paper 1CR",
+      "year": 2020,
+      "series": "June",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2020-06-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-06-1cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-06-2c",
+      "title": "Edexcel June 2020 · Paper 2C",
+      "year": 2020,
+      "series": "June",
+      "paper": "2C",
+      "paperFile": "papers/chemistry/4ch1-2020-06-2c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-06-2c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-06-2cr",
+      "title": "Edexcel June 2020 · Paper 2CR",
+      "year": 2020,
+      "series": "June",
+      "paper": "2CR",
+      "paperFile": "papers/chemistry/4ch1-2020-06-2cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-06-2cr-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-01-1c",
+      "title": "Edexcel January 2020 · Paper 1C",
+      "year": 2020,
+      "series": "January",
+      "paper": "1C",
+      "paperFile": "papers/chemistry/4ch1-2020-01-1c-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-01-1c-ms.pdf"
+     },
+     {
+      "id": "4ch1-2020-01-1cr",
+      "title": "Edexcel January 2020 · Paper 1CR",
+      "year": 2020,
+      "series": "January",
+      "paper": "1CR",
+      "paperFile": "papers/chemistry/4ch1-2020-01-1cr-qp.pdf",
+      "markSchemeFile": "papers/chemistry/4ch1-2020-01-1cr-ms.pdf"
      }
     ]
    },
@@ -595,6 +1329,373 @@
      }
     ]
    },
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/biology/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "4bi1-2025-06-1b",
+      "title": "Edexcel June 2025 · Paper 1B",
+      "year": 2025,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2025-06-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2025-06-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2025-06-1br",
+      "title": "Edexcel June 2025 · Paper 1BR",
+      "year": 2025,
+      "series": "June",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2025-06-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2025-06-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2025-06-2b",
+      "title": "Edexcel June 2025 · Paper 2B",
+      "year": 2025,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2025-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2025-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2025-06-2br",
+      "title": "Edexcel June 2025 · Paper 2BR",
+      "year": 2025,
+      "series": "June",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2025-06-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2025-06-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-11-1b",
+      "title": "Edexcel November 2024 · Paper 1B",
+      "year": 2024,
+      "series": "November",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2024-11-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-11-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-11-2b",
+      "title": "Edexcel November 2024 · Paper 2B",
+      "year": 2024,
+      "series": "November",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2024-11-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-11-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-06-1b",
+      "title": "Edexcel June 2024 · Paper 1B",
+      "year": 2024,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2024-06-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-06-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-06-1br",
+      "title": "Edexcel June 2024 · Paper 1BR",
+      "year": 2024,
+      "series": "June",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2024-06-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-06-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-06-2b",
+      "title": "Edexcel June 2024 · Paper 2B",
+      "year": 2024,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2024-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2024-06-2br",
+      "title": "Edexcel June 2024 · Paper 2BR",
+      "year": 2024,
+      "series": "June",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2024-06-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2024-06-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-11-1b",
+      "title": "Edexcel November 2023 · Paper 1B",
+      "year": 2023,
+      "series": "November",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2023-11-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-11-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-11-2b",
+      "title": "Edexcel November 2023 · Paper 2B",
+      "year": 2023,
+      "series": "November",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2023-11-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-11-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-06-2b",
+      "title": "Edexcel June 2023 · Paper 2B",
+      "year": 2023,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2023-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-06-2br",
+      "title": "Edexcel June 2023 · Paper 2BR",
+      "year": 2023,
+      "series": "June",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2023-06-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-06-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-05-1b",
+      "title": "Edexcel June 2023 · Paper 1B",
+      "year": 2023,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2023-05-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-05-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-05-1br",
+      "title": "Edexcel June 2023 · Paper 1BR",
+      "year": 2023,
+      "series": "June",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2023-05-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-05-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-01-1b",
+      "title": "Edexcel January 2023 · Paper 1B",
+      "year": 2023,
+      "series": "January",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2023-01-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-01-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-01-1br",
+      "title": "Edexcel January 2023 · Paper 1BR",
+      "year": 2023,
+      "series": "January",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2023-01-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-01-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-01-2b",
+      "title": "Edexcel January 2023 · Paper 2B",
+      "year": 2023,
+      "series": "January",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2023-01-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-01-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2023-01-2br",
+      "title": "Edexcel January 2023 · Paper 2BR",
+      "year": 2023,
+      "series": "January",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2023-01-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2023-01-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-06-1b",
+      "title": "Edexcel June 2022 · Paper 1B",
+      "year": 2022,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2022-06-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-06-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-06-1br",
+      "title": "Edexcel June 2022 · Paper 1BR",
+      "year": 2022,
+      "series": "June",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2022-06-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-06-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-06-2b",
+      "title": "Edexcel June 2022 · Paper 2B",
+      "year": 2022,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2022-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-06-2br",
+      "title": "Edexcel June 2022 · Paper 2BR",
+      "year": 2022,
+      "series": "June",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2022-06-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-06-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-01-1b",
+      "title": "Edexcel January 2022 · Paper 1B",
+      "year": 2022,
+      "series": "January",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2022-01-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-01-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-01-1br",
+      "title": "Edexcel January 2022 · Paper 1BR",
+      "year": 2022,
+      "series": "January",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2022-01-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-01-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-01-2b",
+      "title": "Edexcel January 2022 · Paper 2B",
+      "year": 2022,
+      "series": "January",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2022-01-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-01-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2022-01-2br",
+      "title": "Edexcel January 2022 · Paper 2BR",
+      "year": 2022,
+      "series": "January",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2022-01-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2022-01-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-11-1b",
+      "title": "Edexcel November 2021 · Paper 1B",
+      "year": 2021,
+      "series": "November",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2021-11-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-11-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-11-2b",
+      "title": "Edexcel November 2021 · Paper 2B",
+      "year": 2021,
+      "series": "November",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2021-11-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-11-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-06-1b",
+      "title": "Edexcel June 2021 · Paper 1B",
+      "year": 2021,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2021-06-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-06-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-06-2b",
+      "title": "Edexcel June 2021 · Paper 2B",
+      "year": 2021,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2021-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-01-1b",
+      "title": "Edexcel January 2021 · Paper 1B",
+      "year": 2021,
+      "series": "January",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2021-01-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-01-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-01-1br",
+      "title": "Edexcel January 2021 · Paper 1BR",
+      "year": 2021,
+      "series": "January",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2021-01-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-01-1br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-01-2b",
+      "title": "Edexcel January 2021 · Paper 2B",
+      "year": 2021,
+      "series": "January",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2021-01-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-01-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2021-01-2br",
+      "title": "Edexcel January 2021 · Paper 2BR",
+      "year": 2021,
+      "series": "January",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2021-01-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2021-01-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2020-06-2b",
+      "title": "Edexcel June 2020 · Paper 2B",
+      "year": 2020,
+      "series": "June",
+      "paper": "2B",
+      "paperFile": "papers/biology/4bi1-2020-06-2b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2020-06-2b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2020-06-2br",
+      "title": "Edexcel June 2020 · Paper 2BR",
+      "year": 2020,
+      "series": "June",
+      "paper": "2BR",
+      "paperFile": "papers/biology/4bi1-2020-06-2br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2020-06-2br-ms.pdf"
+     },
+     {
+      "id": "4bi1-2020-05-1b",
+      "title": "Edexcel June 2020 · Paper 1B",
+      "year": 2020,
+      "series": "June",
+      "paper": "1B",
+      "paperFile": "papers/biology/4bi1-2020-05-1b-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2020-05-1b-ms.pdf"
+     },
+     {
+      "id": "4bi1-2020-05-1br",
+      "title": "Edexcel June 2020 · Paper 1BR",
+      "year": 2020,
+      "series": "June",
+      "paper": "1BR",
+      "paperFile": "papers/biology/4bi1-2020-05-1br-qp.pdf",
+      "markSchemeFile": "papers/biology/4bi1-2020-05-1br-ms.pdf"
+     }
+    ]
+   },
    "moduleCount": 18,
    "mcqCount": 720,
    "paperCount": 15
@@ -638,6 +1739,373 @@
     }
    ],
    "officialPapers": null,
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/maths/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "4ma1-2025-06-1h",
+      "title": "Edexcel June 2025 · Paper 1H",
+      "year": 2025,
+      "series": "June",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2025-06-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2025-06-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2025-06-1hr",
+      "title": "Edexcel June 2025 · Paper 1HR",
+      "year": 2025,
+      "series": "June",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2025-06-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2025-06-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2025-06-2h",
+      "title": "Edexcel June 2025 · Paper 2H",
+      "year": 2025,
+      "series": "June",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2025-06-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2025-06-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2025-06-2hr",
+      "title": "Edexcel June 2025 · Paper 2HR",
+      "year": 2025,
+      "series": "June",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2025-06-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2025-06-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-11-1h",
+      "title": "Edexcel November 2024 · Paper 1H",
+      "year": 2024,
+      "series": "November",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2024-11-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-11-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-11-2h",
+      "title": "Edexcel November 2024 · Paper 2H",
+      "year": 2024,
+      "series": "November",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2024-11-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-11-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-06-1h",
+      "title": "Edexcel June 2024 · Paper 1H",
+      "year": 2024,
+      "series": "June",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2024-06-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-06-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-06-1hr",
+      "title": "Edexcel June 2024 · Paper 1HR",
+      "year": 2024,
+      "series": "June",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2024-06-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-06-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-06-2h",
+      "title": "Edexcel June 2024 · Paper 2H",
+      "year": 2024,
+      "series": "June",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2024-06-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-06-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2024-06-2hr",
+      "title": "Edexcel June 2024 · Paper 2HR",
+      "year": 2024,
+      "series": "June",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2024-06-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2024-06-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-11-1h",
+      "title": "Edexcel November 2023 · Paper 1H",
+      "year": 2023,
+      "series": "November",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2023-11-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-11-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-11-2h",
+      "title": "Edexcel November 2023 · Paper 2H",
+      "year": 2023,
+      "series": "November",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2023-11-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-11-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-06-1h",
+      "title": "Edexcel June 2023 · Paper 1H",
+      "year": 2023,
+      "series": "June",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2023-06-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-06-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-06-1hr",
+      "title": "Edexcel June 2023 · Paper 1HR",
+      "year": 2023,
+      "series": "June",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2023-06-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-06-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-06-2h",
+      "title": "Edexcel June 2023 · Paper 2H",
+      "year": 2023,
+      "series": "June",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2023-06-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-06-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-06-2hr",
+      "title": "Edexcel June 2023 · Paper 2HR",
+      "year": 2023,
+      "series": "June",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2023-06-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-06-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-01-1h",
+      "title": "Edexcel January 2023 · Paper 1H",
+      "year": 2023,
+      "series": "January",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2023-01-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-01-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-01-1hr",
+      "title": "Edexcel January 2023 · Paper 1HR",
+      "year": 2023,
+      "series": "January",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2023-01-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-01-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-01-2h",
+      "title": "Edexcel January 2023 · Paper 2H",
+      "year": 2023,
+      "series": "January",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2023-01-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-01-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2023-01-2hr",
+      "title": "Edexcel January 2023 · Paper 2HR",
+      "year": 2023,
+      "series": "January",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2023-01-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2023-01-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-06-1h",
+      "title": "Edexcel June 2022 · Paper 1H",
+      "year": 2022,
+      "series": "June",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2022-06-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-06-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-06-1hr",
+      "title": "Edexcel June 2022 · Paper 1HR",
+      "year": 2022,
+      "series": "June",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2022-06-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-06-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-06-2h",
+      "title": "Edexcel June 2022 · Paper 2H",
+      "year": 2022,
+      "series": "June",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2022-06-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-06-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-06-2hr",
+      "title": "Edexcel June 2022 · Paper 2HR",
+      "year": 2022,
+      "series": "June",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2022-06-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-06-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-01-1h",
+      "title": "Edexcel January 2022 · Paper 1H",
+      "year": 2022,
+      "series": "January",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2022-01-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-01-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-01-1hr",
+      "title": "Edexcel January 2022 · Paper 1HR",
+      "year": 2022,
+      "series": "January",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2022-01-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-01-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-01-2h",
+      "title": "Edexcel January 2022 · Paper 2H",
+      "year": 2022,
+      "series": "January",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2022-01-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-01-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2022-01-2hr",
+      "title": "Edexcel January 2022 · Paper 2HR",
+      "year": 2022,
+      "series": "January",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2022-01-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2022-01-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-11-1h",
+      "title": "Edexcel November 2021 · Paper 1H",
+      "year": 2021,
+      "series": "November",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2021-11-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-11-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-11-2h",
+      "title": "Edexcel November 2021 · Paper 2H",
+      "year": 2021,
+      "series": "November",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2021-11-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-11-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-06-1h",
+      "title": "Edexcel June 2021 · Paper 1H",
+      "year": 2021,
+      "series": "June",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2021-06-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-06-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-06-2h",
+      "title": "Edexcel June 2021 · Paper 2H",
+      "year": 2021,
+      "series": "June",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2021-06-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-06-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-01-1h",
+      "title": "Edexcel January 2021 · Paper 1H",
+      "year": 2021,
+      "series": "January",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2021-01-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-01-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-01-1hr",
+      "title": "Edexcel January 2021 · Paper 1HR",
+      "year": 2021,
+      "series": "January",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2021-01-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-01-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-01-2h",
+      "title": "Edexcel January 2021 · Paper 2H",
+      "year": 2021,
+      "series": "January",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2021-01-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-01-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2021-01-2hr",
+      "title": "Edexcel January 2021 · Paper 2HR",
+      "year": 2021,
+      "series": "January",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2021-01-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2021-01-2hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2020-11-1h",
+      "title": "Edexcel November 2020 · Paper 1H",
+      "year": 2020,
+      "series": "November",
+      "paper": "1H",
+      "paperFile": "papers/maths/4ma1-2020-11-1h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2020-11-1h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2020-11-1hr",
+      "title": "Edexcel November 2020 · Paper 1HR",
+      "year": 2020,
+      "series": "November",
+      "paper": "1HR",
+      "paperFile": "papers/maths/4ma1-2020-11-1hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2020-11-1hr-ms.pdf"
+     },
+     {
+      "id": "4ma1-2020-11-2h",
+      "title": "Edexcel November 2020 · Paper 2H",
+      "year": 2020,
+      "series": "November",
+      "paper": "2H",
+      "paperFile": "papers/maths/4ma1-2020-11-2h-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2020-11-2h-ms.pdf"
+     },
+     {
+      "id": "4ma1-2020-11-2hr",
+      "title": "Edexcel November 2020 · Paper 2HR",
+      "year": 2020,
+      "series": "November",
+      "paper": "2HR",
+      "paperFile": "papers/maths/4ma1-2020-11-2hr-qp.pdf",
+      "markSchemeFile": "papers/maths/4ma1-2020-11-2hr-ms.pdf"
+     }
+    ]
+   },
    "moduleCount": 14,
    "mcqCount": 560,
    "paperCount": 21
@@ -667,8 +2135,202 @@
     }
    ],
    "officialPapers": null,
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/rs/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "4rs1-2025-06-1",
+      "title": "Edexcel June 2025 · Paper 1",
+      "year": 2025,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2025-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2025-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2025-06-2",
+      "title": "Edexcel June 2025 · Paper 2 (Buddhism option)",
+      "year": 2025,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2025-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2025-06-2-ms.pdf",
+      "note": "Option 2A — Buddhism. Not John’s option (he sits Christianity); kept only so the set is complete."
+     },
+     {
+      "id": "4rs1-2024-06-1",
+      "title": "Edexcel June 2024 · Paper 1",
+      "year": 2024,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2024-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2024-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2024-06-2",
+      "title": "Edexcel June 2024 · Paper 2 (Buddhism option)",
+      "year": 2024,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2024-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2024-06-2-ms.pdf",
+      "note": "Option 2A — Buddhism. Not John’s option (he sits Christianity); kept only so the set is complete."
+     },
+     {
+      "id": "4rs1-2023-06-1",
+      "title": "Edexcel June 2023 · Paper 1",
+      "year": 2023,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2023-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2023-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2023-06-2",
+      "title": "Edexcel June 2023 · Paper 2",
+      "year": 2023,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2023-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2023-06-2-ms.pdf"
+     },
+     {
+      "id": "4rs1-2022-06-1",
+      "title": "Edexcel June 2022 · Paper 1",
+      "year": 2022,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2022-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2022-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2022-06-2",
+      "title": "Edexcel June 2022 · Paper 2",
+      "year": 2022,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2022-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2022-06-2-ms.pdf"
+     },
+     {
+      "id": "4rs1-2021-06-1",
+      "title": "Edexcel June 2021 · Paper 1",
+      "year": 2021,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2021-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2021-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2021-06-2",
+      "title": "Edexcel June 2021 · Paper 2",
+      "year": 2021,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2021-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2021-06-2-ms.pdf"
+     },
+     {
+      "id": "4rs1-2020-06-1",
+      "title": "Edexcel June 2020 · Paper 1",
+      "year": 2020,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2020-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2020-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2020-06-2",
+      "title": "Edexcel June 2020 · Paper 2",
+      "year": 2020,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2020-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2020-06-2-ms.pdf"
+     },
+     {
+      "id": "4rs1-2019-06-1",
+      "title": "Edexcel June 2019 · Paper 1",
+      "year": 2019,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/rs/4rs1-2019-06-1-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2019-06-1-ms.pdf"
+     },
+     {
+      "id": "4rs1-2019-06-2",
+      "title": "Edexcel June 2019 · Paper 2",
+      "year": 2019,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/rs/4rs1-2019-06-2-qp.pdf",
+      "markSchemeFile": "papers/rs/4rs1-2019-06-2-ms.pdf"
+     }
+    ]
+   },
    "moduleCount": 7,
    "mcqCount": 238,
+   "paperCount": 0
+  },
+  {
+   "id": "geography",
+   "title": "Geography",
+   "code": "8035",
+   "board": "AQA GCSE Geography 8035",
+   "tagline": null,
+   "standfirst": "GCSE summer 2027 — papers only so far, no notes yet",
+   "examDate": null,
+   "completePack": null,
+   "plannedModules": null,
+   "moduleGroups": null,
+   "officialPapers": null,
+   "boardPapers": {
+    "comment": "Official past papers downloaded from the board, stored locally in site/papers/geography/ (gitignored). Listed in the app with links to the question paper and mark scheme.",
+    "source": "Downloaded by John",
+    "added": "2026-10-10",
+    "papers": [
+     {
+      "id": "8035-2024-06-1",
+      "title": "AQA June 2024 · Paper 1 Living with the Physical Environment",
+      "year": 2024,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/geography/8035-2024-06-1-qp.pdf",
+      "markSchemeFile": "papers/geography/8035-2024-06-1-ms.pdf"
+     },
+     {
+      "id": "8035-2024-06-2",
+      "title": "AQA June 2024 · Paper 2 Challenges in the Human Environment",
+      "year": 2024,
+      "series": "June",
+      "paper": "2",
+      "paperFile": "papers/geography/8035-2024-06-2-qp.pdf",
+      "markSchemeFile": "papers/geography/8035-2024-06-2-ms.pdf"
+     },
+     {
+      "id": "8035-2024-06-3",
+      "title": "AQA June 2024 · Paper 3 Geographical Applications",
+      "year": 2024,
+      "series": "June",
+      "paper": "3",
+      "paperFile": "papers/geography/8035-2024-06-3-qp.pdf",
+      "markSchemeFile": "papers/geography/8035-2024-06-3-ms.pdf"
+     },
+     {
+      "id": "8035-2023-06-1",
+      "title": "AQA June 2023 · Paper 1 Living with the Physical Environment",
+      "year": 2023,
+      "series": "June",
+      "paper": "1",
+      "paperFile": "papers/geography/8035-2023-06-1-qp.pdf",
+      "markSchemeFile": null
+     }
+    ]
+   },
+   "moduleCount": 0,
+   "mcqCount": 0,
    "paperCount": 0
   }
  ]
