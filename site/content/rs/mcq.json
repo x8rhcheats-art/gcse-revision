@@ -207,7 +207,7 @@
    },
    {
     "id": "M18",
-    "q": "'The love of money is the root of all evil' comes from…",
+    "q": "'The love of money is a root of all kinds of evil' comes from…",
     "options": [
      "Matthew 22",
      "1 Timothy 6",
@@ -327,7 +327,7 @@
    },
    {
     "id": "M28",
-    "q": "The Big Bang theory was originally proposed by…",
+    "q": "The Big Bang theory is most closely associated with…",
     "options": [
      "Edwin Hubble",
      "Charles Darwin",
@@ -489,7 +489,7 @@
     "options": [
      "Luke 9:23",
      "John 3:16",
-     "Matthew 25:31–40",
+     "Matthew 25:31–46",
      "Luke 16:19–31"
     ],
     "answer": 2,
@@ -1101,13 +1101,13 @@
     "id": "M4",
     "q": "Complete the quotation used to show that God's ideal world is disarmed: 'Nation will not take up sword against nation, nor will they…'",
     "options": [
-     "…train for war any more' — Micah 4:3",
-     "…seek vengeance any more' — Amos 5:24",
-     "…shed innocent blood any more' — Genesis 9:6",
-     "…remember their enemies any more' — Isaiah 9:6"
+     "…train for war any more'",
+     "…seek vengeance any more'",
+     "…shed innocent blood any more'",
+     "…remember their enemies any more'"
     ],
     "answer": 0,
-    "explain": "Micah 4:3 foretells a time when God's rule is established. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
+    "explain": "The verse is Micah 4:3, which foretells a time when God's rule is established. The other three wordings are not in the Bible at all. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
    },
    {
     "id": "M5",
@@ -1490,7 +1490,7 @@
      "Locke and Bentham",
      "Hobbes and Rousseau",
      "Nietzsche and Bentham",
-     "Rousseau and Locke"
+     "Aquinas and Augustine"
     ],
     "answer": 1,
     "explain": "Hobbes (1588–1679) and Rousseau (1712–1778) argued the individual should surrender basic freedoms in exchange for society protecting their rights, since a world of unlimited rights would mean chaos."
@@ -2087,7 +2087,7 @@
    },
    {
     "id": "M26",
-    "q": "\"My house shall be called a house of prayer for all nations and you have made it a den of sinners\" was said when Jesus…",
+    "q": "\"My house shall be called a house of prayer, but you make it a den of robbers\" was said when Jesus…",
     "options": [
      "entered Jerusalem on a donkey",
      "was tried before the Sanhedrin",
@@ -2200,7 +2200,7 @@
     "q": "At a Christingle service, what does the red ribbon represent?",
     "options": [
      "The blood of the martyrs",
-     "The love of God",
+     "The fruits of the earth",
      "Jesus' suffering",
      "The Holy Spirit"
     ],
@@ -2233,7 +2233,7 @@
    },
    {
     "id": "M8",
-    "q": "Which Roman festival already fell on 25 December?",
+    "q": "Which Roman festival was already being celebrated in late December?",
     "options": [
      "Saturnalia",
      "Lupercalia",
@@ -2241,7 +2241,7 @@
      "Floralia"
     ],
     "answer": 0,
-    "explain": "Saturnalia. The Gospels give no date for Jesus' birth."
+    "explain": "Saturnalia, held in the second half of December. The Gospels give no date for Jesus' birth."
    },
    {
     "id": "M9",

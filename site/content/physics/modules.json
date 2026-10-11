@@ -9752,7 +9752,7 @@
       {
        "itemId": "13-stars-and-the-universe/teach/the-red-shift-equation",
        "heading": "The red-shift equation",
-       "html": "<p class=\"asked\">Spec 8.16P (Physics-only) · <strong>2022 Edexcel Jan 2P Q8(a)</strong> · <strong>2023 Edexcel 2P Q7(b)(i), (ii)</strong></p><p><strong>The fractional change in wavelength equals the galaxy's speed divided by the speed of light.</strong></p><p class=\"centred\"><strong>Δλ ÷ λ₀ = v ÷ c</strong> (on the formula sheet)<br>\n<em>Δλ = change in wavelength (observed − reference) · λ₀ = reference wavelength · v = velocity of the galaxy · c = speed of light = 3.0 × 10⁸ m/s</em></p><p>Δλ and λ₀ just need the <strong>same unit</strong> as each other (both nm, or both m). v and c need the same unit as each other too (both m/s, or both km/s). You do not need to convert nm to m, because the units cancel in the ratio.</p><div class=\"panel\">\n<h4>Worked: 2023 Edexcel 2P Q7(b)</h4>\n<p>Reference wavelength 630 nm, observed 645 nm.</p>\n<p>(i) Δλ = 645 − 630 = <strong>15 nm</strong></p>\n<p>(ii) 15 ÷ 630 = v ÷ (3.0 × 10⁸) → v = (15 ÷ 630) × 3.0 × 10⁸ = <strong>7.1 × 10⁶ m/s</strong></p>\n</div><div class=\"panel\">\n<h4>Worked: 2022 Edexcel Jan 2P Q8(a)</h4>\n<p>Galaxy moves away at 3.9 × 10⁴ km/s; c = 3.0 × 10⁵ km/s; emitted wavelength 6.2 × 10⁻⁷ m.</p>\n<p>(i) Δλ = 6.2 × 10⁻⁷ × (3.9 × 10⁴ ÷ 3.0 × 10⁵) = <strong>8.1 × 10⁻⁸ m</strong></p>\n<p>(ii) Received wavelength = 6.2 × 10⁻⁷ + 8.1 × 10⁻⁸ = <strong>7.0 × 10⁻⁷ m</strong>. It is <em>longer</em>, because the galaxy is moving away.</p>\n</div><div class=\"trap\">\n<p>✗ Dividing by the observed wavelength (645 nm). That gave 7.0 × 10⁶ m/s and <strong>1 mark at most</strong>.<br>\n✓ Divide by the <strong>reference</strong> wavelength, λ₀ = 630 nm.</p>\n<p>✗ Giving Δλ as the answer to \"calculate the wavelength received\". ✓ Add Δλ back on to λ₀.</p>\n</div>",
+       "html": "<p class=\"asked\">Spec 8.16P (Physics-only) · <strong>2022 Edexcel Jan 2P Q8(a)</strong> · <strong>2023 Edexcel 2P Q7(b)(i), (ii)</strong></p><p><strong>The fractional change in wavelength equals the galaxy's speed divided by the speed of light.</strong></p><p class=\"centred\"><strong>Δλ ÷ λ₀ = v ÷ c</strong> (memorise — this one is <em>not</em> on the formula sheet)<br>\n<em>Δλ = change in wavelength (observed − reference) · λ₀ = reference wavelength · v = velocity of the galaxy · c = speed of light = 3.0 × 10⁸ m/s</em></p><p>Δλ and λ₀ just need the <strong>same unit</strong> as each other (both nm, or both m). v and c need the same unit as each other too (both m/s, or both km/s). You do not need to convert nm to m, because the units cancel in the ratio.</p><div class=\"panel\">\n<h4>Worked: 2023 Edexcel 2P Q7(b)</h4>\n<p>Reference wavelength 630 nm, observed 645 nm.</p>\n<p>(i) Δλ = 645 − 630 = <strong>15 nm</strong></p>\n<p>(ii) 15 ÷ 630 = v ÷ (3.0 × 10⁸) → v = (15 ÷ 630) × 3.0 × 10⁸ = <strong>7.1 × 10⁶ m/s</strong></p>\n</div><div class=\"panel\">\n<h4>Worked: 2022 Edexcel Jan 2P Q8(a)</h4>\n<p>Galaxy moves away at 3.9 × 10⁴ km/s; c = 3.0 × 10⁵ km/s; emitted wavelength 6.2 × 10⁻⁷ m.</p>\n<p>(i) Δλ = 6.2 × 10⁻⁷ × (3.9 × 10⁴ ÷ 3.0 × 10⁵) = <strong>8.1 × 10⁻⁸ m</strong></p>\n<p>(ii) Received wavelength = 6.2 × 10⁻⁷ + 8.1 × 10⁻⁸ = <strong>7.0 × 10⁻⁷ m</strong>. It is <em>longer</em>, because the galaxy is moving away.</p>\n</div><div class=\"trap\">\n<p>✗ Dividing by the observed wavelength (645 nm). That gave 7.0 × 10⁶ m/s and <strong>1 mark at most</strong>.<br>\n✓ Divide by the <strong>reference</strong> wavelength, λ₀ = 630 nm.</p>\n<p>✗ Giving Δλ as the answer to \"calculate the wavelength received\". ✓ Add Δλ back on to λ₀.</p>\n</div>",
        "equations": [],
        "definitions": [],
        "traps": []
@@ -9788,14 +9788,14 @@
       {
        "itemId": "13-stars-and-the-universe/sheet/equations",
        "heading": "Equations",
-       "html": "<p>One equation in this module, and it is on the formula sheet.</p><div class=\"eq\" data-item-id=\"13-stars-and-the-universe/eq/v-c\"><span class=\"name\">On the formula sheet</span>Δλ ÷ λ₀ = v ÷ c<span class=\"sym\">Δλ = change in wavelength · λ₀ = reference wavelength (not the observed one) · v = velocity of the galaxy · c = speed of light, 3.0 × 10⁸ m/s. Observed wavelength = λ₀ + Δλ.</span></div>",
+       "html": "<p>One equation in this module, and it is not on the formula sheet — learn it by heart. Where a past paper printed it, it was printed in the question stem, not on the equation page.</p><div class=\"eq\" data-item-id=\"13-stars-and-the-universe/eq/red-shift\"><span class=\"name\">Red-shift — memorise</span>Δλ ÷ λ₀ = v ÷ c<span class=\"sym\">Δλ = change in wavelength · λ₀ = reference wavelength (not the observed one) · v = velocity of the galaxy · c = speed of light, 3.0 × 10⁸ m/s. Observed wavelength = λ₀ + Δλ.</span></div>",
        "equations": [
         {
-         "itemId": "13-stars-and-the-universe/eq/v-c",
-         "name": "Δλ ÷ λ₀ = v ÷ c",
+         "itemId": "13-stars-and-the-universe/eq/red-shift",
+         "name": "Red-shift",
          "formula": "Δλ ÷ λ₀ = v ÷ c",
-         "mustMemorise": false,
-         "onFormulaSheet": true,
+         "mustMemorise": true,
+         "onFormulaSheet": false,
          "symbolKey": "Δλ = change in wavelength, λ − λ₀ (m) · λ₀ = reference wavelength, as emitted (m) · v = velocity of the galaxy away from us (m/s) · c = speed of light, 3.0 × 10⁸ m/s — keep v and c in the same units"
         }
        ],

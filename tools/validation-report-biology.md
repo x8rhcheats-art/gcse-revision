@@ -1,6 +1,6 @@
 # Extraction validation report — Biology
 
-Generated 2026-10-11T10:23:19.365Z from 18 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-11T17:16:04.107Z from 18 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-enzymes: 18 teach subsections, 4 sheet subsections, 1 eq, 9 def, 8 trap, 8 understanding, 15 drill
@@ -23,11 +23,42 @@ Generated 2026-10-11T10:23:19.365Z from 18 modules, 0 mocks, 0 diagnostic.
 - 18-genetic-modification-and-cloning: 13 teach subsections, 3 sheet subsections, 0 eq, 12 def, 9 trap, 8 understanding, 15 drill
 - past papers: 15 papers, 124 questions
 - mcq bank: 720 questions across 18 modules
-- spec tick-sheet: 78 points across 3 topics
-- taggable itemIds: 1278
+- spec tick-sheet: 176 points across 5 topics
+- taggable itemIds: 1344
 
 ## Formula symbol keys
 coverage: no equation glossary for this subject
 
-## Warnings (0)
-- none
+## Warnings (32)
+- spec 1.1: no module mapping
+- spec 1.2: no module mapping
+- spec 1.3: no module mapping
+- spec 1.4: no module mapping
+- spec 2.1: no module mapping
+- spec 2.2: no module mapping
+- spec 2.3: no module mapping
+- spec 2.5B: no module mapping
+- spec 2.6B: no module mapping
+- spec 2.7: no module mapping
+- spec 2.8: no module mapping
+- spec 2.9: no module mapping
+- spec 2.15: no module mapping
+- spec 2.16: no module mapping
+- spec 2.17: no module mapping
+- spec 2.24: no module mapping
+- spec 2.25: no module mapping
+- spec 2.26: no module mapping
+- spec 2.27: no module mapping
+- spec 2.28: no module mapping
+- spec 2.30: no module mapping
+- spec 2.31: no module mapping
+- spec 2.32: no module mapping
+- spec 2.33B: no module mapping
+- spec 2.51: no module mapping
+- spec 2.70: no module mapping
+- spec 2.94: no module mapping
+- spec 2.95B: no module mapping
+- spec 3.13: no module mapping
+- spec 5.1: no module mapping
+- spec 5.2: no module mapping
+- spec 5.9B: no module mapping

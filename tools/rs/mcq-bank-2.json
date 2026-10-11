@@ -42,13 +42,13 @@
     "id": "M4",
     "q": "Complete the quotation used to show that God's ideal world is disarmed: 'Nation will not take up sword against nation, nor will they…'",
     "options": [
-     "…train for war any more' — Micah 4:3",
-     "…seek vengeance any more' — Amos 5:24",
-     "…shed innocent blood any more' — Genesis 9:6",
-     "…remember their enemies any more' — Isaiah 9:6"
+     "…train for war any more'",
+     "…seek vengeance any more'",
+     "…shed innocent blood any more'",
+     "…remember their enemies any more'"
     ],
     "answer": 0,
-    "explain": "Micah 4:3 foretells a time when God's rule is established. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
+    "explain": "The verse is Micah 4:3, which foretells a time when God's rule is established. The other three wordings are not in the Bible at all. It is the exact inversion of Joel 3:9–10, 'Beat your ploughshares into swords.'"
    },
    {
     "id": "M5",
@@ -431,7 +431,7 @@
      "Locke and Bentham",
      "Hobbes and Rousseau",
      "Nietzsche and Bentham",
-     "Rousseau and Locke"
+     "Aquinas and Augustine"
     ],
     "answer": 1,
     "explain": "Hobbes (1588–1679) and Rousseau (1712–1778) argued the individual should surrender basic freedoms in exchange for society protecting their rights, since a world of unlimited rights would mean chaos."

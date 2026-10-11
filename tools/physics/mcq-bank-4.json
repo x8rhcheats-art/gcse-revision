@@ -260,11 +260,11 @@
     "options": [
      "Using a bigger current",
      "Using a stronger magnet",
-     "Keeping the wire at right angles to the field",
+     "Turning the wire from parallel to the field round to right angles to it",
      "Reversing the current"
     ],
     "answer": 3,
-    "explain": "Reversing the current reverses the direction of the force but does not change its size. A bigger current or stronger field increases the force."
+    "explain": "Reversing the current reverses the direction of the force but does not change its size. A bigger current, a stronger field, or turning the wire from parallel (where the force is zero) round to right angles all make the force bigger."
    },
    {
     "id": "M23",

@@ -5,9 +5,9 @@
    "title": "Physics",
    "code": "4PH1",
    "board": "Edexcel IGCSE Physics 4PH1",
-   "tagline": "resit · 7 September",
-   "standfirst": "Resit Monday 7 September",
-   "examDate": "2026-09-07",
+   "tagline": "GCSE summer 2027",
+   "standfirst": "GCSE summer 2027 — the September resit is done; this is the long haul now",
+   "examDate": null,
    "completePack": "complete-pack.html",
    "plannedModules": 14,
    "moduleGroups": [
@@ -561,7 +561,7 @@
    },
    "moduleCount": 14,
    "mcqCount": 532,
-   "paperCount": 20
+   "paperCount": 60
   },
   {
    "id": "chemistry",
@@ -1124,7 +1124,7 @@
    },
    "moduleCount": 17,
    "mcqCount": 795,
-   "paperCount": 15
+   "paperCount": 55
   },
   {
    "id": "biology",
@@ -1698,7 +1698,7 @@
    },
    "moduleCount": 18,
    "mcqCount": 720,
-   "paperCount": 15
+   "paperCount": 55
   },
   {
    "id": "maths",
@@ -2108,7 +2108,7 @@
    },
    "moduleCount": 14,
    "mcqCount": 560,
-   "paperCount": 21
+   "paperCount": 61
   },
   {
    "id": "rs",
@@ -2272,7 +2272,7 @@
    },
    "moduleCount": 7,
    "mcqCount": 238,
-   "paperCount": 0
+   "paperCount": 14
   },
   {
    "id": "geography",
@@ -2563,7 +2563,7 @@
    },
    "moduleCount": 11,
    "mcqCount": 330,
-   "paperCount": 0
+   "paperCount": 21
   }
  ]
 }

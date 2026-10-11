@@ -352,12 +352,15 @@ process.on('exit', restoreMirror);
     ok('exam reference: 29 rules, 4 checklists, rules tag into the red list');
   } catch (e) { fail('exam reference', e.message.split('\n')[0]); }
 
-  // ---------- specification: 136 points, colour inherited from module tags ----------
+  // ---------- specification: every point rendered, colour inherited from module tags ----------
   try {
+    // data-driven: the spec list grows as the real specification is filled in,
+    // so assert against the content rather than a number baked in here
+    const expected = JSON.parse(fs.readFileSync('site/content/physics/spec.json', 'utf8')).points.length;
     await page.goto(BASE + '#/spec');
     await page.waitForSelector('.specpoint', { timeout: 5000 });
     const pts = await page.locator('.specpoint').count();
-    if (pts !== 136) throw new Error(`${pts} spec points rendered, expected 136`);
+    if (pts !== expected) throw new Error(`${pts} spec points rendered, expected ${expected}`);
     // tagging the whole module should colour its spec points by inheritance
     await page.goto(BASE + '#/module/06-radioactivity');
     await page.waitForSelector('.rag-dot', { timeout: 5000 });
@@ -369,7 +372,7 @@ process.on('exit', restoreMirror);
     await page.waitForSelector('.specpoint', { timeout: 5000 });
     const inherited = await page.locator('.rag-dot[data-for="spec/7.12"].v-amber.inherited').count();
     if (!inherited) throw new Error('spec point did not inherit the module tag');
-    ok('specification: 136 points, module tags inherit down to spec points');
+    ok(`specification: ${await page.locator('.specpoint').count()} points, module tags inherit down to spec points`);
   } catch (e) { fail('specification', e.message.split('\n')[0]); }
 
   // ---------- the last sheet ----------

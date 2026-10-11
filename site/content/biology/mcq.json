@@ -5701,7 +5701,7 @@
    },
    {
     "id": "M34",
-    "q": "A town switches from coal to biogas. Which is a possible drawback?",
+    "q": "A town switches from biogas to coal. Which is a possible drawback?",
     "options": [
      "More carbon monoxide",
      "More sulfur dioxide, causing acid rain",
@@ -5709,7 +5709,7 @@
      "More eutrophication"
     ],
     "answer": 1,
-    "explain": "The Year 11 mock accepted more sulfur dioxide and acid rain as a drawback."
+    "explain": "Coal contains sulfur, so burning it releases sulfur dioxide, which dissolves in rain to form acid rain. The Year 11 mock accepted more sulfur dioxide and acid rain as the drawback. Biogas is essentially sulfur-free, so switching the other way reduces acid rain rather than causing it."
    },
    {
     "id": "M35",

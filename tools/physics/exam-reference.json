@@ -26,7 +26,7 @@
   },
 
   "formulaSheet": {
-    "note": "This is what appears on the equation sheet in the exam. Do not spend revision time memorising these. Two of them (orbital speed, momentum) are for topics not on this exam — ignore them.",
+    "note": "This is what appears on the equation sheet in the exam. Do not spend revision time memorising these — but do know what each one means and when to reach for it.",
     "given": [
       { "words": "energy transferred = current × voltage × time", "symbols": "E = I × V × t" },
       { "words": "frequency = 1 ÷ time period", "symbols": "f = 1 ÷ T" },
@@ -35,8 +35,8 @@
       { "words": "pressure × volume = constant", "symbols": "p₁ × V₁ = p₂ × V₂" },
       { "words": "pressure ÷ temperature = constant", "symbols": "p₁ ÷ T₁ = p₂ ÷ T₂" },
       { "words": "change in thermal energy = mass × specific heat capacity × change in temperature", "symbols": "ΔQ = m × c × ΔT" },
-      { "words": "orbital speed = (2 × π × orbital radius) ÷ time period", "symbols": "v = (2 × π × r) ÷ T", "outOfScope": true },
-      { "words": "force = change in momentum ÷ time taken", "symbols": "F = (mv − mu) ÷ t", "outOfScope": true }
+      { "words": "orbital speed = (2 × π × orbital radius) ÷ time period", "symbols": "v = (2 × π × r) ÷ T" },
+      { "words": "force = change in momentum ÷ time taken", "symbols": "F = (mv − mu) ÷ t" }
     ]
   },
 

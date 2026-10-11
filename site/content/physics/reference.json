@@ -24,7 +24,7 @@
   ]
  },
  "formulaSheet": {
-  "note": "This is what appears on the equation sheet in the exam. Do not spend revision time memorising these. Two of them (orbital speed, momentum) are for topics not on this exam — ignore them.",
+  "note": "This is what appears on the equation sheet in the exam. Do not spend revision time memorising these — but do know what each one means and when to reach for it.",
   "given": [
    {
     "words": "energy transferred = current × voltage × time",
@@ -64,13 +64,11 @@
    {
     "words": "orbital speed = (2 × π × orbital radius) ÷ time period",
     "symbols": "v = (2 × π × r) ÷ T",
-    "outOfScope": true,
     "symbolKey": "v = orbital speed (m/s) · r = orbital radius (m) · T = time for one full orbit (s)"
    },
    {
     "words": "force = change in momentum ÷ time taken",
     "symbols": "F = (mv − mu) ÷ t",
-    "outOfScope": true,
     "symbolKey": "F = force (N) · m = mass (kg) · v = final velocity (m/s) · u = initial velocity (m/s) · t = time (s) — mv − mu is the change in momentum (kg m/s)"
    }
   ]
