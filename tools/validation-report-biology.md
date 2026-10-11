@@ -1,6 +1,6 @@
 # Extraction validation report — Biology
 
-Generated 2026-10-10T19:26:45.240Z from 18 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-11T10:23:19.365Z from 18 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-enzymes: 18 teach subsections, 4 sheet subsections, 1 eq, 9 def, 8 trap, 8 understanding, 15 drill

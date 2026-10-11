@@ -1,3 +1,3986 @@
 {
- "modules": {}
+ "modules": {
+  "01-tectonic-hazards": [
+   {
+    "id": "M1",
+    "q": "AQA defines a natural hazard as…",
+    "options": [
+     "any event that damages the environment",
+     "a natural event that threatens people or has the potential to cause damage, destruction and death",
+     "an event caused by human activity that harms people",
+     "any earthquake or volcanic eruption"
+    ],
+    "answer": 1,
+    "explain": "The threat to people is what turns a natural event into a hazard. An earthquake in an empty ocean is an event, not a hazard."
+   },
+   {
+    "id": "M2",
+    "q": "Which one of these is NOT an example of a natural hazard?",
+    "options": [
+     "Volcanic eruption",
+     "Tropical storm",
+     "Oil spill",
+     "Flood"
+    ],
+    "answer": 2,
+    "explain": "This was 2022 Q01.1. An oil spill is caused by human activity, so it fails the 'natural event' part of the definition."
+   },
+   {
+    "id": "M3",
+    "q": "Hazard risk means…",
+    "options": [
+     "the probability or chance that a natural hazard may take place",
+     "the number of people killed by a hazard",
+     "how powerful a hazard is",
+     "the cost of repairing the damage"
+    ],
+    "answer": 0,
+    "explain": "Risk is about probability. It rises with urbanisation, population increase, low economic development, geographical location, and increasing frequency or magnitude."
+   },
+   {
+    "id": "M4",
+    "q": "Which one of these natural hazards is a tectonic event?",
+    "options": [
+     "Drought",
+     "Flood",
+     "Hurricane",
+     "Earthquake"
+    ],
+    "answer": 3,
+    "explain": "This was 2025 Q01.1. Tectonic hazards are caused by plate movement: earthquakes, volcanic eruptions, tsunamis and tectonic landslides. The other three are atmospheric."
+   },
+   {
+    "id": "M5",
+    "q": "At a destructive plate margin, which plate is subducted?",
+    "options": [
+     "Whichever plate is moving faster",
+     "Both plates are subducted equally",
+     "The thicker continental plate",
+     "The denser oceanic plate"
+    ],
+    "answer": 3,
+    "explain": "Density decides it. Examiners' reports mark the word 'denser' — writing 'heavier' loses credit, and 'the continental plate is subducted' is listed as a misconception."
+   },
+   {
+    "id": "M6",
+    "q": "Oceanic crust is approximately…",
+    "options": [
+     "50–70 km thick and less dense than continental crust",
+     "5–8 km thick and denser than continental crust",
+     "10–70 km thick and denser than continental crust",
+     "100 km thick and the same density as continental crust"
+    ],
+    "answer": 1,
+    "explain": "Oceanic crust is thin (5–8 km) and dense; continental crust is thick (10–70 km) and less dense. That is why oceanic crust always subducts."
+   },
+   {
+    "id": "M7",
+    "q": "At a constructive plate margin…",
+    "options": [
+     "two plates slide past each other",
+     "one plate is forced beneath the other",
+     "two plates move apart and rising magma adds new material",
+     "two continental plates crumple upwards"
+    ],
+    "answer": 2,
+    "explain": "Constructive = diverging. Magma rises to plug the gap and forms new crust, creating low shield volcanoes and relatively weak earthquakes."
+   },
+   {
+    "id": "M8",
+    "q": "Which type of plate margin produces violent, explosive volcanic eruptions and powerful earthquakes?",
+    "options": [
+     "Destructive",
+     "Constructive",
+     "Conservative",
+     "None — eruptions are equally violent at all margins"
+    ],
+    "answer": 0,
+    "explain": "The subducted crust melts in the mantle, producing thick gas-rich magma that erupts explosively; converging plates lock, build pressure and release it as a violent earthquake."
+   },
+   {
+    "id": "M9",
+    "q": "At a conservative plate margin, two plates…",
+    "options": [
+     "move apart, creating new crust",
+     "collide and crumple into fold mountains",
+     "converge, with one subducted into the mantle",
+     "slide past each other"
+    ],
+    "answer": 3,
+    "explain": "No crust is created or destroyed, so there is no magma and therefore no volcanoes — only earthquakes, caused when friction-locked plates suddenly slip."
+   },
+   {
+    "id": "M10",
+    "q": "The Himalayas were formed at a…",
+    "options": [
+     "collision margin, where two continental plates meet and neither subducts",
+     "constructive margin, where magma builds new land",
+     "conservative margin, where plates slide past each other",
+     "hot spot in the middle of a plate"
+    ],
+    "answer": 0,
+    "explain": "Two continental plates, neither dense enough to subduct, so the crust crumples and is uplifted. Collision margins have earthquakes but no volcanoes — which is why Nepal has no volcano."
+   },
+   {
+    "id": "M11",
+    "q": "Why are there no volcanoes at conservative plate margins?",
+    "options": [
+     "The plates move too slowly for magma to rise",
+     "No crust is created or destroyed, so there is no magma",
+     "The crust there is too thick for magma to break through",
+     "There are volcanoes — they are simply very small"
+    ],
+    "answer": 1,
+    "explain": "The 2023 examiner's report lists 'volcanoes occur at conservative plate boundaries' as a misconception that cost marks on the 9-marker."
+   },
+   {
+    "id": "M12",
+    "q": "Iceland and the Mid-Atlantic Ridge lie on which type of plate margin?",
+    "options": [
+     "Conservative",
+     "Destructive",
+     "Collision",
+     "Constructive"
+    ],
+    "answer": 3,
+    "explain": "The North American plate is moving away from the Eurasian plate, so magma rises into the gap and builds new land — which is also the source of Iceland's geothermal energy."
+   },
+   {
+    "id": "M13",
+    "q": "The San Andreas Fault in California is an example of a…",
+    "options": [
+     "conservative margin",
+     "destructive margin",
+     "constructive margin",
+     "hot spot"
+    ],
+    "answer": 0,
+    "explain": "Two plates sliding past each other. Stress builds along the locked fault and is released as a shallow-focus, highly destructive earthquake."
+   },
+   {
+    "id": "M14",
+    "q": "What proportion of the world's earthquakes occur around the Pacific Ring of Fire?",
+    "options": [
+     "About 90%",
+     "About 50%",
+     "About 25%",
+     "About 10%"
+    ],
+    "answer": 0,
+    "explain": "90% of earthquakes, and 22 of the 25 largest eruptions of the last 12,500 years. Hazards are concentrated along plate margins rather than scattered."
+   },
+   {
+    "id": "M15",
+    "q": "'Slab pull' describes…",
+    "options": [
+     "magma dragging the crust sideways as it rises",
+     "the denser plate sinking into the mantle under gravity and pulling the rest of the plate behind it",
+     "one plate pulling another apart at a ridge",
+     "the Moon's gravity pulling on the Earth's crust"
+    ],
+    "answer": 1,
+    "explain": "Examiners' reports single out slab pull and ridge push as the mechanisms that lift an answer above 'convection currents' alone."
+   },
+   {
+    "id": "M16",
+    "q": "The epicentre of an earthquake is…",
+    "options": [
+     "the underground point where the rock fractures",
+     "the centre of the tectonic plate",
+     "the edge of the area affected by shaking",
+     "the point on the surface directly above the focus"
+    ],
+    "answer": 3,
+    "explain": "The focus is underground where the rock fractures; the epicentre is directly above it on the surface, where shaking is strongest."
+   },
+   {
+    "id": "M17",
+    "q": "Which of these is a SECONDARY effect of the 2011 Japan earthquake?",
+    "options": [
+     "Buildings collapsing during the shaking",
+     "20,000 people killed",
+     "The radiation leak at the Fukushima nuclear power plant",
+     "500,000 people made homeless"
+    ],
+    "answer": 2,
+    "explain": "The shaking was primary; the tsunami it triggered was secondary, and the Fukushima leak the tsunami caused was secondary too. 2024 Q01.10 asked specifically for primary effects."
+   },
+   {
+    "id": "M18",
+    "q": "Which tectonic hazard can be predicted with reasonable reliability?",
+    "options": [
+     "Volcanic eruptions, from monitoring tilt, tremors and gas",
+     "Earthquakes, from radon gas detection",
+     "Both equally well",
+     "Neither can be predicted at all"
+    ],
+    "answer": 0,
+    "explain": "Rising magma gives warning signs; an earthquake does not. Before the 2010 Eyjafjallajökull eruption scientists detected seismic activity and predicted accurately."
+   },
+   {
+    "id": "M19",
+    "q": "AQA defines protection as…",
+    "options": [
+     "recording physical changes to forecast a hazard",
+     "actions taken before a hazard strikes to reduce its impact",
+     "the reaction of people in the immediate aftermath",
+     "making evacuation plans and warning systems"
+    ],
+    "answer": 1,
+    "explain": "Protection is pre-event damage limitation — earthquake-resistant building design, sea walls, education. Evacuation plans and warning systems are planning; recording changes is monitoring."
+   },
+   {
+    "id": "M20",
+    "q": "Which of these is an example of PLANNING rather than protection?",
+    "options": [
+     "Fitting rubber shock absorbers into building foundations",
+     "Raising a tsunami wall to 12.5 metres",
+     "Producing hazard maps and running earthquake drills",
+     "Building earth embankments to divert lava"
+    ],
+    "answer": 2,
+    "explain": "Planning enables communities to respond and recover: hazard maps, drills, evacuation plans, stockpiled supplies, warning systems. The other three are physical protection."
+   },
+   {
+    "id": "M21",
+    "q": "What was the magnitude of the Nepal earthquake of 25 April 2015?",
+    "options": [
+     "9.0",
+     "6.3",
+     "7.9",
+     "8.8"
+    ],
+    "answer": 2,
+    "explain": "Magnitude 7.9 at 11:56 on Saturday 25 April 2015. 9.0 was Japan in 2011; 8.8 was Chile in 2010."
+   },
+   {
+    "id": "M22",
+    "q": "Approximately how many people were killed by the Nepal earthquake?",
+    "options": [
+     "9,000",
+     "900",
+     "90,000",
+     "20,000"
+    ],
+    "answer": 0,
+    "explain": "9,000 killed and around 20,000 injured — do not confuse the injury figure with the death toll, or with Japan's 20,000 deaths."
+   },
+   {
+    "id": "M23",
+    "q": "How many people were left homeless by the Nepal earthquake?",
+    "options": [
+     "300,000",
+     "500,000",
+     "8 million",
+     "3 million"
+    ],
+    "answer": 3,
+    "explain": "3 million homeless, out of 8 million affected — a third of Nepal's population. 300,000 is the number who migrated out of Kathmandu; 500,000 was Japan's homeless figure."
+   },
+   {
+    "id": "M24",
+    "q": "What was the economic cost of the Nepal earthquake?",
+    "options": [
+     "$150 billion",
+     "$5 billion",
+     "$235 billion",
+     "$50 million"
+    ],
+    "answer": 1,
+    "explain": "$5 billion, against Japan's $235 billion for the same type of hazard — the contrast that shows cost measures what there was to destroy, not severity."
+   },
+   {
+    "id": "M25",
+    "q": "Nepal's 2015 earthquake occurred at the boundary between which two plates?",
+    "options": [
+     "The Indo-Australian and Eurasian plates",
+     "The Pacific and North American plates",
+     "The Nazca and South American plates",
+     "The African and Eurasian plates"
+    ],
+    "answer": 0,
+    "explain": "A collision margin in the Himalayas — which is why there was no volcano, and why, being inland, there was no tsunami."
+   },
+   {
+    "id": "M26",
+    "q": "What was the magnitude of the March 2011 Japan earthquake?",
+    "options": [
+     "7.9",
+     "8.0",
+     "9.0",
+     "6.9"
+    ],
+    "answer": 2,
+    "explain": "Magnitude 9.0 off the coast of Honshu, near Sendai. The Richter scale is logarithmic, so a 9.0 releases vastly more energy than Nepal's 7.9."
+   },
+   {
+    "id": "M27",
+    "q": "What was the economic cost of the 2011 Japan earthquake?",
+    "options": [
+     "$235 billion",
+     "$5 billion",
+     "$150 billion",
+     "$5.8 billion"
+    ],
+    "answer": 0,
+    "explain": "$235 billion. The $150 billion figure is the budget Japan set for its Reconstruction Design Council, which is a response rather than a cost."
+   },
+   {
+    "id": "M28",
+    "q": "As a long-term response to 2011, Japan upgraded its tsunami wall to a height of…",
+    "options": [
+     "5 metres",
+     "2.5 metres",
+     "25 metres",
+     "12.5 metres"
+    ],
+    "answer": 3,
+    "explain": "12.5 m, with an improved warning system — an example of an HIC rebuilding to a higher standard than before, which Nepal could not afford."
+   },
+   {
+    "id": "M29",
+    "q": "What percentage of Icelandic homes are heated by geothermal energy?",
+    "options": [
+     "20%",
+     "37%",
+     "92%",
+     "62%"
+    ],
+    "answer": 2,
+    "explain": "92% of homes are heated geothermally; geothermal also supplies 20% of electricity and saves 37% of CO2 emissions and $8.2 billion."
+   },
+   {
+    "id": "M30",
+    "q": "In 2024, tourism in Iceland was worth what share of the country's GDP?",
+    "options": [
+     "2.3%",
+     "20%",
+     "8.1%",
+     "6.2%"
+    ],
+    "answer": 2,
+    "explain": "8.1% of GDP, or $6.2 billion, from 2.3 million tourists — one of the strongest reasons why Icelanders continue to live on an active plate margin."
+   }
+  ],
+  "02-weather-hazards": [
+   {
+    "id": "M1",
+    "q": "The three cells of global atmospheric circulation in each hemisphere are the…",
+    "options": [
+     "Hadley, Ferrel and Polar cells",
+     "Hadley, Coriolis and Polar cells",
+     "Tropical, Temperate and Arctic cells",
+     "Trade, Westerly and Polar cells"
+    ],
+    "answer": 0,
+    "explain": "Hadley nearest the Equator, then Ferrel, then Polar. Trade winds and westerlies are the surface winds within them, not the cells themselves."
+   },
+   {
+    "id": "M2",
+    "q": "Rising air creates…",
+    "options": [
+     "high pressure and cloudless skies",
+     "low pressure, cloud and rainfall",
+     "high pressure and heavy rainfall",
+     "no change in pressure"
+    ],
+    "answer": 1,
+    "explain": "The 2023 examiner's report says a significant proportion wrote that sinking air causes low pressure. Rising air leaves less air pressing down, so pressure falls; the air cools, condenses and rains."
+   },
+   {
+    "id": "M3",
+    "q": "Hot deserts are found at about 30° north and south of the Equator because…",
+    "options": [
+     "the Sun is directly overhead there all year",
+     "warm moist air rises and loses its moisture there",
+     "cool dry air sinks there, creating high pressure and cloudless skies",
+     "the trade winds blow all the moisture away"
+    ],
+    "answer": 2,
+    "explain": "Air that rose at the Equator travels polewards, loses its heat and moisture, and sinks at 30° — sinking air warms and cannot form cloud, so rainfall is almost nil."
+   },
+   {
+    "id": "M4",
+    "q": "The trade winds blow…",
+    "options": [
+     "from the Equator towards the poles",
+     "from the poles directly to 30° north and south",
+     "from east to west along the Equator only",
+     "towards the Equator"
+    ],
+    "answer": 3,
+    "explain": "Trade winds blow towards the Equator from the high pressure at 30°; the westerlies blow from 30° towards the poles. The 2023 report notes candidates writing 'prevailing' or 'polar' winds instead."
+   },
+   {
+    "id": "M5",
+    "q": "A tropical storm is best defined as…",
+    "options": [
+     "a very heavy rainstorm in the tropics",
+     "an area of high pressure with strong winds",
+     "an area of low pressure with winds spiralling around a calm central eye",
+     "a storm with winds over 300 km/h"
+    ],
+    "answer": 2,
+    "explain": "AQA's wording: an area of low pressure with winds moving in a spiral around the calm central point called the eye. Winds are powerful and rainfall is heavy."
+   },
+   {
+    "id": "M6",
+    "q": "The minimum sea surface temperature needed for a tropical storm to form is…",
+    "options": [
+     "21 °C",
+     "25 °C",
+     "30 °C",
+     "27 °C"
+    ],
+    "answer": 3,
+    "explain": "27 °C, and it must be that warm to a depth of 100 m, because the warm water supplies the heat energy that makes air rise."
+   },
+   {
+    "id": "M7",
+    "q": "Tropical storms form between which latitudes?",
+    "options": [
+     "5° and 30° north and south of the Equator",
+     "0° and 5° north and south of the Equator",
+     "30° and 60° north and south of the Equator",
+     "Anywhere within 60° of the Equator"
+    ],
+    "answer": 0,
+    "explain": "The 2019 cloze and the 2023 multiple choice both tested this. They avoid the Equator itself and do not reach the mid-latitudes."
+   },
+   {
+    "id": "M8",
+    "q": "Why do tropical storms not form on the Equator itself?",
+    "options": [
+     "The sea is too cold there",
+     "There is no Coriolis effect, so the storm cannot spin",
+     "Air pressure there is too high",
+     "The trade winds blow too strongly"
+    ],
+    "answer": 1,
+    "explain": "The Coriolis effect, which bends and spins rising air, is zero at the Equator — so a storm cannot organise itself and hold together."
+   },
+   {
+    "id": "M9",
+    "q": "In the northern hemisphere, the clouds of a tropical storm swirl…",
+    "options": [
+     "clockwise",
+     "outwards from the eye",
+     "in no fixed direction",
+     "anticlockwise"
+    ],
+    "answer": 3,
+    "explain": "Northern-hemisphere hurricanes bend to the right, giving anticlockwise swirl; southern-hemisphere cyclones swirl clockwise. The 2022 mark scheme gave no credit for 'clockwise'."
+   },
+   {
+    "id": "M10",
+    "q": "The eye of a tropical storm is…",
+    "options": [
+     "calm and cloudless, with the lowest air pressure",
+     "the leading edge of the storm",
+     "where the strongest winds and heaviest rain occur",
+     "the area of highest air pressure in the storm"
+    ],
+    "answer": 0,
+    "explain": "Cold air sinks in the eye, so there is no cloud and it is drier and much calmer, with the lowest pressure of all. The eye is 16–48 km across."
+   },
+   {
+    "id": "M11",
+    "q": "Where in a tropical storm are the strongest winds and heaviest rainfall found?",
+    "options": [
+     "In the eye",
+     "In the outermost rain bands",
+     "At the rear of the storm",
+     "In the eye wall"
+    ],
+    "answer": 3,
+    "explain": "The eye wall is the ring of towering cumulonimbus immediately around the eye, where air is rising most rapidly."
+   },
+   {
+    "id": "M12",
+    "q": "Since 2012 the Saffir–Simpson scale has been based on…",
+    "options": [
+     "wind speed",
+     "storm surge height",
+     "central air pressure",
+     "the total rainfall"
+    ],
+    "answer": 0,
+    "explain": "Storm surge, flooding and central pressure were dropped because surges are influenced too much by local conditions. Wind speed is easier to understand and measure."
+   },
+   {
+    "id": "M13",
+    "q": "A Category 5 tropical storm has sustained winds of…",
+    "options": [
+     "119–153 km/h",
+     "178–208 km/h",
+     "209–251 km/h",
+     "more than 252 km/h"
+    ],
+    "answer": 3,
+    "explain": "Category 5: over 252 km/h, with most of the area uninhabitable for weeks to months. Category 1 starts at 119 km/h."
+   },
+   {
+    "id": "M14",
+    "q": "A storm surge is…",
+    "options": [
+     "the sudden burst of rainfall as the eye wall passes",
+     "a rapid rise in sea level driven by the wind pushing seawater onto the coast",
+     "the strengthening of the storm as it crosses warm water",
+     "the wave of air pressure ahead of the storm"
+    ],
+    "answer": 1,
+    "explain": "Surges can reach five metres. They cause the majority of tropical storm deaths — most of Haiyan's 6,300 victims drowned in the surge."
+   },
+   {
+    "id": "M15",
+    "q": "Climate change is expected to affect the FREQUENCY of tropical storms by…",
+    "options": [
+     "greatly increasing it",
+     "keeping it the same or decreasing it",
+     "doubling it by 2050",
+     "making storms form on the Equator"
+    ],
+    "answer": 1,
+    "explain": "The common error is to assume warmer seas mean more storms. The overall number is expected to stay the same or fall; it is the intensity that rises."
+   },
+   {
+    "id": "M16",
+    "q": "Climate change is expected to affect the INTENSITY of tropical storms by…",
+    "options": [
+     "increasing it, with more Category 4 and 5 storms",
+     "leaving it unchanged",
+     "reducing it, as wind shear increases",
+     "increasing only the rainfall, not the winds"
+    ],
+    "answer": 0,
+    "explain": "Warmer oceans supply more energy, so categories 4 and 5 increase while categories 1–3 decrease. Tropical sea surface temperatures have already risen 0.25–0.5 °C."
+   },
+   {
+    "id": "M17",
+    "q": "When did Typhoon Haiyan strike the Philippines?",
+    "options": [
+     "November 2013",
+     "November 2011",
+     "August 2014",
+     "March 2013"
+    ],
+    "answer": 0,
+    "explain": "3–11 November 2013, hitting Tacloban hardest. Areas affected also included Vietnam, Taiwan, Hong Kong, Palau, Micronesia and South China."
+   },
+   {
+    "id": "M18",
+    "q": "What category was Typhoon Haiyan, and what were its wind speeds?",
+    "options": [
+     "Category 3, 120 mph",
+     "Category 4, 150 mph",
+     "Category 5, 170 mph",
+     "Category 5, 250 mph"
+    ],
+    "answer": 2,
+    "explain": "Category 5 with 170 mph winds, a 5 m storm surge and waves up to 15 m — one of the strongest storms ever recorded."
+   },
+   {
+    "id": "M19",
+    "q": "Approximately how many people were killed by Typhoon Haiyan?",
+    "options": [
+     "630",
+     "6,300",
+     "63,000",
+     "220,000"
+    ],
+    "answer": 1,
+    "explain": "About 6,300 killed, most drowned by the storm surge. 220,000 is the number left homeless."
+   },
+   {
+    "id": "M20",
+    "q": "What percentage of the city of Tacloban was destroyed by Typhoon Haiyan?",
+    "options": [
+     "30%",
+     "50%",
+     "70%",
+     "90%"
+    ],
+    "answer": 3,
+    "explain": "90% of Tacloban was destroyed. Tacloban's population was around 220,000, and its airport was badly damaged, which slowed the arrival of aid."
+   },
+   {
+    "id": "M21",
+    "q": "How many fishing boats were destroyed by Typhoon Haiyan?",
+    "options": [
+     "30,000",
+     "3,000",
+     "300,000",
+     "1,200"
+    ],
+    "answer": 0,
+    "explain": "30,000 boats — a primary effect that became the secondary effect of 6 million people losing their source of income. 1,200 is the number of evacuation centres opened."
+   },
+   {
+    "id": "M22",
+    "q": "Which of these was a LONG-TERM response to Typhoon Haiyan?",
+    "options": [
+     "The USS George Washington flying search-and-rescue missions",
+     "The Philippines Red Cross delivering canned food and rice",
+     "Oxfam funding replacement fishing boats through cash-for-work and aid programmes",
+     "French, Belgian and Israeli field hospitals treating the injured"
+    ],
+    "answer": 2,
+    "explain": "Replacing livelihoods takes months to years. The other three all happened in the immediate aftermath, within days."
+   },
+   {
+    "id": "M23",
+    "q": "When did the Somerset Levels floods occur?",
+    "options": [
+     "December 2015 to February 2016",
+     "January to March 2018",
+     "November 2013 only",
+     "December 2013 to February 2014"
+    ],
+    "answer": 3,
+    "explain": "December 2013 to February 2014, including the wettest January since records began."
+   },
+   {
+    "id": "M24",
+    "q": "Which of these was a HUMAN cause of the Somerset Levels floods?",
+    "options": [
+     "A quick succession of Atlantic storms",
+     "High tides and storm surges up the Bristol Channel",
+     "100 mm above average rainfall",
+     "The rivers had not been dredged for 20 years"
+    ],
+    "answer": 3,
+    "explain": "Twenty years without dredging left the channels full of sediment, so they held far less water. This is why dredging dominates the management response."
+   },
+   {
+    "id": "M25",
+    "q": "How many houses were flooded in the Somerset Levels?",
+    "options": [
+     "600",
+     "60",
+     "6,000",
+     "16"
+    ],
+    "answer": 0,
+    "explain": "600 houses flooded and 16 farms evacuated, with residents in temporary accommodation for several months."
+   },
+   {
+    "id": "M26",
+    "q": "What was the overall economic cost of the Somerset Levels floods?",
+    "options": [
+     "£20 million",
+     "£15 million",
+     "£150 million",
+     "£80 million"
+    ],
+    "answer": 2,
+    "explain": "£150 million overall, of which £20 million was residential; 80 road closures cost the local economy a further £15 million. £80 million is the planned tidal barrier."
+   },
+   {
+    "id": "M27",
+    "q": "The Somerset Levels Flood Action Plan included dredging…",
+    "options": [
+     "8 km of the Rivers Parrett and Tone, at a cost of £6 million",
+     "80 km of the River Severn, at a cost of £20 million",
+     "the whole Bristol Channel, at a cost of £150 million",
+     "no rivers — dredging was ruled out as ineffective"
+    ],
+    "answer": 0,
+    "explain": "8 km of the Parrett and Tone for £6 million, followed by a programme of annual dredging, as part of a £20 million plan."
+   },
+   {
+    "id": "M28",
+    "q": "The planned tidal barrier at Bridgwater would cost £80 million and protect how many homes?",
+    "options": [
+     "600",
+     "1,150",
+     "11,500",
+     "115,000"
+    ],
+    "answer": 2,
+    "explain": "11,500 homes. Quoting cost against homes protected is what lets you judge whether a management strategy represents value."
+   },
+   {
+    "id": "M29",
+    "q": "Which of these is the best evidence that UK weather is becoming more extreme?",
+    "options": [
+     "The Beast from the East in 2018 cost £1 billion a day",
+     "UK temperatures have risen by about 1 °C since 1980 and more winter rain has fallen in heavy events since the 1980s",
+     "The Somerset Levels flooded in 2014",
+     "2022 saw a heatwave of 40.3 °C"
+    ],
+    "answer": 1,
+    "explain": "A trend, from long records, is evidence; individual events are illustrations. The 2022 report warns that reference to a handful of recent events is not evidence of a trend."
+   },
+   {
+    "id": "M30",
+    "q": "In UK terms, a drought is officially defined as…",
+    "options": [
+     "any summer with below-average rainfall",
+     "fifteen consecutive days with less than 0.2 mm of rain on any one day",
+     "three months with no measurable rain at all",
+     "any period when a hosepipe ban is in force"
+    ],
+    "answer": 1,
+    "explain": "Beyond fifteen such days there may be insufficient moisture for average crop production, particularly if reservoir reserves are already low."
+   }
+  ],
+  "03-climate-change": [
+   {
+    "id": "M1",
+    "q": "The Quaternary period began approximately…",
+    "options": [
+     "12,000 years ago",
+     "2.6 million years ago",
+     "800,000 years ago",
+     "4.55 billion years ago"
+    ],
+    "answer": 1,
+    "explain": "2.6 million years ago, in the Cenozoic era. 12,000 years ago is the start of the Holocene epoch; 4.55 billion years is the age of the Earth."
+   },
+   {
+    "id": "M2",
+    "q": "The Quaternary period is divided into which two epochs?",
+    "options": [
+     "Glacial and Interglacial",
+     "Cenozoic and Mesozoic",
+     "Pleistocene and Holocene",
+     "Palaeocene and Eocene"
+    ],
+    "answer": 2,
+    "explain": "The Pleistocene, with its repeated glacials, and the Holocene, the current interglacial, which began when the last glacial expansion ended."
+   },
+   {
+    "id": "M3",
+    "q": "During the Pleistocene, cold glacial episodes lasted approximately…",
+    "options": [
+     "100,000 years, separated by interglacials of about 10,000 years",
+     "10,000 years, separated by interglacials of about 100,000 years",
+     "1,000 years, separated by interglacials of about 500 years",
+     "1 million years, with no interglacials"
+    ],
+    "answer": 0,
+    "explain": "The warm intervals were much shorter than the cold ones. That 100,000-year rhythm matches the eccentricity cycle in the Milankovitch model."
+   },
+   {
+    "id": "M4",
+    "q": "Antarctic ice cores provide a climate record going back approximately…",
+    "options": [
+     "80,000 years",
+     "8,000 years",
+     "8 million years",
+     "800,000 years"
+    ],
+    "answer": 3,
+    "explain": "Antarctica has no permanent residents, so annual snow layers remain unaltered; the deeper the drilling, the older the snow."
+   },
+   {
+    "id": "M5",
+    "q": "What is measured in ice cores to estimate past temperatures?",
+    "options": [
+     "The thickness of each annual layer",
+     "The density of the ice",
+     "The amount of dust in the ice",
+     "The ratio of oxygen isotopes"
+    ],
+    "answer": 3,
+    "explain": "Oxygen isotopes are atoms with different numbers of neutrons; the ratio between two of them depends on the temperature when the snow fell. Melting the core also releases trapped CO2 and methane."
+   },
+   {
+    "id": "M6",
+    "q": "Which of these is NOT an example of proxy data for climate change?",
+    "options": [
+     "Tree rings",
+     "Fossil pollen",
+     "Met Office weather station records",
+     "Ocean sediments"
+    ],
+    "answer": 2,
+    "explain": "Weather station records are direct instrumental measurement, reliable since 1914. Proxies are natural recorders used for the era before instruments."
+   },
+   {
+    "id": "M7",
+    "q": "By approximately how much has the Earth's average surface air temperature risen over the last 100 years?",
+    "options": [
+     "0.1 °C",
+     "1 °C",
+     "4 °C",
+     "10 °C"
+    ],
+    "answer": 1,
+    "explain": "About 1 °C. Projections suggest a further 1.8–4 °C by the end of the century, depending on emissions."
+   },
+   {
+    "id": "M8",
+    "q": "Global sea levels have risen by approximately how much since 1900?",
+    "options": [
+     "19 cm",
+     "1.9 cm",
+     "190 cm",
+     "43 cm"
+    ],
+    "answer": 0,
+    "explain": "19 cm, caused by thermal expansion of warming water plus meltwater from ice sheets. A further 28–43 cm is projected by 2100."
+   },
+   {
+    "id": "M9",
+    "q": "Thermal expansion contributes to sea level rise because…",
+    "options": [
+     "warmer air holds more water vapour",
+     "melting sea ice adds water to the ocean",
+     "ocean water expands in volume as it warms",
+     "warmer oceans evaporate more slowly"
+    ],
+    "answer": 2,
+    "explain": "The same mass of seawater occupies more space when warm. Melting sea ice does not raise sea level, because floating ice already displaces its own weight."
+   },
+   {
+    "id": "M10",
+    "q": "Arctic sea ice has thinned by approximately how much since 1975?",
+    "options": [
+     "5%",
+     "25%",
+     "65%",
+     "95%"
+    ],
+    "answer": 2,
+    "explain": "65%. September Arctic sea ice volume fell from 16,300 km3 in 1980 to 4,400 km3 in 2020 — the data behind the 2023 and 2024 opening questions."
+   },
+   {
+    "id": "M11",
+    "q": "According to NASA data, how much ice has Greenland lost per year since 2002?",
+    "options": [
+     "134 billion tonnes",
+     "287 billion tonnes",
+     "28.7 million tonnes",
+     "2.87 billion tonnes"
+    ],
+    "answer": 1,
+    "explain": "287 billion tonnes a year for Greenland; 134 billion tonnes a year for Antarctica. Both are land ice, so both raise sea level."
+   },
+   {
+    "id": "M12",
+    "q": "Which one of the following is a NATURAL factor affecting climate change?",
+    "options": [
+     "Agriculture",
+     "Burning fossil fuels",
+     "Deforestation",
+     "Volcanic activity"
+    ],
+    "answer": 3,
+    "explain": "This was 2023 Q01.1. Natural: orbital changes, solar output, volcanic activity. Human: fossil fuels, agriculture, deforestation. A minority wrongly picked deforestation."
+   },
+   {
+    "id": "M13",
+    "q": "Eccentricity, the 'stretch' of the Earth's orbit, operates on a cycle of about…",
+    "options": [
+     "100,000 years",
+     "42,000 years",
+     "26,000 years",
+     "11 years"
+    ],
+    "answer": 0,
+    "explain": "100,000 years — which matches the glacial rhythm in the ice-core record. 42,000 is tilt, 26,000 is precession, 11 is the sunspot cycle."
+   },
+   {
+    "id": "M14",
+    "q": "The tilt of the Earth's axis varies between…",
+    "options": [
+     "0° and 23.5°",
+     "23.5° and 26°, over about 26,000 years",
+     "20° and 30°, over about 100,000 years",
+     "22.2° and 24.5°, over about 42,000 years"
+    ],
+    "answer": 3,
+    "explain": "It is currently 23.5°. The greater the tilt, the more solar energy the poles receive, so ice retreats."
+   },
+   {
+    "id": "M15",
+    "q": "The sunspot cycle, used to measure variations in solar output, lasts about…",
+    "options": [
+     "1 year",
+     "11 years",
+     "100 years",
+     "26,000 years"
+    ],
+    "answer": 1,
+    "explain": "Eleven years from least activity to most and back. Because it is cyclical and small, solar variation cannot explain a sustained one-directional rise in temperature."
+   },
+   {
+    "id": "M16",
+    "q": "The short-term effect of a major volcanic eruption on global climate is to…",
+    "options": [
+     "warm the planet, because volcanoes release carbon dioxide",
+     "cool the planet, because ash and sulphuric acid droplets reflect solar radiation",
+     "have no measurable effect at all",
+     "warm the poles and cool the tropics"
+    ],
+    "answer": 1,
+    "explain": "Sulphur dioxide converts to sulphuric acid droplets that act like tiny mirrors and last for years — far longer than the ash. The result is called a volcanic winter."
+   },
+   {
+    "id": "M17",
+    "q": "After Mount Pinatubo erupted in June 1991, global temperatures dropped by approximately…",
+    "options": [
+     "0.05 °C",
+     "5 °C",
+     "0.5 °C",
+     "2 °C"
+    ],
+    "answer": 2,
+    "explain": "About 0.5 °C, with the ash circling the world in roughly three weeks. Pinatubo is the standard named example of volcanic cooling."
+   },
+   {
+    "id": "M18",
+    "q": "How do greenhouse gases cause the Earth to warm?",
+    "options": [
+     "They allow heat from the Earth to escape into space",
+     "They block incoming heat from the Sun",
+     "They release heat into the atmosphere themselves",
+     "They trap heat given off by the Earth in the atmosphere"
+    ],
+    "answer": 3,
+    "explain": "This was 2025 Q01.7. Short-wave solar radiation passes through; the Earth re-emits it as long-wave radiation, which CO2 and methane absorb. Getting the direction right is the whole mark."
+   },
+   {
+    "id": "M19",
+    "q": "Which of these is a human cause of climate change named in the specification?",
+    "options": [
+     "Agriculture",
+     "Orbital changes",
+     "Solar output",
+     "Volcanic activity"
+    ],
+    "answer": 0,
+    "explain": "The spec names three human factors: use of fossil fuels, agriculture and deforestation. Cattle and rice paddies release methane."
+   },
+   {
+    "id": "M20",
+    "q": "In 2020, carbon dioxide made up what share of UK greenhouse gas emissions?",
+    "options": [
+     "13%",
+     "79%",
+     "50%",
+     "95%"
+    ],
+    "answer": 1,
+    "explain": "CO2 79%, methane 13%, nitrous oxide 5% and fluorinated gases 3% — the data in Figure 3b of the 2025 paper."
+   },
+   {
+    "id": "M21",
+    "q": "Mitigation of climate change means…",
+    "options": [
+     "adjusting to climate change to reduce the damage it causes",
+     "reducing the causes of climate change by reducing greenhouse gases",
+     "predicting where the worst effects will fall",
+     "compensating countries worst affected"
+    ],
+    "answer": 1,
+    "explain": "Mitigation attacks the cause; adaptation attacks the effect. Confusing the two is the costliest error in this topic."
+   },
+   {
+    "id": "M22",
+    "q": "Which of these is an ADAPTATION rather than a mitigation strategy?",
+    "options": [
+     "Carbon capture and storage",
+     "Planting trees",
+     "Building sea walls and relocating people at risk",
+     "Switching to geothermal energy"
+    ],
+    "answer": 2,
+    "explain": "Sea walls do nothing about CO2 — they reduce the damage from change that is already happening. The other three reduce greenhouse gases."
+   },
+   {
+    "id": "M23",
+    "q": "Carbon capture works by…",
+    "options": [
+     "filtering carbon dioxide out of car exhausts",
+     "trapping carbon dioxide before it enters the atmosphere and storing it underground",
+     "converting carbon dioxide into oxygen using chemicals",
+     "burning fossil fuels at a higher temperature"
+    ],
+    "answer": 1,
+    "explain": "CO2 is removed from the waste gases of power stations and stored in old oil and gas fields or coal mines. The 2025 mark scheme caps you at 1 mark if you omit capture or storage."
+   },
+   {
+    "id": "M24",
+    "q": "Up to what proportion of carbon dioxide can carbon capture technology remove?",
+    "options": [
+     "30%",
+     "50%",
+     "90%",
+     "100%"
+    ],
+    "answer": 2,
+    "explain": "Up to 90%. Boundary Dam in Canada captures 90% of the CO2 from its assigned unit, but only 15% of the plant's total — the figure that makes the evaluation."
+   },
+   {
+    "id": "M25",
+    "q": "Planting trees mitigates climate change because trees…",
+    "options": [
+     "reflect sunlight back into space",
+     "hold water in the soil and reduce flooding",
+     "release oxygen, which cools the air",
+     "absorb carbon dioxide from the atmosphere through photosynthesis"
+    ],
+    "answer": 3,
+    "explain": "Afforestation removes CO2 that is already in the atmosphere, which is different from renewables, which prevent new emissions."
+   },
+   {
+    "id": "M26",
+    "q": "Which country planted 11 billion trees and is now two-thirds covered by forest?",
+    "options": [
+     "Canada",
+     "Brazil",
+     "Iceland",
+     "South Korea"
+    ],
+    "answer": 3,
+    "explain": "South Korea was almost completely deforested after Japanese occupation and the Korean War; a national replanting effort reversed it."
+   },
+   {
+    "id": "M27",
+    "q": "The Paris Agreement of 2015 set a target of keeping the global temperature increase…",
+    "options": [
+     "below 2 °C",
+     "below 4 °C",
+     "at zero",
+     "below 0.5 °C"
+    ],
+    "answer": 0,
+    "explain": "Below 2 °C, with progress reviewed every five years, greenhouse gases peaking as soon as possible, and $100 billion a year to support climate initiatives."
+   },
+   {
+    "id": "M28",
+    "q": "What is the standard criticism of the Paris Agreement?",
+    "options": [
+     "Too few countries signed it",
+     "There is no means of enforcing the targets — they are solely aims",
+     "It set the temperature target far too low to be useful",
+     "It applies only to higher-income countries"
+    ],
+    "answer": 1,
+    "explain": "Almost every country signed, but the targets cannot be enforced, and the USA withdrew in 2017 — which is why agreements are essential but not sufficient."
+   },
+   {
+    "id": "M29",
+    "q": "The Maldives has adapted to rising sea levels by…",
+    "options": [
+     "building a tidal barrier across its capital's harbour",
+     "relocating its entire population to India",
+     "building the artificial island of Hulhumalé",
+     "installing desalination plants on every island"
+    ],
+    "answer": 2,
+    "explain": "Hulhumalé sits above projected sea levels and has attracted thousands of residents from Malé. It shows adaptation working where mitigation cannot, since the Maldives emits almost nothing."
+   },
+   {
+    "id": "M30",
+    "q": "Which of these is an adaptation of agricultural systems to climate change?",
+    "options": [
+     "Taxing fuel to reduce emissions from farm machinery",
+     "Switching to drought-resistant crop varieties and installing irrigation",
+     "Planting trees around fields to absorb carbon dioxide",
+     "Capturing methane from cattle and storing it underground"
+    ],
+    "answer": 1,
+    "explain": "Adaptation keeps food production going under the new climate: moving production, irrigating where rainfall falls, and changing crops and varieties. The other three reduce emissions, so they are mitigation."
+   }
+  ],
+  "04-ecosystems-and-rainforests": [
+   {
+    "id": "M1",
+    "q": "AQA defines an ecosystem as…",
+    "options": [
+     "all the animals living in one area",
+     "a community of plants and animals that interact with each other and their physical environment",
+     "a very large, naturally occurring community of flora and fauna occupying a major area",
+     "the non-living parts of an environment, such as soil, rock and climate"
+    ],
+    "answer": 1,
+    "explain": "Option 2 is the definition of a biome and option 3 is the definition of the abiotic components. The examined word is interact — an ecosystem is biotic and abiotic parts interacting."
+   },
+   {
+    "id": "M2",
+    "q": "Which of these is an abiotic component of a pond ecosystem?",
+    "options": [
+     "Algae",
+     "Midge larvae",
+     "Heron",
+     "Dissolved oxygen"
+    ],
+    "answer": 3,
+    "explain": "Abiotic means relating to non-living things — the water, sunlight, dissolved oxygen, sediment and temperature. The other three are biotic."
+   },
+   {
+    "id": "M3",
+    "q": "In the pond ecosystem John's class studied, which organism is the producer?",
+    "options": [
+     "Algae",
+     "Midge larvae",
+     "Perch",
+     "Rag-tailed maggots"
+    ],
+    "answer": 0,
+    "explain": "Algae absorb energy from the sun by photosynthesis, so they are the energy entry point. Midge larvae are the primary consumers, perch the secondary, heron the tertiary and rag-tailed maggots the decomposers."
+   },
+   {
+    "id": "M4",
+    "q": "In that pond ecosystem, the tertiary consumer is the…",
+    "options": [
+     "midge larvae",
+     "perch",
+     "heron",
+     "algae"
+    ],
+    "answer": 2,
+    "explain": "Algae → midge larvae → fish such as perch → heron. The heron is at the top of the pond food chain."
+   },
+   {
+    "id": "M5",
+    "q": "In the school's pond example, the decomposers are the…",
+    "options": [
+     "herons",
+     "rag-tailed maggots",
+     "perch",
+     "midge larvae"
+    ],
+    "answer": 1,
+    "explain": "Rag-tailed maggots break down dead tissue so the nutrients are recycled back into the water and sediment for the algae to take up."
+   },
+   {
+    "id": "M6",
+    "q": "AQA defines a decomposer as an organism such as a bacterium or fungus that…",
+    "options": [
+     "absorbs energy from the sun through photosynthesis",
+     "eats herbivores and/or plant matter",
+     "breaks down dead tissue, which is then recycled to the environment",
+     "moves nutrients from the soil into the biomass"
+    ],
+    "answer": 2,
+    "explain": "Option 1 defines a producer, option 2 a consumer. The phrase worth learning is 'which is then recycled to the environment' — that is what links decomposers to the nutrient cycle."
+   },
+   {
+    "id": "M7",
+    "q": "What is the difference between a food chain and a food web?",
+    "options": [
+     "a food chain shows one line of energy flow from producer to tertiary consumer, whereas a food web shows a collection of interlinked food chains",
+     "a food chain is simply a longer version of a food web",
+     "a food web contains only plants, while a food chain contains animals too",
+     "a food chain includes decomposers and a food web does not"
+    ],
+    "answer": 0,
+    "explain": "This was 2023 Q02.2, for 1 mark. The difference is structural — one line versus many interlinked lines — not a difference of size."
+   },
+   {
+    "id": "M8",
+    "q": "In 2019 Figure 7, biomass fell from 12 000 units at the primary consumer level to 300 at the secondary consumer level. What is the percentage loss?",
+    "options": [
+     "2.5%",
+     "25.2%",
+     "95.5%",
+     "97.5%"
+    ],
+    "answer": 3,
+    "explain": "11 700 ÷ 12 000 = 0.975, so 97.5%. This was 2019 Q02.4 — a single mark for a calculation, so practise doing it fast."
+   },
+   {
+    "id": "M9",
+    "q": "AQA defines ecotourism as…",
+    "options": [
+     "tourism in a country that has signed an international environmental agreement",
+     "responsible travel to natural areas that conserves the environment, sustains the wellbeing of local people, and may involve education",
+     "any form of tourism that takes place outdoors",
+     "tourism that replaces logging as a country's main source of income"
+    ],
+    "answer": 1,
+    "explain": "The definition continues: it is usually carried out in small groups and has minimal impact on the local ecosystem. Both the small groups and the local wellbeing are mark-earning details."
+   },
+   {
+    "id": "M10",
+    "q": "The 2023 nutrient-cycle figure gave biomass stores of trunk 120, branches 80, roots 30 and leaves 10 tonnes of carbon per hectare. What percentage of the biomass is stored in the roots?",
+    "options": [
+     "7.5%",
+     "12.5%",
+     "17.5%",
+     "22.5%"
+    ],
+    "answer": 1,
+    "explain": "The total is 240, and 30 ÷ 240 = 12.5%. This was 2023 Q02.6."
+   },
+   {
+    "id": "M11",
+    "q": "According to the 2023 paper's own fact file, tropical rainforests are home to…",
+    "options": [
+     "about 10% of the plant and animal species on Earth",
+     "about 25% of the plant and animal species on Earth",
+     "more than 50% of the plant and animal species on Earth",
+     "more than 90% of the plant and animal species on Earth"
+    ],
+    "answer": 2,
+    "explain": "The Case Study Summary Booklet puts the same point as more than two-thirds of the world's plant species and half its animal species. Either figure is creditable; both make the biodiversity-loss argument."
+   },
+   {
+    "id": "M12",
+    "q": "The three flows of the nutrient cycle are…",
+    "options": [
+     "fallout, decay and uptake",
+     "runoff, leaching and weathering",
+     "biomass, litter and soil",
+     "interception, transpiration and evaporation"
+    ],
+    "answer": 0,
+    "explain": "Fallout moves material from biomass to litter, decay from litter to soil, and uptake from soil back to biomass. Biomass, litter and soil are the three stores, not the flows."
+   },
+   {
+    "id": "M13",
+    "q": "Why is nutrient cycling so rapid in the tropical rainforest?",
+    "options": [
+     "the soil is deep and fertile, so nutrients are readily available",
+     "rainfall washes nutrients directly from the atmosphere into the biomass",
+     "the trees drop all their leaves at once, giving a single large input",
+     "high temperatures and a wet climate allow decomposers to break litter down very quickly"
+    ],
+    "answer": 3,
+    "explain": "The mark scheme adds that the vegetation is evergreen, so the litter layer is fed all year rather than in one autumn drop. The soil is the opposite of fertile — it is a thin, leached latosol."
+   },
+   {
+    "id": "M14",
+    "q": "The red soil found in tropical rainforests is called a…",
+    "options": [
+     "podsol",
+     "latosol",
+     "chernozem",
+     "gley"
+    ],
+    "answer": 1,
+    "explain": "A one-mark recall fact from the school's quick-fire list. The latosol is thin and heavily leached by the high rainfall, which is why the nutrients are held in the biomass rather than in the soil."
+   },
+   {
+    "id": "M15",
+    "q": "The UK's global ecosystem (biome) is…",
+    "options": [
+     "coniferous forest",
+     "tundra",
+     "temperate deciduous forest",
+     "temperate grassland"
+    ],
+    "answer": 2,
+    "explain": "Another one-mark recall fact from the school's quick-fire list. Deciduous means the trees drop their leaves, which they do because of lower winter temperatures."
+   },
+   {
+    "id": "M16",
+    "q": "Which statement describes the characteristics of temperate deciduous forests?",
+    "options": [
+     "the vegetation is short because the growing season only lasts two months",
+     "the trees drop their dead leaves because of lower temperatures in winter",
+     "the vegetation is sparse because rainfall is low",
+     "the vegetation is evergreen because the climate is hot all year round"
+    ],
+    "answer": 1,
+    "explain": "This was 2022 Q02.3, word for word. Option 1 describes tundra, option 3 a desert and option 4 a tropical rainforest."
+   },
+   {
+    "id": "M17",
+    "q": "The three largest blocks of tropical rainforest are in…",
+    "options": [
+     "Europe, Asia and Australia",
+     "North America, Europe and Asia",
+     "the Arctic, Antarctica and the Himalayas",
+     "Amazonia, central and west Africa, and south-east Asia and Indonesia"
+    ],
+    "answer": 3,
+    "explain": "The mark scheme for the describe-distribution question wants the Equator and the Tropics of Cancer and Capricorn plus these three named blocks, with smaller areas on the north and east coasts of Australia."
+   },
+   {
+    "id": "M18",
+    "q": "Why do global ecosystems form broad belts running roughly east–west?",
+    "options": [
+     "climate is controlled mainly by latitude, and lines of latitude run east–west",
+     "ocean currents all flow from east to west",
+     "the continents are themselves arranged east–west",
+     "prevailing winds blow from west to east"
+    ],
+    "answer": 0,
+    "explain": "Latitude controls the angle of incoming solar radiation and the global circulation of air, so the climate zones — and the ecosystems adapted to them — follow lines of latitude. Relief, ocean currents and continentality distort the pattern."
+   },
+   {
+    "id": "M19",
+    "q": "The five layers of the tropical rainforest, from top to bottom, are…",
+    "options": [
+     "canopy, emergents, shrub layer, under canopy, ground layer",
+     "emergents, canopy, under canopy, shrub layer, ground layer",
+     "ground layer, shrub layer, canopy, emergents, under canopy",
+     "emergents, under canopy, canopy, ground layer, shrub layer"
+    ],
+    "answer": 1,
+    "explain": "Emergents are the tallest trees that emerge from the canopy; the under canopy is mainly bare trunks and lianas; the shrub layer holds ferns and saplings; the ground layer is dark and damp with a litter layer."
+   },
+   {
+    "id": "M20",
+    "q": "What proportion of rainforest wildlife does the canopy contain?",
+    "options": [
+     "about 10%",
+     "about 25%",
+     "over 50%",
+     "over 90%"
+    ],
+    "answer": 2,
+    "explain": "The school mat calls the canopy 'the sea of tree tops that contain over 50% of rainforest wildlife'. It is the figure that links the layered structure to the high biodiversity."
+   },
+   {
+    "id": "M21",
+    "q": "Temperatures in the tropical rainforest are typically…",
+    "options": [
+     "above 25–35°C and almost constant all year",
+     "between 10 and 20°C with a large annual range",
+     "above 40°C in summer and below 10°C in winter",
+     "below 0°C for part of the year"
+    ],
+    "answer": 0,
+    "explain": "From the Case Study Summary Booklet. The reason is latitude — the sun's energy is more concentrated near the Equator. The mark scheme explicitly rejects the idea that tropical regions are closer to the sun."
+   },
+   {
+    "id": "M22",
+    "q": "How do drip tips help a rainforest leaf?",
+    "options": [
+     "they trap water for the dry season",
+     "they reflect sunlight away from the leaf surface",
+     "they allow the leaf to absorb nutrients directly from rainwater",
+     "they allow water to run off, avoiding damage from heavy tropical rainfall"
+    ],
+    "answer": 3,
+    "explain": "Running the water off also stops fungi growing on a permanently wet leaf surface. Thick, waxy leaves are the separate adaptation that protects the plant from intense sunlight."
+   },
+   {
+    "id": "M23",
+    "q": "Buttress roots help a rainforest tree because…",
+    "options": [
+     "they reach deep into the water table",
+     "they stop the shallowly rooted tree falling over and gather nutrients released from the litter layer into the topsoil",
+     "they store water through the dry season",
+     "they protect the trunk from being colonised by lianas"
+    ],
+    "answer": 1,
+    "explain": "They are large roots on all sides of a shallowly rooted tree and deliberately do not penetrate to deeper layers, because the nutrients are in the litter layer at the surface. Option 4 is what smooth bark does."
+   },
+   {
+    "id": "M24",
+    "q": "Why do rainforest trees have thin, smooth bark?",
+    "options": [
+     "it allows the trunk itself to photosynthesise",
+     "it lets the tree absorb water through the trunk",
+     "there is no cold to protect against, and smoothness stops lianas and epiphytes colonising the trunk",
+     "it makes the trunk flexible in storms"
+    ],
+    "answer": 2,
+    "explain": "Both halves matter — thin because there is no winter, and smooth as a defence against climbers. Lianas are vines that climb tree trunks to reach sunlight in the canopy."
+   },
+   {
+    "id": "M25",
+    "q": "Which rainforest animal adaptation is correctly matched?",
+    "options": [
+     "the gecko's large, flattened toe pads with sticky scales let it grip smooth tree trunks",
+     "the sloth excretes poison through its skin to warn predators",
+     "the jaguar's prehensile tail lets it grasp branches",
+     "the poison dart frog's thick fur keeps it camouflaged"
+    ],
+    "answer": 0,
+    "explain": "Poison through the skin is the poison dart frog; the prehensile tail is the spider monkey; camouflaging fur is the jaguar. The sloth has long arms, curved feet and very slow movement."
+   },
+   {
+    "id": "M26",
+    "q": "What percentage of deforestation in the Amazon is due to cattle ranching?",
+    "options": [
+     "20%",
+     "40%",
+     "60%",
+     "80%"
+    ],
+    "answer": 3,
+    "explain": "A further 10% is due to other commercial agriculture, so around 90% of Amazon clearance is agricultural. The 2023 paper's own fact file repeats the figure as 'cattle ranching accounts for 80% of current deforestation in Brazil'."
+   },
+   {
+    "id": "M27",
+    "q": "How long is the Trans-Amazonian Highway?",
+    "options": [
+     "400 km",
+     "1300 km",
+     "4000 km",
+     "13 000 km"
+    ],
+    "answer": 2,
+    "explain": "4000 km, and the point the Case Study Summary Booklet makes is that it 'makes the forest accessible for others to exploit' — road building is an enabling cause of deforestation. 1300 km is the Trans-Alaskan Pipeline."
+   },
+   {
+    "id": "M28",
+    "q": "How much of the Amazon rainforest has already been destroyed?",
+    "options": [
+     "5%",
+     "20%",
+     "40%",
+     "60%"
+    ],
+    "answer": 1,
+    "explain": "From the school's quick-fire list. It is the figure that makes a conclusion decisive on any 'do you agree' question about the impacts of deforestation."
+   },
+   {
+    "id": "M29",
+    "q": "How much carbon dioxide did tropical deforestation release between 2001 and 2019?",
+    "options": [
+     "105 gigatonnes",
+     "10.5 gigatonnes",
+     "1.05 gigatonnes",
+     "1050 gigatonnes"
+    ],
+    "answer": 0,
+    "explain": "From the 2023 paper's own fact file. Use it to show the contribution to climate change is global and measured, not just 'trees absorb CO2'."
+   },
+   {
+    "id": "M30",
+    "q": "AQA defines selective logging as…",
+    "options": [
+     "removing all the trees from a small area and replanting it afterwards",
+     "logging only during the dry season",
+     "logging only hardwoods such as mahogany",
+     "the cutting out of trees which are mature or inferior, to encourage the growth of the remaining trees"
+    ],
+    "answer": 3,
+    "explain": "Because the canopy and the younger trees are left standing, the litter layer and nutrient cycle survive and the soil is not exposed — which is why it counts as sustainable management."
+   }
+  ],
+  "05-cold-environments": [
+   {
+    "id": "M1",
+    "q": "A cold environment is defined as an area that…",
+    "options": [
+     "experiences very low temperatures for long periods of time",
+     "is permanently covered by ice",
+     "lies inside the Arctic or Antarctic Circle",
+     "has an average annual temperature below 10°C"
+    ],
+    "answer": 0,
+    "explain": "The most extreme cold environments experience temperatures well below freezing throughout the year — Antarctica is the school's named example of an extreme cold environment."
+   },
+   {
+    "id": "M2",
+    "q": "Which statement is true of a polar environment but not of tundra?",
+    "options": [
+     "it experiences cold temperatures",
+     "its winter months are near or in total darkness",
+     "temperatures remain below 0°C throughout the year",
+     "precipitation falls mostly as snow"
+    ],
+    "answer": 2,
+    "explain": "Both are cold and both have dark winters. The distinguishing features are that polar temperatures stay below 0°C all year and can fall below −50°C in winter, whereas tundra has a large annual range and conditions mild enough for life to thrive in summer."
+   },
+   {
+    "id": "M3",
+    "q": "In a polar environment, winter temperatures can fall below…",
+    "options": [
+     "−10°C",
+     "−50°C",
+     "−100°C",
+     "−5°C"
+    ],
+    "answer": 1,
+    "explain": "The school mat gives below −50°C for polar winters. Svalbard, which is polar but maritime, reaches about −30°C, with the school's model answer quoting lows as extreme as −45°C."
+   },
+   {
+    "id": "M4",
+    "q": "Which feature of a climate graph most clearly identifies a tundra rather than a polar environment?",
+    "options": [
+     "low total precipitation",
+     "winter months with no sunshine",
+     "temperatures below freezing in January",
+     "a large annual temperature range"
+    ],
+    "answer": 3,
+    "explain": "The mat's first point about tundra is 'there is a large annual temperature range'. Tundra also has higher precipitation than polar, especially in summer."
+   },
+   {
+    "id": "M5",
+    "q": "Permafrost is best defined as…",
+    "options": [
+     "ground that freezes every winter and thaws every summer",
+     "hard, permanently frozen ground that is impermeable, so it prevents soil formation and acts as a barrier to water transfer",
+     "a layer of ice on the surface of tundra soil",
+     "frozen subsoil found only in Antarctica"
+    ],
+    "answer": 1,
+    "explain": "Option 1 describes the active layer, which sits above the permafrost. The impermeability is the examined detail — it is why the tundra is waterlogged in summer and why soils are so thin."
+   },
+   {
+    "id": "M6",
+    "q": "The active layer is…",
+    "options": [
+     "the top layer of soil that freezes in winter and thaws during spring and summer",
+     "the layer of permanently frozen ground beneath the surface",
+     "the layer of vegetation covering tundra soil",
+     "the depth of soil in which decomposition takes place all year"
+    ],
+    "answer": 0,
+    "explain": "It is the only part of the soil available to plant roots, which is why tundra plants have shallow roots."
+   },
+   {
+    "id": "M7",
+    "q": "Why is the tundra waterlogged in summer despite its low precipitation?",
+    "options": [
+     "heavy summer rainfall cannot evaporate in the cold",
+     "meltwater from glaciers floods the lowland",
+     "the impermeable permafrost beneath prevents the water draining away",
+     "the soil is rich in clay, which holds water"
+    ],
+    "answer": 2,
+    "explain": "The permafrost acts as a barrier to water transfer, so meltwater from the thawed active layer ponds on the surface, creating the lakes and wetlands of the Arctic. Low evaporation in the cold makes it worse."
+   },
+   {
+    "id": "M8",
+    "q": "Which statement about tundra soils is correct?",
+    "options": [
+     "they are deep and highly fertile because decomposition is slow",
+     "they are deep but infertile because of leaching",
+     "they are thin but fertile because of the summer waterlogging",
+     "they are very thin and not particularly fertile, and their depth increases with distance from the poles"
+    ],
+    "answer": 3,
+    "explain": "The soils are thin because the impermeable permafrost prevents soil formation, and infertile because low temperatures make decomposition extremely slow so nutrients are released only slowly."
+   },
+   {
+    "id": "M9",
+    "q": "Low-growing cushion plants are adapted to the tundra because they…",
+    "options": [
+     "can photosynthesise in total darkness",
+     "retain moisture and provide shelter from the drying wind",
+     "have roots that penetrate the permafrost",
+     "store water in their leaves for the winter"
+    ],
+    "answer": 1,
+    "explain": "Growing close to the ground keeps the plant below the worst of the wind, which matters because for most of the year all the water in the ground is frozen and therefore unavailable — a winter drought."
+   },
+   {
+    "id": "M10",
+    "q": "Why do tundra plants have shallow roots?",
+    "options": [
+     "to access nutrients and water close to the surface within the active layer",
+     "because the soil below is too acidic for roots to grow",
+     "to allow the plant to be blown over without being uprooted",
+     "because deeper soil is waterlogged all year round"
+    ],
+    "answer": 0,
+    "explain": "Only the active layer thaws, so roots cannot penetrate the permanently frozen ground beneath it. The nutrients are near the surface for the same reason."
+   },
+   {
+    "id": "M11",
+    "q": "Mosses are well suited to the tundra because they…",
+    "options": [
+     "can survive being grazed by musk oxen",
+     "have a woody stem that resists the wind",
+     "cope with waterlogged conditions in summer and survive the winter drought",
+     "fix nitrogen directly from the atmosphere"
+    ],
+    "answer": 2,
+    "explain": "Mosses can dry out and rehydrate, which is why they handle both the summer waterlogging caused by the permafrost and the winter period when all water is frozen."
+   },
+   {
+    "id": "M12",
+    "q": "Why do tundra flowering plants have a rapid life cycle?",
+    "options": [
+     "because grazing animals eat them before they can mature",
+     "because the soil loses its nutrients within weeks",
+     "because there is 24-hour daylight, which speeds up growth",
+     "because the active layer only thaws and the light only returns for a few weeks, so they must seed within a very short summer"
+    ],
+    "answer": 3,
+    "explain": "The growing season is the binding constraint in a cold environment, so a rapid life cycle is not an advantage but the only viable strategy."
+   },
+   {
+    "id": "M13",
+    "q": "Which red-berry plant does the school's list name as adapted to survive in the cold?",
+    "options": [
+     "marram grass",
+     "bearberry",
+     "heather",
+     "cloudberry"
+    ],
+    "answer": 1,
+    "explain": "A named species lifts an adaptations answer out of generic territory. Marram grass is the coastal sand dune pioneer, not a tundra plant."
+   },
+   {
+    "id": "M14",
+    "q": "Musk oxen have wide hooves because…",
+    "options": [
+     "they can walk on waterlogged ground and snow",
+     "they need to dig through snow to reach lichen",
+     "they help the animal swim between islands",
+     "they spread the animal's weight on thin ice"
+    ],
+    "answer": 0,
+    "explain": "The ground is waterlogged because the impermeable permafrost prevents drainage, so an adaptation to waterlogged ground is really an adaptation to permafrost — a linkage examiners reward."
+   },
+   {
+    "id": "M15",
+    "q": "Why do Arctic foxes and Arctic hares turn white in winter?",
+    "options": [
+     "white fur is thicker than coloured fur",
+     "it reduces heat loss by reflecting less radiation",
+     "it provides camouflage against the snow",
+     "it signals maturity to a mate"
+    ],
+    "answer": 2,
+    "explain": "Because snow cover is seasonal, the colour change rather than permanent white is what makes it effective. The thick fur on their bodies and feet is the separate adaptation, for warmth."
+   },
+   {
+    "id": "M16",
+    "q": "Which adaptation does the school mat give for musk oxen to keep warm?",
+    "options": [
+     "a thick layer of blubber beneath the skin",
+     "fur that turns white in winter",
+     "the ability to hibernate through the polar night",
+     "two layers of fur to help insulate them"
+    ],
+    "answer": 3,
+    "explain": "Two layers trap a cushion of air next to the body, slowing heat loss dramatically at temperatures that fall below −30°C."
+   },
+   {
+    "id": "M17",
+    "q": "AQA defines a fragile environment as one that is…",
+    "options": [
+     "home to a small number of highly specialised species",
+     "both easily disturbed and difficult to restore if disturbed",
+     "at risk from economic development",
+     "protected by international agreement"
+    ],
+    "answer": 1,
+    "explain": "The definition continues: plant communities in fragile areas have evolved in highly specialised ways to deal with challenging conditions, so they cannot tolerate environmental change. That sentence is the whole protection argument in one line."
+   },
+   {
+    "id": "M18",
+    "q": "AQA defines a wilderness area as…",
+    "options": [
+     "a natural environment that has not been significantly modified by human activity",
+     "any area set aside by a government for conservation",
+     "an area where no people live permanently",
+     "an area whose ecosystem has been restored to its natural state"
+    ],
+    "answer": 0,
+    "explain": "The definition adds that wilderness areas are the most intact, undisturbed areas left on Earth — places humans do not control and have not developed. That is why scientists need them as an unmodified baseline."
+   },
+   {
+    "id": "M19",
+    "q": "Svalbard is…",
+    "options": [
+     "an independent Arctic state",
+     "a Russian territory in the Barents Sea",
+     "a Norwegian territory in the Arctic Ocean",
+     "a Canadian territory north of Alaska"
+    ],
+    "answer": 2,
+    "explain": "It lies around 400 miles north of mainland Norway, has five major islands, and its capital is Longyearbyen."
+   },
+   {
+    "id": "M20",
+    "q": "What proportion of Svalbard's land is covered by glaciers?",
+    "options": [
+     "about 10%",
+     "about 25%",
+     "about 40%",
+     "over 60%"
+    ],
+    "answer": 3,
+    "explain": "The remaining land is tundra. The figure matters because it shows the physical environment itself limits where development is possible, before any question of temperature or access."
+   },
+   {
+    "id": "M21",
+    "q": "What is the population of Svalbard?",
+    "options": [
+     "270",
+     "2700",
+     "27 000",
+     "270 000"
+    ],
+    "answer": 1,
+    "explain": "2700 inhabitants — and more polar bears than people. The tiny population is what makes 400 tourism jobs and 300 mining jobs economically significant, and it is also a challenge: there is almost no local workforce."
+   },
+   {
+    "id": "M22",
+    "q": "How many people work in mining on Svalbard?",
+    "options": [
+     "300",
+     "30",
+     "3000",
+     "30 000"
+    ],
+    "answer": 0,
+    "explain": "Coal mining was historically the backbone of the economy, with Mine 7 near Longyearbyen still operating. Tourism now supports more jobs — 400 — and coal is being phased out."
+   },
+   {
+    "id": "M23",
+    "q": "How many tourists visit Svalbard each year?",
+    "options": [
+     "15 000",
+     "45 000",
+     "150 000",
+     "1.5 million"
+    ],
+    "answer": 2,
+    "explain": "150 000 a year, double the 2011 figure — the doubling is as useful as the level, because it shows the trend. 45 000 of them are cruise ship passengers."
+   },
+   {
+    "id": "M24",
+    "q": "How many of Svalbard's annual visitors arrive as cruise ship passengers?",
+    "options": [
+     "4500",
+     "15 000",
+     "25 000",
+     "45 000"
+    ],
+    "answer": 3,
+    "explain": "45 000 of the 150 000 — so about 30% arrive by sea, which concentrates visitor pressure on the short summer season and on the places cruise ships can reach."
+   },
+   {
+    "id": "M25",
+    "q": "How many species of fish live in the Barents Sea around Svalbard?",
+    "options": [
+     "15",
+     "150",
+     "1500",
+     "50"
+    ],
+    "answer": 1,
+    "explain": "150 species, including commercially valuable cod and haddock. Fishing is the most reliable opportunity because, unlike tourism, it is not stopped by the polar night — but overfishing is the challenge, managed by quotas agreed with Russia."
+   },
+   {
+    "id": "M26",
+    "q": "How much road is there on the whole of Svalbard?",
+    "options": [
+     "only 50 km",
+     "about 500 km",
+     "about 150 km",
+     "about 1300 km"
+    ],
+    "answer": 0,
+    "explain": "Only 50 km, and there is one international airport with few flights — the clearest single figure for inaccessibility, which is one of the three spec-named challenges of developing a cold environment."
+   },
+   {
+    "id": "M27",
+    "q": "Melting permafrost and rising sea level on Svalbard have led to…",
+    "options": [
+     "25 homes destroyed and £1.8m needed for emergency housing",
+     "2500 homes destroyed and £180m needed for emergency housing",
+     "250 homes destroyed and £18m needed for emergency housing",
+     "the capital being abandoned"
+    ],
+    "answer": 2,
+    "explain": "The drinking water in two reservoirs is also threatened and there is potential to flood the airport. These figures turn 'provision of buildings and infrastructure' from a vague challenge into a costed one."
+   },
+   {
+    "id": "M28",
+    "q": "How long is the Trans-Alaskan Pipeline?",
+    "options": [
+     "130 km",
+     "400 km",
+     "4000 km",
+     "1300 km"
+    ],
+    "answer": 3,
+    "explain": "1300 km across the whole of Alaska. It was raised and insulated so the hot oil would not melt the permafrost, built to slide during earthquakes, and designed to stop the flow when a leak is detected — and it is still running after 20 years with no destructive oil spills."
+   },
+   {
+    "id": "M29",
+    "q": "Which of these is NOT a term of the Antarctic Treaty?",
+    "options": [
+     "it promotes international co-operation for scientific research",
+     "it permits controlled mineral extraction by signatory states",
+     "it bans the disposal of nuclear waste",
+     "it restricts military use of the continent"
+    ],
+    "answer": 1,
+    "explain": "The Treaty has kept economic development to a minimum despite the discovery of valuable resources; it encourages controlled tourism, not controlled mining. It came into force in 1961 and is up for renegotiation in 2041, which is why the 2041 Foundation exists."
+   },
+   {
+    "id": "M30",
+    "q": "In June 2021 the Arctic Council agreed to…",
+    "options": [
+     "prevent all unregulated fishing in Arctic waters",
+     "ban oil and gas drilling in the Arctic Ocean",
+     "cap the number of cruise ships visiting Svalbard",
+     "extend the Antarctic Treaty to the Arctic"
+    ],
+    "answer": 0,
+    "explain": "It was signed by the US, China, Russia, Canada, Japan, Denmark, Norway, Iceland, Korea and the EU. The honest weakness to include in an evaluation is that these waters are very hard to police, so the agreement relies on voluntary commitment."
+   }
+  ],
+  "06-coastal-landscapes": [
+   {
+    "id": "M1",
+    "q": "The three factors that control the size of a wave are…",
+    "options": [
+     "tide, current and water depth",
+     "fetch, wind speed and wind duration",
+     "wind direction, rock type and beach gradient",
+     "swash, backwash and wave frequency"
+    ],
+    "answer": 1,
+    "explain": "AQA's definition of waves builds all three in: the largest waves form where winds are very strong, blow for lengthy periods, and cross large expanses of water. Fetch is the distance the wave has travelled."
+   },
+   {
+    "id": "M2",
+    "q": "Which set of characteristics describes a destructive wave?",
+    "options": [
+     "low height, long wavelength, strong swash, weak backwash",
+     "low height, short wavelength, weak swash, weak backwash",
+     "tall, short wavelength, weak swash, strong backwash",
+     "tall, long wavelength, strong swash, strong backwash"
+    ],
+    "answer": 2,
+    "explain": "Because the backwash is stronger than the swash, more material is dragged back down the beach than carried up it, so the beach loses sediment. Option 1 describes a constructive wave, which builds the beach up."
+   },
+   {
+    "id": "M3",
+    "q": "The fetch of a wave is…",
+    "options": [
+     "the distance it has travelled over open water",
+     "the height of the wave from trough to crest",
+     "the time the wind has blown for",
+     "the distance the swash travels up the beach"
+    ],
+    "answer": 0,
+    "explain": "A long fetch means more time and distance for the wind to transfer energy to the water, so bigger waves. The UK's prevailing wind is from the south-west, which is why its south and west coasts have the biggest fetch."
+   },
+   {
+    "id": "M4",
+    "q": "AQA defines hydraulic power as the process by which…",
+    "options": [
+     "sediment flung by breaking waves wears away a cliff",
+     "rocks transported by waves bump into each other and break up",
+     "sea water dissolves soluble rock such as chalk and limestone",
+     "breaking waves compress pockets of air in cracks in a cliff, and the pressure widens the crack and breaks off rock"
+    ],
+    "answer": 3,
+    "explain": "Option 1 is abrasion, option 2 attrition and option 3 solution. The 2025 paper asked for the term describing 'the force of waves crashing into the cliffs'."
+   },
+   {
+    "id": "M5",
+    "q": "Abrasion, also called corrasion, is…",
+    "options": [
+     "the dissolving of limestone by sea water",
+     "the wearing away of cliffs by sediment flung by breaking waves",
+     "the compression of air in cracks by breaking waves",
+     "the breaking up of sediment as it bumps together in transport"
+    ],
+    "answer": 1,
+    "explain": "Abrasion needs sediment as its tool, which is why a beach of loose material in front of a cliff both protects the cliff by absorbing wave energy and supplies the material that grinds it."
+   },
+   {
+    "id": "M6",
+    "q": "Attrition is the process that…",
+    "options": [
+     "wears transported rocks into smaller, rounder pieces as they bump into each other",
+     "wears away the base of a cliff to form a notch",
+     "dissolves chalk and limestone in sea water",
+     "moves sediment along the coast in a zigzag"
+    ],
+    "answer": 0,
+    "explain": "The 2019 paper used this as a distractor trap: attrition wears down the sediment, not the coast. It is the reason sediment gets smaller and rounder the further longshore drift carries it."
+   },
+   {
+    "id": "M7",
+    "q": "Which one of the following is a process of erosion in coastal areas?",
+    "options": [
+     "Hydraulic power",
+     "Longshore drift",
+     "Rock fall",
+     "Slumping"
+    ],
+    "answer": 0,
+    "explain": "This was 2023 Q03.1, word for word. Longshore drift is transportation; rock fall and slumping are mass movement."
+   },
+   {
+    "id": "M8",
+    "q": "AQA defines longshore drift as…",
+    "options": [
+     "the movement of sediment out to sea by a strong backwash",
+     "the dropping of sediment where the sea loses energy",
+     "the zigzag movement of sediment along a shore, caused by waves arriving at an oblique angle and the backwash returning at right angles",
+     "the gradual retreat of a cliff line as it is undercut"
+    ],
+    "answer": 2,
+    "explain": "Because waves approach at an angle set by the prevailing wind, drift has one consistent direction along any stretch of coast. That single fact explains spits, groynes and the whole down-drift problem in coastal management."
+   },
+   {
+    "id": "M9",
+    "q": "The four processes by which the sea transports material are…",
+    "options": [
+     "abrasion, attrition, hydraulic power and solution",
+     "rockfall, landslide, mud slide and slumping",
+     "swash, backwash, longshore drift and deposition",
+     "traction, saltation, suspension and solution"
+    ],
+    "answer": 3,
+    "explain": "Traction rolls the largest material along the bed, saltation bounces smaller material, suspension carries fine material within the water, and solution carries dissolved material. Option 1 lists the erosion processes and option 2 the mass movement processes."
+   },
+   {
+    "id": "M10",
+    "q": "AQA defines slumping as…",
+    "options": [
+     "loose saturated surface material moving rapidly downhill, sometimes almost as a fluid",
+     "rapid mass movement in which a whole segment of the cliff moves down-slope along a saturated shear-plane",
+     "the fall of individual blocks of rock from a cliff face under gravity",
+     "the downhill movement of all weathered material under gravity"
+    ],
+    "answer": 1,
+    "explain": "Option 1 is sliding and option 4 is mass movement in general. Slumping explains why the soft boulder clay of Holderness erodes so fast: after heavy rain a whole segment saturates and slides."
+   },
+   {
+    "id": "M11",
+    "q": "Which statement correctly distinguishes mechanical from chemical weathering?",
+    "options": [
+     "mechanical weathering happens above sea level and chemical weathering below it",
+     "mechanical weathering is caused by waves and chemical weathering by rain",
+     "mechanical weathering breaks rock up with no change in its chemical composition, whereas chemical weathering decomposes rock through a chemical change within it",
+     "mechanical weathering affects hard rock and chemical weathering affects soft rock"
+    ],
+    "answer": 2,
+    "explain": "Freeze-thaw is the standard example of mechanical weathering; sea water attacking chalk and limestone is the standard example of chemical weathering. Both are weathering, so neither involves removal by a moving force."
+   },
+   {
+    "id": "M12",
+    "q": "By how much does water expand when it freezes?",
+    "options": [
+     "9%",
+     "2%",
+     "19%",
+     "50%"
+    ],
+    "answer": 0,
+    "explain": "From the school's quick-fire list. That expansion is what exerts pressure on the surrounding rock in freeze-thaw weathering, widening the crack until pieces break away — and it matters in the coastal, glacial and cold environments topics alike."
+   },
+   {
+    "id": "M13",
+    "q": "A discordant coastline is one where…",
+    "options": [
+     "hard and soft rock alternate in bands running parallel to the coast",
+     "the coast is made of a single rock type throughout",
+     "the coastline has been realigned by managed retreat",
+     "bands of hard and soft rock run at right angles to the coast, producing headlands and bays"
+    ],
+    "answer": 3,
+    "explain": "Option 1 describes a concordant coastline, which gives a straighter coast with coves. Swanage in Dorset is discordant, which is why Durlston Head and Ballard Point stand out between bays of clay and sand."
+   },
+   {
+    "id": "M14",
+    "q": "AQA defines a headland as…",
+    "options": [
+     "a wide, gently sloping rock shelf at the base of a retreated cliff",
+     "a rocky coastal promontory made of rock that is resistant to erosion",
+     "a finger of deposited sediment extending out to sea",
+     "an isolated pillar of rock left when an arch collapses"
+    ],
+    "answer": 1,
+    "explain": "The definition continues that headlands lie between bays of less resistant rock where the land has been eroded back by the sea. Once formed, the headland takes the wave energy and the bay is sheltered, so it receives deposition."
+   },
+   {
+    "id": "M15",
+    "q": "In the formation of a wave-cut platform, what forms first?",
+    "options": [
+     "the gently sloping rock shelf",
+     "the collapse of the overhanging cliff",
+     "a wave-cut notch at the base of the cliff",
+     "the retreat of the cliff line inland"
+    ],
+    "answer": 2,
+    "explain": "The sequence is: the sea attacks a weakness at the base; hydraulic power and abrasion cut a notch; weathering weakens the cliff top; the overhang collapses under gravity; the cliff retreats; the debris is removed to leave the platform — and the process repeats."
+   },
+   {
+    "id": "M16",
+    "q": "AQA defines a wave cut platform as…",
+    "options": [
+     "a rocky, level shelf at or around sea level representing the base of old, retreated cliffs",
+     "the undercut hollow at the foot of an actively eroding cliff",
+     "a beach of deposited material in front of a cliff",
+     "a bench of rock cut by a river at the base of a gorge"
+    ],
+    "answer": 0,
+    "explain": "The platform widens over time as the cliff retreats further, so its width is a record of how far the cliff line has moved. Kimmeridge Bay is the school's Dorset example."
+   },
+   {
+    "id": "M17",
+    "q": "Which is the correct order in the erosion of a headland?",
+    "options": [
+     "arch, cave, stack, stump",
+     "stack, arch, cave, stump",
+     "stump, stack, arch, cave",
+     "cave, arch, stack, stump"
+    ],
+    "answer": 3,
+    "explain": "Waves attack a crack; hydraulic action, abrasion and solution widen it into a cave; continued erosion cuts the cave through to form an arch; the arch is weathered above and eroded below until it collapses, leaving a stack, which further erosion reduces to a stump."
+   },
+   {
+    "id": "M18",
+    "q": "AQA defines a stack as…",
+    "options": [
+     "a wave-eroded passage cut through a small headland",
+     "an isolated pillar of rock left when the top of an arch has collapsed",
+     "a large hole in a cliff caused by waves forcing their way into cracks",
+     "a rocky promontory of resistant rock between two bays"
+    ],
+    "answer": 1,
+    "explain": "Option 1 is an arch, option 3 a cave and option 4 a headland. Old Harry Rocks, in chalk at Ballard Point in Dorset, is the school's named example of arches, caves and stacks."
+   },
+   {
+    "id": "M19",
+    "q": "A stump is…",
+    "options": [
+     "the notch cut at the base of an actively eroding cliff",
+     "the base of a collapsed arch left standing on the wave-cut platform",
+     "a stack that further erosion has reduced to a smaller, lower feature",
+     "a pillar of rock standing in the mouth of a cave"
+    ],
+    "answer": 2,
+    "explain": "AQA's definition of a stack ends: 'over time further erosion reduces the stack to a smaller, lower stump'. It is the last stage in the sequence."
+   },
+   {
+    "id": "M20",
+    "q": "AQA defines a beach as the zone of deposited material extending…",
+    "options": [
+     "from the low water line to the limit of storm waves",
+     "from the high water line to the base of the cliff",
+     "from the low water line to the high water line",
+     "from the base of the dunes to the sea"
+    ],
+    "answer": 0,
+    "explain": "The beach can be divided into the foreshore and the backshore. Sandy beaches are built by constructive waves and are wide and gently sloping; pebble beaches are built by destructive waves and are steeper."
+   },
+   {
+    "id": "M21",
+    "q": "Why is marram grass so important in sand dune formation?",
+    "options": [
+     "it fixes nitrogen, which fertilises the bare sand",
+     "its broad leaves trap wind-blown sand",
+     "it shades the sand, reducing evaporation",
+     "it tolerates salt spray and burial, and its long roots bind and stabilise the sand"
+    ],
+    "answer": 3,
+    "explain": "Stabilising the dune allows humus to accumulate and less tolerant species to colonise, which is why vegetation cover and species diversity rise from the embryo dune to the mature dune — 25% cover and 2 species against 100% cover and 22 species in the 2025 data."
+   },
+   {
+    "id": "M22",
+    "q": "Why does a spit usually have a curved end?",
+    "options": [
+     "the river flowing out beside it pushes the sediment seawards",
+     "opposing winds and currents push the accumulating sediment landwards",
+     "longshore drift reverses direction twice a year",
+     "the sheltered water behind the spit silts up and forces it round"
+    ],
+    "answer": 1,
+    "explain": "AQA's definition says exactly this. The other detail worth adding is that the sheltered water behind the spit becomes salt marsh, because low energy allows fine sediment to settle and vegetation to colonise."
+   },
+   {
+    "id": "M23",
+    "q": "What happens when a spit grows all the way across a bay?",
+    "options": [
+     "it is eroded away by waves refracting round the headland",
+     "it becomes a tombolo, joining the mainland to an island",
+     "it becomes a bar, and the water trapped behind it forms a lagoon",
+     "it becomes a wave-cut platform at the mouth of the bay"
+    ],
+    "answer": 2,
+    "explain": "Slapton Ley at Torcross is the school's named bar. A tombolo is a bar that joins the mainland to an island — Chesil Beach to the Isle of Portland."
+   },
+   {
+    "id": "M24",
+    "q": "Old Harry Rocks, the school's Dorset example of caves, arches and stacks, is formed in…",
+    "options": [
+     "chalk",
+     "Purbeck Limestone",
+     "boulder clay",
+     "Kimmeridge Clay"
+    ],
+    "answer": 0,
+    "explain": "Chalk, at Ballard Point. Resistant rock is needed because every stage of the sequence requires the rock to hold itself up over a void. Durlston Head is the Purbeck Limestone headland and Kimmeridge Bay is the Kimmeridge Clay and Portland Limestone wave-cut platform."
+   },
+   {
+    "id": "M25",
+    "q": "Which Dorset location does the school's case study booklet give as its wave-cut platform example?",
+    "options": [
+     "Durlston Head",
+     "Swanage Bay",
+     "Studland Bay",
+     "Kimmeridge Bay"
+    ],
+    "answer": 3,
+    "explain": "Kimmeridge Bay, in Kimmeridge Clay and Portland Limestone. Durlston Head is the headland, Swanage Bay the bay, and Studland Bay the beach and sand dunes."
+   },
+   {
+    "id": "M26",
+    "q": "What does managed retreat mean?",
+    "options": [
+     "building up dunes and increasing vegetation",
+     "allowing the sea to flood or erode an area of low-value land",
+     "using concrete or artificial structures to defend against natural processes",
+     "working with natural processes to restore beaches"
+    ],
+    "answer": 1,
+    "explain": "This was 2024 Q03.1, with these exact options. Option 1 is dune regeneration, option 3 is hard engineering and option 4 is soft engineering. Note the words low-value — it is a deliberate decision, which is why it is called managed."
+   },
+   {
+    "id": "M27",
+    "q": "According to the school's cost table, a sea wall costs roughly…",
+    "options": [
+     "£500 per metre",
+     "£2000 per metre",
+     "£10 000 per metre",
+     "£750 per metre"
+    ],
+    "answer": 2,
+    "explain": "The full table: sea wall £10 000/m, rock armour £2000/m, groynes £750/m, gabions £500/m, beach nourishment £500/m, dune regeneration £20/m. A sea wall lasts 30–50 years, so the cost is spread over decades."
+   },
+   {
+    "id": "M28",
+    "q": "What is the main drawback of building groynes?",
+    "options": [
+     "by trapping sediment they deprive another area, down-drift, of new beach material",
+     "they reflect wave energy, which scours the beach in front of them",
+     "they are the most expensive form of hard engineering",
+     "they prevent beaches from being used by tourists"
+    ],
+    "answer": 0,
+    "explain": "AQA's own definition includes this. The named evidence is Mappleton, where rock armour and two rock groynes removed the risk to the village but increased erosion to the south, and Hornsea, where down-drift beaches are starved of sediment."
+   },
+   {
+    "id": "M29",
+    "q": "How long is the stretch of coastline managed under the Brighton scheme?",
+    "options": [
+     "1 km",
+     "100 km",
+     "2 km",
+     "10 km, from the River Adur to Brighton Marina"
+    ],
+    "answer": 3,
+    "explain": "The scheme protects a high-value built-up area including Brighton Pier, the i360, Brighton Marina, high-value seafront property near Hove and the A259 coastal road."
+   },
+   {
+    "id": "M30",
+    "q": "What is the annual value of tourism to the area protected by the Brighton coastal management scheme?",
+    "options": [
+     "£11m",
+     "£5bn",
+     "£500m",
+     "£2.3bn"
+    ],
+    "answer": 1,
+    "explain": "£5bn a year — the figure that justifies the £11m new scheme of rock armour, a new sea wall, longer groynes and beach nourishment. £2.3bn is the value of tourism in the Lake District."
+   }
+  ],
+  "07-glacial-landscapes": [
+   {
+    "id": "M1",
+    "q": "AQA defines freeze-thaw weathering as a process that occurs when…",
+    "options": [
+     "water enters cracks during the warmer day and freezes at night, expanding and exerting pressure until pieces of rock break off",
+     "meltwater freezes around loose rock and the moving ice pulls it away",
+     "rocks frozen into the base of a glacier scratch and scrape the bedrock below",
+     "ice moves in a circular motion, eroding hollows into bowl shapes"
+    ],
+    "answer": 0,
+    "explain": "Option 2 is plucking, option 3 abrasion and option 4 rotational slip. Freeze-thaw, also called frost-shattering, is weathering — not erosion — and the 2019 paper used that confusion as a distractor."
+   },
+   {
+    "id": "M2",
+    "q": "What percentage of visitors to the Lake District arrive by road?",
+    "options": [
+     "49%",
+     "89%",
+     "69%",
+     "99%"
+    ],
+    "answer": 1,
+    "explain": "89%, which is why traffic congestion and air pollution in Ambleside are the dominant environmental problem, and why park and ride services such as the Honister Rambler and the Park and Sail scheme exist."
+   },
+   {
+    "id": "M3",
+    "q": "Which two landscape features does the school mat give as products of freeze-thaw weathering?",
+    "options": [
+     "drumlins and erratics",
+     "corries and arêtes",
+     "scree slopes and block-fields",
+     "till plains and outwash plains"
+    ],
+    "answer": 2,
+    "explain": "Scree slopes are accumulations of angular shattered fragments at the base of a rock face; block-fields are areas of shattered blocks on a plateau. Both prove freeze-thaw has visible products, not just a mechanism."
+   },
+   {
+    "id": "M4",
+    "q": "Plucking is the process in which…",
+    "options": [
+     "ice pushes material of all shapes and sizes ahead of it as it advances",
+     "rocks in the base of the glacier act like a giant file on the bedrock",
+     "meltwater streams sort and round material in front of the glacier",
+     "meltwater in the glacier freezes onto rocks and, as the ice moves forward, pulls out large pieces along the rock joints"
+    ],
+    "answer": 3,
+    "explain": "Because plucking works along joints it leaves a jagged, pitted surface — in contrast to the smooth, striated surface abrasion produces. Option 1 is bulldozing and option 2 abrasion."
+   },
+   {
+    "id": "M5",
+    "q": "What does abrasion mean?",
+    "options": [
+     "rocks trapped beneath the glacier scratch and smooth the bedrock underneath",
+     "meltwater freezes beneath the ice and tears away pieces of loose rock",
+     "glacial ice moves in a circular motion causing hollows to form in the landscape",
+     "water freezes in cracks and expands, causing the rock to break down"
+    ],
+    "answer": 0,
+    "explain": "This was 2024 Q05.1, with these exact options. Each distractor is the definition of something else — plucking, rotational slip and freeze-thaw weathering respectively."
+   },
+   {
+    "id": "M6",
+    "q": "Which of these is a process of glacial erosion?",
+    "options": [
+     "Freeze-thaw",
+     "Plucking",
+     "Rotational slip",
+     "Transportation"
+    ],
+    "answer": 1,
+    "explain": "This was 2019 Q05.4. Keep the four lists apart: erosion is abrasion and plucking; weathering is freeze-thaw; movement and transport are rotational slip and bulldozing; deposition is till and outwash."
+   },
+   {
+    "id": "M7",
+    "q": "Rotational slip is…",
+    "options": [
+     "the sliding of a glacier over bedrock on a film of meltwater",
+     "the movement of ice like plastic when it is too cold to slide",
+     "the movement of ice in a circular motion, which erodes hollows and deepens them into bowl shapes",
+     "the rolling of boulders along the base of a glacier"
+    ],
+    "answer": 2,
+    "explain": "It is why a corrie ends up armchair-shaped rather than simply deeper, so it belongs in every corrie answer. Option 1 is basal flow and option 2 internal deformation."
+   },
+   {
+    "id": "M8",
+    "q": "Which term describes the process where a glacier moves forward and pushes material ahead of it?",
+    "options": [
+     "Plucking",
+     "Rotational slip",
+     "Abrasion",
+     "Bulldozing"
+    ],
+    "answer": 3,
+    "explain": "This was 2025 Q05.1. AQA's definition is that ice pushes material of all shapes and sizes as it moves slowly forward — it is how a terminal moraine is built at the snout."
+   },
+   {
+    "id": "M9",
+    "q": "How does a glacier move?",
+    "options": [
+     "by basal flow, sliding over the bedrock on a film of meltwater, and by internal deformation, where the ice moves like plastic",
+     "only by sliding on meltwater beneath the ice",
+     "only by the weight of accumulating snow pushing it downhill",
+     "by freezing to the bedrock and then rolling forward"
+    ],
+    "answer": 0,
+    "explain": "Internal deformation is what happens where it is too cold for basal flow. Gravity causes the compressed ice to flow over the lip of the hollow it formed in."
+   },
+   {
+    "id": "M10",
+    "q": "What proportion of houses in the Lake District are second homes?",
+    "options": [
+     "5%",
+     "20%",
+     "40%",
+     "10%"
+    ],
+    "answer": 1,
+    "explain": "20%, which is the clearest figure for the social impact of tourism: second homeowners can price out locals, and villages lose the permanent residents the local services depend on."
+   },
+   {
+    "id": "M11",
+    "q": "Why do most UK corries face north or east?",
+    "options": [
+     "the prevailing wind blows the ice in that direction",
+     "these slopes are steeper, so ice can accumulate more easily",
+     "north- and east-facing slopes are shaded, so snow survives the summer and can compress into ice",
+     "the rock on these slopes is softer and erodes faster"
+    ],
+    "answer": 2,
+    "explain": "On a south-facing slope the snow melts each year, so it never accumulates and no glacier forms. East-facing slopes also collect snow blown over the ridge by the prevailing south-westerly wind."
+   },
+   {
+    "id": "M12",
+    "q": "AQA defines till as…",
+    "options": [
+     "material, chiefly sand or gravel, deposited by meltwater streams",
+     "frost-shattered debris carried on the surface of a glacier",
+     "a large boulder carried far from its source region",
+     "an unsorted mixture of sand, clay and boulders carried by a glacier and deposited as ground moraine over a large area"
+    ],
+    "answer": 3,
+    "explain": "Unsorted is the examined word: ice carries everything at once and, being solid, cannot sort by size or round the fragments. Option 1 is outwash and option 3 an erratic."
+   },
+   {
+    "id": "M13",
+    "q": "Outwash differs from till because outwash is…",
+    "options": [
+     "sorted and rounded, because it is deposited by meltwater streams",
+     "angular and unsorted, because it is deposited directly by ice",
+     "found only beneath the glacier, never in front of it",
+     "made up entirely of boulders too large for meltwater to move"
+    ],
+    "answer": 0,
+    "explain": "Water's carrying capacity depends on particle size and velocity, so it drops the heaviest material first and carries the finest furthest, and attrition in transport rounds the fragments. That is why the 2019 data showed a sediment range of 25.3 cm on the till plain against 6.6 cm on the outwash plain."
+   },
+   {
+    "id": "M14",
+    "q": "Why is the material deposited by a glacier mixed in size and shape?",
+    "options": [
+     "the glacier picks up material from several different rock types",
+     "ice carries material on its surface, inside itself and at its base all at once and, being solid, cannot sort it by size",
+     "meltwater mixes the material as the glacier retreats",
+     "bulldozing crushes large boulders into smaller fragments"
+    ],
+    "answer": 1,
+    "explain": "This was 2022 Q05.5. Ice has no sorting mechanism and does not round the fragments by attrition, because they are locked in place rather than knocking against one another — which is exactly what makes till unsorted and angular."
+   },
+   {
+    "id": "M15",
+    "q": "AQA defines a corrie as…",
+    "options": [
+     "a long, narrow lake found on the floor of a glaciated valley",
+     "a sharp, knife-like ridge formed between two corries",
+     "an armchair-shaped hollow in the mountainside formed by glacial erosion, rotational slip and freeze-thaw weathering",
+     "a river valley widened and deepened into a U-shape by a glacier"
+    ],
+    "answer": 2,
+    "explain": "The definition adds that this is where the valley glacier begins, and that when the ice melts it can leave a small circular lake called a tarn. Option 2 is an arête and option 4 a glacial trough."
+   },
+   {
+    "id": "M16",
+    "q": "What is tourism worth to the Lake District each year?",
+    "options": [
+     "£30m",
+     "£300m",
+     "£5bn",
+     "£2.3bn and 75 000 jobs"
+    ],
+    "answer": 3,
+    "explain": "That is the economic benefit to weigh against footpath erosion, boat pollution in Windermere, congestion in Ambleside and 20% second homes. Coniferous forestry is the £30m figure; £5bn is the value of tourism protected at Brighton."
+   },
+   {
+    "id": "M17",
+    "q": "Why does a corrie have a lip at its downhill end?",
+    "options": [
+     "the ice is thinner there so moves more slowly and erodes less, and frost-shattered rock may be deposited there",
+     "the rock at the front of the hollow is always more resistant",
+     "meltwater deposits a ridge of outwash across the exit",
+     "rotational slip lifts material up and over the front edge"
+    ],
+    "answer": 0,
+    "explain": "The lip is what dams the meltwater to form a tarn once the ice has gone. The lip and the tarn are the two easiest extra marks on a corrie question and are routinely left out."
+   },
+   {
+    "id": "M18",
+    "q": "An arête is…",
+    "options": [
+     "a steep pyramid-shaped summit where several corries meet",
+     "a sharp, knife-like ridge formed between two corries cutting back by erosion and freeze-thaw",
+     "a former river spur sliced off by a valley glacier",
+     "a tributary valley left high above the main valley floor"
+    ],
+    "answer": 1,
+    "explain": "Striding Edge on Helvellyn is the school's Lake District example. Option 1 is a pyramidal peak, option 3 a truncated spur and option 4 a hanging valley."
+   },
+   {
+    "id": "M19",
+    "q": "A pyramidal peak forms where…",
+    "options": [
+     "two corries cut back towards each other on opposite sides of a ridge",
+     "a glacier over-deepens the floor of its trough",
+     "several corries cut back to meet at a central point, leaving a steep pyramid",
+     "freeze-thaw weathering shatters a summit into angular blocks"
+    ],
+    "answer": 2,
+    "explain": "Two corries back to back give an arête; three or more meeting at a point give a pyramidal peak. Both are produced by the same back-wall retreat that forms the corries themselves."
+   },
+   {
+    "id": "M20",
+    "q": "Why does a glacier produce a U-shaped valley where a river produces a V-shaped one?",
+    "options": [
+     "glacial ice is denser than water, so it erodes downwards more strongly",
+     "glaciers only occupy valleys that were already wide",
+     "rivers erode in summer only, whereas glaciers erode all year",
+     "the ice fills the whole valley and is rigid, so it erodes the sides as well as the floor and cannot flow around obstacles"
+    ],
+    "answer": 3,
+    "explain": "That one sentence explains the U-shape, the truncated spurs and the straightening of the valley at once. A river occupies only a narrow channel, so it erodes downwards and flows round obstacles, leaving interlocking spurs."
+   },
+   {
+    "id": "M21",
+    "q": "A truncated spur is…",
+    "options": [
+     "a former river valley spur which has been sliced off by a valley glacier, forming cliff-like edges",
+     "a ridge of till deposited along the side of a glacier",
+     "an isolated hill of rock left standing in the middle of a glacial trough",
+     "the steep back wall of a corrie after the ice has melted"
+    ],
+    "answer": 0,
+    "explain": "Because the rigid ice filled the valley it could not flow around the interlocking spurs of the old river valley, so it cut straight through them."
+   },
+   {
+    "id": "M22",
+    "q": "A hanging valley is…",
+    "options": [
+     "a valley dammed by a terminal moraine so that it holds a lake",
+     "a tributary valley eroded much less than the main valley, left high above its floor and often the site of a waterfall",
+     "a valley whose floor has been over-deepened into a ribbon lake",
+     "the upper part of a glacial trough above the former snow line"
+    ],
+    "answer": 1,
+    "explain": "AQA's definition adds that it was too cold and high up for ice to move easily, so it was not eroded as much as the lower main valley — hence the waterfall crashing several hundred metres to the main valley floor."
+   },
+   {
+    "id": "M23",
+    "q": "A ribbon lake is a long, narrow lake formed where…",
+    "options": [
+     "a terminal moraine dams the mouth of a glacial trough",
+     "meltwater ponds behind an outwash plain",
+     "the glacier had more erosive power, so the valley floor was over-deepened",
+     "two glaciers merged and their medial moraine blocked the valley"
+    ],
+    "answer": 2,
+    "explain": "AQA gives three reasons the glacier might have had more erosive power there: softer rock, a temporarily steeper valley gradient, or a tributary glacier joining and adding ice. Ullswater is the school's Lake District example and Llyn Ogwen was the 2023 paper's."
+   },
+   {
+    "id": "M24",
+    "q": "A medial moraine forms where…",
+    "options": [
+     "the glacier snout bulldozes material across the valley at its furthest advance",
+     "freeze-thaw debris falls onto the edge of a glacier from the valley sides",
+     "basal material is released as a sheet across the valley floor",
+     "a tributary glacier joins the main glacier and their two adjoining lateral moraines merge into one central ridge"
+    ],
+    "answer": 3,
+    "explain": "Option 1 is a terminal moraine, option 2 a lateral moraine and option 3 ground moraine. All four are unsorted till, because ice does not sort or round its load."
+   },
+   {
+    "id": "M25",
+    "q": "A terminal moraine marks…",
+    "options": [
+     "the furthest point the glacier snout reached, as a ridge of unsorted till across the valley",
+     "the boundary between the till plain and the outwash plain at the valley sides",
+     "the line along which two glaciers merged",
+     "the upper limit of ice in the valley"
+    ],
+    "answer": 0,
+    "explain": "The snout bulldozes material forward by the sheer weight of the ice, and melting at the point of maximum advance releases it as a ridge. Beyond it, meltwater streams build the sorted, rounded outwash plain."
+   },
+   {
+    "id": "M26",
+    "q": "Which description of a drumlin's shape is correct?",
+    "options": [
+     "a rounded hill or bump of till with no clear orientation",
+     "elongated or oval, with a steep blunt end facing up-ice and a long tapering tail down-ice",
+     "a sharp conical mound of sorted sand and gravel",
+     "a long low ridge running across the direction of ice flow"
+    ],
+    "answer": 1,
+    "explain": "The school's feedback lesson states that a 'hill' or 'bump' does not refer to the correct shape. The long axis is parallel to the former direction of ice, which is why drumlins occur in aligned swarms — basket-of-eggs topography."
+   },
+   {
+    "id": "M27",
+    "q": "What is the name given to a large boulder transported and deposited by glaciers in areas with a different rock type?",
+    "options": [
+     "Moraine",
+     "Outwash",
+     "Erratic",
+     "Till"
+    ],
+    "answer": 2,
+    "explain": "This was 2023 Q05.1. The giveaway in the stem is 'a different rock type' — because its rock does not match the local bedrock, an erratic records the direction the ice came from."
+   },
+   {
+    "id": "M28",
+    "q": "Striding Edge in the Lake District is an example of which landform?",
+    "options": [
+     "a corrie",
+     "a ribbon lake",
+     "a drumlin",
+     "an arête"
+    ],
+    "answer": 3,
+    "explain": "The school's Lake District set is: arête Striding Edge, ribbon lake Ullswater, corrie Blea Water, U-shaped valley Langdale (all erosion), and drumlins at Swindale (deposition)."
+   },
+   {
+    "id": "M29",
+    "q": "How many tourists visit the Lake District each year?",
+    "options": [
+     "18 million",
+     "1.8 million",
+     "180 000",
+     "40 000"
+    ],
+    "answer": 0,
+    "explain": "18 million, against just 40 000 local people — roughly 450 visitors per resident, which is the ratio that explains footpath erosion, congestion and the second-home problem. The school's model answer quotes 18.4 million."
+   },
+   {
+    "id": "M30",
+    "q": "The Honister Slate Mine in the Lake District is significant because it…",
+    "options": [
+     "was closed by the National Park authority to protect the landscape",
+     "combines working quarrying with tourism, offering climbing and a 1 km zip-wire",
+     "is the site of the Fix the Fells footpath repair scheme",
+     "imposes a 10 knot speed limit to protect the lake"
+    ],
+    "answer": 1,
+    "explain": "It shows development and conservation are not always opposed — which is the direct comparison for the 2023 question on the contested zip wire proposed across the Thirlmere Valley. The 10 knot limit applies to boats on Lake Windermere."
+   }
+  ],
+  "08-urban-issues-and-challenges": [
+   {
+    "id": "M1",
+    "q": "Urbanisation is best defined as…",
+    "options": [
+     "the increase in the proportion of a population living in towns and cities",
+     "the absolute increase in the size of a city",
+     "the movement of people from one country to another",
+     "the spread of a city into the surrounding countryside"
+    ],
+    "answer": 0,
+    "explain": "Urbanisation is a proportion. An absolute increase in city size is urban growth, and spread into the countryside is urban sprawl — AQA asked for this exact definition for 1 mark in 2025."
+   },
+   {
+    "id": "M2",
+    "q": "A megacity is an urban area with a population of at least…",
+    "options": [
+     "1 million",
+     "5 million",
+     "10 million",
+     "20 million"
+    ],
+    "answer": 2,
+    "explain": "AQA's own wording is \"in excess of ten million people\". There were 33 megacities in 2023 and around 50 are expected by 2050."
+   },
+   {
+    "id": "M3",
+    "q": "What proportion of the world's increased urban population is expected to be in Africa and Asia?",
+    "options": [
+     "25%",
+     "50%",
+     "70%",
+     "90%"
+    ],
+    "answer": 3,
+    "explain": "90% — one of the school's own recall facts. It is why the LIC/NEE city case study carries so much of Section A."
+   },
+   {
+    "id": "M4",
+    "q": "Which region is the most urbanised in the world?",
+    "options": [
+     "Western Europe",
+     "North America, at about 82%",
+     "East Asia",
+     "Australasia"
+    ],
+    "answer": 1,
+    "explain": "North America is the most urbanised region, with roughly 82% of its population in urban areas; HICs generally are at least 75% urban."
+   },
+   {
+    "id": "M5",
+    "q": "Which three countries are expected to account for 37% of the growth in the world's urban population between 2014 and 2050?",
+    "options": [
+     "India, China and Nigeria",
+     "Brazil, Indonesia and Egypt",
+     "China, the USA and Pakistan",
+     "Nigeria, Bangladesh and Mexico"
+    ],
+    "answer": 0,
+    "explain": "India, China and Nigeria. The combination of huge populations and rapid rural–urban migration concentrates global urban growth in these three."
+   },
+   {
+    "id": "M6",
+    "q": "The two factors that affect the rate of urbanisation are…",
+    "options": [
+     "birth rate and counter-urbanisation",
+     "natural increase and urban sprawl",
+     "industrialisation and gentrification",
+     "migration and natural increase"
+    ],
+    "answer": 3,
+    "explain": "Migration and natural increase. They are linked: migrants are typically aged 18–35, so the birth rate rises and the death rate stays low."
+   },
+   {
+    "id": "M7",
+    "q": "Rio de Janeiro has grown up around which feature?",
+    "options": [
+     "Guanabara Bay, a large natural bay",
+     "Lake Titicaca",
+     "The mouth of the Amazon",
+     "The Paraná delta"
+    ],
+    "answer": 0,
+    "explain": "Guanabara Bay in south-east Brazil. The bay is also where the city's water pollution problem concentrates — 150 tonnes a day."
+   },
+   {
+    "id": "M8",
+    "q": "Roughly how many people live in the Greater Rio de Janeiro metropolitan area?",
+    "options": [
+     "6 million",
+     "9 million",
+     "13 million",
+     "22 million"
+    ],
+    "answer": 2,
+    "explain": "13 million in Greater Rio, of whom around 1.5 million live in favelas — about 24% of the city, across roughly 1,000 favelas."
+   },
+   {
+    "id": "M9",
+    "q": "Rio de Janeiro's national importance includes which figure?",
+    "options": [
+     "22% of Brazil's GNI and the largest port in Brazil",
+     "5% of Brazil's GNI and the 3rd busiest port in Brazil",
+     "Brazil's capital city since 1960",
+     "40% of Brazil's manufacturing output"
+    ],
+    "answer": 1,
+    "explain": "5% of Brazil's GNI and the third busiest port. It is also Brazil's second most important industrial centre — and Brasília, not Rio, is the capital."
+   },
+   {
+    "id": "M10",
+    "q": "Infant mortality in the Cidade de Deus favela compared with the wealthy district of Barra is…",
+    "options": [
+     "9 per 1,000 against 21 per 1,000",
+     "94 per 1,000 against 5 per 1,000",
+     "roughly the same in both",
+     "21 per 1,000 against 9 per 1,000"
+    ],
+    "answer": 3,
+    "explain": "21 per 1,000 in Cidade de Deus against 9 in Barra. Favela residents also live about 13 years less than people in wealthier parts of Rio."
+   },
+   {
+    "id": "M11",
+    "q": "What percentage of children in Rio continue in education beyond the age of 14?",
+    "options": [
+     "About 50%",
+     "About 70%",
+     "About 90%",
+     "About 97%"
+    ],
+    "answer": 0,
+    "explain": "Only about 50%, despite Rio having over 400 secondary schools, 6 universities and a 97% literacy rate — the classic \"opportunity exists but is unevenly shared\" contrast."
+   },
+   {
+    "id": "M12",
+    "q": "The Guandu water treatment plant in Rio is notable because it is…",
+    "options": [
+     "the largest water treatment plant in the world",
+     "Brazil's oldest treatment works",
+     "entirely solar powered",
+     "funded by the Favela-Bairro Project"
+    ],
+    "answer": 0,
+    "explain": "The world's largest, supplying the great majority of Rio's fresh water — yet 12% of favela homes still lack running water and a third of supply is lost to leaks, fraud and illegal access."
+   },
+   {
+    "id": "M13",
+    "q": "Which scheme supplies around 30% of Rio's energy?",
+    "options": [
+     "The Ternium Steelworks generator",
+     "The Seropédica landfill gas plant",
+     "The Santa Marta solar panels",
+     "The Simplício hydro-electric plant"
+    ],
+    "answer": 3,
+    "explain": "The Simplício HEP plant, built at a cost of $2 billion and opened in 2013, supplies about 30% of Rio's energy."
+   },
+   {
+    "id": "M14",
+    "q": "Roughly how many people work in Rio's informal economy, and for about how much?",
+    "options": [
+     "3.5 million for about £75 a month",
+     "350,000 for about £75 a month",
+     "3.5 million for about £750 a month",
+     "1.5 million for about £300 a month"
+    ],
+    "answer": 0,
+    "explain": "3.5 million people on about £75 a month. Informal workers pay no tax, which starves the city of revenue — the key disadvantage of the informal economy."
+   },
+   {
+    "id": "M15",
+    "q": "Air pollution caused largely by congestion in Rio causes approximately how many deaths a year?",
+    "options": [
+     "150",
+     "500",
+     "5,000",
+     "50,000"
+    ],
+    "answer": 2,
+    "explain": "About 5,000 a year. Rio is the most congested city in South America and car ownership rose 40% in ten years — an environmental challenge affecting the whole city, not just the favelas."
+   },
+   {
+    "id": "M16",
+    "q": "What proportion of Rio's waste is recycled?",
+    "options": [
+     "About 50%",
+     "Less than 2%",
+     "About 35%",
+     "About 20%"
+    ],
+    "answer": 1,
+    "explain": "Less than 2%. Most goes to the Seropédica landfill 70 km away, where landfill gas is captured to generate electricity or fuel the collection vehicles."
+   },
+   {
+    "id": "M17",
+    "q": "The Favela-Bairro Project ran from…",
+    "options": [
+     "2013 to 2020",
+     "1985 to 1995",
+     "2009 to 2016",
+     "1995 to 2009"
+    ],
+    "answer": 3,
+    "explain": "1995–2009, a site and service scheme costing the government $1 billion and helping 250,000 people across more than 100 favelas."
+   },
+   {
+    "id": "M18",
+    "q": "Which measure is usually identified as the most important thing the Favela-Bairro Project did?",
+    "options": [
+     "Giving residents legal ownership of the land they lived on",
+     "Building the Complexo do Alemão cable car",
+     "Installing 60 km of power cables",
+     "Establishing Pacifying Police Units"
+    ],
+    "answer": 0,
+    "explain": "Legal land title, plus 100% mortgages and low-interest loans, gave residents a reason to invest in homes they could no longer be evicted from — so they rebuilt in brick."
+   },
+   {
+    "id": "M19",
+    "q": "Before the Favela-Bairro Project, what proportion of non-improved favelas had no sewage connection?",
+    "options": [
+     "10%",
+     "30%",
+     "50%",
+     "70%"
+    ],
+    "answer": 2,
+    "explain": "50% had no sewage connection and 30% had no electricity. The project built 12 new sewage works and installed 60 km of new power cables."
+   },
+   {
+    "id": "M20",
+    "q": "A criticism of the Favela-Bairro Project is that…",
+    "options": [
+     "it demolished favelas rather than upgrading them",
+     "funding was reduced after 2008, so long-term sustainability is doubtful",
+     "it refused to give residents legal land title",
+     "it was funded entirely by foreign TNCs"
+    ],
+    "answer": 1,
+    "explain": "Funding fell after 2008; improvements were also uneven with some favelas left out, pacification displaced residents, and some new pavements raised flood risk on steep slopes."
+   },
+   {
+    "id": "M21",
+    "q": "What percentage of London's population was born outside the UK?",
+    "options": [
+     "12%",
+     "22%",
+     "37%",
+     "56%"
+    ],
+    "answer": 2,
+    "explain": "37%. London's migrant streams were dominated by the former British Empire after WWII and by Eastern Europe after EU free movement in 2007."
+   },
+   {
+    "id": "M22",
+    "q": "London generates approximately what share of the UK's GNI?",
+    "options": [
+     "5%",
+     "12%",
+     "22%",
+     "47%"
+    ],
+    "answer": 2,
+    "explain": "22% of UK GNI. Average earnings are also about £6,000 a year higher in London, and the city attracts 30 million tourists a year through 6 major airports."
+   },
+   {
+    "id": "M23",
+    "q": "The life expectancy gap between Chelsea and Tower Hamlets is…",
+    "options": [
+     "84 years against 82 years",
+     "80 years against 74 years",
+     "88 years against 56 years",
+     "88 years against 80 years"
+    ],
+    "answer": 3,
+    "explain": "88 in Chelsea against 80 in Tower Hamlets, which also has the highest poverty rate of any London borough at 56%."
+   },
+   {
+    "id": "M24",
+    "q": "London's homeless population of around 170,000 represents roughly what share of the UK total?",
+    "options": [
+     "10%",
+     "25%",
+     "50%",
+     "90%"
+    ],
+    "answer": 2,
+    "explain": "About half the UK total. Average house prices are over £500,000 and rough sleeping has risen 23% since 2020."
+   },
+   {
+    "id": "M25",
+    "q": "A brownfield site is best defined as…",
+    "options": [
+     "land that has been used, abandoned and now awaits some new use",
+     "land on the rural–urban fringe that has never been built on",
+     "any derelict building in a city centre",
+     "farmland bought by a developer"
+    ],
+    "answer": 0,
+    "explain": "AQA's wording exactly, and it is commonly found in the inner city. London had almost 3,000 brownfield sites covering 2,600 hectares in 2019."
+   },
+   {
+    "id": "M26",
+    "q": "Before regeneration, Stratford in east London was notable as…",
+    "options": [
+     "London's largest area of greenfield land",
+     "the most polluted site in Western Europe",
+     "the borough with the highest house prices",
+     "the site of London's main container port"
+    ],
+    "answer": 1,
+    "explain": "The most polluted site in Western Europe, with derelict industries, poor transport links and one of the most deprived communities in the country."
+   },
+   {
+    "id": "M27",
+    "q": "How much green space does the Queen Elizabeth Olympic Park contain?",
+    "options": [
+     "10 hectares",
+     "27 hectares",
+     "100 hectares",
+     "250 hectares"
+    ],
+    "answer": 2,
+    "explain": "100 hectares of green space within the 250-hectare park. The International Quarter holds 25,000 workers and over 20,000 jobs are expected by 2030, bringing more than £5 billion."
+   },
+   {
+    "id": "M28",
+    "q": "East Village in Stratford reduces water consumption by roughly how much compared with the average?",
+    "options": [
+     "10%",
+     "30%",
+     "50%",
+     "99%"
+    ],
+    "answer": 2,
+    "explain": "50% less water, through rainwater harvesting and grey water recycling, and 30% less energy from a biomass Combined Heat and Power system. 99% is the parkland waste recycling figure."
+   },
+   {
+    "id": "M29",
+    "q": "CHP, used at East Village, stands for…",
+    "options": [
+     "Controlled Hydro Production",
+     "Carbon Housing Programme",
+     "Community Heating Project",
+     "Combined Heat and Power"
+    ],
+    "answer": 3,
+    "explain": "Combined Heat and Power generates electricity and useful heat simultaneously, so far less energy is wasted than in a conventional power station."
+   },
+   {
+    "id": "M30",
+    "q": "By how much did NO₂ levels fall in London's original ULEZ zone?",
+    "options": [
+     "15%",
+     "30%",
+     "44%",
+     "66%"
+    ],
+    "answer": 2,
+    "explain": "44%. The Congestion Charge figure is a 30% fall in central traffic since 2003, and 66% is the share of London's waste sent to incineration in 2021."
+   }
+  ],
+  "09-the-changing-economic-world": [
+   {
+    "id": "M1",
+    "q": "Which measure of development combines income, life expectancy and education levels?",
+    "options": [
+     "The Human Development Index",
+     "Infant mortality rate",
+     "GNI",
+     "The Demographic Transition Model"
+    ],
+    "answer": 0,
+    "explain": "HDI combines GDP per capita, life expectancy and adult literacy into a single index. AQA asked this for 1 mark in 2023."
+   },
+   {
+    "id": "M2",
+    "q": "Gross national income (GNI) differs from GDP because it also includes…",
+    "options": [
+     "government spending",
+     "income earned from investments overseas",
+     "the value of unpaid work",
+     "the informal economy"
+    ],
+    "answer": 1,
+    "explain": "GNI takes into account not just goods and services but income earned from investments overseas, then divides by population."
+   },
+   {
+    "id": "M3",
+    "q": "The main limitation of every economic and social measure of development is that…",
+    "options": [
+     "they cannot be compared between countries",
+     "the data is always out of date",
+     "they only apply to HICs",
+     "they are averages for the whole country, so they hide internal inequality"
+    ],
+    "answer": 3,
+    "explain": "Averages describe nobody: Nigeria's GDP per head is US$3,617 in the south and US$292 in its poorest region. This is the reason examiners want for any \"limitations\" question."
+   },
+   {
+    "id": "M4",
+    "q": "Why can an HIC have a higher death rate than an LIC?",
+    "options": [
+     "Death rate depends on age structure, and HICs have far more elderly people",
+     "Healthcare is worse in HICs",
+     "LICs do not record deaths",
+     "HICs have higher infant mortality"
+    ],
+    "answer": 0,
+    "explain": "A crude death rate reflects age structure: Japan has 28% over 65, so its death rate is high even though life expectancy is among the world's highest. Infant mortality is the better health indicator."
+   },
+   {
+    "id": "M5",
+    "q": "Infant mortality in Nigeria and the UK is approximately…",
+    "options": [
+     "47 and 93 per 1,000 live births",
+     "94 and 5 per 1,000 live births",
+     "54 and 81 per 1,000 live births",
+     "21 and 9 per 1,000 live births"
+    ],
+    "answer": 1,
+    "explain": "94 against 5. Life expectancy is 54 against 81, internet users 47% against 93%, and HDI rank 164th against 13th."
+   },
+   {
+    "id": "M6",
+    "q": "Which stage of the Demographic Transition Model is Japan in?",
+    "options": [
+     "Stage 2, early expanding",
+     "Stage 3, late expanding",
+     "Stage 4, low fluctuating",
+     "Stage 5, natural decrease"
+    ],
+    "answer": 3,
+    "explain": "Stage 5: the death rate slightly exceeds the birth rate, so the population falls and ages. In 2020 Japan had 12% under 15 and 28% over 65."
+   },
+   {
+    "id": "M7",
+    "q": "In Stage 2 of the DTM, population rises rapidly because…",
+    "options": [
+     "the death rate falls while the birth rate stays high",
+     "the birth rate rises sharply",
+     "both rates fall together",
+     "migration increases"
+    ],
+    "answer": 0,
+    "explain": "Clean water, better food supply and basic medicine cut deaths, but attitudes to family size have not yet changed — so births greatly exceed deaths."
+   },
+   {
+    "id": "M8",
+    "q": "The economic benefit of Stage 3 is that…",
+    "options": [
+     "the total population finally stops growing",
+     "the working-age population grows relative to dependents",
+     "life expectancy exceeds 80",
+     "the death rate falls below the birth rate"
+    ],
+    "answer": 1,
+    "explain": "The demographic dividend: the large Stage 2 cohort reaches working age as the birth rate falls, so there are more workers and fewer dependents, more women in paid work, and more income available to save, invest or tax."
+   },
+   {
+    "id": "M9",
+    "q": "Which of these is a PHYSICAL cause of uneven development?",
+    "options": [
+     "Being landlocked, so there is no port for trade",
+     "Colonialism",
+     "Government corruption",
+     "Reliance on low-value primary exports"
+    ],
+    "answer": 0,
+    "explain": "Physical causes are weather and climate, relief, being landlocked, tropical disease environments and water shortages. Trade is economic and colonialism historical."
+   },
+   {
+    "id": "M10",
+    "q": "How many people died of malaria in 2019?",
+    "options": [
+     "4,000",
+     "40,000",
+     "400,000",
+     "4 million"
+    ],
+    "answer": 2,
+    "explain": "400,000, almost all in LICs — the standard figure for disparities in health as a consequence of uneven development."
+   },
+   {
+    "id": "M11",
+    "q": "What share of global wealth is held in North America?",
+    "options": [
+     "12%",
+     "22%",
+     "34%",
+     "55%"
+    ],
+    "answer": 2,
+    "explain": "34% of global wealth in a region with a small fraction of the world's people — the headline figure for disparities in wealth."
+   },
+   {
+    "id": "M12",
+    "q": "Debt relief reduces the development gap by…",
+    "options": [
+     "cancelling money already owed, so repayments can fund development instead",
+     "lending money at a lower rate of interest",
+     "giving goods and services rather than cash",
+     "guaranteeing a fair price for exports"
+    ],
+    "answer": 0,
+    "explain": "Cancellation, not lending — the 2023 examiner's report says candidates routinely conflated debt relief with loans. $75 billion was written off across the 19 HIPCs."
+   },
+   {
+    "id": "M13",
+    "q": "Total debt relief across the 19 Heavily Indebted Poor Countries amounted to…",
+    "options": [
+     "$7.5 billion",
+     "$12.5 billion",
+     "$34 billion",
+     "$75 billion"
+    ],
+    "answer": 3,
+    "explain": "$75 billion. $12.5 billion is the Grameen Bank's total lending and $34 billion is Peru's projected earnings from Camisea."
+   },
+   {
+    "id": "M14",
+    "q": "Intermediate technology is best described as…",
+    "options": [
+     "simple, easily learned and maintained technology serving local needs",
+     "the most advanced technology available",
+     "second-hand machinery donated by HICs",
+     "technology halfway between manual and automated"
+    ],
+    "answer": 0,
+    "explain": "AQA's definition. The point is that it can be repaired locally without imported parts or outside expertise — which is why Chambamontera's micro-hydro scheme is sustainable."
+   },
+   {
+    "id": "M15",
+    "q": "What proportion of small coffee farmers in eastern Uganda have joined the Gumutindo Co-operative?",
+    "options": [
+     "30%",
+     "50%",
+     "70%",
+     "90%"
+    ],
+    "answer": 3,
+    "explain": "90%. Collective organisation gives Fairtrade farmers the scale to negotiate and export directly, on top of the guaranteed price and the community premium."
+   },
+   {
+    "id": "M16",
+    "q": "Tourism contributed approximately what share of Jamaica's GDP in 2019?",
+    "options": [
+     "15%",
+     "25%",
+     "35%",
+     "55%"
+    ],
+    "answer": 2,
+    "explain": "35% of GDP, from 4 million visitors a year, generating about $2 billion and over 50% of Jamaica's total foreign exchange earnings."
+   },
+   {
+    "id": "M17",
+    "q": "Roughly how many Jamaicans are employed directly and indirectly in tourism?",
+    "options": [
+     "20,000",
+     "75,000",
+     "200,000",
+     "2 million"
+    ],
+    "answer": 2,
+    "explain": "Over 200,000 — tourism is the country's main source of employment and its second largest employer."
+   },
+   {
+    "id": "M18",
+    "q": "Which of these is a genuine limitation of tourism-led development in Jamaica?",
+    "options": [
+     "Visitor numbers have fallen every year since 1994",
+     "Tourism employs fewer than 10,000 people",
+     "The government banned cruise ships at Falmouth",
+     "Wealthy areas such as Montego Bay have benefited most, and pockets of poverty persist"
+    ],
+    "answer": 3,
+    "explain": "The benefits are geographically concentrated, and roads for residents came late because ports and airports were prioritised. Growth in arrivals also slowed in 2009 because of the recession abroad."
+   },
+   {
+    "id": "M19",
+    "q": "Nigeria borders which group of countries?",
+    "options": [
+     "Benin, Niger, Chad and Cameroon",
+     "Ghana, Togo and Mali",
+     "Sudan, Chad and Libya",
+     "Senegal, Guinea and Liberia"
+    ],
+    "answer": 0,
+    "explain": "Benin, Niger, Chad and Cameroon, with the Gulf of Guinea to the south. It is in West Africa."
+   },
+   {
+    "id": "M20",
+    "q": "Nigeria became independent of the UK in…",
+    "options": [
+     "1947",
+     "1960",
+     "1973",
+     "1990"
+    ],
+    "answer": 1,
+    "explain": "1960. Its political and trading links ran almost entirely to the UK before that; it now trades most with the EU, USA and India, with links to China growing."
+   },
+   {
+    "id": "M21",
+    "q": "Oil accounts for what share of Nigeria's GDP and export earnings respectively?",
+    "options": [
+     "98% of GDP and 14% of exports",
+     "14% of GDP and 98% of exports",
+     "27% of GDP and 53% of exports",
+     "2.2% of GDP and 40% of exports"
+    ],
+    "answer": 1,
+    "explain": "14% of GDP but 98% of export earnings — which is why the whole economy is exposed to the world oil price despite oil being a small part of domestic activity."
+   },
+   {
+    "id": "M22",
+    "q": "Nigeria's service sector now accounts for roughly what share of its economy?",
+    "options": [
+     "27%",
+     "40%",
+     "53%",
+     "80%"
+    ],
+    "answer": 2,
+    "explain": "53%, with manufacturing at 27% and growing fastest. Employment in agriculture has fallen by 40% through mechanisation and better pay elsewhere."
+   },
+   {
+    "id": "M23",
+    "q": "Shell began operating in Nigeria in…",
+    "options": [
+     "1938",
+     "1958",
+     "1978",
+     "2002"
+    ],
+    "answer": 1,
+    "explain": "1958, with the discovery of oil and controversial extraction operations in the Niger Delta."
+   },
+   {
+    "id": "M24",
+    "q": "Which of these is an ADVANTAGE of Shell to Nigeria?",
+    "options": [
+     "It is registered in Bermuda",
+     "Gas flaring reduced air pollution",
+     "Oil spills at Bodo cleaned the Niger Delta",
+     "Around 90% of its contracts are awarded to Nigerian companies"
+    ],
+    "answer": 3,
+    "explain": "Around 90% of contracts to local firms (AQA's 2025 scheme gives 91%), plus $250,000 on healthcare and 3,000 school scholarships. Bermuda registration is a disadvantage, because less tax is paid."
+   },
+   {
+    "id": "M25",
+    "q": "How many residents took out a lawsuit against Shell over oil pollution in Ogoniland?",
+    "options": [
+     "4,200",
+     "42,000",
+     "250,000",
+     "420,000"
+    ],
+    "answer": 1,
+    "explain": "42,000. Contamination in Ogoniland is 1,000 times higher than elsewhere, following two massive spills at Bodo in the Niger Delta."
+   },
+   {
+    "id": "M26",
+    "q": "What percentage of Nigeria's forests have been destroyed by logging, agriculture and urban expansion?",
+    "options": [
+     "46%",
+     "60%",
+     "94%",
+     "96%"
+    ],
+    "answer": 3,
+    "explain": "96%. 94% is the share of the population exposed to high air pollution, and 60% is the share living in poverty."
+   },
+   {
+    "id": "M27",
+    "q": "Between 1990 and 2019, Nigeria's access to safe water rose from…",
+    "options": [
+     "46% to 85%",
+     "26% to 60%",
+     "60% to 94%",
+     "85% to 96%"
+    ],
+    "answer": 0,
+    "explain": "46% to 85% — paired with a 9-year rise in life expectancy between 2015 and 2019, these are the quality-of-life gains that stop a Nigeria answer being one-sided."
+   },
+   {
+    "id": "M28",
+    "q": "De-industrialisation is defined as the decline of traditional manufacturing due to…",
+    "options": [
+     "government policy alone",
+     "exhaustion of raw materials, loss of markets and competition from NEEs",
+     "a falling birth rate",
+     "the growth of science parks"
+    ],
+    "answer": 1,
+    "explain": "AQA's own definition. In the UK it meant the decline of coal mining, shipbuilding and steel, with a negative multiplier effect as suppliers closed too — North East England was worst hit."
+   },
+   {
+    "id": "M29",
+    "q": "Approximately what share of the UK economy comes from the tertiary sector?",
+    "options": [
+     "47%",
+     "60%",
+     "80%",
+     "95%"
+    ],
+    "answer": 2,
+    "explain": "80% tertiary, with 1.7% from research. 1.3 million people work in IT, and digital technology turnover grew 2.6 times faster than UK GDP in 2016–17."
+   },
+   {
+    "id": "M30",
+    "q": "Torr Quarry in Somerset contributes how much a year to the local economy, and how much land has been landscaped?",
+    "options": [
+     "£15 million a year, 2.5 hectares landscaped",
+     "£150 million a year, 8 hectares landscaped",
+     "£1.5 million a year, 800 hectares landscaped",
+     "£15 million a year, 80 hectares landscaped"
+    ],
+    "answer": 3,
+    "explain": "£15 million a year and 80 hectares landscaped, with the Somerset Wildlife Trust creating biodiverse-rich landscapes. 2.5 km² is the size of the quarry itself."
+   }
+  ],
+  "10-resource-management": [
+   {
+    "id": "M1",
+    "q": "In Section C of Paper 2, which questions should you answer?",
+    "options": [
+     "Question 03 and one of Questions 04, 05 or 06",
+     "Question 03 only",
+     "All of Questions 03 to 06",
+     "Questions 04, 05 and 06 only"
+    ],
+    "answer": 0,
+    "explain": "Question 03 is compulsory, then one option: 04 Food, 05 Water or 06 Energy. Your class does Energy — and Q03 covers UK food, water AND energy regardless."
+   },
+   {
+    "id": "M2",
+    "q": "Resource management is defined as…",
+    "options": [
+     "the extraction of resources for profit",
+     "the control and monitoring of resources so they do not become depleted or exhausted",
+     "the transfer of resources between countries",
+     "reducing the use of non-renewable resources to zero"
+    ],
+    "answer": 1,
+    "explain": "AQA's wording. A resource itself is \"something which human society attaches value to due to its usefulness\"."
+   },
+   {
+    "id": "M3",
+    "q": "Which regions are described as prone to water shortages and drought?",
+    "options": [
+     "Europe, South East Asia and northern North America",
+     "South America and Central Asia",
+     "North America and East Asia",
+     "Africa, the Middle East and Australia"
+    ],
+    "answer": 3,
+    "explain": "Africa, the Middle East and Australia. Europe, South East Asia, northern South America and northern North America have a water surplus."
+   },
+   {
+    "id": "M4",
+    "q": "Roughly how many countries face food insecurity?",
+    "options": [
+     "5",
+     "20",
+     "50",
+     "120"
+    ],
+    "answer": 2,
+    "explain": "About 50 countries, and more than 800 million people live every day with hunger or food insecurity. The food deficit regions are sub-Saharan Africa plus India, Pakistan, Bangladesh and Afghanistan."
+   },
+   {
+    "id": "M5",
+    "q": "What percentage of the food eaten in the UK comes from LICs?",
+    "options": [
+     "2%",
+     "12%",
+     "35%",
+     "47%"
+    ],
+    "answer": 1,
+    "explain": "12% — which raises food miles and the carbon footprint of the UK diet. Coincidentally, 12% of UK greenhouse gas emissions also come from agriculture itself."
+   },
+   {
+    "id": "M6",
+    "q": "Food miles means…",
+    "options": [
+     "the distance covered supplying food to consumers",
+     "the distance a farmer travels to market",
+     "the carbon emitted per kilogram of food",
+     "the area of land needed to feed one person"
+    ],
+    "answer": 0,
+    "explain": "AQA's definition. Local food sourcing cuts food miles — but out-of-season UK produce grown in heated glasshouses can still have a high footprint."
+   },
+   {
+    "id": "M7",
+    "q": "Organic produce is defined partly by the fact that…",
+    "options": [
+     "it is always grown within 50 miles of the consumer",
+     "artificial fertilisers are banned and fertility is built by crop rotation, compost, manure and clover",
+     "it uses hydroponics rather than soil",
+     "it is grown only in greenhouses"
+    ],
+    "answer": 1,
+    "explain": "No artificial fertilisers and no synthetic additives such as pesticides and dyes; soil fertility comes from rotation, compost, manure and clover."
+   },
+   {
+    "id": "M8",
+    "q": "Agribusiness increases food production mainly because…",
+    "options": [
+     "it uses only organic methods",
+     "it relies on hand labour rather than machines",
+     "it reduces the amount of land farmed",
+     "farming takes place on a greater scale, with hedgerows removed and more mechanisation and chemicals"
+    ],
+    "answer": 3,
+    "explain": "Larger farms created by combining fields and removing hedgerows, with greater use of mechanisation and chemicals to raise yields — at the cost of habitat and chemical runoff."
+   },
+   {
+    "id": "M9",
+    "q": "Why does the UK need water transfer schemes even though it receives enough rainfall overall?",
+    "options": [
+     "Rainfall is greatest in the west while demand is greatest in the drier south-east",
+     "Rainfall has declined every year since 1990",
+     "All UK rainfall falls in winter",
+     "The UK exports most of its water"
+    ],
+    "answer": 0,
+    "explain": "A spatial mismatch: the wettest region is the west, the highest demand is in the south-east, which is also the driest and runs a water deficit — so water is transferred between river basins."
+   },
+   {
+    "id": "M10",
+    "q": "Average daily water consumption per person in the UK is about…",
+    "options": [
+     "31 litres",
+     "150 litres",
+     "310 litres",
+     "970 litres"
+    ],
+    "answer": 2,
+    "explain": "310 litres a day, and demand is expected to exceed supply by 2034. Dishwasher ownership rose from 22% in 1998 to 49% in 2018."
+   },
+   {
+    "id": "M11",
+    "q": "Eutrophication in UK rivers is caused by…",
+    "options": [
+     "oil and heavy metals from transport",
+     "nutrients from fertiliser and sewage producing algae that reduce oxygen levels",
+     "plastic microbeads blocking the river bed",
+     "warm water discharged from power stations"
+    ],
+    "answer": 1,
+    "explain": "Nutrients from farmland and sewage feed algal growth, which depletes dissolved oxygen and kills fish — causing economic losses to fishermen and tourism."
+   },
+   {
+    "id": "M12",
+    "q": "What proportion of UK energy was 'green' in 2020?",
+    "options": [
+     "27%",
+     "35%",
+     "47%",
+     "65%"
+    ],
+    "answer": 2,
+    "explain": "47% in 2020. 35% was the share imported in 2019, and 65% is the renewables target for 2030."
+   },
+   {
+    "id": "M13",
+    "q": "Which statement best describes the UK's changing energy mix?",
+    "options": [
+     "A shift from fossil fuels and nuclear towards renewables, with nuclear falling only slightly",
+     "A shift from renewables back to gas",
+     "A shift from nuclear to coal",
+     "No significant change in the last 30 years"
+    ],
+    "answer": 0,
+    "explain": "Fossil fuel use has fallen because of environmental impact and declining domestic supplies; renewables have risen for environmental benefit and carbon targets; nuclear has fallen slightly."
+   },
+   {
+    "id": "M14",
+    "q": "Approximately how much does a new nuclear power station cost to build?",
+    "options": [
+     "£4 million",
+     "£22 million",
+     "£2.2 billion",
+     "£22 billion"
+    ],
+    "answer": 3,
+    "explain": "About £22 billion, against roughly £4 million for a commercial wind turbine — high set-up costs are the main economic barrier to new low-carbon capacity."
+   },
+   {
+    "id": "M15",
+    "q": "Energy security is defined as…",
+    "options": [
+     "the uninterrupted availability of energy sources at an affordable price",
+     "generating all of a country's energy domestically",
+     "having enough fossil fuel reserves to last 50 years",
+     "having no power cuts in a given year"
+    ],
+    "answer": 0,
+    "explain": "Both halves matter — uninterrupted AND affordable — which is why an HIC with plenty of supply can still be insecure when prices spike."
+   },
+   {
+    "id": "M16",
+    "q": "Energy insecurity is best defined as…",
+    "options": [
+     "an energy deficit, where demand exceeds supply",
+     "when energy availability is not enough to ensure good health, livelihood and earnings",
+     "the absence of any renewable generation",
+     "importing more than half of a country's energy"
+    ],
+    "answer": 1,
+    "explain": "AQA's wording. The 2023 examiner's report notes the only common error was candidates defining an energy DEFICIT instead."
+   },
+   {
+    "id": "M17",
+    "q": "Which of these are the three drivers of rising global energy consumption?",
+    "options": [
+     "Industrialisation, deforestation and mining",
+     "Urbanisation, migration and conflict",
+     "Climate change, trade and tourism",
+     "Economic development, rising population and technology"
+    ],
+    "answer": 3,
+    "explain": "Economic development, population growth and technology. GNI per person and energy consumption per person are positively correlated across the world's countries."
+   },
+   {
+    "id": "M18",
+    "q": "What share of the world's unexploited natural gas is thought to lie in the Arctic?",
+    "options": [
+     "5%",
+     "15%",
+     "30%",
+     "60%"
+    ],
+    "answer": 2,
+    "explain": "30% — which is why the Arctic is becoming politically contested as the ice retreats, linking energy insecurity to conflict and to risk in a sensitive environment."
+   },
+   {
+    "id": "M19",
+    "q": "Which of these is NOT one of the four factors affecting energy supply named by the specification?",
+    "options": [
+     "Population density",
+     "Cost of exploitation and production",
+     "Physical factors",
+     "Technology"
+    ],
+    "answer": 0,
+    "explain": "The four are physical factors, cost of exploitation and production, technology, and political factors. Population affects demand, not supply."
+   },
+   {
+    "id": "M20",
+    "q": "What makes tidal power fundamentally different from wind and solar?",
+    "options": [
+     "It produces no carbon dioxide",
+     "It is predictable, because tidal cycles are known years in advance",
+     "It can be built anywhere on a coast",
+     "It has no environmental impact"
+    ],
+    "answer": 1,
+    "explain": "Predictability. Wind and solar are intermittent and so need backup capacity; tides are astronomical and can be planned into the grid. The 2023 report says understanding reliability separated the best answers."
+   },
+   {
+    "id": "M21",
+    "q": "Which renewable source is described as effectively constant, 24 hours a day?",
+    "options": [
+     "Wind",
+     "Solar",
+     "Wave",
+     "Geothermal"
+    ],
+    "answer": 3,
+    "explain": "Geothermal, generated by heat stored deep in the Earth, with a tiny surface footprint — but only economic where hot rock is near the surface, so geographically very restricted."
+   },
+   {
+    "id": "M22",
+    "q": "By how much has Brazil reduced its petrol consumption by introducing bio-ethanol?",
+    "options": [
+     "10%",
+     "22%",
+     "40%",
+     "65%"
+    ],
+    "answer": 2,
+    "explain": "40%. Biomass uses recently absorbed carbon and can use waste, but monoculture for biofuel reduces biodiversity and competes with food crops for land."
+   },
+   {
+    "id": "M23",
+    "q": "A disadvantage of hydro-electric power in upland areas is that…",
+    "options": [
+     "large areas of land are flooded behind the dam",
+     "it produces greenhouse gases while generating",
+     "output cannot be controlled",
+     "it only works at night"
+    ],
+    "answer": 0,
+    "explain": "Flooding valleys displaces people and drowns habitat. HEP's advantage is that it is reliable and output can be raised within minutes to match demand."
+   },
+   {
+    "id": "M24",
+    "q": "The Camisea project in Peru extracts which fossil fuel?",
+    "options": [
+     "Coal",
+     "Natural gas",
+     "Oil shale",
+     "Crude oil"
+    ],
+    "answer": 1,
+    "explain": "Natural gas, from the Camisea region of the Peruvian Amazon, piped across the Andes to the coast. Gas is the cleanest fossil fuel, with 45% less CO₂."
+   },
+   {
+    "id": "M25",
+    "q": "How much could Peru earn from Camisea exports over the project's life?",
+    "options": [
+     "US$51,000 over 20 years",
+     "US$4 billion over 10 years",
+     "US$340 million over 30 years",
+     "US$34 billion over 30 years"
+    ],
+    "answer": 3,
+    "explain": "US$34 billion over the 30-year life. US$4 billion is the separate saving in Peru's own energy costs; US$51,000 is the Chambamontera community's contribution."
+   },
+   {
+    "id": "M26",
+    "q": "Which is a disadvantage of the Camisea project?",
+    "options": [
+     "It employs only 120 people",
+     "Clearing routes for the pipelines has led to landslides",
+     "It raised Peru's energy costs",
+     "It uses more CO₂-intensive fuel than coal"
+    ],
+    "answer": 1,
+    "explain": "Removing forest removes the roots binding steep Andean slopes. Other disadvantages: deforestation destroying habitat, impacts on indigenous tribes who may lack immunity to developers' diseases, and controversial fracking."
+   },
+   {
+    "id": "M27",
+    "q": "The Chambamontera scheme in Peru is…",
+    "options": [
+     "a natural gas pipeline",
+     "a large hydro-electric dam",
+     "a micro-hydro scheme in the Andes",
+     "a solar farm on the coast"
+    ],
+    "answer": 2,
+    "explain": "A micro-hydro scheme in the Andes mountains, supported by the charity Practical Action, built because isolated communities are cut off from the main electricity network."
+   },
+   {
+    "id": "M28",
+    "q": "How much did the Chambamontera community contribute to the cost of its scheme?",
+    "options": [
+     "Nothing — it was fully funded by Practical Action",
+     "US$510,000 in total, about $7,500 per family",
+     "US$5,100 in total, about $75 per family",
+     "US$51,000 in total, about $750 per family"
+    ],
+    "answer": 3,
+    "explain": "US$51,000, about $750 per family. Paying for it gives the community ownership and the incentive to maintain it — the logic of intermediate technology."
+   },
+   {
+    "id": "M29",
+    "q": "Which outcome of the Chambamontera scheme is specifically recorded?",
+    "options": [
+     "A new road to the nearest city",
+     "Electric street lighting, improving quality of life and economic opportunities",
+     "A hospital built by the Peruvian government",
+     "Free electricity for every household"
+    ],
+    "answer": 1,
+    "explain": "Reliable electricity and electric street lighting, alongside renewable generation, low environmental impact, and low maintenance and running costs."
+   },
+   {
+    "id": "M30",
+    "q": "A sustainable energy supply is defined by AQA as the combination of…",
+    "options": [
+     "nuclear power and renewables",
+     "renewable sources only",
+     "energy savings, efficiency measures and technologies, and renewable energy sources",
+     "imported energy and domestic fossil fuels"
+    ],
+    "answer": 2,
+    "explain": "Savings are listed first, which is why energy conservation counts as a way of achieving a sustainable supply even though it generates nothing — reducing demand moves the supply-demand balance exactly as new capacity would."
+   }
+  ],
+  "11-paper-3-issue-evaluation-and-fieldwork": [
+   {
+    "id": "M1",
+    "q": "How are the 76 marks on Paper 3 divided?",
+    "options": [
+     "38 marks for Section A and 38 for Section B",
+     "37 marks for Section A issue evaluation and 39 for Section B fieldwork",
+     "25 marks for Section A, 25 for Section B and 26 for skills",
+     "46 marks for Section A and 30 for Section B"
+    ],
+    "answer": 1,
+    "explain": "Section A issue evaluation is 37 marks, Section B fieldwork is 39. The paper is 1 hour 15 minutes and 30% of the GCSE, with 6 of the 76 marks for spelling, punctuation and grammar."
+   },
+   {
+    "id": "M2",
+    "q": "Where are the 6 SPaG marks on Paper 3 awarded?",
+    "options": [
+     "Spread evenly across every question worth 4 marks or more",
+     "All six on the Section A decision question",
+     "On the two 6-mark discussion questions",
+     "Three on the Section A 9-marker and three on the Section B 9-marker"
+    ],
+    "answer": 3,
+    "explain": "The front of the paper names exactly two questions for SPaG — the Section A 9-marker and the Section B familiar-fieldwork 9-marker — at 3 marks each. That is 6 of the 76, which is why paragraphing and geographical terminology matter on those two answers specifically."
+   },
+   {
+    "id": "M3",
+    "q": "How long before the exam is the pre-release resources booklet issued, and what happens to your annotated copy?",
+    "options": [
+     "Twelve weeks before; you take your annotated copy into the exam",
+     "Six weeks before; you memorise it because you get nothing in the exam",
+     "On the morning of the exam, with reading time",
+     "Twelve weeks before; you hand it back and get a clean copy in the exam"
+    ],
+    "answer": 3,
+    "explain": "Twelve weeks (the 2026 booklet was issued on Thursday 19 March 2026). You work through and annotate it in class, but a clean, unmarked copy is issued in the exam room. That is why the twelve weeks are for annotating, categorising and ranking rather than memorising."
+   },
+   {
+    "id": "M4",
+    "q": "A Section A answer that selects exactly the right sentence from the resources booklet and copies it across is marked at…",
+    "options": [
+     "Level 3, because the evidence is appropriate",
+     "Level 2, because selecting evidence shows understanding",
+     "Level 1, because copying is not developing or evaluating",
+     "Zero, because quoting the booklet is not allowed"
+    ],
+    "answer": 2,
+    "explain": "Every Paper 3 mark scheme says the same thing: copying is Level 1 even when the copied material is correct. Developing the point — 'this means that…' — reaches Level 2, and linking points from across the booklet to support a judgement reaches Level 3."
+   },
+   {
+    "id": "M5",
+    "q": "Which assessment objective dominates Paper 3?",
+    "options": [
+     "AO1, knowledge of locations, places and processes",
+     "AO2, understanding of geographical concepts",
+     "AO3, interpreting, analysing and evaluating information to make judgements",
+     "AO4 alone, the selection and use of skills"
+    ],
+    "answer": 2,
+    "explain": "Paper 3 is nearly all AO3 with a substantial AO4 element — the 9-markers are marked AO3 6 / AO4 3. That is why the paper rewards judgement and skills rather than recall, and why the pre-release booklet can be in front of you without making the paper easy."
+   },
+   {
+    "id": "M6",
+    "q": "In a Paper 3 Section A question that names no specific place, answering entirely through the booklet's case-study location is described by examiners as…",
+    "options": [
+     "self-limiting, because the general question wants wider course understanding",
+     "the safest approach, because the resources are the only permitted evidence",
+     "worth full marks, as long as the detail is accurate",
+     "an automatic Level 1 cap"
+    ],
+    "answer": 0,
+    "explain": "The 2023 report names this explicitly. Some questions tie to the location (the Cayman Islands questions) and some are broad topic discussions, where answers bringing in wider learning — economic leakage, seasonality, ecotourism — scored highest. Narrowing a general question to the location closes off marks without being wrong."
+   },
+   {
+    "id": "M7",
+    "q": "In the 2026 pre-release booklet, which figure carries the specific proposed scheme and the stakeholders arguing about it?",
+    "options": [
+     "Figure 1, water supply and demand in the UK",
+     "Figure 2, water futures",
+     "Figure 3, the proposed Lincolnshire reservoir",
+     "There is no such figure; the stakeholders are in the question paper"
+    ],
+    "answer": 2,
+    "explain": "The three figures always do three jobs: Figure 1 the general problem with the national statistics, Figure 2 the possible solutions (plus the OS map of the site), Figure 3 the specific proposal with the stakeholder views. The 9-mark decision question is always set on Figure 3."
+   },
+   {
+    "id": "M8",
+    "q": "What proportion of water supply in England comes from surface water?",
+    "options": [
+     "64%",
+     "93%",
+     "20%",
+     "30%"
+    ],
+    "answer": 0,
+    "explain": "Surface water is 64% of supply in England and 93% in Wales; the rest comes from groundwater, and England and Wales have 2259 groundwater sources against Scotland's 86. UK water companies supply over 16 billion litres a day in total."
+   },
+   {
+    "id": "M9",
+    "q": "Of the projected increase in water demand in England between 2020 and 2050, how much falls in the South East?",
+    "options": [
+     "18%",
+     "20%",
+     "6%",
+     "50%"
+    ],
+    "answer": 3,
+    "explain": "The South East takes 50% of the increase, against the West 20%, Central and East 18%, and the North and South West 6% each. This is the key figure because the South East is also the driest region, receiving under 800 mm of rainfall a year — demand is growing fastest exactly where the resource is scarcest."
+   },
+   {
+    "id": "M10",
+    "q": "Which single use accounts for the largest share of household water use in England?",
+    "options": [
+     "Flushing toilets, at 30%",
+     "Personal washing, at 25%",
+     "Washing machines, at 21%",
+     "Garden use, at 7%"
+    ],
+    "answer": 0,
+    "explain": "Toilets 30%, personal washing 25%, washing machines 21%, washing up 8%, garden 7%, drinking 4%, other 5%. Because flushing is the largest slice, rainwater harvesting into an underground tank used for flushing is the strongest single household measure."
+   },
+   {
+    "id": "M11",
+    "q": "Roughly how much water is lost to leakage in England each day, and what share of supply is that?",
+    "options": [
+     "Over 3 billion litres a day, about 20% of supply",
+     "140 to 150 million litres a day, about 2% of supply",
+     "16 billion litres a day, all of supply",
+     "4 billion litres a day, about 50% of supply"
+    ],
+    "answer": 0,
+    "explain": "Over 3 billion litres a day, approximately 20% of supply. It is the residents' strongest argument against needing a new reservoir at all — the cheapest water available is water already treated and paid for. (140 to 150 million litres a day is the Thames desalination plant's output.)"
+   },
+   {
+    "id": "M12",
+    "q": "Serious water pollution incidents in England rose from 263 in 2020 to 325 in 2021. What is the percentage increase?",
+    "options": [
+     "19%",
+     "24%",
+     "62%",
+     "81%"
+    ],
+    "answer": 1,
+    "explain": "Percentage change divides by the ORIGINAL value: 62 ÷ 263 × 100 = 24%, the figure the booklet quotes. Dividing by the new value gives 19% and loses the mark — the commonest arithmetic error in this topic."
+   },
+   {
+    "id": "M13",
+    "q": "How much water would the proposed Lincolnshire reservoir supply, and to how many homes?",
+    "options": [
+     "55 million litres a day to 175 000 homes",
+     "16 billion litres a day to the whole of eastern England",
+     "140 litres a day to 2000 homes",
+     "Up to 166 million litres a day to 500 000 homes"
+    ],
+    "answer": 3,
+    "explain": "Up to 166 million litres a day to 500 000 homes, from a reservoir holding 55 million cubic metres. The 175 000 figure is the number of new homes planned in Lincolnshire over five years, and 140 litres a day is average personal consumption — don't mix them up."
+   },
+   {
+    "id": "M14",
+    "q": "How would the proposed Lincolnshire reservoir be filled?",
+    "options": [
+     "By desalinating water from the North Sea",
+     "By pumping groundwater from local aquifers all year round",
+     "By taking water from the Trent and Witham in winter when flows are highest",
+     "By rainwater harvesting across the catchment"
+    ],
+    "answer": 2,
+    "explain": "Winter water is taken from the River Trent and River Witham when levels are highest, stored, then treated and supplied in the hotter summer months when river levels are low and demand is high. An overflow drain manages levels and reduces winter flood risk — which is why the scheme counts as climate-change adaptation."
+   },
+   {
+    "id": "M15",
+    "q": "Which figure is the economic case for the Lincolnshire reservoir?",
+    "options": [
+     "£2.6 billion of direct and indirect investment in the area",
+     "£55 million of government grant funding",
+     "2000 new permanent jobs on the reservoir",
+     "£166 million a year in water bills"
+    ],
+    "answer": 0,
+    "explain": "£2.6 billion of direct and indirect investment, plus thousands of visitors a year using the sailing, wind surfing, cycling and walking facilities and spending with local businesses. The 2000 figure is the number of local people who signed the petition against the scheme."
+   },
+   {
+    "id": "M16",
+    "q": "Why is the National Farmers Union's response the most useful single source in the 2026 booklet?",
+    "options": [
+     "It is the only source with statistics in it",
+     "It opposes the scheme outright, so it supplies the whole negative case",
+     "It supports expanding water supply while warning about local harm, so it supplies both halves of a paragraph",
+     "It is written by the Environment Agency"
+    ],
+    "answer": 2,
+    "explain": "The NFU fully supports expanding water infrastructure as a response to climate change and population growth, and says farms will benefit from the extra water — while warning that large-scale schemes significantly harm local farm businesses and communities and insisting local people be involved at every stage. A source on both sides gives you the evaluation for free."
+   },
+   {
+    "id": "M17",
+    "q": "What is the title of John's physical geography fieldwork enquiry?",
+    "options": [
+     "To what extent has the Olympic Regeneration of Stratford been successful?",
+     "Evaluate the success of groynes as a method of coastal management on Brighton beach",
+     "How does beach material change along the Brighton coastline?",
+     "Are sea walls more effective than groynes at Brighton?"
+    ],
+    "answer": 1,
+    "explain": "The exact wording matters, because the examiners insist the answers must visibly reflect the aim in the title you write on the paper. The school's advice is to learn this enquiry for the 9-marker, because it is the more straightforward of the two to analyse."
+   },
+   {
+    "id": "M18",
+    "q": "At what interval were the Brighton beach slope profiles measured, and what sampling method is that?",
+    "options": [
+     "Every 1 m, random sampling",
+     "Every 5 m, stratified sampling",
+     "At three chosen spots, opportunity sampling",
+     "Every 2 m, systematic sampling"
+    ],
+    "answer": 3,
+    "explain": "Every 2 m, measured from just above the breaking waves inland to the sea wall — systematic sampling, because the readings are taken at regular intervals. The justification is that 2 m gave enough detail of sediment build-up while staying quick enough to repeat on three adjacent groynes."
+   },
+   {
+    "id": "M19",
+    "q": "Which four variables did the Brighton bi-polar analysis survey score?",
+    "options": [
+     "Buildings, traffic, open space and general quality",
+     "Vulnerability to erosion, aesthetic value, lifespan, and disturbance to natural processes and habitats",
+     "Litter, vandalism, safety and green space",
+     "Width, height, gradient and sediment size"
+    ],
+    "answer": 1,
+    "explain": "Those four, scored from -3 to +3, comparing the groynes with the sea wall. (Buildings, traffic, open space and general quality were the Stratford environmental quality survey's categories — a classic mix-up.)"
+   },
+   {
+    "id": "M20",
+    "q": "What did the Brighton slope profiles actually show?",
+    "options": [
+     "More sediment on the downdrift (east) side and a deficit updrift",
+     "More sediment on the updrift (west) side and a clear deficit downdrift (east)",
+     "An equal amount of sediment either side of each groyne",
+     "No measurable difference, so the hypothesis was rejected"
+    ],
+    "answer": 1,
+    "explain": "Longshore drift at Brighton runs west to east, so west is updrift. Sediment was trapped on the west side and depleted on the east, which is the evidence that the groynes are interrupting longshore drift and building a protective beach — the conclusion the title asked for."
+   },
+   {
+    "id": "M21",
+    "q": "Which site scored highest in John's Stratford environmental quality survey, and with what score?",
+    "options": [
+     "Site A, near Hackney Wick station, with +23",
+     "Site E, Westfield, with +17",
+     "Site C, East Village, with +31",
+     "Site B, the London Blossom Garden, with +23"
+    ],
+    "answer": 3,
+    "explain": "Site B, the London Blossom Garden, at +23. Site A near Hackney Wick station scored lowest for building quality — it is peripheral to the park, grew from the 1990s with artists in converted warehouses, and has graffiti and more traffic. The contrast is the evidence that regeneration has been successful but uneven."
+   },
+   {
+    "id": "M22",
+    "q": "What is the single biggest weakness of the Stratford questionnaire data?",
+    "options": [
+     "The questions were all closed, so no qualitative data was collected",
+     "The sample was three people per site on one weekday, with no stratification by age",
+     "No one was willing to answer, so the sample was empty",
+     "It was collected in winter, so responses were unusually negative"
+    ],
+    "answer": 1,
+    "explain": "Three people at each of five sites, one sunny weekday in the middle of the day — so residents were likely at work and tourists over-represented, and no age groups were deliberately sampled. Stratified sampling and a weekend visit would have fixed it. Q3 was an open question, so qualitative data was collected."
+   },
+   {
+    "id": "M23",
+    "q": "How did John's class reduce the subjectivity of the Stratford environmental quality survey scores?",
+    "options": [
+     "By taking a group average of the total score for each site, removing outliers",
+     "By using only one observer at every site",
+     "By discarding any site where scores disagreed",
+     "By converting the scores into percentages"
+    ],
+    "answer": 0,
+    "explain": "A group average of totals removes the influence of outliers and improves accuracy and reliability. The other standard fix, from the fieldwork workbook, is a standardisation survey at one agreed point with everyone adjusting their scores to the group average before starting."
+   },
+   {
+    "id": "M24",
+    "q": "'Accurate', 'reliable' and 'valid' mean different things. Which set of definitions is right?",
+    "options": [
+     "Accurate = repeatable; reliable = close to the true value; valid = officially approved",
+     "Accurate = quantitative; reliable = qualitative; valid = statistically significant",
+     "They are interchangeable terms for good data",
+     "Accurate = close to the true value; reliable = repeatable; valid = the conclusion is genuinely supported"
+    ],
+    "answer": 3,
+    "explain": "Accuracy is about the measurement, reliability about repeatability, validity about the conclusion. The 2023 examiner's report found most candidates described their results or limitations but never linked them to the validity of the conclusion, and so stalled at Level 2 on the 9-marker. Write the chain: accuracy, therefore reliability, therefore validity."
+   },
+   {
+    "id": "M25",
+    "q": "In a Section B question, 'suggest how the method could be ADAPTED' means…",
+    "options": [
+     "suggest an additional data collection method, such as a questionnaire",
+     "change the method that is already shown in the figure",
+     "redesign the whole enquiry with a new hypothesis",
+     "explain why the method was chosen in the first place"
+    ],
+    "answer": 1,
+    "explain": "The 2022 mark scheme explicitly refused credit for suggesting questionnaires on an 'adapt' question, because the answer had to reference the methods already in the figure. 'Additional' is the word that invites a new method — and in 2023 it also refused credit for repeating a question the figure had already asked."
+   },
+   {
+    "id": "M26",
+    "q": "Which presentation technique is the right choice for investigating the relationship between two variables, such as river width and maximum depth?",
+    "options": [
+     "A dispersion graph",
+     "An isoline map",
+     "A scattergraph",
+     "A pie chart"
+    ],
+    "answer": 2,
+    "explain": "A scattergraph, with a line of best fit if you need to interpolate or extrapolate. A dispersion graph shows the spread of repeated readings at each site, an isoline map joins points of equal value, and a pie chart shows the composition of one whole. The 2023 report says only a very small proportion of candidates got the 'which technique' question right."
+   },
+   {
+    "id": "M27",
+    "q": "On an OS map, what does the grid reference 1337 identify?",
+    "options": [
+     "A point 100 m into the square, measured from the north-east corner",
+     "The square at easting 37, northing 13",
+     "The 1 km grid square whose south-west corner is easting 13, northing 37",
+     "A spot height of 1337 m"
+    ],
+    "answer": 2,
+    "explain": "Eastings before northings — along the corridor, then up the stairs. Four figures name a whole 1 km square by its south-west corner; six figures divide that square into tenths and locate a point to 100 m. Each square is 1 km by 1 km, so it is also 1 km², which gives you distance and area for free."
+   },
+   {
+    "id": "M28",
+    "q": "A question asks you to 'describe the physical geography' of an area on an OS map. What should the answer be about?",
+    "options": [
+     "Roads, railways, settlements and named buildings",
+     "Relief and drainage — height, slope, rivers, lakes, ponds and woodland",
+     "The land uses shown in the key",
+     "The population density of the settlements"
+    ],
+    "answer": 1,
+    "explain": "Relief and drainage. The 2022 examiner's report says very few candidates appeared to understand the term at all, and most wrote about human features. Level 1 is 'high land, low land and a river'; Level 2 needs precision — the slope, the height of the land, and the direction of flow of the rivers."
+   },
+   {
+    "id": "M29",
+    "q": "Twelve areas score 4, 6, 6, 2, 9, 3, 10, 1, 5, 8, 10, 1 for housing quality. What is the best answer about the mode?",
+    "options": [
+     "The mode is 1, because that is the lowest value",
+     "The mode is 10, because it appears most often",
+     "The data is trimodal — 1, 6 and 10 each appear twice — so the mode cannot usefully be calculated",
+     "The mode is 5.5, the same as the median"
+    ],
+    "answer": 2,
+    "explain": "Exactly the point the 2019 mark scheme wanted: 'The mode cannot be calculated / trimodal / 1, 6, 10.' Saying so is creditworthy, not a failure. For the record, mean 5.41, median 5.5, range 9, interquartile range 6."
+   },
+   {
+    "id": "M30",
+    "q": "Why might the interquartile range be more useful than the range, and when is no measure of central tendency much use at all?",
+    "options": [
+     "The IQR describes the middle 50% so ignores extremes; and averages are little use when the enquiry is about differences between places",
+     "The IQR is easier to calculate; and averages are useless with fewer than ten readings",
+     "The IQR includes every value; and averages fail only when data is qualitative",
+     "The IQR is the same as the median; and averages are always the best measure"
+    ],
+    "answer": 0,
+    "explain": "The range is set entirely by the two most extreme readings, while the IQR (upper quartile minus lower quartile) describes the spread of the middle 50% — which is why the 2019 mark scheme offers it as a better alternative. The deeper point from that mark scheme: measures of central tendency 'have limited use… since it is really about identifying differences and patterns' — collapsing twelve areas into one number destroys what the enquiry set out to find."
+   }
+  ]
+ }
 }

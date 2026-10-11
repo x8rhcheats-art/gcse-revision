@@ -138,7 +138,8 @@ export function renderHome() {
   }
   // the board's own papers, downloaded in full — question paper and mark scheme
   if (board.length) {
-    const years = board.map(p => p.year);
+    // school mocks carry year 0, so they must not drag the range down
+    const years = board.map(p => p.year).filter(Boolean);
     papers.append(el('h3', {}, 'Past papers from the exam board'));
     papers.append(el('a', { class: 'rowlink', href: '#/official' },
       el('span', {},

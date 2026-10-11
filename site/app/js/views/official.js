@@ -11,7 +11,7 @@ import { el, view } from '../ui.js';
 /** The local set: a row per paper, grouped by year. */
 function renderLocal(subj, data) {
   const papers = data.papers;
-  const years = papers.map(p => p.year);
+  const years = papers.map(p => p.year).filter(Boolean);
   const root = view('Past papers',
     `Every ${subj.board} paper in the app — ${Math.min(...years)} to ${Math.max(...years)}, ` +
     'question paper and mark scheme, straight from the board.');
@@ -26,20 +26,26 @@ function renderLocal(subj, data) {
     ? el('a', { href, target: '_blank', rel: 'noopener' }, text)
     : el('span', { class: 'plain-note' }, 'not in the app');
 
+  const anyExtras = papers.some(p => (p.extras || []).length);
   let year = null, table = null;
   for (const p of papers) {
     if (p.year !== year) {
       year = p.year;
-      root.append(el('h3', {}, String(year)));
+      // year 0 is the school's own topic mocks rather than a board series
+      root.append(el('h3', {}, year ? String(year) : 'School topic mocks'));
       table = el('table', {},
-        el('tr', {}, el('th', {}, 'Paper'), el('th', {}, 'Question paper'), el('th', {}, 'Mark scheme')));
+        el('tr', {}, el('th', {}, 'Paper'), el('th', {}, 'Question paper'), el('th', {}, 'Mark scheme'),
+          anyExtras ? el('th', {}, 'Also') : null));
       root.append(table);
     }
     table.append(el('tr', {},
-      el('td', {}, el('strong', {}, `${p.series} · Paper ${p.paper}`),
+      el('td', {}, el('strong', {}, p.year ? `${p.series} · Paper ${p.paper}` : p.paper),
         p.note ? el('span', { class: 'd' }, el('br'), p.note) : null),
       el('td', {}, link(p.paperFile, 'Open')),
-      el('td', {}, link(p.markSchemeFile, 'Open'))));
+      el('td', {}, link(p.markSchemeFile, 'Open')),
+      anyExtras
+        ? el('td', {}, ...(p.extras || []).flatMap((x, i) => [i ? ' · ' : '', link(x.file, x.label)]))
+        : null));
   }
 
   root.append(el('p', { class: 'plain-note' },
