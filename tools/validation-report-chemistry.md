@@ -1,6 +1,6 @@
 # Extraction validation report — Chemistry
 
-Generated 2026-10-11T17:16:03.857Z from 17 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-11T17:18:28.158Z from 17 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-atomic-structure: 11 teach subsections, 4 sheet subsections, 2 eq, 9 def, 7 trap, 8 understanding, 15 drill

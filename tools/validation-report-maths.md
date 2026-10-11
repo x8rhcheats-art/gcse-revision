@@ -1,6 +1,6 @@
 # Extraction validation report — Maths
 
-Generated 2026-10-11T17:16:04.375Z from 14 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-11T17:18:28.695Z from 14 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-number-indices-surds-standard-form: 12 teach subsections, 3 sheet subsections, 4 eq, 9 def, 8 trap, 8 understanding, 21 drill

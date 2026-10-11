@@ -1,6 +1,6 @@
 # Extraction validation report — Geography
 
-Generated 2026-10-11T17:16:04.862Z from 11 modules, 0 mocks, 0 diagnostic.
+Generated 2026-10-11T17:18:29.166Z from 11 modules, 0 mocks, 0 diagnostic.
 
 ## Counts
 - 01-tectonic-hazards: 12 teach subsections, 4 sheet subsections, 17 eq, 24 def, 16 trap, 8 understanding, 12 drill
