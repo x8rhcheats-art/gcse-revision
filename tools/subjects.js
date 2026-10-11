@@ -15,9 +15,9 @@ module.exports = {
     board: 'Edexcel IGCSE Physics 4PH1',
     // shown under the subject name in the sidebar; per-subject because only
     // physics is a dated resit — the others are long-haul GCSE revision
-    tagline: 'resit · 7 September',
+    tagline: 'GCSE summer 2027',
     // longer form used on the subject's home screen
-    standfirst: 'Resit Monday 7 September',
+    standfirst: 'GCSE summer 2027 — the September resit is done; this is the long haul now',
     modulesDir: 'site/modules/physics',
     mocksDir: 'site/mocks/physics',
     out: 'site/content/physics',
@@ -39,7 +39,8 @@ module.exports = {
     officialPapers: 'tools/physics/official-papers.json',
     pastPapers: ['tools/physics/past-papers.json', 'tools/physics/topic-tests.json', 'tools/physics/real-papers.json'],
     pastPaperSchemes: ['tools/physics/past-papers-schemes.json', 'tools/physics/topic-tests-schemes.json', 'tools/physics/real-papers-schemes.json'],
-    examDate: '2026-09-07',
+    // the 7 September 2026 resit has been sat; no dated exam until summer 2027
+    examDate: null,
     // the printed revision plan lives in the physics landing page
     scheduleFrom: 'site/index.html',
     // physics-only extras surfaced in the app

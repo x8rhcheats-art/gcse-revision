@@ -595,7 +595,15 @@ details.more > summary::marker { color: var(--accent); }
 details.more[open] > summary { margin-bottom: 8px; }
 details.more > .inner { border-left: 2px solid var(--rule); padding-left: 14px; }
 
-/* "Key points only": the teaching section stripped to its bullets */
-.key-only #teach-a .subsection > div > *:not(.keypoints):not(h4),
-.key-only #teach-a .subsection > div > details.more { display: none; }
-.key-only #teach-a .subsection > div > .panel { display: none; }
+/* "Key points only": the teaching section stripped to what you can revise from
+   — the bullets, plus the tables and equations, which are already condensed.
+   Prose, panels, traps and the folds go. */
+.key-only #teach-a .subsection > div > p,
+.key-only #teach-a .subsection > div > ul:not(.keypoints),
+.key-only #teach-a .subsection > div > ol,
+.key-only #teach-a .subsection > div > blockquote,
+.key-only #teach-a .subsection > div > details.more,
+.key-only #teach-a .subsection > div > .panel,
+.key-only #teach-a .subsection > div > .trap { display: none; }
+/* …but a panel holding a case study's figures is the point of the page */
+.key-only #teach-a .subsection > div > .panel.facts { display: block; }

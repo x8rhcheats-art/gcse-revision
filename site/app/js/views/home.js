@@ -163,7 +163,9 @@ export function renderHome() {
 
   // the 27 days, as a checklist — only for a subject with a dated plan
   const st = getState();
-  if ((content.meta.schedule || []).length) {
+  // the dated plan only makes sense while that exam is still ahead — after it,
+  // the countdown and the day-by-day list are just clutter
+  if ((content.meta.schedule || []).length && days !== null) {
     const plan = el('section', {}, el('h2', {}, el('span', { class: 'num' }, 'Schedule'), 'The 27 days'));
     const table = el('table', {});
     content.meta.schedule.forEach((row) => {

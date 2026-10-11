@@ -733,7 +733,8 @@ ${warnings.length ? warnings.map(l => `- ${l}`).join('\n') : '- none'}
   return {
     moduleCount: modules.length,
     mcqCount: Object.values(mcqModules).reduce((a, qs) => a + qs.length, 0),
-    paperCount: mocks.length + pastPapers.length + (diagnostic ? 1 : 0),
+    paperCount: mocks.length + pastPapers.length + (diagnostic ? 1 : 0)
+      + (cfg.boardPapers ? JSON.parse(fs.readFileSync(path.join(ROOT, cfg.boardPapers), 'utf8')).papers.length : 0),
   };
 }
 
